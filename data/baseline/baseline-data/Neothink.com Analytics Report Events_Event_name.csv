@@ -1,0 +1,20 @@
+# ----------------------------------------
+# Events: Event name
+# Account: WMC
+# Property: https://www.neothink.com/
+# ----------------------------------------
+# 
+# All Users
+# Start date: 20240909
+# End date: 20250909
+Event name,Event count,Total users,Event count per active user,Total revenue
+page_view,64477,21280,3.0356403013182676,0
+session_start,43618,21263,2.0555136663524975,0
+user_engagement,36336,10721,3.4347291804518387,0
+first_visit,21069,21029,1.0019021351467021,0
+scroll,9628,4134,2.3351928207615815,0
+click,2076,1165,1.7850386930352538,0
+video_progress,1363,192,7.173684210526316,0
+video_start,942,428,2.216470588235294,0
+video_complete,142,62,2.3278688524590163,0
+file_download,19,2,9.5,0

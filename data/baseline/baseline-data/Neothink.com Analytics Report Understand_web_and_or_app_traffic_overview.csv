@@ -1,0 +1,5448 @@
+# ----------------------------------------
+# Understand web and/or app traffic overview
+# Account: WMC
+# Property: https://www.neothink.com/
+# ----------------------------------------
+#  
+# Start date: 20240909
+# End date: 20250909
+Country ID,Active users
+AE,15
+AF,4
+AL,4
+AM,24
+AR,24
+AS,2
+AT,13
+AU,99
+AW,1
+AZ,1
+BA,4
+BB,1
+BD,9
+BE,13
+BF,1
+BG,29
+BH,1
+BO,1
+BR,12
+BY,3
+CA,155
+CD,1
+CH,13
+CL,1
+CM,1
+CN,119
+CO,13
+CR,5
+CY,4
+CZ,5
+DE,90
+DK,4
+DO,3
+DZ,1
+EC,2
+EE,3
+EG,2
+ES,62
+ET,6
+FI,11
+FR,94
+GB,132
+GE,2
+GH,16
+GP,1
+GR,16
+GT,4
+GU,1
+HK,13
+HN,3
+HR,7
+HU,10
+ID,77
+IE,39
+IL,4
+IN,144
+IR,3
+IS,1
+IT,30
+JE,1
+JM,3
+JO,2
+JP,43
+KE,12
+KG,3
+KH,3
+KR,23
+KW,1
+LA,3
+LB,1
+LC,1
+LK,6
+LT,5
+LU,2
+LV,1
+LY,3
+MD,1
+MG,2
+MM,4
+MN,2
+MP,2
+MQ,8
+MU,2
+MV,1
+MX,70
+MY,17
+MZ,1
+NA,1
+NC,1
+NG,535
+NI,1
+NL,34
+NO,6
+NP,191
+NZ,15
+OM,18
+PA,6
+PE,4
+PG,3
+PH,41
+PK,12
+PL,25
+PR,17
+PT,11
+PY,1
+QA,21
+RE,1
+RO,57
+RS,3
+RU,196
+RW,1
+SA,384
+SD,1
+SE,37
+SG,49
+SI,3
+SK,2
+TH,13
+TL,1
+TN,2
+TR,3
+TT,1
+TZ,3
+UG,2
+US,17677
+UY,2
+UZ,1
+VI,2
+VN,8
+YT,1
+ZA,235
+ZM,1
+ZW,3
+
+# Start date: 20240909
+# End date: 20250909
+Country,Active users
+US,17677
+NG,535
+SA,384
+ZA,235
+RU,196
+NP,191
+CA,155
+
+#  
+# Start date: 20240909
+# End date: 20250909
+City,Active users
+New York,787
+Chicago,446
+Los Angeles,392
+Dallas,341
+Ashburn,301
+Clifton,271
+Las Vegas,270
+Lagos,266
+Columbus,259
+Santa Clara,258
+Houston,226
+Atlanta,224
+Boston,211
+Philadelphia,208
+Seattle,181
+Phoenix,178
+Moscow,166
+Denver,151
+Kathmandu,144
+Riyadh,144
+San Jose,141
+Miami,126
+Oklahoma City,126
+Jeddah,125
+Charlotte,121
+Abuja,116
+Minneapolis,115
+Lakewood,107
+Washington,103
+Fort Worth,102
+Austin,97
+San Francisco,95
+Portage,94
+Detroit,83
+Indianapolis,83
+Jacksonville,81
+San Antonio,79
+Yukon,77
+Raleigh,76
+Baltimore,75
+Kansas City,75
+Mission Viejo,70
+Birmingham,69
+Portland,69
+Reading,65
+Orlando,64
+San Diego,64
+Nashville,61
+Springfield,60
+Boardman,58
+Sacramento,54
+El Reno,53
+Salt Lake City,53
+St. Louis,52
+Tampa,52
+Pittsburgh,50
+Honolulu,48
+Omaha,47
+Cleveland,45
+Port Harcourt,45
+Louisville,44
+Tuscaloosa,44
+Dublin,43
+Onitsha,43
+Memphis,42
+Moses Lake,42
+Des Moines,41
+New Orleans,41
+London,40
+Dammam,38
+Lexington,38
+Jackson,37
+Singapore,37
+Cape Town,36
+Pretoria,36
+Toronto,36
+Paris,35
+Virginia Beach,35
+El Paso,34
+Ibadan,33
+Melbourne,33
+Fishers,32
+Rochester,32
+Buffalo,31
+Lansing,31
+Salem,31
+Knoxville,30
+Madison,30
+Trenton,30
+Albuquerque,29
+Cincinnati,29
+Lafayette,29
+Sydney,29
+Athens,28
+Tijuana,28
+Lincoln,27
+Greenville,26
+Little Rock,26
+Milwaukee,26
+Savannah,25
+Tulsa,25
+Mobile,24
+Yerevan,24
+Charleston,23
+Madinah,23
+Mexico City,23
+Akron,22
+Columbia,22
+Syracuse,22
+Arlington,21
+Hyderabad,21
+Bloomington,20
+Cape Coral,20
+Lulea,20
+Madrid,20
+McAllen,20
+St. Petersburg,20
+Altoona,19
+Doha,19
+Manchester,19
+Shanghai,19
+Albany,18
+Anaheim,18
+Aurora,18
+Boydton,18
+Fairfield,18
+Fort Collins,18
+Hampton,18
+Mesa,18
+Riverside,18
+Ashland,17
+Cheektowaga,17
+Council Bluffs,17
+Greensboro,17
+Lancaster,17
+Mesquite,17
+Midland,17
+Sanford,17
+Soweto,17
+Weatherford,17
+Frankfurt,16
+Fresno,16
+Accra,15
+Clinton,15
+Ensenada,15
+Forest City,15
+Franklin,15
+Gainesville,15
+Jos,15
+Lalitpur,15
+Newark,15
+Oakland,15
+Pasadena,15
+Prineville,15
+Richmond,15
+San Juan,15
+Santa Rosa,15
+Abilene,14
+Anchorage,14
+Burlington,14
+Concord,14
+Durban,14
+Englewood,14
+Hartford,14
+Lakeland,14
+Macon,14
+Modesto,14
+Montreal,14
+Panchkula,14
+Tallahassee,14
+Tempe,14
+Texarkana,14
+Tucson,14
+Warsaw,14
+Waukesha,14
+Berlin,13
+Danville,13
+Dubai,13
+Fremont,13
+Hamilton,13
+Jasper,13
+Jefferson City,13
+Johannesburg,13
+Lake Charles,13
+Makkah,13
+Medford,13
+Middletown,13
+Montgomery,13
+San Bernardino,13
+Toledo,13
+Auburn,12
+Brisbane,12
+Canton,12
+Carbondale,12
+Chula Vista,12
+Decatur,12
+Fort Wayne,12
+Hong Kong,12
+Independence,12
+Jersey City,12
+Mount Vernon,12
+Plymouth,12
+Quincy,12
+Reno,12
+Sofia,12
+Wellington,12
+Amsterdam,11
+Anza,11
+Bengaluru,11
+Buenos Aires,11
+Cedar Rapids,11
+Chattanooga,11
+Cheyenne,11
+Clarksburg,11
+Dayton,11
+Depok,11
+Fredericksburg,11
+Hudson,11
+Idaho Falls,11
+Lawrenceville,11
+Milan,11
+Monroe,11
+Norfolk,11
+Ocala,11
+Oxnard,11
+Princeton,11
+Provo,11
+Reston,11
+Roanoke,11
+Roseville,11
+Seoul,11
+Tacoma,11
+Visalia,11
+Waterloo,11
+Wyoming,11
+Adelaide,10
+Asheville,10
+Bloomfield,10
+Brentwood,10
+Bristol,10
+Brookhaven,10
+Brownsville,10
+Camden,10
+Colorado Springs,10
+Cottage Grove,10
+Delhi,10
+Erie,10
+Fairmont,10
+Freehold,10
+Gibsonton,10
+Hamburg,10
+Hammond,10
+Harrisburg,10
+Howard City,10
+Jakarta,10
+Kent,10
+Lebanon,10
+Long Beach,10
+Lowell,10
+Madisonville,10
+Mansfield,10
+Milton,10
+Murrieta,10
+North Bergen,10
+Peoria,10
+Pleasant Hill,10
+San Luis Obispo,10
+Sheridan,10
+St. Peters,10
+West Valley City,10
+Westminster,10
+Windsor,10
+Woodbury,10
+Woodland,10
+Woodstock,10
+Yakima,10
+Alexandria,9
+Allentown,9
+Boise,9
+Calhoun,9
+Calvert City,9
+Cambridge,9
+Chico,9
+Covington,9
+Durham,9
+Farmington,9
+Fayetteville,9
+Florence,9
+Gardnerville Ranchos,9
+Georgetown,9
+Greensburg,9
+Helsinki,9
+Mason,9
+Monticello,9
+Muscat,9
+Nairobi,9
+Niles,9
+Norwalk,9
+Oceanside,9
+Palmdale,9
+Pendleton,9
+Perry,9
+Pietermaritzburg,9
+Rocky Mount,9
+St. Cloud,9
+Vernon,9
+Wichita Falls,9
+Willoughby,9
+Wilson,9
+Winchester,9
+Aberdeen,8
+Asheboro,8
+Bayingolin Mongol Autonomous Prefecture,8
+Beaverton,8
+Bossier City,8
+Brandon,8
+Clearwater,8
+Eureka,8
+Evansville,8
+Florissant,8
+Frankfort,8
+Frisco,8
+Gastonia,8
+Gilbert,8
+Greenfield,8
+Harrison,8
+Hobart,8
+Huntsville,8
+Hutchinson,8
+Kochi,8
+Lawrence,8
+Leesburg,8
+Marysville,8
+Maryville,8
+Mentor,8
+Merced,8
+Miami Beach,8
+Murfreesboro,8
+Needham,8
+New Haven,8
+Newton,8
+Palm Bay,8
+Parma,8
+Petersburg,8
+Piscataway,8
+Providence,8
+Randburg,8
+Richland,8
+Rock Hill,8
+Roswell,8
+Saint Paul,8
+Shinjuku City,8
+Stonecrest,8
+Sunnyvale,8
+Tecate,8
+Topeka,8
+Villa Rica,8
+Waverly,8
+Winter Haven,8
+Yorba Linda,8
+Ann Arbor,7
+Astoria,7
+Batesville,7
+Benton,7
+Bluffton,7
+Bridgeport,7
+Buckeye,7
+Cairo,7
+Ceres,7
+Cochran,7
+Cypress,7
+Dale City,7
+Denton,7
+Dothan,7
+Dover,7
+Downey,7
+East Meadow,7
+Economy,7
+Edgerton,7
+Elizabethtown,7
+Elk Grove Village,7
+Florencia,7
+Graham,7
+Grand Rapids,7
+Gresham,7
+Hail,7
+Harlingen,7
+Hastings,7
+Hayward,7
+Hialeah,7
+High Point,7
+Hollywood,7
+Humboldt,7
+Johnstown,7
+Karachi,7
+Lacey,7
+Lake Forest,7
+Little River,7
+Lynchburg,7
+Marietta,7
+Melvindale,7
+Meridian,7
+Mexicali,7
+Milford,7
+Moline,7
+Moreno Valley,7
+Nampa,7
+Naples,7
+Newport,7
+North Richland Hills,7
+Norwich,7
+Oswego,7
+Palo Alto,7
+Parker,7
+Plano,7
+Plummer,7
+Portsmouth,7
+Qingdao,7
+Sahibzada Ajit Singh Nagar,7
+Sandton,7
+Santa Clarita,7
+Shakopee,7
+Shreveport,7
+Sioux City,7
+South Bend,7
+Stockton,7
+Terre Haute,7
+Thomasville,7
+Vancouver,7
+Vienna,7
+Wayne,7
+West Covina,7
+Westfield,7
+Wolcott,7
+Worcester,7
+Abbeville,6
+Altadena,6
+Atwater,6
+Augusta,6
+Avon,6
+Avondale,6
+Bakersfield,6
+Bellevue,6
+Bellingham,6
+Belmont,6
+Bezons,6
+Burbank,6
+Cape Girardeau,6
+Carlsbad,6
+Caro,6
+Carrollton,6
+Chesapeake,6
+Chillicothe,6
+Clarksville,6
+Clayton,6
+Clewiston,6
+Colombo,6
+Conway,6
+Cumberland,6
+Dalton,6
+Daytona Beach,6
+DeWitt,6
+Delray Beach,6
+East Los Angeles,6
+Flint,6
+Freehold Township,6
+Friday Harbor,6
+Front Royal,6
+Grand Ledge,6
+Huntington,6
+Jonesboro,6
+Kuala Lumpur,6
+Lanai City,6
+Lawrenceburg,6
+Lehigh Acres,6
+Lewisburg,6
+Livingston,6
+Lubbock,6
+Lucedale,6
+Luton,6
+Lynwood,6
+McConnelsville,6
+McHenry,6
+Moore,6
+Morgantown,6
+Mount Pleasant,6
+New Braunfels,6
+Norderstedt,6
+Norman,6
+North Fort Myers,6
+North Port,6
+Olathe,6
+Orange,6
+Oxford,6
+Painesville,6
+Palm Beach Gardens,6
+Palm Coast,6
+Peachtree City,6
+Perth,6
+Pikeville,6
+Pineville,6
+Playa del Carmen,6
+Plum Grove,6
+Portola,6
+Powder Springs,6
+Rancho Cucamonga,6
+Redding,6
+Reidsville,6
+Richmond Hill,6
+Ridgecrest,6
+Rome,6
+Santa Ana,6
+Saratoga Springs,6
+Silver Springs,6
+Simi Valley,6
+Sioux Falls,6
+Sonora,6
+Spry,6
+Stillwater,6
+Sulphur,6
+Summit Park,6
+Sun Prairie,6
+Surakarta,6
+Tehachapi,6
+The Villages,6
+Traverse City,6
+Turlock,6
+Utica,6
+Victorville,6
+Warren,6
+Watertown,6
+Waynesboro,6
+Westerville,6
+Wheaton-Glenmont,6
+Winnsboro,6
+Winston-Salem,6
+Yonkers,6
+York,6
+Yuba City,6
+Zagreb,6
+Addis Ababa,5
+Al Jubail,5
+Anderson,5
+Annapolis,5
+Aquia Harbour,5
+Arlington Heights,5
+Arvada,5
+Bangkok,5
+Bardstown,5
+Barstow,5
+Baton Rouge,5
+Battle Creek,5
+Beckley,5
+Bedford,5
+Bethlehem,5
+Biratnagar,5
+Bloomingdale,5
+Bonita Springs,5
+Bowling Green,5
+Bradenton,5
+Brockton,5
+Broken Arrow,5
+Brook Park,5
+Brookings,5
+Brunswick,5
+Budapest,5
+Canandaigua,5
+Carquefou,5
+Cebu City,5
+Chandigarh,5
+Chesaning,5
+Cluj-Napoca,5
+Coeur d'Alene,5
+Colusa,5
+Conyers,5
+Corning,5
+Corpus Christi,5
+Cranbury,5
+Crawfordsville,5
+Crescent City,5
+Danbury,5
+Delano,5
+Dillon,5
+Duluth,5
+East Brunswick,5
+East London,5
+Elk Grove,5
+Elkhart,5
+Elyria,5
+Enfield,5
+Ephrata,5
+Escondido,5
+Eugene,5
+Farmington Hills,5
+Fincastle,5
+Fontana,5
+Fort Lauderdale,5
+Frederick,5
+Fulton,5
+Garden City,5
+Gqeberha,5
+Greeley,5
+Greenwood,5
+Henderson,5
+Highland,5
+Ho Chi Minh City,5
+Holland,5
+Hot Springs,5
+Huber Heights,5
+Inglis,5
+Jacksonville Beach,5
+Jeffersonville,5
+Johnson City,5
+Jurupa Valley,5
+Kalaheo,5
+Kannapolis,5
+Keene,5
+Keller,5
+Kennewick,5
+La Grange,5
+La Mesa,5
+La Verne,5
+Lake Geneva,5
+Lakeport,5
+Lansdale,5
+Laredo,5
+Laurel,5
+Levittown,5
+Lewiston,5
+Lincolnton,5
+Lisbon,5
+Little Elm,5
+Livonia,5
+Logan,5
+Lynn,5
+Manning,5
+Marion,5
+Marshall,5
+Maumelle,5
+McCamey,5
+McKinney,5
+Medina,5
+Merida,5
+Millington,5
+Minerva,5
+Mountain View,5
+Mumbai,5
+Muskegon,5
+Mustang,5
+Nantes,5
+Norristown,5
+North East,5
+Odessa,5
+Osaka,5
+Overland Park,5
+Paintsville,5
+Panama City,5
+Perkasie,5
+Pflugerville,5
+Pickens,5
+Port Charlotte,5
+Pulaski,5
+Raritan Township,5
+Richardson,5
+Rocklin,5
+Rockville,5
+Saint Charles,5
+Santa Maria,5
+Saratoga,5
+Sarver,5
+Scottsdale,5
+Selma,5
+Sevierville,5
+Shelbyville,5
+Sierra Vista,5
+Somerset,5
+Splendora,5
+Springdale,5
+Springville,5
+St. George,5
+Starkville,5
+Stockholm,5
+Sugar Hill,5
+The Woodlands,5
+Tirunelveli,5
+Titusville,5
+Urumqi,5
+Versailles,5
+Victoria,5
+Waco,5
+Wagoner,5
+Wesley Chapel,5
+West Chicago,5
+West Seneca,5
+Wichita,5
+Willard,5
+Wilmington,5
+Woodlake,5
+Wyldwood,5
+Al Hofuf,4
+Aliquippa,4
+Allen,4
+Alma,4
+Anoka,4
+Apple Valley,4
+Ashwaubenon,4
+Aspen,4
+Atlantic City,4
+Bainbridge,4
+Bandung,4
+Bartlesville,4
+Bath,4
+Bayonne,4
+Beattyville,4
+Beijing,4
+Bel Air South,4
+Beloit,4
+Bend,4
+Berea,4
+Billings,4
+Bismarck,4
+Blaine,4
+Bolivar,4
+Boone,4
+Boulder,4
+Bowie,4
+Brawley,4
+Brea,4
+Brevard,4
+Brick Township,4
+Brooklyn Park,4
+Brussels,4
+Bucharest,4
+California City,4
+Canyon Lake,4
+Carmel Hamlet,4
+Cartersville,4
+Cedar City,4
+Centralia,4
+Cheney,4
+Clarinda,4
+Cleveland Heights,4
+Cordoba,4
+Cottonwood,4
+Crown Point,4
+Daly City,4
+Darien,4
+Deltona,4
+Denville,4
+Eastlake,4
+Eden,4
+Edinburgh,4
+Edmond,4
+Edmonds,4
+El Cajon,4
+Elgin,4
+Enid,4
+Evans,4
+Fairview,4
+Findlay,4
+Flint Hill,4
+Flower Mound,4
+Fort Myers,4
+Franklin Square,4
+Gallipolis,4
+Galveston,4
+Gary,4
+Gautier,4
+Gerlach,4
+Germantown,4
+Gilroy,4
+Glendale,4
+Goodyear,4
+Grand Prairie,4
+Grants Pass,4
+Gretna,4
+Grove City,4
+Guatemala City,4
+Havana,4
+Hendersonville,4
+Hermitage,4
+Hillsboro,4
+Hilo,4
+Hilton Head Island,4
+Irvington,4
+Isle of Palms,4
+Jamestown,4
+Jefferson,4
+Joliet,4
+Junction City,4
+Kabul,4
+Kahului,4
+Kailua,4
+Kewanee,4
+Killeen,4
+Kingsland,4
+Kingsport,4
+Kingston,4
+Kuna,4
+La Porte,4
+Lake City,4
+Lakeville,4
+Lakewood Ranch,4
+Landen,4
+Lawton,4
+Lenexa,4
+Lima,4
+Lockport,4
+Loveland,4
+Maple Grove,4
+Marana,4
+Marshfield,4
+Martinez,4
+Maywood,4
+Miami Gardens,4
+Minden,4
+Minot,4
+Montclair,4
+Mount Airy,4
+Muncie,4
+Muscle Shoals,4
+Nanjing,4
+Napa,4
+Naperville,4
+New London,4
+New Philadelphia,4
+Newcastle,4
+Newport News,4
+North Brunswick Township,4
+North Myrtle Beach,4
+Oak Creek,4
+Oak Park,4
+Ocean City,4
+Ocean Township,4
+Ogden,4
+Oildale,4
+Olympia,4
+Onaway,4
+Ontario,4
+Ottumwa,4
+Owosso,4
+Oyster Bay,4
+Ozark,4
+Paramount,4
+Payson,4
+Pea Ridge,4
+Pecos,4
+Peculiar,4
+Pella,4
+Pensacola,4
+Perris,4
+Petaling Jaya,4
+Petoskey,4
+Pine Bluff,4
+Pine Mountain,4
+Plainfield,4
+Pleasanton,4
+Polokwane,4
+Pontiac,4
+Pooler,4
+Potsdam,4
+Prague,4
+Pueblo,4
+Quitman,4
+Racine,4
+Revere,4
+Richlands,4
+Riverview,4
+Roanoke Rapids,4
+Rockford,4
+Rockingham,4
+Rogersville,4
+Roscommon,4
+Roxboro,4
+Sagaing,4
+Salinas,4
+Salisbury,4
+San Angelo,4
+Sandersville,4
+Sandy Springs,4
+Santa Fe,4
+Sao Paulo,4
+Saraland,4
+Scottsboro,4
+Scottsburg,4
+Sebokeng,4
+Secunderabad,4
+Slippery Rock,4
+Somerville,4
+Sparks,4
+Spokane,4
+Spotsylvania Courthouse,4
+Stanton,4
+Staunton,4
+Stevens Point,4
+Stuart,4
+Sugar Land,4
+Summerville,4
+Summit,4
+Sumter,4
+Surprise,4
+Taunton,4
+Temecula,4
+Texanna,4
+Tifton,4
+Tirana,4
+Tracy,4
+Trevorton,4
+Tukwila,4
+Union,4
+Uniontown,4
+Upper Saint Clair,4
+Urbana,4
+Valdosta,4
+Valencia,4
+Van Horn,4
+Venice,4
+Vinita,4
+Walsenburg,4
+Warm Springs,4
+Warrensburg,4
+Waterford,4
+Watford City,4
+Watsonville,4
+Wheaton,4
+Whitehall,4
+Williston,4
+Winter Park,4
+Woonsocket,4
+Zanesville,4
+Abha,3
+Abingdon,3
+Acharnes,3
+Ackerman,3
+Agra,3
+Ajo,3
+Alpena,3
+Amarillo,3
+American Falls,3
+Amherst,3
+Andover,3
+Annandale,3
+Antelope,3
+Antioch,3
+Antlers,3
+Arden-Arcade,3
+Arkadelphia,3
+Atascocita,3
+Auckland,3
+Austintown,3
+Ave Maria,3
+Baldwin,3
+Bamberg,3
+Bantul,3
+Barcelona,3
+Bartlett,3
+Baytown,3
+Belleview,3
+Beresford,3
+Bigfork,3
+Bixby,3
+Bloemfontein,3
+Bloomsburg,3
+Blythewood,3
+Bogota,3
+Booneville,3
+Boynton Beach,3
+Bradford,3
+Brakpan,3
+Bremerton,3
+Brighton,3
+Bryan,3
+Bullhead City,3
+Burgas,3
+Burleson,3
+Burley,3
+Burton,3
+Camp Hill,3
+Cardiff,3
+Carl Junction,3
+Carmichael,3
+Carnot-Moon,3
+Cary,3
+Casper,3
+Cedar Park,3
+Centreville,3
+Chandler,3
+Chatom,3
+Chelsea,3
+Chennai,3
+Chickasha,3
+Christchurch,3
+Christiansburg,3
+Cicero,3
+Clarendon,3
+Clarkston,3
+Clearlake,3
+Clermont,3
+Clovis,3
+Cocoa,3
+Coconut Creek,3
+Coimbatore,3
+Coleman,3
+Colonial Park,3
+Copperopolis,3
+Corona,3
+Cortland,3
+Cottonwood-Verde Village,3
+Council Grove,3
+Creve Coeur,3
+Crossville,3
+Crystal Lake,3
+Cudahy,3
+Cullman,3
+Culpeper,3
+Cumming,3
+Cuthbert,3
+Darmstadt,3
+Davenport,3
+Davis,3
+DeRidder,3
+Deer Park,3
+Deerfield,3
+Deerfield Beach,3
+Dhaka,3
+Dickinson,3
+Dickson,3
+Dimmitt,3
+Dowagiac,3
+Dumaguete City,3
+Eagan,3
+Eagle Grove,3
+East Cobb,3
+East Liverpool,3
+East Stroudsburg,3
+Easton,3
+Eastvale,3
+Egg Harbor Township,3
+Eldersburg,3
+Elizabeth,3
+Elkin,3
+Elmira,3
+Emmetsburg,3
+Encinitas,3
+Euclid,3
+Everett,3
+Fargo,3
+Farmers Branch,3
+Farmville,3
+Fenton,3
+Foley,3
+Forest Hills,3
+Forest Park,3
+Fort Mill,3
+Fort Payne,3
+Fort Washington,3
+Four Corners,3
+Frazier Park,3
+Freer,3
+French Valley,3
+Gadsden,3
+Gallatin,3
+Glenville,3
+Gloucester,3
+Goldsboro,3
+Grand Haven,3
+Grapevine,3
+Green,3
+Green Bay,3
+Greeneville,3
+Grenada,3
+Grinnell,3
+Groton,3
+Grove,3
+Grovetown,3
+Gulfport,3
+Gunnison,3
+Guthrie,3
+Guyton,3
+Haines City,3
+Halifax,3
+Hancock,3
+Hangzhou,3
+Hannibal,3
+Hanoi,3
+Hanover,3
+Harare,3
+Hattiesburg,3
+Hawthorne,3
+Hays,3
+Hazard,3
+Hemet,3
+Hillsborough Township,3
+Hobe Sound,3
+Holmfirth,3
+Homestead,3
+Hoover,3
+Ida Grove,3
+Indian River,3
+Indio,3
+Inglewood,3
+Inman,3
+Iron River,3
+Irvine,3
+Jaipur,3
+Johannesburg South,3
+Jupiter,3
+Kaneohe,3
+Kano,3
+Katowice,3
+Kearney,3
+Kearny,3
+Kennesaw,3
+Kentwood,3
+Key West,3
+Kilmarnock,3
+La Vergne,3
+LaCrosse,3
+LaGrange,3
+Laguna Beach,3
+Laguna Niguel,3
+Lakeside,3
+Lathrop,3
+Lead,3
+League City,3
+Leavenworth,3
+Lee's Summit,3
+Lekki,3
+Lely Resort,3
+Lemay,3
+Liberty,3
+Lindenhurst,3
+Lindenwold,3
+Ljubljana,3
+Loganville,3
+Long Neck,3
+Longview,3
+Lorain,3
+Loretto,3
+Louisa,3
+Lyon,3
+Mableton,3
+Macclenny,3
+Madurai,3
+Magee,3
+Manchester Township,3
+Manhattan,3
+Manhattan Beach,3
+Manila,3
+Marathon,3
+Marshalltown,3
+Martin,3
+Massillon,3
+Maysville,3
+Mayville,3
+Melrose,3
+Mesick,3
+Methuen,3
+Middle Valley,3
+Middlesboro,3
+Midvale,3
+Midway,3
+Midwest City,3
+Mililani,3
+Millville,3
+Mineola,3
+Monmouth,3
+Monrovia,3
+Morrisville,3
+Mount Olive,3
+Mount Washington,3
+Mountain City,3
+Muntinlupa City,3
+Myrtle Beach,3
+Nanticoke,3
+Needles,3
+New Albany,3
+New Berlin,3
+New Britain,3
+New Brunswick,3
+New Castle,3
+New Kent,3
+Newport Beach,3
+Niagara Falls,3
+North Augusta,3
+North Bethesda,3
+North Charleston,3
+Oakhurst,3
+Ocean View,3
+Ogdensburg,3
+Olean,3
+Orchard Lake Village,3
+Orem,3
+Osage Beach,3
+Oviedo,3
+Owings Mills,3
+Paducah,3
+Palm City,3
+Palmer,3
+Parkland,3
+Patterson,3
+Pearl City,3
+Pentwater,3
+Petaluma,3
+Phoenixville,3
+Pickerington,3
+Piedmont,3
+Plainsboro Township,3
+Plainville,3
+Plettenberg Bay,3
+Point Pleasant,3
+Pomona,3
+Port Moresby,3
+Poznan,3
+Prayagraj,3
+Prescott,3
+Pullman,3
+Pune,3
+Quanzhou,3
+Quezon City,3
+Rahway,3
+Ramsey,3
+Randolph,3
+Rawalpindi,3
+Remington,3
+Rexburg,3
+Ridgeville,3
+Rincon,3
+Ripley,3
+Riverton,3
+Rochester Hills,3
+Rockmart,3
+Rockport,3
+Rogers,3
+Roodepoort,3
+Rosarito,3
+Rose Hill,3
+Round Rock,3
+Roy,3
+Rumford,3
+Rushville,3
+Russell,3
+Ruston,3
+Saint Joseph,3
+Saint-Denis,3
+Salyersville,3
+San Marcos,3
+San Mateo,3
+Sanatoga,3
+Sapulpa,3
+Sartell,3
+Schertz,3
+SeaTac,3
+Seal Beach,3
+Seeb,3
+Seneca,3
+Shenzhen,3
+Shepherdsville,3
+Shunan,3
+Silver Spring,3
+Simpsonville,3
+Sioux Center,3
+Slatington,3
+Smith Center,3
+Smithville,3
+Snellville,3
+Socorro,3
+South Burlington,3
+South Lake Tahoe,3
+South Pasadena,3
+Southfield,3
+Southold,3
+Spartanburg,3
+Spring Hill,3
+State College,3
+Sterling Heights,3
+Streetsboro,3
+Subang Jaya,3
+Suffolk,3
+Sunbury,3
+Sunset,3
+Swansboro,3
+Sweetwater,3
+Sylvania,3
+Tallulah,3
+Taylor,3
+Taylors,3
+Teaneck,3
+Thornton,3
+Timberlake,3
+Toano,3
+Trinity,3
+Troy,3
+Tulare,3
+Tupelo,3
+Ukiah,3
+Union City,3
+Uniondale,3
+University Place,3
+Upland,3
+Valley Stream,3
+Varna,3
+Ventnor City,3
+Ventura,3
+Vereeniging,3
+Vicksburg,3
+Villa Grove,3
+Ville Platte,3
+Vincennes,3
+Vista,3
+Waianae,3
+Walla Walla,3
+Wallace,3
+Wallingford,3
+Walnut,3
+Wapakoneta,3
+Warner Robins,3
+Warrenton,3
+Wautoma,3
+Weirton,3
+Wendell,3
+West End-Cobb Town,3
+West Jordan,3
+West Melbourne,3
+West Point,3
+Westlake,3
+Weston,3
+White Plains,3
+Whitefield,3
+Whiteriver,3
+Willits,3
+Winfield,3
+Winlock,3
+Winona,3
+Wolverhampton,3
+Yankton,3
+Youngstown,3
+Youngsville,3
+Yuma,3
+Zephyrhills,3
+51362,2
+75428,2
+78570,2
+89320,2
+91802,2
+96272,2
+Accokeek,2
+Ada,2
+Adams,2
+Adrian,2
+Ahmedabad,2
+Al Khobar,2
+Alamo,2
+Alamogordo,2
+Albemarle,2
+Albertville,2
+Albion,2
+Alcoa,2
+Alexandroupoli,2
+Aliso Viejo,2
+Allison Park,2
+Almada,2
+Altavista,2
+Ambridge,2
+Amelia,2
+American Canyon,2
+Amman,2
+Amos,2
+Andrews,2
+Ankeny,2
+Annville,2
+Antananarivo,2
+Antipolo,2
+Apopka,2
+Appleton,2
+Arcadia,2
+Arcata,2
+Archdale,2
+Artesia,2
+Atchison,2
+Attica,2
+Auburn Hills,2
+Augsburg,2
+Avoca,2
+Avon Park,2
+Baden,2
+Bagley,2
+Baguio,2
+Ball,2
+Bangor,2
+Barbourville,2
+Barnstable,2
+Bay City,2
+Bay Springs,2
+Bayou Vista,2
+Beach Park,2
+Beaumont,2
+Beaver Dam,2
+Becket,2
+Beebe,2
+Bel Air North,2
+Belgrade,2
+Belle Fourche,2
+Belleville,2
+Bellflower,2
+Bellmawr,2
+Belpre,2
+Belton,2
+Belzoni,2
+Benin City,2
+Bennett,2
+Benoni,2
+Bentonville,2
+Bergenfield,2
+Beverly,2
+Beverly Hills,2
+Bhabat,2
+Bhubaneswar,2
+Biloxi,2
+Binghamton,2
+Birdsboro,2
+Bishopville,2
+Bissen,2
+Blackman,2
+Blacksburg,2
+Blackshear,2
+Blakely,2
+Boca Raton,2
+Bonham,2
+Bonney Lake,2
+Bothell,2
+Botkyrka,2
+Bountiful,2
+Braselton,2
+Brazil,2
+Breezy Point,2
+Bremen,2
+Bridgton,2
+Brigham City,2
+Bristow,2
+Broken Bow,2
+Brookfield,2
+Bruce,2
+Bruck an der Leitha,2
+Bryson City,2
+Buckhannon,2
+Buckingham,2
+Buckner,2
+Buena,2
+Buford,2
+Bulle,2
+Buraydah,2
+Burke,2
+Burlington Township,2
+Butler,2
+Buzau,2
+Cabot,2
+Calera,2
+Calgary,2
+Calhoun City,2
+California,2
+Camarillo,2
+Campbellsville,2
+Campton,2
+Carlisle,2
+Carmel,2
+Carolina Forest,2
+Castle Rock,2
+Catalina Foothills,2
+Cathedral City,2
+Cave Junction,2
+Cazadero,2
+Cecil-Bishop,2
+Cedar Falls,2
+Centereach,2
+Centerville,2
+Centurion,2
+Chalmette,2
+Chambersburg,2
+Charles City,2
+Charles Town,2
+Charlottesville,2
+Cheshire,2
+Chester,2
+Chinle,2
+Chino,2
+Choctaw,2
+Chokio,2
+Chongqing,2
+Christiana,2
+Church Hill,2
+Cinnaminson,2
+Citrus Heights,2
+Claremore,2
+Clarkesville,2
+Clarksdale,2
+Cleburne,2
+Cloquet,2
+Coatesville,2
+Colchester,2
+Coldwater,2
+College Park,2
+College Place,2
+College Station,2
+Collins,2
+Collinsville,2
+Colorado City,2
+Columbiana,2
+Compton,2
+Conroe,2
+Cookeville,2
+Coos Bay,2
+Coppell,2
+Copperas Cove,2
+Coralville,2
+Corbin,2
+Corinth,2
+Cork,2
+Cornwall,2
+Corry,2
+Cottonwood Heights,2
+Courtland,2
+Cranston,2
+Cromwell,2
+Croydon,2
+Cuyahoga Falls,2
+Daegu,2
+Dalhart,2
+Dar es Salaam,2
+Darlington,2
+Dasmarinas,2
+Davao City,2
+Davison,2
+DeBary,2
+DeLand,2
+Deckerville,2
+Delaware,2
+Denham Springs,2
+Dennis,2
+Desert Hot Springs,2
+Destrehan,2
+Dilley,2
+Donalsonville,2
+Doncaster,2
+Dorris,2
+Douglas,2
+Dover-Foxcroft,2
+Downers Grove,2
+Draper,2
+Drexel Hill,2
+Dubuque,2
+Dumont,2
+Duncan,2
+Dundalk,2
+Dunkirk,2
+Dunlap,2
+Eagle Butte,2
+East Bethel,2
+East Peoria,2
+East Providence,2
+Eastman,2
+Eastsound,2
+Eatonton,2
+Eau Claire,2
+Eden Prairie,2
+Edenton,2
+Edmonton,2
+Edmundston,2
+El Segundo,2
+Elk City,2
+Elkton,2
+Ellenton,2
+Elmont,2
+Enola,2
+Ensley,2
+Escanaba,2
+Eufaula,2
+Evesham,2
+Ewa Beach,2
+Ewa Gentry,2
+Exmore,2
+Fairport,2
+Falls City,2
+Farmer City,2
+Fawn Grove,2
+Federal Way,2
+Festus,2
+Flagstaff,2
+Fleming Island,2
+Florala,2
+Florin,2
+Forest,2
+Forest Grove,2
+Fort Morgan,2
+Fort Smith,2
+Fortuna,2
+Fountain Hill,2
+Fowler,2
+Framingham,2
+Franklin Township,2
+Fredonia,2
+Freeport,2
+Friendswood,2
+Fruita,2
+Fultondale,2
+Fuzhou,2
+Gainesboro,2
+Galion,2
+Galt,2
+Garden Grove,2
+Gardena,2
+Gardner,2
+Garfield Heights,2
+Garland,2
+Garner,2
+Gastonville,2
+Gate City,2
+Gaylord,2
+Glenview,2
+Glenwood,2
+Gloucester Point,2
+Gonzales,2
+Goose Creek,2
+Gorham,2
+Grabag,2
+Grafton,2
+Grain Valley,2
+Grand Forks,2
+Grangeville,2
+Grass Valley,2
+Gray,2
+Grayson,2
+Great Falls,2
+Greater Galesburg,2
+Greater Landover,2
+Greece,2
+Green River,2
+Greenacres,2
+Greer,2
+Griffin,2
+Groveland,2
+Grover Beach,2
+Guntersville,2
+Gustine,2
+Hackensack,2
+Hagerstown,2
+Hahira,2
+Half Moon Bay,2
+Happy Valley,2
+Hardwick,2
+Harris Hill,2
+Hartland,2
+Hartselle,2
+Hauppauge,2
+Hawaiian Paradise Park,2
+Hawarden,2
+Hazel Crest,2
+Hazleton,2
+Hebron,2
+Helena,2
+Hempstead,2
+Hennessey,2
+Heppner,2
+Hernando,2
+Herreid,2
+Hertford,2
+Hickory,2
+Highlands Ranch,2
+Hinesville,2
+Hiram,2
+Hockessin,2
+Hollandale,2
+Holmdel,2
+Holyoke,2
+Homeland Park,2
+Homerville,2
+Hopatcong,2
+Hope Mills,2
+Hoquiam,2
+Horizon West,2
+Hornell,2
+Houghton Lake,2
+Houma,2
+Howell Township,2
+Hueytown,2
+Huntington Beach,2
+Idabel,2
+Idaho Springs,2
+Immokalee,2
+Incheon,2
+Inkster,2
+Ionia,2
+Ipswich,2
+Irmo,2
+Irving,2
+Ivins,2
+Janesville,2
+Jeffreys Bay,2
+Jena,2
+Jerseyville,2
+Johnston,2
+Jonesville,2
+Joplin,2
+Joppatowne,2
+Jourdanton,2
+Julian,2
+Kailua-Kona,2
+Kalamazoo,2
+Kalispell,2
+Kampala,2
+Kanab,2
+Kane,2
+Kapolei,2
+Karlstad,2
+Kaunakakai,2
+Kempton Park,2
+Kendall West,2
+Kenly,2
+Kennett,2
+Kenton,2
+Kettering,2
+Kihei,2
+Kingman,2
+Kings Mountain,2
+Kingsville,2
+Kingwood,2
+Kinston,2
+Kirkland,2
+Kirtland,2
+Kissimmee,2
+Klaipeda,2
+Kodiak,2
+Kokomo,2
+La Junta,2
+La Pine,2
+LaBelle,2
+Ladysmith,2
+Lake Elsinore,2
+Lake Havasu City,2
+Lake Mary,2
+Lake Zurich,2
+Lamesa,2
+Land O' Lakes,2
+Laramie,2
+Largo,2
+Lausanne,2
+Le Mars,2
+Leander,2
+Leeds,2
+Leon,2
+Lewisville,2
+Lhasa,2
+Lillington,2
+Limassol,2
+Lincoln Park,2
+Linda,2
+Linglestown,2
+Litchfield,2
+Little Egg Harbor Township,2
+Little Ferry,2
+Littlefield,2
+Littleton,2
+Live Oak,2
+Livermore,2
+Lock Haven,2
+Locust Grove,2
+Longmont,2
+Longtown,2
+Los Altos Hills,2
+Lovejoy,2
+Lovington,2
+Lufkin,2
+Luling,2
+Lumberton,2
+Lynnwood,2
+Lytham St Annes,2
+Macedonia,2
+Madison Heights,2
+Mahopac,2
+Maili,2
+Malleray,2
+Malone,2
+Malvern,2
+Mandeville,2
+Manor,2
+Manteca,2
+Manton,2
+Marco Island,2
+Marlboro Township,2
+Marrero,2
+Marshville,2
+Maryland Heights,2
+Mattawa,2
+McAlester,2
+Meadowbrook,2
+Mebane,2
+Mechanicsville,2
+Medan,2
+Melville,2
+Mendocino,2
+Menifee,2
+Merrick,2
+Merrillville,2
+Merritt Island,2
+Metairie,2
+Metter,2
+Miamisburg,2
+Middle Township,2
+Middlefield,2
+Middleton,2
+Middletown Township,2
+Midrand,2
+Millburn,2
+Milledgeville,2
+Milliken,2
+Mills River,2
+Mishawaka,2
+Missoula,2
+Modena,2
+Monheim am Rhein,2
+Monroeville,2
+Montague,2
+Montebello,2
+Montevideo,2
+Morgan,2
+Morgan Hill,2
+Morristown,2
+Morton Grove,2
+Mount Holly,2
+Mount Joy,2
+Mount Pocono,2
+Moville,2
+Mt. Juliet,2
+Muhlenberg Township,2
+Muldrow,2
+Murphy,2
+Murray,2
+Muskogee,2
+Naaldwijk,2
+Nags Head,2
+Narva,2
+Nashua,2
+Neptune Township,2
+New Bern,2
+New Delhi,2
+New Hampton,2
+New Iberia,2
+New Lenox,2
+New Richmond,2
+Newcastle upon Tyne,2
+Newmanstown,2
+Newnan,2
+North Bergen Township,2
+North Little Rock,2
+North Massapequa,2
+North Ridgeville,2
+North Smithfield,2
+North Wilkesboro,2
+Northbrook,2
+Northport,2
+Northwood,2
+Norton,2
+Norton Shores,2
+Norwood,2
+Nuremberg,2
+Nuriootpa,2
+Oak Ridge,2
+Oakley,2
+Oakville,2
+Oberlin,2
+Oconomowoc,2
+Ocracoke,2
+Odenton,2
+Oil City,2
+Okanogan,2
+Old Bridge,2
+Old Forge,2
+Old Saybrook,2
+Oldsmar,2
+Olney,2
+Omak,2
+Opelika,2
+Orangeburg,2
+Oro Valley,2
+Oroville,2
+Oroville East,2
+Osage City,2
+Oshkosh,2
+Oskaloosa,2
+Othello,2
+Owasso,2
+Owensboro,2
+Pagosa Springs,2
+Palatka,2
+Palestine,2
+Palm Desert,2
+Palm River-Clair Mel,2
+Palmetto,2
+Palmyra,2
+Paoli,2
+Park City,2
+Pasco,2
+Pasig,2
+Patna,2
+Pawnee City,2
+Pearland,2
+Pembroke Pines,2
+Penitas,2
+Pequot Lakes,2
+Perham,2
+Perth Amboy,2
+Phnom Penh,2
+Piatra Neamt,2
+Picayune,2
+Pinellas Park,2
+Pinole,2
+Piqua,2
+Pittsfield,2
+Placerville,2
+Plattsburgh,2
+Plattsmouth,2
+Plovdiv,2
+Pocahontas,2
+Poinciana,2
+Ponchatoula,2
+Pontotoc,2
+Poplarville,2
+Port Angeles,2
+Port Louis,2
+Porterdale,2
+Poteau,2
+Poteet,2
+Potosi,2
+Pound,2
+Prescott Valley,2
+Prince George,2
+Pueblo West,2
+Punxsutawney,2
+Rancho Cordova,2
+Rancho Santa Margarita,2
+Ravenna,2
+Rawlins,2
+Reedsville,2
+Rennes,2
+Rensselaer,2
+Richards Bay,2
+Richmond Heights,2
+Ridgeland,2
+Rifle,2
+Rio Grande City,2
+Rio Rancho,2
+River Vale,2
+Riviera,2
+Rock Island,2
+Rock Springs,2
+Rockledge,2
+Rocky River,2
+Rohnert Park,2
+Rolla,2
+Roseburg,2
+Rosenberg,2
+Ross Township,2
+Rowlett,2
+Russell Springs,2
+Russellville,2
+Rutland,2
+Saginaw,2
+Sahuarita,2
+Saint Andrews,2
+Saint John,2
+Saint Johns,2
+Saint Michael,2
+Saint Michaels,2
+Saint Robert,2
+Saint-Eustache,2
+Salida,2
+Salina,2
+Saltillo,2
+Sammamish,2
+San Carlos,2
+San Jacinto,2
+San Leandro,2
+San Pedro Sula,2
+San Tan Valley,2
+Sanger,2
+Santa Anna,2
+Santo Domingo,2
+Sarajevo,2
+Sarasota,2
+Sarnia,2
+Sayre,2
+Schererville,2
+Schofield Barracks,2
+Schwarzenburg,2
+Scotchtown,2
+Scranton,2
+Searcy,2
+Sebastian,2
+Sebring,2
+Security-Widefield,2
+Sedalia,2
+Semarang,2
+Seminole,2
+Seville,2
+Seymour,2
+Sharon,2
+Sharonville,2
+Shawano,2
+Shawnee,2
+Sherbrooke,2
+Shields,2
+Show Low,2
+Sidney,2
+Sinking Spring,2
+Skidway Lake,2
+Skowhegan,2
+Slidell,2
+Slough,2
+Smithfield,2
+Smithtown,2
+Social Circle,2
+Soquel,2
+Soso,2
+South Gate,2
+South Haven,2
+South Pittsburg,2
+South Salt Lake,2
+South Tangerang,2
+Southern Pines,2
+Southington,2
+Sparta,2
+Spokane Valley,2
+Spring,2
+Springs,2
+St. Clair Shores,2
+St. Louis Park,2
+Stafford Township,2
+Stamford,2
+Standish,2
+Statesboro,2
+Sterling,2
+Stokesdale,2
+Stony Point,2
+Stony Ridge,2
+Story City,2
+Sugarcreek,2
+Sumrall,2
+Sun City Center,2
+Suwanee,2
+Swainsboro,2
+Swansea,2
+Swindon,2
+Sylacauga,2
+Tahlequah,2
+Taif,2
+Takamatsu,2
+Talladega,2
+Tamiami,2
+Tarpon Springs,2
+Taylorville,2
+Tazewell,2
+Tbilisi,2
+Tecumseh,2
+Temple,2
+Terrace,2
+Texas charter Township,2
+The Hammocks,2
+Thermopolis,2
+Thessaloniki,2
+Thousand Oaks,2
+Tillamook,2
+Tinley Park,2
+Toms River,2
+Torrington,2
+Towanda,2
+Tripoli,2
+Troutman,2
+Trumann,2
+Truth or Consequences,2
+Tuckahoe,2
+Tucker,2
+Tunis,2
+Turin,2
+Tuscumbia,2
+Twain Harte,2
+Tyler,2
+Umea,2
+Union Point,2
+University City,2
+University Park,2
+Urbandale,2
+Vacaville,2
+Valley City,2
+Valparaiso,2
+Valrico,2
+Van Buren,2
+Vandalia,2
+Vanderbijlpark,2
+Vass,2
+Vero Beach,2
+Vineland,2
+Vineyard,2
+Vitebsk,2
+Vitoria-Gasteiz,2
+Wakefield,2
+Waleska,2
+Walker,2
+Walnut Creek,2
+Walpole,2
+Walterboro,2
+Wantagh,2
+Warrens,2
+Warrensville Heights,2
+Waupun,2
+Waxhaw,2
+Waycross,2
+Wayland,2
+Weare,2
+Wells,2
+Wenatchee,2
+West Allis,2
+West Chester,2
+West Jefferson,2
+West Mifflin,2
+West Orange,2
+West Palm Beach,2
+West Sacramento,2
+West Wendover,2
+Westampton Township,2
+Westford,2
+Westland,2
+Westmont,2
+Wheatfield,2
+Wheeling,2
+Whittier,2
+Wickliffe,2
+Wiesbaden,2
+Williamsburg,2
+Williamson,2
+Williamsport,2
+Williamston,2
+Windber,2
+Winder,2
+Winter Garden,2
+Wolf Lake,2
+Wollongong,2
+Woodridge,2
+Wroclaw,2
+Yogyakarta,2
+Yucaipa,2
+Zaria,2
+Zolfo Springs,2
+Zurich,2
+'s-Hertogenbosch,1
+2673,1
+29493,1
+30460,1
+3974,1
+4814,1
+50490,1
+51520,1
+53165,1
+57682,1
+61490,1
+66978,1
+67577,1
+72660,1
+79589,1
+80330,1
+8583,1
+8946,1
+9262,1
+94970,1
+Abbotsford,1
+Aberdeen Township,1
+Abington,1
+Absecon,1
+Abu Dhabi,1
+Acapulco,1
+Acireale,1
+Acton,1
+Addis,1
+Adel,1
+Adelanto,1
+Adelphi,1
+Afton,1
+Agartala,1
+Agoura Hills,1
+Agua Dulce,1
+Aguascalientes,1
+Aiken,1
+Airdrie,1
+Ajmer,1
+Ak-Chin Indian Community,1
+Al Qatif,1
+Alachua,1
+Alameda,1
+Alamosa,1
+Alba Iulia,1
+Alberton,1
+Albia,1
+Albury,1
+Alexis,1
+Algiers,1
+Alice,1
+Aliceville,1
+Allegan,1
+Allendale,1
+Allendale Charter Township,1
+Alpine,1
+Alta Sierra,1
+Altamont,1
+Alturas,1
+Alva,1
+Amagasaki,1
+Americus,1
+Ames,1
+Amite City,1
+Amity,1
+Anadarko,1
+Andalusia,1
+Andong-si,1
+Angeles,1
+Anna,1
+Ansan-si,1
+Antibes,1
+Aomori,1
+Apache Junction,1
+Aparecida de Goiania,1
+Appomattox,1
+Ar-Rayyan,1
+Aransas Pass,1
+Arar,1
+Arbuckle,1
+Arcade,1
+Ardmore,1
+Argenteuil,1
+Arkansas City,1
+Arnold,1
+Arnold Air Force Base,1
+Arrondissement of Halle-Vilvoorde,1
+Arroyo Grande,1
+Arusha,1
+Asahikawa,1
+Asbury Lake,1
+Ashburnham,1
+Ashford,1
+Ashkelon,1
+Ashton-in-Makerfield,1
+Ashville,1
+Asnieres-sur-Seine,1
+Aspen Hill,1
+Atascadero,1
+Athol,1
+Atkinson,1
+Atlantic Beach,1
+Atmore,1
+Aventura,1
+Avon Lake,1
+Aynor,1
+Azalea Park,1
+Azle,1
+Bacolod,1
+Bacoor,1
+Bacup,1
+Bad Urach,1
+Badin,1
+Baker City,1
+Baku,1
+Bala Cynwyd,1
+Baldwyn,1
+Ballito,1
+Ban Suan,1
+Bandar Lampung,1
+Bandon,1
+Bangaon,1
+Banjarnegara,1
+Banning,1
+Bansko,1
+Bar Harbor,1
+Baraboo,1
+Barboursville,1
+Bari,1
+Barnegat Township,1
+Barnwell,1
+Barre,1
+Barrington,1
+Barry,1
+Bartow,1
+Basin,1
+Basse Sangtempe,1
+Bastrop,1
+Batavia,1
+Batemans Bay,1
+Bathurst,1
+Baunatal,1
+Baxley,1
+Baxter Springs,1
+Bay Shore,1
+Bayamon,1
+Bayonet Point,1
+Bayou La Batre,1
+Baza,1
+Beachwood,1
+Beacon,1
+Bealeton,1
+Beaufort,1
+Beaver,1
+Beavercreek,1
+Becker,1
+Beckett Ridge,1
+Bee Cave,1
+Beech Grove,1
+Beechwood,1
+Beirut,1
+Bel Air,1
+Belding,1
+Belen,1
+Belfast,1
+Bell,1
+Bella Vista,1
+Belle Glade,1
+Bellefontaine,1
+Bellefonte,1
+Belmond,1
+Beltsville,1
+Belvidere,1
+Bemidji,1
+Benbrook,1
+Bennsville,1
+Bergamo,1
+Bergen Municipality,1
+Beringen,1
+Bermuda Dunes,1
+Bernalillo,1
+Berne,1
+Bertem,1
+Bessemer,1
+Bethel,1
+Bethel Park,1
+Bethesda,1
+Bettendorf,1
+Beulah,1
+Beulaville,1
+Bhagalpur,1
+Bhimavaram,1
+Biel/Bienne,1
+Big Lake,1
+Big Rapids,1
+Big Spring,1
+Big Stone Gap,1
+Bilbao,1
+Billerica,1
+Biltmore Forest,1
+Bishop,1
+Black Forest,1
+Blackduck,1
+Blackwell,1
+Bladenboro,1
+Blairsville,1
+Blanchard,1
+Blandon,1
+Blankenfelde-Mahlow,1
+Blue Bell,1
+Blue Hill,1
+Blue Island,1
+Blue Ridge,1
+Boaz,1
+Boca Del Mar,1
+Boerne,1
+Bogalusa,1
+Bohemia,1
+Boiling Springs,1
+Boksburg,1
+Bolingbrook,1
+Bon Air,1
+Bonneau,1
+Bonners Ferry,1
+Boucherville,1
+Bouguenais,1
+Bourbonnais,1
+Bourne,1
+Boyne City,1
+Bozeman,1
+Bracebridge,1
+Brainerd,1
+Brandenburg,1
+Brandywine,1
+Branford,1
+Brasov,1
+Bratislava,1
+Brattleboro,1
+Brazoria,1
+Breaux Bridge,1
+Brecksville,1
+Briarcliff Manor,1
+Bridgeton,1
+Bridgman,1
+Bridport,1
+Brighton and Hove,1
+Brimley,1
+Broadview Heights,1
+Brockville,1
+Brodnica,1
+Brogden,1
+Bronkhorstspruit,1
+Brookland,1
+Brookline,1
+Brooklyn,1
+Brooklyn Center,1
+Broomall,1
+Broomfield,1
+Brownfields,1
+Brownsburg,1
+Brownville,1
+Brush,1
+Brushy Creek,1
+Bryant,1
+Bryn Athyn,1
+Buchanan,1
+Buchanan Dam,1
+Bucyrus,1
+Buena Park,1
+Buena Ventura Lakes,1
+Bull Run,1
+Bullard,1
+Bunnell,1
+Burbage,1
+Buren,1
+Burgos,1
+Burien,1
+Burnaby,1
+Burnsville,1
+Bury,1
+Butte,1
+Bydgoszcz,1
+Byram,1
+Byrnes Mill,1
+Cable,1
+Caen,1
+Cagayan de Oro,1
+Cagnes-sur-Mer,1
+Calabasas,1
+Caldwell,1
+Caledonia,1
+Calexico,1
+Cali,1
+Calimesa,1
+Calumet City,1
+Calvillo,1
+Calvinia,1
+Camano,1
+Cambrils,1
+Camilla,1
+Camp Verde,1
+Campbell,1
+Campbell River,1
+Canadian Lakes,1
+Canajoharie,1
+Canal Winchester,1
+Cancun,1
+Candler-McAfee,1
+Canonsburg,1
+Canterbury,1
+Cantonment,1
+Cantu,1
+Canyon,1
+Cape Charles,1
+Capitola,1
+Carcassonne,1
+Carlinville,1
+Carneys Point Township,1
+Carol Stream,1
+Carolina,1
+Carpentersville,1
+Carpinteria,1
+Carriere,1
+Carson,1
+Carson City,1
+Carthage,1
+Carver,1
+Caryville,1
+Casa Grande,1
+Cascade,1
+Cashiers,1
+Casselton,1
+Cassopolis,1
+Cassville,1
+Castaic,1
+Castelldefels,1
+Castle Hills,1
+Castlewood,1
+Castres,1
+Castroville,1
+Catawba,1
+Cathcart,1
+Catonsville,1
+Cave Spring,1
+Cedar Grove,1
+Cedar Springs,1
+Cedartown,1
+Celeste,1
+Celina,1
+Centennial,1
+Central Falls,1
+Central Islip,1
+Central Point,1
+Centre,1
+Chadron,1
+Chalandri,1
+Chambers,1
+Champaign,1
+Channahon,1
+Channelview,1
+Chantilly,1
+Chapin,1
+Chappell Hill,1
+Chardon,1
+Charleville-Mezieres,1
+Chaska,1
+Chatham,1
+Chatham Township,1
+Chatsworth,1
+Cheat Lake,1
+Chelmsford,1
+Cheraw,1
+Cherbourg-Octeville,1
+Cherry Hill Township,1
+Chesterfield,1
+Chesterton,1
+Chestnut Ridge,1
+Chetumal,1
+Chewelah,1
+Chigasaki,1
+Chilliwack,1
+Chino Hills,1
+Chippewa Falls,1
+Chittagong,1
+Chowchilla,1
+Christmas Valley,1
+Churchville,1
+Cibolo,1
+Cinco Ranch,1
+Circleville,1
+City Of Manila,1
+Clackamas,1
+Claiborne,1
+Claremont,1
+Clarion,1
+Clay,1
+Clay Center,1
+Claymont,1
+Clear Lake,1
+Clearfield,1
+Cleves,1
+Clintonville,1
+Clyde,1
+Coal City,1
+Coalgate,1
+Coaling,1
+Coalinga,1
+Cocoa Beach,1
+Cody,1
+Coffeyville,1
+Coffs Harbour,1
+Cohasset,1
+Cold Spring,1
+Coldstream,1
+Colesville,1
+College,1
+Cologne,1
+Coloma,1
+Colombes,1
+Colon,1
+Colton,1
+Colts Neck,1
+Columbia City,1
+Columbia Falls,1
+Colville,1
+Comanche,1
+Commerce,1
+Commerce Charter Township,1
+Comstock Park,1
+Conover,1
+Coon Rapids,1
+Cooper City,1
+Coopersville,1
+Copenhagen,1
+Coquitlam,1
+Coral Gables,1
+Coral Springs,1
+Cordele,1
+Cormeilles-en-Parisis,1
+Cornwall-on-Hudson,1
+Coronaca,1
+Coronado,1
+Corvallis,1
+Corydon,1
+Coshocton,1
+Coto de Caza,1
+Cottage Lake,1
+Cottondale,1
+Cotulla,1
+Counce,1
+Country Club Estates,1
+Country Homes,1
+Country Knolls,1
+Courcouronnes,1
+Covedale,1
+Coventry,1
+Craig,1
+Crailsheim,1
+Crandall,1
+Creedmoor,1
+Crest Hill,1
+Cripple Creek,1
+Crockett,1
+Crooksville,1
+Crowley,1
+Crump,1
+Crystal,1
+Crystal Falls,1
+Cuba,1
+Cucuta,1
+Cuero,1
+Culloden,1
+Cullompton,1
+Culver City,1
+Cupertino,1
+Curitiba,1
+Curridabat,1
+Cut and Shoot,1
+Cutchogue,1
+Cutler Bay,1
+Cuyahoga Heights,1
+Cynthiana,1
+Cypress Lake,1
+Dacula,1
+Daejeon,1
+Dahlgren,1
+Dalzell,1
+Damariscotta,1
+Damascus,1
+Dania Beach,1
+Danvers,1
+Darby Township,1
+Dardenne Prairie,1
+Dartmouth,1
+David City,1
+Dawson,1
+De Motte,1
+De Pere,1
+De Soto,1
+DeKalb,1
+Dearborn,1
+Dearborn Heights,1
+Death Valley,1
+Deatsville,1
+Defiance,1
+Del Rio,1
+Delaware Township,1
+Dell City,1
+Dellwood,1
+Delta,1
+Deming,1
+Denison,1
+Denmark,1
+Dentsville,1
+Depew,1
+Desert Edge,1
+Destin,1
+Detroit Lakes,1
+Devine,1
+Dexter,1
+Di An,1
+Diamond,1
+Diamond Bar,1
+Diller,1
+Dinajpur,1
+Dinuba,1
+Dixon,1
+Dock Junction,1
+Donaldsonville,1
+Donna,1
+Donostia-San Sebastian,1
+Dora,1
+Doral,1
+Doraville,1
+Dortmund,1
+Douala,1
+Douglasville,1
+Doyle,1
+Drachten,1
+Drobeta-Turnu Severin,1
+Drumright,1
+Dry Run,1
+Du Quoin,1
+DuBois,1
+Duanesburg,1
+Duchesne,1
+Duck,1
+Due West,1
+Dumfries,1
+Dunbar,1
+Dundee,1
+Dunmore,1
+Dunn,1
+Durango,1
+Dusseldorf,1
+Duvall,1
+Dyer,1
+Eagle Pass,1
+Eagle River,1
+Earlysville,1
+Easley,1
+East Chicago,1
+East Granby,1
+East Haven,1
+East Lansing,1
+East Moline,1
+East Northport,1
+East Orange,1
+East Patchogue,1
+East Ridge,1
+East Sonora,1
+East Windsor,1
+East York,1
+Eastland,1
+Eastlawn Gardens,1
+Eastpointe,1
+Eaton,1
+Eaton Rapids,1
+Eatonville,1
+Edgewater,1
+Edinburg,1
+Edwards,1
+Edwardsville,1
+Effingham,1
+Egham,1
+El Centro,1
+El Dorado,1
+El Dorado Springs,1
+El Mirage,1
+El Monte,1
+El Salto,1
+El Sobrante,1
+El Vendrell,1
+Elberton,1
+Elbow Lake,1
+Elburn,1
+Elim,1
+Elizabeth City,1
+Elk Plain,1
+Elk River,1
+Elkins,1
+Elko,1
+Elkridge,1
+Ellensburg,1
+Ellenville,1
+Ellenwood,1
+Ellettsville,1
+Ellicott City,1
+Ellijay,1
+Ellisville,1
+Elmhurst,1
+Elmwood Park,1
+Eloy,1
+Ely,1
+Emeryville,1
+Emigrant,1
+Emigsville,1
+Emporia,1
+Enterprise,1
+Erath,1
+Erlanger,1
+Espanola,1
+Estero,1
+Estherville,1
+Estill Springs,1
+Eustace,1
+Evanston,1
+Ewing Township,1
+Excelsior Springs,1
+Exeter,1
+Fair Grove,1
+Fair Haven,1
+Fair Lawn,1
+Fair Oaks,1
+Fairborn,1
+Fairburn,1
+Fairbury,1
+Fairfax,1
+Fairfield Harbour,1
+Fairhope,1
+Fairmount,1
+Fajardo,1
+Fall River,1
+Fallon,1
+Falmouth,1
+Fareham,1
+Farragut,1
+Fayette,1
+Federal Heights,1
+Fergus Falls,1
+Ferguson,1
+Ferrum,1
+Fiesch,1
+Finley,1
+Fitchburg,1
+Flanders,1
+Flat Rock,1
+Fleetwood,1
+Flowood,1
+Floyd,1
+Folly Beach,1
+Folsom,1
+Fond du Lac,1
+Foothill Farms,1
+Forest Acres,1
+Forest Hill,1
+Forest Lake,1
+Foresthill,1
+Forney,1
+Forsyth,1
+Fort Atkinson,1
+Fort Davis,1
+Fort Dodge,1
+Fort Erie,1
+Fort Hunt,1
+Fort Irwin,1
+Fort Kent,1
+Fort Lee,1
+Fort Leonard Wood,1
+Fort Loudon,1
+Fort Lupton,1
+Fort Meade,1
+Fort Myers Shores,1
+Fort Pierce North,1
+Fort Scott,1
+Fort Thomas,1
+Fort White,1
+Fort-de-France,1
+Foster City,1
+Fostoria,1
+Fountain Hills,1
+Fountain Inn,1
+Fowlerville,1
+Fox Farm-College,1
+Fox Lake Hills,1
+Fox River Grove,1
+Foxborough,1
+Franconia,1
+Frauenfeld,1
+French Camp,1
+Fridley,1
+Fritzlar,1
+Frostproof,1
+Fruitville,1
+Fuengirola,1
+Fullerton,1
+Fussels Corner,1
+Gahanna,1
+Gaithersburg,1
+Galena,1
+Galesburg,1
+Galloway,1
+Gallup,1
+Galway,1
+Gantt,1
+Gardiner,1
+Gardnerville,1
+Garrison,1
+Gatesville,1
+Gatlinburg,1
+General Trias,1
+Geneva,1
+Gentofte,1
+Geraldton,1
+Gering,1
+Germiston,1
+Ghaziabad,1
+Gibson,1
+Gibson City,1
+Gibsons,1
+Giddings,1
+Gig Harbor,1
+Gijon,1
+Gilbertsville,1
+Gillette,1
+Gilmer,1
+Gladeview,1
+Gladstone,1
+Glasgow,1
+Glassboro,1
+Glastonbury,1
+Glen Burnie,1
+Glen Rock,1
+Glenn Heights,1
+Glens Falls,1
+Gloucester City,1
+Goddard,1
+Gold Coast,1
+Gold River,1
+Golden Gate,1
+Golden Grove,1
+Goldendale,1
+Goldenrod,1
+Gonzalez,1
+Goochland,1
+Goodland,1
+Gordo,1
+Gothenburg,1
+Gottingen,1
+Granby,1
+Grand Blanc,1
+Grand Junction,1
+Grand Ronde,1
+Grand Terrace,1
+Grandville,1
+Granger,1
+Grant,1
+Grantham,1
+Grayslake,1
+Great Neck,1
+Greater Napanee,1
+Greater Sudbury,1
+Green Cove Springs,1
+Green Valley,1
+Greenbush,1
+Greenwood Village,1
+Grimsby,1
+Griswold,1
+Groesbeck,1
+Groningen,1
+Grundy,1
+Guadalajara,1
+Guangzhou,1
+Guelph,1
+Guilford,1
+Gulf Breeze,1
+Gurugram,1
+Guttenberg,1
+Guymon,1
+Gyor,1
+Haarlem,1
+Hachinohe,1
+Hacienda Heights,1
+Haddon Heights,1
+Haddon Township,1
+Haenam-gun,1
+Haiku-Pauwela,1
+Halawa,1
+Haleiwa,1
+Haleyville,1
+Half Moon,1
+Hallsville,1
+Halmstad,1
+Ham Lake,1
+Hamel,1
+Hamilton Township,1
+Hamlet,1
+Hamptons at Boca Raton,1
+Hanamkonda,1
+Hanford,1
+Hardyston,1
+Haridwar,1
+Harker Heights,1
+Harleysville,1
+Harmanli,1
+Harriman,1
+Harrington,1
+Harrison Township,1
+Harrisonburg,1
+Harrodsburg,1
+Hartbeespoort,1
+Hartford City,1
+Hartsville,1
+Hartville,1
+Hartwell,1
+Harvey,1
+Harwich,1
+Haslett,1
+Hauula,1
+Haverhill,1
+Havre,1
+Hawkinsville,1
+Haworth,1
+Hazel Dell,1
+Hazelwood,1
+Hazlehurst,1
+Headland,1
+Heath Springs,1
+Heathsville,1
+Heber City,1
+Heber Springs,1
+Heflin,1
+Helena-West Helena,1
+Heraklion,1
+Hercules,1
+Hermiston,1
+Hermon,1
+Herriman,1
+Hesperia,1
+Hesston,1
+Hewitt,1
+Hialeah Gardens,1
+Hideout,1
+Higginsville,1
+High Wycombe,1
+Highland Heights,1
+Highland Village,1
+Highlands,1
+Highmore,1
+Hildale,1
+Hildebran,1
+Hill City,1
+Hilliard,1
+Hillsboro Beach,1
+Hillsborough,1
+Hillsdale,1
+Hillsville,1
+Hinckley,1
+Hingham,1
+Hinsdale,1
+Hirosaki,1
+Hitachi,1
+Hitchcock,1
+Hodgenville,1
+Hoffman Estates,1
+Hogansville,1
+Hohenwald,1
+Holbrook,1
+Holderness,1
+Holdrege,1
+Holiday,1
+Hollins,1
+Hollister,1
+Holliston,1
+Holly Hill,1
+Holly Springs,1
+Holon,1
+Holstein,1
+Holt,1
+Holton,1
+Holyrood,1
+Homer Glen,1
+Homewood,1
+Homosassa Springs,1
+Honaker,1
+Hondo,1
+Hongseong-gun,1
+Hood River,1
+Hooksett,1
+Hopewell,1
+Hopewell Township,1
+Hopkins,1
+Horn Lake,1
+Hornchurch,1
+Horse Pasture,1
+Hotchkiss,1
+Houghton,1
+Howard,1
+Howland Center,1
+Hubbardston,1
+Hudsonville,1
+Huejutla de Reyes,1
+Hughesville,1
+Humansville,1
+Humeston,1
+Hunters Creek,1
+Huntingburg,1
+Huntington Park,1
+Huntley,1
+Huron,1
+Huron Charter Township,1
+Hurst,1
+Hurstbourne,1
+Hybla Valley,1
+Iasi,1
+Ibhayi,1
+Ilford,1
+Ili,1
+Ilion,1
+Ilkley,1
+Imperial,1
+Inanda,1
+Independence charter Township,1
+Indian Harbour Beach,1
+Indian Head,1
+Indianola,1
+Indore,1
+Ingram,1
+Inniswold,1
+Innsbrook,1
+Innsbruck,1
+Inwood,1
+Ipoh,1
+Iron Mountain,1
+Irondale,1
+Ironton,1
+Islamabad,1
+Island Falls,1
+Islandia,1
+Islip,1
+Istanbul,1
+Itabaiana,1
+Itagui,1
+Itta Bena,1
+Ituzaingo,1
+Iuka,1
+Ivanhoe,1
+Iwo,1
+Izu,1
+Jacksboro,1
+Jackson Township,1
+Jalandhar,1
+Jambi,1
+Jamesport,1
+Jangsu-gun,1
+Jasmine Estates,1
+Jatibarang,1
+Jayapura,1
+Jefferson Valley,1
+Jellico,1
+Jenjarom,1
+Jenkins,1
+Jensen Beach,1
+Jersey Village,1
+Jesup,1
+Jiaxing,1
+Jinhua,1
+Jodhpur,1
+Joensuu,1
+Johns Creek,1
+Johnson Lane,1
+Johnsonville,1
+Jones,1
+Jonesborough,1
+Jonesport,1
+Junction,1
+Kaanapali,1
+Kahaluu-Keauhou,1
+Kalida,1
+Kalifornsky,1
+Kanawha,1
+Kankakee,1
+Kapaa,1
+Karang Tengah,1
+Karangtengah,1
+Karon,1
+Kasson,1
+Kathu,1
+Katrineholm,1
+Katy,1
+Kawela Bay,1
+Kebomas,1
+Kebumen,1
+Kediri,1
+Keeseville,1
+Keizer,1
+Kellogg,1
+Kendall,1
+Kennebunkport,1
+Kennedale,1
+Kenosha,1
+Kentland,1
+Kenwood,1
+Keokuk,1
+Keosauqua,1
+Kepno,1
+Kernersville,1
+Ketchikan,1
+Ketchum,1
+Kewaunee,1
+Keyser,1
+Khartoum,1
+King,1
+King George,1
+King of Prussia,1
+Kings Park,1
+Kings Point,1
+Kingsbury,1
+Kinsey,1
+Kitchener,1
+Kitzingen,1
+Klampenborg,1
+Kloetinge,1
+Knysna,1
+Kobe,1
+Koh Samui,1
+Kolkata,1
+Koshigaya,1
+Koszalin,1
+Kota Kinabalu,1
+Kountze,1
+Kozhikode,1
+Kristiansand Municipality,1
+Kronenwetter,1
+Krugersdorp,1
+Kulim,1
+Kulpsville,1
+Kumasi,1
+Kuwait City,1
+Kyle,1
+Kyrenia,1
+La Canada Flintridge,1
+La Concepcion,1
+La Crosse,1
+La Grande,1
+La Habra,1
+La Homa,1
+La Mercy,1
+La Porte City,1
+La Presa,1
+La Puente,1
+La Quinta,1
+LaFollette,1
+LaPlace,1
+Ladson,1
+Ladue,1
+Laguna Hills,1
+Laguna Woods,1
+Lake Barcroft,1
+Lake Elmo,1
+Lake Fenton,1
+Lake Grove,1
+Lake Jackson,1
+Lake Junaluska,1
+Lake Los Angeles,1
+Lake Lotawana,1
+Lake Magdalene,1
+Lake Murray of Richland,1
+Lake Oswego,1
+Lake Park,1
+Lake Ridge,1
+Lake Stevens,1
+Lake Tansi,1
+Lake Wales,1
+Lake Worth Corridor,1
+Lakehills,1
+Lakeland Highlands,1
+Lakemoor,1
+Lakeview,1
+Lakeway,1
+Lakewood Park,1
+Lambertville,1
+Lamoni,1
+Lander,1
+Landsberg am Lech,1
+Landskrona,1
+Langford,1
+Langreo,1
+Larkfield-Wikiup,1
+Larned,1
+Las Palmas de Gran Canaria,1
+Las Pinas,1
+Las Pinas City,1
+Las Rozas de Madrid,1
+Latrobe,1
+Lauderhill,1
+Laughlin,1
+Launceston,1
+Laurens,1
+Laurie,1
+Lavon,1
+Lawai,1
+Lawndale,1
+Lawrence Township,1
+Layton,1
+Le Lamentin,1
+Le Mans,1
+Le Rheu,1
+Leesville,1
+Legazpi City,1
+Lehi,1
+Leiria,1
+Leland,1
+Lemoore,1
+Lenasia,1
+Lenoir City,1
+Leo-Cedarville,1
+Leominster,1
+Lepanto,1
+Les Herbiers,1
+Lewes,1
+Lewistown,1
+Liberal,1
+Liberty Lake,1
+Libertyville,1
+Lihue,1
+Lille,1
+Limon,1
+Lincoln City,1
+Linden,1
+Lindon,1
+Lineville,1
+Linton,1
+Little Falls Township,1
+Liverpool,1
+Locust,1
+Lodi,1
+Lodz,1
+Logansport,1
+Loma Linda,1
+Lombard,1
+Londrina,1
+Lone Pine,1
+Long Branch,1
+Longwood,1
+Loomis,1
+Lorton,1
+Los Alamitos,1
+Los Altos,1
+Los Banos,1
+Los Lunas,1
+Los Molinos,1
+Loudonville,1
+Loughman,1
+Louisiana,1
+Loves Park,1
+Lower Burrell,1
+Lowesville,1
+Loxton,1
+Lubumbashi,1
+Lucknow,1
+Ludhiana,1
+Ludington,1
+Lula,1
+Lunenburg,1
+Lusaka,1
+Luther,1
+Lutz,1
+Lyman,1
+Lynbrook,1
+Lyndhurst,1
+Lynn Haven,1
+Lyss,1
+Magalia,1
+Magelang,1
+Maggie Valley,1
+Mahomet,1
+Mahwah,1
+Maiduguri,1
+Maitland,1
+Makakilo,1
+Makassar,1
+Malaga,1
+Malden,1
+Male,1
+Malmo,1
+Mamaroneck,1
+Manado,1
+Managua,1
+Manassas,1
+Manchester-by-the-Sea,1
+Mandaue City,1
+Mannford,1
+Manorville,1
+Manquin,1
+Manson,1
+Manvel,1
+Maple City,1
+Maple Shade,1
+Maple Valley,1
+Mapleton,1
+Maplewood,1
+Marbella,1
+Marblehead,1
+Marcus,1
+Marengo,1
+Margaret,1
+Marianna,1
+Maricopa,1
+Marina del Rey,1
+Marine City,1
+Marine Corps Air Station Cherry Point,1
+Mariposa,1
+Marked Tree,1
+Marlinton,1
+Marquette,1
+Martina Franca,1
+Martinsville,1
+Mastic,1
+Matane,1
+Mathiston,1
+Matthews,1
+Mattoon,1
+Mauston,1
+Maxton,1
+Maxwell,1
+Mayfield Heights,1
+Maynardville,1
+Maytown,1
+McDonough,1
+McLeansboro,1
+Mead,1
+Mead Valley,1
+Meadow Vista,1
+Meadow Woods,1
+Meadville,1
+Mechanicsburg,1
+Medway,1
+Melton,1
+Mena,1
+Mendon,1
+Mendota Heights,1
+Mentone,1
+Merion Station,1
+Merrill,1
+Merrimack,1
+Merrydale,1
+Mertoyudan,1
+Mescalero,1
+Metropolis,1
+Mexico,1
+Micco,1
+Middle River,1
+Middleburg,1
+Midlothian,1
+Milam,1
+Mill Creek,1
+Millbrae,1
+Millcreek,1
+Millers Creek,1
+Millersville,1
+Millstone,1
+Milton Keynes,1
+Milton-Freewater,1
+Mims,1
+Mineral Bluff,1
+Minford,1
+Minnetonka,1
+Minooka,1
+Minsk,1
+Mission,1
+Mitchell,1
+Mmabatho,1
+Moapa Valley,1
+Moberly,1
+Mocksville,1
+Mohave Valley,1
+Mokena,1
+Mokopane,1
+Molalla,1
+Molesey,1
+Moncton,1
+Monessen,1
+Monino,1
+Monroe Township,1
+Monson,1
+Montemorelos,1
+Monterey,1
+Monterey Park,1
+Montevallo,1
+Montgomery Village,1
+Montpellier,1
+Montrose-Ghent,1
+Morehead City,1
+Morenci,1
+Morrilton,1
+Morsang-sur-Orge,1
+Mosheim,1
+Mossel Bay,1
+Moundridge,1
+Moundsville,1
+Mount Clemens,1
+Mount Orab,1
+Mountain Home,1
+Mountain Home Air Force Base,1
+Mountain Top,1
+Mountainhome,1
+Moxee,1
+Mthatha,1
+Mueang Ranong District,1
+Mullins,1
+Mulvane,1
+Mundelein,1
+Munford,1
+Munich,1
+Muri bei Bern,1
+Murrysville,1
+Muscoy,1
+Mussoorie,1
+Mustang Ridge,1
+Myers Corner,1
+Myrtle Point,1
+Naalehu,1
+Nacogdoches,1
+Nai Mueang,1
+Najran,1
+Nanaimo,1
+Nanuet,1
+Napoleon,1
+Narrowsburg,1
+Nassau Village-Ratliff,1
+Natchez,1
+Natchitoches,1
+Natick,1
+National City,1
+Nederland,1
+Neenah,1
+Nellore,1
+Nelson,1
+Nerima City,1
+Neu-Ulm,1
+Neuse Forest,1
+Nevada City,1
+New Brighton,1
+New Buffalo,1
+New Carrollton,1
+New Enterprise,1
+New Franklin,1
+New Freedom,1
+New Holland,1
+New Kingstown,1
+New Port Richey,1
+New Smyrna Beach,1
+New Tazewell,1
+Newburgh,1
+Newbury,1
+Newfane,1
+Newington,1
+Newman,1
+Newmarket,1
+Newton-le-Willows,1
+Nice,1
+Niceville,1
+Nicholasville,1
+Nicosia,1
+Nizhny Tagil,1
+Noblesville,1
+Noel,1
+Nome,1
+North Adams,1
+North Arlington,1
+North Aurora,1
+North Bay,1
+North Bay Shore,1
+North Bellport,1
+North Branford,1
+North Canton,1
+North Decatur,1
+North Greece,1
+North Manchester,1
+North Naples,1
+North New Hyde Park,1
+North Ogden,1
+North Potomac,1
+North Royalton,1
+North Saint Paul,1
+Northampton,1
+Northbridge,1
+Northern Cambria,1
+Northglenn,1
+Northville,1
+Northwest,1
+Northwest Harborcreek,1
+Norwell,1
+Nottingham,1
+Noumea,1
+Novato,1
+Novi,1
+Novi Sad,1
+Novosibirsk,1
+Nozha 2,1
+Nuestra Senora de La Paz,1
+O'Fallon,1
+O'Neill,1
+Oak Forest,1
+Oak Grove,1
+Oak Harbor,1
+Oak Lawn,1
+Oak Leaf,1
+Oakland City,1
+Ocean Isle Beach,1
+Ocean Pines,1
+Ocean Shores,1
+Ocean Springs,1
+Oceano,1
+Ocoee,1
+Oconto,1
+Oistins,1
+Ojus,1
+Old Jamestown,1
+Olive Hill,1
+Oliveira do Bairro,1
+Oliver Springs,1
+Omro,1
+Oneonta,1
+Oostburg,1
+Opa-locka,1
+Opp,1
+Oradell,1
+Orange City,1
+Orange Lake,1
+Oranjestad,1
+Orchard Park,1
+Orcutt,1
+Ordu,1
+Oregon City,1
+Orillia,1
+Orleans,1
+Ormond Beach,1
+Orono,1
+Orrville,1
+Orwell,1
+Osceola,1
+Oshawa,1
+Oslo Municipality,1
+Ostrava,1
+Otsego,1
+Ottawa,1
+Ouagadougou,1
+Oudtshoorn,1
+Oulu,1
+Ourense,1
+Owenton,1
+Pace,1
+Pacific Grove,1
+Pacifica,1
+Page,1
+Pahokee,1
+Palatine,1
+Palembang,1
+Palermo,1
+Palm Springs,1
+Palmview,1
+Palo Cedro,1
+Palolo,1
+Panama City Beach,1
+Panguitch,1
+Panhandle,1
+Panorama,1
+Paragould,1
+Paramus,1
+Paranaque,1
+Park Falls,1
+Park River,1
+Parkers Prairie,1
+Parkersburg,1
+Paso Robles,1
+Paso del Rey,1
+Passaic,1
+Pataskala,1
+Paterson,1
+Pati,1
+Patiala,1
+Pavia,1
+Paw Paw,1
+Pawling,1
+Pawnee,1
+Pawtucket,1
+Payette,1
+Peabody,1
+Peach Lake,1
+Pearsall,1
+Pecan Grove,1
+Peekskill,1
+Pelham,1
+Pelican Rapids,1
+Pell City,1
+Pembroke,1
+Pennsville Township,1
+Pequannock Township,1
+Perintalmanna,1
+Perm,1
+Perrysburg,1
+Perwez,1
+Petal,1
+Pewaukee,1
+Phelan,1
+Phelps,1
+Phenix City,1
+Phillipsburg,1
+Piedras Negras,1
+Pierre,1
+Pierz,1
+Piggott,1
+Pike Creek,1
+Piketon,1
+Pinckney,1
+Pine Knot,1
+Pine Ridge,1
+Pinedale,1
+Pingree Grove,1
+Pinson,1
+Pioche,1
+Piraeus,1
+Pitesti,1
+Pittsburg,1
+Pittsgrove Township,1
+Placid Lakes,1
+Plainview,1
+Plant City,1
+Plantation,1
+Pleasant Grove,1
+Ploiesti,1
+Plovdiv Province,1
+Pocatello,1
+Point Roberts,1
+Pompano Beach,1
+Poplar Bluff,1
+Port Aransas,1
+Port Arthur,1
+Port Deposit,1
+Port Edward,1
+Port Huron charter Township,1
+Port Lavaca,1
+Port Neches,1
+Port Saint John,1
+Port Sulphur,1
+Port Townsend,1
+Port Washington,1
+Portales,1
+Porterville,1
+Porto,1
+Potchefstroom,1
+Potomac,1
+Pottstown,1
+Pottsville,1
+Poughkeepsie,1
+Poway,1
+Powdersville,1
+Powell,1
+Powhatan,1
+Prairie Grove,1
+Prairieville,1
+Prattville,1
+Presidente Prudente,1
+Presidio,1
+Prestonsburg,1
+Primera,1
+Princess Anne,1
+Probolinggo,1
+Progreso,1
+Prosperity,1
+Prosser,1
+Pruszkow,1
+Puebla,1
+Punta Gorda,1
+Purcellville,1
+Purworejo,1
+Puyallup,1
+Quakertown,1
+Quebec City,1
+Queen Creek,1
+Queensbury,1
+Quinton,1
+Radford,1
+Raeford,1
+Rainsville,1
+Rajkot,1
+Rajshahi,1
+Ramnicu Valcea,1
+Ramos Mejia,1
+Rancho Mirage,1
+Ranson,1
+Rapid City,1
+Rapids,1
+Rathdrum,1
+Raunds,1
+Ravenswood,1
+Raymondville,1
+Raymore,1
+Red Bank,1
+Red Bluff,1
+Red Lodge,1
+Red Oak,1
+Red Wing,1
+Redan,1
+Redlands,1
+Redmond,1
+Redondo Beach,1
+Redruth,1
+Redwood City,1
+Regen,1
+Regina,1
+Rehoboth Beach,1
+Rendon,1
+Renton,1
+Reykjavik,1
+Reynoldsburg,1
+Rheine,1
+Rhome,1
+Rialto,1
+Rib Lake,1
+Rice,1
+Rice Lake,1
+Richfield,1
+Richland Center,1
+Richton,1
+Riga,1
+Rijeka,1
+Ringgold,1
+Rio Linda,1
+Rio Rico,1
+Rio Vista,1
+Rising Sun,1
+River Falls,1
+River Ridge,1
+Riverbank,1
+Riverdale,1
+Riviera Beach,1
+Robbins,1
+Robertsdale,1
+Robinson,1
+Robstown,1
+Rochelle,1
+Rockaway Township,1
+Rockhampton,1
+Rockland,1
+Rockton,1
+Rockwall,1
+Rockwell,1
+Rockwell City,1
+Rockwood,1
+Rohtak,1
+Rolling Meadows,1
+Romeoville,1
+Romney,1
+Roosevelt,1
+Rosamond,1
+Roscommon Township,1
+Rose City,1
+Roslyn,1
+Rossville,1
+Rotherham,1
+Rotorua,1
+Rotterdam,1
+Roxborough Park,1
+Roxbury Township,1
+Royal City,1
+Royal Oak,1
+Ruckersville,1
+Ruffin,1
+Rugby,1
+Rumaithiya,1
+Runnemede,1
+Rushford,1
+Rusk,1
+Ruskin,1
+Rustburg,1
+Rutherford,1
+Rutherfordton,1
+Rutherglen,1
+Rutledge,1
+Rye Brook,1
+Rzeszow,1
+Saihat,1
+Saint Augustine Shores,1
+Saint Clairsville,1
+Saint David,1
+Saint Francis,1
+Saint James,1
+Saint Leonard,1
+Saint Marys,1
+Saint Paris,1
+Saint Petersburg,1
+Saint-Anselme,1
+Saint-Hyacinthe,1
+Saint-Jacques-de-la-Lande,1
+Sainte-Genevieve-des-Bois,1
+Sainte-Marie,1
+Saldanha,1
+Salford,1
+Salta,1
+Saltville,1
+Salunga-Landisville,1
+San Augustine,1
+San Bruno,1
+San Clemente,1
+San Gabriel,1
+San Isidro de El General,1
+San Jose del Cabo,1
+San Jose del Monte City,1
+San Juan del Rio,1
+San Justo,1
+San Luis Rio Colorado,1
+San Salvador de Jujuy,1
+Sanborn,1
+Sand Springs,1
+Sandalfoot Cove,1
+Sandefjord,1
+Sandpoint,1
+Sandwich,1
+Sandy,1
+Sannois,1
+Sant Cugat del Valles,1
+Santa Barbara,1
+Santa Catarina,1
+Santa Monica,1
+Santarem,1
+Santee,1
+Santiago,1
+Santiago De Los Caballeros,1
+Santiago de Queretaro,1
+Santiago del Estero,1
+Sao Jose dos Campos,1
+Sapporo,1
+Saranac Lake,1
+Sarcoxie,1
+Saskatoon,1
+Sassari,1
+Saugatuck,1
+Sautee Nacoochee,1
+Savage,1
+Saxapahaw,1
+Sayville,1
+Schiphol,1
+Schrobenhausen,1
+Scottsbluff,1
+Scottville,1
+Seabrook,1
+Seaford,1
+Sebewaing,1
+Secaucus,1
+Secunda,1
+Sedan,1
+Seekonk,1
+Seguin,1
+Sells,1
+Selmer,1
+Semmes,1
+Sergeant Bluff,1
+Setagaya City,1
+Seuzach,1
+Seven Devils,1
+Severn,1
+Seward,1
+Shady Hills,1
+Shafter,1
+Shah Alam,1
+Shaker Heights,1
+Shallotte,1
+Shamokin,1
+Shasta Lake,1
+Sheboygan,1
+Sheffield,1
+Shelburne,1
+Shelby,1
+Shelley,1
+Shelton,1
+Shenandoah,1
+Shepherd,1
+Sherburn,1
+Sherman,1
+Sherwood,1
+Shibuya,1
+Shiner,1
+Shippensburg,1
+Shorewood,1
+Shrewsbury,1
+Si Maha Phot,1
+Sibiu,1
+Sibley,1
+Sienna,1
+Sigmaringen,1
+Siler City,1
+Silsbee,1
+Silver Lake,1
+Silver Springs Shores,1
+Silverdale,1
+Simsbury,1
+Sint-Niklaas,1
+Sioux Rapids,1
+Skippack,1
+Skokie,1
+Slagelse,1
+Slater-Marietta,1
+Slayton,1
+Sleepy Hollow,1
+Smackover,1
+Smiths Station,1
+Smithton,1
+Smoke Rise,1
+Smyrna,1
+Snyder,1
+Soddy-Daisy,1
+Soest,1
+Solana Beach,1
+Solihull,1
+Soperton,1
+Sora,1
+South Amboy,1
+South Bradenton,1
+South Charleston,1
+South El Monte,1
+South Elgin,1
+South Gate Ridge,1
+South Hill,1
+South Jordan,1
+South Kingstown,1
+South Milwaukee,1
+South Ogden,1
+South Oroville,1
+South Plainfield,1
+South Saint Paul,1
+South San Francisco,1
+South Venice,1
+Southaven,1
+Southside,1
+Spackenkill,1
+Spanaway,1
+Spearman,1
+Spencer,1
+Spiceland,1
+Spijkenisse,1
+Spring Grove,1
+Spring Lake,1
+Springport,1
+Springtown,1
+St Helier,1
+St. Charles,1
+St. John's,1
+St. Joseph,1
+St. Thomas,1
+Stafford,1
+Stanford,1
+Stanfordville,1
+Star City,1
+Stateburg,1
+Statesville,1
+Steger,1
+Stephens City,1
+Stephenson,1
+Stephenville,1
+Steubenville,1
+Stigler,1
+Stockbridge,1
+Stockerau,1
+Stoddard,1
+Stoughton,1
+Stranraer,1
+Stratford,1
+Stratham,1
+Street,1
+Strongsville,1
+Suamico,1
+Sudbury,1
+Sugarmill Woods,1
+Sulphur Springs,1
+Sumiton,1
+Summerton,1
+Summit Township,1
+Sun City,1
+Sun Village,1
+Sunnyside,1
+Surbiton,1
+Surfside Beach,1
+Surrey,1
+Suttons Bay,1
+Swannanoa,1
+Swanton,1
+Swanzey,1
+Swartz,1
+Sweet Home,1
+Swepsonville,1
+Swoyersville,1
+Sylhet,1
+Taean-gun,1
+Taft,1
+Taguig,1
+Takoma Park,1
+Tallinn,1
+Tallmadge,1
+Tangerang,1
+Tanjung Pandan,1
+Tanza,1
+Tappahannock,1
+Tappan,1
+Tarboro,1
+Tarogong Kaler,1
+Tashkent,1
+Tasikmalaya,1
+Tavares,1
+Tavernier,1
+Taylorsville,1
+Tehran,1
+Tel Aviv-Yafo,1
+Telford,1
+Tellico Plains,1
+Teluk Ambon,1
+Teluk Intan,1
+Temperance,1
+Terrace Heights,1
+Tewksbury,1
+Texas City,1
+The Colony,1
+The Dalles,1
+The Pinery,1
+Thembisa,1
+Thetford Mines,1
+Thief River Falls,1
+Thodupuzha,1
+Thohoyandou,1
+Thomas,1
+Thomaston,1
+Thompson,1
+Thomson,1
+Thorntown,1
+Three Lakes,1
+Three Points,1
+Three Rivers,1
+Thurmont,1
+Ticonderoga,1
+Tiffin,1
+Tigard,1
+Tilburg,1
+Timisoara,1
+Tipp City,1
+Tipton,1
+Tobyhanna,1
+Toccoa,1
+Tokorozawa,1
+Tolleson,1
+Toluca,1
+Tomahawk,1
+Tonawanda,1
+Tonganoxie,1
+Tonopah,1
+Toowoomba,1
+Toppenish,1
+Topsfield,1
+Torquay,1
+Torrance,1
+Torrevieja,1
+Toshima City,1
+Toulouse,1
+Towaoc,1
+Towson,1
+Travelers Rest,1
+Trempealeau,1
+Trento,1
+Tri-City,1
+Trophy Club,1
+Trotwood,1
+Troutdale,1
+Trussville,1
+Tryon,1
+Trzebinia,1
+Tucumcari,1
+Tula,1
+Tularosa,1
+Tumwater,1
+Tusayan,1
+Tuscola,1
+Tuskegee,1
+Tuttle,1
+Tuxtla Gutierrez,1
+Tuzla,1
+Twentynine Palms,1
+Twinsburg,1
+Two Rivers,1
+Tyrone,1
+Tysons,1
+Tzaneen,1
+Ubud,1
+Ulaanbaatar,1
+Umlazi,1
+Umm al-Fahm,1
+Underhill,1
+Union Beach,1
+Union Park,1
+Union Springs,1
+Union charter Township,1
+University Heights,1
+Upper Deerfield Township,1
+Upper Nazareth Township,1
+Upplands Vasby,1
+Urtenen-Schonbuhl,1
+Utrecht,1
+Vadakkuvalliyur,1
+Vadnais Heights,1
+Vadodara,1
+Val-des-Sources,1
+Valdese,1
+Valladolid,1
+Valle Vista,1
+Vallejo,1
+Valley,1
+Valley Center,1
+Vansant,1
+Vaslui,1
+Vaughan,1
+Vecindario,1
+Verdigris,1
+Vermilion,1
+Vermillion,1
+Vernal,1
+Vernon Hills,1
+Vero Beach South,1
+Verona,1
+Vidalia,1
+Vidin,1
+Vilanova i la Geltru,1
+Villanova,1
+Villas,1
+Villaviciosa de Odon,1
+Vine Grove,1
+Vineyards,1
+Voluntari,1
+Voorhees Township,1
+Wadena,1
+Wadsworth,1
+Wahiawa,1
+Waihee-Waiehu,1
+Wailea-Makena,1
+Wailua Homesteads,1
+Wailuku,1
+Waipahu,1
+Wakarusa,1
+Waldorf,1
+Waldwick,1
+Wall Township,1
+Waller,1
+Wallis,1
+Walnut Ridge,1
+Walthourville,1
+Warangal,1
+Warden,1
+Ware Shoals,1
+Warrenville,1
+Warrington,1
+Warroad,1
+Warwick,1
+Wasco,1
+Washington Court House,1
+Washington Heights,1
+Washougal,1
+Waskom,1
+Watchung,1
+Waterbury,1
+Waterville,1
+Wauchula,1
+Waukegan,1
+Waupaca,1
+Wausau,1
+Wauseon,1
+Wauwatosa,1
+Waxahachie,1
+Waynesville,1
+Weaverville,1
+Webb City,1
+Webbers Falls,1
+Weddington,1
+Wedowee,1
+Wekiwa Springs,1
+Welcome,1
+Welkom,1
+Wellford,1
+Wembley,1
+Wentzville,1
+West Bloomfield Township,1
+West Goshen,1
+West Hartford,1
+West Hempstead,1
+West Henrietta,1
+West Hollywood,1
+West Islip,1
+West Karawang,1
+West Kelowna,1
+West Lafayette,1
+West Liberty,1
+West Newbury,1
+West Odessa,1
+West Pensacola,1
+West Plains,1
+West Puente Valley,1
+West Sand Lake,1
+West Warwick,1
+Westbrook,1
+Westbury,1
+Westby,1
+Wheatland,1
+Whitby,1
+White Settlement,1
+Whitehouse,1
+Whitesboro,1
+Whitestown,1
+Whiteville,1
+Whiting,1
+Whitley City,1
+Whitman,1
+Whitney,1
+Wiggins,1
+Wild Peach Village,1
+Wildomar,1
+Wildwood,1
+Wildwood Crest,1
+Wilkes-Barre,1
+Wilkins Township,1
+Willcox,1
+Williams,1
+Williamstown,1
+Williamsville,1
+Willingboro,1
+Willow Park,1
+Willow Springs,1
+Willow Street,1
+Willows,1
+Wilton,1
+Wimauma,1
+Winamac,1
+Winchendon,1
+Winnemucca,1
+Winnfield,1
+Winnie,1
+Winona Lake,1
+Winston,1
+Winter,1
+Winter Gardens,1
+Wisconsin Dells,1
+Wisconsin Rapids,1
+Wixom,1
+Woburn,1
+Wolfeboro,1
+Woodbridge Township,1
+Woodcliff Lake,1
+Woodland Park,1
+Woodmere,1
+Woodruff,1
+Woods Creek,1
+Woodsfield,1
+Woodville,1
+Woodward,1
+Woodway,1
+Wooster,1
+Worland,1
+Worthing,1
+Worthington,1
+Wuhan,1
+Wyandotte,1
+Wynne,1
+Wyomissing,1
+Xi'An,1
+Yachiyo,1
+Yamaguchi,1
+Yanbu,1
+Yanceyville,1
+Yates Center,1
+Yeadon,1
+Yellville,1
+Yeovil,1
+Yokohama,1
+Yorkshire,1
+Yorktown,1
+Yucca Valley,1
+Yulee,1
+Zachary,1
+Zalaegerszeg,1
+Zibata,1
+Zilina,1
+Zillah,1
+Zionsville,1
+
+#  
+# Start date: 20240909
+# End date: 20250909
+Nth week,Average engagement time per active user
+0000,165.3694581280788
+0001,89.61234567901235
+0002,457.24028268551234
+0003,100.38951310861424
+0004,114.64686468646865
+0005,112.20625
+0006,159.4792899408284
+0007,93.91025641025641
+0008,115.98939929328623
+0009,329.0693069306931
+0010,203.33440514469453
+0011,121.51985559566786
+0012,161.82758620689654
+0013,149.98097826086956
+0014,131.84858044164037
+0015,343.405
+0016,216.52906976744185
+0017,85.65450643776823
+0018,88.468671679198
+0019,75.3170731707317
+0020,52.5744
+0021,72.90454545454546
+0022,61.42022471910112
+0023,69.23639455782313
+0024,49.79779411764706
+0025,68.34057971014492
+0026,58.68913043478261
+0027,55.07379134860051
+0028,61.18781725888325
+0029,278.3665835411471
+0030,56.36010362694301
+0031,39.86728971962617
+0032,65.90239043824701
+0033,78.62795698924731
+0034,38.67940552016985
+0035,61.22883295194508
+0036,64.88120950323975
+0037,52.33904109589041
+0038,46.2702205882353
+0039,50.634799235181646
+0040,63.45328719723183
+0041,75.97642436149313
+0042,56.40803382663848
+0043,46.62663755458515
+0044,48.29499072356215
+0045,33.621392190152804
+0046,45.008620689655174
+0047,132.03849765258215
+0048,36.36260162601626
+0049,41.52624113475177
+0050,41.75883256528418
+0051,46.95352112676056
+0052,28.108843537414966
+
+# Start date: 20240909
+# End date: 20250909
+Nth week,Engaged sessions per active user
+0000,1.8226600985221675
+0001,2.051851851851852
+0002,2.187279151943463
+0003,2.348314606741573
+0004,2.198019801980198
+0005,2.034375
+0006,2.502958579881657
+0007,2.323717948717949
+0008,2.2862190812720846
+0009,2.1584158415841586
+0010,2.135048231511254
+0011,1.931407942238267
+0012,2.25705329153605
+0013,2.108695652173913
+0014,2.2050473186119874
+0015,2.03
+0016,1.9534883720930232
+0017,1.6888412017167382
+0018,1.731829573934837
+0019,1.6585365853658536
+0020,1.504
+0021,1.665909090909091
+0022,1.5146067415730338
+0023,1.3758503401360545
+0024,1.525735294117647
+0025,1.6884057971014492
+0026,1.5043478260869565
+0027,1.4732824427480915
+0028,1.5609137055837563
+0029,1.658354114713217
+0030,1.6347150259067358
+0031,1.502803738317757
+0032,1.5
+0033,1.6838709677419355
+0034,1.5498938428874736
+0035,1.585812356979405
+0036,1.5421166306695464
+0037,1.417808219178082
+0038,1.443014705882353
+0039,1.3900573613766731
+0040,1.3685121107266436
+0041,1.461689587426326
+0042,1.507399577167019
+0043,1.4039301310043668
+0044,1.3766233766233766
+0045,1.3616298811544991
+0046,1.3635057471264367
+0047,1.1370892018779342
+0048,1.3219512195121952
+0049,1.2836879432624113
+0050,1.2795698924731183
+0051,1.3450704225352113
+0052,1.163265306122449
+
+# Start date: 20240909
+# End date: 20250909
+Nth week,Average engagement time per session
+0000,79.26800472255017
+0001,38.2837552742616
+0002,178.97510373443984
+0003,36.36906377204885
+0004,44.42199488491048
+0005,47.81091877496671
+0006,54.283987915407856
+0007,34.14918414918415
+0008,43.361955085865254
+0009,131.3675889328063
+0010,81.28149100257069
+0011,55.09165302782324
+0012,64.20771144278606
+0013,61.599330357142854
+0014,51.79182156133829
+0015,146.12978723404257
+0016,95.74035989717224
+0017,44.20265780730897
+0018,44.96687898089172
+0019,40.056603773584904
+0020,30.882518796992482
+0021,38.83535108958838
+0022,35.963157894736845
+0023,46.05316742081448
+0024,28.545837723919917
+0025,35.67843631778058
+0026,33.8732747804266
+0027,32.69486404833837
+0028,34.24431818181818
+0029,143.29268292682926
+0030,30.511921458625526
+0031,23.62015503875969
+0032,39.33769322235434
+0033,40.988789237668165
+0034,21.688095238095237
+0035,34.480670103092784
+0036,37.17821782178218
+0037,33.44201312910285
+0038,28.34572072072072
+0039,33.56400506970849
+0040,43.14823529411765
+0041,46.818401937046005
+0042,33.35125
+0043,29.74233983286908
+0044,32.018450184501845
+0045,22.709862385321102
+0046,30.121153846153845
+0047,111.69261318506751
+0048,25.913093858632678
+0049,30.15036045314109
+0050,30.927189988623436
+0051,31.901435406698564
+0052,22.517711171662125
+
+#  
+# Start date: 20240909
+# End date: 20250909
+Event name,Event count
+page_view,64477
+session_start,43618
+user_engagement,36336
+first_visit,21069
+scroll,9628
+click,2076
+video_progress,1363
+video_start,942
+video_complete,142
+file_download,19
+
+#  
+# Start date: 20240909
+# End date: 20250909
+Page title and screen class,Views
+Self-Improvement Coaching for Individuals and Society - NeoThink Society,28208
+Customer Testimonials - NeoThink Society,12590
+Neothink University - NeoThink Society,2341
+Newsletter Signup - Neothink - Begin Neothink Journey,2154
+Home - Neothink - Begin Neothink Journey,1865
+About - Neothink - Begin Neothink Journey,1676
+Free Courses - NeoThink Society,1317
+Contact - Neothink - Begin Neothink Journey,983
+Staging – Begin Your Neothink Journey,888
+Neothink Country: A Digital Nation of Freedom - NeoThink Society,748
+The Prime Law Politics-Free Society - NeoThink Society,524
+About Neothink - Neothink - Begin Neothink Journey,498
+Neothink Coaching Programs - Neothink - Begin Neothink Journey,495
+The Neothink Podcast - Neothink - Begin Neothink Journey,492
+Frequently Asked Questions - NeoThink Society,455
+Formula Cure To Aging Program - NeoThink Society,452
+Upcoming Events - NeoThink Society,442
+Newsletter Signup Thank You - Neothink - Begin Neothink Journey,436
+Twelve Visions Party - NeoThink Society,364
+Project Life - NeoThink Society,354
+Blog & Articles - NeoThink Society,349
+Customer Testimonials – Staging,316
+Contact - Neothink,290
+About Us - Neothink,260
+Newsletter Signup - Neothink,227
+Our Mission - Neothink - Begin Neothink Journey,201
+Home sample – Staging,167
+Podcasts – Staging,150
+The Movement - Neothink - Begin Neothink Journey,147
+Free - Neothink - Begin Neothink Journey,138
+Podcast – Staging,133
+Contact Form Submitted - Neothink - Begin Neothink Journey,118
+Business and Life Coaching Programs - Neothink - Begin Neothink Journey,117
+Page not found - Neothink - Begin Neothink Journey,115
+Ascension: Platform for Business and Personal Growth - NeoThink Society,102
+Podcasts - Neothink - Begin Neothink Journey,102
+About – Staging,100
+How The Neothink Movement Empowers Financial Independence - Neothink - Begin Neothink Journey,99
+Newsletter Signup – Staging,99
+About Us - Neothink - Begin Neothink Journey,93
+Individual Podcast Page – Staging,88
+The Future of Humanity: Everything becomes FREE – Staging,86
+Testimonials - Neothink - Begin Neothink Journey,83
+Neothink University - Neothink - Begin Neothink Journey,75
+Free Courses - Neothink - Begin Neothink Journey,72
+How The Neothink Secret Society Differs From Other Secret Groups - Neothink - Begin Neothink Journey,64
+Mark Hamilton: The Visionary Behind Neothink Ideas For Modern Society - Neothink - Begin Neothink Journey,63
+Neothink Society: Why People Can't Stop Talking About It - Neothink - Begin Neothink Journey,57
+Programs - Neothink - Begin Neothink Journey,57
+How To Excel At Work: 33 Practical Tips For Professional Growth - Neothink - Begin Neothink Journey,56
+Neothink Mentality: A New Way To Look At Life And Work - Neothink - Begin Neothink Journey,54
+Podcast Single – Staging,52
+Privacy Policy - Neothink - Begin Neothink Journey,51
+Blog - Neothink - Begin Neothink Journey,50
+Books - Neothink - Begin Neothink Journey,48
+What Is The NeoThink Society? - Neothink - Begin Neothink Journey,48
+Why You’re Not Passionate About Anything and What to Do About It - Neothink,48
+Formula Cure To Aging - Neothink - Begin Neothink Journey,47
+Podcasts Archive - Neothink - Begin Neothink Journey,43
+Neothink Society: Clearing Up the Misunderstandings About the 'Secret Society' - Neothink - Begin Neothink Journey,41
+Page not found – Staging,41
+Secret Society Invitation: Have You Received This Letter? What Does It Mean? - Neothink - Begin Neothink Journey,41
+What I Offer - Neothink - Begin Neothink Journey,41
+18 Good Financial Habits That Can Change Your Life - Neothink - Begin Neothink Journey,40
+How To Excel At Work: 33 Practical Tips For Professional Growth - Neothink,40
+Why You’re Feeling Stuck In Life And How To Fix It - Neothink,39
+Life Coaching - Neothink - Begin Neothink Journey,38
+Podcast Single – Neothink – Begin Neothink Journey,37
+Resources - Neothink - Begin Neothink Journey,34
+Privacy Policy - Neothink,33
+Twelve Visions Party - Neothink - Begin Neothink Journey,33
+9 Self-Leadership Strategies To Empower Yourself - Neothink - Begin Neothink Journey,32
+Elementor Footer #1748 – Neothink – Begin Neothink Journey,32
+How The Neothink Secret Society Differs From Other Secret Groups - Neothink,32
+The Secret Society Reveals Civilization’s ONLY Hope for a Good Future – Staging,31
+What People Get Wrong About Neothink University And What’s Actually True - Neothink - Begin Neothink Journey,30
+Blog Page – Neothink – Begin Neothink Journey,28
+The Future of Humanity: Everything becomes FREE - Neothink - Begin Neothink Journey,28
+How to Find Your Passion in Life and Career - Neothink - Begin Neothink Journey,27
+Sample Page - Neothink - Begin Neothink Journey,27
+Blog Content Page – Neothink – Begin Neothink Journey,26
+Podcast – Neothink – Begin Neothink Journey,26
+Is Starting Over At 50 Too Late For Success? - Neothink - Begin Neothink Journey,25
+The Prime Law - Neothink - Begin Neothink Journey,25
+Adulting Doesn't Have To Be Boring: How To Have Fun As An Adult - Neothink - Begin Neothink Journey,24
+Events - Neothink - Begin Neothink Journey,24
+How To Join Neothink Society Secret Meetings - Neothink - Begin Neothink Journey,24
+Neothink In The 21st Century: How To Navigate Today's Challenges - Neothink - Begin Neothink Journey,24
+Subpages – Neothink – Begin Neothink Journey,24
+What Do Secret Societies Do? Understanding Their Purpose And Existence - Neothink - Begin Neothink Journey,23
+Thriving In Your Career: Strategies For Overcoming Burnout And Advancing As A Leader - Neothink - Begin Neothink Journey,22
+18 Good Financial Habits That Can Change Your Life - Neothink,21
+Creating Success Stories With NeoThink Mastermind Group - Neothink - Begin Neothink Journey,21
+"Joe, Author at Neothink - Begin Neothink Journey",21
+"September 12, 2024 - Neothink - Begin Neothink Journey",21
+The Ancient Formula For Wealth And Influence: Does Neothink Hold The Answer? - Neothink - Begin Neothink Journey,21
+Watch This To NEVER Be Manipulated Again – Staging,21
+What’s the Truth About the Neothink Society? Separating Fact from Fiction - Neothink,21
+Why You’re Feeling Stuck In Life And How To Fix It - Neothink - Begin Neothink Journey,21
+9 Self-Leadership Strategies To Empower Yourself - Neothink,20
+Adulting Doesn't Have To Be Boring: How To Have Fun As An Adult - Neothink,20
+Contact – Staging,20
+FAQ - Neothink - Begin Neothink Journey,20
+Is the Neothink Society Legit? Everything You Need to Know - Neothink - Begin Neothink Journey,20
+"April 1, 2025 - Neothink - Begin Neothink Journey",19
+"April 12, 2025 - Neothink - Begin Neothink Journey",19
+"August 26, 2024 - Neothink - Begin Neothink Journey",19
+Neothink Country - Neothink - Begin Neothink Journey,19
+What’s the Truth About the Neothink Society? Separating Fact from Fiction - Neothink - Begin Neothink Journey,19
+"April 6, 2025 - Neothink - Begin Neothink Journey",18
+How The Neothink Movement Empowers Financial Independence - Neothink,18
+"July 1, 2024 - Neothink - Begin Neothink Journey",18
+"July 16, 2024 - Neothink - Begin Neothink Journey",18
+"July 8, 2024 - Neothink - Begin Neothink Journey",18
+Neothink Books: Do They Reveal A Secret World? - Neothink - Begin Neothink Journey,18
+The Benefits Of Becoming An Active Neothink Member - Neothink - Begin Neothink Journey,18
+I Used LUCK to Make a Fortune and You Can Too – The Neothink Mentality – Staging,17
+Is the Neothink Society Legit? Everything You Need to Know - Neothink,17
+About - Duplicate - [#494] -New - Neothink - Begin Neothink Journey,16
+"April 21, 2025 - Neothink - Begin Neothink Journey",16
+Books – Staging,16
+"July 31, 2024 - Neothink - Begin Neothink Journey",16
+Neothink Mentality: A New Way To Look At Life And Work - Neothink,16
+7 Ways To Find Happiness in Retirement - Neothink,15
+9 Effective Steps To Create And Maintain A Healthy Mindset - Neothink,15
+9 Effective Steps To Create And Maintain A Healthy Mindset - Neothink - Begin Neothink Journey,15
+"April 24, 2025 - Neothink - Begin Neothink Journey",15
+"April 9, 2025 - Neothink - Begin Neothink Journey",15
+Creating A New Society Without A Suppression Ruling Class – Staging,15
+"February 25, 2025 - Neothink - Begin Neothink Journey",15
+"July 24, 2024 - Neothink - Begin Neothink Journey",15
+Podcast Card Small – Staging,15
+"April 28, 2025 - Neothink - Begin Neothink Journey",14
+You're Being Manipulated! They use Guilt to Control You! Mark Hamilton - Neothink - Begin Neothink Journey,14
+"(redacted), Author at Neothink - Begin Neothink Journey",13
+"April 18, 2025 - Neothink - Begin Neothink Journey",13
+"April 3, 2025 - Neothink - Begin Neothink Journey",13
+Are 'Secret Societies' Really That Secret? - Neothink - Begin Neothink Journey,13
+Blog – Staging,13
+Podcast Card Lg – Neothink – Begin Neothink Journey,13
+Privacy Policy – Staging,13
+What I Offer – Staging,13
+Why You’re Not Passionate About Anything and What to Do About It - Neothink - Begin Neothink Journey,13
+7 Ways To Find Happiness in Retirement - Neothink - Begin Neothink Journey,12
+"March 10, 2025 - Neothink - Begin Neothink Journey",12
+"March 15, 2025 - Neothink - Begin Neothink Journey",12
+"March 25, 2025 - Neothink - Begin Neothink Journey",12
+"March 28, 2025 - Neothink - Begin Neothink Journey",12
+"March 31, 2025 - Neothink - Begin Neothink Journey",12
+"March 5, 2025 - Neothink - Begin Neothink Journey",12
+Mark Hamilton: The Visionary Behind Neothink Ideas For Modern Society - Neothink,12
+Neothink Society: Clearing Up the Misunderstandings About the 'Secret Society' - Neothink,12
+People Say Neothink Is Unrealistic: Is It Too Good To Be True? - Neothink - Begin Neothink Journey,12
+Recent-podcast – Staging,12
+"Universal Wealth, Health, and Peace on Earth – Staging",12
+What Is The Purpose Of Life and How Can We Discover It? - Neothink,12
+"April 15, 2025 - Neothink - Begin Neothink Journey",11
+"February 20, 2025 - Neothink - Begin Neothink Journey",11
+How To Make Money As A Stay-At-Home Mom In 2025 - Neothink - Begin Neothink Journey,11
+"March 1, 2025 - Neothink - Begin Neothink Journey",11
+Project Life - Neothink - Begin Neothink Journey,11
+What Is The Purpose Of Life and How Can We Discover It? - Neothink - Begin Neothink Journey,11
+Elementor Loop Item #2957 – Staging,10
+"Embracing Retirement: Finding Purpose, Passion, And Personal Growth in the Next Chapter of Life - Neothink",10
+How To Break Bad Habits: 10 Personal Transformation Tips - Neothink,10
+How To Discern Genuine Secret Society Opportunities From Fraud - Neothink - Begin Neothink Journey,10
+How to Deal With Financial Stress and Build a Solid Financial Foundation - Neothink - Begin Neothink Journey,10
+Loop Item – Blog Posts – Neothink – Begin Neothink Journey,10
+Neothink Manuscripts: From Skepticism To Multigenerationals Wisdom - Neothink - Begin Neothink Journey,10
+Neothink Society: A Path To Wealth Or Just Another Membership? - Neothink - Begin Neothink Journey,10
+Podcast Card Lg – Staging,10
+REPROGRAM your mind to be rich in 1 hour…. The Neothink Approach - Neothink - Begin Neothink Journey,10
+Elementor Loop Item #3564 – Staging,9
+How To Make Money As A Stay-At-Home Mom In 2025 - Neothink,9
+"March 20, 2025 - Neothink - Begin Neothink Journey",9
+Neothink In The 21st Century: How To Navigate Today's Challenges - Neothink,9
+Thank you Mark Hamilton for - Neothink - Begin Neothink Journey,9
+Who Really Joins Secret Societies? The Truth Behind The Members - Neothink - Begin Neothink Journey,9
+Elementor Loop Item #2376 – Staging,8
+"Embracing Retirement: Finding Purpose, Passion, And Personal Growth in the Next Chapter of Life - Neothink - Begin Neothink Journey",8
+Header – Neothink – Begin Neothink Journey,8
+How To Break Bad Habits: 10 Personal Transformation Tips - Neothink - Begin Neothink Journey,8
+How to Deal With Financial Stress and Build a Solid Financial Foundation - Neothink,8
+I am using the tools - Neothink - Begin Neothink Journey,8
+"June 16, 2025 - Neothink - Begin Neothink Journey",8
+"June 23, 2025 - Neothink - Begin Neothink Journey",8
+"June 30, 2025 - Neothink - Begin Neothink Journey",8
+"June 9, 2025 - Neothink - Begin Neothink Journey",8
+Podcast Card Small – Neothink – Begin Neothink Journey,8
+Top Podcast Section – Staging,8
+Contact Form (ID #2601) – Staging,7
+Elementor Loop Item #2948 – Staging,7
+Elementor Loop Item #3119 – Staging,7
+"July 14, 2025 - Neothink - Begin Neothink Journey",7
+"July 7, 2025 - Neothink - Begin Neothink Journey",7
+Mark Hamilton’s Neothink: The Surprising Logic Behind Its Teachings - Neothink - Begin Neothink Journey,7
+Secret Society Letters: Are They Just Selling Happiness? - Neothink - Begin Neothink Journey,7
+So far I can say - Neothink - Begin Neothink Journey,7
+Are We the Illuminati? The Truth Behind the Allegations – MH Explains - Neothink - Begin Neothink Journey,6
+Exclusive Access to Mark's Masterclass [FREE] - Neothink - Begin Neothink Journey,6
+I could write for days - Neothink - Begin Neothink Journey,6
+"Joe, Author at Neothink - Begin Neothink Journey - Page 3 of 3",6
+"Over the past several months, - Neothink - Begin Neothink Journey",6
+Test Page – Staging,6
+The Tools to Turn What You Love Into A Career – Staging,6
+A Process for Finding & Achieving Your Life’s Purpose: Mark Hamilton – Staging,5
+Aliens Are Real… But They’ll Never Visit Earth – Here’s Why - Neothink - Begin Neothink Journey,5
+Aliens Are Real… But They’ll Never Visit Earth – Here’s Why – Staging,5
+"Bonsoir Cher Mark HAMILTON,Depuis toutes - Neothink - Begin Neothink Journey",5
+Elementor Loop Item #3477 – Neothink – Begin Neothink Journey,5
+For me this journey with - Neothink - Begin Neothink Journey,5
+Freedom is the KEY to Unlocking True Wealth in 2024 – Staging,5
+I have an FNE for - Neothink - Begin Neothink Journey,5
+I received back in the - Neothink - Begin Neothink Journey,5
+I’m so very greatful for - Neothink - Begin Neothink Journey,5
+"Joe, Author at Neothink - Begin Neothink Journey - Page 2 of 3",5
+"June 2, 2025 - Neothink - Begin Neothink Journey",5
+Neothink – The Neothink Society,5
+REPROGRAM your mind to be rich in 1 hour…. The Neothink Approach – Staging,5
+Thank you for the incredible - Neothink - Begin Neothink Journey,5
+The Neothink Society Knowledge and - Neothink - Begin Neothink Journey,5
+A New Country with No Taxes? Mark Hamilton - Neothink - Begin Neothink Journey,4
+About Neothink - Duplicate - [#1605] - Neothink - Begin Neothink Journey,4
+Are We the Illuminati? The Truth Behind the Allegations – MH Explains – Staging,4
+Elementor Header #1389 – Staging,4
+Footer Form – Staging,4
+Freedom is the KEY to Unlocking True Wealth in 2024 - Neothink - Begin Neothink Journey,4
+Freeing Society’s Hidden Geniuses with Elon Musk – Staging,4
+I Used LUCK to Make a Fortune and You Can Too - The Neothink Mentality - Neothink - Begin Neothink Journey,4
+I don’t know how you - Neothink - Begin Neothink Journey,4
+"Joe, Author at Neothink - Begin Neothink Journey - Page 3 of 4",4
+"July 21, 2025 - Neothink - Begin Neothink Journey",4
+The Tools to Turn What You Love Into A Career - Neothink - Begin Neothink Journey,4
+"Universal Wealth, Health, and Peace on Earth - Neothink - Begin Neothink Journey",4
+A New Country with No Taxes? Mark Hamilton – Staging,3
+A Process for Finding & Achieving Your Life's Purpose: Mark Hamilton - Neothink - Begin Neothink Journey,3
+"August 4, 2025 - Neothink - Begin Neothink Journey",3
+Escape the Matrix NOW: Mark Hamilton - Neothink - Begin Neothink Journey,3
+Freeing Society's Hidden Geniuses with Elon Musk - Neothink - Begin Neothink Journey,3
+"Hi Mark,Thank you for the - Neothink - Begin Neothink Journey",3
+I was so fortunate growing - Neothink - Begin Neothink Journey,3
+Is Trump's Victory the Beginning of a New Era? - Neothink - Begin Neothink Journey,3
+"Joe, Author at Neothink - Begin Neothink Journey - Page 2 of 2",3
+"Joe, Author at Neothink - Begin Neothink Journey - Page 2 of 4",3
+"Joe, Author at Neothink - Begin Neothink Journey - Page 2 of 5",3
+"Joe, Author at Neothink - Begin Neothink Journey - Page 3 of 5",3
+"July 28, 2025 - Neothink - Begin Neothink Journey",3
+"Me cher , Mark Hamilton - Neothink - Begin Neothink Journey",3
+My very special thanks to - Neothink - Begin Neothink Journey,3
+Thank You Mr. Mark Hamilton - Neothink - Begin Neothink Journey,3
+Thank you Mark. What an - Neothink - Begin Neothink Journey,3
+The Secret Society Reveals Civilization's ONLY Hope for a Good Future - Neothink - Begin Neothink Journey,3
+Think Like Elon Musk: The Mind Hacks That Build Billion-Dollar Empires - Neothink - Begin Neothink Journey,3
+Think Like Elon Musk: The Mind Hacks That Build Billion-Dollar Empires – Staging,3
+This is How Close We Are to Biological Immortality: Mark Hamilton - Neothink - Begin Neothink Journey,3
+This is How Close We Are to Biological Immortality: Mark Hamilton – Staging,3
+Top Podcast Section – Neothink – Begin Neothink Journey,3
+Want to Sell Anything in 2024? Here's the Secret! - Neothink - Begin Neothink Journey,3
+Watch This To NEVER Be Manipulated Again - Neothink - Begin Neothink Journey,3
+"August 11, 2025 - Neothink - Begin Neothink Journey",2
+Creating A New Society Without A Suppression Ruling Class - Neothink - Begin Neothink Journey,2
+Elementor #3161 - Neothink - Begin Neothink Journey,2
+Elementor #7 – Staging,2
+Elementor #9 – Staging,2
+Elementor Single Post #3312 – Staging,2
+Escape the Matrix NOW: Mark Hamilton – Staging,2
+Header Form – Staging,2
+Hi Mark I’m glad to - Neothink - Begin Neothink Journey,2
+Hi my name is Christian - Neothink - Begin Neothink Journey,2
+I'm new to neothink and - Neothink - Begin Neothink Journey,2
+Individual Podcast – Staging,2
+Is Trump’s Victory the Beginning of a New Era? – Staging,2
+Lorem Ipsum is simply dummy – Staging,2
+Mark Hamilton you open my - Neothink - Begin Neothink Journey,2
+Not Found,2
+Podcastss – Staging,2
+REPROGRAM your mind to be rich in 1 hour.... The Neothink Approach - Neothink - Begin Neothink Journey,2
+Sample Page – Staging,2
+Thank you Mark for selecting - Neothink - Begin Neothink Journey,2
+Thank you Mark for this - Neothink - Begin Neothink Journey,2
+Thank you. I am so - Neothink - Begin Neothink Journey,2
+Want to Sell Anything in 2024? Here’s the Secret! – Staging,2
+You’re Being Manipulated! They use Guilt to Control You! Mark Hamilton – Staging,2
+recent podcasts – Staging,2
+個人と社会のための自己啓発コーチング - NeoThink Society,2
+- Neothink - Begin Neothink Journey,1
+-Mark. I just can’t believe - Neothink - Begin Neothink Journey,1
+CTA and form Column – Staging,1
+Coaching de superación personal para individuos y sociedad - NeoThink Society,1
+Contact Us – Neothink – Begin Neothink Journey,1
+Elementor Archive #3323 – Staging,1
+Elementor Archive #3340 – Staging,1
+Elementor Single Page #3327 – Staging,1
+Elementor Single Post #3335 – Staging,1
+FREE Access Mark Hamilton's Masterclass - Neothink - Begin Neothink Journey,1
+Have come many myriads of - Neothink - Begin Neothink Journey,1
+Hero – Staging,1
+I like to come - Neothink - Begin Neothink Journey,1
+Newsletter Signup - Duplicate - [#1434] - Neothink - Begin Neothink Journey,1
+Newsletter Signup Thank You - Duplicate - [#3029] - Neothink - Begin Neothink Journey,1
+Search Results for “” – Staging,1
+Test – Staging,1
+Thank you Mark Hamilton for – Staging,1
+Uncategorized Archives - Neothink - Begin Neothink Journey,1
+Uncategorized Archives - Page 2 of 4 - Neothink - Begin Neothink Journey,1
+Uncategorized Archives - Page 3 of 4 - Neothink - Begin Neothink Journey,1
+Uncategorized Archives - Page 4 of 4 - Neothink - Begin Neothink Journey,1
+You searched for - Neothink - Begin Neothink Journey,1
+You searched for - Page 2 of 4 - Neothink - Begin Neothink Journey,1
+You searched for - Page 3 of 4 - Neothink - Begin Neothink Journey,1
+​Self-Improvement Coaching for Individuals and Society - NeoThink Society,1
+
+#  
+# Start date: 20240909
+# End date: 20250909
+Nth day,DAU / MAU,DAU / WAU,WAU / MAU
+0000,0.07339449541284404,0.12779552715654952,0.5743119266055046
+0001,0.07726465364120781,0.23450134770889489,0.32948490230905864
+0002,0.059636992221261884,0.19827586206896552,0.30077787381158166
+0003,0.061396131202691336,0.1978319783197832,0.3103448275862069
+0004,0.06097560975609756,0.1889168765743073,0.3227642276422764
+0005,0.06043956043956044,0.175,0.3453689167974882
+0006,0.06198034769463341,0.17446808510638298,0.35525321239606955
+0007,0.058388765705838876,0.17248908296943233,0.3385070214338507
+0008,0.04492753623188406,0.14285714285714285,0.3144927536231884
+0009,0.05970149253731343,0.18666666666666668,0.31982942430703626
+0010,0.047156726768377254,0.1514476614699332,0.31137309292649096
+0011,0.03650137741046832,0.12325581395348838,0.29614325068870523
+0012,0.029669588671611596,0.10864197530864197,0.2730950775455158
+0013,0.020763563295378432,0.08516483516483517,0.24380442062960483
+0014,0.04924491135915955,0.2077562326869806,0.23703217334208798
+0015,0.027219701879455604,0.12103746397694524,0.22488658457550226
+0016,0.02849740932642487,0.14193548387096774,0.20077720207253885
+0017,0.04145408163265306,0.2090032154340836,0.19834183673469388
+0018,0.024203821656050957,0.12794612794612795,0.189171974522293
+0019,0.02088607594936709,0.1166077738515901,0.17911392405063292
+0020,0.0194601381042059,0.1099290780141844,0.17702448210922786
+0021,0.03364485981308411,0.20300751879699247,0.16573208722741434
+0022,0.02871410736579276,0.17692307692307693,0.16229712858926343
+0023,0.039190897597977246,0.22382671480144403,0.17509481668773705
+0024,0.034954407294832825,0.184,0.1899696048632219
+0025,0.042602633617350893,0.20754716981132076,0.20526723470178157
+0026,0.02641802641802642,0.12734082397003746,0.20745920745920746
+0027,0.038729666924864445,0.1736111111111111,0.22308288148721922
+0028,0.040092521202775636,0.18055555555555555,0.2220508866615266
+0029,0.04885496183206107,0.2064516129032258,0.2366412213740458
+0030,0.05112316034082107,0.21221864951768488,0.24089852827265684
+0031,0.04810725552050473,0.18711656441717792,0.25709779179810727
+0032,0.03668261562998405,0.14465408805031446,0.2535885167464115
+0033,0.01804757998359311,0.07260726072607261,0.24856439704675964
+0034,0.028740490278951817,0.11724137931034483,0.2451394759087067
+0035,0.048484848484848485,0.1891891891891892,0.25627705627705627
+0036,0.05565371024734982,0.21283783783783783,0.26148409893992935
+0037,0.06426056338028169,0.24013157894736842,0.2676056338028169
+0038,0.045936395759717315,0.17627118644067796,0.26060070671378094
+0039,0.05225225225225225,0.19205298013245034,0.27207207207207207
+0040,0.03646308113035551,0.125,0.2917046490428441
+0041,0.07658058771148708,0.23497267759562843,0.3259127337488869
+0042,0.042152466367713005,0.12947658402203857,0.3255605381165919
+0043,0.05799648506151142,0.1813186813186813,0.31985940246045697
+0044,0.05658709106984969,0.18233618233618235,0.3103448275862069
+0045,0.04363312555654497,0.14285714285714285,0.3054318788958148
+0046,0.04162976085031001,0.14156626506024098,0.2940655447298494
+0047,0.05080213903743316,0.16863905325443787,0.30124777183600715
+0048,0.048802129547471165,0.1779935275080906,0.2741792369121562
+0049,0.047787610619469026,0.17088607594936708,0.27964601769911507
+0050,0.059027777777777776,0.2138364779874214,0.2760416666666667
+0051,0.047372954349698536,0.1757188498402556,0.2695951765719208
+0052,0.04798628963153385,0.17777777777777778,0.2699228791773779
+0053,0.04055220017256255,0.1501597444089457,0.270060396893874
+0054,0.04288164665523156,0.16025641025641027,0.26758147512864494
+0055,0.034782608695652174,0.13071895424836602,0.26608695652173914
+0056,0.036521739130434785,0.13861386138613863,0.2634782608695652
+0057,0.04978165938864629,0.1972318339100346,0.25240174672489085
+0058,0.042068361086765996,0.17142857142857143,0.24539877300613497
+0059,0.0621172353455818,0.24315068493150685,0.2554680664916885
+0060,0.03801945181255526,0.14675767918088736,0.25906277630415564
+0061,0.034728406055209264,0.13780918727915195,0.25200356188780054
+0062,0.03587443946188341,0.14035087719298245,0.2556053811659193
+0063,0.0365093499554764,0.14695340501792115,0.24844167408726625
+0064,0.05536028119507909,0.2202797202797203,0.2513181019332162
+0065,0.04912280701754386,0.19047619047619047,0.2578947368421053
+0066,0.06097560975609756,0.23728813559322035,0.2569686411149826
+0067,0.05030891438658429,0.18811881188118812,0.2674315975286849
+0068,0.036251105216622455,0.1353135313531353,0.26790450928381965
+0069,0.05721830985915493,0.19938650306748465,0.2869718309859155
+0070,0.057391304347826085,0.1907514450867052,0.3008695652173913
+0071,0.05648720211827008,0.1797752808988764,0.3142100617828773
+0072,0.04133685136323659,0.13544668587896252,0.3051890941072999
+0073,0.046819787985865724,0.15680473372781065,0.29858657243816256
+0074,0.03590664272890485,0.12158054711246201,0.29533213644524237
+0075,0.021758839528558477,0.07717041800643087,0.28195829555757024
+0076,0.030965391621129327,0.11971830985915492,0.2586520947176685
+0077,0.04557885141294439,0.18518518518518517,0.24612579762989972
+0078,0.06474820143884892,0.25622775800711745,0.2526978417266187
+0079,0.05323868677905945,0.20689655172413793,0.2573203194321207
+0080,0.025225225225225224,0.1044776119402985,0.24144144144144145
+0081,0.03167420814479638,0.12962962962962962,0.24434389140271492
+0082,0.027447392497712716,0.10830324909747292,0.25343092406221407
+0083,0.039341262580054895,0.15412186379928317,0.2552607502287283
+0084,0.058287795992714025,0.2222222222222222,0.26229508196721313
+0085,0.07630878438331855,0.28762541806020064,0.2653061224489796
+0086,0.06851691240242845,0.2523961661341853,0.27146574154379877
+0087,0.06174957118353345,0.21364985163204747,0.2890222984562607
+0088,0.02512998266897747,0.08841463414634146,0.28422876949740034
+0089,0.020535714285714286,0.07210031347962383,0.28482142857142856
+0090,0.043401240035429584,0.14984709480122324,0.2896368467670505
+0091,0.06353350739773717,0.2153392330383481,0.2950391644908616
+0092,0.06542056074766354,0.2298507462686567,0.28462192013593884
+0093,0.05906821963394343,0.21515151515151515,0.27454242928452577
+0094,0.052980132450331126,0.19393939393939394,0.2731788079470199
+0095,0.04658901830282862,0.15819209039548024,0.2945091514143095
+0096,0.03956228956228956,0.12771739130434784,0.30976430976430974
+0097,0.03634826711749789,0.11911357340720222,0.305156382079459
+0098,0.037383177570093455,0.1317365269461078,0.28377230246389124
+0099,0.07088607594936709,0.24705882352941178,0.2869198312236287
+0100,0.05143338954468803,0.18484848484848485,0.2782462057335582
+0101,0.05499153976311337,0.2,0.2749576988155668
+0102,0.0379746835443038,0.14150943396226415,0.2683544303797468
+0103,0.034129692832764506,0.12618296529968454,0.27047781569965873
+0104,0.03178694158075601,0.1189710610932476,0.26718213058419243
+0105,0.03898305084745763,0.14556962025316456,0.2677966101694915
+0106,0.02049530315969257,0.08856088560885608,0.2314261315115286
+0107,0.02677029360967185,0.12601626016260162,0.21243523316062177
+0108,0.0291005291005291,0.14864864864864866,0.19576719576719576
+0109,0.038392857142857145,0.19545454545454546,0.19642857142857142
+0110,0.015315315315315315,0.085,0.18018018018018017
+0111,0.050134288272157566,0.25806451612903225,0.19427036705461057
+0112,0.03849597135183527,0.20476190476190476,0.18800358102059087
+0113,0.036541889483065956,0.18141592920353983,0.2014260249554367
+0114,0.05360281195079086,0.23461538461538461,0.22847100175746923
+0115,0.0818260120585702,0.29874213836477986,0.2739018087855297
+0116,0.04104803493449782,0.146875,0.2794759825327511
+0117,0.03866432337434095,0.12790697674418605,0.3022847100175747
+0118,0.03577661431064572,0.12238805970149254,0.29232111692844676
+0119,0.060759493670886074,0.1956521739130435,0.3105485232067511
+0120,0.07559572719802794,0.22384428223844283,0.33771569433032045
+0121,0.0809943865276664,0.226457399103139,0.35765838011226947
+0122,0.0689928628072958,0.19817767653758542,0.3481363996827914
+0123,0.0583596214511041,0.16192560175054704,0.36041009463722395
+0124,0.04,0.10944206008583691,0.36549019607843136
+0125,0.03526645768025078,0.09574468085106383,0.3683385579937304
+0126,0.030612244897959183,0.087248322147651,0.35086342229199374
+0127,0.055130168453292494,0.16705336426914152,0.33001531393568145
+0128,0.048835462058602556,0.163727959697733,0.29827197595792637
+0129,0.06994047619047619,0.23325062034739455,0.29985119047619047
+0130,0.052941176470588235,0.1782178217821782,0.29705882352941176
+0131,0.03526818515797208,0.12030075187969924,0.2931667891256429
+0132,0.04163623082542001,0.14039408866995073,0.29656683710737763
+0133,0.032846715328467155,0.11056511056511056,0.29708029197080293
+0134,0.050143266475644696,0.17587939698492464,0.2851002865329513
+0135,0.05935754189944134,0.20481927710843373,0.28980446927374304
+0136,0.058546433378196504,0.2111650485436893,0.2772543741588156
+0137,0.062135922330097085,0.2206896551724138,0.2815533980582524
+0138,0.0399746192893401,0.13968957871396895,0.28616751269035534
+0139,0.042633228840125395,0.1459227467811159,0.2921630094043887
+0140,0.08147713950762016,0.24733096085409254,0.32942555685814773
+0141,0.061155152887882216,0.18,0.33975084937712347
+0142,0.05683060109289618,0.16747181964573268,0.33934426229508197
+0143,0.03984921917070544,0.12211221122112212,0.3263327948303716
+0144,0.039058319957196365,0.12457337883959044,0.3135366506153023
+0145,0.05291005291005291,0.16,0.3306878306878307
+0146,0.03981141959140912,0.12101910828025478,0.3289680460974332
+0147,0.035269709543568464,0.1223021582733813,0.2883817427385892
+0148,0.04434250764525994,0.1638418079096045,0.2706422018348624
+0149,0.039979757085020245,0.154296875,0.2591093117408907
+0150,0.03777437468095967,0.14538310412573674,0.2598264420622767
+0151,0.035306334371754934,0.136,0.25960539979231567
+0152,0.019576719576719578,0.08409090909090909,0.2328042328042328
+0153,0.024141630901287552,0.10948905109489052,0.22049356223175964
+0154,0.04504504504504504,0.19630484988452657,0.2294647588765236
+0155,0.033192834562697573,0.15328467153284672,0.21654373024236037
+0156,0.032915360501567396,0.1590909090909091,0.20689655172413793
+0157,0.04112441436751692,0.1984924623115578,0.20718375845913586
+0158,0.04020618556701031,0.18840579710144928,0.2134020618556701
+0159,0.03673047077082255,0.15955056179775282,0.23021210553543714
+0160,0.04316546762589928,0.1761006289308176,0.24511819116135664
+0161,0.044836272040302265,0.18275154004106775,0.24534005037783374
+0162,0.052891744933267426,0.2018867924528302,0.2619871478002966
+0163,0.047619047619047616,0.17584369449378331,0.2708032708032708
+0164,0.04601518026565465,0.16695352839931152,0.27561669829222013
+0165,0.047462406015037595,0.16805324459234608,0.2824248120300752
+0166,0.026527711984841308,0.09523809523809523,0.2785409758408337
+0167,0.05863039399624766,0.19904458598726116,0.2945590994371482
+0168,0.037383177570093455,0.13114754098360656,0.2850467289719626
+0169,0.05144694533762058,0.1821138211382114,0.28249885163068444
+0170,0.04131455399061033,0.14473684210526316,0.28544600938967135
+0171,0.04376470588235294,0.1537190082644628,0.2847058823529412
+0172,0.024531024531024532,0.09074733096085409,0.2703222703222703
+0173,0.0189873417721519,0.07169117647058823,0.26484907497565724
+0174,0.03282704556589907,0.1359026369168357,0.24154826065654092
+0175,0.04317617866004963,0.1743486973947896,0.24764267990074443
+0176,0.03869047619047619,0.16774193548387098,0.23065476190476192
+0177,0.035538005923000986,0.16071428571428573,0.2211253701875617
+0178,0.04156358238495794,0.19489559164733178,0.2132607619990104
+0179,0.022132796780684104,0.10426540284360189,0.21227364185110664
+0180,0.016359918200409,0.07729468599033816,0.2116564417177914
+0181,0.028659160696008188,0.13658536585365855,0.2098259979529171
+0182,0.02399183256763655,0.1246684350132626,0.19244512506380806
+0183,0.04972650422675286,0.24813895781637718,0.20039781203381402
+0184,0.026222894604135148,0.13577023498694518,0.19314170448814927
+0185,0.06721870433511934,0.31724137931034485,0.21188504627374574
+0186,0.0282513395031661,0.1280353200883002,0.2206527033609352
+0187,0.017318159327065808,0.07608695652173914,0.22761009401286492
+0188,0.017632241813602016,0.07972665148063782,0.22115869017632242
+0189,0.028469750889679714,0.12641083521444696,0.22521606507371633
+0190,0.03131416837782341,0.15024630541871922,0.20841889117043122
+0191,0.03225806451612903,0.14726840855106887,0.2190426638917794
+0192,0.04856396866840731,0.24473684210526317,0.19843342036553524
+0193,0.032360742705570295,0.15968586387434555,0.2026525198938992
+0194,0.026058631921824105,0.12213740458015267,0.21335504885993486
+0195,0.022853957636566332,0.10275689223057644,0.22240802675585283
+0196,0.0269209197980931,0.1218274111675127,0.22097588334268087
+0197,0.04252873563218391,0.18362282878411912,0.23160919540229885
+0198,0.03643724696356275,0.1547911547911548,0.2353961827646038
+0199,0.039574719432959246,0.17493472584856398,0.2262256349675133
+0200,0.031927710843373494,0.14133333333333334,0.22590361445783133
+0201,0.044485070079219986,0.18527918781725888,0.2400975015234613
+0202,0.041112454655380895,0.16346153846153846,0.25151148730350664
+0203,0.028415961305925032,0.11435523114355231,0.24848851269649336
+0204,0.04050785973397823,0.16791979949874686,0.24123337363966144
+0205,0.03853211009174312,0.15869017632241814,0.24281345565749235
+0206,0.05356055995130858,0.2100238663484487,0.2550213024954352
+0207,0.041463414634146344,0.15560640732265446,0.26646341463414636
+0208,0.022388059701492536,0.08977556109725686,0.2493781094527363
+0209,0.02184769038701623,0.0945945945945946,0.23096129837702872
+0210,0.037515375153751536,0.15844155844155844,0.23677736777367775
+0211,0.049601959583588484,0.20300751879699247,0.2443355786895285
+0212,0.038391224862888484,0.16030534351145037,0.23948811700182815
+0213,0.056303549571603426,0.23291139240506328,0.24173806609547124
+0214,0.02706027060270603,0.11956521739130435,0.22632226322263221
+0215,0.03450479233226837,0.13989637305699482,0.24664536741214058
+0216,0.044444444444444446,0.16706443914081145,0.266031746031746
+0217,0.036546943919344675,0.13908872901678657,0.2627599243856333
+0218,0.05172413793103448,0.1976470588235294,0.2616995073891626
+0219,0.061861861861861864,0.22008547008547008,0.2810810810810811
+0220,0.06729081334113517,0.23469387755102042,0.28671737858396723
+0221,0.044160371876815804,0.1464354527938343,0.3015688553166764
+0222,0.04039812646370024,0.12897196261682242,0.31323185011709603
+0223,0.041327124563445866,0.13221601489757914,0.31257275902211873
+0224,0.032520325203252036,0.1038961038961039,0.3130081300813008
+0225,0.04610130904951622,0.150278293135436,0.30677290836653387
+0226,0.04799107142857143,0.16443594646271512,0.29185267857142855
+0227,0.05537098560354374,0.19723865877712032,0.2807308970099668
+0228,0.032741398446170925,0.11991869918699187,0.2730299667036626
+0229,0.04157549234135667,0.15139442231075698,0.27461706783369805
+0230,0.04002163331530557,0.14859437751004015,0.2693347755543537
+0231,0.03814713896457766,0.1383399209486166,0.27574931880108994
+0232,0.04076086956521739,0.15151515151515152,0.26902173913043476
+0233,0.047416089504528504,0.17943548387096775,0.2642514651038892
+0234,0.047493403693931395,0.18633540372670807,0.25488126649076515
+0235,0.03179650238473768,0.12526096033402923,0.2538420773714891
+0236,0.03161843515541265,0.12688172043010754,0.2491961414790997
+0237,0.03429796355841372,0.13882863340563992,0.2470525187566988
+0238,0.03648863035430989,0.14870689655172414,0.2453728186144897
+0239,0.04697986577181208,0.18840579710144928,0.24935467217346413
+0240,0.045361875637105,0.18503118503118504,0.24515800203873597
+0241,0.04838709677419355,0.1935483870967742,0.25
+0242,0.02281947261663286,0.09336099585062241,0.24442190669371197
+0243,0.02673521850899743,0.11040339702760085,0.24215938303341902
+0244,0.025089605734767026,0.10722100656455143,0.2339989759344598
+0245,0.03471158754466565,0.14945054945054945,0.23226135783563043
+0246,0.03926568077511474,0.17420814479638008,0.225395206527282
+0247,0.04332493702770781,0.19545454545454546,0.2216624685138539
+0248,0.036980749746707196,0.17548076923076922,0.21073961499493415
+0249,0.03204134366925065,0.1425287356321839,0.2248062015503876
+0250,0.029054410987849975,0.12585812356979406,0.23085050184891706
+0251,0.030801911842804036,0.1297539149888143,0.2373871481678173
+0252,0.04144527098831031,0.17180616740088106,0.2412327311370882
+0253,0.049551924090669476,0.19873150105708245,0.24934106483921983
+0254,0.045714285714285714,0.18487394957983194,0.24727272727272728
+0255,0.0421875,0.16666666666666666,0.253125
+0256,0.025967143614202437,0.10337552742616034,0.25119236883942764
+0257,0.02437703141928494,0.09719222462203024,0.25081256771397614
+0258,0.03358613217768147,0.13449023861171366,0.24972914409534128
+0259,0.03925845147219193,0.15859030837004406,0.247546346782988
+0260,0.059989287627209426,0.2413793103448276,0.2485270487412962
+0261,0.05573080967402734,0.22083333333333333,0.25236593059936907
+0262,0.0592173017507724,0.2237354085603113,0.2646755921730175
+0263,0.04912998976458546,0.1708185053380783,0.28761514841351077
+0264,0.03285420944558522,0.1095890410958904,0.2997946611909651
+0265,0.03762074224707677,0.12312811980033278,0.30554143365531267
+0266,0.03546099290780142,0.11589403973509933,0.3059777102330294
+0267,0.046476761619190406,0.15897435897435896,0.29235382308845576
+0268,0.056640625,0.1939799331103679,0.2919921875
+0269,0.04056695992179863,0.1451048951048951,0.27956989247311825
+0270,0.03057199211045365,0.11567164179104478,0.26429980276134124
+0271,0.03777335984095427,0.13970588235294118,0.27037773359840955
+0272,0.03953147877013177,0.14727272727272728,0.26842362127867253
+0273,0.037360504609412905,0.13949275362318841,0.2678311499272198
+0274,0.053554502369668244,0.19929453262786595,0.26872037914691943
+0275,0.03600189483657035,0.14587332053742802,0.24680246328754146
+0276,0.04060434372049103,0.16506717850287908,0.24598677998111426
+0277,0.03312825366777094,0.1320754716981132,0.2508282063416943
+0278,0.028868906767628964,0.11663479923518165,0.24751538097491718
+0279,0.047685185185185185,0.18727272727272729,0.25462962962962965
+0280,0.04214383875400825,0.16283185840707964,0.2588181401740724
+0281,0.050314465408805034,0.19858156028368795,0.25336927223719674
+0282,0.03732014388489208,0.14612676056338028,0.25539568345323743
+0283,0.03927765237020316,0.15343915343915343,0.25598194130925506
+0284,0.03566591422121896,0.13620689655172413,0.2618510158013544
+0285,0.026781661370857923,0.10207612456747404,0.2623694961416251
+0286,0.029266096352994146,0.11992619926199262,0.2440342188203512
+0287,0.027728085867620753,0.11969111969111969,0.23166368515205724
+0288,0.034100974313551816,0.1574642126789366,0.21656333038086803
+0289,0.040457343887423045,0.18548387096774194,0.218117854001759
+0290,0.05480052608505041,0.2340823970037453,0.2341078474353354
+0291,0.02711111111111111,0.1189083820662768,0.228
+0292,0.02629193109700816,0.11394891944990176,0.23073436083408885
+0293,0.050090252707581225,0.2018181818181818,0.24819494584837545
+0294,0.02718622564567286,0.1079136690647482,0.25192569098323514
+0295,0.03834009923319801,0.1504424778761062,0.2548488949030221
+0296,0.02674524025385313,0.1104868913857678,0.24206708975521304
+0297,0.02585410895660203,0.12043010752688173,0.2146814404432133
+0298,0.026975863700899196,0.12364425162689804,0.21817321344060578
+0299,0.03185924869234427,0.1416490486257928,0.2249167855444603
+0300,0.02757964812173086,0.13679245283018868,0.20161673799334284
+0301,0.03472882968601332,0.167816091954023,0.20694576593720265
+0302,0.02507232401157184,0.12807881773399016,0.19575699132111862
+0303,0.03140096618357488,0.1570048309178744,0.2
+0304,0.041951219512195125,0.19413092550790068,0.21609756097560975
+0305,0.03125,0.14253897550111358,0.21923828125
+0306,0.036567528035104824,0.16375545851528384,0.22330570453437348
+0307,0.02932551319648094,0.12987012987012986,0.22580645161290322
+0308,0.037937743190661476,0.16810344827586207,0.22568093385214008
+0309,0.0370004933399112,0.15432098765432098,0.23976319684262457
+0310,0.05286343612334802,0.20454545454545456,0.25844346549192365
+0311,0.04156358238495794,0.1596958174904943,0.260267194458189
+0312,0.0400990099009901,0.14944649446494465,0.26831683168316833
+0313,0.03670634920634921,0.137291280148423,0.2673611111111111
+0314,0.037276341948310136,0.1358695652173913,0.27435387673956263
+0315,0.043713163064833006,0.1592128801431127,0.27455795677799605
+0316,0.04697336561743341,0.1660958904109589,0.2828087167070218
+0317,0.03873744619799139,0.14516129032258066,0.266857962697274
+0318,0.04465558194774347,0.16549295774647887,0.269833729216152
+0319,0.04226020892687559,0.15397923875432526,0.2744539411206078
+0320,0.041766682669227076,0.14770797962648557,0.2827652424387902
+0321,0.0531764705882353,0.18138041733547353,0.2931764705882353
+0322,0.04627487274409996,0.16,0.2892179546506247
+0323,0.0727519204699503,0.23401162790697674,0.31089019430637144
+0324,0.03969669937555754,0.12769010043041606,0.31088314005352363
+0325,0.03914590747330961,0.12753623188405797,0.3069395017793594
+0326,0.04495853339153208,0.1467236467236467,0.306416412047141
+0327,0.034482758620689655,0.11494252873563218,0.3
+0328,0.03539445628997868,0.1227810650887574,0.28827292110874203
+0329,0.03522920203735144,0.12518853695324283,0.2814091680814941
+0330,0.09252669039145907,0.3183673469387755,0.29062870699881377
+0331,0.15447991761071062,0.4098360655737705,0.3769309989701339
+0332,0.03702457085156513,0.09803921568627451,0.37765062268596433
+0333,0.02055948769801146,0.056429232192414434,0.3643410852713178
+0334,0.021702271956595458,0.06009389671361502,0.3611393692777213
+0335,0.024373730534867976,0.06850618458610847,0.35578876100203116
+0336,0.024754153950491693,0.07005758157389635,0.35334011529331977
+0337,0.03160726294552791,0.10329670329670329,0.30598520511096167
+0338,0.03819329126536034,0.20140105078809106,0.18963799402191964
+0339,0.035479632063074903,0.18914185639229422,0.1875821287779238
+0340,0.029372937293729372,0.14858096828046743,0.1976897689768977
+0341,0.02704485488126649,0.13333333333333333,0.20283641160949867
+0342,0.028665568369028005,0.13964686998394862,0.20527182866556837
+0343,0.03902439024390244,0.17991004497751126,0.21691056910569106
+0344,0.031987075928917606,0.14688427299703263,0.21777059773828755
+0345,0.0405103668261563,0.18513119533527697,0.21881977671451355
+0346,0.03680203045685279,0.1673881673881674,0.21986040609137056
+0347,0.030934343434343436,0.13940256045519203,0.22190656565656566
+0348,0.026540284360189573,0.11914893617021277,0.22274881516587677
+0349,0.03208556149732621,0.1406896551724138,0.22805913809374018
+0350,0.02557625513103884,0.11894273127753303,0.21502999684243765
+0351,0.01824583866837388,0.08864696734059098,0.20582586427656852
+0352,0.02072538860103627,0.11072664359861592,0.1871761658031088
+0353,0.042170644001307614,0.21608040201005024,0.19516181758744688
+0354,0.03665261109309115,0.18585526315789475,0.19721050924424263
+0355,0.04056212072820185,0.19508448540706605,0.2079207920792079
+0356,0.04335443037974684,0.20206489675516223,0.21455696202531646
+0357,0.0567310640907697,0.23627075351213284,0.24011039558417663
+0358,0.03352636391344102,0.13221153846153846,0.25358122523620846
+0359,0.028023149558330795,0.10785463071512309,0.2598233323180018
+0360,0.02586206896551724,0.10062111801242236,0.2570242656449553
+0361,0.028985507246376812,0.10335917312661498,0.28043478260869564
+0362,0.022091310751104567,0.08450704225352113,0.2614138438880707
+0363,0.025659824046920823,0.10785824345146379,0.23790322580645162
+0364,0.04249189773136478,0.2027491408934708,0.20957868203096866
+0365,0.04108610217934977,0.19725557461406518,0.20828867452661665
+
+#  
+# Start date: 20240909
+# End date: 20250909
+Language,Active users
+English,19500
+Spanish,741
+Russian,223
+Arabic,155
+French,105
+Chinese,85
+German,70
+Portuguese,34
+Indonesian,31
+Japanese,31
+Italian,23
+Polish,21
+Romanian,20
+Bengali,19
+Bulgarian,17
+Burmese,16
+Korean,13
+Greek,12
+Persian,12
+Thai,10
+Hungarian,9
+Swedish,9
+Afrikaans,8
+Dutch,8
+Vietnamese,8
+Turkish,7
+Hindi,6
+Urdu,6
+Azerbaijani,5
+Amharic,3
+Basque,3
+Danish,3
+Slovak,3
+Slovenian,3
+Czech,2
+Hebrew,2
+Nepali,2
+Pushto,2
+Swahili,2
+Tamil,2
+Ukrainian,2
+Albanian,1
+Armenian,1
+Bosnian,1
+Croatian,1
+Finnish,1
+Georgian,1
+Hausa,1
+Icelandic,1
+Interlingua,1
+Malay,1
+Malayalam,1
+Norwegian Bokmål,1
+Oromo,1
+Serbian,1
+Southern Sotho,1
+Uzbek,1
