@@ -9,7 +9,9 @@
 
 ## 🎯 Repository Purpose
 
-This repository contains a comprehensive, evidence-based SEO optimization framework for **Neothink.com** - a systematic approach to enhance organic search performance while preserving the site's exceptional 94.48% engagement rate.
+This repository serves as the **strategic research and planning hub** for Neothink's digital transformation. It contains comprehensive SEO optimization research, competitive analysis, and implementation strategies.
+
+**Note:** The actual modern website implementation is in the **neothink-web** repository. This repository provides the strategic foundation and research that guides development.
 
 ### Key Achievements
 - **232 published content pieces** analyzed and documented
@@ -202,12 +204,19 @@ neothink.com/
 
 **🤖 Generated with [Claude Code](https://claude.ai/code)**
 
-## 🧰 Modern Tech Stack (Neothink)
+## 🧰 Modern Tech Stack Research
 
-This repo will evolve into the Next.js front-end (public + member app) backed by the shared Supabase project. For the latest validated stack and Neothink-specific adoption notes:
+This repository contains comprehensive research and planning for Neothink's modern AI-native architecture. **The actual implementation is in neothink-web.**
 
-- modern-tech-stack/NEOTHINK-ADOPTION.md – decisions, versions, and repo roles
-- modern-tech-stack/GAPS-TODO.md – revalidation items and worklist
-- modern-tech-stack/RUNBOOK.md – local/staging run steps
+**Architecture Overview:**
+- **neothink-web:** Modern Next.js 15.5 + React 19.1 application (implementation)
+- **neothink-supabase:** Shared backend database and edge functions
+- **neothink-admin:** Internal administration interface
+- **neothink-com:** Strategic research and planning hub (this repository)
 
-The full background research and technology analyses are mirrored in `modern-tech-stack/`.
+**Key Research Documents:**
+- `modern-tech-stack/NEOTHINK-ADOPTION.md` – Architecture decisions and repository roles
+- `modern-tech-stack/GAPS-TODO.md` – Implementation validation checklist
+- `modern-tech-stack/RUNBOOK.md` – Development workflow procedures
+
+The full background research and technology analyses are available in `modern-tech-stack/`.

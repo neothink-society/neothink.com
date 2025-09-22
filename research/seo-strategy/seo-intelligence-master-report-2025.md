@@ -85,7 +85,7 @@ Optimization Opportunities (Not Critical):
 
 ### 1. Traffic Transformation Targets
 **12-Month Organic Growth Goals:**
-- **Organic Sessions:** 5,634 → 22,536+ (400% increase)
+- **Organic Clicks:** 4,256 → 17,024+ (400% increase target)
 - **Market Share:** 13.4% → 35%+ of total traffic
 - **Non-Brand Growth:** 11% → 45% of organic traffic from discovery
 - **Global Expansion:** Meaningful traffic from 50+ countries
@@ -256,7 +256,7 @@ Expected Impact: +40% conversion rate from organic traffic
 - Content Organization: 100% posts categorized and tagged
 
 **Traffic & Engagement Targets:**
-- Organic Sessions: 5,634 → 7,500+ (+30% minimum)
+- Organic Clicks: 4,256 → 5,533+ (+30% minimum)
 - Engagement Rate: Maintain 94%+ while growing volume
 - Session Duration: Preserve 116+ second average
 - Conversion Tracking: Implement proper organic attribution

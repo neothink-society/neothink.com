@@ -227,6 +227,16 @@ START-HERE.md ← YOU ARE HERE
 └── 🔧 performance/ ← WordPress backup and baseline data
 ```
 
+## 🏗️ **NEOTHINK ECOSYSTEM NAVIGATION**
+
+**Important:** This repository is the **research and planning hub**. For implementation:
+
+### Quick Links to Other Repositories
+- 🌐 **neothink-web:** Modern Next.js application (`../neothink-web/`)
+- 🗄️ **neothink-supabase:** Database backend (`../neothink-supabase/`)
+- 🔧 **neothink-admin:** Admin interface (`../neothink-admin/`)
+- 📋 **Architecture Guide:** [`REPOSITORY_ARCHITECTURE.md`](./REPOSITORY_ARCHITECTURE.md)
+
 **Next Action:** Go to [actions/current-focus/](actions/current-focus/) to see this week's specific tasks and priorities.
 
 ---

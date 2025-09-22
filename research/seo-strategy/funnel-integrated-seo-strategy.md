@@ -79,13 +79,13 @@ Masterclass Registration → 81.62% Show-up → 31.79% Conversion → $497 Level
 ## 💰 Revenue Impact Projections
 
 ### Conservative SEO → Funnel Revenue Model
-**Current Organic Performance:** 5,634 sessions/year
+**Current Organic Performance:** 4,256 clicks/year (3,703 active users)
 **Funnel Conversion Data:** 0.65% traffic-to-Level-2-buyer rate
 
 **Baseline Calculation:**
 ```
-5,634 organic sessions × 0.65% = 36.6 Level 2 customers/year
-36.6 customers × $497 = $18,190 annual revenue from organic → funnel
+4,256 organic clicks × 0.65% = 27.7 Level 2 customers/year
+27.7 customers × $497 = $13,757 annual revenue from organic → funnel
 ```
 
 **Optimized Projection (After SEO Implementation):**
