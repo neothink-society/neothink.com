@@ -20,10 +20,13 @@ This comprehensive reference serves as the definitive guide to understanding Mar
 
 ### **Core Entity Hierarchy (2025)**
 ```
-Mark Hamilton (Founder/Creator)
-├── The Neothink Society (Core Organization/Publisher)
-├── Ascension (Business Growth Platform)
-├── Immortalis/Neovia (Anti-Aging Mission)
+Mark Hamilton (Author/Creator)
+├── The Neothink Society (Organization/Publisher)
+│
+├── Neothink.com (Primary Platform)
+├── Ascension/Ascenders (Prosperity - Value Creators)
+├── Neothinkers (Happiness - Integrated Thinkers)
+├── Immortalis/Immortals (Longevity - Self-Leaders)
 └── Project Life (Longevity Research Initiative)
 
 Supporting Movements:
@@ -31,9 +34,17 @@ Supporting Movements:
 └── FLOW Systems - Business Workflow Platform
 ```
 
+### **Core Philosophical Structure**
+- **Mark Hamilton**: The person/author
+- **Neothink Society**: The organization/publisher
+- **Self-Improvement**: Primary value (virtuously selfish movement)
+- **Entrepreneurship**: Secondary value (virtuously selfless movement)
+- **Core Pillars**: Prosperity, Happiness, Longevity → "Prosper Happily Forever"
+
 ### **Primary Platform Focus**
 - **Neothink.com**: Main educational platform and entry point
-- **Target Audience**: Personal development seekers, business builders, health optimizers
+- **Target Audience**: Modern seekers of prosperity, happiness, and longevity
+- **Value Formula**: Value Creation + Value Reflection = Prosperity and Happiness
 - **Revenue Model**: Educational programs, affiliate commissions, community memberships
 
 ---
@@ -167,6 +178,165 @@ Supporting Movements:
 - **Journey**: 12-level progression through Neothink concepts and applications
 - **Destination**: "Value Creator" achieving eternal exhilaration through authentic contribution
 - **Ultimate Goal**: Evolution into "God-Man" - self-leading individual with extraordinary capabilities
+
+---
+
+## 🎯 **THE THREE CORE HUMAN TYPES**
+
+*The Neothink philosophy identifies three fundamental evolutionary states that align with the three community platforms: Value Creators (Ascenders), Integrated Thinkers (Neothinkers), and Self-Leaders (Immortals).*
+
+### **1. VALUE CREATORS (Ascenders Platform - Prosperity)**
+
+#### **Essence and Identity**
+- **Core Definition**: The fundamental identity and purpose of a human being who has made the evolutionary leap from stagnation to an exhilarating, self-directed life of prosperity
+- **Human Essence**: The essence of man is CREATION—VALUE CREATION. The human mind is the only thing on Earth that can create
+- **The Person You Were Meant to Be**: Being a value creator is the person every human being was meant to be
+- **God-Man Harmony**: Value creation puts an individual in harmony with Zon (consciousness throughout the Universe), whose ultimate desire is to see creation beget creators
+
+#### **Function: How Value Creators Operate**
+**Transition from Value Producer → Value Creator:**
+
+| Value Producer (Stagnation) | Value Creator (Exhilaration) |
+|------------------------------|-------------------------------|
+| Following mode; bicameral-like mentality | Integrated thinking; self-leader mode |
+| Specialized thinking; routine tasks as ends in themselves | Integrated thinking; continually growing puzzle-pictures |
+| Stuck in stagnant routine-rut or job of labor | Open-ended vector of value creation; mini-company structure |
+| Suffers from stagnation, burden of life | Experiences exhilaration, euphoria, happiness |
+
+#### **Key Transformation Mechanisms**
+- **Playing as an Adult**: For adults, creating values is how they play - the mental makeup of the rich
+- **Friday-Night Essence (FNE)**: Taps into deepest motivational root, generating relentless downstream focus
+- **Ten-Second Miracle (TSM)**: Spontaneous insights from numbers-based thinking that spark value creation
+- **Division of Essence**: Evolution beyond division of labor - jobs become mini-companies integrating responsibility with money-making purpose
+
+#### **Purpose and Rewards**
+- **Financial**: Only way to become independently wealthy; bypasses all competition
+- **Personal**: Brings wealth, pride, and happiness; permanent immortal euphoria
+- **Societal**: Greatest contributors to society - job creators and wealth creators
+- **Spiritual**: The meaning of life; deep harmony with self, world, and Universe
+
+### **2. INTEGRATED THINKERS (Neothinkers Platform - Happiness)**
+
+#### **Definition and Nature**
+- **Core Definition**: Individual who has made the evolutionary leap in mental functioning from specialized following mind to creative integrating mind
+- **Mental Evolution**: Second major evolution of human mind (first was bicameral to conscious mind in ancient Greece)
+- **Purpose**: Mind is designed for dynamic integrated thinking, not static routine thinking
+
+#### **Mechanisms of Integrated Thinking**
+
+**1. Common Denominators and Concepts (Foundation)**
+- **Conceptual Thinking**: Integrating random percepts (five senses) into structured concepts
+- **Knowledge Retention**: Forms few large concepts instead of memorizing many specific percepts
+- **Mental Architecture**: Structures knowledge through common denominators
+
+**2. Puzzle-Building (Application)**
+- **Knowledge Integration**: Snapping together knowledge like puzzle pieces
+- **Puzzle-Pictures**: As puzzle grows, picture forms even before all pieces are present
+- **Future Vision**: Puzzle-picture is essentially seeing the future - describing missing portions with omnipotence
+- **Creative Breakthroughs**: Completing puzzle-pictures results in new knowledge and creative insights
+
+**3. Advanced Tools and Techniques**
+- **Numbers-Integrating Mode**: Linking everything to numbers for advanced analysis
+- **Power-Thinking**: Hard, integrated thinking for vast projects and future goals
+- **Power-Concentration**: Burrowing into specifics until whole picture emerges
+- **Power-Responsibility**: Feeling 100% responsible for projects to force integrating mode
+
+#### **Consequences and Advantages**
+- **Self-Leadership**: Internally guided, no external authority needed
+- **Control and Certainty**: Iron-grip control over business with solid, certain decisions
+- **Wealth and Creativity**: Breaks into value creation; becomes more creative than smartest people
+- **Path to Neothink**: Integrated thinking becomes Neothink when conceptual advancements interlock into synergistic knowledge advancement
+
+### **3. SELF-LEADERS (Immortals Platform - Longevity)**
+
+#### **Identity and Essence**
+- **Core Definition**: Individual who has achieved the evolutionary leap representing the person they were meant to be
+- **Internal Authority**: Self-leader is their own authority with internal guidance
+- **The Neothink Man**: Synonymous with person who has entered Neothink mentality
+- **God-Man Evolution**: Ultimate result of overcoming bicameral-like mentality - becomes own guide and god
+- **The Creator**: Defined as creator/value creator, constantly moving into exhilarating creation
+
+#### **Function: Escaping the Following Mode**
+
+| Following Mode (Non-Self-Leader) | Integrated Mode (Self-Leader) |
+|-----------------------------------|-------------------------------|
+| Stuck in routine rut with specialized, dead-end responsibilities | Open-ended vector of creation, constantly building wealth |
+| Seeks external guidance from leaders, managers, politicians | Uses integrated thinking (Neothink) for self-guidance |
+| Suffers from stagnation | Fueled by exhilaration |
+
+#### **The Self-Leader System: Tools for Transformation**
+**Five Core Steps:**
+
+1. **Project Curiosity**: Acquire integrated knowledge about whole business/sphere of influence
+2. **Self-Investment Plan**: Target money-making purposes and open-ended wealth-building mini-companies
+3. **Investing In Oneself**: Master nitty-gritty details, absorb responsibilities for self-guidance evolution
+4. **Overcoming Resistance**: Fight natural bicameral resistance to self-leadership for minimum 30 days
+5. **Mind Muscle (Power Techniques)**: Seven Power Techniques to "muscle" mind into integrated thinking
+   - **Power Approach**: Emotional state of determination and self-authority
+   - **Power-Responsibility**: 100% responsibility feeling that removes externally guided openings
+
+#### **Societal and Political Impact**
+- **Replacing Ruling Class**: Neothink movement aims to replace society of masses with Neothink Society of self-leaders
+- **Depoliticization**: Self-leaders require Prime Law political structure removing man from ruling
+- **Freedom and Prosperity**: Nation of self-leaders enjoys great prosperity, limitless growth, ultimate freedom
+- **Biological Immortality**: Self-leader mentality creates psychological foundation and demand for defeating aging
+
+---
+
+## ⚖️ **PRIMARY VS SECONDARY VALUES**
+
+*Understanding the fundamental hierarchy of the Neothink movement: Self-Improvement leads to Entrepreneurship*
+
+### **Primary Value: Self-Improvement (Virtuously Selfish Movement)**
+
+#### **Foundation of the Movement**
+- **Neothink Movement Definition**: The movement "to improve one's life" and "improve oneself in order to live a better life"
+- **The Journey**: 12-level journey designed to open the door "to the person you were meant to be" and release human potential
+- **Virtuously Selfish**: Improving one's life is the "virtuously selfish movement" - the essential foundation for everything else
+- **Prerequisite for All Else**: Without the shift from value producer to value creator (the psychological cure), the person lacks emotional drive to pursue longevity or world change
+
+#### **Happiness as Internal Outcome**
+- **Stagnation vs Creation**: Stagnation (opposite of value creation) kills the conscious mind and prevents happiness
+- **Value Creation Formula**: "Value creation brings values to society and pride and happiness to oneself"
+- **Eternal Exhilaration**: The creative life experiences new exhilaration each day and never wants to end
+- **Core Curriculum**: Focuses on becoming the creative, wealthy, happy person we were meant to be
+
+### **Secondary Value: Entrepreneurship (Virtuously Selfless Movement)**
+
+#### **Application and Societal Goal**
+- **Society Improvement**: The move to improve society is the "virtuously selfless movement"
+- **TVP/Society Goal**: Championed by Twelve Visions Party (TVP) and Society's entrepreneurship focus
+- **Value Creation for Society**: Bringing new values to society leads to legitimate power and prestige
+- **Business Engine**: Uses business and marketing to drive societal change forward
+
+#### **The Inevitable Connection**
+- **Creating Demand**: Self-improvement movement creates the demand for longer life and better society
+- **Joined Path**: Personal success and Neothink goal "can and will eventually join together"
+- **Final Step**: Once person breaks through into value creation (happiness), they discover "deeper love for life that is eternal"
+- **Passionate Pursuit**: At breakthrough point, they "will pursue with a passion a superpuzzle laid out in the Society" (large-scale virtuously selfless mission)
+
+### **The Complete Formula**
+```
+Self-Improvement (Internal) → Happiness & Wealth → Entrepreneurship (External) → Societal Value
+    |                                |                      |                        |
+Virtuously Selfish              Value Creation         Virtuously Selfless    Better World
+    |                                |                      |                        |
+Personal Transformation    →    Sustainable Joy    →    External Contribution  →  Civilization Advancement
+```
+
+### **Value Creation + Value Reflection = Prosperity and Happiness**
+
+#### **Value Creation (Building Happiness)**
+- **Essence of Humanity**: Value creation is the essence of a human being
+- **How Adults Play**: Value creation is how adults play, replacing stagnation with exhilaration
+- **Path to Wealth**: "Value creation brings values to society and pride and happiness to oneself"
+- **Eternal Nature**: The leap from value producer to value creator leads to eternal happiness and desire to live forever
+
+#### **Value Reflection (Feeling Happiness)**
+- **Shared Joy**: Happiness is "felt during time celebrated together with loved ones and friends"
+- **Complete Experience**: "Value creation brings happiness; value reflection (spending time with your spouse and children and friends) lets you feel and enjoy all that happiness inside you"
+- **Gender Dynamics**: "The man builds his happiness through his value creation (his essence), and feels his happiness through his woman and family (value reflection)"
+- **Sustainable Model**: Focus remains on value creation while money and fulfillment naturally follow
 
 ---
 

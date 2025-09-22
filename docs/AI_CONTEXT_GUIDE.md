@@ -40,9 +40,16 @@ When working on any Neothink-related project, AI systems should:
 ## 🎯 **Messaging Guidelines for AI**
 
 ### **Value Propositions**
-- **Neothinkers**: "Greater happiness through integrated thinking and consciousness expansion"
-- **Ascenders**: "Greater prosperity through value creation and wealth building"  
-- **Immortals**: "Greater longevity through health optimization and life extension"
+- **Neothinkers**: "Greater happiness through integrated thinking and consciousness expansion" (Modern integrated thinkers)
+- **Ascenders**: "Greater prosperity through value creation and wealth building" (Modern value creators)
+- **Immortals**: "Greater longevity through health optimization and life extension" (Modern self-leaders)
+
+### **Core Philosophical Framework**
+- **Primary Value**: Self-Improvement (virtuously selfish movement of improving oneself)
+- **Secondary Value**: Entrepreneurship (virtuously selfless movement of improving society)
+- **Core Pillars**: Prosperity, Happiness, Longevity → "Prosper Happily Forever"
+- **Success Formula**: Value Creation + Value Reflection = Prosperity and Happiness
+- **Prime Law**: "The purpose of human life is to prosper and live happily"
 
 ### **Tone & Style**
 - **Authoritative**: Reference 45 years of proven methodology
@@ -55,6 +62,29 @@ When working on any Neothink-related project, AI systems should:
 - **Value Creation**: Transformation from routine "value production" to exhilarating "value creation"
 - **Friday-Night Essence**: Discovering authentic passion and natural talents
 - **Systematic Approach**: Proven methodology vs. trendy self-help approaches
+
+### **The Three Core Human Types (Essential for AI Understanding)**
+
+#### **Value Creators (Ascenders Platform)**
+- **Identity**: The fundamental purpose of human beings - those who create rather than just maintain
+- **Transformation**: Evolutionary leap from stagnant "value producer" to exhilarated "value creator"
+- **Characteristics**: Play-like approach to work, open-ended creation, financial independence
+- **Goal**: Prosperity through genuine value creation for society
+- **Philosophy**: "The essence of man is CREATION—VALUE CREATION"
+
+#### **Integrated Thinkers (Neothinkers Platform)**
+- **Identity**: Those who've evolved from specialized following mind to creative integrating mind
+- **Method**: Building knowledge "puzzles" that reveal future outcomes before they manifest
+- **Tools**: Common denominators, conceptual thinking, numbers-integrating mode, power-thinking
+- **Goal**: Happiness through mental evolution and consciousness expansion
+- **Philosophy**: Mind designed for dynamic integrated thinking, not static routine thinking
+
+#### **Self-Leaders (Immortals Platform)**
+- **Identity**: Individuals who are their own authority with internal guidance
+- **Transformation**: Evolution from externally-guided to internally-guided mode
+- **Characteristics**: Iron-grip control, certain decisions, evolutionary leap to "God-Man"
+- **Goal**: Longevity through self-leadership creating demand for biological immortality
+- **Philosophy**: Self-leader mentality is prerequisite for psychological shift to want eternal life
 
 ---
 
