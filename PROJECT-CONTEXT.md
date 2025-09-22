@@ -1,8 +1,13 @@
-# Neothink.com SEO Project Context
+# Neothink.com Project Context
 **Claude Code Session Reference**
 
 ## Project Overview
-SEO optimization and documentation management for Neothink.com - a personal development and philosophical coaching business founded by Mark Hamilton, with future leadership transition to Wallace Hamilton.
+SEO optimization and platform development for Neothink.com - the primary educational platform for Mark Hamilton's philosophy-based personal development methodology. Part of comprehensive ecosystem including Ascension, Immortalis, and other specialized platforms.
+
+## 📚 Complete Knowledge Base
+**🔗 [COMPREHENSIVE_NEOTHINK_REFERENCE.md](COMPREHENSIVE_NEOTHINK_REFERENCE.md)** - Complete documentation for Mark Hamilton, Neothink Society, and entire ecosystem as of September 2025.
+
+**🔗 [Knowledge Base Index](docs/KNOWLEDGE_BASE_INDEX.md)** - Quick reference guide for human and AI team members.
 
 ## Key Technical Facts (Verified)
 - **WordPress Installation:** Healthy, standard configuration with proper SEO setup

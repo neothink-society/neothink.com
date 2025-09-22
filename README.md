@@ -1,6 +1,17 @@
-# Neothink.com SEO Optimization Framework
+# Neothink.com Strategic Research & Planning Hub
 
-> **Professional SEO implementation and content optimization strategy for Neothink Society**
+> **Mark Hamilton's Philosophy-Based Personal Development Platform**
+
+## 📚 **Essential Documentation**
+
+### **🔗 [COMPREHENSIVE_NEOTHINK_REFERENCE.md](COMPREHENSIVE_NEOTHINK_REFERENCE.md)**
+Complete documentation for Mark Hamilton, Neothink Society, and entire ecosystem as of September 2025.
+
+### **🔗 [Knowledge Base Index](docs/KNOWLEDGE_BASE_INDEX.md)**
+Quick reference guide for human and AI team members.
+
+### **🔗 [AI Context Guide](docs/AI_CONTEXT_GUIDE.md)**
+Essential context for AI systems working on Neothink platforms.
 
 [![Repository Status](https://img.shields.io/badge/status-production%20ready-brightgreen?style=for-the-badge)](https://github.com/neothink-dao/neothink.com)
 [![Documentation](https://img.shields.io/badge/docs-comprehensive-blue?style=for-the-badge)](./START-HERE.md)
