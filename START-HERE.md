@@ -119,6 +119,7 @@
 - **[SEO Reality Report →](data/reports/assessments/seo-reality-report.md)** Conservative verification-first assessment
 
 ### 📋 Need Strategic Planning?
+- **[🚀 MIGRATION STRATEGY →](docs/MIGRATION_STRATEGY.md)** **← WordPress → Next.js complete migration plan**
 - **[SEO Intelligence Master Report →](research/seo-strategy/seo-intelligence-master-report-2025.md)** Complete strategic analysis
 - **[CDAR Framework Report →](research/seo-strategy/comprehensive-seo-report-september-2025.md)** Current/Desired/Actions/Results
 - **[Competitive Intelligence →](research/competitive-intelligence/competitive-market-intelligence-2025.md)** Market positioning analysis
