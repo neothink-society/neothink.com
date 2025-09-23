@@ -3,3 +3,4 @@
 content-library/books/*.pdf
 performance/wordpress-install/*/dup-installer/*.sql
 performance/wordpress-install/*/dup-installer/*.json
+*.pdf
