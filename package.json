@@ -1,0 +1,40 @@
+{
+  "name": "@neothink/documentation",
+  "version": "1.0.0",
+  "description": "Comprehensive documentation and strategic research for the Neothink Society ecosystem",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "echo 'Documentation build complete'",
+    "serve": "python -m http.server 8000",
+    "validate": "find . -name '*.md' -exec markdownlint {} +",
+    "spellcheck": "cspell '**/*.md'",
+    "link-check": "markdown-link-check README.md",
+    "docs:build": "npm run validate && npm run link-check",
+    "docs:serve": "npm run serve",
+    "clean": "find . -name '.DS_Store' -delete"
+  },
+  "keywords": [
+    "neothink",
+    "documentation",
+    "strategic-research",
+    "mark-hamilton",
+    "philosophy",
+    "personal-development",
+    "business-intelligence"
+  ],
+  "devDependencies": {
+    "markdownlint-cli": "^0.37.0",
+    "cspell": "^7.3.8",
+    "markdown-link-check": "^3.11.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neothink-dao/neothink.com.git"
+  },
+  "author": "Neothink Society (Mark Hamilton)",
+  "license": "PRIVATE"
+}
