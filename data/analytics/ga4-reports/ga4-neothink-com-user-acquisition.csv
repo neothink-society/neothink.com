@@ -1,0 +1,19 @@
+# ----------------------------------------
+# User acquisition: First user primary channel group (Default Channel Group)
+# Account: WMC
+# Property: https://www.neothink.com/
+# ----------------------------------------
+# 
+# All Users
+# Start date: 20240925
+# End date: 20250925
+First user primary channel group (Default Channel Group),Total users,New users,Returning users,Average engagement time per active user,Engaged sessions per active user,Event count,Key events,User key event rate
+Paid Search,9413,9450,398,11.68143661672511,1.0752311125278928,38331,12541,1
+Referral,3852,3731,1251,209.48875523012552,3.514905857740586,51531,17731,0.8713389121338913
+Organic Search,3651,3638,747,173.0169909564264,1.5681008495478213,36168,12492,1
+Direct,3374,3277,485,139.56635848493886,2.1804354309573517,42116,16670,0.9880703847300925
+Organic Social,394,385,30,47.26854219948849,1.4296675191815857,2599,887,0.9948849104859335
+Organic Video,265,249,66,185.63636363636363,2.25,3616,1331,0.9962121212121212
+Cross-network,88,88,11,22.21590909090909,1.3977272727272727,539,236,1
+Email,63,62,8,82.82539682539682,1.1746031746031746,410,139,1
+Unassigned,5,5,1,309.8,1.4,45,16,1
