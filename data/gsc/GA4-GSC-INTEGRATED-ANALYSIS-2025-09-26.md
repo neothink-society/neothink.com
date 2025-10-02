@@ -1,4 +1,17 @@
 # GA4-GSC Integrated Strategic Analysis
+
+⚠️ **DATA ACCURACY DISCLAIMER** ⚠️
+This document was created on September 26, 2025 using initial analysis and contains some inflated projections and unverified claims. For accurate, verified data see:
+- **NEOTHINK-SEO-REALITY-REPORT.md** (Sept 30, 2025) - Verified metrics
+- **DATA-AUDIT-COMPREHENSIVE-REVIEW.md** (Oct 2, 2025) - Complete data validation
+- **data/metrics.csv** - Verified baseline metrics
+
+Key corrections: 232 pieces → 91 pieces | $30-100K revenue → $13,757 | 524 monthly searches → 51 monthly
+
+This document is retained for reference and contains useful analytical insights, but **all metrics should be verified against the corrected reports above**.
+
+---
+
 **Analysis Date:** September 26, 2025
 **Data Integration:** Google Analytics 4 + Google Search Console 12-month comprehensive
 **Strategic Classification:** Dual-Platform Intelligence Integration

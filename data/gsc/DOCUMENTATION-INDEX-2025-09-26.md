@@ -1,4 +1,18 @@
 # Neothink.com Strategic Intelligence Documentation Index
+
+⚠️ **INDEX UPDATE NOTICE** ⚠️
+This index was created on September 26, 2025. Some documents listed contain inflated projections and unverified claims that have been corrected in subsequent reports.
+
+**Recommended Starting Points (with verified data):**
+1. **NEOTHINK-SEO-REALITY-REPORT.md** (Sept 30, 2025) - Verified metrics and baseline
+2. **DATA-AUDIT-COMPREHENSIVE-REVIEW.md** (Oct 2, 2025) - Complete data validation
+3. **execute/priority-actions.md** (Oct 2, 2025) - Dependency-based implementation
+4. **opportunities/** (Oct 2, 2025) - Corrected opportunity analyses
+
+All Sept 26 strategic docs now have disclaimers noting data corrections.
+
+---
+
 **Documentation Date:** September 26, 2025
 **Analysis Scope:** Comprehensive SEO Strategic Intelligence & Implementation Framework
 **Strategic Classification:** Complete Competitive Advantage Documentation Suite

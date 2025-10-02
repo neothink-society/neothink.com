@@ -1,4 +1,17 @@
 # Executive Action Plan - Neothink.com SEO Optimization
+
+⚠️ **DATA ACCURACY DISCLAIMER** ⚠️
+This document was created on September 26, 2025 using initial analysis and contains arbitrary time-based plans and inflated projections. For accurate, dependency-based execution plans see:
+- **execute/priority-actions.md** (Oct 2, 2025) - Dependency-based implementation framework
+- **NEOTHINK-SEO-REALITY-REPORT.md** (Sept 30, 2025) - Verified metrics
+- **opportunities/** - Corrected opportunity analyses with realistic projections
+
+Key corrections: 232 pieces → 91 pieces | $30-100K revenue → $13,757 | Time-based plans replaced with dependency-based phases
+
+This document is retained for reference but **use execute/priority-actions.md for implementation**.
+
+---
+
 **Plan Date:** September 26, 2025
 **Authority Level:** C-Level Executive Decision Required
 **Strategic Classification:** High-Impact Growth Acceleration
