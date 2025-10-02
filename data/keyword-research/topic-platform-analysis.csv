@@ -1,0 +1,14 @@
+topic,platform,keyword_count,total_volume,avg_volume,max_volume
+intelligence,google,2728,42451960,15562,5000000
+intelligence,youtube,2604,42282050,16237,5000000
+happiness,google,2838,8676680,3057,1000000
+happiness,youtube,2744,7988940,2911,1000000
+entrepreneurship,google,2534,2590400,1022,450000
+entrepreneurship,youtube,2438,2427560,996,450000
+prosperity,google,2964,2237250,755,246000
+prosperity,youtube,2785,1817330,653,246000
+longevity,google,2960,1200210,405,49500
+longevity,youtube,2811,1084830,386,49500
+self-improvement,google,923,219900,238,18100
+self-improvement,youtube,834,205830,247,18100
+neothink,google,80,3540,44,320

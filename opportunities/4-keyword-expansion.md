@@ -1,22 +1,27 @@
 # Opportunity #4: Non-Brand Keyword Expansion
 
 **Status:** New content creation required (long-term strategy)
-**Impact:** HIGH (340,000+ monthly searches in self-improvement space)
-**Effort:** HIGH (3-6 months systematic content creation)
-**Priority:** MEDIUM (after quick wins implemented)
+**Impact:** VERY HIGH (113M+ monthly searches in adjacent markets)
+**Effort:** HIGH (systematic content creation over multiple phases)
+**Priority:** Phase 4 (after Phases 1-3 validated)
 
 ## Opportunity Analysis
 
-**Current State:**
-- **89% brand searches** - Heavy dependency on existing awareness
-- **11% discovery traffic** - Missing entire prospect segments
+**Current State (Verified):**
+- **95% brand searches** - Heavy dependency on existing awareness (3,540 monthly)
+- **5% discovery traffic** - Missing entire prospect segments
 - **Limited market expansion** - Only reaching people who already know "Neothink"
 
-**Market Opportunity:**
-- **Self-improvement:** 340,000+ monthly searches
-- **Personal development:** High-intent educational searches
-- **Philosophy/consciousness:** Aligned with Neothink positioning
-- **Life transformation:** Premium positioning opportunity
+**Market Opportunity (Verified via Keyword Research):**
+- **Total Market:** 113,186,480 monthly searches across adjacent topics
+- **Intelligence/Consciousness:** 84.7M monthly searches
+- **Happiness/Well-being:** 16.7M monthly searches
+- **Entrepreneurship:** 5.0M monthly searches
+- **Prosperity/Wealth:** 4.1M monthly searches
+- **Longevity/Health:** 2.3M monthly searches
+- **Self-Improvement:** 426K monthly searches
+
+**Data Source:** [data/keyword-research/README.md](../data/keyword-research/README.md) - 29,243 keywords analyzed
 
 ## Expected Impact
 

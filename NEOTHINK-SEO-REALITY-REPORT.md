@@ -280,13 +280,20 @@ WordPress uses Yoast SEO to generate XML sitemaps automatically:
 
 ### Opportunity #5: Keyword Expansion (Non-Brand)
 
-**Current:** 95% brand-dependent
-**Target:** Develop content for problem-solving keywords
+**Current:** 95% brand-dependent (3,540 monthly brand searches)
+**Market Size:** 113M+ monthly searches in adjacent topics
 **Dependency:** Complete Opportunities #1-4 (validate approach before scaling)
 
-**Expected Impact:** Traffic diversification, reduced brand dependency
+**Top Markets:**
+- Intelligence/Consciousness: 84.7M monthly
+- Happiness/Well-being: 16.7M monthly
+- Entrepreneurship: 5.0M monthly
+- Self-Improvement: 426K monthly
+
+**Expected Impact:** Traffic diversification, 60-70% brand dependency (from 95%)
 
 **Implementation:** [opportunities/4-keyword-expansion.md](opportunities/4-keyword-expansion.md)
+**Data:** [data/keyword-research/README.md](data/keyword-research/README.md) - 29,243 keywords analyzed
 
 ---
 

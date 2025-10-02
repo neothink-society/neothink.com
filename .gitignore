@@ -180,3 +180,8 @@ performance/wordpress-install/*/dup-installer/*.json
 *.pdf
 performance/wordpress-install/
 assets/wordpress-backup/extracted/
+
+# DuckDB and analysis artifacts
+data/keyword-research/venv/
+data/keyword-research/*.db
+data/keyword-research/*.db.wal
