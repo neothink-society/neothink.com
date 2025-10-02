@@ -179,3 +179,4 @@ performance/wordpress-install/*/dup-installer/*.sql
 performance/wordpress-install/*/dup-installer/*.json
 *.pdf
 performance/wordpress-install/
+assets/wordpress-backup/extracted/
