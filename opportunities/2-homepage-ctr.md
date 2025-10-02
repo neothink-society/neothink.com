@@ -1,11 +1,12 @@
 # Homepage CTR Optimization Guide
-**Target: 22,983 Monthly Impressions → Higher Click-Through Rate**
+**Target: 1,930 Monthly Impressions → Higher Click-Through Rate**
 
 ## 📊 Current Performance (Verified GSC Data)
-- **Monthly Impressions:** 22,983
-- **Current CTR:** 9.48%
-- **Average Position:** 4.03
-- **Opportunity:** 1,000-2,000 additional monthly clicks possible
+- **Annual Impressions:** 23,154 (~1,930/month)
+- **Annual Clicks:** 2,145 (~179/month)
+- **Current CTR:** 9.26%
+- **Average Position:** 3.97
+- **Opportunity:** 40-85 additional monthly clicks possible
 
 ## 🎯 Optimization Strategy
 
@@ -46,9 +47,11 @@
 4. **Length Optimization:** 150-160 characters for best display
 5. **Emotional Connection:** Language that resonates with target audience
 
-## 🔧 Implementation Process
+## 🔧 Implementation Flow
 
-### Phase 1: Current State Analysis (Day 1)
+### Step 1: Current State Analysis
+**Dependencies:** None
+
 ```
 Research Tasks:
 [ ] View source of homepage to see current title and meta description
@@ -58,7 +61,9 @@ Research Tasks:
 [ ] Document baseline CTR and position data
 ```
 
-### Phase 2: Competitive Analysis (Day 1-2)
+### Step 2: Competitive Analysis
+**Dependencies:** Step 1 complete
+
 ```
 Analysis Tasks:
 [ ] Study title patterns of top-ranking competitors
@@ -68,7 +73,9 @@ Analysis Tasks:
 [ ] Assess keyword density and placement strategies
 ```
 
-### Phase 3: Optimization Development (Day 2)
+### Step 3: Optimization Development
+**Dependencies:** Step 2 complete
+
 ```
 Creation Tasks:
 [ ] Draft 3-5 title tag variations
@@ -78,7 +85,9 @@ Creation Tasks:
 [ ] Validate keyword integration and natural flow
 ```
 
-### Phase 4: Implementation & Testing (Day 3)
+### Step 4: Implementation
+**Dependencies:** Step 3 complete
+
 ```
 Implementation Tasks:
 [ ] Access WordPress Admin → SEO settings or Yoast
@@ -88,7 +97,9 @@ Implementation Tasks:
 [ ] Submit updated page to Google Search Console
 ```
 
-### Phase 5: Monitoring & Optimization (Days 4-30)
+### Step 5: Monitor Results
+**Dependencies:** Step 4 complete (wait 2-4 weeks after implementation)
+
 ```
 Monitoring Tasks:
 [ ] Track CTR changes in Google Search Console
@@ -101,24 +112,24 @@ Monitoring Tasks:
 ## 📈 Expected Results
 
 ### Conservative Estimates
-- **CTR Improvement:** 9.48% → 12-14% (2-4 percentage point increase)
-- **Additional Clicks:** 500-1,000 additional monthly clicks
-- **Traffic Impact:** 10-15% increase in homepage organic traffic
-- **Timeline:** Results visible within 2-4 weeks
+- **CTR Improvement:** 9.26% → 11-12% (2-3 percentage point increase)
+- **Additional Clicks:** 40-60 additional monthly clicks
+- **Traffic Impact:** 20-30% increase in homepage organic traffic
+- **Measurement:** Results visible within 2-4 weeks after implementation
 
 ### Optimistic Scenario
-- **CTR Improvement:** 9.48% → 15-18% (5-8 percentage point increase)
-- **Additional Clicks:** 1,000-2,000 additional monthly clicks
-- **Traffic Impact:** 20-30% increase in homepage organic traffic
+- **CTR Improvement:** 9.26% → 13-15% (4-6 percentage point increase)
+- **Additional Clicks:** 70-85 additional monthly clicks
+- **Traffic Impact:** 40-50% increase in homepage organic traffic
 - **Position Improvement:** Potential ranking improvements from increased CTR
 
 ## 🎯 Success Metrics & Tracking
 
 ### Primary KPIs
-1. **Click-Through Rate:** Target 12%+ (from 9.48%)
-2. **Total Clicks:** Target 2,800+ monthly (from current baseline)
-3. **Impression Volume:** Maintain or increase 22,983 monthly impressions
-4. **Average Position:** Maintain 4.03 or improve
+1. **Click-Through Rate:** Target 12%+ (from 9.26%)
+2. **Total Clicks:** Target 210-230 monthly (from 179 baseline)
+3. **Impression Volume:** Maintain or increase 1,930 monthly impressions
+4. **Average Position:** Maintain 3.97 or improve
 
 ### Secondary Metrics
 1. **Homepage Traffic:** Overall organic traffic to homepage
@@ -149,26 +160,32 @@ Monitoring Tasks:
 
 ## 🔄 Optimization Cycle
 
-### Week 1: Implementation
+### After Implementation
 - Deploy optimized title and meta description
+- Submit to GSC for re-crawling
 - Begin monitoring baseline metrics
-- Watch for any immediate negative impacts
 
-### Week 2-3: Initial Assessment
-- Analyze early CTR performance changes
+### 2-4 Weeks Later: Initial Assessment
+**Dependency:** Wait for Google to index and re-rank
+
+- Analyze CTR performance changes
 - Monitor position stability for key terms
 - Track overall homepage traffic trends
 
-### Week 4: Full Assessment
+### Monthly: Full Assessment
+**Dependency:** Sufficient data collected (30+ days)
+
 - Complete analysis of optimization impact
 - Document lessons learned and successful patterns
 - Plan next round of optimizations if needed
 
 ### Ongoing: Continuous Improvement
+**Cadence:** Quarterly competitive analysis
+
 - Regular review of search console data
 - Seasonal optimization for different user intents
 - Continuous competitive analysis for new opportunities
 
 ---
 
-**Success Target:** Achieve 12%+ CTR (vs current 9.48%) resulting in 500-1,000 additional monthly clicks while maintaining current strong engagement metrics and search positions.
+**Success Target:** Achieve 12%+ CTR (vs current 9.26%) resulting in 40-85 additional monthly clicks while maintaining current strong engagement metrics and search positions.

@@ -7,5 +7,5 @@ Date,Metric,Value,Source,Notes
 2025-09-22,Top Query - neothink society,401 clicks,GSC Export,21.95% CTR - Position 1.12
 2025-09-22,Homepage Organic Clicks,2178,GA4 Export,51% of total organic clicks
 2025-09-22,Baseline Revenue Attribution,$13757/year,Calculated,4256 clicks × 0.65% × $497 = 27.7 customers
-2025-09-22,Content Pages Published,232,WordPress DB,37 pages + 44 posts + 39 podcasts + system
+2025-09-22,Content Pages Published,91,WordPress DB,32 pages + 42 posts + 17 podcasts
 2025-09-22,Indexing Issues,1 page,GSC,Post ID 1782 only blocking issue
