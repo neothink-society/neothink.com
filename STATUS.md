@@ -8,13 +8,44 @@
 ## 📊 CURRENT PERFORMANCE
 
 ### Core Metrics
+```mermaid
+graph LR
+    A[Annual Traffic<br/>4,256 clicks] --> B[Homepage<br/>2,178 clicks<br/>51%]
+    A --> C[Other Pages<br/>2,078 clicks<br/>49%]
+
+    D[Content Library<br/>91 pieces] --> E[Pages: 32<br/>35%]
+    D --> F[Posts: 42<br/>46%]
+    D --> G[Podcasts: 17<br/>19%]
+
+    H[Engagement<br/>94.48%] --> I[Exceptional<br/>Quality]
+
+    style A fill:#e1f5e1
+    style B fill:#ffeb3b
+    style D fill:#e3f2fd
+    style H fill:#c8e6c9
+```
+
+**Traffic Distribution:**
 - **Organic Clicks**: 4,256 annually (~355/month)
 - **Organic Users**: 3,703 annually (~309/month)
 - **Total Users**: 21,137 annually (~1,761/month)
 - **Engagement Rate**: 94.48% (exceptional)
-- **Content Library**: 91 published pieces (32 pages + 42 posts + 17 podcasts)
+
+**Content Library**: 91 published pieces (32 pages + 42 posts + 17 podcasts)
 
 ### Search Performance
+
+**Brand Dominance (95% of traffic):**
+```mermaid
+pie title Traffic by Query Type
+    "neothink" : 725
+    "neothink society" : 401
+    "neothink mark hamilton" : 253
+    "neothink university" : 216
+    "Other brand queries" : 1945
+    "Non-brand queries" : 213
+```
+
 - **Top Brand Query**: "neothink" - 725 clicks, 20.94% CTR, Position 2.01
 - **Secondary Brand**: "neothink society" - 401 clicks, 21.95% CTR, Position 1.12
 - **Homepage**: 2,178 clicks (51% of total organic)

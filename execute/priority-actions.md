@@ -306,19 +306,31 @@
 
 ## 📊 DEPENDENCY FLOW
 
-```
-Phase 1 (Quick Wins) → Validate approach
-    ↓
-Phase 2 (Content Foundation) → Build on validated approach
-    ↓
-Phase 3 (Technical Optimization) → Strengthen foundation
-    ↓
-Phase 4 (Content Expansion) → Scale what works
-    ↓
-Phase 5 (Systematic Optimization) → Ongoing refinement
+```mermaid
+graph TD
+    A[Phase 1: Quick Wins<br/>Reviews Page + Homepage CTR + Zero-Click Fixes] --> B{Success Criteria Met?<br/>Position <10, CTR >12%, CTR >2%}
+    B -->|Yes| C[Phase 2: Content Foundation<br/>Missing Meta + Categorization]
+    B -->|No| A1[Investigate & Adjust Phase 1]
+    A1 --> A
+    C --> D{Success Criteria Met?<br/>30 metas added, 91 pieces categorized}
+    D -->|Yes| E[Phase 3: Technical Optimization<br/>Mobile CWV + Orphaned URLs]
+    D -->|No| C1[Investigate & Adjust Phase 2]
+    C1 --> C
+    E --> F{Success Criteria Met?<br/>CWV issues <10, URLs documented}
+    F -->|Yes| G[Phase 4: Content Expansion<br/>New Pages + Non-Brand Keywords]
+    F -->|No| E1[Investigate & Adjust Phase 3]
+    E1 --> E
+    G --> H[Phase 5: Systematic Optimization<br/>Internal Linking + Monthly Reviews]
+    H --> H1[Continuous Improvement Cycle]
+
+    style A fill:#e1f5e1
+    style C fill:#e3f2fd
+    style E fill:#fff3e0
+    style G fill:#fce4ec
+    style H fill:#f3e5f5
 ```
 
-**Key Principle:** Each phase validates assumptions before investing in next phase.
+**Key Principle:** Each phase validates assumptions before investing in next phase. Loops back if success criteria not met.
 
 ---
 

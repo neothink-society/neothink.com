@@ -105,12 +105,22 @@ Neothink.com is a WordPress-based personal development platform with **91 publis
 
 ### Traffic Concentration
 
+```mermaid
+pie title Traffic Distribution (4,256 Annual Clicks)
+    "Homepage (1 page)" : 2145
+    "Top 2-10 (9 pages)" : 1722
+    "Top 11-20 (10 pages)" : 354
+    "Remaining 103 pages" : 95
+```
+
 | Segment | Pages | Clicks | % of Traffic |
 |---------|-------|--------|--------------|
-| Top 1 (Homepage) | 1 | 2,145 | 49.7% |
-| Top 10 | 10 | 3,867 | 89.6% |
-| Top 20 | 20 | 4,221 | 97.8% |
+| Top 1 (Homepage) | 1 | 2,145 | 50.4% |
+| Top 10 | 10 | 3,867 | 90.9% |
+| Top 20 | 20 | 4,221 | 99.2% |
 | Remaining 103 Pages | 103 | 95 | 2.2% |
+
+**Key Insight:** 1 page generates 50% of traffic. Massive opportunity to optimize the other 122 pages.
 
 ### Top 20 Pages by Traffic
 
