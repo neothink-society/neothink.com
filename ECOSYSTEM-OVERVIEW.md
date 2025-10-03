@@ -50,11 +50,9 @@ graph TD
 | **joinascenders** | Community | ✅ Active | [ascenders](https://github.com/neothink-dao/ascenders) | Membership Platform |
 | **joinimmortals** | Community | ✅ Active | [immortals](https://github.com/neothink-dao/immortals) | Membership Platform |
 | **neothink-com** | Documentation | ✅ Public | [neothink.com](https://github.com/neothink-dao/neothink.com) | SEO Research + Strategy |
-| **neo-tech-stack** | Documentation | ✅ Active | [neo-tech](https://github.com/neothink-dao/neo-tech) | Technical Documentation |
+| **neo-tech-stack** | Documentation | ✅ Active | [neo-tech](https://github.com/neothink-dao/neo-tech) | Technical Documentation + Developer Guides |
 | **.github** | Infrastructure | ✅ Active | [.github](https://github.com/neothink-dao/.github) | Org Profile + Templates |
 | **neothink-supabase** | Infrastructure | 🔒 Local | N/A | Supabase Configuration |
-| **docs** | Documentation | 📁 Local | N/A | General Documentation |
-| **claudedocs** | Documentation | 📁 Local | N/A | AI Assistant Knowledge |
 | **neothink-legacy** | Archive | 📦 Archived | N/A | Legacy Codebase |
 
 ---
@@ -172,19 +170,17 @@ graph TD
 - `opportunities/*.md` - 5 detailed opportunity guides
 - `data/keyword-research/` - 29K keywords + DuckDB analysis
 
-### 2. **neo-tech-stack** - Technical Documentation
+### 2. **neo-tech-stack** - Technical Documentation & Developer Guides
 **Repository:** https://github.com/neothink-dao/neo-tech
 **Purpose:** Comprehensive technical documentation and implementation guides
 **Focus:** Architecture, best practices, technology standards
 
-### 3. **docs** - General Documentation
-**Location:** Local directory
-**Purpose:** Cross-project documentation and shared resources
-
-### 4. **claudedocs** - AI Assistant Documentation
-**Location:** Local directory
-**Purpose:** Claude-specific documentation and project context
-**Contents:** AI assistant knowledge base, development guidelines
+**Consolidated Documentation (Oct 2025):**
+- Developer onboarding guides
+- System architecture documentation
+- Ecosystem validation reports
+- API specifications for all platforms
+- Complete technology guides (Next.js, React, TypeScript, Vercel AI SDK, etc.)
 
 ---
 
