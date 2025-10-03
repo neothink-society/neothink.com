@@ -19,13 +19,30 @@ Comprehensive keyword research across 7 topic areas and multiple platforms to id
 - Current traffic: 95% brand-dependent
 - Major opportunity: 113M+ monthly searches in adjacent topics
 
+```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#1565C0', 'primaryTextColor':'#fff', 'primaryBorderColor':'#0D47A1', 'lineColor':'#666'}}}%%
+graph TD
+    A[Total Market<br/>113.2M Monthly Searches] --> B[Intelligence/Consciousness<br/>84.7M - 75%]
+    A --> C[Happiness/Well-being<br/>16.7M - 15%]
+    A --> D[Entrepreneurship<br/>5.0M - 4%]
+    A --> E[Prosperity/Wealth<br/>4.1M - 4%]
+    A --> F[Longevity/Health<br/>2.3M - 2%]
+    A --> G[Self-Improvement<br/>426K - <1%]
+
+    H[Current Neothink Traffic<br/>3,540/month] -.->|32,000X smaller| A
+
+    style A stroke:#0D47A1,stroke-width:4px
+    style B stroke:#1565C0,stroke-width:3px
+    style H stroke:#E53935,stroke-width:3px
+```
+
 **Market Opportunity:**
-- **Intelligence**: 84.7M searches/month (consciousness, AI, thinking)
-- **Happiness**: 16.7M searches/month (well-being, fulfillment)
-- **Entrepreneurship**: 5.0M searches/month (business, wealth creation)
-- **Prosperity**: 4.1M searches/month (wealth, success)
-- **Longevity**: 2.3M searches/month (health, vitality)
-- **Self-Improvement**: 426K searches/month (personal development)
+- **Intelligence**: 84.7M searches/month (consciousness, AI, thinking) - 75% of total
+- **Happiness**: 16.7M searches/month (well-being, fulfillment) - 15% of total
+- **Entrepreneurship**: 5.0M searches/month (business, wealth creation) - 4% of total
+- **Prosperity**: 4.1M searches/month (wealth, success) - 4% of total
+- **Longevity**: 2.3M searches/month (health, vitality) - 2% of total
+- **Self-Improvement**: 426K searches/month (personal development) - <1% of total
 
 ---
 

@@ -13,13 +13,30 @@
 - **Limited market expansion** - Only reaching people who already know "Neothink"
 
 **Market Opportunity (Verified via Keyword Research):**
+
+```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'pie1':'#1565C0', 'pie2':'#FDD835', 'pie3':'#43A047', 'pie4':'#FB8C00', 'pie5':'#E53935', 'pie6':'#8E24AA', 'pie7':'#6D4C41'}}}%%
+pie title "Market Size: 113M Monthly Searches"
+    "Intelligence/Consciousness: 84.7M" : 84700000
+    "Happiness/Well-being: 16.7M" : 16700000
+    "Entrepreneurship: 5.0M" : 5000000
+    "Prosperity/Wealth: 4.1M" : 4100000
+    "Longevity/Health: 2.3M" : 2300000
+    "Self-Improvement: 426K" : 426000
+    "Neothink Brand (current): 3.5K" : 3540
+```
+
+**Market Breakdown:**
 - **Total Market:** 113,186,480 monthly searches across adjacent topics
-- **Intelligence/Consciousness:** 84.7M monthly searches
+- **Intelligence/Consciousness:** 84.7M monthly searches (75% of opportunity)
 - **Happiness/Well-being:** 16.7M monthly searches
 - **Entrepreneurship:** 5.0M monthly searches
 - **Prosperity/Wealth:** 4.1M monthly searches
 - **Longevity/Health:** 2.3M monthly searches
 - **Self-Improvement:** 426K monthly searches
+- **Neothink Brand (current):** 3,540 monthly searches
+
+**Key Insight:** Current market is 0.003% of total opportunity (32,000X expansion potential)
 
 **Data Source:** [data/keyword-research/README.md](../data/keyword-research/README.md) - 29,243 keywords analyzed
 
