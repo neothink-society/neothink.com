@@ -9,6 +9,7 @@
 
 ### Core Metrics
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#4CAF50', 'primaryTextColor':'#fff', 'primaryBorderColor':'#2E7D32', 'lineColor':'#666'}}}%%
 graph LR
     A[Annual Traffic<br/>4,256 clicks] --> B[Homepage<br/>2,178 clicks<br/>51%]
     A --> C[Other Pages<br/>2,078 clicks<br/>49%]
@@ -19,10 +20,9 @@ graph LR
 
     H[Engagement<br/>94.48%] --> I[Exceptional<br/>Quality]
 
-    style A fill:#e1f5e1
-    style B fill:#ffeb3b
-    style D fill:#e3f2fd
-    style H fill:#c8e6c9
+    style A stroke:#2E7D32,stroke-width:3px
+    style B stroke:#F57C00,stroke-width:3px
+    style H stroke:#2E7D32,stroke-width:3px
 ```
 
 **Traffic Distribution:**
@@ -37,6 +37,7 @@ graph LR
 
 **Brand Dominance (95% of traffic):**
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'pie1':'#2E7D32', 'pie2':'#4CAF50', 'pie3':'#66BB6A', 'pie4':'#81C784', 'pie5':'#A5D6A7', 'pie6':'#F57C00'}}}%%
 pie title Traffic by Query Type
     "neothink" : 725
     "neothink society" : 401

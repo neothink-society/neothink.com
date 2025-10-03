@@ -307,6 +307,7 @@
 ## 📊 DEPENDENCY FLOW
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#4CAF50', 'primaryTextColor':'#fff', 'primaryBorderColor':'#2E7D32', 'lineColor':'#666', 'edgeLabelBackground':'transparent'}}}%%
 graph TD
     A[Phase 1: Quick Wins<br/>Reviews Page + Homepage CTR + Zero-Click Fixes] --> B{Success Criteria Met?<br/>Position <10, CTR >12%, CTR >2%}
     B -->|Yes| C[Phase 2: Content Foundation<br/>Missing Meta + Categorization]
@@ -323,11 +324,11 @@ graph TD
     G --> H[Phase 5: Systematic Optimization<br/>Internal Linking + Monthly Reviews]
     H --> H1[Continuous Improvement Cycle]
 
-    style A fill:#e1f5e1
-    style C fill:#e3f2fd
-    style E fill:#fff3e0
-    style G fill:#fce4ec
-    style H fill:#f3e5f5
+    style A stroke:#2E7D32,stroke-width:3px
+    style C stroke:#1976D2,stroke-width:3px
+    style E stroke:#F57C00,stroke-width:3px
+    style G stroke:#7B1FA2,stroke-width:3px
+    style H stroke:#C2185B,stroke-width:3px
 ```
 
 **Key Principle:** Each phase validates assumptions before investing in next phase. Loops back if success criteria not met.

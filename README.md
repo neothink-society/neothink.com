@@ -5,15 +5,16 @@ Complete SEO analysis and implementation roadmap for Neothink.com.
 ## Current Performance
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#4CAF50', 'primaryTextColor':'#fff', 'primaryBorderColor':'#2E7D32', 'lineColor':'#666', 'secondaryColor':'#81C784', 'tertiaryColor':'#FDD835'}}}%%
 graph LR
     A[4,256 Annual Clicks] --> B[94.48% Engagement]
     A --> C[91 Published Pieces]
     B --> D[Exceptional Quality]
     C --> E[$13,757 Revenue]
 
-    style A fill:#e1f5e1
-    style B fill:#c8e6c9
-    style E fill:#fff9c4
+    style A stroke:#2E7D32,stroke-width:3px
+    style B stroke:#2E7D32,stroke-width:3px
+    style E stroke:#F57C00,stroke-width:3px
 ```
 
 **Organic Traffic:** 4,256 clicks/year (~355/mo) • **Engagement:** 94.48% • **Content:** 91 published pieces

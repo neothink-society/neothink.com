@@ -106,6 +106,7 @@ Neothink.com is a WordPress-based personal development platform with **91 publis
 ### Traffic Concentration
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'pie1':'#F57C00', 'pie2':'#4CAF50', 'pie3':'#2196F3', 'pie4':'#9E9E9E'}}}%%
 pie title Traffic Distribution (4,256 Annual Clicks)
     "Homepage (1 page)" : 2145
     "Top 2-10 (9 pages)" : 1722
