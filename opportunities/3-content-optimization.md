@@ -125,8 +125,15 @@ These pages have impressions but catastrophic CTR:
 |------|---------------------|-----|----------|
 | /blog/ | 6,920 | 0.07% | P1 |
 | /podcast/ | 10,328 | 0.67% | P1 |
+| /books/ | 4,413 | 0.07% | P1 |
 | /newsletter/ | 3,580 | 0.14% | P1 |
-| 26 additional pages | Various | <1% | P2 |
+| 25 additional pages | Various | <1% | P2 |
+
+**Books Landing Page Crisis:**
+- **Current:** 4,413 impressions, 3 clicks, 0.07% CTR
+- **Issue:** Massive impression waste on high-intent page
+- **Opportunity:** 2-3% CTR target = 90-130 monthly clicks
+- **Action:** Rewrite title/meta, optimize for book-related queries
 
 **High-Priority: Missing Meta (30 pages)**
 Pages without Yoast meta descriptions:
@@ -144,15 +151,15 @@ High-traffic examples:
 Dependencies: Phase 1 complete (categorization helps understand content)
 
 Process:
-1. Review /blog/, /podcast/, /newsletter/ current titles
+1. Review /blog/, /podcast/, /books/, /newsletter/ current titles
 2. Analyze search intent for impressions
 3. Rewrite titles to match user intent
 4. Write compelling meta descriptions
 5. Implement and submit to GSC
 6. Monitor for 2-4 weeks
 
-Target Pages: 3
-Expected Impact: +100-200 monthly clicks
+Target Pages: 4
+Expected Impact: +190-330 monthly clicks (includes /books/ opportunity)
 ```
 
 **Step 2: Add Missing Meta (High-Traffic)**

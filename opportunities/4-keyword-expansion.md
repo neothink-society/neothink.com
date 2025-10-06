@@ -95,6 +95,34 @@ pie title "Market Size: 113M Monthly Searches"
 
 ## Keyword Targets
 
+### Mark Hamilton Zero-Click Opportunity
+
+**Critical Finding:**
+- "markhamiltonneothink" - position 1.0, 209 impressions, **0 clicks**, 0% CTR
+- "mark hamilton books" - 81 impressions, position 36.1
+- "mark hamilton neothink" - 143 impressions, position 5.2
+
+**Issue:** Perfect ranking (#1) with zero engagement on "markhamiltonneothink"
+
+**Action Required:**
+1. Manually verify what page ranks for this query
+2. Optimize title/meta if it's our page with poor presentation
+3. Investigate if featured snippet is stealing clicks
+4. Expected: 10-20 monthly clicks (position 1 should achieve 25%+ CTR)
+
+**Pre-Order Campaign Validation:**
+- 17.65% conversion rate on Mark Hamilton pre-order page
+- $5.29 revenue per unique visitor
+- $29.95 price point
+- 27x higher conversion than site baseline (17.65% vs 0.65%)
+
+**Strategic Insight:** Mark Hamilton content drives significantly higher conversion than site average. This validates prioritizing Mark Hamilton keywords in expansion strategy.
+
+**Revenue Projection:**
+- Conservative: 40 monthly clicks × $5.29 = $212/month per keyword
+- Multiple Mark Hamilton keywords optimized: $500-1,000/month incremental
+- "markhamiltonneothink" at 25% CTR: 52 clicks/month × $5.29 = $275/month
+
 ### Primary Targets (High Intent)
 - "integrated thinking" - 1,900 searches/mo
 - "conscious living philosophy" - 2,400 searches/mo
