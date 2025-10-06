@@ -88,6 +88,28 @@
 
 ---
 
+## 🚦 PHASE 1 → PHASE 2 GATE (DO NOT SKIP)
+
+**STOP. Do not proceed to Phase 2 until ALL criteria met:**
+
+### Required Outcomes:
+- [ ] Reviews page indexed AND ranking <10 AND >10 clicks/month (30-day sustained)
+- [ ] Homepage CTR improved to >12% (30-day sustained)
+- [ ] Zero-click pages (/blog/, /podcast/, /books/, /newsletter/) showing >2% CTR
+- [ ] Foundation Sprint complete (GA4 fixed, referral investigated, traffic reconciled)
+- [ ] Traffic source reconciliation complete (see data/BASELINE-RECONCILIATION.md)
+
+### Validation Metrics:
+- Total Phase 1 click improvement: >150 monthly clicks
+- No decrease in engagement rate (maintain >94.48%)
+- GSC data shows sustained improvements (not temporary spike)
+
+**If criteria not met:** Debug Phase 1. Do not add more work. Find out why quick wins aren't working before proceeding.
+
+**Why this gate matters:** Phase 2 requires systematic optimization across 91 pieces. If you can't make 4 pages work in Phase 1, scaling to 91 pages will amplify the problem.
+
+---
+
 ## 🎯 PHASE 2: CONTENT FOUNDATION (Medium Effort, Scaling Impact)
 
 ### Action 4: Add Missing Meta Descriptions
@@ -145,6 +167,29 @@
 
 ---
 
+## 🚦 PHASE 2 → PHASE 3 GATE
+
+**STOP. Do not proceed to Phase 3 until ALL criteria met:**
+
+### Required Outcomes:
+- [ ] All 30 missing meta descriptions added
+- [ ] All 91 pieces categorized (32 pages + 42 posts + 17 podcasts)
+- [ ] Category pages indexed and ranking
+- [ ] Average CTR improved by >20% across optimized pages (30-day sustained)
+- [ ] Internal linking structure documented
+
+### Validation Metrics:
+- Total Phase 2 improvement: Average CTR increase >20% from baseline
+- All hub pages (blog, podcast, books, newsletter) have proper meta and categories
+- Category taxonomy validated (Philosophy, Personal Development, Business, Society, Books, University)
+- GSC shows category pages receiving impressions
+
+**If criteria not met:** Continue Phase 2 work. Scaling to technical optimization without content foundation = weak structure.
+
+**Why this gate matters:** Phase 3 technical fixes amplify content quality. If content isn't properly organized and optimized, technical improvements have limited impact. Need strong foundation before technical scaling.
+
+---
+
 ## 🎯 PHASE 3: TECHNICAL OPTIMIZATION (Medium Effort, Foundation Building)
 
 ### Action 6: Mobile Core Web Vitals
@@ -197,6 +242,54 @@
 **Expected Impact:** TBD (depends on investigation results)
 
 **Success Metric:** All 52 URLs documented and action plan created
+
+---
+
+## 🚦 PHASE 3 → PHASE 4 GATE (CRITICAL - RETENTION DEPENDENCY)
+
+**STOP. Do not proceed to Phase 4 until ALL criteria met:**
+
+### Required Outcomes (Technical):
+- [ ] Mobile CWV issues reduced to <10 URLs (from 38)
+- [ ] Mobile traffic increased by >20% (30-day sustained)
+- [ ] Orphaned URLs investigated and documented
+- [ ] All technical issues from Phases 1-3 resolved
+
+### Required Outcomes (Retention - BLOCKING):
+- [ ] **Retention improved to >5% Day 1** (vs 2.5% baseline)
+- [ ] Email capture system live and converting >5% of visitors
+- [ ] Newsletter sent weekly with >20% open rate
+- [ ] Related content implemented on all pages
+
+### Validation Metrics:
+- Mobile performance: <10 URLs with LCP >2.5s
+- Mobile engagement: No decrease in mobile CTR (maintain 16.3%+)
+- **Retention measured: >5% sustained for 30 days** (NON-NEGOTIABLE)
+- Foundation Sprint complete: GA4 fixed, traffic reconciled, retention strategy executing
+
+**If criteria not met:** DO NOT proceed to Phase 4. Retention <5% = Phase 4 wastes resources.
+
+**Why this gate matters (CRITICAL):**
+
+Phase 4 is high-effort content expansion (6-12 months). Without retention:
+- You acquire users who immediately leave (97.5% gone = no compounding)
+- SEO effort generates flat growth (treadmill, not scaling)
+- Investment in content creation = pouring water into leaky bucket
+
+**Example with current 2.5% retention:**
+- Month 1: 710 new visitors (2x traffic), 18 return = 728 total
+- Month 2: 710 new visitors, 18 return = 728 total (FLAT)
+- Month 3: 710 new visitors, 18 return = 728 total (NO GROWTH)
+
+**Example with >5% retention:**
+- Month 1: 710 new, 36 return = 746 total
+- Month 2: 710 new, 73 return = 783 total (+5% COMPOUNDING)
+- Month 3: 710 new, 110 return = 820 total (+10% COMPOUNDING)
+
+**Retention >5% is NOT optional.** This is existential requirement for Phase 4 ROI.
+
+See: execute/retention-strategy.md for Stage 1/2/3 implementation framework.
+See: STRATEGIC-RISKS.md Risk #2 for complete retention crisis assessment.
 
 ---
 

@@ -97,6 +97,43 @@
 
 ---
 
+## ⚠️ Critical Risks (Must Address)
+
+**These are NOT optimization opportunities - these are foundation problems that could prevent success.**
+
+### 🔴 Week 1 Blockers (Immediate Action Required):
+
+**1. GA4 Conversion Tracking Broken**
+- Showing 94-100% conversion rates (impossible)
+- Cannot measure success until fixed
+- **Impact:** Blocking reliable measurement for Phases 2-5
+
+**2. Traffic Source Mystery**
+- GA4: 49.2% referral traffic
+- SEO: 95% brand-dependent
+- Conflicting data = incomplete understanding
+- **Impact:** Strategic planning blocked until reconciled
+
+**3. Retention Crisis**
+- Current: 2.5% Day 1 retention
+- Industry: 20-40% retention
+- 97.5% of visitors never return
+- **Impact:** SEO without retention = treadmill growth (no compounding)
+
+### ⚠️ Strategic Vulnerability:
+
+**4. Brand Dependency Risk**
+- 95-99% of traffic requires knowing "neothink" exists
+- Single point of failure for all organic traffic
+- One negative article = potential traffic crash
+- **Impact:** Limits growth ceiling, vulnerable to reputation events
+
+**Details:** See [STRATEGIC-RISKS.md](STRATEGIC-RISKS.md) for complete assessment.
+
+**Action Required:** Foundation Sprint (Week 1) must complete before Phases 2-5. Retention >5% required before Phase 4.
+
+---
+
 ## Implementation Roadmap
 
 ### Week 1: Data Quality Fixes (CRITICAL - Do First)

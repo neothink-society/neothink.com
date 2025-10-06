@@ -19,15 +19,34 @@ graph LR
 
 **Organic Traffic:** 4,256 clicks/year (~355/mo) • **Engagement:** 94.48% • **Content:** 91 published pieces
 
-## Where to Start
+## Where to Start (Decision Tree)
 
-**New to this project?** → [TEAM-BRIEFING.md](TEAM-BRIEFING.md)
+**👋 New team member?** → [TEAM-BRIEFING.md](TEAM-BRIEFING.md) - Strategic overview and context
 
-**Ready to implement?** → [execute/priority-actions.md](execute/priority-actions.md)
+**⚠️ Week 1 execution team?** → [execute/data-quality-issues.md](execute/data-quality-issues.md) - Foundation Sprint protocols
 
-**Need full analysis?** → [NEOTHINK-SEO-REALITY-REPORT.md](NEOTHINK-SEO-REALITY-REPORT.md)
+**📊 Need metric clarity?** → [data/BASELINE-RECONCILIATION.md](data/BASELINE-RECONCILIATION.md) - Single source of truth
 
-**Quick overview?** → [STATUS.md](STATUS.md)
+**🚀 SEO implementation?** → [execute/priority-actions.md](execute/priority-actions.md) - Phase 1-5 roadmap with gates
+
+**🔄 Retention strategy?** → [execute/retention-strategy.md](execute/retention-strategy.md) - Stage-based framework
+
+**⚠️ Risk assessment?** → [STRATEGIC-RISKS.md](STRATEGIC-RISKS.md) - Honest risk framing
+
+**🎯 Specific opportunities?** → [opportunities/](opportunities/) - Reviews page, homepage CTR, zero-click fixes
+
+**📖 Full analysis?** → [NEOTHINK-SEO-REALITY-REPORT.md](NEOTHINK-SEO-REALITY-REPORT.md) - Complete audit
+
+**🔢 Quick overview?** → [STATUS.md](STATUS.md) - Current performance snapshot
+
+---
+
+### ⚠️ CRITICAL: Do not skip to Phase 4 without:
+1. ✅ Foundation Sprint complete (GA4 fixed, traffic reconciled, retention strategy created)
+2. ✅ Phases 1-3 validated (quick wins → content optimization → technical fixes)
+3. ✅ **Retention improved to >5%** (NON-NEGOTIABLE - Phase 4 blocked without this)
+
+**Why retention >5% is mandatory:** Phase 4 is 6-12 months keyword expansion (high effort). Without retention, you acquire users who leave immediately (2.5% = 97.5% gone = no compounding = treadmill growth).
 
 ## Top 5 Opportunities
 
