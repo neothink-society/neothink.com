@@ -21,9 +21,11 @@ graph LR
 
 ## Where to Start
 
+**New to this project?** → [TEAM-BRIEFING.md](TEAM-BRIEFING.md)
+
 **Ready to implement?** → [execute/priority-actions.md](execute/priority-actions.md)
 
-**Need context first?** → [NEOTHINK-SEO-REALITY-REPORT.md](NEOTHINK-SEO-REALITY-REPORT.md)
+**Need full analysis?** → [NEOTHINK-SEO-REALITY-REPORT.md](NEOTHINK-SEO-REALITY-REPORT.md)
 
 **Quick overview?** → [STATUS.md](STATUS.md)
 
@@ -50,4 +52,4 @@ graph LR
 
 ---
 
-**Last Updated:** October 2, 2025
+**Last Updated:** October 6, 2025
