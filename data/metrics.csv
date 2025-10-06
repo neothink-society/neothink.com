@@ -14,3 +14,8 @@ Date,Metric,Value,Source,Notes
 2025-10-06,Pre-Order Conversion Rate,17.65%,Homepage Test,Mark Hamilton book pre-order funnel (6 orders from 34 uniques)
 2025-10-06,Pre-Order Revenue Per Visitor,$5.29,Homepage Test,27x higher conversion vs site baseline (17.65% vs 0.65%)
 2025-10-06,Zero-Click Books Page,0.07% CTR,GSC Analysis,4413 impressions with 3 clicks - critical optimization opportunity
+2025-10-06,GA4 Conversion Tracking,BROKEN,GA4 Audit,Showing 94-100% conversion rates (impossible) - DO NOT USE
+2025-10-06,Organic Engagement Time,117.96s,GA4 Analysis,9x better than paid search (13.10s) - validates organic quality
+2025-10-06,Day 1 Retention,2.5%,GA4 Analysis,Industry standard 20-40% - severe retention crisis
+2025-10-06,Referral Traffic Percentage,49.2%,GA4 Analysis,Under investigation - conflicts with brand-dependent narrative
+2025-10-06,Non-Branded Traffic,0.86%,GA4 Analysis,Even worse than SEO estimate (5%) - validates keyword expansion need
