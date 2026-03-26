@@ -35,10 +35,11 @@ export function getOrganizationSchema(): JsonLd {
     ],
     sameAs: [
       "https://www.facebook.com/people/Neothink-Institute/61585948748781/",
-      "https://twitter.com/NeothinkHQ",
+      "https://x.com/NeothinkHQ",
       "https://www.instagram.com/NeothinkInstitute",
       "https://www.youtube.com/@NeothinkInstitute",
       "https://www.tiktok.com/@neothinkinstitute",
+      "https://www.linkedin.com/company/neothink-institute",
     ],
   };
 }
