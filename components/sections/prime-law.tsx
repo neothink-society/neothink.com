@@ -6,7 +6,7 @@ export function PrimeLaw() {
           The Constitutional Foundation
         </h2>
         <blockquote className="nti-reveal" cite="https://neothink.com/prime-law">
-          <p className="font-[family-name:var(--font-cormorant-garamond)] text-[clamp(18px,2.4vw,24px)] font-light italic leading-[1.7] text-[#FDFCFA]/80">
+          <p className="font-serif text-[clamp(18px,2.4vw,24px)] font-light italic leading-[1.65] text-[#FDFCFA]/80">
             &ldquo;No person, group of persons, or government shall initiate
             force, threat of force, or fraud against any individual&rsquo;s
             self, property, or contract.&rdquo;
@@ -19,7 +19,7 @@ export function PrimeLaw() {
         </blockquote>
         <a
           href="/prime-law"
-          className="nti-reveal mt-8 inline-flex items-center min-h-[44px] text-[12px] font-medium uppercase tracking-[0.1em] text-[#D4B060] transition-[letter-spacing] duration-200 hover:tracking-[0.18em]"
+          className="nti-reveal mt-8 inline-flex items-center min-h-[44px] text-[12px] font-medium uppercase tracking-[0.15em] text-[#D4B060] transition-[letter-spacing] duration-200 hover:tracking-[0.22em]"
         >
           Read the Prime Law &rarr;
         </a>
