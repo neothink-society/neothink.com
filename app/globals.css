@@ -7,10 +7,10 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-jost);
-  --font-serif: var(--font-cormorant-garamond);
-  --font-mono: var(--font-geist-mono);
-  --font-heading: var(--font-cormorant-garamond);
+  --font-sans: "Jost", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-heading: "Cormorant Garamond", Georgia, serif;
+  --font-mono: ui-monospace, monospace;
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -45,6 +45,8 @@
   --color-ink: var(--ink);
   --color-stone-mid: var(--stone-mid);
   --color-cream: var(--cream);
+  --color-gold-muted: var(--gold-muted);
+  --color-border-secondary: var(--border-secondary);
   --color-text-secondary: var(--text-secondary);
   --radius-sm: calc(var(--radius) * 0.6);
   --radius-md: calc(var(--radius) * 0.8);
@@ -64,6 +66,8 @@
   --stone-mid: #E8E3D8;
   --text-secondary: #4A4540;
   --cream: #F4F1EC;
+  --gold-muted: #8A7030;
+  --border-secondary: #C8C0B0;
 
   /* shadcn variables mapped to Neothink palette */
   --background: #FDFCFA;
