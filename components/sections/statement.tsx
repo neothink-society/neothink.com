@@ -6,7 +6,7 @@ export function Statement() {
         <div className="nti-reveal">
           <h2 id="statement-heading" className="sr-only">The Civilizational Thesis</h2>
           <blockquote>
-            <p className="font-[family-name:var(--font-cormorant-garamond)] text-[clamp(32px,3.5vw,52px)] font-light leading-[1.2] text-[#FDFCFA]">
+            <p className="font-serif text-[clamp(32px,3.5vw,52px)] font-light leading-[1.2] text-[#FDFCFA]">
               Every civilization in history has repeated the same cycle. For the
               first time,{" "}
               <em className="text-[#D4B060]">the flaw has been identified,</em>{" "}
@@ -21,8 +21,8 @@ export function Statement() {
         </div>
 
         {/* Right: body copy */}
-        <div className="nti-reveal flex flex-col gap-6">
-          <p className="text-[16px] font-light leading-[1.8] text-[#FDFCFA]/65">
+        <div className="nti-reveal flex flex-col gap-5">
+          <p className="text-[16px] font-light leading-[1.85] text-[#FDFCFA]/65">
             The convergence of artificial intelligence, existential risk,
             stalled human consciousness, and accelerating civilizational
             instability marks a civilizational inflection point unlike any in
@@ -30,14 +30,14 @@ export function Statement() {
             that governed the last two millennia were not designed for this
             moment. They were designed for an earlier form of mind.
           </p>
-          <p className="text-[16px] font-light leading-[1.8] text-[#FDFCFA]/65">
+          <p className="text-[16px] font-light leading-[1.85] text-[#FDFCFA]/65">
             The Neothink Institute has spent fifty years developing a different
             kind of framework. Not a reform of existing systems. Not a new
             ideology to replace old ones. A unified understanding of the single
             variable that determines whether civilizations rise or collapse, and
             the architectural alternative to everything that doesn&rsquo;t work.
           </p>
-          <p className="text-[16px] font-light leading-[1.8] text-[#FDFCFA]/65">
+          <p className="text-[16px] font-light leading-[1.85] text-[#FDFCFA]/65">
             This is not ideology. It is architecture.
           </p>
         </div>
