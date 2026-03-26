@@ -29,7 +29,7 @@ export function UnifiedField() {
   return (
     <section id="unified-field" aria-labelledby="unified-field-heading" className="bg-[#F4F1EC] px-6 py-[120px] md:px-12 max-md:py-20">
       <div className="mx-auto max-w-[1160px]">
-        <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-[#8A7030]">
+        <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-[#B8973A]">
           The Unified Field
         </p>
 
@@ -38,20 +38,20 @@ export function UnifiedField() {
           <div className="nti-reveal">
             <h2
               id="unified-field-heading"
-              className="font-[family-name:var(--font-cormorant-garamond)] text-[clamp(32px,3.5vw,46px)] font-light leading-[1.15] text-[#0E0E0E]"
+              className="font-serif text-[clamp(36px,3vw,52px)] font-light leading-[1.15] text-[#0E0E0E]"
               aria-label="The Unified Field: The Single Variable That Determines Whether Civilization Rises or Collapses"
             >
               The single variable that determines whether civilization rises or{" "}
-              <em className="text-[#B8973A]">collapses.</em>
+              <em className="text-[#8A7030]">collapses.</em>
             </h2>
-            <p className="mt-6 text-[15px] font-light leading-[1.75] text-[#4A4540]">
+            <p className="mt-6 text-[16px] font-light leading-[1.8] text-[#4A4540]">
               The Unified Field of Conscious Civilization is the
               Institute&rsquo;s foundational contribution. A synthesis fifty
               years in the making, identifying the structural pattern that has
               governed every empire, every religion, every economy, and every
               human destiny across all of history.
             </p>
-            <p className="mt-4 text-[15px] font-light leading-[1.75] text-[#4A4540]">
+            <p className="mt-4 text-[16px] font-light leading-[1.8] text-[#4A4540]">
               The insight is not ideological. It is architectural. Every major
               civilization in the recorded arc of history has repeated the same
               error. The Unified Field makes that error visible and shows what
@@ -59,7 +59,7 @@ export function UnifiedField() {
             </p>
             <a
               href="/unified-field"
-              className="mt-8 inline-flex items-center min-h-[44px] border border-[#E8E3D8] px-9 py-4 text-[12px] font-medium uppercase tracking-[0.14em] text-[#4A4540] transition-colors duration-200 hover:border-[#B8973A] hover:text-[#0E0E0E]"
+              className="mt-8 inline-flex items-center min-h-[44px] border border-[#C8C0B0] px-9 py-4 text-[12px] font-medium uppercase tracking-[0.14em] text-[#4A4540] transition-colors duration-200 hover:border-[#B8973A] hover:text-[#0E0E0E]"
             >
               Read the Full Framework
             </a>
@@ -70,14 +70,14 @@ export function UnifiedField() {
             {CARDS.map((card, i) => (
               <div
                 key={card.numeral}
-                className={`nti-reveal group border border-[#E8E3D8] bg-[#F4F1EC] p-8 transition-colors duration-200 hover:bg-[#FDFCFA] ${
+                className={`nti-reveal group border border-[#E8E3D8] bg-[#F4F1EC] px-10 py-9 transition-colors duration-200 hover:bg-[#FDFCFA] ${
                   i > 0 ? "-mt-px" : ""
                 }`}
               >
-                <span className="font-[family-name:var(--font-cormorant-garamond)] text-[13px] font-normal text-[#8A7030]">
+                <span className="font-serif text-[13px] font-normal text-[#B8973A]">
                   {card.numeral}.
                 </span>
-                <h3 className="mt-2 font-[family-name:var(--font-cormorant-garamond)] text-[22px] font-normal leading-[1.3] text-[#0E0E0E]">
+                <h3 className="mt-2 font-serif text-[22px] font-normal leading-[1.3] text-[#0E0E0E]">
                   {card.title}
                 </h3>
                 <p className="mt-3 text-[14px] font-light leading-[1.7] text-[#4A4540]">
