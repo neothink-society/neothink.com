@@ -27,35 +27,35 @@ export function Founder() {
   return (
     <section aria-labelledby="founder-heading" className="bg-[#FDFCFA] px-6 py-[120px] md:px-12 max-md:py-20">
       <div className="mx-auto max-w-[1160px]">
-        <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-[#8A7030]">
+        <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-[#B8973A]">
           The Founder
         </p>
 
         <div className="mt-16 grid grid-cols-1 gap-12 lg:grid-cols-[1fr_480px] lg:gap-[100px]">
           {/* Left column */}
           <div className="nti-reveal">
-            <h2 id="founder-heading" className="font-[family-name:var(--font-cormorant-garamond)] text-[clamp(36px,4vw,52px)] font-light leading-[1.1] text-[#0E0E0E]">
+            <h2 id="founder-heading" className="font-serif text-[clamp(36px,4vw,52px)] font-light leading-[1.1] text-[#0E0E0E]">
               Mark Hamilton
             </h2>
-            <span className="mt-3 block text-[11px] font-medium uppercase tracking-[0.18em] text-[#8A7030]">
+            <span className="mt-3 block text-[13px] font-medium uppercase tracking-[0.14em] text-[#B8973A]">
               Civilizational Theorist &middot; Systems Philosopher &middot; Founder, Neothink Institute
             </span>
 
-            <p className="mt-8 text-[15px] font-light leading-[1.75] text-[#4A4540]">
+            <p className="mt-8 text-[16px] font-light leading-[1.85] text-[#4A4540]">
               Mark Hamilton is an American civilizational theorist and
               institutional founder whose work spans five decades of research
               into consciousness, economics, political theory, and
               civilizational design.
             </p>
-            <p className="mt-4 text-[15px] font-light leading-[1.75] text-[#4A4540]">
-              He is the architect of the Unified Field of Conscious
-              Civilization, the synthesis identifying the single structural
+            <p className="mt-4 text-[16px] font-light leading-[1.85] text-[#4A4540]">
+              He is the architect of the <strong>Unified Field of Conscious
+              Civilization,</strong> the synthesis identifying the single structural
               variable that determines whether civilizations flourish or
-              collapse, and the originator of Neovia, the first proposed
+              collapse, and the originator of <strong>Neovia</strong>, the first proposed
               civilization designed entirely around the Prime Law prohibition of
               initiated force.
             </p>
-            <p className="mt-4 text-[15px] font-light leading-[1.75] text-[#4A4540]">
+            <p className="mt-4 text-[16px] font-light leading-[1.85] text-[#4A4540]">
               Hamilton&rsquo;s most consequential contribution was not merely
               diagnosing civilization&rsquo;s structural error, but designing its
               correction. His work is distinctive for treating civilization as
@@ -65,7 +65,7 @@ export function Founder() {
             </p>
 
             <blockquote className="mt-8">
-              <p className="font-[family-name:var(--font-cormorant-garamond)] text-[18px] italic leading-[1.6] text-[#7A7570]">
+              <p className="font-serif text-[17px] italic leading-[1.6] text-[#7A7570]">
                 &ldquo;Where others sought better rulers, better laws, or better
                 ideologies, Hamilton asked a more fundamental question: what if
                 hierarchy itself is the problem?&rdquo;
@@ -96,7 +96,7 @@ export function Founder() {
 
             <a
               href="/mark-hamilton"
-              className="mt-8 inline-flex items-center min-h-[44px] border border-[#E8E3D8] px-9 py-4 text-[12px] font-medium uppercase tracking-[0.14em] text-[#4A4540] transition-colors duration-200 hover:border-[#B8973A] hover:text-[#0E0E0E]"
+              className="mt-8 inline-flex items-center min-h-[44px] border border-[#C8C0B0] px-9 py-4 text-[12px] font-medium uppercase tracking-[0.14em] text-[#4A4540] transition-colors duration-200 hover:border-[#B8973A] hover:text-[#0E0E0E]"
             >
               Full Biography &amp; Published Work
             </a>
@@ -113,8 +113,8 @@ export function Founder() {
                 sizes="(max-width: 1024px) 100vw, 480px"
               />
               {/* Caption overlay */}
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#0E0E0E]/80 to-transparent px-6 pb-5 pt-12">
-                <p className="text-[14px] font-normal text-[#FDFCFA]">
+              <div className="absolute bottom-0 left-0 right-0 bg-[rgba(14,14,14,0.92)] px-6 pb-5">
+                <p className="font-serif text-[18px] font-normal text-[#FDFCFA]">
                   Mark Hamilton
                 </p>
                 <p className="text-[11px] font-light tracking-[0.06em] text-[#FDFCFA]/60">
