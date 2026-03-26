@@ -61,15 +61,15 @@ export function SiteHeader() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 bg-[#FDFCFA]/[0.96] backdrop-blur-lg transition-shadow duration-300 ${
         scrolled
-          ? "shadow-[0_1px_8px_rgba(0,0,0,0.06)] border-b border-[rgba(184,151,58,0.3)]"
+          ? "shadow-[0_2px_24px_rgba(0,0,0,0.06)] border-b border-[rgba(184,151,58,0.3)]"
           : "border-b border-[rgba(184,151,58,0.15)]"
       }`}
     >
       {/* Top row: logo + hamburger */}
-      <div className="relative flex items-center justify-center px-6 pt-3 pb-2 md:px-12">
+      <div className="relative flex items-center justify-center px-6 pt-3 pb-2 md:px-12 border-b border-[rgba(184,151,58,0.1)]">
         <a
           href="/"
-          className="font-[family-name:var(--font-cormorant-garamond)] text-[18px] font-light tracking-[0.1em] text-[#0E0E0E]"
+          className="font-serif text-[18px] font-normal tracking-[0.1em] text-[#0E0E0E]"
         >
           Neothink{" "}
           <span className="text-[#B8973A]">Institute</span>
@@ -110,7 +110,7 @@ export function SiteHeader() {
         {NAV_LINKS.map((link, i) => (
           <span key={link.href} className="flex items-center">
             {i > 0 && (
-              <span className="mx-3 inline-block h-[3px] w-[3px] rounded-full bg-[#B8973A] opacity-40" />
+              <span className="mx-0.5 inline-block h-[3px] w-[3px] rounded-full bg-[#B8973A] opacity-40" />
             )}
             <a
               href={link.href}
@@ -120,10 +120,9 @@ export function SiteHeader() {
             </a>
           </span>
         ))}
-        <span className="mx-3 inline-block h-[3px] w-[3px] rounded-full bg-[#B8973A] opacity-40" />
         <a
           href="/unleashed"
-          className="ml-0 inline-block bg-[#B8973A] px-[18px] py-[7px] text-[11px] font-medium uppercase tracking-[0.13em] text-[#0E0E0E] transition-colors duration-200 hover:bg-[#D4B060]"
+          className="ml-0 inline-block bg-[#B8973A] px-[18px] py-[7px] text-[11px] font-medium uppercase tracking-[0.13em] text-[#0E0E0E] transition-colors duration-200 hover:bg-[#C8A840]"
         >
           Read Unleashed
         </a>
@@ -154,7 +153,7 @@ export function SiteHeader() {
             <a
               href="/unleashed"
               onClick={() => setMenuOpen(false)}
-              className="block w-full bg-[#B8973A] py-3 text-center text-[12px] font-medium uppercase tracking-[0.13em] text-[#0E0E0E] transition-colors duration-200 hover:bg-[#D4B060]"
+              className="block w-full bg-[#B8973A] py-3 text-center text-[12px] font-medium uppercase tracking-[0.13em] text-[#0E0E0E] transition-colors duration-200 hover:bg-[#C8A840]"
             >
               Read Unleashed
             </a>
