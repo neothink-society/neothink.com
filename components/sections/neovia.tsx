@@ -39,7 +39,7 @@ export function Neovia() {
       {/* Ghost watermark */}
       <span
         aria-hidden="true"
-        className="pointer-events-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 select-none font-[family-name:var(--font-cormorant-garamond)] text-[280px] font-light tracking-wider text-[#FDFCFA] opacity-[0.03]"
+        className="pointer-events-none absolute right-[-20px] top-1/2 -translate-y-1/2 select-none font-serif text-[280px] font-light tracking-wider text-[#FDFCFA] opacity-[0.03]"
       >
         NEOVIA
       </span>
@@ -52,26 +52,26 @@ export function Neovia() {
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-[100px]">
           {/* Left */}
           <div className="nti-reveal">
-            <h2 id="neovia-heading" className="font-[family-name:var(--font-cormorant-garamond)] text-[clamp(32px,3.5vw,46px)] font-light leading-[1.15] text-[#FDFCFA]">
+            <h2 id="neovia-heading" className="font-serif text-[clamp(36px,3vw,52px)] font-light leading-[1.15] text-[#FDFCFA]">
               Neovia &mdash; the first civilization designed for{" "}
               <em className="text-[#D4B060]">fully integrated</em> human
               consciousness.
             </h2>
-            <p className="mt-6 text-[15px] font-light leading-[1.75] text-[#FDFCFA]/65">
+            <p className="mt-6 text-[16px] font-light leading-[1.85] text-[#FDFCFA]/65">
               Neovia is the Institute&rsquo;s flagship civilizational project.
               The first Prime Law jurisdiction. A city designed from the ground
               up to remove hierarchy and initiated force as governing
               principles, and to create the environmental conditions in which
               fully conscious human beings can operate without constraint.
             </p>
-            <p className="mt-4 text-[15px] font-light leading-[1.75] text-[#FDFCFA]/65">
+            <p className="mt-4 text-[16px] font-light leading-[1.85] text-[#FDFCFA]/65">
               Neovia is not a utopia. It is not an ideology. It is an
               anti-extinction architecture. The practical, jurisdictional exit
               ramp from the otherwise inevitable collision between nuclear-era
               force-based civilization and the accelerating power of artificial
               intelligence.
             </p>
-            <p className="mt-4 text-[15px] font-light leading-[1.75] text-[#FDFCFA]/65">
+            <p className="mt-4 text-[16px] font-light leading-[1.85] text-[#FDFCFA]/65">
               When force is structurally removed, consciousness expands.
               Innovation compounds. Wealth becomes exponential. The purpose void
               left by AI is filled not by policy, but by the release of human
@@ -79,13 +79,13 @@ export function Neovia() {
             </p>
 
             {/* Stats grid */}
-            <div className="mt-10 grid grid-cols-2 gap-6">
+            <div className="mt-10 grid grid-cols-2 gap-px bg-[rgba(255,255,255,0.08)] border border-[rgba(255,255,255,0.08)]">
               {STATS.map((stat) => (
-                <div key={stat.label}>
-                  <p className="font-[family-name:var(--font-cormorant-garamond)] text-[36px] font-light leading-none text-[#D4B060]">
-                    {stat.value}
+                <div key={stat.label} className="bg-[rgba(14,14,14,0.6)] px-8 py-7">
+                  <p className="font-serif text-[36px] font-light leading-none text-[#D4B060]">
+                    {stat.value === "Prime Law" ? <>Prime<br />Law</> : stat.value}
                   </p>
-                  <p className="mt-2 text-[12px] font-medium uppercase tracking-[0.12em] text-[#FDFCFA]/60">
+                  <p className="mt-2 text-[12px] font-normal uppercase tracking-[0.12em] text-[rgba(253,252,250,0.45)]">
                     {stat.label}
                   </p>
                 </div>
@@ -105,14 +105,14 @@ export function Neovia() {
             {FEATURES.map((feature, i) => (
               <div
                 key={i}
-                className={`nti-reveal border border-[#FDFCFA]/[0.06] bg-[#0E0E0E] p-6 transition-colors duration-200 hover:bg-[#161614] ${
+                className={`nti-reveal border border-[#FDFCFA]/[0.06] bg-[#0E0E0E] px-9 py-8 transition-colors duration-200 hover:bg-[rgba(184,151,58,0.06)] ${
                   i > 0 ? "-mt-px" : ""
                 }`}
               >
-                <h3 className="font-[family-name:var(--font-cormorant-garamond)] text-[18px] font-normal leading-[1.3] text-[#FDFCFA]">
+                <h3 className="font-serif text-[20px] font-normal leading-[1.3] text-[#FDFCFA]">
                   {feature.title}
                 </h3>
-                <p className="mt-2 text-[14px] font-light leading-[1.65] text-[#FDFCFA]/65">
+                <p className="mt-2 text-[14px] font-light leading-[1.65] text-[rgba(253,252,250,0.5)]">
                   {feature.description}
                 </p>
               </div>
