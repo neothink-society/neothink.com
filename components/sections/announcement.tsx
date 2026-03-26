@@ -4,7 +4,7 @@ export function Announcement() {
       {/* Watermark */}
       <span
         aria-hidden="true"
-        className="pointer-events-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 select-none font-[family-name:var(--font-cormorant-garamond)] text-[260px] font-light italic text-[#0E0E0E] opacity-[0.06]"
+        className="pointer-events-none absolute right-[-10px] top-1/2 -translate-y-1/2 select-none font-serif text-[260px] font-light italic text-[#B8973A] opacity-[0.06]"
       >
         Unleashed
       </span>
@@ -28,7 +28,7 @@ export function Announcement() {
               <p className="mb-4 text-[10px] font-medium uppercase tracking-[0.2em] text-[#B8973A]">
                 New Release
               </p>
-              <p aria-hidden="true" className="font-[family-name:var(--font-cormorant-garamond)] text-[52px] font-light italic leading-none text-[#FDFCFA]">
+              <p aria-hidden="true" className="font-serif text-[52px] font-light italic leading-none text-[#FDFCFA]">
                 Unleashed
               </p>
               <p className="mt-3 text-[13px] font-light tracking-[0.08em] text-[#D4B060]">
@@ -45,7 +45,7 @@ export function Announcement() {
         {/* Text content */}
         <div className="order-2 md:order-1">
           <div className="mb-6 flex items-center gap-3">
-            <span className="relative flex items-center gap-2 rounded-sm bg-[#B8973A] px-3 py-1 text-[10px] font-medium uppercase tracking-[0.15em] text-[#FDFCFA]">
+            <span className="relative flex items-center gap-2 rounded-sm bg-[#B8973A] px-5 py-2.5 text-[11px] font-bold uppercase tracking-[0.28em] text-[#FDFCFA]">
               <span className="relative flex h-[7px] w-[7px]">
                 <span className="absolute inline-flex h-full w-full animate-ping motion-reduce:animate-none rounded-full bg-[#FDFCFA] opacity-75" />
                 <span className="relative inline-flex h-[7px] w-[7px] rounded-full bg-[#FDFCFA]" />
@@ -53,13 +53,13 @@ export function Announcement() {
               New Release
             </span>
           </div>
-          <h2 id="announcement-heading" className="font-[family-name:var(--font-cormorant-garamond)] text-[clamp(40px,5vw,64px)] font-light italic leading-[1.1] text-[#0E0E0E]">
+          <h2 id="announcement-heading" className="font-serif text-[clamp(40px,5vw,64px)] font-light italic leading-[1.1] text-[#0E0E0E]">
             Unleashed
           </h2>
-          <p className="mt-2 text-[15px] font-light uppercase tracking-[0.18em] text-[#8A7030]">
+          <p className="mt-2 text-[13px] font-light uppercase tracking-[0.18em] text-[#B8973A]">
             The Promethean Promise
           </p>
-          <p className="mt-6 max-w-[480px] text-[15px] font-light leading-[1.75] text-[#4A4540]">
+          <p className="mt-6 max-w-[480px] text-[16px] font-light leading-[1.8] text-[#4A4540]">
             After fifty years of research, the complete Unified Field of
             Conscious Civilization is now available. The first synthesis
             identifying the single structural pattern governing every empire,
@@ -68,13 +68,13 @@ export function Announcement() {
           <div className="mt-8 flex flex-wrap gap-4">
             <a
               href="/unleashed"
-              className="inline-flex items-center min-h-[44px] bg-[#0E0E0E] px-9 py-4 text-[12px] font-medium uppercase tracking-[0.14em] text-[#FDFCFA] transition-colors duration-200 hover:bg-[#2a2a2a]"
+              className="inline-flex items-center min-h-[44px] bg-[#0E0E0E] px-9 py-4 text-[12px] font-medium uppercase tracking-[0.14em] text-[#FDFCFA] transition-colors duration-200 hover:bg-[#B8973A] hover:border-[#B8973A]"
             >
               Read the Full Work
             </a>
             <a
               href="/unleashed/download"
-              className="inline-flex items-center min-h-[44px] border border-[#E8E3D8] px-9 py-4 text-[12px] font-medium uppercase tracking-[0.14em] text-[#4A4540] transition-colors duration-200 hover:border-[#B8973A] hover:text-[#0E0E0E]"
+              className="inline-flex items-center min-h-[44px] border border-[#C8C0B0] px-9 py-4 text-[12px] font-medium uppercase tracking-[0.14em] text-[#4A4540] transition-colors duration-200 hover:border-[#B8973A] hover:text-[#0E0E0E]"
             >
               Download PDF
             </a>
