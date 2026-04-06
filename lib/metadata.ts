@@ -5,7 +5,7 @@ export const siteConfig = {
   url: "https://neothink.com",
   ogImage: "/opengraph-image",
   description:
-    "For fifty years, the Neothink Institute has developed the unified framework for understanding the structural error at the root of civilization's recurring cycles of collapse.",
+    "The Neothink Institute studies conscious civilization, integrated thinking, and the conditions for human flourishing. Founded by Mark Hamilton.",
   twitter: {
     site: "@NeothinkHQ",
     creator: "@NeothinkHQ",
@@ -14,8 +14,7 @@ export const siteConfig = {
 
 export function generateSiteMetadata(): Metadata {
   return {
-    title:
-      "Neothink Institute | The Intellectual Foundation for the Next Stage of Human Civilization",
+    title: "Neothink Institute | What Comes Next for Civilization",
     description: siteConfig.description,
     metadataBase: new URL("https://neothink.com"),
     alternates: {
@@ -29,7 +28,7 @@ export function generateSiteMetadata(): Metadata {
       url: siteConfig.url,
       siteName: siteConfig.name,
       title:
-        "Neothink Institute | The Intellectual Foundation for the Next Stage of Human Civilization",
+        "Neothink Institute | What Comes Next for Civilization",
       description: siteConfig.description,
       images: [
         {
@@ -45,7 +44,7 @@ export function generateSiteMetadata(): Metadata {
       site: siteConfig.twitter.site,
       creator: siteConfig.twitter.creator,
       title:
-        "Neothink Institute | The Intellectual Foundation for the Next Stage of Human Civilization",
+        "Neothink Institute | What Comes Next for Civilization",
       description: siteConfig.description,
       images: [
         {

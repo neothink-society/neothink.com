@@ -33,6 +33,11 @@ export function getOrganizationSchema(): JsonLd {
       "Personal development",
       "AI alignment",
     ],
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "General Inquiry",
+      url: `${siteConfig.url}/contact`,
+    },
     sameAs: [
       "https://www.facebook.com/people/Neothink-Institute/61585948748781/",
       "https://x.com/NeothinkHQ",
@@ -72,14 +77,6 @@ export function getWebSiteSchema(): JsonLd {
     name: siteConfig.name,
     publisher: {
       "@id": `${siteConfig.url}/#organization`,
-    },
-    potentialAction: {
-      "@type": "SearchAction",
-      target: {
-        "@type": "EntryPoint",
-        urlTemplate: `${siteConfig.url}/search?q={search_term_string}`,
-      },
-      "query-input": "required name=search_term_string",
     },
   };
 }

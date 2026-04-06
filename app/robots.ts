@@ -3,24 +3,35 @@ import type { MetadataRoute } from "next";
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
+      // Allow all crawlers by default
       {
         userAgent: "*",
         allow: "/",
       },
+      // Block AI training bots (protect content from model training)
       {
         userAgent: "GPTBot",
-        allow: "/",
+        disallow: "/",
       },
+      {
+        userAgent: "Google-Extended",
+        disallow: "/",
+      },
+      {
+        userAgent: "CCBot",
+        disallow: "/",
+      },
+      // Allow AI search bots (appear in AI search results)
       {
         userAgent: "ChatGPT-User",
         allow: "/",
       },
       {
-        userAgent: "ClaudeBot",
+        userAgent: "Claude-User",
         allow: "/",
       },
       {
-        userAgent: "Claude-Web",
+        userAgent: "Claude-SearchBot",
         allow: "/",
       },
       {
@@ -29,10 +40,6 @@ export default function robots(): MetadataRoute.Robots {
       },
       {
         userAgent: "Applebot-Extended",
-        allow: "/",
-      },
-      {
-        userAgent: "Google-Extended",
         allow: "/",
       },
       {
