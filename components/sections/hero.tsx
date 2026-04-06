@@ -47,11 +47,11 @@ export function Hero() {
       </div>
 
       {/* Bottom rule */}
-      <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-[#E8E3D8] to-transparent" />
+      <div className="absolute bottom-[52px] left-6 right-6 h-px bg-gradient-to-r from-[#E8E3D8] to-transparent md:left-12 md:right-12" />
 
       {/* Scroll indicator */}
       <span
-        className="nti-reveal absolute bottom-8 left-6 text-[10px] font-medium uppercase tracking-[0.15em] text-[#7A7570] md:left-12"
+        className="nti-reveal absolute bottom-7 left-6 text-[10px] font-medium uppercase tracking-[0.2em] text-[#7A7570] md:left-12"
         style={{ animationDelay: "1.2s" }}
       >
         Scroll to begin

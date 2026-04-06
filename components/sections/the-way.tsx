@@ -89,9 +89,9 @@ export function TheWay() {
         </div>
 
         {/* Footer */}
-        <div className="mt-12 flex flex-col items-start justify-between gap-6 border-t border-[#E8E3D8] pt-10 md:flex-row md:items-center">
+        <div className="mt-16 flex flex-col items-start justify-between gap-8 border-t border-[#E8E3D8] pt-12 md:flex-row md:items-center">
           <blockquote>
-            <p className="font-serif text-[28px] italic leading-[1.5] text-[#7A7570]">
+            <p className="font-serif text-[28px] italic leading-[1.4] text-[#4A4540] max-w-[520px]">
               &ldquo;We do not tell you who you are. We show you how to remove all that is not you. What is left, is you.&rdquo;
             </p>
           </blockquote>

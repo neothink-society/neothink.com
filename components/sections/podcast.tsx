@@ -2,7 +2,7 @@ export function Podcast() {
   return (
     <section id="podcast" aria-labelledby="podcast-heading" className="border-t border-[#E8E3D8] bg-[#F4F1EC] px-6 py-[120px] md:px-12 max-md:py-20">
       <div className="mx-auto max-w-[1160px]">
-        <p className="mb-10 text-[10px] font-medium uppercase tracking-[0.22em] text-[#B8973A]">
+        <p className="mb-5 text-[10px] font-medium uppercase tracking-[0.22em] text-[#B8973A]">
           The Flagship
         </p>
 
