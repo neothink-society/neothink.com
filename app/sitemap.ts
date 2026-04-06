@@ -3,18 +3,11 @@ import type { MetadataRoute } from "next";
 const BASE_URL = "https://neothink.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const lastModified = new Date("2026-03-22");
+  const lastModified = new Date();
 
   const routes = [
     { path: "", changeFrequency: "weekly" as const, priority: 1.0 },
-    { path: "/unified-field", changeFrequency: "monthly" as const, priority: 0.8 },
-    { path: "/neovia", changeFrequency: "monthly" as const, priority: 0.8 },
-    { path: "/the-way", changeFrequency: "monthly" as const, priority: 0.8 },
-    { path: "/neothink", changeFrequency: "monthly" as const, priority: 0.8 },
-    { path: "/mark-hamilton", changeFrequency: "monthly" as const, priority: 0.8 },
-    { path: "/published-work", changeFrequency: "monthly" as const, priority: 0.8 },
-    { path: "/unleashed", changeFrequency: "monthly" as const, priority: 0.9 },
-    { path: "/prime-law", changeFrequency: "monthly" as const, priority: 0.8 },
+    // Additional routes will be added as pages are built
   ];
 
   return routes.map((route) => ({
