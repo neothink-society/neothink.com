@@ -127,8 +127,11 @@ export function getWebPageSchema(): JsonLd {
     "@type": "WebPage",
     "@id": `${siteConfig.url}/#webpage`,
     url: siteConfig.url,
-    name: "Neothink Institute | The Intellectual Foundation for the Next Stage of Human Civilization",
+    name: "Neothink Institute | What Comes Next for Civilization",
     description: siteConfig.description,
+    datePublished: "2024-05-02",
+    dateModified: new Date().toISOString().split("T")[0],
+    inLanguage: "en-US",
     isPartOf: {
       "@id": `${siteConfig.url}/#website`,
     },
@@ -138,6 +141,14 @@ export function getWebPageSchema(): JsonLd {
     primaryImageOfPage: {
       "@type": "ImageObject",
       url: `${siteConfig.url}${siteConfig.ogImage}`,
+    },
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: [
+        "#hero-heading",
+        "#statement-heading",
+        "#unified-field-heading",
+      ],
     },
   };
 }
