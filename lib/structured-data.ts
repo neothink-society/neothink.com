@@ -110,7 +110,7 @@ export function getFounderSchema(): JsonLd {
         "@type": "Occupation",
         name: "Author",
         description:
-          "Author of the Neothink Manuscripts — a multi-decade body of work spanning psychology, economics, political theory, and civilizational design.",
+          "Author of the Neothink Manuscripts, a multi-decade body of work spanning psychology, economics, political theory, and civilizational design.",
       },
       {
         "@type": "Occupation",
@@ -186,7 +186,7 @@ export function getFAQSchema(): JsonLd {
         name: "What is the Prime Law?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "The Prime Law is a proposed constitutional framework grounded in the non-aggression principle. It defines a single legal constraint — the prohibition of initiatory force, threat of force, or fraud — as the foundational condition for a free and flourishing civilization.",
+          text: "The Prime Law is a proposed constitutional framework grounded in the non-aggression principle. It defines a single legal constraint: the prohibition of initiatory force, threat of force, or fraud, as the foundational condition for a free and flourishing civilization.",
         },
       },
       {
@@ -194,7 +194,7 @@ export function getFAQSchema(): JsonLd {
         name: "What is Neothink?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Neothink is a cognitive framework and mentality for integrated thinking created by Mark Hamilton. It is the operating system of the uncovered mind — the capacity to integrate across domains, see cause and effect with precision, detect contradictions, build concepts into larger concepts, and create new knowledge that advances human life.",
+          text: "Neothink is a cognitive framework and mentality for integrated thinking created by Mark Hamilton. It is the operating system of the uncovered mind. The capacity to integrate across domains, see cause and effect with precision, detect contradictions, build concepts into larger concepts, and create new knowledge that advances human life.",
         },
       },
       {
@@ -218,7 +218,7 @@ export function getFAQSchema(): JsonLd {
         name: "How does AI relate to the Neothink framework?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "The Neothink Institute views artificial intelligence through the lens of civilizational risk and human consciousness. Its framework addresses AI alignment by arguing that the structural conditions for beneficial AI development require the same foundational protections — individual sovereignty and the non-aggression principle — that underpin a flourishing human civilization.",
+          text: "The Neothink Institute views artificial intelligence through the lens of civilizational risk and human consciousness. Its framework addresses AI alignment by arguing that the structural conditions for beneficial AI development require the same foundational protections, individual sovereignty and the non-aggression principle, that underpin a flourishing human civilization.",
         },
       },
     ],
@@ -284,9 +284,32 @@ export function getNeothinkSystemSchema(): JsonLd {
       "Systems thinking",
     ],
     description:
-      "A cognitive framework and mentality for integrated thinking created by Mark Hamilton. It is the operating system of the uncovered mind — the capacity to integrate across domains, see cause and effect with precision, and create new knowledge that advances human life.",
+      "A cognitive framework and mentality for integrated thinking created by Mark Hamilton. It is the operating system of the uncovered mind. The capacity to integrate across domains, see cause and effect with precision, and create new knowledge that advances human life.",
     url: `${siteConfig.url}/neothink`,
     inLanguage: "en",
+  };
+}
+
+export function getWallaceHamiltonSchema(): JsonLd {
+  return {
+    "@type": "Person",
+    "@id": `${siteConfig.url}/#wallace-hamilton`,
+    name: "Wallace Hamilton",
+    jobTitle: "CEO, Immortalis",
+    description:
+      "CEO of Immortalis, founder of The Way, and co-host of the Unleashed podcast. Research director and the bridge between the Neothink framework and the individual.",
+    url: `${siteConfig.url}/wallace-hamilton`,
+    affiliation: [
+      { "@id": `${siteConfig.url}/#organization` },
+      { "@id": `${siteConfig.url}/#society` },
+    ],
+    knowsAbout: [
+      "The Way",
+      "Personal development",
+      "Consciousness studies",
+      "AI and civilization",
+      "Community building",
+    ],
   };
 }
 
@@ -303,6 +326,7 @@ export function getStructuredDataGraph(): JsonLd {
       getUnleashedBookSchema(),
       getPrimeLawSchema(),
       getNeothinkSystemSchema(),
+      getWallaceHamiltonSchema(),
     ],
   };
 }
