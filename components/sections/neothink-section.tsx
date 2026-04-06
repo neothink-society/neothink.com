@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const CAPABILITIES: { title: string; description: React.ReactNode }[] = [
   {
@@ -63,12 +64,12 @@ export function NeothinkSection() {
               One that was glimpsed briefly by Aristotle 2,400 years ago and has
               been suppressed by hierarchical civilization ever since.
             </p>
-            <a
+            <Link
               href="/neothink"
               className="mt-8 inline-flex items-center min-h-[44px] border border-[#C8C0B0] px-9 py-4 text-[12px] font-medium uppercase tracking-[0.14em] text-[#4A4540] transition-colors duration-200 hover:border-[#B8973A] hover:text-[#B8973A]"
             >
               What Is Neothink
-            </a>
+            </Link>
           </div>
 
           {/* Right: capabilities */}

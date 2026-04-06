@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const ARTICLES: { slug: string; tag: string; title: string; description: string; author: string; category: string }[] = [
   {
     slug: "unified-field",
@@ -68,7 +70,7 @@ export function PublishedWork() {
 
         <div className="grid grid-cols-1 gap-0 md:grid-cols-2 lg:grid-cols-3">
           {ARTICLES.map((article) => (
-            <a
+            <Link
               key={article.slug}
               href={`/articles/${article.slug}`}
               className="nti-reveal group block bg-[#F4F1EC] px-8 py-9 no-underline transition-colors duration-200 hover:bg-[#FDFCFA] border border-[#E8E3D8] -mt-px first:mt-0 md:[&:nth-child(-n+2)]:mt-0 lg:[&:nth-child(-n+3)]:mt-0 md:-ml-px md:first:ml-0 md:[&:nth-child(2n+1)]:ml-0 lg:[&:nth-child(2n+1)]:ml-px lg:[&:nth-child(3n+1)]:ml-0"
@@ -85,17 +87,17 @@ export function PublishedWork() {
               <p className="mt-6 text-[11px] font-medium uppercase tracking-[0.1em] text-[#7A7570]">
                 {article.author} &middot; {article.category}
               </p>
-            </a>
+            </Link>
           ))}
         </div>
 
         <div className="mt-12 text-center">
-          <a
+          <Link
             href="/published-work"
             className="inline-flex items-center min-h-[44px] border border-[#C8C0B0] px-9 py-4 text-[12px] font-medium uppercase tracking-[0.14em] text-[#4A4540] transition-colors duration-200 hover:border-[#B8973A] hover:text-[#B8973A]"
           >
             View All Published Work
-          </a>
+          </Link>
         </div>
       </div>
     </section>

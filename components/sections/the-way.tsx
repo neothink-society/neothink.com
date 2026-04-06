@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const STAGES: { numeral: string; title: string; description: React.ReactNode; tag: string }[] = [
   {
@@ -95,12 +96,12 @@ export function TheWay() {
               &ldquo;We do not tell you who you are. We show you how to remove all that is not you. What is left, is you.&rdquo;
             </p>
           </blockquote>
-          <a
+          <Link
             href="/the-way"
             className="inline-flex items-center min-h-[44px] bg-[#0E0E0E] px-9 py-4 text-[12px] font-medium uppercase tracking-[0.14em] text-[#FDFCFA] transition-colors duration-200 hover:bg-[#B8973A] hover:border-[#B8973A]"
           >
             Begin The Way
-          </a>
+          </Link>
         </div>
       </div>
     </section>

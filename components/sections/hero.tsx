@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function Hero() {
   return (
     <section aria-labelledby="hero-heading" className="relative flex min-h-screen flex-col justify-center px-6 pb-20 pt-[120px] md:px-12">
@@ -31,18 +33,18 @@ export function Hero() {
           className="nti-reveal flex flex-wrap gap-4"
           style={{ animationDelay: "0.8s" }}
         >
-          <a
+          <Link
             href="/unified-field"
             className="inline-flex items-center min-h-[44px] bg-[#0E0E0E] border border-[#0E0E0E] px-9 py-4 text-[12px] font-medium uppercase tracking-[0.14em] text-[#FDFCFA] transition-colors duration-200 hover:bg-[#B8973A] hover:border-[#B8973A]"
           >
             Explore the Framework
-          </a>
-          <a
+          </Link>
+          <Link
             href="/neovia"
             className="inline-flex items-center min-h-[44px] border border-[#C8C0B0] px-9 py-4 text-[12px] font-medium uppercase tracking-[0.14em] text-[#4A4540] transition-colors duration-200 hover:border-[#B8973A] hover:text-[#0E0E0E]"
           >
             See What We&rsquo;re Building
-          </a>
+          </Link>
         </div>
       </div>
 

@@ -29,6 +29,5 @@
 
 ## Optional
 
-- [About](/about): Background on the Institute's mission and history.
-- [Blog](/blog): Latest articles and updates.
-- [Podcast](/podcast): Unleashed — twelve founding episodes delivering the Unified Field framework.
+- [Published Work](/published-work): Articles and research from the Institute.
+- [Contact](/contact): Get in touch with the Neothink Institute.

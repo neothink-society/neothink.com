@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function PrimeLaw() {
   return (
     <section id="prime-law" aria-labelledby="prime-law-heading" className="bg-[#0E0E0E] px-6 py-20 text-center md:px-12">
@@ -17,12 +19,12 @@ export function PrimeLaw() {
             </cite>
           </footer>
         </blockquote>
-        <a
+        <Link
           href="/prime-law"
           className="nti-reveal mt-8 inline-flex items-center min-h-[44px] text-[12px] font-medium uppercase tracking-[0.15em] text-[#D4B060] transition-[letter-spacing] duration-200 hover:tracking-[0.22em]"
         >
           Read the Prime Law &rarr;
-        </a>
+        </Link>
       </div>
     </section>
   );

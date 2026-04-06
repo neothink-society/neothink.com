@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const CARDS = [
   {
     numeral: "I",
@@ -57,12 +59,12 @@ export function UnifiedField() {
               error. The Unified Field makes that error visible and shows what
               replaces it.
             </p>
-            <a
+            <Link
               href="/unified-field"
               className="mt-8 inline-flex items-center min-h-[44px] border border-[#C8C0B0] px-9 py-4 text-[12px] font-medium uppercase tracking-[0.14em] text-[#4A4540] transition-colors duration-200 hover:border-[#B8973A] hover:text-[#0E0E0E]"
             >
               Read the Full Framework
-            </a>
+            </Link>
           </div>
 
           {/* Right column: cards */}

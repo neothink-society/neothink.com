@@ -330,16 +330,3 @@ export function getStructuredDataGraph(): JsonLd {
     ],
   };
 }
-
-export function getAllStructuredData(): JsonLd[] {
-  return [
-    getOrganizationSchema(),
-    getWebSiteSchema(),
-    getFounderSchema(),
-    getWebPageSchema(),
-    getFAQSchema(),
-    getUnleashedBookSchema(),
-    getPrimeLawSchema(),
-    getNeothinkSystemSchema(),
-  ];
-}

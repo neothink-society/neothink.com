@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
+import Link from "next/link";
 
 const NAV_LINKS = [
   { label: "Unified Field", href: "/unified-field" },
@@ -67,13 +68,13 @@ export function SiteHeader() {
     >
       {/* Top row: logo + hamburger */}
       <div className="relative flex items-center justify-center px-6 pt-3 pb-2 md:px-12 border-b border-[rgba(184,151,58,0.1)]">
-        <a
+        <Link
           href="/"
           className="font-serif text-[18px] font-normal tracking-[0.1em] text-[#0E0E0E]"
         >
           Neothink{" "}
           <span className="text-[#B8973A]">Institute</span>
-        </a>
+        </Link>
         {/* Hamburger — visible below 860px */}
         <button
           type="button"
@@ -112,20 +113,20 @@ export function SiteHeader() {
             {i > 0 && (
               <span className="mx-0.5 inline-block h-[3px] w-[3px] rounded-full bg-[#B8973A] opacity-40" />
             )}
-            <a
+            <Link
               href={link.href}
               className="inline-block py-3 px-4 text-[11px] font-medium uppercase tracking-[0.13em] text-[#4A4540] transition-colors duration-200 hover:text-[#B8973A]"
             >
               {link.label}
-            </a>
+            </Link>
           </span>
         ))}
-        <a
+        <Link
           href="/unleashed"
           className="ml-0 inline-block bg-[#B8973A] px-[18px] py-[7px] text-[11px] font-medium uppercase tracking-[0.13em] text-[#0E0E0E] transition-colors duration-200 hover:bg-[#C8A840]"
         >
           Read Unleashed
-        </a>
+        </Link>
       </nav>
 
       {/* Mobile drawer */}
@@ -140,23 +141,23 @@ export function SiteHeader() {
       >
         <nav aria-label="Mobile navigation" className="flex flex-col px-6 pt-6">
           {NAV_LINKS.map((link) => (
-            <a
+            <Link
               key={link.href}
               href={link.href}
               onClick={() => setMenuOpen(false)}
               className="border-b border-[#E8E3D8] py-4 min-h-[44px] flex items-center text-[13px] font-medium uppercase tracking-[0.1em] text-[#4A4540] transition-colors duration-200 hover:text-[#B8973A]"
             >
               {link.label}
-            </a>
+            </Link>
           ))}
           <div className="pt-6">
-            <a
+            <Link
               href="/unleashed"
               onClick={() => setMenuOpen(false)}
               className="block w-full bg-[#B8973A] py-3 text-center text-[12px] font-medium uppercase tracking-[0.13em] text-[#0E0E0E] transition-colors duration-200 hover:bg-[#C8A840]"
             >
               Read Unleashed
-            </a>
+            </Link>
           </div>
         </nav>
       </div>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const CREDENTIALS = [
   {
@@ -12,7 +13,7 @@ const CREDENTIALS = [
       "The first complete synthesis linking individual cognition, social order, economic productivity, and political legitimacy to a single underlying structure.",
   },
   {
-    title: "Neovia \u2014 Prime Law Civilization Prototype",
+    title: "Neovia: Prime Law Civilization Prototype",
     description:
       "Conceived as an anti-extinction architecture: the first jurisdictional solution to the collision between nuclear-era civilization and artificial intelligence.",
   },
@@ -94,12 +95,12 @@ export function Founder() {
               ))}
             </div>
 
-            <a
+            <Link
               href="/mark-hamilton"
               className="mt-8 inline-flex items-center min-h-[44px] border border-[#C8C0B0] px-9 py-4 text-[12px] font-medium uppercase tracking-[0.14em] text-[#4A4540] transition-colors duration-200 hover:border-[#B8973A] hover:text-[#0E0E0E]"
             >
               Full Biography &amp; Published Work
-            </a>
+            </Link>
           </div>
 
           {/* Right column: portrait */}

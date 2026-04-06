@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function Announcement() {
   return (
     <section aria-labelledby="announcement-heading" className="relative border-t-[3px] border-t-[#B8973A] border-b border-b-[#E8E3D8] bg-[#F4F1EC] px-6 py-20 md:px-12 md:py-20">
@@ -66,18 +68,18 @@ export function Announcement() {
             every collapse, and every human destiny in recorded history.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
-            <a
+            <Link
               href="/unleashed"
               className="inline-flex items-center min-h-[44px] bg-[#0E0E0E] px-9 py-4 text-[12px] font-medium uppercase tracking-[0.14em] text-[#FDFCFA] transition-colors duration-200 hover:bg-[#B8973A] hover:border-[#B8973A]"
             >
               Read the Full Work
-            </a>
-            <a
+            </Link>
+            <Link
               href="/unleashed/download"
               className="inline-flex items-center min-h-[44px] border border-[#C8C0B0] px-9 py-4 text-[12px] font-medium uppercase tracking-[0.14em] text-[#4A4540] transition-colors duration-200 hover:border-[#B8973A] hover:text-[#0E0E0E]"
             >
               Download PDF
-            </a>
+            </Link>
           </div>
         </div>
       </div>
