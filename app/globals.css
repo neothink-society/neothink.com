@@ -159,6 +159,12 @@
   }
 }
 
+/* Content visibility — skip layout/paint for off-screen sections */
+.cv-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 600px;
+}
+
 /* Scroll-triggered fade-up animation */
 @keyframes fade-up {
   from {
