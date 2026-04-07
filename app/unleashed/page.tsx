@@ -6,12 +6,12 @@ import { SiteFooter } from "@/components/layout/site-footer";
 export const metadata: Metadata = {
   title: "Unleashed: The Promethean Promise | Mark Hamilton",
   description:
-    "The complete delivery of the Unified Field of Conscious Civilization. Fifty years of research tracing the arc of consciousness from the silence of the gods to Neovia.",
+    "The complete Unified Field of Conscious Civilization by Mark Hamilton. Fifty years of research tracing consciousness from the silence of the gods to Neovia.",
   alternates: { canonical: "/unleashed" },
   openGraph: {
     title: "Unleashed: The Promethean Promise | Mark Hamilton",
     description:
-      "The complete delivery of the Unified Field of Conscious Civilization. Fifty years of research tracing the arc of consciousness from the silence of the gods to Neovia.",
+      "The complete Unified Field of Conscious Civilization by Mark Hamilton. Fifty years of research tracing consciousness from the silence of the gods to Neovia.",
     url: "https://neothink.com/unleashed",
     type: "article",
   },
@@ -43,7 +43,7 @@ const pageSchema = {
   "@type": "WebPage",
   name: "Unleashed: The Promethean Promise | Mark Hamilton",
   description:
-    "The complete delivery of the Unified Field of Conscious Civilization. Fifty years of research tracing the arc of consciousness from the silence of the gods to Neovia.",
+    "The complete Unified Field of Conscious Civilization by Mark Hamilton. Fifty years of research tracing consciousness from the silence of the gods to Neovia.",
   url: "https://neothink.com/unleashed",
   dateModified: new Date().toISOString().split("T")[0],
   inLanguage: "en-US",
