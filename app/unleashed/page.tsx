@@ -1,8 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { SiteHeader } from "@/components/layout/site-header";
-import { SiteFooter } from "@/components/layout/site-footer";
-
 export const metadata: Metadata = {
   title: "Unleashed: The Promethean Promise | Mark Hamilton",
   description:
@@ -293,7 +290,6 @@ export default function UnleashedPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
       />
-      <SiteHeader />
       <main id="main-content">
 
         {/* ── Section 1: Hero ───────────────────────────────────────────────── */}
@@ -635,7 +631,6 @@ export default function UnleashedPage() {
         </section>
 
       </main>
-      <SiteFooter />
     </>
   );
 }

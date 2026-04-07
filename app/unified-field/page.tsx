@@ -1,8 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { SiteHeader } from "@/components/layout/site-header";
-import { SiteFooter } from "@/components/layout/site-footer";
-
 export const metadata: Metadata = {
   title: "Unified Field of Conscious Civilization | Neothink Institute",
   description:
@@ -204,7 +201,6 @@ export default function UnifiedFieldPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
       />
-      <SiteHeader />
       <main id="main-content">
 
         {/* ── Section 1: Hero ──────────────────────────────────────────────── */}
@@ -772,7 +768,6 @@ export default function UnifiedFieldPage() {
           </div>
         </section>
       </main>
-      <SiteFooter />
     </>
   );
 }

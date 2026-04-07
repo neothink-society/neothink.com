@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { SiteHeader } from "@/components/layout/site-header";
-import { SiteFooter } from "@/components/layout/site-footer";
-
 export const metadata: Metadata = {
   title: "Mark Hamilton | Founder, Neothink Institute",
   description:
@@ -195,7 +192,6 @@ export default function MarkHamiltonPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
       />
-      <SiteHeader />
       <main id="main-content">
 
         {/* ── Section 1: Hero ──────────────────────────────────────────────── */}
@@ -687,7 +683,6 @@ export default function MarkHamiltonPage() {
           </div>
         </section>
       </main>
-      <SiteFooter />
     </>
   );
 }

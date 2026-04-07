@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { cormorantGaramond, jost } from "@/lib/fonts";
 import { generateSiteMetadata } from "@/lib/metadata";
 import { getStructuredDataGraph } from "@/lib/structured-data";
+import { SiteHeader } from "@/components/layout/site-header";
+import { SiteFooter } from "@/components/layout/site-footer";
 import "./globals.css";
 
 export const metadata: Metadata = generateSiteMetadata();
@@ -28,7 +30,9 @@ export default function RootLayout({
         <a href="#main-content" className="skip-to-content">
           Skip to main content
         </a>
+        <SiteHeader />
         {children}
+        <SiteFooter />
       </body>
     </html>
   );

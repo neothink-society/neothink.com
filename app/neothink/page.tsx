@@ -1,8 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { SiteHeader } from "@/components/layout/site-header";
-import { SiteFooter } from "@/components/layout/site-footer";
-
 export const metadata: Metadata = {
   title: "Neothink | The Mind Unleashed",
   description:
@@ -225,7 +222,6 @@ export default function NeothinkPage() {
           __html: JSON.stringify(pageSchema),
         }}
       />
-      <SiteHeader />
       <main id="main-content">
       {/* ── Section 1: Hero ─────────────────────────────────────────────── */}
       <section
@@ -742,7 +738,6 @@ export default function NeothinkPage() {
         </div>
       </section>
       </main>
-      <SiteFooter />
     </>
   );
 }

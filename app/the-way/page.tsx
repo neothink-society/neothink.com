@@ -1,8 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { SiteHeader } from "@/components/layout/site-header";
-import { SiteFooter } from "@/components/layout/site-footer";
-
 export const metadata: Metadata = {
   title: "The Way | The Personal Path of Conscious Awakening",
   description:
@@ -118,7 +115,6 @@ export default function TheWayPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
       />
-      <SiteHeader />
       <main id="main-content">
 
         {/* ── Section 1: Hero ──────────────────────────────────────────────── */}
@@ -621,7 +617,6 @@ export default function TheWayPage() {
         </section>
 
       </main>
-      <SiteFooter />
     </>
   );
 }
