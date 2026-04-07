@@ -258,16 +258,14 @@ export default function TheWayPage() {
           className="bg-[#0E0E0E] px-6 py-[120px] md:px-12 max-md:py-20"
         >
           <div className="mx-auto max-w-[1160px]">
+            <h2 id="tw-two-worlds-heading" className="sr-only">Two Worlds</h2>
             <div className="grid grid-cols-1 gap-px border border-[rgba(255,255,255,0.08)] bg-[rgba(255,255,255,0.08)] sm:grid-cols-2">
               {/* Left: False World */}
               <div className="nti-reveal bg-[#0E0E0E] px-[48px] py-[56px] max-md:px-8 max-md:py-12">
                 <p className="mb-5 text-[10px] font-medium uppercase tracking-[0.22em] text-[#7A7570]">
                   What Most People Experience
                 </p>
-                <h3
-                  id="tw-two-worlds-heading"
-                  className="font-serif text-[28px] font-light leading-[1.2] text-[#FDFCFA]"
-                >
+                <h3 className="font-serif text-[28px] font-light leading-[1.2] text-[#FDFCFA]">
                   The False World
                 </h3>
                 <p className="mt-6 text-[15px] leading-[1.85] text-[rgba(253,252,250,0.55)]">
@@ -486,7 +484,7 @@ export default function TheWayPage() {
           className="bg-[#0E0E0E] px-6 py-[120px] text-center md:px-12 max-md:py-20"
         >
           <div className="mx-auto max-w-[700px]">
-            <p className="mb-6 text-[10px] font-medium uppercase tracking-[0.22em] text-[#D4B060]">
+            <p className="mb-5 text-[10px] font-medium uppercase tracking-[0.22em] text-[#D4B060]">
               What Makes This Different
             </p>
             <h2
