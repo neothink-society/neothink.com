@@ -649,7 +649,7 @@ export default function NeoviaPage() {
 
               {/* Right: Chain of steps */}
               <div className="flex flex-col gap-0">
-                {EXTINCTION_CHAIN.map((step, i) => (
+                {EXTINCTION_CHAIN.map((step) => (
                   <div
                     key={step.label}
                     className={`nti-reveal relative pb-10 pl-8 last:pb-0 border-l-[2px] ${step.isRed ? "border-[#C75050]" : "border-[rgba(184,151,58,0.3)]"}`}

@@ -14,7 +14,9 @@ const NAV_LINKS = [
 
 export function SiteHeader() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
+  const [scrolled, setScrolled] = useState(() =>
+    typeof window !== "undefined" ? window.scrollY > 40 : false
+  );
   const menuButtonRef = useRef<HTMLButtonElement>(null);
   const drawerRef = useRef<HTMLDivElement>(null);
 
@@ -25,7 +27,6 @@ export function SiteHeader() {
   // Scroll listener
   useEffect(() => {
     window.addEventListener("scroll", handleScroll, { passive: true });
-    handleScroll();
     return () => window.removeEventListener("scroll", handleScroll);
   }, [handleScroll]);
 
