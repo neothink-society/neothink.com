@@ -7,7 +7,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const routes = [
     { path: "", changeFrequency: "weekly" as const, priority: 1.0 },
-    // Additional routes will be added as pages are built
+    { path: "/neothink", changeFrequency: "monthly" as const, priority: 0.9 },
   ];
 
   return routes.map((route) => ({
