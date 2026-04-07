@@ -13,6 +13,15 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: "/unleashed/download",
+        destination: "/unleashed.pdf",
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {
