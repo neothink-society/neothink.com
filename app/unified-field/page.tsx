@@ -4,12 +4,12 @@ import { SiteHeader } from "@/components/layout/site-header";
 import { SiteFooter } from "@/components/layout/site-footer";
 
 export const metadata: Metadata = {
-  title: "The Unified Field of Conscious Civilization | Neothink Institute",
+  title: "Unified Field of Conscious Civilization | Neothink Institute",
   description:
     "The first complete synthesis identifying the single structural pattern governing every empire, every economy, and every human destiny across recorded history.",
   alternates: { canonical: "/unified-field" },
   openGraph: {
-    title: "The Unified Field of Conscious Civilization | Neothink Institute",
+    title: "Unified Field of Conscious Civilization | Neothink Institute",
     description:
       "The first complete synthesis identifying the single structural pattern governing every empire, every economy, and every human destiny across recorded history.",
     url: "https://neothink.com/unified-field",
@@ -673,6 +673,49 @@ export default function UnifiedFieldPage() {
                     </p>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Connection */}
+        <section aria-labelledby="uf-connection-heading" className="border-t border-[#E8E3D8] px-6 py-[120px] md:px-12 max-md:py-20">
+          <div className="mx-auto grid max-w-[1160px] grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-20">
+            <div className="nti-reveal">
+              <p className="mb-5 text-[10px] font-medium uppercase tracking-[0.22em] text-[#B8973A]">
+                How It All Connects
+              </p>
+              <h2 id="uf-connection-heading" className="font-serif text-[clamp(28px,2.8vw,40px)] font-light leading-[1.2] text-[#0E0E0E]">
+                The Unified Field is the proof. Everything else is its <em className="italic text-[#8A7030]">expression.</em>
+              </h2>
+              <p className="mt-6 text-[16px] font-light leading-[1.85] text-[#4A4540]">
+                The Way removes the covering from the individual mind. Neothink is the operating system of the uncovered mind. The Prime Law codifies the correction at the civilizational level. And Neovia is where it all becomes real.
+              </p>
+            </div>
+            <div className="nti-reveal">
+              <div className="border border-[#E8E3D8]">
+                {[
+                  { href: "/the-way", title: "The Way", desc: "The personal path. Remove the covering. Wake the mind.", arrow: "Walk The Way" },
+                  { href: "/neothink", title: "Neothink", desc: "The operating system of the uncovered mind.", arrow: "What Is Neothink" },
+                  { href: "/prime-law", title: "The Prime Law", desc: "The constitutional foundation. Three articles. No exceptions.", arrow: "Read the Prime Law" },
+                  { href: "/neovia", title: "Neovia", desc: "The first civilization designed for fully conscious human beings.", arrow: "Explore Neovia" },
+                ].map((card, i) => (
+                  <Link
+                    key={card.href}
+                    href={card.href}
+                    className={`group block bg-[#FDFCFA] px-8 py-7 transition-colors duration-200 hover:bg-[#F4F1EC] min-h-[44px] ${i > 0 ? "border-t border-[#E8E3D8]" : ""}`}
+                  >
+                    <h3 className="font-serif text-[20px] font-normal leading-[1.3] text-[#0E0E0E]">
+                      {card.title}
+                    </h3>
+                    <p className="mt-1 text-[13px] font-light leading-[1.7] text-[#4A4540]">
+                      {card.desc}
+                    </p>
+                    <span className="mt-3 inline-block text-[11px] font-medium uppercase tracking-[0.14em] text-[#B8973A] transition-colors duration-200 group-hover:text-[#8A7030]">
+                      {card.arrow} ›
+                    </span>
+                  </Link>
+                ))}
               </div>
             </div>
           </div>
