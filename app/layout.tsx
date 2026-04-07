@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { cormorantGaramond, jost } from "@/lib/fonts";
 import { generateSiteMetadata } from "@/lib/metadata";
 import { getStructuredDataGraph } from "@/lib/structured-data";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { SiteHeader } from "@/components/layout/site-header";
 import { SiteFooter } from "@/components/layout/site-footer";
 import "./globals.css";
@@ -33,6 +35,8 @@ export default function RootLayout({
         <SiteHeader />
         {children}
         <SiteFooter />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
