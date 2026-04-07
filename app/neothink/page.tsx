@@ -176,9 +176,55 @@ const CONNECTION_LINKS = [
 
 // ─── Page ────────────────────────────────────────────────────────────────────
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://neothink.com",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Neothink",
+      item: "https://neothink.com/neothink",
+    },
+  ],
+};
+
+const pageSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: "Neothink: The Mind Unleashed",
+  description:
+    "Neothink is the cognitive architecture that hierarchy suppressed for 2,400 years. The operating system of the uncovered mind, created by Mark Hamilton.",
+  url: "https://neothink.com/neothink",
+  datePublished: "2024-05-02",
+  dateModified: new Date().toISOString().split("T")[0],
+  inLanguage: "en-US",
+  isPartOf: { "@id": "https://neothink.com/#website" },
+  about: { "@id": "https://neothink.com/#neothink-system" },
+  author: { "@id": "https://neothink.com/#founder" },
+};
+
 export default function NeothinkPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumbSchema),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(pageSchema),
+        }}
+      />
       <SiteHeader />
       <main id="main-content">
       {/* ── Section 1: Hero ─────────────────────────────────────────────── */}
@@ -244,7 +290,7 @@ export default function NeothinkPage() {
         className="bg-[#FDFCFA] px-6 py-[120px] md:px-12 max-md:py-20"
       >
         <div className="mx-auto max-w-[760px]">
-          <p className="mb-8 text-[11px] font-medium uppercase tracking-[0.22em] text-[#B8973A]">
+          <p className="mb-5 text-[10px] font-medium uppercase tracking-[0.22em] text-[#B8973A]">
             What Neothink Is
           </p>
           <h2
@@ -321,7 +367,7 @@ export default function NeothinkPage() {
         className="bg-[#F4F1EC] px-6 py-[120px] md:px-12 max-md:py-20"
       >
         <div className="mx-auto max-w-[1160px]">
-          <p className="mb-8 text-[11px] font-medium uppercase tracking-[0.22em] text-[#B8973A]">
+          <p className="mb-5 text-[10px] font-medium uppercase tracking-[0.22em] text-[#B8973A]">
             The Capabilities
           </p>
           <h2
@@ -368,7 +414,7 @@ export default function NeothinkPage() {
           <div className="grid grid-cols-1 gap-16 lg:grid-cols-2 lg:gap-[100px]">
             {/* Left */}
             <div className="nti-reveal">
-              <p className="mb-8 text-[11px] font-medium uppercase tracking-[0.22em] text-[#D4B060]">
+              <p className="mb-5 text-[10px] font-medium uppercase tracking-[0.22em] text-[#D4B060]">
                 The Result
               </p>
               <h2
@@ -424,7 +470,7 @@ export default function NeothinkPage() {
         className="bg-[#FDFCFA] px-6 py-[120px] md:px-12 max-md:py-20"
       >
         <div className="mx-auto max-w-[760px]">
-          <p className="mb-8 text-[11px] font-medium uppercase tracking-[0.22em] text-[#B8973A]">
+          <p className="mb-5 text-[10px] font-medium uppercase tracking-[0.22em] text-[#B8973A]">
             Two Mentalities
           </p>
           <h2
@@ -515,7 +561,7 @@ export default function NeothinkPage() {
           <div className="grid grid-cols-1 gap-16 lg:grid-cols-[380px_1fr] lg:gap-[100px]">
             {/* Left */}
             <div className="nti-reveal">
-              <p className="mb-8 text-[11px] font-medium uppercase tracking-[0.22em] text-[#B8973A]">
+              <p className="mb-5 text-[10px] font-medium uppercase tracking-[0.22em] text-[#B8973A]">
                 Historical Context
               </p>
               <h2
@@ -555,9 +601,9 @@ export default function NeothinkPage() {
                   <p className="mb-2 text-[10px] font-medium uppercase tracking-[0.2em] text-[#B8973A]">
                     {era.date}
                   </p>
-                  <h4 className="font-serif text-[19px] font-normal leading-[1.3] text-[#0E0E0E]">
+                  <h3 className="font-serif text-[18px] font-normal leading-[1.3] text-[#0E0E0E]">
                     {era.title}
-                  </h4>
+                  </h3>
                   <p className="mt-2 text-[14px] font-light leading-[1.75] text-[#4A4540]">
                     {era.description}
                   </p>
@@ -574,7 +620,7 @@ export default function NeothinkPage() {
         className="bg-[#0E0E0E] px-6 py-[120px] text-center md:px-12 max-md:py-20"
       >
         <div className="mx-auto max-w-[700px]">
-          <p className="nti-reveal mb-8 text-[11px] font-medium uppercase tracking-[0.22em] text-[#D4B060]">
+          <p className="nti-reveal mb-5 text-[10px] font-medium uppercase tracking-[0.22em] text-[#D4B060]">
             The Next Integration
           </p>
           <h2
@@ -612,7 +658,7 @@ export default function NeothinkPage() {
           <div className="grid grid-cols-1 gap-16 lg:grid-cols-[380px_1fr] lg:gap-[100px]">
             {/* Left */}
             <div className="nti-reveal">
-              <p className="mb-8 text-[11px] font-medium uppercase tracking-[0.22em] text-[#B8973A]">
+              <p className="mb-5 text-[10px] font-medium uppercase tracking-[0.22em] text-[#B8973A]">
                 How It All Connects
               </p>
               <h2
@@ -644,9 +690,9 @@ export default function NeothinkPage() {
                   href={card.href}
                   className="nti-reveal group block bg-[#F4F1EC] px-9 py-8 transition-colors duration-200 hover:bg-[#FDFCFA] min-h-[44px]"
                 >
-                  <h4 className="font-serif text-[20px] font-normal leading-[1.3] text-[#0E0E0E]">
+                  <h3 className="font-serif text-[20px] font-normal leading-[1.3] text-[#0E0E0E]">
                     {card.title}
-                  </h4>
+                  </h3>
                   <p className="mt-2 text-[14px] font-light leading-[1.75] text-[#4A4540]">
                     {card.description}
                   </p>
