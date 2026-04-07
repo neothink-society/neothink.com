@@ -42,10 +42,12 @@ const pageSchema = {
   description:
     "The complete Unified Field of Conscious Civilization by Mark Hamilton. Fifty years of research tracing consciousness from the silence of the gods to Neovia.",
   url: "https://neothink.com/unleashed",
+  datePublished: "2025-01-01",
   dateModified: new Date().toISOString().split("T")[0],
   inLanguage: "en-US",
   isPartOf: { "@id": "https://neothink.com/#website" },
   about: { "@id": "https://neothink.com/#unleashed" },
+  author: { "@id": "https://neothink.com/#founder" },
 };
 
 // ─── Data ─────────────────────────────────────────────────────────────────────

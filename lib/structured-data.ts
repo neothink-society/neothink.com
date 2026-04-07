@@ -310,6 +310,7 @@ export function getWallaceHamiltonSchema(): JsonLd {
       "AI and civilization",
       "Community building",
     ],
+    sameAs: [],
   };
 }
 

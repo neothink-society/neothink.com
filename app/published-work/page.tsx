@@ -272,9 +272,11 @@ const pageSchema = {
   description:
     "Research, analysis, and original scholarship from the Neothink Institute. The intellectual foundation behind the Unified Field, Neovia, The Way, and Neothink.",
   url: "https://neothink.com/published-work",
+  datePublished: "2024-05-02",
   dateModified: new Date().toISOString().split("T")[0],
   inLanguage: "en-US",
   isPartOf: { "@id": "https://neothink.com/#website" },
+  author: { "@id": "https://neothink.com/#founder" },
 };
 
 // ─── Sub-components ───────────────────────────────────────────────────────────
