@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import Link from "next/link";
 
 const NAV_LINKS = [
@@ -15,47 +15,74 @@ const NAV_LINKS = [
 export function SiteHeader() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const menuButtonRef = useRef<HTMLButtonElement>(null);
+  const drawerRef = useRef<HTMLDivElement>(null);
 
   const handleScroll = useCallback(() => {
     setScrolled(window.scrollY > 40);
   }, []);
 
+  // Scroll listener
   useEffect(() => {
     window.addEventListener("scroll", handleScroll, { passive: true });
     handleScroll();
     return () => window.removeEventListener("scroll", handleScroll);
   }, [handleScroll]);
 
-  // Close menu and unlock body scroll when resizing past breakpoint
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth >= 860 && menuOpen) {
-        setMenuOpen(false);
-      }
-    };
-    window.addEventListener("resize", handleResize, { passive: true });
-    return () => window.removeEventListener("resize", handleResize);
-  }, [menuOpen]);
-
+  // Menu open/close side effects: body lock, focus management, keyboard, resize
   useEffect(() => {
     if (menuOpen) {
       document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "";
-    }
-    return () => {
-      document.body.style.overflow = "";
-    };
-  }, [menuOpen]);
 
-  // Close menu on Escape key
-  useEffect(() => {
-    if (!menuOpen) return;
-    const handleEscape = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setMenuOpen(false);
-    };
-    document.addEventListener("keydown", handleEscape);
-    return () => document.removeEventListener("keydown", handleEscape);
+      // Focus first link in drawer
+      const firstLink = drawerRef.current?.querySelector("a");
+      if (firstLink) (firstLink as HTMLElement).focus();
+
+      const handleKeyDown = (e: KeyboardEvent) => {
+        // Escape closes menu
+        if (e.key === "Escape") {
+          setMenuOpen(false);
+          return;
+        }
+
+        // Focus trap: Tab cycles within drawer
+        if (e.key === "Tab" && drawerRef.current) {
+          const focusable = drawerRef.current.querySelectorAll<HTMLElement>(
+            'a, button, [tabindex]:not([tabindex="-1"])'
+          );
+          if (focusable.length === 0) return;
+
+          const first = focusable[0];
+          const last = focusable[focusable.length - 1];
+
+          if (e.shiftKey && document.activeElement === first) {
+            e.preventDefault();
+            last.focus();
+          } else if (!e.shiftKey && document.activeElement === last) {
+            e.preventDefault();
+            first.focus();
+          }
+        }
+      };
+
+      const handleResize = () => {
+        if (window.innerWidth >= 860) setMenuOpen(false);
+      };
+
+      document.addEventListener("keydown", handleKeyDown);
+      window.addEventListener("resize", handleResize, { passive: true });
+
+      return () => {
+        document.body.style.overflow = "";
+        document.removeEventListener("keydown", handleKeyDown);
+        window.removeEventListener("resize", handleResize);
+      };
+    }
+
+    document.body.style.overflow = "";
+
+    // Return focus to hamburger button when menu closes
+    menuButtonRef.current?.focus();
   }, [menuOpen]);
 
   return (
@@ -77,6 +104,7 @@ export function SiteHeader() {
         </Link>
         {/* Hamburger — visible below 860px */}
         <button
+          ref={menuButtonRef}
           type="button"
           aria-label={menuOpen ? "Close menu" : "Open menu"}
           aria-expanded={menuOpen}
@@ -131,6 +159,7 @@ export function SiteHeader() {
 
       {/* Mobile drawer */}
       <div
+        ref={drawerRef}
         id="mobile-nav-drawer"
         role={menuOpen ? "dialog" : undefined}
         aria-modal={menuOpen ? "true" : undefined}
