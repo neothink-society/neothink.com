@@ -38,17 +38,16 @@ export function Podcast() {
           {/* Right: visual block */}
           <div className="nti-reveal flex items-center justify-center">
             <div
-              className="relative flex w-full flex-col items-center justify-center overflow-hidden bg-[#0E0E0E] px-8 py-16"
+              className="relative flex w-full flex-col items-center justify-center overflow-hidden bg-[#0E0E0E] px-12 py-[60px]"
               style={{
-                aspectRatio: "4/3",
                 background:
-                  "radial-gradient(ellipse at center, rgba(184,151,58,0.08) 0%, #0E0E0E 70%)",
+                  "radial-gradient(ellipse 80% 60% at 50% 50%, rgba(184,151,58,0.06) 0%, transparent 70%), #0E0E0E",
               }}
             >
-              <p className="font-serif text-[48px] font-light italic leading-none text-[#FDFCFA]">
+              <p className="font-serif text-[48px] font-light italic leading-none tracking-[0.06em] text-[#FDFCFA]">
                 Unleashed
               </p>
-              <p className="mt-3 text-[12px] font-light tracking-[0.15em] text-[rgba(253,252,250,0.45)]">
+              <p className="mt-3 text-[13px] font-normal tracking-[0.14em] uppercase text-[rgba(253,252,250,0.45)]">
                 A Podcast by Mark Hamilton &amp; Wallace Hamilton
               </p>
               <a
