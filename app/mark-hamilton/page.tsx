@@ -7,12 +7,12 @@ import { SiteFooter } from "@/components/layout/site-footer";
 export const metadata: Metadata = {
   title: "Mark Hamilton | Founder, Neothink Institute",
   description:
-    "Mark Hamilton is the architect of the Unified Field of Conscious Civilization and the originator of Neovia, the first civilization designed to remove initiated force and allow consciousness to operate at full power.",
+    "Mark Hamilton is the architect of the Unified Field of Conscious Civilization and founder of the Neothink Institute. Five decades of civilizational research.",
   alternates: { canonical: "/mark-hamilton" },
   openGraph: {
     title: "Mark Hamilton | Founder, Neothink Institute",
     description:
-      "Mark Hamilton is the architect of the Unified Field of Conscious Civilization and the originator of Neovia, the first civilization designed to remove initiated force and allow consciousness to operate at full power.",
+      "Mark Hamilton is the architect of the Unified Field of Conscious Civilization and founder of the Neothink Institute. Five decades of civilizational research.",
     url: "https://neothink.com/mark-hamilton",
     type: "profile",
   },
@@ -144,10 +144,38 @@ const pageSchema = {
   description:
     "Mark Hamilton is the architect of the Unified Field of Conscious Civilization and the originator of Neovia, the first civilization designed to remove initiated force and allow consciousness to operate at full power.",
   url: "https://neothink.com/mark-hamilton",
+  datePublished: "2024-05-02",
   dateModified: new Date().toISOString().split("T")[0],
   inLanguage: "en-US",
   isPartOf: { "@id": "https://neothink.com/#website" },
   author: { "@id": "https://neothink.com/#founder" },
+};
+
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Mark Hamilton",
+  jobTitle: "Civilizational Theorist, Systems Philosopher, Founder",
+  description:
+    "Architect of the Unified Field of Conscious Civilization. Originator of Neovia. Creator of the Neothink Mentality. Five decades of independent research into consciousness, economics, political theory, and civilizational design.",
+  url: "https://neothink.com/mark-hamilton",
+  image: "https://neothink.com/images/mark-hamilton.png",
+  affiliation: {
+    "@type": "ResearchOrganization",
+    "@id": "https://neothink.com/#organization",
+    name: "Neothink Institute",
+  },
+  sameAs: ["https://www.wikidata.org/wiki/Q6042981"],
+  knowsAbout: [
+    "Civilizational theory",
+    "Consciousness studies",
+    "Integrated thinking",
+    "Political philosophy",
+    "Non-aggression principle",
+    "Human flourishing",
+    "Economics",
+    "Civilizational design",
+  ],
 };
 
 // ─── Page ────────────────────────────────────────────────────────────────────
@@ -163,6 +191,10 @@ export default function MarkHamiltonPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
+      />
       <SiteHeader />
       <main id="main-content">
 
@@ -171,7 +203,7 @@ export default function MarkHamiltonPage() {
           aria-labelledby="mh-hero-heading"
           className="relative border-b border-[#E8E3D8] px-6 pb-[120px] pt-[160px] md:px-12 max-md:pb-20"
         >
-          <div className="mx-auto grid max-w-[1160px] grid-cols-1 items-start gap-16 lg:grid-cols-[1fr_380px] lg:gap-20">
+          <div className="mx-auto grid max-w-[1160px] grid-cols-1 items-start gap-16 lg:grid-cols-[1fr_380px] lg:gap-[100px]">
             {/* Left */}
             <div>
               <p
@@ -198,7 +230,7 @@ export default function MarkHamiltonPage() {
                 Founder, Neothink Institute
               </p>
               <p
-                className="nti-reveal mt-8 text-[17px] font-light leading-[1.9] text-[#4A4540]"
+                className="nti-reveal mt-8 text-[17px] font-light leading-[1.8] text-[#4A4540]"
                 style={{ animationDelay: "0.6s" }}
               >
                 Mark Hamilton has spent five decades doing what almost no one
@@ -227,7 +259,7 @@ export default function MarkHamiltonPage() {
                 />
               </div>
               {/* Caption overlay */}
-              <div className="bg-[#0E0E0E] px-6 py-5">
+              <div className="bg-[rgba(14,14,14,0.85)] px-6 py-5">
                 <p className="font-serif text-[18px] font-light text-[#FDFCFA]">
                   Mark Hamilton
                 </p>
@@ -396,7 +428,7 @@ export default function MarkHamiltonPage() {
               </p>
             </blockquote>
 
-            <h3 className="font-serif text-[28px] font-normal leading-[1.25] text-[#0E0E0E]">
+            <h3 className="mt-14 font-serif text-[28px] font-normal leading-[1.25] text-[#0E0E0E]">
               The Build
             </h3>
 
@@ -458,7 +490,7 @@ export default function MarkHamiltonPage() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="nti-reveal group block bg-[#F4F1EC] px-10 py-10 transition-colors duration-200 hover:bg-[#FDFCFA]"
+                  className="nti-reveal group block bg-[#F4F1EC] px-10 py-[44px] transition-colors duration-200 hover:bg-[#FDFCFA]"
                 >
                   <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-[#B8973A]">
                     {item.label}
@@ -579,13 +611,13 @@ export default function MarkHamiltonPage() {
 
               {/* Text */}
               <div>
-                <h3
+                <h2
                   id="mh-podcast-heading"
                   className="font-serif text-[clamp(24px,2.5vw,36px)] font-light leading-[1.2] text-[#0E0E0E]"
                 >
                   <em className="text-[#8A7030]">Unleashed</em> &mdash; The
                   Podcast
-                </h3>
+                </h2>
                 <p className="mt-4 max-w-[560px] text-[16px] font-light leading-[1.9] text-[#4A4540]">
                   Mark Hamilton in conversation on consciousness, hierarchy,
                   civilizational design, and the ideas behind the Unified Field.
