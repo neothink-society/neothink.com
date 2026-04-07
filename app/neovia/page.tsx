@@ -198,7 +198,7 @@ const pageSchema = {
 
 // ─── Page ────────────────────────────────────────────────────────────────────
 
-export default function NéoviaPage() {
+export default function NeoviaPage() {
   return (
     <>
       <script
@@ -250,9 +250,9 @@ export default function NéoviaPage() {
 
             <h1
               id="neovia-hero-heading"
-              className="nti-reveal mt-6 font-serif font-light leading-[1.05] tracking-[-0.01em] text-[#FDFCFA]"
+              className="nti-reveal mt-6 max-w-[780px] font-serif font-light leading-[1.05] tracking-[-0.01em] text-[#FDFCFA]"
               style={{
-                fontSize: "clamp(44px, 6vw, 80px)",
+                fontSize: "clamp(42px, 5.5vw, 78px)",
                 animationDelay: "0.4s",
               }}
             >
@@ -381,7 +381,7 @@ export default function NéoviaPage() {
               self, property, or contracts.&rdquo;
             </h2>
 
-            <div className="mt-16 space-y-0 text-left">
+            <div className="mt-16 max-w-[640px] mx-auto space-y-0 text-left">
               {/* Article I */}
               <div className="border-b border-[rgba(255,255,255,0.08)] pb-10">
                 <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-[#D4B060]">
@@ -471,8 +471,7 @@ export default function NéoviaPage() {
               {WHAT_CHANGES.map((card) => (
                 <div
                   key={card.title}
-                  className="nti-reveal bg-[#F4F1EC] px-9 py-[44px] transition-colors duration-200 hover:bg-[#FDFCFA]"
-                  style={{ padding: "44px 36px" }}
+                  className="nti-reveal bg-[#F4F1EC] px-[36px] py-[44px] transition-colors duration-200 hover:bg-[#FDFCFA]"
                 >
                   <span
                     className="font-serif text-[32px] font-light leading-none text-[#B8973A]"
@@ -653,21 +652,17 @@ export default function NéoviaPage() {
               </div>
 
               {/* Right: Chain of steps */}
-              <div className="flex flex-col gap-0 border-l-[2px] border-[rgba(184,151,58,0.3)] pl-8">
+              <div className="flex flex-col gap-0">
                 {EXTINCTION_CHAIN.map((step, i) => (
                   <div
                     key={step.label}
-                    className="nti-reveal relative pb-10 last:pb-0"
+                    className={`nti-reveal relative pb-10 pl-8 last:pb-0 border-l-[2px] ${step.isRed ? "border-[#C75050]" : "border-[rgba(184,151,58,0.3)]"}`}
                   >
                     {/* Gold dot */}
                     <div
                       className="absolute -left-[41px] top-[6px] h-[10px] w-[10px] rounded-full"
                       style={{
                         backgroundColor: step.isRed ? "#C75050" : "#B8973A",
-                        borderColor: step.isRed
-                          ? "#C75050"
-                          : "rgba(184,151,58,0.3)",
-                        borderWidth: step.isRed ? "0" : "0",
                         outline: step.isRed
                           ? "2px solid rgba(199,80,80,0.3)"
                           : "none",
