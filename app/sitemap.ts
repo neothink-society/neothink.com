@@ -11,6 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/neovia", changeFrequency: "monthly" as const, priority: 0.9 },
     { path: "/mark-hamilton", changeFrequency: "monthly" as const, priority: 0.8 },
     { path: "/unified-field", changeFrequency: "monthly" as const, priority: 0.9 },
+    { path: "/the-way", changeFrequency: "monthly" as const, priority: 0.8 },
   ];
 
   return routes.map((route) => ({
