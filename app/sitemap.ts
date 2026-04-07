@@ -10,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/neothink", changeFrequency: "monthly" as const, priority: 0.9 },
     { path: "/neovia", changeFrequency: "monthly" as const, priority: 0.9 },
     { path: "/mark-hamilton", changeFrequency: "monthly" as const, priority: 0.8 },
+    { path: "/unified-field", changeFrequency: "monthly" as const, priority: 0.9 },
   ];
 
   return routes.map((route) => ({
