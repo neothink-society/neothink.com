@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "The Prime Law | The Constitutional Foundation for Civilization",
+  title: "The Prime Law | Constitutional Foundation | Neothink",
   description:
     "Three articles. No exceptions. The first constitutional framework built on the absolute prohibition of initiated force. A natural law, not an ideology.",
   alternates: { canonical: "/prime-law" },
   openGraph: {
-    title: "The Prime Law | The Constitutional Foundation for Civilization",
+    title: "The Prime Law | Constitutional Foundation | Neothink",
     description:
       "Three articles. No exceptions. The first constitutional framework built on the absolute prohibition of initiated force. A natural law, not an ideology.",
     url: "https://neothink.com/prime-law",
@@ -172,7 +172,7 @@ const breadcrumbSchema = {
 const pageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  name: "The Prime Law | The Constitutional Foundation for Civilization",
+  name: "The Prime Law | Constitutional Foundation | Neothink",
   description:
     "Three articles. No exceptions. The first constitutional framework built on the absolute prohibition of initiated force. A natural law, not an ideology.",
   url: "https://neothink.com/prime-law",
