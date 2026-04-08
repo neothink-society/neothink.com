@@ -16,14 +16,30 @@ export default function HomePage() {
       <Hero />
       <Announcement />
       <Statement />
-      <UnifiedField />
-      <Founder />
-      <Podcast />
-      <Neovia />
-      <TheWay />
-      <NeothinkSection />
-      <PrimeLaw />
-      <PublishedWork />
+      <div className="cv-auto">
+        <UnifiedField />
+      </div>
+      <div className="cv-auto">
+        <Founder />
+      </div>
+      <div className="cv-auto">
+        <Podcast />
+      </div>
+      <div className="cv-auto">
+        <Neovia />
+      </div>
+      <div className="cv-auto">
+        <TheWay />
+      </div>
+      <div className="cv-auto">
+        <NeothinkSection />
+      </div>
+      <div className="cv-auto">
+        <PrimeLaw />
+      </div>
+      <div className="cv-auto">
+        <PublishedWork />
+      </div>
     </main>
   );
 }

@@ -110,6 +110,7 @@ export function Founder() {
                 src="/images/mark-hamilton.png"
                 alt="Mark Hamilton, Founder of the Neothink Institute"
                 fill
+                priority
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 480px"
               />
