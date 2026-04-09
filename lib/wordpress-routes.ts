@@ -15,7 +15,11 @@ export const WP = {
   publishedWork: "/published-work",
   markHamilton: "/mark-hamilton",
   podcast: "/podcast",
+  /** Primary video / podcast channel (linked from `/podcast`). */
+  podcastChannel: "https://www.youtube.com/@NeothinkInstitute",
   contact: "/contact",
+  /** Direct mail for mailto links where a page route is not used. */
+  contactMailto: "mailto:support@neothink.com",
   /** Manuscripts hub — use the same slug WordPress uses for this section. */
   manuscripts: "/manuscripts",
   getInvolved: "/get-involved",

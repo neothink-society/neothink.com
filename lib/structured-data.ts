@@ -37,6 +37,7 @@ export function getOrganizationSchema(): JsonLd {
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "General Inquiry",
+      email: "support@neothink.com",
       url: `${siteConfig.url}/contact`,
     },
     sameAs: [

@@ -1,7 +1,15 @@
 import Link from "next/link";
+
 import { WP } from "@/lib/wordpress-routes";
 
-const columns = [
+type FooterLink = {
+  href: string;
+  text: string;
+  /** Opens in new tab + noopener when href is https */
+  newTab?: boolean;
+};
+
+const columns: { label: string; links: FooterLink[] }[] = [
   {
     label: "The Framework",
     links: [
@@ -23,7 +31,9 @@ const columns = [
     label: "The Path",
     links: [
       { href: WP.theWay, text: "The Way" },
+      { href: WP.getInvolved, text: "Get Involved" },
       { href: WP.publishedWork, text: "Published Work" },
+      { href: WP.manuscripts, text: "Manuscripts" },
       { href: WP.contact, text: "Contact" },
     ],
   },
@@ -43,7 +53,6 @@ export function SiteFooter() {
           padding: "80px 48px 40px",
         }}
       >
-        {/* Three-column grid */}
         <div
           className="grid grid-cols-1 gap-12 sm:grid-cols-3"
           style={{ marginBottom: "64px" }}
@@ -63,6 +72,9 @@ export function SiteFooter() {
                       href={link.href}
                       className="font-light text-[#FDFCFA]/50 transition-colors hover:text-[#FDFCFA]/80"
                       style={{ fontSize: "13px" }}
+                      {...(link.newTab
+                        ? { target: "_blank", rel: "noopener noreferrer" }
+                        : {})}
                     >
                       {link.text}
                     </Link>
@@ -73,7 +85,6 @@ export function SiteFooter() {
           ))}
         </div>
 
-        {/* Bottom bar */}
         <div
           className="border-t"
           style={{
