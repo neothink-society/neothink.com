@@ -1,101 +1,121 @@
-import Link from "next/link";
+"use client";
 
-const ARTICLES: { slug: string; tag: string; title: string; description: string; author: string; category: string }[] = [
+import Link from "next/link";
+import { WP } from "@/lib/wordpress-routes";
+import { useEffect, useRef } from "react";
+
+const ARTICLES: {
+  href: string;
+  tag: string;
+  title: string;
+  description: string;
+  footer: string;
+}[] = [
   {
-    slug: "unified-field",
+    href: "/articles/unified-field",
     tag: "Civilizational Theory",
     title: "The Unified Field of Conscious Civilization: A Complete Introduction",
     description:
       "The synthesis linking individual cognition, social order, and political legitimacy to a single underlying structure. And why it changes everything.",
-    author: "Mark Hamilton",
-    category: "Foundational",
+    footer: "Mark Hamilton · Foundational",
   },
   {
-    slug: "bicameral-mind",
+    href: "/articles/bicameral-mind",
     tag: "Consciousness Studies",
     title: "The Bicameral Mind and Its Modern Residue",
     description:
       "Julian Jaynes identified the psychological rupture that created civilization as we know it. What he could not complete, the Unified Field now closes.",
-    author: "Neothink Institute",
-    category: "Lexicon",
+    footer: "Neothink Institute · Lexicon",
   },
   {
-    slug: "prime-law",
+    href: "/articles/prime-law",
     tag: "Political Theory",
-    title: "The Prime Law: Why the Prohibition of Initiated Force Is a Natural Law, Not an Ideology",
+    title:
+      "The Prime Law: Why the Prohibition of Initiated Force Is a Natural Law, Not an Ideology",
     description:
       "Every civilization that has violated the Law of Humanity has paid the same price. The Prime Law codifies what history has already proven.",
-    author: "Mark Hamilton",
-    category: "Policy",
+    footer: "Mark Hamilton · Policy",
   },
   {
-    slug: "ai-purpose-void",
+    href: "/articles/ai-purpose-void",
     tag: "AI & Civilization",
     title: "The Purpose Void: What AI Is About to Do to Human Identity",
     description:
-      "Silicon Valley says people will \u201Cjust be more creative.\u201D They don\u2019t understand the depth of the void they are opening or what actually fills it.",
-    author: "Wallace Hamilton",
-    category: "Current",
+      'Silicon Valley says people will "just be more creative." They don\'t understand the depth of the void they are opening or what actually fills it.',
+    footer: "Wallace Hamilton · Current",
   },
   {
-    slug: "neovia-case",
+    href: "/articles/neovia-case",
     tag: "Neovia",
     title: "The Case for Neovia: Why the Anti-Extinction Architecture Must Be Built Now",
     description:
       "As long as hierarchy legitimizes force and AI accelerates decisions, nuclear annihilation is not a risk. It is a statistical certainty. Neovia is the only exit.",
-    author: "Mark Hamilton",
-    category: "Strategic",
+    footer: "Mark Hamilton · Strategic",
   },
   {
-    slug: "performing-self",
+    href: "/articles/performing-self",
     tag: "The Way",
     title: "The Performing Self: Why You Are Not Who You Think You Are",
     description:
-      "The version of you that has been running your life is not you. It is a character built to survive the hierarchy. This is how to find what\u2019s underneath.",
-    author: "Wallace Hamilton",
-    category: "Personal",
+      "The version of you that has been running your life is not you. It is a character built to survive the hierarchy. This is how to find what's underneath.",
+    footer: "Wallace Hamilton · Personal",
   },
 ];
 
 export function PublishedWork() {
+  const sectionRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const root = sectionRef.current;
+    if (!root) return;
+
+    const els = root.querySelectorAll<HTMLElement>(".nti-reveal");
+    if (els.length === 0) return;
+
+    const prefersReduced =
+      typeof window !== "undefined" &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    if (prefersReduced) {
+      els.forEach((el) => el.classList.add("nti-visible"));
+      return;
+    }
+
+    const obs = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add("nti-visible");
+            obs.unobserve(e.target);
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    els.forEach((el) => obs.observe(el));
+    return () => obs.disconnect();
+  }, []);
+
   return (
-    <section id="published-work" aria-labelledby="published-work-heading" className="border-t border-[#E8E3D8] bg-[#FDFCFA] px-6 py-[120px] md:px-12 max-md:py-20">
-      <div className="mx-auto max-w-[1160px]">
-        <p className="mb-5 text-[10px] font-medium uppercase tracking-[0.22em] text-[#B8973A]">
-          Published Work
-        </p>
-        <h2 id="published-work-heading" className="mb-[52px] font-serif text-[clamp(32px,2.8vw,46px)] font-light leading-[1.1] text-[#0E0E0E]">
+    <section ref={sectionRef} className="nti-articles" id="articles" aria-labelledby="articles-heading">
+      <div className="nti-inner">
+        <span className="nti-label nti-reveal">Published Work</span>
+        <h2 id="articles-heading" className="nti-reveal">
           From the Institute
         </h2>
-
-        <div className="grid grid-cols-1 gap-0 md:grid-cols-2 lg:grid-cols-3">
+        <div className="nti-grid">
           {ARTICLES.map((article) => (
-            <Link
-              key={article.slug}
-              href={`/articles/${article.slug}`}
-              className="nti-reveal group block bg-[#F4F1EC] px-8 py-9 no-underline transition-colors duration-200 hover:bg-[#FDFCFA] border border-[#E8E3D8] -mt-px first:mt-0 md:[&:nth-child(-n+2)]:mt-0 lg:[&:nth-child(-n+3)]:mt-0 md:-ml-px md:first:ml-0 md:[&:nth-child(2n+1)]:ml-0 lg:[&:nth-child(2n+1)]:ml-px lg:[&:nth-child(3n+1)]:ml-0"
-            >
-              <span className="text-[10px] font-medium uppercase tracking-[0.2em] text-[#B8973A]">
-                {article.tag}
-              </span>
-              <h3 className="mt-3 font-serif text-[22px] font-normal leading-[1.3] text-[#0E0E0E]">
-                {article.title}
-              </h3>
-              <p className="mt-3 text-[14px] font-light leading-[1.65] text-[#4A4540]">
-                {article.description}
-              </p>
-              <p className="mt-6 text-[11px] font-medium uppercase tracking-[0.1em] text-[#7A7570]">
-                {article.author} &middot; {article.category}
-              </p>
+            <Link key={article.href} href={article.href} className="nti-card nti-reveal">
+              <span className="nti-card-tag">{article.tag}</span>
+              <h3>{article.title}</h3>
+              <p>{article.description}</p>
+              <div className="nti-card-footer">{article.footer}</div>
             </Link>
           ))}
         </div>
-
-        <div className="mt-12 text-center">
-          <Link
-            href="/published-work"
-            className="inline-flex items-center min-h-[44px] border border-[#C8C0B0] px-9 py-4 text-[12px] font-medium uppercase tracking-[0.14em] text-[#4A4540] transition-colors duration-200 hover:border-[#B8973A] hover:text-[#B8973A]"
-          >
+        <div className="nti-cta nti-reveal">
+          <Link href={WP.publishedWork} className="nti-btn">
             View All Published Work
           </Link>
         </div>

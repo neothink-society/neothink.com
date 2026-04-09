@@ -1,24 +1,65 @@
-export function Podcast() {
-  return (
-    <section id="podcast" aria-labelledby="podcast-heading" className="border-t border-[#E8E3D8] bg-[#F4F1EC] px-6 py-[120px] md:px-12 max-md:py-20">
-      <div className="mx-auto max-w-[1160px]">
-        <p className="mb-5 text-[10px] font-medium uppercase tracking-[0.22em] text-[#B8973A]">
-          The Flagship
-        </p>
+"use client";
 
-        <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:gap-20">
-          {/* Left: text */}
-          <div className="nti-reveal">
-            <h2 id="podcast-heading" className="font-serif text-[clamp(32px,2.8vw,46px)] font-light leading-[1.1] text-[#0E0E0E]">
-              <em className="text-[#8A7030]">Unleashed</em> &mdash; The Podcast
+import { useEffect, useRef } from "react";
+
+const YOUTUBE_URL = "https://www.youtube.com/@realmarkhamilton";
+
+export function Podcast() {
+  const sectionRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const root = sectionRef.current;
+    if (!root) return;
+
+    const els = root.querySelectorAll<HTMLElement>(".nti-reveal");
+    if (els.length === 0) return;
+
+    const prefersReduced =
+      typeof window !== "undefined" &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    if (prefersReduced) {
+      els.forEach((el) => el.classList.add("nti-visible"));
+      return;
+    }
+
+    const obs = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add("nti-visible");
+            obs.unobserve(e.target);
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    els.forEach((el) => obs.observe(el));
+    return () => obs.disconnect();
+  }, []);
+
+  return (
+    <section
+      ref={sectionRef}
+      id="podcast"
+      className="nti-podcast"
+      aria-labelledby="podcast-heading"
+    >
+      <div className="nti-inner">
+        <span className="nti-label nti-reveal">The Flagship</span>
+        <div className="nti-grid nti-reveal">
+          <div className="nti-text">
+            <h2 id="podcast-heading">
+              <em>Unleashed</em> — The Podcast
             </h2>
-            <p className="mt-6 text-[16px] font-light leading-[1.85] text-[#4A4540]">
+            <p>
               Mark Hamilton and Wallace Hamilton in conversation delivering the
               Unified Field of Conscious Civilization to the world for the first
-              time. The discovery that explains why the human mind was caged,
-              why civilization keeps collapsing, and what replaces it.
+              time. The discovery that explains why the human mind was caged, why
+              civilization keeps collapsing, and what replaces it.
             </p>
-            <p className="mt-4 text-[16px] font-light leading-[1.85] text-[#4A4540]">
+            <p>
               Twelve founding episodes tracing the complete arc: from the
               collapse of the bicameral mind and the silence of the gods,
               through Socrates, Plato, Aristotle, Jesus, and the 2,400-year
@@ -26,39 +67,25 @@ export function Podcast() {
               next.
             </p>
             <a
-              href="https://www.youtube.com/@realmarkhamilton"
+              href={YOUTUBE_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-8 inline-flex items-center min-h-[44px] bg-[#0E0E0E] px-9 py-4 text-[12px] font-medium uppercase tracking-[0.14em] text-[#FDFCFA] transition-colors duration-200 hover:bg-[#B8973A] hover:border-[#B8973A]"
+              className="nti-btn"
             >
-              Coming Soon &mdash; Subscribe
+              COMING SOON — SUBSCRIBE
             </a>
           </div>
-
-          {/* Right: visual block */}
-          <div className="nti-reveal flex items-center justify-center">
-            <div
-              className="relative flex w-full flex-col items-center justify-center overflow-hidden bg-[#0E0E0E] px-12 py-[60px]"
-              style={{
-                background:
-                  "radial-gradient(ellipse 80% 60% at 50% 50%, rgba(184,151,58,0.06) 0%, transparent 70%), #0E0E0E",
-              }}
+          <div className="nti-visual">
+            <h3>Unleashed</h3>
+            <p>A Podcast by Mark Hamilton &amp; Wallace Hamilton</p>
+            <a
+              href={YOUTUBE_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="nti-badge"
             >
-              <p className="font-serif text-[48px] font-light italic leading-none tracking-[0.06em] text-[#FDFCFA]">
-                Unleashed
-              </p>
-              <p className="mt-3 text-[13px] font-normal tracking-[0.14em] uppercase text-[rgba(253,252,250,0.45)]">
-                A Podcast by Mark Hamilton &amp; Wallace Hamilton
-              </p>
-              <a
-                href="https://www.youtube.com/@realmarkhamilton"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-8 inline-block border border-[rgba(184,151,58,0.3)] px-6 py-2.5 text-[11px] font-medium uppercase tracking-[0.18em] text-[#D4B060] transition-all duration-200 hover:border-[rgba(184,151,58,0.7)] hover:text-[#B8973A]"
-              >
-                12 Founding Episodes
-              </a>
-            </div>
+              12 Founding Episodes
+            </a>
           </div>
         </div>
       </div>

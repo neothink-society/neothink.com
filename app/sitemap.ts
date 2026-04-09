@@ -14,7 +14,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/unified-field", changeFrequency: "monthly" as const, priority: 0.9 },
     { path: "/the-way", changeFrequency: "monthly" as const, priority: 0.8 },
     { path: "/published-work", changeFrequency: "monthly" as const, priority: 0.8 },
+    { path: "/manuscripts", changeFrequency: "monthly" as const, priority: 0.8 },
     { path: "/prime-law", changeFrequency: "monthly" as const, priority: 0.8 },
+    { path: "/get-involved", changeFrequency: "monthly" as const, priority: 0.75 },
   ];
 
   return routes.map((route) => ({

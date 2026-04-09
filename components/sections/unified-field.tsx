@@ -1,4 +1,8 @@
+"use client";
+
 import Link from "next/link";
+import { WP } from "@/lib/wordpress-routes";
+import { useEffect, useRef } from "react";
 
 const CARDS = [
   {
@@ -28,63 +32,78 @@ const CARDS = [
 ] as const;
 
 export function UnifiedField() {
-  return (
-    <section id="unified-field" aria-labelledby="unified-field-heading" className="bg-[#F4F1EC] px-6 py-[120px] md:px-12 max-md:py-20">
-      <div className="mx-auto max-w-[1160px]">
-        <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-[#B8973A]">
-          The Unified Field
-        </p>
+  const sectionRef = useRef<HTMLElement>(null);
 
-        <div className="mt-16 grid grid-cols-1 gap-12 lg:grid-cols-[340px_1fr] lg:gap-[100px]">
-          {/* Left column */}
-          <div className="nti-reveal">
-            <h2
-              id="unified-field-heading"
-              className="font-serif text-[clamp(36px,3vw,52px)] font-light leading-[1.15] text-[#0E0E0E]"
-              aria-label="The Unified Field: The Single Variable That Determines Whether Civilization Rises or Collapses"
-            >
+  useEffect(() => {
+    const root = sectionRef.current;
+    if (!root) return;
+
+    const els = root.querySelectorAll<HTMLElement>(".nti-reveal");
+    if (els.length === 0) return;
+
+    const prefersReduced =
+      typeof window !== "undefined" &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    if (prefersReduced) {
+      els.forEach((el) => el.classList.add("nti-visible"));
+      return;
+    }
+
+    const obs = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add("nti-visible");
+            obs.unobserve(e.target);
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    els.forEach((el) => obs.observe(el));
+    return () => obs.disconnect();
+  }, []);
+
+  return (
+    <section
+      ref={sectionRef}
+      id="framework"
+      className="nti-framework"
+      aria-labelledby="unified-field-heading"
+    >
+      <div className="nti-inner">
+        <span className="nti-label nti-reveal">The Unified Field</span>
+        <div className="nti-grid">
+          <div className="nti-left nti-reveal">
+            <h2 id="unified-field-heading">
               The single variable that determines whether civilization rises or{" "}
-              <em className="text-[#8A7030]">collapses.</em>
+              <em>collapses.</em>
             </h2>
-            <p className="mt-6 text-[16px] font-light leading-[1.8] text-[#4A4540]">
-              The Unified Field of Conscious Civilization is the
-              Institute&rsquo;s foundational contribution. A synthesis fifty
-              years in the making, identifying the structural pattern that has
-              governed every empire, every religion, every economy, and every
-              human destiny across all of history.
+            <p>
+              The Unified Field of Conscious Civilization is the Institute&rsquo;s
+              foundational contribution. A synthesis fifty years in the making,
+              identifying the structural pattern that has governed every empire,
+              every religion, every economy, and every human destiny across all
+              of history.
             </p>
-            <p className="mt-4 text-[16px] font-light leading-[1.8] text-[#4A4540]">
+            <p>
               The insight is not ideological. It is architectural. Every major
               civilization in the recorded arc of history has repeated the same
               error. The Unified Field makes that error visible and shows what
               replaces it.
             </p>
-            <Link
-              href="/unified-field"
-              className="mt-8 inline-flex items-center min-h-[44px] border border-[#C8C0B0] px-9 py-4 text-[12px] font-medium uppercase tracking-[0.14em] text-[#4A4540] transition-colors duration-200 hover:border-[#B8973A] hover:text-[#0E0E0E]"
-            >
+            <Link href={WP.unifiedField} className="nti-btn">
               Read the Full Framework
             </Link>
           </div>
-
-          {/* Right column: cards */}
-          <div className="flex flex-col">
-            {CARDS.map((card, i) => (
-              <div
-                key={card.numeral}
-                className={`nti-reveal group border border-[#E8E3D8] bg-[#F4F1EC] px-10 py-9 transition-colors duration-200 hover:bg-[#FDFCFA] ${
-                  i > 0 ? "-mt-px" : ""
-                }`}
-              >
-                <span className="font-serif text-[13px] font-normal text-[#B8973A]">
-                  {card.numeral}.
-                </span>
-                <h3 className="mt-2 font-serif text-[22px] font-normal leading-[1.3] text-[#0E0E0E]">
-                  {card.title}
-                </h3>
-                <p className="mt-3 text-[14px] font-light leading-[1.7] text-[#4A4540]">
-                  {card.description}
-                </p>
+          <div className="nti-cards nti-reveal">
+            {CARDS.map((card) => (
+              <div key={card.numeral} className="nti-card">
+                <span className="nti-card-num">{card.numeral}.</span>
+                <h3>{card.title}</h3>
+                <p>{card.description}</p>
               </div>
             ))}
           </div>

@@ -1,0 +1,386 @@
+/* Get Involved — WordPress export parity (scoped under .gi-page) */
+
+.gi-page {
+  --gi-text: #0e0e0e;
+  --gi-body: #4a4540;
+  --gi-muted: #7a7570;
+  --gi-gold: #b8973a;
+  --gi-gold-deep: #8a7030;
+  --gi-gold-bright: #d4b060;
+  --gi-cream: #fdfcfa;
+  --gi-stone: #f4f1ec;
+  --gi-border: #e8e3d8;
+  --gi-dark: #0e0e0e;
+}
+
+.gi-page .gi-hero {
+  padding: 160px 48px 100px;
+  text-align: center;
+  border-bottom: 1px solid var(--gi-border);
+}
+
+.gi-page .gi-hero-label {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--gi-gold);
+  margin-bottom: 36px;
+  opacity: 0;
+  animation: giFadeUp 0.8s 0.2s ease forwards;
+}
+
+.gi-page .gi-hero h1 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(40px, 5vw, 72px);
+  font-weight: 300;
+  line-height: 1.1;
+  color: var(--gi-text);
+  max-width: 700px;
+  margin: 0 auto 28px;
+  opacity: 0;
+  animation: giFadeUp 0.8s 0.4s ease forwards;
+}
+
+.gi-page .gi-hero h1 em {
+  font-style: italic;
+  color: var(--gi-gold-deep);
+}
+
+.gi-page .gi-hero-sub {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.8;
+  color: var(--gi-body);
+  max-width: 600px;
+  margin: 0 auto;
+  opacity: 0;
+  animation: giFadeUp 0.8s 0.6s ease forwards;
+}
+
+@keyframes giFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gi-page .gi-hero-label,
+  .gi-page .gi-hero h1,
+  .gi-page .gi-hero-sub {
+    animation: none;
+    opacity: 1;
+  }
+}
+
+.gi-page .gi-reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.gi-page .gi-reveal.gi-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gi-page .gi-reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+.gi-page .gi-section-label {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--gi-gold);
+  margin-bottom: 20px;
+  display: block;
+}
+
+/* ── PATHS ── */
+.gi-page .gi-paths {
+  padding: 100px 48px;
+}
+
+.gi-page .gi-paths-grid {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: var(--gi-border);
+  border: 1px solid var(--gi-border);
+}
+
+.gi-page .gi-path {
+  background: var(--gi-cream);
+  padding: 56px 48px;
+  transition: background 0.2s;
+  scroll-margin-top: 100px;
+}
+
+.gi-page .gi-path:hover {
+  background: var(--gi-stone);
+}
+
+.gi-page .gi-path-num {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 14px;
+  color: var(--gi-gold);
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.gi-page .gi-path h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--gi-text);
+  margin-bottom: 16px;
+}
+
+.gi-page .gi-path p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.8;
+  color: var(--gi-body);
+  margin-bottom: 16px;
+}
+
+.gi-page .gi-path .gi-who {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--gi-muted);
+  font-style: italic;
+  margin-bottom: 28px;
+}
+
+.gi-page .gi-path a.gi-path-cta {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gi-cream);
+  background: var(--gi-dark);
+  border: 1px solid var(--gi-dark);
+  padding: 14px 32px;
+  text-decoration: none;
+  transition: background 0.25s, border-color 0.25s;
+  display: inline-block;
+}
+
+.gi-page .gi-path a.gi-path-cta:hover {
+  background: var(--gi-gold);
+  border-color: var(--gi-gold);
+}
+
+/* ── URGENCY ── */
+.gi-page .gi-urgency {
+  background: var(--gi-dark);
+  padding: 100px 48px;
+  text-align: center;
+}
+
+.gi-page .gi-urgency-inner {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.gi-page .gi-urgency blockquote {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(24px, 3vw, 38px);
+  font-weight: 300;
+  line-height: 1.35;
+  color: var(--gi-cream);
+  font-style: normal;
+  margin-bottom: 32px;
+}
+
+.gi-page .gi-urgency blockquote em {
+  color: var(--gi-gold-bright);
+  font-style: italic;
+}
+
+.gi-page .gi-urgency p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.85;
+  color: rgba(253, 252, 250, 0.5);
+  margin-bottom: 20px;
+}
+
+/* ── WHAT HAPPENS ── */
+.gi-page .gi-next {
+  padding: 100px 48px;
+  background: var(--gi-stone);
+}
+
+.gi-page .gi-next-inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.gi-page .gi-next h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(28px, 2.8vw, 40px);
+  font-weight: 300;
+  line-height: 1.2;
+  color: var(--gi-text);
+  margin-bottom: 24px;
+}
+
+.gi-page .gi-next h2 em {
+  font-style: italic;
+  color: var(--gi-gold-deep);
+}
+
+.gi-page .gi-next-inner > .gi-reveal:first-child p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.85;
+  color: var(--gi-body);
+  margin-bottom: 18px;
+}
+
+.gi-page .gi-next-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  background: var(--gi-border);
+  border: 1px solid var(--gi-border);
+}
+
+.gi-page .gi-step {
+  background: var(--gi-stone);
+  padding: 24px 28px;
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  gap: 16px;
+  align-items: start;
+  transition: background 0.2s;
+}
+
+.gi-page .gi-step:hover {
+  background: var(--gi-cream);
+}
+
+.gi-page .gi-step-num {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--gi-gold);
+  padding-top: 2px;
+}
+
+.gi-page .gi-step-text h4 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--gi-text);
+  margin-bottom: 4px;
+}
+
+.gi-page .gi-step-text p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 13px;
+  color: var(--gi-muted);
+  line-height: 1.65;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+/* ── CONTACT BAR ── */
+.gi-page .gi-contact {
+  padding: 80px 48px;
+  text-align: center;
+  border-top: 1px solid var(--gi-border);
+}
+
+.gi-page .gi-contact-inner {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.gi-page .gi-contact h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(28px, 2.8vw, 40px);
+  font-weight: 300;
+  line-height: 1.2;
+  color: var(--gi-text);
+  margin-bottom: 20px;
+}
+
+.gi-page .gi-contact p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.85;
+  color: var(--gi-body);
+  margin-bottom: 32px;
+}
+
+.gi-page .gi-btn-primary {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gi-cream);
+  background: var(--gi-dark);
+  border: 1px solid var(--gi-dark);
+  padding: 16px 36px;
+  text-decoration: none;
+  transition: background 0.25s, border-color 0.25s;
+  display: inline-block;
+}
+
+.gi-page .gi-btn-primary:hover {
+  background: var(--gi-gold);
+  border-color: var(--gi-gold);
+}
+
+@media (max-width: 900px) {
+  .gi-page .gi-hero {
+    padding: 140px 24px 80px;
+  }
+
+  .gi-page .gi-paths,
+  .gi-page .gi-urgency,
+  .gi-page .gi-next,
+  .gi-page .gi-contact {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .gi-page .gi-paths-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gi-page .gi-next-inner {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+}

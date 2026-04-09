@@ -1,29 +1,30 @@
 import Link from "next/link";
+import { WP } from "@/lib/wordpress-routes";
 
 const columns = [
   {
     label: "The Framework",
     links: [
-      { href: "/unified-field", text: "Unified Field" },
-      { href: "/prime-law", text: "Prime Law" },
-      { href: "/neothink", text: "Neothink" },
-      { href: "/unleashed", text: "Unleashed" },
-      { href: "/mark-hamilton", text: "Mark Hamilton" },
+      { href: WP.unifiedField, text: "Unified Field" },
+      { href: WP.primeLaw, text: "Prime Law" },
+      { href: WP.neothink, text: "Neothink" },
+      { href: WP.unleashed, text: "Unleashed" },
+      { href: WP.markHamilton, text: "Mark Hamilton" },
     ],
   },
   {
     label: "The Vision",
     links: [
-      { href: "/neovia", text: "Neovia" },
-      { href: "/unleashed", text: "Podcast" },
+      { href: WP.neovia, text: "Neovia" },
+      { href: WP.podcast, text: "Podcast" },
     ],
   },
   {
     label: "The Path",
     links: [
-      { href: "/the-way", text: "The Way" },
-      { href: "/published-work", text: "Published Work" },
-      { href: "/contact", text: "Contact" },
+      { href: WP.theWay, text: "The Way" },
+      { href: WP.publishedWork, text: "Published Work" },
+      { href: WP.contact, text: "Contact" },
     ],
   },
 ];

@@ -1,0 +1,561 @@
+/* Manuscripts — WordPress export parity (scoped under .ms-page) */
+
+.ms-page {
+  --ms-text: #0e0e0e;
+  --ms-body: #4a4540;
+  --ms-muted: #7a7570;
+  --ms-gold: #b8973a;
+  --ms-gold-deep: #8a7030;
+  --ms-gold-bright: #d4b060;
+  --ms-cream: #fdfcfa;
+  --ms-stone: #f4f1ec;
+  --ms-border: #e8e3d8;
+  --ms-dark: #0e0e0e;
+}
+
+/* ── HERO ── */
+.ms-page .ms-hero {
+  padding: 160px 48px 100px;
+  text-align: center;
+  border-bottom: 1px solid var(--ms-border);
+}
+
+.ms-page .ms-hero-label {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--ms-gold);
+  margin-bottom: 36px;
+  opacity: 0;
+  animation: msFadeUp 0.8s 0.2s ease forwards;
+}
+
+.ms-page .ms-hero h1 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(40px, 5vw, 72px);
+  font-weight: 300;
+  line-height: 1.1;
+  color: var(--ms-text);
+  max-width: 800px;
+  margin: 0 auto 28px;
+  opacity: 0;
+  animation: msFadeUp 0.8s 0.4s ease forwards;
+}
+
+.ms-page .ms-hero h1 em {
+  font-style: italic;
+  color: var(--ms-gold-deep);
+}
+
+.ms-page .ms-hero-sub {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.8;
+  color: var(--ms-body);
+  max-width: 620px;
+  margin: 0 auto;
+  opacity: 0;
+  animation: msFadeUp 0.8s 0.6s ease forwards;
+}
+
+@keyframes msFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ms-page .ms-hero-label,
+  .ms-page .ms-hero h1,
+  .ms-page .ms-hero-sub {
+    animation: none;
+    opacity: 1;
+  }
+}
+
+.ms-page .ms-reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.ms-page .ms-reveal.ms-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ms-page .ms-reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* ── FEATURED ── */
+.ms-page .ms-featured {
+  background: var(--ms-dark);
+  padding: 100px 48px;
+}
+
+.ms-page .ms-featured-inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.ms-page .ms-featured-text h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 44px;
+  font-weight: 300;
+  font-style: italic;
+  color: var(--ms-cream);
+  margin-bottom: 8px;
+}
+
+.ms-page .ms-featured-subtitle {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ms-gold-bright);
+  margin-bottom: 24px;
+  display: block;
+}
+
+.ms-page .ms-featured-text p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.85;
+  color: rgba(253, 252, 250, 0.6);
+  margin-bottom: 20px;
+}
+
+.ms-page .ms-featured-note {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 13px;
+  color: rgba(253, 252, 250, 0.35);
+  font-style: italic;
+  margin-bottom: 28px;
+}
+
+.ms-page .ms-btn-gold {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ms-dark);
+  background: var(--ms-gold-bright);
+  border: 1px solid var(--ms-gold-bright);
+  padding: 14px 32px;
+  text-decoration: none;
+  transition: background 0.25s, border-color 0.25s;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.ms-page .ms-btn-gold:hover {
+  background: #e8c878;
+  border-color: #e8c878;
+}
+
+.ms-page .ms-btn-light {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(253, 252, 250, 0.6);
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 14px 32px;
+  text-decoration: none;
+  transition: border-color 0.25s, color 0.25s;
+  display: inline-block;
+}
+
+.ms-page .ms-btn-light:hover {
+  border-color: var(--ms-gold-bright);
+  color: var(--ms-gold-bright);
+}
+
+.ms-page .ms-featured-visual {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 56px 44px;
+  text-align: center;
+}
+
+.ms-page .ms-fv-title {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 52px;
+  font-weight: 300;
+  font-style: italic;
+  color: var(--ms-cream);
+  margin-bottom: 8px;
+}
+
+.ms-page .ms-fv-sub {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ms-gold-bright);
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.ms-page .ms-fv-author {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 14px;
+  color: rgba(253, 252, 250, 0.4);
+  font-weight: 300;
+}
+
+/* ── LIBRARY ── */
+.ms-page .ms-library {
+  padding: 100px 48px;
+  background: var(--ms-cream);
+}
+
+.ms-page .ms-library-inner {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.ms-page .ms-library-header {
+  margin-bottom: 64px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid var(--ms-gold);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.ms-page .ms-library-header h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: var(--ms-text);
+}
+
+.ms-page .ms-library-header span {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 12px;
+  color: var(--ms-muted);
+  letter-spacing: 0.08em;
+}
+
+/* ── BOOK GRID ── */
+.ms-page .ms-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px 28px;
+}
+
+/* ── BOOK CARD ── */
+.ms-page .ms-book {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+  color: inherit;
+}
+
+.ms-page .ms-book:hover {
+  transform: translateY(-5px);
+}
+
+.ms-page .ms-book-cover {
+  position: relative;
+  aspect-ratio: 2/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px 20px 20px 28px;
+  overflow: hidden;
+  box-shadow:
+    4px 6px 20px rgba(0, 0, 0, 0.18),
+    1px 2px 6px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.3s ease;
+}
+
+.ms-page .ms-book:hover .ms-book-cover {
+  box-shadow:
+    8px 14px 36px rgba(0, 0, 0, 0.24),
+    2px 4px 10px rgba(0, 0, 0, 0.14);
+}
+
+.ms-page .ms-book-cover::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 16px;
+  background: rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+
+.ms-page .ms-book-cover::after {
+  content: "";
+  position: absolute;
+  right: -3px;
+  top: 3px;
+  bottom: 3px;
+  width: 4px;
+  background: linear-gradient(90deg, #ccc5b5, #e8e0d0, #ccc5b5);
+  border-radius: 0 1px 1px 0;
+}
+
+.ms-page .ms-book-cover-inner {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.ms-page .ms-book-tag {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 8px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  opacity: 0.65;
+  align-self: flex-start;
+  border: 1px solid currentColor;
+  padding: 3px 8px;
+  line-height: 1.6;
+}
+
+.ms-page .ms-book-title-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 16px 0;
+}
+
+.ms-page .ms-book-title {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(15px, 1.4vw, 20px);
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 6px;
+}
+
+.ms-page .ms-book-subtitle {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 9px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.55;
+  line-height: 1.5;
+}
+
+.ms-page .ms-book-author {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  opacity: 0.55;
+}
+
+.ms-page .ms-book-meta {
+  padding: 14px 2px 0;
+}
+
+.ms-page .ms-book-meta-title {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--ms-text);
+  line-height: 1.25;
+  margin-bottom: 3px;
+}
+
+.ms-page .ms-book-meta-sub {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 11px;
+  color: var(--ms-muted);
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* ── COVER COLORS ── */
+.ms-page .ms-cover-gold {
+  background: linear-gradient(150deg, #1c1508 0%, #2e2010 55%, #1c1508 100%);
+  color: var(--ms-gold-bright);
+}
+
+.ms-page .ms-cover-forest {
+  background: linear-gradient(150deg, #0a1510 0%, #102018 55%, #0a1510 100%);
+  color: #7dc4a0;
+}
+
+.ms-page .ms-cover-indigo {
+  background: linear-gradient(150deg, #0e0c1a 0%, #181228 55%, #0e0c1a 100%);
+  color: #b0a0d8;
+}
+
+.ms-page .ms-cover-amber {
+  background: linear-gradient(150deg, #180e04 0%, #271505 55%, #180e04 100%);
+  color: #c89050;
+}
+
+.ms-page .ms-cover-rose {
+  background: linear-gradient(150deg, #180810 0%, #250d1a 55%, #180810 100%);
+  color: #c890a8;
+}
+
+.ms-page .ms-cover-slate {
+  background: linear-gradient(150deg, #080e14 0%, #0e1820 55%, #080e14 100%);
+  color: #70a8c8;
+}
+
+.ms-page .ms-cover-emerald {
+  background: linear-gradient(150deg, #061210 0%, #0c1e1a 55%, #061210 100%);
+  color: #60b890;
+}
+
+.ms-page .ms-cover-midnight {
+  background: linear-gradient(150deg, #080c18 0%, #101825 55%, #080c18 100%);
+  color: #8098c0;
+}
+
+/* ── AUTHOR ── */
+.ms-page .ms-author {
+  padding: 100px 48px;
+  background: var(--ms-stone);
+  border-top: 1px solid var(--ms-border);
+}
+
+.ms-page .ms-author-inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.ms-page .ms-author-avatar {
+  width: 100px;
+  height: 100px;
+  background: var(--ms-border);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.ms-page .ms-author-avatar span {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 32px;
+  font-weight: 300;
+  color: #c8c0b0;
+}
+
+.ms-page .ms-author-text h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--ms-text);
+  margin-bottom: 4px;
+}
+
+.ms-page .ms-author-title {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ms-gold);
+  font-weight: 500;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.ms-page .ms-author-text p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 15px;
+  color: var(--ms-body);
+  line-height: 1.75;
+  font-weight: 300;
+  max-width: 600px;
+}
+
+.ms-page .ms-author-text a {
+  display: inline-block;
+  margin-top: 16px;
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ms-gold);
+  font-weight: 500;
+  text-decoration: none;
+  transition: letter-spacing 0.3s;
+}
+
+.ms-page .ms-author-text a:hover {
+  letter-spacing: 0.2em;
+}
+
+/* ── MOBILE ── */
+@media (max-width: 1000px) {
+  .ms-page .ms-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .ms-page .ms-hero,
+  .ms-page .ms-library,
+  .ms-page .ms-author {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .ms-page .ms-featured {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .ms-page .ms-featured-inner {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .ms-page .ms-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px 16px;
+  }
+
+  .ms-page .ms-library-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .ms-page .ms-author-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+}

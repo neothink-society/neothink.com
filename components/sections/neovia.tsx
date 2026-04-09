@@ -1,8 +1,14 @@
+"use client";
+
+import Link from "next/link";
+import { WP } from "@/lib/wordpress-routes";
+import { useEffect, useRef } from "react";
+
 const STATS = [
-  { value: "2026", label: "Site Selection" },
-  { value: "2027", label: "First Residents" },
-  { value: "\u221E", label: "Designed to Last" },
-  { value: "Prime Law", label: "Constitutional Foundation" },
+  { value: "2026", label: "Site Selection", isPrimeLaw: false },
+  { value: "2027", label: "First Residents", isPrimeLaw: false },
+  { value: "\u221E", label: "Designed to Last", isPrimeLaw: false },
+  { value: "", label: "Constitutional Foundation", isPrimeLaw: true },
 ] as const;
 
 const FEATURES = [
@@ -34,87 +40,102 @@ const FEATURES = [
 ] as const;
 
 export function Neovia() {
+  const sectionRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const root = sectionRef.current;
+    if (!root) return;
+
+    const els = root.querySelectorAll<HTMLElement>(".nti-reveal");
+    if (els.length === 0) return;
+
+    const prefersReduced =
+      typeof window !== "undefined" &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    if (prefersReduced) {
+      els.forEach((el) => el.classList.add("nti-visible"));
+      return;
+    }
+
+    const obs = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add("nti-visible");
+            obs.unobserve(e.target);
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    els.forEach((el) => obs.observe(el));
+    return () => obs.disconnect();
+  }, []);
+
   return (
-    <section id="neovia" aria-labelledby="neovia-heading" className="relative overflow-hidden bg-[#0E0E0E] px-6 py-[120px] md:px-12 max-md:py-20">
-      {/* Ghost watermark */}
-      <span
-        aria-hidden="true"
-        className="pointer-events-none absolute right-[-20px] top-1/2 -translate-y-1/2 select-none font-serif text-[280px] font-light tracking-wider text-[#FDFCFA] opacity-[0.03]"
-      >
-        NEOVIA
-      </span>
-
-      <div className="relative mx-auto max-w-[1160px]">
-        <p className="mb-10 text-[10px] font-medium uppercase tracking-[0.22em] text-[#D4B060]">
-          The Project
-        </p>
-
-        <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-[100px]">
-          {/* Left */}
-          <div className="nti-reveal">
-            <h2 id="neovia-heading" className="font-serif text-[clamp(36px,3vw,52px)] font-light leading-[1.15] text-[#FDFCFA]">
-              Neovia &mdash; the first civilization designed for{" "}
-              <em className="text-[#D4B060]">fully integrated</em> human
-              consciousness.
+    <section
+      ref={sectionRef}
+      id="neovia"
+      className="nti-neovia"
+      aria-labelledby="neovia-heading"
+    >
+      <div className="nti-inner">
+        <span className="nti-label nti-reveal">The Project</span>
+        <div className="nti-grid">
+          <div className="nti-left nti-reveal">
+            <h2 id="neovia-heading">
+              Neovia — the first civilization designed for{" "}
+              <em>fully integrated</em> human consciousness.
             </h2>
-            <p className="mt-6 text-[16px] font-light leading-[1.85] text-[#FDFCFA]/65">
+            <p>
               Neovia is the Institute&rsquo;s flagship civilizational project.
-              The first Prime Law jurisdiction. A city designed from the ground
-              up to remove hierarchy and initiated force as governing
-              principles, and to create the environmental conditions in which
-              fully conscious human beings can operate without constraint.
+              The first Prime Law jurisdiction. A city designed from the ground up
+              to remove hierarchy and initiated force as governing principles,
+              and to create the environmental conditions in which fully conscious
+              human beings can operate without constraint.
             </p>
-            <p className="mt-4 text-[16px] font-light leading-[1.85] text-[#FDFCFA]/65">
+            <p>
               Neovia is not a utopia. It is not an ideology. It is an
               anti-extinction architecture. The practical, jurisdictional exit
               ramp from the otherwise inevitable collision between nuclear-era
               force-based civilization and the accelerating power of artificial
               intelligence.
             </p>
-            <p className="mt-4 text-[16px] font-light leading-[1.85] text-[#FDFCFA]/65">
+            <p>
               When force is structurally removed, consciousness expands.
               Innovation compounds. Wealth becomes exponential. The purpose void
               left by AI is filled not by policy, but by the release of human
               potential that hierarchy has suppressed for two millennia.
             </p>
-
-            {/* Stats grid */}
-            <div className="mt-10 grid grid-cols-2 gap-px bg-[rgba(255,255,255,0.08)] border border-[rgba(255,255,255,0.08)]">
+            <div className="nti-stats">
               {STATS.map((stat) => (
-                <div key={stat.label} className="bg-[rgba(14,14,14,0.6)] px-8 py-7">
-                  <p className="font-serif text-[36px] font-light leading-none text-[#D4B060]">
-                    {stat.value === "Prime Law" ? <>Prime<br />Law</> : stat.value}
-                  </p>
-                  <p className="mt-2 text-[12px] font-normal uppercase tracking-[0.12em] text-[rgba(253,252,250,0.45)]">
-                    {stat.label}
-                  </p>
+                <div key={stat.label} className="nti-stat">
+                  <span className="nti-stat-num">
+                    {stat.isPrimeLaw ? (
+                      <>
+                        Prime
+                        <br />
+                        Law
+                      </>
+                    ) : (
+                      stat.value
+                    )}
+                  </span>
+                  <span className="nti-stat-label">{stat.label}</span>
                 </div>
               ))}
             </div>
-
-            <a
-              href="/neovia"
-              className="mt-10 inline-flex items-center min-h-[44px] border border-[#FDFCFA]/20 px-9 py-4 text-[12px] font-medium uppercase tracking-[0.14em] text-[#FDFCFA]/70 transition-colors duration-200 hover:border-[#D4B060] hover:text-[#D4B060]"
-            >
+            <Link href={WP.neovia} className="nti-btn">
               Explore the Neovia Project
-            </a>
+            </Link>
           </div>
-
-          {/* Right: feature cards */}
-          <div className="flex flex-col gap-0">
-            {FEATURES.map((feature, i) => (
-              <div
-                key={i}
-                className={`nti-reveal border border-[#FDFCFA]/[0.06] bg-[#0E0E0E] px-9 py-8 transition-colors duration-200 hover:bg-[rgba(184,151,58,0.06)] ${
-                  i > 0 ? "-mt-px" : ""
-                }`}
-              >
-                <h3 className="font-serif text-[20px] font-normal leading-[1.3] text-[#FDFCFA]">
-                  {feature.title}
-                </h3>
-                <p className="mt-2 text-[14px] font-light leading-[1.65] text-[rgba(253,252,250,0.5)]">
-                  {feature.description}
-                </p>
+          <div className="nti-features nti-reveal">
+            {FEATURES.map((feature) => (
+              <div key={feature.title} className="nti-feature">
+                <h4>{feature.title}</h4>
+                <p>{feature.description}</p>
               </div>
             ))}
           </div>

@@ -1,5 +1,10 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useRef } from "react";
+import { MARK_HAMILTON_PORTRAIT_URL } from "@/lib/wordpress-images";
+import { WP } from "@/lib/wordpress-routes";
 
 const CREDENTIALS = [
   {
@@ -13,7 +18,7 @@ const CREDENTIALS = [
       "The first complete synthesis linking individual cognition, social order, economic productivity, and political legitimacy to a single underlying structure.",
   },
   {
-    title: "Neovia: Prime Law Civilization Prototype",
+    title: "Neovia — Prime Law Civilization Prototype",
     description:
       "Conceived as an anti-extinction architecture: the first jurisdictional solution to the collision between nuclear-era civilization and artificial intelligence.",
   },
@@ -25,38 +30,71 @@ const CREDENTIALS = [
 ] as const;
 
 export function Founder() {
+  const sectionRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const root = sectionRef.current;
+    if (!root) return;
+
+    const els = root.querySelectorAll<HTMLElement>(".nti-reveal");
+    if (els.length === 0) return;
+
+    const prefersReduced =
+      typeof window !== "undefined" &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    if (prefersReduced) {
+      els.forEach((el) => el.classList.add("nti-visible"));
+      return;
+    }
+
+    const obs = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add("nti-visible");
+            obs.unobserve(e.target);
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    els.forEach((el) => obs.observe(el));
+    return () => obs.disconnect();
+  }, []);
+
   return (
-    <section aria-labelledby="founder-heading" className="bg-[#FDFCFA] px-6 py-[120px] md:px-12 max-md:py-20">
-      <div className="mx-auto max-w-[1160px]">
-        <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-[#B8973A]">
-          The Founder
-        </p>
-
-        <div className="mt-16 grid grid-cols-1 gap-12 lg:grid-cols-[1fr_480px] lg:gap-[100px]">
-          {/* Left column */}
-          <div className="nti-reveal">
-            <h2 id="founder-heading" className="font-serif text-[clamp(36px,4vw,52px)] font-light leading-[1.1] text-[#0E0E0E]">
-              Mark Hamilton
-            </h2>
-            <span className="mt-3 block text-[13px] font-medium uppercase tracking-[0.14em] text-[#B8973A]">
-              Civilizational Theorist &middot; Systems Philosopher &middot; Founder, Neothink Institute
+    <section
+      ref={sectionRef}
+      id="founder"
+      className="nti-mark"
+      aria-labelledby="founder-heading"
+    >
+      <div className="nti-inner">
+        <span className="nti-label nti-reveal">The Founder</span>
+        <div className="nti-grid">
+          <div className="nti-text nti-reveal">
+            <h2 id="founder-heading">Mark Hamilton</h2>
+            <span className="nti-title">
+              Civilizational Theorist &middot; Systems Philosopher &middot;
+              Founder, Neothink Institute
             </span>
-
-            <p className="mt-8 text-[16px] font-light leading-[1.85] text-[#4A4540]">
+            <p>
               Mark Hamilton is an American civilizational theorist and
               institutional founder whose work spans five decades of research
-              into consciousness, economics, political theory, and
-              civilizational design.
+              into consciousness, economics, political theory, and civilizational
+              design.
             </p>
-            <p className="mt-4 text-[16px] font-light leading-[1.85] text-[#4A4540]">
-              He is the architect of the <strong>Unified Field of Conscious
-              Civilization,</strong> the synthesis identifying the single structural
-              variable that determines whether civilizations flourish or
-              collapse, and the originator of <strong>Neovia</strong>, the first proposed
-              civilization designed entirely around the Prime Law prohibition of
-              initiated force.
+            <p>
+              He is the architect of the{" "}
+              <strong>Unified Field of Conscious Civilization,</strong> the
+              synthesis identifying the single structural variable that determines
+              whether civilizations flourish or collapse, and the originator of{" "}
+              <strong>Neovia</strong>, the first proposed civilization designed
+              entirely around the Prime Law prohibition of initiated force.
             </p>
-            <p className="mt-4 text-[16px] font-light leading-[1.85] text-[#4A4540]">
+            <p>
               Hamilton&rsquo;s most consequential contribution was not merely
               diagnosing civilization&rsquo;s structural error, but designing its
               correction. His work is distinctive for treating civilization as
@@ -64,64 +102,42 @@ export function Founder() {
               insisting that consciousness is not merely personal, but
               civilizational.
             </p>
-
-            <blockquote className="mt-8">
-              <p className="font-serif text-[17px] italic leading-[1.6] text-[#7A7570]">
-                &ldquo;Where others sought better rulers, better laws, or better
-                ideologies, Hamilton asked a more fundamental question: what if
-                hierarchy itself is the problem?&rdquo;
-              </p>
-            </blockquote>
-
-            {/* Credentials */}
-            <div className="mt-10 flex flex-col">
-              {CREDENTIALS.map((cred, i) => (
-                <div
-                  key={i}
-                  className={`flex gap-4 py-5 ${
-                    i > 0 ? "border-t border-[#E8E3D8]" : ""
-                  }`}
-                >
-                  <span className="mt-[6px] h-[6px] w-[6px] flex-shrink-0 rounded-full bg-[#B8973A]" />
-                  <div>
-                    <p className="text-[14px] font-medium text-[#0E0E0E]">
-                      {cred.title}
-                    </p>
-                    <p className="mt-1 text-[13px] font-light leading-[1.6] text-[#4A4540]">
-                      {cred.description}
-                    </p>
+            <p className="nti-pullquote">
+              &ldquo;Where others sought better rulers, better laws, or better
+              ideologies, Hamilton asked a more fundamental question: what if
+              hierarchy itself is the problem?&rdquo;
+            </p>
+            <div className="nti-creds">
+              {CREDENTIALS.map((cred) => (
+                <div key={cred.title} className="nti-cred">
+                  <div className="nti-cred-dot" aria-hidden />
+                  <div className="nti-cred-body">
+                    <strong>{cred.title}</strong>
+                    {cred.description}
                   </div>
                 </div>
               ))}
             </div>
-
-            <Link
-              href="/mark-hamilton"
-              className="mt-8 inline-flex items-center min-h-[44px] border border-[#C8C0B0] px-9 py-4 text-[12px] font-medium uppercase tracking-[0.14em] text-[#4A4540] transition-colors duration-200 hover:border-[#B8973A] hover:text-[#0E0E0E]"
-            >
+            <Link href={WP.markHamilton} className="nti-btn">
               Full Biography &amp; Published Work
             </Link>
           </div>
 
-          {/* Right column: portrait */}
           <div className="nti-reveal">
-            <div className="relative overflow-hidden bg-[#F4F1EC]" style={{ aspectRatio: "4/3" }}>
-              <Image
-                src="/images/mark-hamilton.png"
-                alt="Mark Hamilton, Founder of the Neothink Institute"
-                fill
-                priority
-                className="object-cover"
-                sizes="(max-width: 1024px) 100vw, 480px"
-              />
-              {/* Caption overlay */}
-              <div className="absolute bottom-0 left-0 right-0 bg-[rgba(14,14,14,0.92)] px-6 pb-5">
-                <p className="font-serif text-[18px] font-normal text-[#FDFCFA]">
-                  Mark Hamilton
-                </p>
-                <p className="text-[11px] font-light tracking-[0.06em] text-[#FDFCFA]/60">
-                  Founder, Neothink Institute
-                </p>
+            <div className="nti-portrait">
+              <div className="nti-portrait-bg">
+                <Image
+                  src={MARK_HAMILTON_PORTRAIT_URL}
+                  alt="Mark Hamilton, Founder of the Neothink Institute"
+                  fill
+                  priority
+                  className="nti-portrait-img object-cover object-top"
+                  sizes="(max-width: 900px) 100vw, 480px"
+                />
+              </div>
+              <div className="nti-portrait-cap">
+                <strong>Mark Hamilton</strong>
+                <p>Founder, Neothink Institute</p>
               </div>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import { siteConfig } from "@/lib/metadata";
+import { MARK_HAMILTON_PORTRAIT_URL } from "@/lib/wordpress-images";
 
 type JsonLd = Record<string, unknown>;
 
@@ -90,6 +91,7 @@ export function getFounderSchema(): JsonLd {
     description:
       "Author of the Neothink Manuscripts. Creator of the Neothink Mentality. Founder of the Neothink Institute (a public research organization) and the Neothink Society (a private education organization). His work spans five decades of research into consciousness, economics, political theory, and civilizational design.",
     url: `${siteConfig.url}/mark-hamilton`,
+    image: MARK_HAMILTON_PORTRAIT_URL,
     affiliation: [
       { "@id": `${siteConfig.url}/#organization` },
       { "@id": `${siteConfig.url}/#society` },

@@ -1,0 +1,286 @@
+/** Manuscripts grid — aligned with WordPress export */
+
+import { WP } from "@/lib/wordpress-routes";
+
+export type MsCoverVariant =
+  | "gold"
+  | "forest"
+  | "indigo"
+  | "amber"
+  | "rose"
+  | "slate"
+  | "emerald"
+  | "midnight";
+
+export type MsBook = {
+  /** Internal route for available works; omit or null for placeholder `#` */
+  href: string | null;
+  cover: MsCoverVariant;
+  tag: string;
+  title: string;
+  /** Optional subtitle on cover */
+  subtitle?: string;
+  author: string;
+  metaTitle: string;
+  metaSub: string;
+};
+
+export const MANUSCRIPT_BOOKS: MsBook[] = [
+  {
+    href: WP.unleashed,
+    cover: "gold",
+    tag: "Civilizational Theory",
+    title: "The Unified Field of Conscious Civilization",
+    author: "Mark Hamilton",
+    metaTitle: "The Unified Field of Conscious Civilization",
+    metaSub: "The culmination of fifty years",
+  },
+  {
+    href: null,
+    cover: "midnight",
+    tag: "Vision",
+    title: "The Twelve Visions",
+    subtitle: "Now You Can See The Future",
+    author: "Mark Hamilton",
+    metaTitle: "The Twelve Visions",
+    metaSub: "Now You Can See The Future",
+  },
+  {
+    href: null,
+    cover: "emerald",
+    tag: "Longevity",
+    title: "FOREVER",
+    author: "Mark Hamilton",
+    metaTitle: "FOREVER",
+    metaSub: "Biological preservation as civilizational imperative",
+  },
+  {
+    href: null,
+    cover: "forest",
+    tag: "Core System",
+    title: "The Neothink System",
+    subtitle: "Greatest Money-Making System of All Time",
+    author: "Mark Hamilton",
+    metaTitle: "The Neothink System",
+    metaSub: "Greatest Money-Making System of All Time",
+  },
+  {
+    href: null,
+    cover: "forest",
+    tag: "Insights",
+    title: "The Neothink Insights",
+    subtitle: "Master 15-Second Miracles",
+    author: "Mark Hamilton",
+    metaTitle: "The Neothink Insights",
+    metaSub: "Master 15-Second Miracles",
+  },
+  {
+    href: null,
+    cover: "midnight",
+    tag: "Evolution",
+    title: "Our Next Evolution",
+    subtitle: "Become a God-Man",
+    author: "Mark Hamilton",
+    metaTitle: "Our Next Evolution",
+    metaSub: "Become a God-Man",
+  },
+  {
+    href: null,
+    cover: "indigo",
+    tag: "Book One",
+    title: "Conceiving the Superpuzzle",
+    subtitle: "The Secret Society Begins",
+    author: "Mark Hamilton",
+    metaTitle: "Conceiving the Superpuzzle",
+    metaSub: "The Secret Society Begins",
+  },
+  {
+    href: null,
+    cover: "indigo",
+    tag: "Book Two",
+    title: "Putting Together the Pieces",
+    subtitle: "The Secret Society Reunites",
+    author: "Mark Hamilton",
+    metaTitle: "Putting Together the Pieces",
+    metaSub: "The Secret Society Reunites",
+  },
+  {
+    href: null,
+    cover: "indigo",
+    tag: "Book Three",
+    title: "Beholding the Puzzle-Picture",
+    subtitle: "The Secret Society Triumphs",
+    author: "Mark Hamilton",
+    metaTitle: "Beholding the Puzzle-Picture",
+    metaSub: "The Secret Society Triumphs",
+  },
+  {
+    href: null,
+    cover: "forest",
+    tag: "Portal One",
+    title: "Your Neothink Portal",
+    subtitle: "Puzzle Pieces To A New World",
+    author: "Mark Hamilton",
+    metaTitle: "Your Neothink Portal",
+    metaSub: "Puzzle Pieces To A New World",
+  },
+  {
+    href: null,
+    cover: "forest",
+    tag: "Portal Two",
+    title: "Your Neothink Mentality",
+    subtitle: "Monetary Techniques & Emotional Wealth",
+    author: "Mark Hamilton",
+    metaTitle: "Your Neothink Mentality",
+    metaSub: "Monetary Techniques & Emotional Wealth",
+  },
+  {
+    href: null,
+    cover: "forest",
+    tag: "Portal Three",
+    title: "Your Neothink Puzzle Pictures",
+    author: "Wallace & Mark Hamilton",
+    metaTitle: "Your Neothink Puzzle Pictures",
+    metaSub: "Wallace & Mark Hamilton",
+  },
+  {
+    href: null,
+    cover: "midnight",
+    tag: "Portal Four",
+    title: "Your Neothink World",
+    subtitle: "All Roads Lead to Immortalis",
+    author: "Mark Hamilton",
+    metaTitle: "Your Neothink World",
+    metaSub: "All Roads Lead to Immortalis",
+  },
+  {
+    href: null,
+    cover: "amber",
+    tag: "Leadership",
+    title: "The Self-Leader Secret",
+    author: "Mark Hamilton",
+    metaTitle: "The Self-Leader Secret",
+    metaSub: "Internal authority & self-leadership",
+  },
+  {
+    href: null,
+    cover: "gold",
+    tag: "Foundation",
+    title: "The Greatest Kept Secret of All Time",
+    author: "Mark Hamilton",
+    metaTitle: "The Greatest Kept Secret of All Time",
+    metaSub: "The original gateway manuscript",
+  },
+  {
+    href: null,
+    cover: "indigo",
+    tag: "Revelation",
+    title: "Forbidden Revelation",
+    author: "Mark Hamilton",
+    metaTitle: "Forbidden Revelation",
+    metaSub: "What the hierarchy suppressed",
+  },
+  {
+    href: null,
+    cover: "indigo",
+    tag: "Gateway",
+    title: "The Secret Passage",
+    author: "Mark Hamilton",
+    metaTitle: "The Secret Passage",
+    metaSub: "From the false world to the golden world",
+  },
+  {
+    href: null,
+    cover: "amber",
+    tag: "Family & Legacy",
+    title: "Mark Hamilton & Family & You",
+    author: "Mark Hamilton",
+    metaTitle: "Mark Hamilton & Family & You",
+    metaSub: "Family, relationships, and legacy",
+  },
+  {
+    href: null,
+    cover: "gold",
+    tag: "Prosperity",
+    title: "A Future of Wealth Belongs to You",
+    author: "Mark Hamilton",
+    metaTitle: "A Future of Wealth Belongs to You",
+    metaSub: "Value creation & extraordinary outcomes",
+  },
+  {
+    href: null,
+    cover: "amber",
+    tag: "Volume One",
+    title: "What We All Want...",
+    subtitle: "Individual Wealth",
+    author: "Mark Hamilton",
+    metaTitle: "What We All Want...",
+    metaSub: "Individual Wealth",
+  },
+  {
+    href: null,
+    cover: "emerald",
+    tag: "Volume Two",
+    title: "What We All Pray For...",
+    subtitle: "Eternal Life",
+    author: "Mark Hamilton",
+    metaTitle: "What We All Pray For...",
+    metaSub: "Eternal Life",
+  },
+  {
+    href: null,
+    cover: "rose",
+    tag: "Volume Three",
+    title: "What You Want...",
+    subtitle: "Your Miracle Year",
+    author: "Mark Hamilton",
+    metaTitle: "What You Want...",
+    metaSub: "Your Miracle Year",
+  },
+  {
+    href: null,
+    cover: "gold",
+    tag: "Volume Four",
+    title: "What We All Long For...",
+    subtitle: "Universal Wealth",
+    author: "Mark Hamilton",
+    metaTitle: "What We All Long For...",
+    metaSub: "Universal Wealth",
+  },
+  {
+    href: null,
+    cover: "slate",
+    tag: "Core System",
+    title: "The Neo-Tech System",
+    author: "Neo-Tech Foundation",
+    metaTitle: "The Neo-Tech System",
+    metaSub: "The original integrated honesty framework",
+  },
+  {
+    href: null,
+    cover: "slate",
+    tag: "Advanced",
+    title: "The Neo-Tech Weapon",
+    author: "Neo-Tech Foundation",
+    metaTitle: "The Neo-Tech Weapon",
+    metaSub: "Integrated honesty as personal power",
+  },
+  {
+    href: null,
+    cover: "slate",
+    tag: "Guide",
+    title: "The Ultimate Neo-Tech Guidebook",
+    author: "Neo-Tech Foundation",
+    metaTitle: "The Ultimate Neo-Tech Guidebook",
+    metaSub: "The comprehensive reference",
+  },
+  {
+    href: null,
+    cover: "slate",
+    tag: "Quick Start",
+    title: "The Kickstart Report",
+    author: "Neo-Tech Foundation",
+    metaTitle: "The Kickstart Report",
+    metaSub: "Essential principles, immediately actionable",
+  },
+];

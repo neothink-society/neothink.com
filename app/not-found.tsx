@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { WP } from "@/lib/wordpress-routes";
 
 export default function NotFound() {
   return (
@@ -13,7 +14,7 @@ export default function NotFound() {
         The page you&rsquo;re looking for doesn&rsquo;t exist or has been moved.
       </p>
       <Link
-        href="/"
+        href={WP.home}
         className="mt-10 inline-flex min-h-[44px] items-center border border-[#C8C0B0] px-9 py-4 text-[12px] font-medium uppercase tracking-[0.14em] text-[#4A4540] transition-colors duration-200 hover:border-[#B8973A] hover:text-[#B8973A]"
       >
         Return Home

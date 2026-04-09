@@ -1,0 +1,742 @@
+/* Unified Field page — migrated from WordPress static HTML; scoped under .uf-page */
+
+.uf-page {
+  --uf-gold: #b8973a;
+  --uf-gold-light: #d4b060;
+  --uf-gold-dim: #8a7030;
+  --uf-ink: #0e0e0e;
+  --uf-ink-soft: #1c1c1c;
+  --uf-stone: #f4f1ec;
+  --uf-stone-mid: #e8e3d8;
+  --uf-stone-dark: #c8c0b0;
+  --uf-text-primary: #0e0e0e;
+  --uf-text-secondary: #4a4540;
+  --uf-text-muted: #7a7570;
+  --uf-white: #fdfcfa;
+  --uf-max: 1160px;
+  --uf-narrow: 760px;
+  --uf-section-v: 120px;
+
+  font-family: var(--font-jost), ui-sans-serif, system-ui, sans-serif;
+  background: var(--uf-white);
+  color: var(--uf-text-primary);
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+.uf-page *,
+.uf-page *::before,
+.uf-page *::after {
+  box-sizing: border-box;
+}
+
+.uf-page .uf-inner {
+  max-width: var(--uf-max);
+  margin: 0 auto;
+}
+
+.uf-page .uf-narrow {
+  max-width: var(--uf-narrow);
+  margin: 0 auto;
+}
+
+.uf-page .uf-section-label {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--uf-gold);
+  margin-bottom: 20px;
+  display: block;
+}
+
+.uf-page .uf-rule {
+  width: 48px;
+  height: 1px;
+  background: var(--uf-gold);
+}
+
+@keyframes uf-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.uf-page .uf-reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity 0.7s ease,
+    transform 0.7s ease;
+}
+.uf-page .uf-reveal.uf-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .uf-page .uf-reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+.uf-page .uf-btn-primary {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--uf-white);
+  background: var(--uf-ink);
+  border: 1px solid var(--uf-ink);
+  padding: 16px 36px;
+  text-decoration: none;
+  transition: all 0.25s;
+  display: inline-block;
+}
+.uf-page .uf-btn-primary:hover {
+  background: var(--uf-gold);
+  border-color: var(--uf-gold);
+}
+
+.uf-page .uf-btn-secondary {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--uf-text-secondary);
+  background: transparent;
+  border: 1px solid var(--uf-stone-dark);
+  padding: 16px 36px;
+  text-decoration: none;
+  transition: all 0.25s;
+  display: inline-block;
+}
+.uf-page .uf-btn-secondary:hover {
+  border-color: var(--uf-gold);
+  color: var(--uf-gold);
+}
+
+.uf-page .uf-btn-light {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(253, 252, 250, 0.7);
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 16px 36px;
+  text-decoration: none;
+  transition: all 0.25s;
+  display: inline-block;
+}
+.uf-page .uf-btn-light:hover {
+  border-color: var(--uf-gold-light);
+  color: var(--uf-gold-light);
+}
+
+/* Hero */
+.uf-page .uf-hero {
+  padding: 180px 48px 100px;
+  text-align: center;
+  border-bottom: 1px solid var(--uf-stone-mid);
+}
+
+.uf-page .uf-hero-label {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--uf-gold);
+  margin-bottom: 36px;
+  opacity: 0;
+  animation: uf-fade-up 0.8s 0.2s ease forwards;
+}
+
+.uf-page .uf-hero h1 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(40px, 5vw, 72px);
+  font-weight: 300;
+  line-height: 1.1;
+  color: var(--uf-ink);
+  max-width: 800px;
+  margin: 0 auto 32px;
+  opacity: 0;
+  animation: uf-fade-up 0.8s 0.4s ease forwards;
+}
+
+.uf-page .uf-hero h1 em {
+  font-style: italic;
+  color: var(--uf-gold-dim);
+}
+
+.uf-page .uf-hero-sub {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.8;
+  color: var(--uf-text-secondary);
+  max-width: 600px;
+  margin: 0 auto 40px;
+  opacity: 0;
+  animation: uf-fade-up 0.8s 0.6s ease forwards;
+}
+
+.uf-page .uf-hero-meta {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--uf-text-muted);
+  opacity: 0;
+  animation: uf-fade-up 0.8s 0.8s ease forwards;
+}
+.uf-page .uf-hero-meta span {
+  color: var(--uf-gold);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .uf-page .uf-hero-label,
+  .uf-page .uf-hero h1,
+  .uf-page .uf-hero-sub,
+  .uf-page .uf-hero-meta {
+    opacity: 1;
+    animation: none;
+  }
+}
+
+/* Opening */
+.uf-page .uf-opening {
+  background: var(--uf-ink);
+  padding: var(--uf-section-v) 48px;
+  text-align: center;
+}
+
+.uf-page .uf-opening blockquote {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(26px, 3vw, 42px);
+  font-weight: 300;
+  line-height: 1.3;
+  color: var(--uf-white);
+  max-width: 780px;
+  margin: 0 auto;
+  font-style: normal;
+}
+
+.uf-page .uf-opening blockquote em {
+  color: var(--uf-gold-light);
+  font-style: italic;
+}
+
+/* Argument */
+.uf-page .uf-argument {
+  padding: var(--uf-section-v) 48px;
+}
+
+.uf-page .uf-argument-inner {
+  max-width: var(--uf-narrow);
+  margin: 0 auto;
+}
+
+.uf-page .uf-argument h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(30px, 3vw, 42px);
+  font-weight: 300;
+  line-height: 1.2;
+  color: var(--uf-ink);
+  margin-bottom: 40px;
+}
+.uf-page .uf-argument h2 em {
+  font-style: italic;
+  color: var(--uf-gold-dim);
+}
+
+.uf-page .uf-argument p {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.9;
+  color: var(--uf-text-secondary);
+  margin-bottom: 24px;
+}
+.uf-page .uf-argument p strong {
+  color: var(--uf-ink);
+  font-weight: 500;
+}
+
+.uf-page .uf-argument .uf-pullquote {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: italic;
+  color: var(--uf-text-muted);
+  line-height: 1.5;
+  padding: 32px 0 32px 32px;
+  border-left: 2px solid var(--uf-gold);
+  margin: 40px 0;
+}
+
+.uf-page .uf-argument h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 26px;
+  font-weight: 400;
+  color: var(--uf-ink);
+  margin-top: 56px;
+  margin-bottom: 24px;
+}
+
+/* Pillars */
+.uf-page .uf-pillars {
+  padding: var(--uf-section-v) 48px;
+  background: var(--uf-stone);
+}
+
+.uf-page .uf-pillars-label {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--uf-gold);
+  text-align: center;
+  margin: 0 auto 56px;
+  line-height: inherit;
+}
+
+.uf-page .uf-pillars-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: var(--uf-stone-mid);
+  border: 1px solid var(--uf-stone-mid);
+  max-width: var(--uf-max);
+  margin: 0 auto;
+}
+
+.uf-page .uf-pillar {
+  background: var(--uf-stone);
+  padding: 48px 44px;
+  transition: background 0.2s;
+}
+.uf-page .uf-pillar:hover {
+  background: var(--uf-white);
+}
+
+.uf-page .uf-pillar-num {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 14px;
+  color: var(--uf-gold);
+  letter-spacing: 0.1em;
+  margin-bottom: 16px;
+  display: block;
+}
+
+.uf-page .uf-pillar h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 26px;
+  font-weight: 400;
+  color: var(--uf-ink);
+  margin-bottom: 16px;
+}
+
+.uf-page .uf-pillar p {
+  font-size: 15px;
+  color: var(--uf-text-secondary);
+  line-height: 1.8;
+  font-weight: 300;
+}
+
+/* Arc */
+.uf-page .uf-arc {
+  padding: var(--uf-section-v) 48px;
+  border-top: 1px solid var(--uf-stone-mid);
+}
+
+.uf-page .uf-arc-header {
+  max-width: var(--uf-max);
+  margin: 0 auto 64px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: end;
+}
+
+.uf-page .uf-arc-header h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(30px, 3vw, 44px);
+  font-weight: 300;
+  line-height: 1.2;
+  color: var(--uf-ink);
+}
+.uf-page .uf-arc-header h2 em {
+  font-style: italic;
+  color: var(--uf-gold-dim);
+}
+
+.uf-page .uf-arc-header p {
+  font-size: 15px;
+  color: var(--uf-text-secondary);
+  line-height: 1.8;
+  font-weight: 300;
+}
+
+.uf-page .uf-arc-timeline {
+  max-width: var(--uf-max);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1px;
+  background: var(--uf-stone-mid);
+  border: 1px solid var(--uf-stone-mid);
+}
+
+.uf-page .uf-arc-item {
+  background: var(--uf-white);
+  padding: 36px 32px;
+  display: block;
+  cursor: default;
+  transition: background 0.2s;
+  position: relative;
+}
+.uf-page .uf-arc-item:hover {
+  background: var(--uf-stone);
+}
+
+.uf-page .uf-arc-era {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--uf-gold);
+  margin-bottom: 14px;
+  display: block;
+}
+
+.uf-page .uf-arc-item h4 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--uf-ink);
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+
+.uf-page .uf-arc-item p {
+  font-size: 13px;
+  color: var(--uf-text-secondary);
+  line-height: 1.7;
+  font-weight: 300;
+}
+
+/* Law */
+.uf-page .uf-law {
+  background: var(--uf-ink);
+  padding: 100px 48px;
+  text-align: center;
+}
+
+.uf-page .uf-law-inner {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.uf-page .uf-law-label {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--uf-gold-light);
+  margin-bottom: 32px;
+  display: block;
+}
+
+.uf-page .uf-law h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(28px, 3.5vw, 48px);
+  font-weight: 300;
+  line-height: 1.2;
+  color: var(--uf-white);
+  margin-bottom: 32px;
+}
+.uf-page .uf-law h2 em {
+  color: var(--uf-gold-light);
+  font-style: italic;
+}
+
+.uf-page .uf-law p {
+  font-size: 16px;
+  color: rgba(253, 252, 250, 0.6);
+  line-height: 1.85;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.uf-page .uf-law .uf-law-examples {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  margin-top: 48px;
+  text-align: left;
+}
+
+.uf-page .uf-law-example {
+  background: rgba(14, 14, 14, 0.6);
+  padding: 28px 32px;
+}
+
+.uf-page .uf-law-example h4 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--uf-white);
+  margin-bottom: 8px;
+}
+
+.uf-page .uf-law-example p {
+  font-size: 13px;
+  color: rgba(253, 252, 250, 0.45);
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+.uf-page .uf-law-example .uf-law-direction {
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  display: block;
+  font-weight: 500;
+}
+
+.uf-page .uf-law-up {
+  color: #c75050;
+}
+.uf-page .uf-law-down {
+  color: var(--uf-gold-light);
+}
+
+/* Read */
+.uf-page .uf-read {
+  padding: var(--uf-section-v) 48px;
+  border-top: 1px solid var(--uf-stone-mid);
+}
+
+.uf-page .uf-read-inner {
+  max-width: var(--uf-max);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.uf-page .uf-read h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(30px, 3vw, 46px);
+  font-weight: 300;
+  line-height: 1.2;
+  color: var(--uf-ink);
+  margin-bottom: 24px;
+}
+.uf-page .uf-read h2 em {
+  font-style: italic;
+  color: var(--uf-gold-dim);
+}
+
+.uf-page .uf-read p {
+  font-size: 16px;
+  color: var(--uf-text-secondary);
+  line-height: 1.85;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.uf-page .uf-read-book {
+  background: var(--uf-stone);
+  padding: 60px 48px;
+  text-align: center;
+  border: 1px solid var(--uf-stone-mid);
+}
+
+.uf-page .uf-read-book h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 48px;
+  font-weight: 300;
+  font-style: italic;
+  color: var(--uf-ink);
+  margin-bottom: 8px;
+}
+
+.uf-page .uf-read-book .uf-book-subtitle {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--uf-gold);
+  font-weight: 500;
+  margin-bottom: 24px;
+  display: block;
+}
+
+.uf-page .uf-read-book .uf-book-author {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 14px;
+  color: var(--uf-text-muted);
+  font-weight: 300;
+}
+
+.uf-page .uf-read-book .uf-book-scope {
+  margin-top: 32px;
+  padding-top: 32px;
+  border-top: 1px solid var(--uf-stone-mid);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  text-align: center;
+}
+
+.uf-page .uf-book-scope-item {
+  font-size: 12px;
+  color: var(--uf-text-muted);
+  letter-spacing: 0.08em;
+}
+
+.uf-page .uf-book-scope-item strong {
+  display: block;
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 24px;
+  font-weight: 300;
+  color: var(--uf-ink);
+  margin-bottom: 4px;
+}
+
+/* Author */
+.uf-page .uf-author {
+  padding: 80px 48px;
+  background: var(--uf-stone);
+  border-top: 1px solid var(--uf-stone-mid);
+}
+
+.uf-page .uf-author-inner {
+  max-width: var(--uf-max);
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.uf-page .uf-author-avatar {
+  width: 100px;
+  height: 100px;
+  background: var(--uf-stone-mid);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.uf-page .uf-author-avatar span {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 32px;
+  font-weight: 300;
+  color: var(--uf-stone-dark);
+}
+
+.uf-page .uf-author-text h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--uf-ink);
+  margin-bottom: 4px;
+}
+
+.uf-page .uf-author-text .uf-author-title {
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--uf-gold);
+  font-weight: 500;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.uf-page .uf-author-text p {
+  font-size: 15px;
+  color: var(--uf-text-secondary);
+  line-height: 1.75;
+  font-weight: 300;
+  max-width: 600px;
+}
+
+.uf-page .uf-author-text a {
+  display: inline-block;
+  margin-top: 16px;
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--uf-gold);
+  font-weight: 500;
+  text-decoration: none;
+  transition: letter-spacing 0.3s;
+}
+.uf-page .uf-author-text a:hover {
+  letter-spacing: 0.2em;
+}
+
+@media (max-width: 900px) {
+  .uf-page .uf-hero {
+    padding: 140px 24px 80px;
+  }
+
+  .uf-page .uf-opening,
+  .uf-page .uf-argument,
+  .uf-page .uf-pillars,
+  .uf-page .uf-arc,
+  .uf-page .uf-law,
+  .uf-page .uf-read,
+  .uf-page .uf-author {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .uf-page .uf-pillars-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .uf-page .uf-arc-header {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .uf-page .uf-arc-timeline {
+    grid-template-columns: 1fr;
+  }
+
+  .uf-page .uf-law .uf-law-examples {
+    grid-template-columns: 1fr;
+  }
+
+  .uf-page .uf-read-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .uf-page .uf-author-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+}

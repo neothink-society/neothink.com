@@ -1,12 +1,24 @@
-import React from "react";
-import Link from "next/link";
+"use client";
 
-const STAGES: { numeral: string; title: string; description: React.ReactNode; tag: string }[] = [
+import Link from "next/link";
+import { WP } from "@/lib/wordpress-routes";
+import { useEffect, useRef } from "react";
+
+const STAGES: {
+  numeral: string;
+  title: string;
+  description: React.ReactNode;
+  tag: string;
+}[] = [
   {
     numeral: "I",
     title: "The Waking",
     description: (
-      <>The recognition that you have been asleep. Learning to see through illusions down to <i>what is.</i> Become aware of the conditioned self and imprints of external authority installed without your knowledge.</>
+      <>
+        The recognition that you have been asleep. Learning to see through illusions down to{" "}
+        <i>what is.</i> Become aware of the conditioned self and imprints of external authority
+        installed without your knowledge.
+      </>
     ),
     tag: "See clearly",
   },
@@ -27,79 +39,78 @@ const STAGES: { numeral: string; title: string; description: React.ReactNode; ta
 ];
 
 export function TheWay() {
-  return (
-    <section id="the-way" aria-labelledby="the-way-heading" className="border-t border-[#E8E3D8] bg-[#FDFCFA] px-6 py-[120px] md:px-12 max-md:py-20">
-      <div className="mx-auto max-w-[1160px]">
-        <p className="mb-2 text-[10px] font-medium uppercase tracking-[0.22em] text-[#B8973A]">
-          The Personal Path
-        </p>
-        <div className="mb-12 h-px w-12 bg-[#B8973A]" />
+  const sectionRef = useRef<HTMLElement>(null);
 
-        {/* Intro: 2-column */}
-        <div className="mb-16 grid grid-cols-1 gap-12 md:grid-cols-[1fr_480px] md:gap-20">
-          <div className="nti-reveal">
-            <h2 id="the-way-heading" className="font-serif text-[clamp(36px,4vw,52px)] font-light leading-[1.1] text-[#0E0E0E]">
-              The Unified Field, lived from the inside.
-            </h2>
-            <p className="mt-6 text-[15px] font-light leading-[1.75] text-[#4A4540]">
-              The Way is the personal expression of everything the Institute is
-              building at the civilizational scale. It is the path of seeing
-              through the illusions of those who wish to keep you small,
-              removing everything that was installed from the outside, and
-              waking up a mind that has been caged.
+  useEffect(() => {
+    const root = sectionRef.current;
+    if (!root) return;
+
+    const els = root.querySelectorAll<HTMLElement>(".nti-reveal");
+    if (els.length === 0) return;
+
+    const prefersReduced =
+      typeof window !== "undefined" &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    if (prefersReduced) {
+      els.forEach((el) => el.classList.add("nti-visible"));
+      return;
+    }
+
+    const obs = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add("nti-visible");
+            obs.unobserve(e.target);
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    els.forEach((el) => obs.observe(el));
+    return () => obs.disconnect();
+  }, []);
+
+  return (
+    <section ref={sectionRef} className="nti-way" id="the-way" aria-labelledby="the-way-heading">
+      <div className="nti-inner">
+        <span className="nti-label nti-reveal">The Personal Path</span>
+        <div className="nti-rule nti-reveal" aria-hidden />
+        <div className="nti-intro nti-reveal">
+          <div>
+            <h2 id="the-way-heading">The Unified Field, lived from the inside.</h2>
+            <p className="nti-intro-body">
+              The Way is the personal expression of everything the Institute is building at the
+              civilizational scale. It is the path of seeing through the illusions of those who wish
+              to keep you small, removing everything that was installed from the outside, and waking
+              up a mind that has been caged.
             </p>
           </div>
-          <div className="nti-reveal flex items-center">
-            <blockquote>
-              <p className="font-serif text-[22px] italic leading-[1.6] text-[#7A7570]">
-                &ldquo;You are not broken. You were never broken. You were
-                covered. And that covering can be removed.&rdquo;
-              </p>
-              <footer className="mt-2">
-                <cite className="text-[11px] font-light tracking-[0.1em] text-[#7A7570]/60 not-italic">
-                  &mdash; Mark Hamilton
-                </cite>
-              </footer>
-            </blockquote>
+          <div className="nti-intro-quote">
+            <p>
+              &ldquo;You are not broken. You were never broken. You were covered. And that covering
+              can be removed.&rdquo;
+            </p>
           </div>
         </div>
-
-        {/* 3 stage cards */}
-        <div className="grid grid-cols-1 lg:grid-cols-3">
-          {STAGES.map((stage, i) => (
-            <div
-              key={stage.numeral}
-              className={`nti-reveal px-10 py-12 transition-colors duration-200 hover:bg-[#F4F1EC] ${
-                i > 0 ? "border-t border-[#E8E3D8] lg:border-t-0 lg:border-l" : ""
-              }`}
-            >
-              <span className="block font-serif text-[64px] font-light leading-none text-[#E8E3D8]">
-                {stage.numeral}
-              </span>
-              <h3 className="mt-4 font-serif text-[28px] font-normal leading-[1.3] text-[#0E0E0E]">
-                {stage.title}
-              </h3>
-              <p className="mt-4 text-[15px] font-light leading-[1.8] text-[#4A4540]">
-                {stage.description}
-              </p>
-              <span className="mt-6 inline-block text-[10px] font-medium uppercase tracking-[0.15em] text-[#B8973A]">
-                {stage.tag}
-              </span>
+        <div className="nti-stages">
+          {STAGES.map((stage) => (
+            <div key={stage.title} className="nti-stage nti-reveal">
+              <span className="nti-stage-num">{stage.numeral}</span>
+              <h3>{stage.title}</h3>
+              <p>{stage.description}</p>
+              <span className="nti-stage-tag">{stage.tag}</span>
             </div>
           ))}
         </div>
-
-        {/* Footer */}
-        <div className="mt-16 flex flex-col items-start justify-between gap-8 border-t border-[#E8E3D8] pt-12 md:flex-row md:items-center">
-          <blockquote>
-            <p className="font-serif text-[28px] italic leading-[1.4] text-[#4A4540] max-w-[520px]">
-              &ldquo;We do not tell you who you are. We show you how to remove all that is not you. What is left, is you.&rdquo;
-            </p>
-          </blockquote>
-          <Link
-            href="/the-way"
-            className="inline-flex items-center min-h-[44px] bg-[#0E0E0E] px-9 py-4 text-[12px] font-medium uppercase tracking-[0.14em] text-[#FDFCFA] transition-colors duration-200 hover:bg-[#B8973A] hover:border-[#B8973A]"
-          >
+        <div className="nti-footer nti-reveal">
+          <p className="nti-footer-quote">
+            &ldquo;We do not tell you who you are. We show you how to remove all that is not you.
+            What is left, is you.&rdquo;
+          </p>
+          <Link href={WP.theWay} className="nti-btn">
             Begin The Way
           </Link>
         </div>

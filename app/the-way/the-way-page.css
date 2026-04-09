@@ -1,0 +1,685 @@
+/* The Way page — migrated from WordPress static HTML; scoped under .tw-page */
+
+.tw-page {
+  font-family: var(--font-jost), ui-sans-serif, system-ui, sans-serif;
+  background: #fdfcfa;
+  color: #0e0e0e;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+.tw-page *,
+.tw-page *::before,
+.tw-page *::after {
+  box-sizing: border-box;
+}
+
+@keyframes tw-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.tw-page .tw-reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity 0.7s ease,
+    transform 0.7s ease;
+}
+
+.tw-page .tw-reveal.tw-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tw-page .tw-reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* Hero */
+.tw-page .tw-hero {
+  padding: 160px 48px 100px;
+  text-align: center;
+  border-bottom: 1px solid var(--stone-mid, #e8e3d8);
+}
+
+.tw-page .tw-hero-label {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #b8973a;
+  margin-bottom: 36px;
+  opacity: 0;
+  animation: tw-fade-up 0.8s 0.2s ease forwards;
+}
+
+.tw-page .tw-hero h1 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(40px, 5vw, 72px);
+  font-weight: 300;
+  line-height: 1.1;
+  color: #0e0e0e;
+  max-width: 780px;
+  margin: 0 auto 32px;
+  opacity: 0;
+  animation: tw-fade-up 0.8s 0.4s ease forwards;
+}
+
+.tw-page .tw-hero h1 em {
+  font-style: italic;
+  color: #8a7030;
+}
+
+.tw-page .tw-hero-sub {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.8;
+  color: #4a4540;
+  max-width: 600px;
+  margin: 0 auto 40px;
+  opacity: 0;
+  animation: tw-fade-up 0.8s 0.6s ease forwards;
+}
+
+.tw-page .tw-hero-meta {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #7a7570;
+  opacity: 0;
+  animation: tw-fade-up 0.8s 0.8s ease forwards;
+}
+
+.tw-page .tw-hero-meta span {
+  color: #b8973a;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tw-page .tw-hero-label,
+  .tw-page .tw-hero h1,
+  .tw-page .tw-hero-sub,
+  .tw-page .tw-hero-meta {
+    opacity: 1;
+    animation: none;
+  }
+}
+
+/* Opening */
+.tw-page .tw-opening {
+  background: #0e0e0e;
+  padding: 100px 48px;
+  text-align: center;
+}
+
+.tw-page .tw-opening-inner {
+  max-width: 740px;
+  margin: 0 auto;
+}
+
+.tw-page .tw-opening blockquote {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(26px, 3vw, 42px);
+  font-weight: 300;
+  line-height: 1.3;
+  color: #fdfcfa;
+  font-style: normal;
+}
+
+.tw-page .tw-opening blockquote em {
+  color: #d4b060;
+  font-style: italic;
+}
+
+/* Diagnosis */
+.tw-page .tw-diagnosis {
+  padding: 120px 48px;
+}
+
+.tw-page .tw-diagnosis-inner {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.tw-page .tw-section-label {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #b8973a;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.tw-page .tw-diagnosis h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(30px, 3vw, 44px);
+  font-weight: 300;
+  line-height: 1.2;
+  color: #0e0e0e;
+  margin-bottom: 40px;
+}
+
+.tw-page .tw-diagnosis h2 em {
+  font-style: italic;
+  color: #8a7030;
+}
+
+.tw-page .tw-diagnosis p {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.9;
+  color: #4a4540;
+  margin-bottom: 24px;
+}
+
+.tw-page .tw-diagnosis p strong {
+  color: #0e0e0e;
+  font-weight: 500;
+}
+
+.tw-page .tw-pullquote {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: italic;
+  color: #7a7570;
+  line-height: 1.5;
+  padding: 32px 0 32px 32px;
+  border-left: 2px solid #b8973a;
+  margin: 40px 0;
+}
+
+.tw-page .tw-diagnosis h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 26px;
+  font-weight: 400;
+  color: #0e0e0e;
+  margin-top: 56px;
+  margin-bottom: 24px;
+}
+
+/* Two worlds */
+.tw-page .tw-worlds {
+  background: #0e0e0e;
+  padding: 120px 48px;
+}
+
+.tw-page .tw-worlds-inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.tw-page .tw-world {
+  padding: 56px 48px;
+  background: rgba(14, 14, 14, 0.6);
+}
+
+.tw-page .tw-world-label {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  display: block;
+}
+
+.tw-page .tw-world-label.false {
+  color: #7a7570;
+}
+.tw-page .tw-world-label.golden {
+  color: #d4b060;
+}
+
+.tw-page .tw-world h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(28px, 3vw, 38px);
+  font-weight: 300;
+  color: #fdfcfa;
+  margin-bottom: 24px;
+  line-height: 1.2;
+}
+
+.tw-page .tw-world h3 em {
+  font-style: italic;
+  color: #d4b060;
+}
+
+.tw-page .tw-world p {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.85;
+  color: rgba(253, 252, 250, 0.55);
+  margin-bottom: 18px;
+}
+
+.tw-page .tw-world p strong {
+  color: rgba(253, 252, 250, 0.85);
+  font-weight: 500;
+}
+
+/* Stages */
+.tw-page .tw-stages {
+  padding: 120px 48px;
+  background: #f4f1ec;
+}
+
+.tw-page .tw-stages-header {
+  max-width: 1160px;
+  margin: 0 auto 64px;
+  display: grid;
+  grid-template-columns: 1fr 480px;
+  gap: 80px;
+  align-items: end;
+}
+
+.tw-page .tw-stages-header h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(30px, 3vw, 46px);
+  font-weight: 300;
+  line-height: 1.2;
+  color: #0e0e0e;
+}
+
+.tw-page .tw-stages-header h2 em {
+  font-style: italic;
+  color: #8a7030;
+}
+
+.tw-page .tw-stages-header p {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 16px;
+  color: #4a4540;
+  line-height: 1.85;
+  font-weight: 300;
+}
+
+.tw-page .tw-stages-grid {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1px;
+  background: #e8e3d8;
+  border: 1px solid #e8e3d8;
+}
+
+.tw-page .tw-stage {
+  background: #f4f1ec;
+  padding: 48px 40px;
+  transition: background 0.25s;
+}
+
+.tw-page .tw-stage:hover {
+  background: #fdfcfa;
+}
+
+.tw-page .tw-stage-num {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 64px;
+  font-weight: 300;
+  color: #e8e3d8;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+  letter-spacing: -0.03em;
+}
+
+.tw-page .tw-stage h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 28px;
+  font-weight: 400;
+  color: #0e0e0e;
+  margin-bottom: 16px;
+}
+
+.tw-page .tw-stage p {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 15px;
+  color: #4a4540;
+  line-height: 1.8;
+  font-weight: 300;
+}
+
+.tw-page .tw-stage-tag {
+  display: inline-block;
+  margin-top: 28px;
+  font-family: var(--font-jost), sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #b8973a;
+  font-weight: 500;
+}
+
+/* Practice */
+.tw-page .tw-practice {
+  padding: 120px 48px;
+  border-top: 1px solid #e8e3d8;
+}
+
+.tw-page .tw-practice-inner {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.tw-page .tw-practice h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(30px, 3vw, 44px);
+  font-weight: 300;
+  line-height: 1.2;
+  color: #0e0e0e;
+  margin-bottom: 40px;
+}
+
+.tw-page .tw-practice h2 em {
+  font-style: italic;
+  color: #8a7030;
+}
+
+.tw-page .tw-practice p {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.9;
+  color: #4a4540;
+  margin-bottom: 24px;
+}
+
+.tw-page .tw-practice p strong {
+  color: #0e0e0e;
+  font-weight: 500;
+}
+
+.tw-page .tw-practice h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 26px;
+  font-weight: 400;
+  color: #0e0e0e;
+  margin-top: 56px;
+  margin-bottom: 24px;
+}
+
+/* Diff */
+.tw-page .tw-diff {
+  background: #0e0e0e;
+  padding: 100px 48px;
+  text-align: center;
+}
+
+.tw-page .tw-diff-inner {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.tw-page .tw-diff-label {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #d4b060;
+  margin-bottom: 32px;
+  display: block;
+}
+
+.tw-page .tw-diff h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(26px, 3vw, 40px);
+  font-weight: 300;
+  line-height: 1.3;
+  color: #fdfcfa;
+  margin-bottom: 32px;
+}
+
+.tw-page .tw-diff h2 em {
+  color: #d4b060;
+  font-style: italic;
+}
+
+.tw-page .tw-diff p {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.85;
+  color: rgba(253, 252, 250, 0.6);
+  margin-bottom: 20px;
+}
+
+/* Connection */
+.tw-page .tw-connection {
+  padding: 120px 48px;
+  background: #f4f1ec;
+}
+
+.tw-page .tw-connection-inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.tw-page .tw-connection h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(30px, 3vw, 44px);
+  font-weight: 300;
+  line-height: 1.2;
+  color: #0e0e0e;
+  margin-bottom: 28px;
+}
+
+.tw-page .tw-connection h2 em {
+  font-style: italic;
+  color: #8a7030;
+}
+
+.tw-page .tw-connection p {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.85;
+  color: #4a4540;
+  margin-bottom: 18px;
+}
+
+.tw-page .tw-connection p strong {
+  color: #0e0e0e;
+  font-weight: 500;
+}
+
+.tw-page .tw-connection-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  background: #e8e3d8;
+  border: 1px solid #e8e3d8;
+}
+
+.tw-page .tw-connection-link {
+  background: #f4f1ec;
+  padding: 28px 32px;
+  text-decoration: none;
+  display: block;
+  transition: background 0.2s;
+  color: inherit;
+}
+
+.tw-page .tw-connection-link:hover {
+  background: #fdfcfa;
+}
+
+.tw-page .tw-connection-link h4 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #0e0e0e;
+  margin-bottom: 6px;
+}
+
+.tw-page .tw-connection-link p {
+  font-size: 13px;
+  color: #7a7570;
+  margin-bottom: 0;
+}
+
+.tw-page .tw-connection-link .tw-link-arrow {
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #b8973a;
+  font-weight: 500;
+  margin-top: 12px;
+  display: block;
+}
+
+/* CTA */
+.tw-page .tw-cta {
+  padding: 100px 48px;
+  text-align: center;
+  border-top: 1px solid #e8e3d8;
+}
+
+.tw-page .tw-cta-inner {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.tw-page .tw-cta h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(28px, 3vw, 42px);
+  font-weight: 300;
+  line-height: 1.25;
+  color: #0e0e0e;
+  margin-bottom: 24px;
+  font-style: italic;
+}
+
+.tw-page .tw-cta p {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.85;
+  color: #4a4540;
+  margin-bottom: 36px;
+}
+
+.tw-page .tw-btn-primary {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #fdfcfa;
+  background: #0e0e0e;
+  border: 1px solid #0e0e0e;
+  padding: 16px 36px;
+  text-decoration: none;
+  transition: all 0.25s;
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.tw-page .tw-btn-primary:hover {
+  background: #b8973a;
+  border-color: #b8973a;
+}
+
+.tw-page .tw-btn-secondary {
+  font-family: var(--font-jost), sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #4a4540;
+  background: transparent;
+  border: 1px solid #c8c0b0;
+  padding: 16px 36px;
+  text-decoration: none;
+  transition: all 0.25s;
+  display: inline-block;
+}
+
+.tw-page .tw-btn-secondary:hover {
+  border-color: #b8973a;
+  color: #b8973a;
+}
+
+@media (max-width: 900px) {
+  .tw-page .tw-hero,
+  .tw-page .tw-diagnosis,
+  .tw-page .tw-stages,
+  .tw-page .tw-practice,
+  .tw-page .tw-connection,
+  .tw-page .tw-cta {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .tw-page .tw-opening,
+  .tw-page .tw-worlds,
+  .tw-page .tw-diff {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .tw-page .tw-worlds-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .tw-page .tw-stages-header {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .tw-page .tw-stages-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tw-page .tw-connection-inner {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .tw-page .tw-cta-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .tw-page .tw-btn-primary,
+  .tw-page .tw-btn-secondary {
+    margin-right: 0;
+    margin-bottom: 0;
+    width: 100%;
+    max-width: 280px;
+    text-align: center;
+  }
+}
