@@ -8,9 +8,10 @@ import "./about-page.css";
 export const metadata = pageMetadata({
   title: "About | Neothink Institute",
   description:
-    "The Neothink Institute, the Neothink Society, and Mark Hamilton — civilizational research, membership community, and the architect of the Unified Field, Neovia, and the Neothink corpus.",
+    "The Neothink Institute, Society, and Mark Hamilton — Unified Field, Neovia, and the Neothink corpus. Research institution and membership community.",
   pathname: "/about",
-  ogType: "article",
+  /** About/institution page; not a dated article. */
+  ogType: "website",
 });
 
 const breadcrumbs = breadcrumbListJsonLd([
@@ -22,7 +23,7 @@ const pageLd = webPageJsonLd({
   pathname: "/about",
   name: "About | Neothink Institute",
   description:
-    "The Neothink Institute, the Neothink Society, and Mark Hamilton — the architect of the Unified Field, Neovia, and the Neothink corpus.",
+    "The Neothink Institute, Society, and Mark Hamilton — Unified Field, Neovia, and the Neothink corpus. Research institution and membership community.",
   mainEntityId: schemaIds.organization,
 });
 

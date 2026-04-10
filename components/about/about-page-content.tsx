@@ -121,7 +121,7 @@ export function AboutPageContent() {
           <figure className="ab-reveal ab-portrait">
             <Image
               src={MARK_HAMILTON_PORTRAIT_URL}
-              alt="Mark Hamilton"
+              alt="Mark Hamilton, founder of the Neothink Institute"
               width={1010}
               height={806}
               className="ab-portrait-img"
