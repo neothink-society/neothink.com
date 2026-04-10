@@ -1,0 +1,599 @@
+/* Lesson 6 — Areas of Profit (Neothink Mentality series) */
+
+.aop-page {
+  --aop-text: #0e0e0e;
+  --aop-body: #4a4540;
+  --aop-muted: #7a7570;
+  --aop-gold: #b8973a;
+  --aop-gold-deep: #8a7030;
+  --aop-cream: #fdfcfa;
+  --aop-stone: #f4f1ec;
+  --aop-border: #e8e3d8;
+  --aop-dark: #0e0e0e;
+}
+
+.aop-visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.aop-page .aop-hero {
+  padding: 140px 48px 56px;
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+  background: var(--aop-cream);
+  border-bottom: 1px solid var(--aop-border);
+}
+
+.aop-page .aop-pill {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--aop-gold-deep);
+  margin: 0 0 24px;
+}
+
+.aop-page .aop-pill a {
+  color: var(--aop-gold-deep);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(184, 151, 58, 0.45);
+}
+
+.aop-page .aop-pill a:hover {
+  color: var(--aop-text);
+}
+
+.aop-page .aop-pill-sep {
+  margin: 0 0.35em;
+  opacity: 0.5;
+}
+
+.aop-page .aop-hero h1 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(34px, 4vw, 52px);
+  font-weight: 300;
+  line-height: 1.1;
+  color: var(--aop-text);
+  margin: 0 0 20px;
+}
+
+.aop-page .aop-dek {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.75;
+  color: var(--aop-body);
+  margin: 0 0 20px;
+}
+
+.aop-page .aop-byline {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--aop-muted);
+  margin: 0;
+}
+
+.aop-page .aop-byline a {
+  color: var(--aop-gold-deep);
+  text-decoration: none;
+}
+
+.aop-page .aop-byline a:hover {
+  text-decoration: underline;
+}
+
+.aop-page .aop-video-note {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.65;
+  color: var(--aop-muted);
+  margin: 0 0 20px;
+  padding-left: 14px;
+  border-left: 3px solid var(--aop-border);
+}
+
+.aop-page .aop-section {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 48px 48px 0;
+}
+
+.aop-page .aop-prose p,
+.aop-page .aop-prose li {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.85;
+  color: var(--aop-body);
+}
+
+.aop-page .aop-prose p {
+  margin: 0 0 18px;
+}
+
+.aop-page .aop-prose a {
+  color: var(--aop-gold-deep);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.aop-page .aop-prose a:hover {
+  color: var(--aop-text);
+}
+
+.aop-page .aop-prose h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(26px, 2.8vw, 32px);
+  font-weight: 300;
+  color: var(--aop-text);
+  margin: 0 0 16px;
+}
+
+.aop-page .aop-kicker {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--aop-gold-deep);
+  margin: 0 0 12px;
+}
+
+.aop-page .aop-subhead {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  color: var(--aop-muted);
+  margin: -8px 0 24px;
+}
+
+.aop-page .aop-h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--aop-text);
+  margin: 32px 0 12px;
+}
+
+.aop-page .aop-video {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 48px 16px;
+}
+
+.aop-page .aop-video-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #0e0e0e;
+  border: 1px solid var(--aop-border);
+}
+
+.aop-page .aop-video-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.aop-page .aop-takeaways {
+  background: var(--aop-stone);
+  border: 1px solid var(--aop-border);
+  padding: 28px 28px 8px;
+  margin-top: 8px;
+}
+
+.aop-page .aop-takeaways h2 {
+  font-size: clamp(22px, 2.2vw, 28px);
+  margin-bottom: 16px;
+}
+
+.aop-page .aop-takeaways ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.aop-page .aop-takeaways li {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.aop-page .aop-def {
+  max-width: 720px;
+  margin: 32px auto 0;
+  padding: 24px 28px;
+  background: var(--aop-stone);
+  border-left: 3px solid var(--aop-gold);
+}
+
+.aop-page .aop-def-label {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--aop-gold-deep);
+  margin: 0 0 8px;
+}
+
+.aop-page .aop-def h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--aop-text);
+  margin: 0 0 10px;
+}
+
+.aop-page .aop-def p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.8;
+  color: var(--aop-body);
+  margin: 0;
+}
+
+.aop-page .aop-def a {
+  color: var(--aop-gold-deep);
+}
+
+.aop-page .aop-compare {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.aop-page .aop-compare-col {
+  background: var(--aop-stone);
+  border: 1px solid var(--aop-border);
+  padding: 22px 20px;
+}
+
+.aop-page .aop-compare-col h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 12px;
+  color: var(--aop-text);
+}
+
+.aop-page .aop-compare-col ul {
+  margin: 0;
+  padding-left: 1.1rem;
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--aop-body);
+}
+
+.aop-page .aop-compare-col li {
+  margin-bottom: 8px;
+}
+
+.aop-page .aop-result {
+  margin-top: 28px;
+  padding: 24px 26px;
+  background: var(--aop-cream);
+  border: 1px solid var(--aop-border);
+}
+
+.aop-page .aop-steps {
+  list-style: none;
+  margin: 24px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.aop-page .aop-steps li {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.aop-page .aop-step-num {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--aop-gold);
+  color: var(--aop-dark);
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aop-page .aop-steps h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 6px;
+  color: var(--aop-text);
+}
+
+.aop-page .aop-steps p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.aop-page .aop-faq {
+  max-width: 720px;
+  margin: 48px auto 0;
+  padding: 0 48px 48px;
+}
+
+.aop-page .aop-faq > h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(26px, 2.8vw, 32px);
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 28px;
+  color: var(--aop-text);
+}
+
+.aop-page .aop-faq-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.aop-page .aop-faq article {
+  background: var(--aop-stone);
+  border: 1px solid var(--aop-border);
+  padding: 20px 24px;
+}
+
+.aop-page .aop-faq h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--aop-text);
+  margin: 0 0 10px;
+}
+
+.aop-page .aop-faq p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.8;
+  color: var(--aop-body);
+  margin: 0;
+}
+
+.aop-page .aop-pager {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 48px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 14px;
+  border-top: 1px solid var(--aop-border);
+  border-bottom: 1px solid var(--aop-border);
+  background: var(--aop-cream);
+}
+
+.aop-page .aop-pager a {
+  color: var(--aop-gold-deep);
+  font-weight: 500;
+}
+
+.aop-page .aop-cta {
+  text-align: center;
+  padding: 64px 48px 120px;
+  background: var(--aop-cream);
+}
+
+.aop-page .aop-cta h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(24px, 2.6vw, 30px);
+  font-weight: 300;
+  margin: 0 0 12px;
+}
+
+.aop-page .aop-cta > p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 15px;
+  color: var(--aop-body);
+  margin: 0 0 24px;
+}
+
+.aop-page .aop-cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.aop-page .aop-btn {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--aop-cream);
+  background: var(--aop-dark);
+  padding: 14px 28px;
+  text-decoration: none;
+  border: 1px solid var(--aop-dark);
+}
+
+.aop-page .aop-btn:hover {
+  background: var(--aop-gold);
+  border-color: var(--aop-gold);
+  color: var(--aop-dark);
+}
+
+.aop-page .aop-btn--ghost {
+  background: transparent;
+  color: var(--aop-dark);
+  border-color: var(--aop-border);
+}
+
+.aop-page .aop-btn--ghost:hover {
+  border-color: var(--aop-gold);
+}
+
+.aop-page .aop-reveal {
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.aop-page .aop-reveal.aop-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .aop-page .aop-reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .aop-page .aop-compare {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .aop-page .aop-hero {
+    padding: 120px 24px 40px;
+  }
+
+  .aop-page .aop-section,
+  .aop-page .aop-video,
+  .aop-page .aop-faq,
+  .aop-page .aop-pager,
+  .aop-page .aop-cta {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+.aop-page .aop-compare-col--negative {
+  border-color: #e8c4c4;
+  background: #fff8f8;
+}
+
+.aop-page .aop-compare-col--positive {
+  border-color: #b8dcc4;
+  background: #f4fbf6;
+}
+
+.aop-page .aop-callout-dark {
+  background: #1a1917;
+  color: #f2f0eb;
+  border: 1px solid #2a2824;
+  padding: 28px 24px;
+  margin: 20px 0 0;
+  border-radius: 2px;
+}
+
+.aop-page .aop-callout-dark .aop-callout-kicker {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--aop-gold);
+  margin: 0 0 10px;
+}
+
+.aop-page .aop-callout-dark h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0 0 12px;
+  color: #faf9f6;
+}
+
+.aop-page .aop-callout-dark p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  margin: 0;
+  color: rgba(250, 249, 246, 0.9);
+}
+
+.aop-page .aop-callout-dark strong {
+  color: var(--aop-gold);
+  font-weight: 600;
+}
+
+.aop-page .aop-example-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 16px 0 24px;
+}
+
+.aop-page .aop-example-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  border: 1px solid var(--aop-border);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+}
+
+.aop-page .aop-example-index {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  margin: 0 auto 10px;
+  border-radius: 50%;
+  background: var(--aop-gold);
+  color: var(--aop-dark);
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.aop-page .aop-example-card h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 8px;
+  color: var(--aop-text);
+}
+
+.aop-page .aop-example-card p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 14px;
+  color: var(--aop-muted);
+  margin: 0;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .aop-page .aop-example-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -27,4 +27,6 @@ export const wpRedirects: Redirect[] = [
   ...slugPair("/podcast-list", "/podcast"),
   ...slugPair("/contact-2", "/contact"),
   ...slugPair("/books", "/manuscripts"),
+  ...slugPair("/neothink-mentality-a-new-way-to-look-at-life-and-work", "/neothink-mentality"),
+  ...slugPair("/neothink-mentality-new-way-life-work", "/neothink-mentality"),
 ];

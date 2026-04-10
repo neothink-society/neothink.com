@@ -1,0 +1,544 @@
+/* Lesson 4 — Impact Profits (Neothink Mentality series) */
+
+.ip-page {
+  --ip-text: #0e0e0e;
+  --ip-body: #4a4540;
+  --ip-muted: #7a7570;
+  --ip-gold: #b8973a;
+  --ip-gold-deep: #8a7030;
+  --ip-cream: #fdfcfa;
+  --ip-stone: #f4f1ec;
+  --ip-border: #e8e3d8;
+  --ip-dark: #0e0e0e;
+}
+
+.ip-visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.ip-page .ip-hero {
+  padding: 140px 48px 56px;
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+  background: var(--ip-cream);
+  border-bottom: 1px solid var(--ip-border);
+}
+
+.ip-page .ip-pill {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ip-gold-deep);
+  margin: 0 0 24px;
+}
+
+.ip-page .ip-pill a {
+  color: var(--ip-gold-deep);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(184, 151, 58, 0.45);
+}
+
+.ip-page .ip-pill a:hover {
+  color: var(--ip-text);
+}
+
+.ip-page .ip-pill-sep {
+  margin: 0 0.35em;
+  opacity: 0.5;
+}
+
+.ip-page .ip-hero h1 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(34px, 4vw, 52px);
+  font-weight: 300;
+  line-height: 1.1;
+  color: var(--ip-text);
+  margin: 0 0 20px;
+}
+
+.ip-page .ip-dek {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.75;
+  color: var(--ip-body);
+  margin: 0 0 20px;
+}
+
+.ip-page .ip-byline {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--ip-muted);
+  margin: 0;
+}
+
+.ip-page .ip-byline a {
+  color: var(--ip-gold-deep);
+  text-decoration: none;
+}
+
+.ip-page .ip-byline a:hover {
+  text-decoration: underline;
+}
+
+.ip-page .ip-video-note {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.65;
+  color: var(--ip-muted);
+  margin: 0 0 20px;
+  padding-left: 14px;
+  border-left: 3px solid var(--ip-border);
+}
+
+.ip-page .ip-section {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 48px 48px 0;
+}
+
+.ip-page .ip-prose p,
+.ip-page .ip-prose li {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.85;
+  color: var(--ip-body);
+}
+
+.ip-page .ip-prose p {
+  margin: 0 0 18px;
+}
+
+.ip-page .ip-prose a {
+  color: var(--ip-gold-deep);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.ip-page .ip-prose a:hover {
+  color: var(--ip-text);
+}
+
+.ip-page .ip-prose h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(26px, 2.8vw, 32px);
+  font-weight: 300;
+  color: var(--ip-text);
+  margin: 0 0 16px;
+}
+
+.ip-page .ip-kicker {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ip-gold-deep);
+  margin: 0 0 12px;
+}
+
+.ip-page .ip-subhead {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  color: var(--ip-muted);
+  margin: -8px 0 24px;
+}
+
+.ip-page .ip-h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--ip-text);
+  margin: 32px 0 12px;
+}
+
+.ip-page .ip-video {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 48px 16px;
+}
+
+.ip-page .ip-video-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #0e0e0e;
+  border: 1px solid var(--ip-border);
+}
+
+.ip-page .ip-video-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.ip-page .ip-takeaways {
+  background: var(--ip-stone);
+  border: 1px solid var(--ip-border);
+  padding: 28px 28px 8px;
+  margin-top: 8px;
+}
+
+.ip-page .ip-takeaways h2 {
+  font-size: clamp(22px, 2.2vw, 28px);
+  margin-bottom: 16px;
+}
+
+.ip-page .ip-takeaways ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.ip-page .ip-takeaways li {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.ip-page .ip-def {
+  max-width: 720px;
+  margin: 32px auto 0;
+  padding: 24px 28px;
+  background: var(--ip-stone);
+  border-left: 3px solid var(--ip-gold);
+}
+
+.ip-page .ip-def-label {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ip-gold-deep);
+  margin: 0 0 8px;
+}
+
+.ip-page .ip-def h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--ip-text);
+  margin: 0 0 10px;
+}
+
+.ip-page .ip-def p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.8;
+  color: var(--ip-body);
+  margin: 0;
+}
+
+.ip-page .ip-def a {
+  color: var(--ip-gold-deep);
+}
+
+.ip-page .ip-compare {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.ip-page .ip-compare-col {
+  background: var(--ip-stone);
+  border: 1px solid var(--ip-border);
+  padding: 22px 20px;
+}
+
+.ip-page .ip-compare-col h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 12px;
+  color: var(--ip-text);
+}
+
+.ip-page .ip-compare-col ul {
+  margin: 0;
+  padding-left: 1.1rem;
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--ip-body);
+}
+
+.ip-page .ip-compare-col li {
+  margin-bottom: 8px;
+}
+
+.ip-page .ip-result {
+  margin-top: 28px;
+  padding: 24px 26px;
+  background: var(--ip-cream);
+  border: 1px solid var(--ip-border);
+}
+
+.ip-page .ip-steps {
+  list-style: none;
+  margin: 24px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ip-page .ip-steps li {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.ip-page .ip-step-num {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--ip-gold);
+  color: var(--ip-dark);
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ip-page .ip-steps h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 6px;
+  color: var(--ip-text);
+}
+
+.ip-page .ip-steps p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.ip-page .ip-faq {
+  max-width: 720px;
+  margin: 48px auto 0;
+  padding: 0 48px 48px;
+}
+
+.ip-page .ip-faq > h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(26px, 2.8vw, 32px);
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 28px;
+  color: var(--ip-text);
+}
+
+.ip-page .ip-faq-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.ip-page .ip-faq article {
+  background: var(--ip-stone);
+  border: 1px solid var(--ip-border);
+  padding: 20px 24px;
+}
+
+.ip-page .ip-faq h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--ip-text);
+  margin: 0 0 10px;
+}
+
+.ip-page .ip-faq p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.8;
+  color: var(--ip-body);
+  margin: 0;
+}
+
+.ip-page .ip-pager {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 48px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 14px;
+  border-top: 1px solid var(--ip-border);
+  border-bottom: 1px solid var(--ip-border);
+  background: var(--ip-cream);
+}
+
+.ip-page .ip-pager a {
+  color: var(--ip-gold-deep);
+  font-weight: 500;
+}
+
+.ip-page .ip-cta {
+  text-align: center;
+  padding: 64px 48px 120px;
+  background: var(--ip-cream);
+}
+
+.ip-page .ip-cta h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(24px, 2.6vw, 30px);
+  font-weight: 300;
+  margin: 0 0 12px;
+}
+
+.ip-page .ip-cta > p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 15px;
+  color: var(--ip-body);
+  margin: 0 0 24px;
+}
+
+.ip-page .ip-cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.ip-page .ip-btn {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ip-cream);
+  background: var(--ip-dark);
+  padding: 14px 28px;
+  text-decoration: none;
+  border: 1px solid var(--ip-dark);
+}
+
+.ip-page .ip-btn:hover {
+  background: var(--ip-gold);
+  border-color: var(--ip-gold);
+  color: var(--ip-dark);
+}
+
+.ip-page .ip-btn--ghost {
+  background: transparent;
+  color: var(--ip-dark);
+  border-color: var(--ip-border);
+}
+
+.ip-page .ip-btn--ghost:hover {
+  border-color: var(--ip-gold);
+}
+
+.ip-page .ip-reveal {
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.ip-page .ip-reveal.ip-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ip-page .ip-reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .ip-page .ip-compare {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .ip-page .ip-hero {
+    padding: 120px 24px 40px;
+  }
+
+  .ip-page .ip-section,
+  .ip-page .ip-video,
+  .ip-page .ip-faq,
+  .ip-page .ip-pager,
+  .ip-page .ip-cta {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+.ip-page .ip-compare-col--negative {
+  border-color: #e8c4c4;
+  background: #fff8f8;
+}
+
+.ip-page .ip-compare-col--positive {
+  border-color: #b8dcc4;
+  background: #f4fbf6;
+}
+
+.ip-page .ip-callout-dark {
+  background: #1a1917;
+  color: #f2f0eb;
+  border: 1px solid #2a2824;
+  padding: 28px 24px;
+  margin: 20px 0 0;
+  border-radius: 2px;
+}
+
+.ip-page .ip-callout-dark .ip-callout-kicker {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ip-gold);
+  margin: 0 0 10px;
+}
+
+.ip-page .ip-callout-dark h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0 0 12px;
+  color: #faf9f6;
+}
+
+.ip-page .ip-callout-dark p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  margin: 0;
+  color: rgba(250, 249, 246, 0.9);
+}
+
+.ip-page .ip-callout-dark strong {
+  color: var(--ip-gold);
+  font-weight: 600;
+}

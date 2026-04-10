@@ -1,3 +1,4 @@
+import { getFooterNavigationItemListSchema } from "@/lib/footer-navigation";
 import { siteConfig } from "@/lib/metadata";
 import { schemaIds } from "@/lib/schema-ids";
 import { MARK_HAMILTON_PORTRAIT_URL } from "@/lib/wordpress-images";
@@ -93,6 +94,10 @@ export function getWebSiteSchema(): JsonLd {
     },
     publisher: {
       "@id": schemaIds.organization,
+    },
+    /** Primary internal destinations (matches footer `ItemList` @ `footerNavigation`) */
+    hasPart: {
+      "@id": schemaIds.footerNavigation,
     },
   };
 }
@@ -283,6 +288,7 @@ export function getStructuredDataGraph(): JsonLd {
     "@graph": [
       getOrganizationSchema(),
       getNeothinkSocietySchema(),
+      getFooterNavigationItemListSchema(),
       getWebSiteSchema(),
       getFounderSchema(),
       getWebPageSchema(),

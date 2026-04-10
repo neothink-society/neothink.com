@@ -1,0 +1,533 @@
+/* Neothink Mentality — public course landing (aligned with contact / free-courses) */
+
+.nm-page {
+  --nm-text: #0e0e0e;
+  --nm-body: #4a4540;
+  --nm-muted: #7a7570;
+  --nm-gold: #b8973a;
+  --nm-gold-deep: #8a7030;
+  --nm-cream: #fdfcfa;
+  --nm-stone: #f4f1ec;
+  --nm-border: #e8e3d8;
+  --nm-dark: #0e0e0e;
+}
+
+.nm-page .nm-hero {
+  padding: 150px 48px 72px;
+  text-align: center;
+  background: var(--nm-cream);
+  border-bottom: 1px solid var(--nm-border);
+}
+
+.nm-page .nm-hero-badge {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--nm-gold-deep);
+  margin: 0 0 28px;
+}
+
+.nm-page .nm-hero h1 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(36px, 4.5vw, 64px);
+  font-weight: 300;
+  line-height: 1.08;
+  color: var(--nm-text);
+  max-width: 720px;
+  margin: 0 auto 24px;
+}
+
+.nm-page .nm-hero h1 em {
+  font-style: italic;
+  color: var(--nm-gold-deep);
+}
+
+.nm-page .nm-hero-sub {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.85;
+  color: var(--nm-body);
+  max-width: 640px;
+  margin: 0 auto 40px;
+}
+
+.nm-page .nm-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px 56px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nm-page .nm-stats > div {
+  text-align: center;
+}
+
+.nm-page .nm-stats dt {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--nm-muted);
+  margin-bottom: 8px;
+}
+
+.nm-page .nm-stats dd {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 28px;
+  font-weight: 400;
+  color: var(--nm-text);
+  margin: 0;
+}
+
+.nm-page .nm-quick {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 56px 48px;
+  background: var(--nm-stone);
+  border-bottom: 1px solid var(--nm-border);
+}
+
+.nm-page .nm-quick-h2 {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--nm-gold-deep);
+  margin: 0 0 16px;
+}
+
+.nm-page .nm-quick-text {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.85;
+  color: var(--nm-body);
+  margin: 0;
+}
+
+.nm-page .nm-quick-text a {
+  color: var(--nm-gold-deep);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.nm-page .nm-quick-text a:hover {
+  color: var(--nm-text);
+}
+
+.nm-page .nm-quote {
+  padding: 64px 48px;
+  background: var(--nm-cream);
+  border-bottom: 1px solid var(--nm-border);
+}
+
+.nm-page .nm-quote blockquote {
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nm-page .nm-quote blockquote p {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(22px, 2.8vw, 30px);
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.45;
+  color: var(--nm-text);
+  margin: 0 0 16px;
+}
+
+.nm-page .nm-quote footer {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.nm-page .nm-quote footer a {
+  color: var(--nm-gold-deep);
+  text-decoration: none;
+}
+
+.nm-page .nm-quote footer a:hover {
+  text-decoration: underline;
+}
+
+.nm-page .nm-prose {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 64px 48px;
+  background: var(--nm-cream);
+  border-bottom: 1px solid var(--nm-border);
+}
+
+.nm-page .nm-prose h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(26px, 2.8vw, 34px);
+  font-weight: 300;
+  color: var(--nm-text);
+  margin: 0 0 20px;
+}
+
+.nm-page .nm-prose p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.85;
+  color: var(--nm-body);
+  margin: 0 0 16px;
+}
+
+.nm-page .nm-prose p:last-child {
+  margin-bottom: 0;
+}
+
+.nm-page .nm-section-head {
+  max-width: 640px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.nm-page .nm-kicker {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--nm-gold-deep);
+  display: block;
+  margin-bottom: 12px;
+}
+
+.nm-page .nm-section-head h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(28px, 3vw, 38px);
+  font-weight: 300;
+  color: var(--nm-text);
+  margin: 0 0 12px;
+}
+
+.nm-page .nm-section-head p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.8;
+  color: var(--nm-body);
+  margin: 0;
+}
+
+.nm-page .nm-lessons {
+  padding: 72px 48px 88px;
+  background: var(--nm-stone);
+  border-bottom: 1px solid var(--nm-border);
+}
+
+.nm-page .nm-lesson-list {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.nm-page .nm-lesson-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 22px 24px;
+  background: var(--nm-cream);
+  border: 1px solid var(--nm-border);
+  text-decoration: none;
+  color: inherit;
+  transition:
+    border-color 0.2s,
+    background 0.2s,
+    transform 0.2s;
+}
+
+.nm-page .nm-lesson-card:hover {
+  border-color: rgba(184, 151, 58, 0.55);
+  background: #fff;
+}
+
+.nm-page .nm-lesson-num {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--nm-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--nm-gold-deep);
+}
+
+.nm-page .nm-lesson-body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.nm-page .nm-lesson-title {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 19px;
+  font-weight: 400;
+  color: var(--nm-text);
+}
+
+.nm-page .nm-lesson-desc {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.65;
+  color: var(--nm-body);
+}
+
+.nm-page .nm-lesson-arrow {
+  flex-shrink: 0;
+  color: var(--nm-muted);
+  font-size: 18px;
+  align-self: center;
+}
+
+.nm-page .nm-phases {
+  padding: 72px 48px;
+  background: var(--nm-cream);
+  border-bottom: 1px solid var(--nm-border);
+}
+
+.nm-page .nm-phase-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.nm-page .nm-phase-card {
+  background: var(--nm-stone);
+  border: 1px solid var(--nm-border);
+  padding: 24px 20px;
+}
+
+.nm-page .nm-phase-step {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--nm-gold);
+  color: var(--nm-dark);
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.nm-page .nm-phase-card h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--nm-text);
+  margin: 0 0 10px;
+}
+
+.nm-page .nm-phase-card p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.7;
+  color: var(--nm-body);
+  margin: 0;
+}
+
+.nm-page .nm-faq {
+  padding: 72px 48px;
+  background: var(--nm-stone);
+  border-bottom: 1px solid var(--nm-border);
+}
+
+.nm-page .nm-faq-list {
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.nm-page .nm-faq-item {
+  background: var(--nm-cream);
+  border: 1px solid var(--nm-border);
+  padding: 22px 26px;
+  margin: 0;
+}
+
+.nm-page .nm-faq-item h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--nm-text);
+  margin: 0 0 10px;
+}
+
+.nm-page .nm-faq-item p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.8;
+  color: var(--nm-body);
+  margin: 0;
+}
+
+.nm-page .nm-cta {
+  padding: 80px 48px 120px;
+  text-align: center;
+  background: var(--nm-cream);
+}
+
+.nm-page .nm-cta h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(26px, 2.8vw, 34px);
+  font-weight: 300;
+  color: var(--nm-text);
+  margin: 0 0 12px;
+}
+
+.nm-page .nm-cta > p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.8;
+  color: var(--nm-body);
+  max-width: 480px;
+  margin: 0 auto 28px;
+}
+
+.nm-page .nm-cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.nm-page .nm-btn {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--nm-cream);
+  background: var(--nm-dark);
+  border: 1px solid var(--nm-dark);
+  padding: 14px 28px;
+  text-decoration: none;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.nm-page .nm-btn:hover {
+  background: var(--nm-gold);
+  border-color: var(--nm-gold);
+  color: var(--nm-dark);
+}
+
+.nm-page .nm-btn--ghost {
+  background: transparent;
+  color: var(--nm-dark);
+  border-color: var(--nm-border);
+}
+
+.nm-page .nm-btn--ghost:hover {
+  border-color: var(--nm-gold);
+  background: var(--nm-stone);
+  color: var(--nm-dark);
+}
+
+.nm-page .nm-cta-note {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--nm-muted);
+  max-width: 520px;
+  margin: 0 auto;
+  line-height: 1.75;
+}
+
+.nm-page .nm-cta-note a {
+  color: var(--nm-gold-deep);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.nm-page .nm-reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+}
+
+.nm-page .nm-reveal.nm-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nm-page .nm-reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .nm-page .nm-phase-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .nm-page .nm-hero {
+    padding: 130px 24px 56px;
+  }
+
+  .nm-page .nm-quick,
+  .nm-page .nm-quote,
+  .nm-page .nm-prose,
+  .nm-page .nm-lessons,
+  .nm-page .nm-phases,
+  .nm-page .nm-faq,
+  .nm-page .nm-cta {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .nm-page .nm-lesson-card {
+    flex-wrap: wrap;
+  }
+
+  .nm-page .nm-lesson-arrow {
+    display: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .nm-page .nm-phase-grid {
+    grid-template-columns: 1fr;
+  }
+}

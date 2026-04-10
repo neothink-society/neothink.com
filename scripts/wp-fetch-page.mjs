@@ -7,8 +7,19 @@
  *
  * Usage:
  *   pnpm migration:wp-page -- --slug about
+ *   pnpm migration:wp-page -- --slug rise-from-rut --post --out migration/source/rise-from-rut.html
+ *   pnpm migration:wp-page -- --slug freedom-from-rights --post --out migration/source/freedom-from-rights.html
+ *   pnpm migration:wp-page -- --slug beyond-tunnel-vision --post --out migration/source/beyond-tunnel-vision.html
+ *   pnpm migration:wp-page -- --slug impact-profits --post --out migration/source/impact-profits.html
+ *   pnpm migration:wp-page -- --slug higher-level-thinking --post --out migration/source/higher-level-thinking.html
+ *   pnpm migration:wp-page -- --slug areas-of-profit --post --out migration/source/areas-of-profit.html
+ *   pnpm migration:wp-page -- --slug unlock-your-genius --post --out migration/source/unlock-your-genius.html
+ *   pnpm migration:wp-page -- --slug the-prime-law-mentality --post --out migration/source/the-prime-law-mentality.html
+ *   pnpm migration:wp-page -- --slug soaring-productivity --post --out migration/source/soaring-productivity.html
  *   pnpm migration:wp-page -- --id 494
  *   pnpm migration:wp-page -- --slug free-courses --out migration/source/free-courses.html
+ *
+ * Use `--post` for WordPress *posts* (e.g. Neothink Mentality lessons). Default is `pages`.
  *
  * Loads `.env.local` then `.env` from the project root if present (manual dotenv via readFile).
  */
@@ -45,7 +56,7 @@ const APP_PASSWORD = (process.env.WORDPRESS_APPLICATION_PASSWORD || "").replace(
 
 function parseArgs() {
   const argv = process.argv.slice(2);
-  const out = { slug: null, id: null, output: null };
+  const out = { slug: null, id: null, output: null, post: false };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === "--slug" && argv[i + 1]) {
@@ -54,6 +65,8 @@ function parseArgs() {
       out.id = argv[++i];
     } else if (a === "--out" && argv[i + 1]) {
       out.output = argv[++i];
+    } else if (a === "--post") {
+      out.post = true;
     }
   }
   return out;
@@ -66,17 +79,20 @@ function authHeader() {
 }
 
 async function main() {
-  const { slug, id, output } = parseArgs();
+  const { slug, id, output, post } = parseArgs();
   if (!slug && !id) {
-    console.error("Usage: node scripts/wp-fetch-page.mjs --slug <slug> | --id <id> [--out <file>]");
+    console.error(
+      "Usage: node scripts/wp-fetch-page.mjs --slug <slug> | --id <id> [--post] [--out <file>]"
+    );
     process.exit(1);
   }
 
+  const rest = post ? "posts" : "pages";
   let url;
   if (id) {
-    url = `${BASE}/wp-json/wp/v2/pages/${encodeURIComponent(id)}?_fields=id,slug,link,title,modified,content`;
+    url = `${BASE}/wp-json/wp/v2/${rest}/${encodeURIComponent(id)}?_fields=id,slug,link,title,modified,content`;
   } else {
-    url = `${BASE}/wp-json/wp/v2/pages?slug=${encodeURIComponent(slug)}&_fields=id,slug,link,title,modified,content`;
+    url = `${BASE}/wp-json/wp/v2/${rest}?slug=${encodeURIComponent(slug)}&_fields=id,slug,link,title,modified,content`;
   }
 
   const res = await fetch(url, { headers: { Accept: "application/json", ...authHeader() } });

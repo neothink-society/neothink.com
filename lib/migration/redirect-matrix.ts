@@ -22,4 +22,17 @@ export type RedirectMatrixEntry = {
 };
 
 /** Append-only list; keep sorted by `sourcePath` once data exists. */
-export const REDIRECT_MATRIX: RedirectMatrixEntry[] = [];
+export const REDIRECT_MATRIX: RedirectMatrixEntry[] = [
+  {
+    sourcePath: "/neothink-mentality-a-new-way-to-look-at-life-and-work",
+    target: "/neothink-mentality",
+    disposition: "301",
+    notes: "Canonical Neothink Mentality course landing (Next).",
+  },
+  {
+    sourcePath: "/neothink-mentality-new-way-life-work",
+    target: "/neothink-mentality",
+    disposition: "301",
+    notes: "Alternate slug from inventory.",
+  },
+];
