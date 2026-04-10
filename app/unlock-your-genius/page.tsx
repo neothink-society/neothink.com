@@ -3,6 +3,7 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  SPEAKABLE_MAIN_H1,
   videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
@@ -22,6 +23,10 @@ export const metadata = pageMetadata({
     "Lesson 7 (Neothink Institute): value producer vs value creator, integrated thinking, Neothink mentality; video on YouTube (6RQq_gzAKU8) features Mark Hamilton.",
   pathname: PATH,
   ogType: "article",
+  article: {
+    publishedTime: `${UNLOCK_YOUR_GENIUS_LESSON.datePublished}T12:00:00.000Z`,
+    modifiedTime: `${UNLOCK_YOUR_GENIUS_LESSON.dateModified}T12:00:00.000Z`,
+  },
 });
 
 const breadcrumbs = breadcrumbListJsonLd([
@@ -40,6 +45,7 @@ const pageLd = webPageJsonLd({
   aboutId: schemaIds.neothinkSystem,
   authorId: schemaIds.organization,
   mainEntityId: `${CANONICAL}#article`,
+  speakableSelectors: SPEAKABLE_MAIN_H1,
 });
 
 const articleLd = blogPostingJsonLd({
@@ -62,6 +68,8 @@ const videoLd = videoObjectJsonLd({
   embedUrl: `https://www.youtube.com/embed/${UNLOCK_YOUR_GENIUS_LESSON.youtubeId}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${UNLOCK_YOUR_GENIUS_LESSON.youtubeId}/maxresdefault.jpg`,
   uploadDate: `${UNLOCK_YOUR_GENIUS_LESSON.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${UNLOCK_YOUR_GENIUS_LESSON.youtubeId}`,
+  durationMinutes: UNLOCK_YOUR_GENIUS_LESSON.videoRuntimeMinutes,
   speakerId: schemaIds.founder,
 });
 

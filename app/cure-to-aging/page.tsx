@@ -3,6 +3,7 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  SPEAKABLE_MAIN_H1,
   videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
@@ -22,6 +23,10 @@ export const metadata = pageMetadata({
     "Lesson 10 (Neothink Institute): demand for longevity, value creators, initiatory force and regulation; video on YouTube (vnLK2BAN3Lw) features Mark Hamilton.",
   pathname: PATH,
   ogType: "article",
+  article: {
+    publishedTime: `${CURE_TO_AGING_LESSON.datePublished}T12:00:00.000Z`,
+    modifiedTime: `${CURE_TO_AGING_LESSON.dateModified}T12:00:00.000Z`,
+  },
 });
 
 const breadcrumbs = breadcrumbListJsonLd([
@@ -40,6 +45,7 @@ const pageLd = webPageJsonLd({
   aboutId: schemaIds.neothinkSystem,
   authorId: schemaIds.organization,
   mainEntityId: `${CANONICAL}#article`,
+  speakableSelectors: SPEAKABLE_MAIN_H1,
 });
 
 const articleLd = blogPostingJsonLd({
@@ -62,6 +68,8 @@ const videoLd = videoObjectJsonLd({
   embedUrl: `https://www.youtube.com/embed/${CURE_TO_AGING_LESSON.youtubeId}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${CURE_TO_AGING_LESSON.youtubeId}/maxresdefault.jpg`,
   uploadDate: `${CURE_TO_AGING_LESSON.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${CURE_TO_AGING_LESSON.youtubeId}`,
+  durationMinutes: CURE_TO_AGING_LESSON.videoRuntimeMinutes,
   speakerId: schemaIds.founder,
 });
 

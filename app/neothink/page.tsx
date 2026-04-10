@@ -1,5 +1,5 @@
 import { NeothinkPageContent } from "@/components/neothink/neothink-page-content";
-import { breadcrumbListJsonLd, webPageJsonLd } from "@/lib/json-ld";
+import { breadcrumbListJsonLd, SPEAKABLE_MAIN_H1, webPageJsonLd } from "@/lib/json-ld";
 import { pageMetadata } from "@/lib/seo-metadata";
 import { schemaIds } from "@/lib/schema-ids";
 
@@ -25,6 +25,7 @@ const pageLd = webPageJsonLd({
     "Neothink is the cognitive architecture that hierarchy suppressed for 2,400 years. The operating system of the uncovered mind, created by Mark Hamilton.",
   aboutId: schemaIds.neothinkSystem,
   authorId: schemaIds.founder,
+  speakableSelectors: SPEAKABLE_MAIN_H1,
 });
 
 export default function NeothinkPage() {

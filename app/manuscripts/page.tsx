@@ -1,5 +1,5 @@
 import { ManuscriptsPageContent } from "@/components/manuscripts/manuscripts-page-content";
-import { breadcrumbListJsonLd, webPageJsonLd } from "@/lib/json-ld";
+import { breadcrumbListJsonLd, SPEAKABLE_MAIN_H1, webPageJsonLd } from "@/lib/json-ld";
 import { pageMetadata } from "@/lib/seo-metadata";
 import { schemaIds } from "@/lib/schema-ids";
 
@@ -25,6 +25,7 @@ const pageLd = webPageJsonLd({
     "Five decades of research into consciousness, economics, political theory, civilizational design, and integrated human potential. The complete Neothink library.",
   aboutId: schemaIds.organization,
   authorId: schemaIds.founder,
+  speakableSelectors: SPEAKABLE_MAIN_H1,
 });
 
 export default function ManuscriptsPage() {

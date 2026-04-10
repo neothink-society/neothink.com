@@ -1,5 +1,5 @@
 import { PrimeLawPageContent } from "@/components/prime-law/prime-law-page-content";
-import { breadcrumbListJsonLd, webPageJsonLd } from "@/lib/json-ld";
+import { breadcrumbListJsonLd, SPEAKABLE_MAIN_H1, webPageJsonLd } from "@/lib/json-ld";
 import { pageMetadata } from "@/lib/seo-metadata";
 import { schemaIds } from "@/lib/schema-ids";
 
@@ -25,6 +25,7 @@ const pageLd = webPageJsonLd({
     "Three articles. No exceptions. The first constitutional framework built on the absolute prohibition of initiated force. A natural law, not an ideology.",
   aboutId: schemaIds.primeLaw,
   authorId: schemaIds.founder,
+  speakableSelectors: SPEAKABLE_MAIN_H1,
 });
 
 export default function PrimeLawPage() {

@@ -1,5 +1,5 @@
 import { TheWayPageContent } from "@/components/the-way/the-way-page-content";
-import { breadcrumbListJsonLd, webPageJsonLd } from "@/lib/json-ld";
+import { breadcrumbListJsonLd, SPEAKABLE_MAIN_H1, webPageJsonLd } from "@/lib/json-ld";
 import { pageMetadata } from "@/lib/seo-metadata";
 import { schemaIds } from "@/lib/schema-ids";
 
@@ -25,6 +25,7 @@ const pageLd = webPageJsonLd({
     "The Unified Field, lived from the inside. The practice of correcting the structural error that caged your mind — subtractive, not additive. Compatible with everything you already believe.",
   aboutId: schemaIds.organization,
   authorId: schemaIds.founder,
+  speakableSelectors: SPEAKABLE_MAIN_H1,
 });
 
 export default function TheWayPage() {

@@ -26,7 +26,7 @@ export function breadcrumbListJsonLd(
   };
 }
 
-type PageSchemaType = "WebPage" | "ContactPage";
+type PageSchemaType = "WebPage" | "ContactPage" | "AboutPage" | "ProfilePage";
 
 type WebPageJsonLdInput = {
   pathname: string;
@@ -41,10 +41,29 @@ type WebPageJsonLdInput = {
   authorId?: string;
   /** Primary entity for this URL (e.g. Person profile page → `#founder`) */
   mainEntityId?: string;
+  /** AEO: CSS selectors for visible speakable regions (Google Speakable / answer engines). */
+  speakableSelectors?: readonly string[];
 };
 
+/** ISO 8601 duration for VideoObject (whole minutes). */
+export function iso8601DurationFromMinutes(minutes: number): string {
+  const m = Math.max(1, Math.round(minutes));
+  return `PT${m}M`;
+}
+
+/** Default OG / article image URL (matches `siteConfig.ogImage`). */
+export function defaultOpenGraphImageUrl(): string {
+  return `${siteConfig.url}${siteConfig.ogImage}`;
+}
+
 /**
- * WebPage / ContactPage JSON-LD aligned with global `@graph` (publisher, isPartOf, stable `@id`).
+ * AEO hint: pages that expose a single primary `h1` inside `main#main-content` (lessons + most marketing layouts).
+ */
+export const SPEAKABLE_MAIN_H1 = ["main#main-content h1"] as const;
+
+/**
+ * WebPage and specialized page types — aligned with global `@graph` (publisher, isPartOf, stable `@id`).
+ * Omits `datePublished` / `dateModified` unless provided (avoids fake dates on evergreen pages).
  */
 export function webPageJsonLd(opts: WebPageJsonLdInput): Record<string, unknown> {
   const url = `${siteConfig.url}${opts.pathname}`;
@@ -58,16 +77,24 @@ export function webPageJsonLd(opts: WebPageJsonLdInput): Record<string, unknown>
     url,
     name: opts.name,
     description: opts.description,
-    datePublished: opts.datePublished ?? "2024-05-02",
-    dateModified: opts.dateModified ?? new Date().toISOString().split("T")[0],
     inLanguage: "en-US",
     isPartOf: { "@id": schemaIds.website },
     publisher: { "@id": schemaIds.organization },
   };
 
+  if (opts.datePublished !== undefined) node.datePublished = opts.datePublished;
+  if (opts.dateModified !== undefined) node.dateModified = opts.dateModified;
+
   if (opts.aboutId) node.about = { "@id": opts.aboutId };
   if (opts.authorId) node.author = { "@id": opts.authorId };
   if (opts.mainEntityId) node.mainEntity = { "@id": opts.mainEntityId };
+
+  if (opts.speakableSelectors && opts.speakableSelectors.length > 0) {
+    node.speakable = {
+      "@type": "SpeakableSpecification",
+      cssSelector: [...opts.speakableSelectors],
+    };
+  }
 
   node.breadcrumb = { "@id": `${url}#breadcrumb` };
 
@@ -86,6 +113,7 @@ export function faqPageJsonLd(
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "@id": `${url}#faq`,
+    url,
     mainEntity: items.map((item) => ({
       "@type": "Question",
       name: item.question,
@@ -124,6 +152,8 @@ export function itemListJsonLd(
       name: it.title,
       item: `${base}${it.path}`,
     })),
+    isPartOf: { "@id": schemaIds.website },
+    publisher: { "@id": schemaIds.organization },
   };
 }
 
@@ -136,8 +166,13 @@ export function blogPostingJsonLd(opts: {
   dateModified: string;
   /** Creative author of the written post (defaults to Neothink Institute for lesson pages). */
   authorId?: string;
+  /** Primary image (defaults to site OG image). */
+  image?: string | readonly string[];
 }): Record<string, unknown> {
   const url = `${siteConfig.url}${opts.pathname}`;
+  const images = opts.image ?? [defaultOpenGraphImageUrl()];
+  const imageArr = typeof images === "string" ? [images] : [...images];
+
   return {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -146,6 +181,7 @@ export function blogPostingJsonLd(opts: {
     description: opts.description,
     datePublished: opts.datePublished,
     dateModified: opts.dateModified,
+    image: imageArr,
     url,
     author: { "@id": opts.authorId ?? schemaIds.organization },
     publisher: { "@id": schemaIds.organization },
@@ -164,6 +200,10 @@ export function videoObjectJsonLd(opts: {
   embedUrl: string;
   thumbnailUrl: string;
   uploadDate: string;
+  /** Canonical watch URL (helps some validators alongside `embedUrl`). */
+  contentUrl?: string;
+  /** Runtime in minutes → schema.org `duration` as ISO 8601 (e.g. PT10M). */
+  durationMinutes?: number;
   /** Person who speaks in the recording (schema.org `author` on VideoObject). */
   speakerId?: string;
 }): Record<string, unknown> {
@@ -179,6 +219,10 @@ export function videoObjectJsonLd(opts: {
     uploadDate: opts.uploadDate,
     publisher: { "@id": schemaIds.organization },
   };
+  if (opts.contentUrl) node.contentUrl = opts.contentUrl;
+  if (opts.durationMinutes !== undefined) {
+    node.duration = iso8601DurationFromMinutes(opts.durationMinutes);
+  }
   if (opts.speakerId) {
     node.author = { "@id": opts.speakerId };
   }

@@ -24,7 +24,9 @@ const pageLd = webPageJsonLd({
   name: "About | Neothink Institute",
   description:
     "The Neothink Institute, Society, and Mark Hamilton — Unified Field, Neovia, and the Neothink corpus. Research institution and membership community.",
+  pageType: "AboutPage",
   mainEntityId: schemaIds.organization,
+  speakableSelectors: ["#ab-hero-heading", "#ab-institute-heading"],
 });
 
 export default function AboutPage() {

@@ -3,6 +3,7 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  SPEAKABLE_MAIN_H1,
   videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
@@ -22,6 +23,10 @@ export const metadata = pageMetadata({
     "Lesson 11 (Neothink Institute): 23 projects in one week, vision to physical tasks, essence and 10-second miracles; video on YouTube (ZaGpmOi0IrA) features Mark Hamilton.",
   pathname: PATH,
   ogType: "article",
+  article: {
+    publishedTime: `${SOAR_BEYOND_PEERS_LESSON.datePublished}T12:00:00.000Z`,
+    modifiedTime: `${SOAR_BEYOND_PEERS_LESSON.dateModified}T12:00:00.000Z`,
+  },
 });
 
 const breadcrumbs = breadcrumbListJsonLd([
@@ -40,6 +45,7 @@ const pageLd = webPageJsonLd({
   aboutId: schemaIds.neothinkSystem,
   authorId: schemaIds.organization,
   mainEntityId: `${CANONICAL}#article`,
+  speakableSelectors: SPEAKABLE_MAIN_H1,
 });
 
 const articleLd = blogPostingJsonLd({
@@ -62,6 +68,8 @@ const videoLd = videoObjectJsonLd({
   embedUrl: `https://www.youtube.com/embed/${SOAR_BEYOND_PEERS_LESSON.youtubeId}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${SOAR_BEYOND_PEERS_LESSON.youtubeId}/maxresdefault.jpg`,
   uploadDate: `${SOAR_BEYOND_PEERS_LESSON.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${SOAR_BEYOND_PEERS_LESSON.youtubeId}`,
+  durationMinutes: SOAR_BEYOND_PEERS_LESSON.videoRuntimeMinutes,
   speakerId: schemaIds.founder,
 });
 

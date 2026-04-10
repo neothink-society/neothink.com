@@ -3,6 +3,7 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  SPEAKABLE_MAIN_H1,
   videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
@@ -22,6 +23,10 @@ export const metadata = pageMetadata({
     "Lesson 6 (Neothink Institute): areas of purpose, mini-company model, division of essence; video on YouTube (Kiz5xLm6ksk) features Mark Hamilton.",
   pathname: PATH,
   ogType: "article",
+  article: {
+    publishedTime: `${AREAS_OF_PROFIT_LESSON.datePublished}T12:00:00.000Z`,
+    modifiedTime: `${AREAS_OF_PROFIT_LESSON.dateModified}T12:00:00.000Z`,
+  },
 });
 
 const breadcrumbs = breadcrumbListJsonLd([
@@ -40,6 +45,7 @@ const pageLd = webPageJsonLd({
   aboutId: schemaIds.neothinkSystem,
   authorId: schemaIds.organization,
   mainEntityId: `${CANONICAL}#article`,
+  speakableSelectors: SPEAKABLE_MAIN_H1,
 });
 
 const articleLd = blogPostingJsonLd({
@@ -62,6 +68,8 @@ const videoLd = videoObjectJsonLd({
   embedUrl: `https://www.youtube.com/embed/${AREAS_OF_PROFIT_LESSON.youtubeId}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${AREAS_OF_PROFIT_LESSON.youtubeId}/maxresdefault.jpg`,
   uploadDate: `${AREAS_OF_PROFIT_LESSON.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${AREAS_OF_PROFIT_LESSON.youtubeId}`,
+  durationMinutes: AREAS_OF_PROFIT_LESSON.videoRuntimeMinutes,
   speakerId: schemaIds.founder,
 });
 

@@ -1,5 +1,5 @@
 import { FreeCoursesPageContent } from "@/components/free-courses/free-courses-page-content";
-import { breadcrumbListJsonLd, webPageJsonLd } from "@/lib/json-ld";
+import { breadcrumbListJsonLd, SPEAKABLE_MAIN_H1, webPageJsonLd } from "@/lib/json-ld";
 import { pageMetadata } from "@/lib/seo-metadata";
 import { schemaIds } from "@/lib/schema-ids";
 
@@ -24,6 +24,7 @@ const pageLd = webPageJsonLd({
   description:
     "Start with the Neothink Mentality course, then Unleashed, Published Work, the podcast, The Way, manuscripts, and the core framework pages. One hub for free public material.",
   aboutId: schemaIds.organization,
+  speakableSelectors: SPEAKABLE_MAIN_H1,
 });
 
 export default function FreeCoursesPage() {

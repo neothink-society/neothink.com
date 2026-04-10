@@ -35,6 +35,7 @@ const pageLd = webPageJsonLd({
   aboutId: schemaIds.neothinkSystem,
   authorId: schemaIds.founder,
   mainEntityId: `${siteConfig.url}${PATH}#faq`,
+  speakableSelectors: ["#nm-hero-heading"],
 });
 
 const faqLd = faqPageJsonLd(PATH, NEOTHINK_MENTALITY_FAQ);

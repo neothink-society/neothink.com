@@ -1,5 +1,5 @@
 import { PodcastPageContent } from "@/components/podcast/podcast-page-content";
-import { breadcrumbListJsonLd, webPageJsonLd } from "@/lib/json-ld";
+import { breadcrumbListJsonLd, SPEAKABLE_MAIN_H1, webPageJsonLd } from "@/lib/json-ld";
 import { pageMetadata } from "@/lib/seo-metadata";
 import { schemaIds } from "@/lib/schema-ids";
 
@@ -24,6 +24,7 @@ const pageLd = webPageJsonLd({
   description:
     "Mark Hamilton and Wallace Hamilton on the Unified Field of Conscious Civilization. Twelve founding episodes — on YouTube.",
   aboutId: schemaIds.podcastSeries,
+  speakableSelectors: SPEAKABLE_MAIN_H1,
 });
 
 export default function PodcastPage() {

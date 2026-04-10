@@ -3,6 +3,7 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  SPEAKABLE_MAIN_H1,
   videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
@@ -22,6 +23,10 @@ export const metadata = pageMetadata({
     "Lesson 1 (Neothink Institute): following mode vs integrated thinking, essay and FAQ; video features Mark Hamilton. Public Neothink Mentality series.",
   pathname: PATH,
   ogType: "article",
+  article: {
+    publishedTime: `${RISE_FROM_RUT_LESSON.datePublished}T12:00:00.000Z`,
+    modifiedTime: `${RISE_FROM_RUT_LESSON.dateModified}T12:00:00.000Z`,
+  },
 });
 
 const breadcrumbs = breadcrumbListJsonLd([
@@ -40,6 +45,7 @@ const pageLd = webPageJsonLd({
   aboutId: schemaIds.neothinkSystem,
   authorId: schemaIds.organization,
   mainEntityId: `${CANONICAL}#article`,
+  speakableSelectors: SPEAKABLE_MAIN_H1,
 });
 
 const articleLd = blogPostingJsonLd({
@@ -61,6 +67,8 @@ const videoLd = videoObjectJsonLd({
   embedUrl: `https://www.youtube.com/embed/${RISE_FROM_RUT_LESSON.youtubeId}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${RISE_FROM_RUT_LESSON.youtubeId}/maxresdefault.jpg`,
   uploadDate: `${RISE_FROM_RUT_LESSON.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${RISE_FROM_RUT_LESSON.youtubeId}`,
+  durationMinutes: RISE_FROM_RUT_LESSON.videoRuntimeMinutes,
   speakerId: schemaIds.founder,
 });
 

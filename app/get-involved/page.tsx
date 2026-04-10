@@ -1,5 +1,5 @@
 import { GetInvolvedPageContent } from "@/components/get-involved/get-involved-page-content";
-import { breadcrumbListJsonLd, webPageJsonLd } from "@/lib/json-ld";
+import { breadcrumbListJsonLd, SPEAKABLE_MAIN_H1, webPageJsonLd } from "@/lib/json-ld";
 import { pageMetadata } from "@/lib/seo-metadata";
 import { schemaIds } from "@/lib/schema-ids";
 
@@ -24,6 +24,7 @@ const pageLd = webPageJsonLd({
   description:
     "Invest, advise, build Neovia, or walk The Way. Ways to participate in the civilizational project and the personal path.",
   aboutId: schemaIds.organization,
+  speakableSelectors: SPEAKABLE_MAIN_H1,
 });
 
 export default function GetInvolvedPage() {

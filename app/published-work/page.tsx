@@ -1,5 +1,5 @@
 import { PublishedWorkPageContent } from "@/components/published-work/published-work-page-content";
-import { breadcrumbListJsonLd, webPageJsonLd } from "@/lib/json-ld";
+import { breadcrumbListJsonLd, SPEAKABLE_MAIN_H1, webPageJsonLd } from "@/lib/json-ld";
 import { pageMetadata } from "@/lib/seo-metadata";
 import { schemaIds } from "@/lib/schema-ids";
 
@@ -25,6 +25,7 @@ const pageLd = webPageJsonLd({
     "Research, analysis, and original scholarship from the Neothink Institute. The intellectual foundation behind the Unified Field, Neovia, The Way, and Neothink.",
   aboutId: schemaIds.organization,
   authorId: schemaIds.founder,
+  speakableSelectors: SPEAKABLE_MAIN_H1,
 });
 
 export default function PublishedWorkPage() {

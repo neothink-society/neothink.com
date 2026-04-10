@@ -3,6 +3,7 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  SPEAKABLE_MAIN_H1,
   videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
@@ -22,6 +23,10 @@ export const metadata = pageMetadata({
     "Lesson 4 (Neothink Institute): impact profits, Project Curiosity, value creation, Charles Nash example; video on YouTube (KD9tcurr8qE) features Mark Hamilton.",
   pathname: PATH,
   ogType: "article",
+  article: {
+    publishedTime: `${IMPACT_PROFITS_LESSON.datePublished}T12:00:00.000Z`,
+    modifiedTime: `${IMPACT_PROFITS_LESSON.dateModified}T12:00:00.000Z`,
+  },
 });
 
 const breadcrumbs = breadcrumbListJsonLd([
@@ -40,6 +45,7 @@ const pageLd = webPageJsonLd({
   aboutId: schemaIds.neothinkSystem,
   authorId: schemaIds.organization,
   mainEntityId: `${CANONICAL}#article`,
+  speakableSelectors: SPEAKABLE_MAIN_H1,
 });
 
 const articleLd = blogPostingJsonLd({
@@ -62,6 +68,8 @@ const videoLd = videoObjectJsonLd({
   embedUrl: `https://www.youtube.com/embed/${IMPACT_PROFITS_LESSON.youtubeId}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${IMPACT_PROFITS_LESSON.youtubeId}/maxresdefault.jpg`,
   uploadDate: `${IMPACT_PROFITS_LESSON.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${IMPACT_PROFITS_LESSON.youtubeId}`,
+  durationMinutes: IMPACT_PROFITS_LESSON.videoRuntimeMinutes,
   speakerId: schemaIds.founder,
 });
 

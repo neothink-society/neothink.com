@@ -3,6 +3,7 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  SPEAKABLE_MAIN_H1,
   videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
@@ -22,6 +23,10 @@ export const metadata = pageMetadata({
     "Lesson 3 (Neothink Institute): tunnel vision, curiosity, Project Curiosity at work for two weeks, Neothink mentality; video features Mark Hamilton.",
   pathname: PATH,
   ogType: "article",
+  article: {
+    publishedTime: `${BEYOND_TUNNEL_VISION_LESSON.datePublished}T12:00:00.000Z`,
+    modifiedTime: `${BEYOND_TUNNEL_VISION_LESSON.dateModified}T12:00:00.000Z`,
+  },
 });
 
 const breadcrumbs = breadcrumbListJsonLd([
@@ -40,6 +45,7 @@ const pageLd = webPageJsonLd({
   aboutId: schemaIds.neothinkSystem,
   authorId: schemaIds.organization,
   mainEntityId: `${CANONICAL}#article`,
+  speakableSelectors: SPEAKABLE_MAIN_H1,
 });
 
 const articleLd = blogPostingJsonLd({
@@ -62,6 +68,8 @@ const videoLd = videoObjectJsonLd({
   embedUrl: `https://www.youtube.com/embed/${BEYOND_TUNNEL_VISION_LESSON.youtubeId}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${BEYOND_TUNNEL_VISION_LESSON.youtubeId}/maxresdefault.jpg`,
   uploadDate: `${BEYOND_TUNNEL_VISION_LESSON.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${BEYOND_TUNNEL_VISION_LESSON.youtubeId}`,
+  durationMinutes: BEYOND_TUNNEL_VISION_LESSON.videoRuntimeMinutes,
   speakerId: schemaIds.founder,
 });
 

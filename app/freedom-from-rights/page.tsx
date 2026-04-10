@@ -3,6 +3,7 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  SPEAKABLE_MAIN_H1,
   videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
@@ -22,6 +23,10 @@ export const metadata = pageMetadata({
     "Lesson 2 (Neothink Institute): Bill of Rights, DEI and ESG, Prime Law, integrated thinking, essay and FAQ; video features Mark Hamilton.",
   pathname: PATH,
   ogType: "article",
+  article: {
+    publishedTime: `${FREEDOM_FROM_RIGHTS_LESSON.datePublished}T12:00:00.000Z`,
+    modifiedTime: `${FREEDOM_FROM_RIGHTS_LESSON.dateModified}T12:00:00.000Z`,
+  },
 });
 
 const breadcrumbs = breadcrumbListJsonLd([
@@ -40,6 +45,7 @@ const pageLd = webPageJsonLd({
   aboutId: schemaIds.neothinkSystem,
   authorId: schemaIds.organization,
   mainEntityId: `${CANONICAL}#article`,
+  speakableSelectors: SPEAKABLE_MAIN_H1,
 });
 
 const articleLd = blogPostingJsonLd({
@@ -62,6 +68,8 @@ const videoLd = videoObjectJsonLd({
   embedUrl: `https://www.youtube.com/embed/${FREEDOM_FROM_RIGHTS_LESSON.youtubeId}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${FREEDOM_FROM_RIGHTS_LESSON.youtubeId}/maxresdefault.jpg`,
   uploadDate: `${FREEDOM_FROM_RIGHTS_LESSON.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${FREEDOM_FROM_RIGHTS_LESSON.youtubeId}`,
+  durationMinutes: FREEDOM_FROM_RIGHTS_LESSON.videoRuntimeMinutes,
   speakerId: schemaIds.founder,
 });
 

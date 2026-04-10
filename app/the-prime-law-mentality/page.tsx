@@ -3,6 +3,7 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  SPEAKABLE_MAIN_H1,
   videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
@@ -22,6 +23,10 @@ export const metadata = pageMetadata({
     "Lesson 8 (Neothink Institute): the Prime Law, rule by man vs. systemic freedom, Neothink mentality; video on YouTube (Kp2GZm5N4F8) features Mark Hamilton.",
   pathname: PATH,
   ogType: "article",
+  article: {
+    publishedTime: `${PRIME_LAW_MENTALITY_LESSON.datePublished}T12:00:00.000Z`,
+    modifiedTime: `${PRIME_LAW_MENTALITY_LESSON.dateModified}T12:00:00.000Z`,
+  },
 });
 
 const breadcrumbs = breadcrumbListJsonLd([
@@ -40,6 +45,7 @@ const pageLd = webPageJsonLd({
   aboutId: schemaIds.neothinkSystem,
   authorId: schemaIds.organization,
   mainEntityId: `${CANONICAL}#article`,
+  speakableSelectors: SPEAKABLE_MAIN_H1,
 });
 
 const articleLd = blogPostingJsonLd({
@@ -62,6 +68,8 @@ const videoLd = videoObjectJsonLd({
   embedUrl: `https://www.youtube.com/embed/${PRIME_LAW_MENTALITY_LESSON.youtubeId}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${PRIME_LAW_MENTALITY_LESSON.youtubeId}/maxresdefault.jpg`,
   uploadDate: `${PRIME_LAW_MENTALITY_LESSON.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${PRIME_LAW_MENTALITY_LESSON.youtubeId}`,
+  durationMinutes: PRIME_LAW_MENTALITY_LESSON.videoRuntimeMinutes,
   speakerId: schemaIds.founder,
 });
 

@@ -3,6 +3,7 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  SPEAKABLE_MAIN_H1,
   videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
@@ -22,6 +23,10 @@ export const metadata = pageMetadata({
     "Lesson 12 (Neothink Institute): money as effect of value, production vs creation, loving wealth through what you love; video on YouTube (CAMx5sC1Fy8) features Mark Hamilton.",
   pathname: PATH,
   ogType: "article",
+  article: {
+    publishedTime: `${MONEY_LOVE_AFFAIR_LESSON.datePublished}T12:00:00.000Z`,
+    modifiedTime: `${MONEY_LOVE_AFFAIR_LESSON.dateModified}T12:00:00.000Z`,
+  },
 });
 
 const breadcrumbs = breadcrumbListJsonLd([
@@ -40,6 +45,7 @@ const pageLd = webPageJsonLd({
   aboutId: schemaIds.neothinkSystem,
   authorId: schemaIds.organization,
   mainEntityId: `${CANONICAL}#article`,
+  speakableSelectors: SPEAKABLE_MAIN_H1,
 });
 
 const articleLd = blogPostingJsonLd({
@@ -62,6 +68,8 @@ const videoLd = videoObjectJsonLd({
   embedUrl: `https://www.youtube.com/embed/${MONEY_LOVE_AFFAIR_LESSON.youtubeId}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${MONEY_LOVE_AFFAIR_LESSON.youtubeId}/maxresdefault.jpg`,
   uploadDate: `${MONEY_LOVE_AFFAIR_LESSON.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${MONEY_LOVE_AFFAIR_LESSON.youtubeId}`,
+  durationMinutes: MONEY_LOVE_AFFAIR_LESSON.videoRuntimeMinutes,
   speakerId: schemaIds.founder,
 });
 

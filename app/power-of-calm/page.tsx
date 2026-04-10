@@ -3,6 +3,7 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  SPEAKABLE_MAIN_H1,
   videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
@@ -22,6 +23,10 @@ export const metadata = pageMetadata({
     "Lesson 14 (Neothink Institute): composure under pressure—in work, parenting, and investing; video on YouTube (mXp6tLVO2Hg) features Mark Hamilton.",
   pathname: PATH,
   ogType: "article",
+  article: {
+    publishedTime: `${POWER_OF_CALM_LESSON.datePublished}T12:00:00.000Z`,
+    modifiedTime: `${POWER_OF_CALM_LESSON.dateModified}T12:00:00.000Z`,
+  },
 });
 
 const breadcrumbs = breadcrumbListJsonLd([
@@ -40,6 +45,7 @@ const pageLd = webPageJsonLd({
   aboutId: schemaIds.neothinkSystem,
   authorId: schemaIds.organization,
   mainEntityId: `${CANONICAL}#article`,
+  speakableSelectors: SPEAKABLE_MAIN_H1,
 });
 
 const articleLd = blogPostingJsonLd({
@@ -62,6 +68,8 @@ const videoLd = videoObjectJsonLd({
   embedUrl: `https://www.youtube.com/embed/${POWER_OF_CALM_LESSON.youtubeId}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${POWER_OF_CALM_LESSON.youtubeId}/maxresdefault.jpg`,
   uploadDate: `${POWER_OF_CALM_LESSON.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${POWER_OF_CALM_LESSON.youtubeId}`,
+  durationMinutes: POWER_OF_CALM_LESSON.videoRuntimeMinutes,
   speakerId: schemaIds.founder,
 });
 

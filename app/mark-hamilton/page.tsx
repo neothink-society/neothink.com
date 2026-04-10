@@ -23,7 +23,9 @@ const pageLd = webPageJsonLd({
   name: "Mark Hamilton — Founder, Neothink Institute",
   description:
     "Mark Hamilton is the architect of the Unified Field of Conscious Civilization and the originator of Neovia — the first civilization designed to remove initiated force and allow consciousness to operate at full power.",
+  pageType: "ProfilePage",
   mainEntityId: schemaIds.founder,
+  speakableSelectors: ["#mh-hero-heading"],
 });
 
 export default function MarkHamiltonPage() {

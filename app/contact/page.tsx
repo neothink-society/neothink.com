@@ -25,6 +25,7 @@ const pageLd = webPageJsonLd({
     "Reach the Neothink Institute — general inquiries, investment, advisory, and build channels. We respond personally.",
   pageType: "ContactPage",
   aboutId: schemaIds.organization,
+  speakableSelectors: ["#ct-hero-heading"],
 });
 
 export default function ContactPage() {

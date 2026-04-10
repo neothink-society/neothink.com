@@ -1,5 +1,5 @@
 import { UnleashedPageContent } from "@/components/unleashed/unleashed-page-content";
-import { breadcrumbListJsonLd, webPageJsonLd } from "@/lib/json-ld";
+import { breadcrumbListJsonLd, SPEAKABLE_MAIN_H1, webPageJsonLd } from "@/lib/json-ld";
 import { pageMetadata } from "@/lib/seo-metadata";
 import { schemaIds } from "@/lib/schema-ids";
 
@@ -24,8 +24,10 @@ const pageLd = webPageJsonLd({
   description:
     "The complete delivery of the Unified Field of Conscious Civilization. Fifty years of research tracing consciousness from the silence of the gods to Neovia — the magnum opus by Mark Hamilton.",
   datePublished: "2025-01-01",
+  dateModified: "2025-01-01",
   aboutId: schemaIds.unleashedBook,
   authorId: schemaIds.founder,
+  speakableSelectors: SPEAKABLE_MAIN_H1,
 });
 
 export default function UnleashedPage() {

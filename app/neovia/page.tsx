@@ -1,5 +1,5 @@
 import { NeoviaPageContent } from "@/components/neovia/neovia-page-content";
-import { breadcrumbListJsonLd, webPageJsonLd } from "@/lib/json-ld";
+import { breadcrumbListJsonLd, SPEAKABLE_MAIN_H1, webPageJsonLd } from "@/lib/json-ld";
 import { pageMetadata } from "@/lib/seo-metadata";
 import { schemaIds } from "@/lib/schema-ids";
 
@@ -25,6 +25,7 @@ const pageLd = webPageJsonLd({
     "Neovia is the first civilizational architecture in human history designed to remove initiated force at the structural root and allow consciousness to operate at full power. The anti-extinction exit ramp.",
   aboutId: schemaIds.organization,
   authorId: schemaIds.founder,
+  speakableSelectors: SPEAKABLE_MAIN_H1,
 });
 
 export default function NeoviaPage() {

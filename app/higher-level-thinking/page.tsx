@@ -3,6 +3,7 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  SPEAKABLE_MAIN_H1,
   videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
@@ -22,6 +23,10 @@ export const metadata = pageMetadata({
     "Lesson 5 (Neothink Institute): integrated thinking as higher level thinking, Project Curiosity, and the Neothink mentality; video on YouTube (EVauhNelWOQ) features Mark Hamilton.",
   pathname: PATH,
   ogType: "article",
+  article: {
+    publishedTime: `${HIGHER_LEVEL_THINKING_LESSON.datePublished}T12:00:00.000Z`,
+    modifiedTime: `${HIGHER_LEVEL_THINKING_LESSON.dateModified}T12:00:00.000Z`,
+  },
 });
 
 const breadcrumbs = breadcrumbListJsonLd([
@@ -40,6 +45,7 @@ const pageLd = webPageJsonLd({
   aboutId: schemaIds.neothinkSystem,
   authorId: schemaIds.organization,
   mainEntityId: `${CANONICAL}#article`,
+  speakableSelectors: SPEAKABLE_MAIN_H1,
 });
 
 const articleLd = blogPostingJsonLd({
@@ -62,6 +68,8 @@ const videoLd = videoObjectJsonLd({
   embedUrl: `https://www.youtube.com/embed/${HIGHER_LEVEL_THINKING_LESSON.youtubeId}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${HIGHER_LEVEL_THINKING_LESSON.youtubeId}/maxresdefault.jpg`,
   uploadDate: `${HIGHER_LEVEL_THINKING_LESSON.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${HIGHER_LEVEL_THINKING_LESSON.youtubeId}`,
+  durationMinutes: HIGHER_LEVEL_THINKING_LESSON.videoRuntimeMinutes,
   speakerId: schemaIds.founder,
 });
 
