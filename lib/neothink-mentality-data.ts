@@ -58,7 +58,8 @@ export const NEOTHINK_MENTALITY_LESSONS = [
   {
     path: "/soar-beyond-peers",
     title: "Soar beyond peers",
-    description: "Ambition and execution without the noise of comparison.",
+    description:
+      "Grand visions into projects and physical tasks—23 in a week on the assembly line, essence, 10-second miracles.",
   },
   {
     path: "/money-love-affair",

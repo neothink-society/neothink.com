@@ -1,0 +1,1220 @@
+/* Lesson 12 — Money Love Affair (Neothink Mentality series) */
+
+.mla-page {
+  --mla-text: #0e0e0e;
+  --mla-body: #4a4540;
+  --mla-muted: #7a7570;
+  --mla-gold: #b8973a;
+  --mla-gold-deep: #8a7030;
+  --mla-cream: #fdfcfa;
+  --mla-stone: #f4f1ec;
+  --mla-border: #e8e3d8;
+  --mla-dark: #0e0e0e;
+}
+
+.mla-visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.mla-page .mla-hero {
+  padding: 140px 48px 56px;
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+  background: var(--mla-cream);
+  border-bottom: 1px solid var(--mla-border);
+}
+
+.mla-page .mla-pill {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--mla-gold-deep);
+  margin: 0 0 24px;
+}
+
+.mla-page .mla-pill a {
+  color: var(--mla-gold-deep);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(184, 151, 58, 0.45);
+}
+
+.mla-page .mla-pill a:hover {
+  color: var(--mla-text);
+}
+
+.mla-page .mla-pill-sep {
+  margin: 0 0.35em;
+  opacity: 0.5;
+}
+
+.mla-page .mla-hero h1 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(34px, 4vw, 52px);
+  font-weight: 300;
+  line-height: 1.1;
+  color: var(--mla-text);
+  margin: 0 0 20px;
+}
+
+.mla-page .mla-dek {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.75;
+  color: var(--mla-body);
+  margin: 0 0 20px;
+}
+
+.mla-page .mla-byline {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--mla-muted);
+  margin: 0;
+}
+
+.mla-page .mla-byline a {
+  color: var(--mla-gold-deep);
+  text-decoration: none;
+}
+
+.mla-page .mla-byline a:hover {
+  text-decoration: underline;
+}
+
+.mla-page .mla-video-note {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.65;
+  color: var(--mla-muted);
+  margin: 0 0 20px;
+  padding-left: 14px;
+  border-left: 3px solid var(--mla-border);
+}
+
+.mla-page .mla-section {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 48px 48px 0;
+}
+
+.mla-page .mla-prose p,
+.mla-page .mla-prose li {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.85;
+  color: var(--mla-body);
+}
+
+.mla-page .mla-prose p {
+  margin: 0 0 18px;
+}
+
+.mla-page .mla-prose a {
+  color: var(--mla-gold-deep);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.mla-page .mla-prose a:hover {
+  color: var(--mla-text);
+}
+
+.mla-page .mla-prose h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(26px, 2.8vw, 32px);
+  font-weight: 300;
+  color: var(--mla-text);
+  margin: 0 0 16px;
+}
+
+.mla-page .mla-kicker {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--mla-gold-deep);
+  margin: 0 0 12px;
+}
+
+.mla-page .mla-subhead {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  color: var(--mla-muted);
+  margin: -8px 0 24px;
+}
+
+.mla-page .mla-h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--mla-text);
+  margin: 32px 0 12px;
+}
+
+.mla-page .mla-video {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 48px 16px;
+}
+
+.mla-page .mla-video-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #0e0e0e;
+  border: 1px solid var(--mla-border);
+}
+
+.mla-page .mla-video-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.mla-page .mla-takeaways {
+  background: var(--mla-stone);
+  border: 1px solid var(--mla-border);
+  padding: 28px 28px 8px;
+  margin-top: 8px;
+}
+
+.mla-page .mla-takeaways h2 {
+  font-size: clamp(22px, 2.2vw, 28px);
+  margin-bottom: 16px;
+}
+
+.mla-page .mla-takeaways ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.mla-page .mla-takeaways li {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.mla-page .mla-def {
+  max-width: 720px;
+  margin: 32px auto 0;
+  padding: 24px 28px;
+  background: var(--mla-stone);
+  border-left: 3px solid var(--mla-gold);
+}
+
+.mla-page .mla-def-label {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--mla-gold-deep);
+  margin: 0 0 8px;
+}
+
+.mla-page .mla-def h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--mla-text);
+  margin: 0 0 10px;
+}
+
+.mla-page .mla-def p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.8;
+  color: var(--mla-body);
+  margin: 0;
+}
+
+.mla-page .mla-def a {
+  color: var(--mla-gold-deep);
+}
+
+.mla-page .mla-compare {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.mla-page .mla-compare-col {
+  background: var(--mla-stone);
+  border: 1px solid var(--mla-border);
+  padding: 22px 20px;
+}
+
+.mla-page .mla-compare-col h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 12px;
+  color: var(--mla-text);
+}
+
+.mla-page .mla-compare-col ul {
+  margin: 0;
+  padding-left: 1.1rem;
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--mla-body);
+}
+
+.mla-page .mla-compare-col li {
+  margin-bottom: 8px;
+}
+
+.mla-page .mla-result {
+  margin-top: 28px;
+  padding: 24px 26px;
+  background: var(--mla-cream);
+  border: 1px solid var(--mla-border);
+}
+
+.mla-page .mla-steps {
+  list-style: none;
+  margin: 24px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.mla-page .mla-steps li {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.mla-page .mla-step-num {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--mla-gold);
+  color: var(--mla-dark);
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mla-page .mla-steps h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 6px;
+  color: var(--mla-text);
+}
+
+.mla-page .mla-steps p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.mla-page .mla-faq {
+  max-width: 720px;
+  margin: 48px auto 0;
+  padding: 0 48px 48px;
+}
+
+.mla-page .mla-faq > h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(26px, 2.8vw, 32px);
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 28px;
+  color: var(--mla-text);
+}
+
+.mla-page .mla-faq-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.mla-page .mla-faq article {
+  background: var(--mla-stone);
+  border: 1px solid var(--mla-border);
+  padding: 20px 24px;
+}
+
+.mla-page .mla-faq h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--mla-text);
+  margin: 0 0 10px;
+}
+
+.mla-page .mla-faq p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.8;
+  color: var(--mla-body);
+  margin: 0;
+}
+
+.mla-page .mla-pager {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 48px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 14px;
+  border-top: 1px solid var(--mla-border);
+  border-bottom: 1px solid var(--mla-border);
+  background: var(--mla-cream);
+}
+
+.mla-page .mla-pager a {
+  color: var(--mla-gold-deep);
+  font-weight: 500;
+}
+
+.mla-page .mla-cta {
+  text-align: center;
+  padding: 64px 48px 120px;
+  background: var(--mla-cream);
+}
+
+.mla-page .mla-cta h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(24px, 2.6vw, 30px);
+  font-weight: 300;
+  margin: 0 0 12px;
+}
+
+.mla-page .mla-cta > p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 15px;
+  color: var(--mla-body);
+  margin: 0 0 24px;
+}
+
+.mla-page .mla-cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.mla-page .mla-btn {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--mla-cream);
+  background: var(--mla-dark);
+  padding: 14px 28px;
+  text-decoration: none;
+  border: 1px solid var(--mla-dark);
+}
+
+.mla-page .mla-btn:hover {
+  background: var(--mla-gold);
+  border-color: var(--mla-gold);
+  color: var(--mla-dark);
+}
+
+.mla-page .mla-btn--ghost {
+  background: transparent;
+  color: var(--mla-dark);
+  border-color: var(--mla-border);
+}
+
+.mla-page .mla-btn--ghost:hover {
+  border-color: var(--mla-gold);
+}
+
+.mla-page .mla-reveal {
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.mla-page .mla-reveal.mla-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mla-page .mla-reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .mla-page .mla-compare {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .mla-page .mla-hero {
+    padding: 120px 24px 40px;
+  }
+
+  .mla-page .mla-section,
+  .mla-page .mla-video,
+  .mla-page .mla-faq,
+  .mla-page .mla-pager,
+  .mla-page .mla-cta {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+.mla-page .mla-compare-col--negative {
+  border-color: #e8c4c4;
+  background: #fff8f8;
+}
+
+.mla-page .mla-compare-col--positive {
+  border-color: #b8dcc4;
+  background: #f4fbf6;
+}
+
+.mla-page .mla-callout-dark {
+  background: #1a1917;
+  color: #f2f0eb;
+  border: 1px solid #2a2824;
+  padding: 28px 24px;
+  margin: 20px 0 0;
+  border-radius: 2px;
+}
+
+.mla-page .mla-callout-dark .mla-callout-kicker {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--mla-gold);
+  margin: 0 0 10px;
+}
+
+.mla-page .mla-callout-dark h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0 0 12px;
+  color: #faf9f6;
+}
+
+.mla-page .mla-callout-dark p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  margin: 0;
+  color: rgba(250, 249, 246, 0.9);
+}
+
+.mla-page .mla-callout-dark strong {
+  color: var(--mla-gold);
+  font-weight: 600;
+}
+
+.mla-page .mla-example-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 16px 0 24px;
+}
+
+.mla-page .mla-example-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  border: 1px solid var(--mla-border);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+}
+
+.mla-page .mla-example-index {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  margin: 0 auto 10px;
+  border-radius: 50%;
+  background: var(--mla-gold);
+  color: var(--mla-dark);
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.mla-page .mla-example-card h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 8px;
+  color: var(--mla-text);
+}
+
+.mla-page .mla-example-card p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 14px;
+  color: var(--mla-muted);
+  margin: 0;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .mla-page .mla-example-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.mla-page .mla-lift-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin: 16px 0 24px;
+}
+
+.mla-page .mla-lift-card {
+  background: #fff;
+  border: 1px solid var(--mla-border);
+  border-radius: 12px;
+  padding: 22px;
+  text-align: center;
+}
+
+.mla-page .mla-lift-card h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 8px;
+  color: var(--mla-text);
+}
+
+.mla-page .mla-lift-card p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 14px;
+  color: var(--mla-muted);
+  margin: 0;
+  line-height: 1.5;
+}
+
+@media (max-width: 720px) {
+  .mla-page .mla-lift-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.mla-page .mla-structure {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin: 20px 0 28px;
+}
+
+.mla-page .mla-structure-card {
+  background: #1a1917;
+  border: 1px solid #2a2824;
+  border-left: 4px solid var(--mla-gold);
+  border-radius: 10px;
+  padding: 20px 22px;
+}
+
+.mla-page .mla-structure-kicker {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--mla-gold);
+  margin: 0 0 8px;
+}
+
+.mla-page .mla-structure-card h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 17px;
+  font-weight: 600;
+  color: #faf9f6;
+  margin: 0 0 10px;
+}
+
+.mla-page .mla-structure-card p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+  color: rgba(250, 249, 246, 0.88);
+  margin: 0;
+}
+
+/* Ford assembly line + lesson-specific callouts */
+.mla-page .mla-ford-block {
+  background: #1a1917;
+  border: 2px solid var(--mla-gold);
+  border-radius: 16px;
+  padding: 28px 24px 32px;
+  margin: 24px 0 0;
+  text-align: center;
+}
+
+.mla-page .mla-ford-block h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #faf9f6;
+  margin: 0 0 20px;
+}
+
+.mla-page .mla-ford-row {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 20px;
+  align-items: center;
+}
+
+.mla-page .mla-ford-stat-label {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.mla-page .mla-ford-stat-label--before {
+  color: #fca5a5;
+}
+
+.mla-page .mla-ford-stat-label--after {
+  color: #86efac;
+}
+
+.mla-page .mla-ford-stat-num {
+  font-size: clamp(40px, 8vw, 52px);
+  font-weight: 700;
+  line-height: 1;
+}
+
+.mla-page .mla-ford-stat-num--before {
+  color: #fca5a5;
+}
+
+.mla-page .mla-ford-stat-num--after {
+  color: #86efac;
+}
+
+.mla-page .mla-ford-stat-unit {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 14px;
+  color: #9ca3af;
+  margin-top: 4px;
+}
+
+.mla-page .mla-ford-arrow {
+  font-size: 36px;
+  color: var(--mla-gold);
+  line-height: 1;
+}
+
+.mla-page .mla-ford-divider {
+  margin-top: 22px;
+  padding-top: 22px;
+  border-top: 2px dashed var(--mla-gold);
+}
+
+.mla-page .mla-ford-8x {
+  font-size: clamp(48px, 10vw, 64px);
+  font-weight: 700;
+  color: var(--mla-gold);
+  line-height: 1;
+}
+
+.mla-page .mla-ford-8x-label {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  color: #faf9f6;
+  margin-top: 8px;
+}
+
+.mla-page .mla-story-card {
+  background: #fff;
+  border: 1px solid var(--mla-border);
+  border-radius: 12px;
+  padding: 28px;
+  margin: 20px 0 0;
+}
+
+.mla-page .mla-story-card .mla-kicker {
+  margin-bottom: 10px;
+}
+
+.mla-page .mla-story-card h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--mla-text);
+  margin: 0 0 14px;
+}
+
+.mla-page .mla-story-card p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--mla-body);
+  margin: 0 0 14px;
+}
+
+.mla-page .mla-story-card p:last-child {
+  margin-bottom: 0;
+}
+
+.mla-page .mla-highlight {
+  background: #fef9c3;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.mla-page .mla-insight {
+  background: #f0f7f0;
+  border-left: 4px solid #4caf50;
+  border-radius: 0 12px 12px 0;
+  padding: 22px 24px;
+  margin: 24px 0 0;
+}
+
+.mla-page .mla-insight .mla-kicker {
+  color: #2e7d32;
+  margin-bottom: 6px;
+}
+
+.mla-page .mla-insight h3,
+.mla-page .mla-synergy h3,
+.mla-page .mla-trap h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--mla-text);
+  margin: 0 0 10px;
+}
+
+.mla-page .mla-insight p:not(.mla-kicker),
+.mla-page .mla-synergy p:not(.mla-kicker),
+.mla-page .mla-trap p:not(.mla-kicker) {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--mla-body);
+  margin: 0;
+}
+
+.mla-page .mla-insight a,
+.mla-page .mla-synergy a,
+.mla-page .mla-trap a {
+  color: var(--mla-gold-deep);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.mla-page .mla-synergy {
+  background: #e0f2fe;
+  border-left: 4px solid #0284c7;
+  border-radius: 0 12px 12px 0;
+  padding: 22px 24px;
+  margin: 24px 0 0;
+}
+
+.mla-page .mla-synergy .mla-kicker {
+  color: #0369a1;
+  margin-bottom: 6px;
+}
+
+.mla-page .mla-trap {
+  background: #fff8e7;
+  border-left: 4px solid #a57a03;
+  border-radius: 0 12px 12px 0;
+  padding: 22px 24px;
+  margin: 24px 0 0;
+}
+
+.mla-page .mla-trap .mla-kicker {
+  color: #a57a03;
+  margin-bottom: 6px;
+}
+
+.mla-page .mla-movement-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin: 16px 0 8px;
+}
+
+.mla-page .mla-movement-card {
+  background: #fff;
+  border: 2px solid var(--mla-border);
+  border-radius: 12px;
+  padding: 18px 16px;
+  text-align: center;
+}
+
+.mla-page .mla-movement-card h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 8px;
+  color: var(--mla-text);
+}
+
+.mla-page .mla-movement-card p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 13px;
+  color: var(--mla-muted);
+  margin: 0;
+  line-height: 1.45;
+}
+
+.mla-page .mla-stat-64 {
+  background: #1a1917;
+  border: 2px solid var(--mla-gold);
+  border-radius: 16px;
+  padding: 28px 24px;
+  margin: 24px 0 0;
+  text-align: center;
+}
+
+.mla-page .mla-stat-64-num {
+  font-size: clamp(56px, 14vw, 72px);
+  font-weight: 700;
+  color: var(--mla-gold);
+  line-height: 1;
+}
+
+.mla-page .mla-stat-64-title {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  color: #faf9f6;
+  margin-top: 8px;
+}
+
+.mla-page .mla-stat-64-note {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 14px;
+  color: #9ca3af;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.mla-page .mla-rule {
+  border: none;
+  border-top: 1px solid var(--mla-gold);
+  margin: 40px auto 0;
+  width: 60px;
+  opacity: 0.85;
+}
+
+.mla-page .mla-prose ul.mla-core-list {
+  margin: 0 0 20px;
+  padding-left: 1.35rem;
+}
+
+.mla-page .mla-prose ul.mla-core-list li {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 640px) {
+  .mla-page .mla-ford-row {
+    grid-template-columns: 1fr;
+  }
+
+  .mla-page .mla-ford-arrow {
+    transform: rotate(90deg);
+    margin: 4px 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .mla-page .mla-movement-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 450px) {
+  .mla-page .mla-movement-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Path to curing aging (horizontal steps) */
+.mla-page .mla-path-flow {
+  background: #1a1917;
+  border: 2px solid var(--mla-gold);
+  border-radius: 16px;
+  padding: 24px 20px 28px;
+  margin: 20px 0 0;
+}
+
+.mla-page .mla-path-flow h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #faf9f6;
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+.mla-page .mla-path-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+  gap: 10px 12px;
+}
+
+.mla-page .mla-path-step {
+  background: #2a2a2a;
+  border-radius: 12px;
+  padding: 14px 16px;
+  text-align: center;
+  flex: 1;
+  min-width: 120px;
+  max-width: 180px;
+}
+
+.mla-page .mla-path-step-num {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--mla-gold);
+  margin-bottom: 4px;
+}
+
+.mla-page .mla-path-step p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 13px;
+  color: #e5e7eb;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.mla-page .mla-path-arrow {
+  align-self: center;
+  font-size: 22px;
+  color: var(--mla-gold);
+  line-height: 1;
+}
+
+@media (max-width: 640px) {
+  .mla-page .mla-path-inner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mla-page .mla-path-step {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .mla-page .mla-path-arrow {
+    transform: rotate(90deg);
+  }
+}
+
+.mla-page .mla-quote-card {
+  background: #fff;
+  border: 1px solid var(--mla-border);
+  border-radius: 16px;
+  padding: 28px 26px 26px;
+  margin: 20px 0 0;
+  position: relative;
+}
+
+.mla-page .mla-quote-mark {
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  font-size: 64px;
+  font-family: Georgia, serif;
+  color: var(--mla-border);
+  line-height: 1;
+}
+
+.mla-page .mla-quote-card .mla-kicker {
+  margin-left: 8px;
+  margin-bottom: 12px;
+}
+
+.mla-page .mla-quote-card h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 12px;
+  color: var(--mla-text);
+}
+
+.mla-page .mla-quote-card p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--mla-body);
+  margin: 0 0 14px;
+}
+
+.mla-page .mla-quote-card p:last-child {
+  margin-bottom: 0;
+}
+
+.mla-page .mla-highlight {
+  background: #fef9c3;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.mla-page .mla-pair-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 16px 0 8px;
+}
+
+.mla-page .mla-pair-card {
+  background: #fff;
+  border: 2px solid var(--mla-border);
+  border-radius: 12px;
+  padding: 22px;
+}
+
+.mla-page .mla-pair-card h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0 0 8px;
+  color: var(--mla-text);
+}
+
+.mla-page .mla-pair-card p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--mla-body);
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .mla-page .mla-pair-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.mla-page .mla-child-card {
+  background: #1a1917;
+  border-radius: 16px;
+  padding: 28px 24px;
+  margin: 20px 0 0;
+  text-align: center;
+}
+
+.mla-page .mla-child-card h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #faf9f6;
+  margin: 0 0 14px;
+}
+
+.mla-page .mla-child-card p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #e5e7eb;
+  margin: 0;
+}
+
+.mla-page .mla-child-card strong {
+  color: var(--mla-gold);
+  font-weight: 600;
+}
+
+.mla-page .mla-train-card {
+  background: #fff;
+  border: 1px solid var(--mla-border);
+  border-radius: 16px;
+  padding: 28px;
+  margin: 20px 0 0;
+}
+
+.mla-page .mla-train-card h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 14px;
+  color: var(--mla-text);
+}
+
+.mla-page .mla-train-card p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--mla-body);
+  margin: 0 0 12px;
+}
+
+.mla-page .mla-train-card p:last-child {
+  margin-bottom: 0;
+}
+
+.mla-page .mla-mission-list {
+  margin: 0 0 18px;
+  padding-left: 1.35rem;
+}
+
+.mla-page .mla-mission-list li {
+  margin-bottom: 8px;
+}
+
+.mla-page .mla-core-ol {
+  margin: 0 0 18px;
+  padding-left: 1.35rem;
+}
+
+.mla-page .mla-core-ol li {
+  margin-bottom: 8px;
+}
+
+.mla-page .mla-subhead-center {
+  text-align: center;
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 16px;
+  color: var(--mla-muted);
+  margin: -8px 0 8px;
+}

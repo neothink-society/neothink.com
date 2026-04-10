@@ -16,6 +16,11 @@
  *   pnpm migration:wp-page -- --slug unlock-your-genius --post --out migration/source/unlock-your-genius.html
  *   pnpm migration:wp-page -- --slug the-prime-law-mentality --post --out migration/source/the-prime-law-mentality.html
  *   pnpm migration:wp-page -- --slug soaring-productivity --post --out migration/source/soaring-productivity.html
+ *   pnpm migration:wp-page -- --slug cure-to-aging --post --out migration/source/cure-to-aging.html
+ *   pnpm migration:wp-page -- --slug soar-beyond-peers --post --out migration/source/soar-beyond-peers.html
+ *   pnpm migration:wp-page -- --slug money-love-affair --post --out migration/source/money-love-affair.html
+ *   pnpm migration:wp-page -- --slug keep-the-balance --post --out migration/source/keep-the-balance.html
+ *   pnpm migration:wp-page -- --slug power-of-calm --post --out migration/source/power-of-calm.html
  *   pnpm migration:wp-page -- --id 494
  *   pnpm migration:wp-page -- --slug free-courses --out migration/source/free-courses.html
  *

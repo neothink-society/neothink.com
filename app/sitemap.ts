@@ -29,6 +29,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/unlock-your-genius", changeFrequency: "monthly" as const, priority: 0.8 },
     { path: "/the-prime-law-mentality", changeFrequency: "monthly" as const, priority: 0.8 },
     { path: "/soaring-productivity", changeFrequency: "monthly" as const, priority: 0.8 },
+    { path: "/cure-to-aging", changeFrequency: "monthly" as const, priority: 0.8 },
+    { path: "/soar-beyond-peers", changeFrequency: "monthly" as const, priority: 0.8 },
+    { path: "/money-love-affair", changeFrequency: "monthly" as const, priority: 0.8 },
+    { path: "/keep-the-balance", changeFrequency: "monthly" as const, priority: 0.8 },
+    { path: "/power-of-calm", changeFrequency: "monthly" as const, priority: 0.8 },
     { path: "/podcast", changeFrequency: "monthly" as const, priority: 0.75 },
     { path: "/contact", changeFrequency: "monthly" as const, priority: 0.8 },
   ];

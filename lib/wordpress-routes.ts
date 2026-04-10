@@ -53,6 +53,14 @@ export const WP = {
   valueCreator: "/value-creator",
   selfLeaderSecret: "/self-leader-secret",
   soaringProductivity: "/soaring-productivity",
-  /** Neothink Mentality lesson 10 (post) — migrate when ready. */
+  /** Neothink Mentality lesson 10 (post). */
   cureToAging: "/cure-to-aging",
+  /** Neothink Mentality lesson 11 (post). */
+  soarBeyondPeers: "/soar-beyond-peers",
+  /** Neothink Mentality lesson 12 (post). */
+  moneyLoveAffair: "/money-love-affair",
+  /** Neothink Mentality lesson 13 (post). */
+  keepTheBalance: "/keep-the-balance",
+  /** Neothink Mentality lesson 14 (post). */
+  powerOfCalm: "/power-of-calm",
 } as const;
