@@ -21,6 +21,7 @@ const columns: { label: string; links: FooterLink[] }[] = [
       { href: WP.primeLaw, text: "Prime Law" },
       { href: WP.neothink, text: "Neothink" },
       { href: WP.unleashed, text: "Unleashed" },
+      { href: WP.about, text: "About" },
       { href: WP.markHamilton, text: "Mark Hamilton" },
     ],
   },

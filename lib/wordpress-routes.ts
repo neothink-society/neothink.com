@@ -4,6 +4,8 @@
  */
 export const WP = {
   home: "/",
+  /** Long-form founder biography (distinct from the full Mark Hamilton hub). */
+  about: "/about",
   unifiedField: "/unified-field",
   neovia: "/neovia",
   primeLaw: "/prime-law",

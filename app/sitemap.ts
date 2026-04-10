@@ -10,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/unleashed", changeFrequency: "monthly" as const, priority: 0.9 },
     { path: "/neothink", changeFrequency: "monthly" as const, priority: 0.9 },
     { path: "/neovia", changeFrequency: "monthly" as const, priority: 0.9 },
+    { path: "/about", changeFrequency: "monthly" as const, priority: 0.88 },
     { path: "/mark-hamilton", changeFrequency: "monthly" as const, priority: 0.8 },
     { path: "/unified-field", changeFrequency: "monthly" as const, priority: 0.9 },
     { path: "/the-way", changeFrequency: "monthly" as const, priority: 0.8 },
