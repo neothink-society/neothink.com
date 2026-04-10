@@ -25,5 +25,5 @@ export const wpRedirects: Redirect[] = [
   ...slugPair("/podcast-2", "/podcast"),
   ...slugPair("/podcast-list", "/podcast"),
   ...slugPair("/contact-2", "/contact"),
-  ...slugPair("/books", "/published-work"),
+  ...slugPair("/books", "/manuscripts"),
 ];
