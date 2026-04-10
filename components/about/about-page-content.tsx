@@ -21,6 +21,39 @@ const BIO_PARAGRAPHS = [
   "Whether Neovia ultimately stands as a single jurisdiction or the first of many, Mark Hamilton’s enduring legacy lies in reframing the human future. In an era when extinction appeared technologically inevitable, he made the case that survival was not a matter of restraint or control, but of completing the evolution of the human mind—and building a civilization worthy of it.",
 ] as const;
 
+/** Substance from former /about-us/, rewritten to match institutional register (brand guidelines). */
+const INSTITUTE_INTRO = [
+  "The Neothink Institute is a civilizational research institution. It is the home of the Unified Field of Conscious Civilization, Neovia, The Way, and Neothink—not a coaching brand or a self-help product, but a body of work developed over decades and expressed in manuscripts, law, and design.",
+  "Neothink names the operating system of the uncovered mind: integrated thinking, concept building, and value creation once hierarchy and initiated force no longer define the environment. Everything public on this site exists to make that framework legible and usable at scale.",
+] as const;
+
+const SOCIETY_PILLARS = [
+  {
+    title: "Freedom",
+    text: "Seeing through limiting beliefs and hierarchical conditioning as structural, not personal failure.",
+  },
+  {
+    title: "Passion",
+    text: "Recovering what genuinely drives you once the false world is named for what it is.",
+  },
+  {
+    title: "Purpose",
+    text: "Locating your contribution in terms the Unified Field and the work make clear.",
+  },
+  {
+    title: "Prosperity",
+    text: "Value creation and economic reality grounded in the framework, not slogans.",
+  },
+] as const;
+
+const RESOURCE_LINKS = [
+  { href: WP.manuscripts, label: "Manuscripts" },
+  { href: WP.publishedWork, label: "Published Work" },
+  { href: WP.podcast, label: "Podcast" },
+  { href: WP.getInvolved, label: "Get Involved" },
+  { href: WP.contact, label: "Contact" },
+] as const;
+
 export function AboutPageContent() {
   const mainRef = useRef<HTMLElement>(null);
 
@@ -62,14 +95,28 @@ export function AboutPageContent() {
       <section className="ab-hero" aria-labelledby="ab-hero-heading">
         <div className="ab-hero-inner">
           <p className="ab-hero-label">The Institute</p>
-          <h1 id="ab-hero-heading">About Mark Hamilton</h1>
+          <h1 id="ab-hero-heading">About</h1>
           <p className="ab-hero-tagline">
-            Founder of Neothink · Architect of the Unified Field of Conscious Civilization · Originator of Neovia
+            The Neothink Institute, the Neothink Society, and Mark Hamilton—the architect of the Unified Field,
+            Neovia, and the Neothink corpus.
           </p>
         </div>
       </section>
 
-      <section className="ab-body" aria-label="Biography">
+      <section className="ab-section ab-section--cream" aria-labelledby="ab-institute-heading">
+        <div className="ab-section-inner ab-section-inner--narrow">
+          <h2 id="ab-institute-heading" className="ab-section-title">
+            Institute &amp; Neothink
+          </h2>
+          {INSTITUTE_INTRO.map((text, i) => (
+            <p key={i} className="ab-reveal ab-para">
+              {text}
+            </p>
+          ))}
+        </div>
+      </section>
+
+      <section className="ab-body" aria-label="Biography of Mark Hamilton">
         <div className="ab-body-inner">
           <figure className="ab-reveal ab-portrait">
             <Image
@@ -85,20 +132,63 @@ export function AboutPageContent() {
           </figure>
 
           <div className="ab-prose">
+            <h2 className="ab-prose-heading ab-reveal">Mark Hamilton</h2>
             {BIO_PARAGRAPHS.map((text, i) => (
               <p key={i} className="ab-reveal ab-para">
                 {text}
               </p>
             ))}
+          </div>
+        </div>
+      </section>
 
-            <div className="ab-reveal ab-cta-row">
-              <Link href={WP.markHamilton} className="ab-btn-primary">
-                Mark Hamilton — full hub
-              </Link>
-              <Link href={WP.podcast} className="ab-btn-secondary">
-                Podcast &amp; video
-              </Link>
-            </div>
+      <section className="ab-section ab-section--stone" aria-labelledby="ab-society-heading">
+        <div className="ab-section-inner ab-section-inner--narrow">
+          <h2 id="ab-society-heading" className="ab-section-title">
+            The Neothink Society
+          </h2>
+          <p className="ab-reveal ab-para">
+            The Neothink Society is the Institute&apos;s membership community: people who study and apply the work in
+            their lives. The aim is not motivation for its own sake but integration—clarity of perception, honest
+            alignment with purpose, and contribution at a civilizational scale. Fulfilled individuals, in this view,
+            improve the world as a consequence of seeing clearly, not of performing success.
+          </p>
+          <p className="ab-reveal ab-para ab-pillars-lead">The Society focuses on four areas:</p>
+          <ul className="ab-pillars ab-reveal">
+            {SOCIETY_PILLARS.map((p) => (
+              <li key={p.title} className="ab-pillar">
+                <span className="ab-pillar-title">{p.title}</span>
+                <span className="ab-pillar-text">{p.text}</span>
+              </li>
+            ))}
+          </ul>
+          <p className="ab-reveal ab-para">
+            Teaching is grounded in the Neothink idea system: decades of research and application, practical tools
+            where they serve the framework, and community so that no one has to integrate this alone.
+          </p>
+        </div>
+      </section>
+
+      <section className="ab-section ab-section--cream" aria-labelledby="ab-resources-heading">
+        <div className="ab-section-inner ab-section-inner--narrow">
+          <h2 id="ab-resources-heading" className="ab-section-title">
+            Where to go next
+          </h2>
+          <ul className="ab-resource-list ab-reveal">
+            {RESOURCE_LINKS.map((item) => (
+              <li key={item.href}>
+                <Link href={item.href}>{item.label}</Link>
+              </li>
+            ))}
+          </ul>
+
+          <div className="ab-reveal ab-cta-row">
+            <Link href={WP.markHamilton} className="ab-btn-primary">
+              Mark Hamilton — full hub
+            </Link>
+            <Link href={WP.podcast} className="ab-btn-secondary">
+              Podcast &amp; video
+            </Link>
           </div>
         </div>
       </section>

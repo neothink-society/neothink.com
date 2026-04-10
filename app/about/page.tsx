@@ -8,7 +8,7 @@ import "./about-page.css";
 export const metadata = pageMetadata({
   title: "About | Neothink Institute",
   description:
-    "About Mark Hamilton — Founder of Neothink, architect of the Unified Field of Conscious Civilization, and originator of Neovia. Civilizational theorist and systems philosopher.",
+    "The Neothink Institute, the Neothink Society, and Mark Hamilton — civilizational research, membership community, and the architect of the Unified Field, Neovia, and the Neothink corpus.",
   pathname: "/about",
   ogType: "article",
 });
@@ -22,8 +22,8 @@ const pageLd = webPageJsonLd({
   pathname: "/about",
   name: "About | Neothink Institute",
   description:
-    "About Mark Hamilton — Founder of Neothink, architect of the Unified Field of Conscious Civilization, and originator of Neovia.",
-  mainEntityId: schemaIds.founder,
+    "The Neothink Institute, the Neothink Society, and Mark Hamilton — the architect of the Unified Field, Neovia, and the Neothink corpus.",
+  mainEntityId: schemaIds.organization,
 });
 
 export default function AboutPage() {

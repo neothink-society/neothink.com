@@ -77,6 +77,112 @@
   }
 }
 
+.ab-page .ab-section {
+  padding: 80px 48px;
+  border-bottom: 1px solid var(--ab-border);
+}
+
+.ab-page .ab-section--cream {
+  background: var(--ab-cream);
+}
+
+.ab-page .ab-section--stone {
+  background: var(--ab-stone);
+}
+
+.ab-page .ab-section-inner {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.ab-page .ab-section-inner--narrow {
+  max-width: 760px;
+}
+
+.ab-page .ab-section-title {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(28px, 3.2vw, 40px);
+  font-weight: 300;
+  color: var(--ab-text);
+  margin: 0 0 28px;
+  line-height: 1.2;
+}
+
+.ab-page .ab-prose-heading {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(26px, 3vw, 36px);
+  font-weight: 300;
+  color: var(--ab-text);
+  margin: 0 0 1rem;
+}
+
+.ab-page .ab-pillars-lead {
+  font-weight: 500;
+  color: var(--ab-text);
+  margin-bottom: 16px;
+}
+
+.ab-page .ab-pillars {
+  list-style: none;
+  margin: 0 0 28px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ab-page .ab-pillar {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--ab-border);
+}
+
+.ab-page .ab-pillar:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.ab-page .ab-pillar-title {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ab-gold);
+}
+
+.ab-page .ab-pillar-text {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.75;
+  color: var(--ab-body);
+}
+
+.ab-page .ab-resource-list {
+  list-style: none;
+  margin: 0 0 40px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.ab-page .ab-resource-list a {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--ab-gold-deep);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.ab-page .ab-resource-list a:hover {
+  color: var(--ab-gold);
+}
+
 .ab-page .ab-body {
   padding: 80px 48px 120px;
   background: var(--ab-stone);

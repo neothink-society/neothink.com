@@ -17,6 +17,7 @@ function slugPair(sourceBase: string, destination: string): Redirect[] {
 }
 
 export const wpRedirects: Redirect[] = [
+  ...slugPair("/about-us", "/about"),
   ...slugPair("/the-prime-law", "/prime-law"),
   ...slugPair("/prime-law-5", "/prime-law"),
   ...slugPair("/the-way-9", "/the-way"),
