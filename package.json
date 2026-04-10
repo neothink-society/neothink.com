@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
-    "check": "pnpm lint && pnpm typecheck && pnpm build"
+    "check": "pnpm lint && pnpm typecheck && pnpm build",
+    "migration:inventory": "node scripts/fetch-wp-sitemap-inventory.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.3.0",
