@@ -1,55 +1,40 @@
-import type { Metadata } from "next";
-
 import { ContactPageContent } from "@/components/contact/contact-page-content";
+import { breadcrumbListJsonLd, webPageJsonLd } from "@/lib/json-ld";
+import { pageMetadata } from "@/lib/seo-metadata";
+import { schemaIds } from "@/lib/schema-ids";
 
 import "./contact-page.css";
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: "Contact | Neothink Institute",
   description:
     "Reach the Neothink Institute — general inquiries, investment, advisory, and build channels. We respond personally.",
-  alternates: { canonical: "/contact" },
-  openGraph: {
-    title: "Contact | Neothink Institute",
-    description:
-      "Reach the Neothink Institute — general inquiries, investment, advisory, and build channels. We respond personally.",
-    url: "https://neothink.com/contact",
-    type: "website",
-  },
-};
+  pathname: "/contact",
+  ogType: "website",
+});
 
-const breadcrumbSchema = {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://neothink.com" },
-    { "@type": "ListItem", position: 2, name: "Contact", item: "https://neothink.com/contact" },
-  ],
-};
+const breadcrumbs = breadcrumbListJsonLd([
+  { name: "Home", path: "/" },
+  { name: "Contact", path: "/contact" },
+]);
 
-const pageSchema = {
-  "@context": "https://schema.org",
-  "@type": "ContactPage",
+const pageLd = webPageJsonLd({
+  pathname: "/contact",
   name: "Contact | Neothink Institute",
   description:
     "Reach the Neothink Institute — general inquiries, investment, advisory, and build channels. We respond personally.",
-  url: "https://neothink.com/contact",
-  dateModified: new Date().toISOString().split("T")[0],
-  inLanguage: "en-US",
-  isPartOf: { "@id": "https://neothink.com/#website" },
-};
+  pageType: "ContactPage",
+  aboutId: schemaIds.organization,
+});
 
 export default function ContactPage() {
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }}
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <ContactPageContent />
     </>
   );

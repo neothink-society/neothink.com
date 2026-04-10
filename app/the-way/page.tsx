@@ -1,66 +1,40 @@
-import type { Metadata } from "next";
-
 import { TheWayPageContent } from "@/components/the-way/the-way-page-content";
+import { breadcrumbListJsonLd, webPageJsonLd } from "@/lib/json-ld";
+import { pageMetadata } from "@/lib/seo-metadata";
+import { schemaIds } from "@/lib/schema-ids";
 
 import "./the-way-page.css";
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: "The Way | The Personal Path of Conscious Awakening",
   description:
     "The Unified Field, lived from the inside. The practice of correcting the structural error that caged your mind — subtractive, not additive. Compatible with everything you already believe.",
-  alternates: { canonical: "/the-way" },
-  openGraph: {
-    title: "The Way | The Personal Path of Conscious Awakening",
-    description:
-      "The Unified Field, lived from the inside. The practice of correcting the structural error that caged your mind — subtractive, not additive. Compatible with everything you already believe.",
-    url: "https://neothink.com/the-way",
-    type: "article",
-  },
-};
+  pathname: "/the-way",
+  ogType: "article",
+});
 
-const breadcrumbSchema = {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  itemListElement: [
-    {
-      "@type": "ListItem",
-      position: 1,
-      name: "Home",
-      item: "https://neothink.com",
-    },
-    {
-      "@type": "ListItem",
-      position: 2,
-      name: "The Way",
-      item: "https://neothink.com/the-way",
-    },
-  ],
-};
+const breadcrumbs = breadcrumbListJsonLd([
+  { name: "Home", path: "/" },
+  { name: "The Way", path: "/the-way" },
+]);
 
-const pageSchema = {
-  "@context": "https://schema.org",
-  "@type": "WebPage",
+const pageLd = webPageJsonLd({
+  pathname: "/the-way",
   name: "The Way | The Personal Path of Conscious Awakening",
   description:
     "The Unified Field, lived from the inside. The practice of correcting the structural error that caged your mind — subtractive, not additive. Compatible with everything you already believe.",
-  url: "https://neothink.com/the-way",
-  dateModified: new Date().toISOString().split("T")[0],
-  inLanguage: "en-US",
-  isPartOf: { "@id": "https://neothink.com/#website" },
-  author: { "@id": "https://neothink.com/#founder" },
-};
+  aboutId: schemaIds.organization,
+  authorId: schemaIds.founder,
+});
 
 export default function TheWayPage() {
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }}
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <TheWayPageContent />
     </>
   );

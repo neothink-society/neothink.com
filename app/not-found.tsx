@@ -1,9 +1,23 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { WP } from "@/lib/wordpress-routes";
 
+/** 404 inherits root layout; title/description help crawlers and tabs. Next also emits noindex for not-found responses. */
+export const metadata: Metadata = {
+  title: "Page not found",
+  description: "The page you are looking for does not exist or has been moved.",
+  robots: {
+    index: false,
+    follow: true,
+  },
+};
+
 export default function NotFound() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-[#FDFCFA] px-6 text-center">
+    <main
+      id="main-content"
+      className="flex min-h-screen flex-col items-center justify-center bg-[#FDFCFA] px-6 text-center"
+    >
       <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-[#B8973A]">
         404
       </p>

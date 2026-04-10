@@ -6,8 +6,10 @@ export default function manifest(): MetadataRoute.Manifest {
     short_name: "Neothink",
     description:
       "The intellectual foundation for the next stage of human civilization.",
+    lang: "en-US",
     start_url: "/",
     display: "browser",
+    orientation: "any",
     background_color: "#FDFCFA",
     theme_color: "#B8973A",
     icons: [

@@ -1,66 +1,40 @@
-import type { Metadata } from "next";
-
 import { UnifiedFieldPageContent } from "@/components/unified-field/unified-field-page-content";
+import { breadcrumbListJsonLd, webPageJsonLd } from "@/lib/json-ld";
+import { pageMetadata } from "@/lib/seo-metadata";
+import { schemaIds } from "@/lib/schema-ids";
 
 import "./unified-field-page.css";
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: "The Unified Field of Conscious Civilization — Neothink Institute",
   description:
     "The first complete synthesis identifying the single structural pattern governing every empire, every economy, and every human destiny across all of recorded history. A fifty-year body of work by Mark Hamilton.",
-  alternates: { canonical: "/unified-field" },
-  openGraph: {
-    title: "The Unified Field of Conscious Civilization — Neothink Institute",
-    description:
-      "The first complete synthesis identifying the single structural pattern governing every empire, every economy, and every human destiny across all of recorded history. A fifty-year body of work by Mark Hamilton.",
-    url: "https://neothink.com/unified-field",
-    type: "article",
-  },
-};
+  pathname: "/unified-field",
+  ogType: "article",
+});
 
-const breadcrumbSchema = {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  itemListElement: [
-    {
-      "@type": "ListItem",
-      position: 1,
-      name: "Home",
-      item: "https://neothink.com",
-    },
-    {
-      "@type": "ListItem",
-      position: 2,
-      name: "The Unified Field",
-      item: "https://neothink.com/unified-field",
-    },
-  ],
-};
+const breadcrumbs = breadcrumbListJsonLd([
+  { name: "Home", path: "/" },
+  { name: "The Unified Field", path: "/unified-field" },
+]);
 
-const pageSchema = {
-  "@context": "https://schema.org",
-  "@type": "WebPage",
+const pageLd = webPageJsonLd({
+  pathname: "/unified-field",
   name: "The Unified Field of Conscious Civilization — Neothink Institute",
   description:
     "The first complete synthesis identifying the single structural pattern governing every empire, every economy, and every human destiny across all of recorded history. A fifty-year body of work by Mark Hamilton.",
-  url: "https://neothink.com/unified-field",
-  dateModified: new Date().toISOString().split("T")[0],
-  inLanguage: "en-US",
-  isPartOf: { "@id": "https://neothink.com/#website" },
-  author: { "@id": "https://neothink.com/#founder" },
-};
+  aboutId: schemaIds.organization,
+  authorId: schemaIds.founder,
+});
 
 export default function UnifiedFieldPage() {
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }}
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <UnifiedFieldPageContent />
     </>
   );

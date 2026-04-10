@@ -1,5 +1,18 @@
 # Neothink Institute
 
+## For crawlers and AI agents
+
+Machine-oriented pointers (human-readable site summary continues below).
+
+- **Canonical site:** https://neothink.com
+- **Language:** en-US
+- **Sitemap (URL list):** https://neothink.com/sitemap.xml
+- **Robots:** https://neothink.com/robots.txt
+- **Web app manifest:** https://neothink.com/manifest.webmanifest
+- **This file:** https://neothink.com/llms.txt
+- **Longer optional summary:** https://neothink.com/llms-full.txt
+- **Structured data:** Every HTML response includes JSON-LD (`application/ld+json` in `head`): site-wide graph (Organization, WebSite, Person, works) on all pages; each content route adds WebPage + BreadcrumbList tied to stable `@id`s.
+
 > The Neothink Institute is an independent research and education institute founded in 1976 by Mark Hamilton. It studies the structural conditions for human flourishing through the Unified Field of Conscious Civilization — a framework integrating consciousness studies, political philosophy, and civilizational theory.
 
 ## Core Concepts

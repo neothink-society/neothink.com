@@ -1,65 +1,39 @@
-import type { Metadata } from "next";
-
 import { GetInvolvedPageContent } from "@/components/get-involved/get-involved-page-content";
+import { breadcrumbListJsonLd, webPageJsonLd } from "@/lib/json-ld";
+import { pageMetadata } from "@/lib/seo-metadata";
+import { schemaIds } from "@/lib/schema-ids";
 
 import "./get-involved-page.css";
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: "Get Involved | Neothink Institute",
   description:
     "Invest, advise, build Neovia, or walk The Way. Ways to participate in the civilizational project and the personal path.",
-  alternates: { canonical: "/get-involved" },
-  openGraph: {
-    title: "Get Involved | Neothink Institute",
-    description:
-      "Invest, advise, build Neovia, or walk The Way. Ways to participate in the civilizational project and the personal path.",
-    url: "https://neothink.com/get-involved",
-    type: "website",
-  },
-};
+  pathname: "/get-involved",
+  ogType: "website",
+});
 
-const breadcrumbSchema = {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  itemListElement: [
-    {
-      "@type": "ListItem",
-      position: 1,
-      name: "Home",
-      item: "https://neothink.com",
-    },
-    {
-      "@type": "ListItem",
-      position: 2,
-      name: "Get Involved",
-      item: "https://neothink.com/get-involved",
-    },
-  ],
-};
+const breadcrumbs = breadcrumbListJsonLd([
+  { name: "Home", path: "/" },
+  { name: "Get Involved", path: "/get-involved" },
+]);
 
-const pageSchema = {
-  "@context": "https://schema.org",
-  "@type": "WebPage",
+const pageLd = webPageJsonLd({
+  pathname: "/get-involved",
   name: "Get Involved | Neothink Institute",
   description:
     "Invest, advise, build Neovia, or walk The Way. Ways to participate in the civilizational project and the personal path.",
-  url: "https://neothink.com/get-involved",
-  dateModified: new Date().toISOString().split("T")[0],
-  inLanguage: "en-US",
-  isPartOf: { "@id": "https://neothink.com/#website" },
-};
+  aboutId: schemaIds.organization,
+});
 
 export default function GetInvolvedPage() {
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }}
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <GetInvolvedPageContent />
     </>
   );

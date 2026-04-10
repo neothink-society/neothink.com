@@ -1,5 +1,12 @@
 import { siteConfig } from "@/lib/metadata";
+import { schemaIds } from "@/lib/schema-ids";
 import { MARK_HAMILTON_PORTRAIT_URL } from "@/lib/wordpress-images";
+
+/**
+ * Site-wide JSON-LD graph (root layout). Per-route WebPage and BreadcrumbList live in route `page.tsx` files.
+ * We do not emit FAQPage here: those Q&As are not present as visible FAQ content on the homepage, and
+ * Google structured-data guidelines require marked-up content to be visible on the page.
+ */
 
 type JsonLd = Record<string, unknown>;
 
@@ -72,13 +79,20 @@ export function getNeothinkSocietySchema(): JsonLd {
 }
 
 export function getWebSiteSchema(): JsonLd {
+  const year = new Date().getFullYear();
   return {
     "@type": "WebSite",
     "@id": `${siteConfig.url}/#website`,
     url: siteConfig.url,
     name: siteConfig.name,
+    description: siteConfig.description,
+    inLanguage: "en-US",
+    copyrightYear: year,
+    copyrightHolder: {
+      "@id": schemaIds.organization,
+    },
     publisher: {
-      "@id": `${siteConfig.url}/#organization`,
+      "@id": schemaIds.organization,
     },
   };
 }
@@ -128,7 +142,7 @@ export function getFounderSchema(): JsonLd {
 export function getWebPageSchema(): JsonLd {
   return {
     "@type": "WebPage",
-    "@id": `${siteConfig.url}/#webpage`,
+    "@id": schemaIds.homeWebPage,
     url: siteConfig.url,
     name: "Neothink Institute | What Comes Next for Civilization",
     description: siteConfig.description,
@@ -136,10 +150,13 @@ export function getWebPageSchema(): JsonLd {
     dateModified: new Date().toISOString().split("T")[0],
     inLanguage: "en-US",
     isPartOf: {
-      "@id": `${siteConfig.url}/#website`,
+      "@id": schemaIds.website,
+    },
+    publisher: {
+      "@id": schemaIds.organization,
     },
     about: {
-      "@id": `${siteConfig.url}/#organization`,
+      "@id": schemaIds.organization,
     },
     primaryImageOfPage: {
       "@type": "ImageObject",
@@ -156,75 +173,18 @@ export function getWebPageSchema(): JsonLd {
   };
 }
 
-export function getFAQSchema(): JsonLd {
+/**
+ * Unleashed audio/video series — referenced from `/podcast` WebPage `about`.
+ */
+export function getPodcastSeriesSchema(): JsonLd {
   return {
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "What is the Neothink Institute?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "The Neothink Institute is a public research organization founded by Mark Hamilton. It is dedicated to the study of conscious civilization, integrated thinking, and the structural conditions for human flourishing, integrating insights from consciousness studies, political philosophy, and civilizational theory into a unified intellectual framework.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What is the Unified Field of Conscious Civilization?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "The Unified Field of Conscious Civilization is a theoretical framework that integrates findings from consciousness studies, political philosophy, and systems theory. It identifies structural patterns across civilizations to explain recurring cycles of progress and collapse, proposing conditions under which sustained human advancement becomes possible.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What is Neovia?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Neovia is a proposed intentional community and charter city designed around the non-aggression principle. It serves as a practical demonstration of the Neothink Institute's civilizational framework, applying constitutional protections modeled on individual sovereignty and voluntary association.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What is the Prime Law?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "The Prime Law is a proposed constitutional framework grounded in the non-aggression principle. It defines a single legal constraint: the prohibition of initiatory force, threat of force, or fraud, as the foundational condition for a free and flourishing civilization.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What is Neothink?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Neothink is a cognitive framework and mentality for integrated thinking created by Mark Hamilton. It is the operating system of the uncovered mind. The capacity to integrate across domains, see cause and effect with precision, detect contradictions, build concepts into larger concepts, and create new knowledge that advances human life.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What is The Way?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "The Way is a personal development path and self-awareness practice outlined by the Neothink Institute. It provides a structured approach for individuals to identify and overcome internalized patterns of stagnation, building toward sustained creative output and psychological integration.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Who is Mark Hamilton?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Mark Hamilton is the author of the Neothink Manuscripts, creator of the Neothink Mentality, and founder of both the Neothink Institute (a public research organization) and the Neothink Society (a private education organization). His work spans five decades of research into consciousness, economics, political theory, and civilizational design.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How does AI relate to the Neothink framework?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "The Neothink Institute views artificial intelligence through the lens of civilizational risk and human consciousness. Its framework addresses AI alignment by arguing that the structural conditions for beneficial AI development require the same foundational protections, individual sovereignty and the non-aggression principle, that underpin a flourishing human civilization.",
-        },
-      },
-    ],
+    "@type": "PodcastSeries",
+    "@id": schemaIds.podcastSeries,
+    name: "Unleashed — The Podcast",
+    url: `${siteConfig.url}/podcast`,
+    inLanguage: "en-US",
+    publisher: { "@id": schemaIds.organization },
+    author: [{ "@id": schemaIds.founder }, { "@id": schemaIds.wallaceHamilton }],
   };
 }
 
@@ -326,11 +286,11 @@ export function getStructuredDataGraph(): JsonLd {
       getWebSiteSchema(),
       getFounderSchema(),
       getWebPageSchema(),
-      getFAQSchema(),
+      getWallaceHamiltonSchema(),
+      getPodcastSeriesSchema(),
       getUnleashedBookSchema(),
       getPrimeLawSchema(),
       getNeothinkSystemSchema(),
-      getWallaceHamiltonSchema(),
     ],
   };
 }

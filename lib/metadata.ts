@@ -19,6 +19,18 @@ export function generateSiteMetadata(): Metadata {
     metadataBase: new URL("https://neothink.com"),
     alternates: {
       canonical: "/",
+      languages: {
+        "en-US": "/",
+      },
+    },
+    applicationName: siteConfig.name,
+    appleWebApp: {
+      capable: true,
+      title: siteConfig.name,
+      statusBarStyle: "black-translucent",
+    },
+    formatDetection: {
+      telephone: false,
     },
     category: "education",
     classification: "Research Institute",

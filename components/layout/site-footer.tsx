@@ -9,6 +9,10 @@ type FooterLink = {
   newTab?: boolean;
 };
 
+/**
+ * Footer IA: framework (ideas + founder), vision (flagship build), path (follow & participate).
+ * Podcast sits with participation/follow — clearer topical grouping than pairing only with Neovia.
+ */
 const columns: { label: string; links: FooterLink[] }[] = [
   {
     label: "The Framework",
@@ -22,16 +26,14 @@ const columns: { label: string; links: FooterLink[] }[] = [
   },
   {
     label: "The Vision",
-    links: [
-      { href: WP.neovia, text: "Neovia" },
-      { href: WP.podcast, text: "Podcast" },
-    ],
+    links: [{ href: WP.neovia, text: "Neovia" }],
   },
   {
     label: "The Path",
     links: [
       { href: WP.theWay, text: "The Way" },
       { href: WP.getInvolved, text: "Get Involved" },
+      { href: WP.podcast, text: "Podcast & video" },
       { href: WP.publishedWork, text: "Published Work" },
       { href: WP.manuscripts, text: "Manuscripts" },
       { href: WP.contact, text: "Contact" },
@@ -58,7 +60,7 @@ export function SiteFooter() {
           style={{ marginBottom: "64px" }}
         >
           {columns.map((col) => (
-            <div key={col.label}>
+            <nav key={col.label} aria-label={`Footer: ${col.label}`}>
               <p
                 className="uppercase tracking-[0.22em] text-[#B8973A]"
                 style={{ fontSize: "10px", marginBottom: "20px" }}
@@ -81,7 +83,7 @@ export function SiteFooter() {
                   </li>
                 ))}
               </ul>
-            </div>
+            </nav>
           ))}
         </div>
 
