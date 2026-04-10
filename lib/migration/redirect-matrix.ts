@@ -1,12 +1,13 @@
 /**
  * Phase 0 — WordPress → Next.js URL migration.
  *
- * 1. **Inventory (automated):** run `pnpm migration:inventory` to refresh
- *    `data/migration/url-inventory.json` from live `neothink.com/sitemap.xml`.
- * 2. **Priority:** merge Search Console “Pages” (and Analytics) so high-traffic
- *    URLs are decided first.
- * 3. **Matrix:** add rows here (`sourcePath` = WP path, often trailing slash on
- *    the old site — match what WP serves). Then wire into `next.config` `redirects()`.
+ * 1. **Inventory:** `pnpm migration:inventory` → `data/migration/url-inventory.json`
+ *    (live XML sitemaps).
+ * 2. **GSC:** drop Search Console exports under `data/migration/gsc/<date>/`
+ *    (see `performance-pages.csv`), then `pnpm migration:merge-gsc` →
+ *    `data/migration/url-inventory-gsc-merged.json` (sort by clicks for priority).
+ * 3. **Matrix:** add rows below (`sourcePath` = path WP serves). Then wire into
+ *    `next.config` `redirects()`.
  */
 
 export type RedirectDisposition = "301" | "302" | "410" | "tbd";

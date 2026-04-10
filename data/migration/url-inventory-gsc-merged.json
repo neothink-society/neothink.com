@@ -1,0 +1,3439 @@
+{
+  "generatedAt": "2026-04-10T02:15:38.344Z",
+  "sources": {
+    "inventory": "data/migration/url-inventory.json",
+    "gscPages": "data/migration/gsc/2026-04-09/performance-pages.csv"
+  },
+  "description": "Sitemap inventory merged with GSC Performance → Pages. Rows with inSitemap false still appeared in search — plan redirects or canonicals. Rows with gsc undefined are in the XML inventory only (no clicks/impressions in this export window).",
+  "stats": {
+    "uniquePaths": 273,
+    "inSitemap": 204,
+    "inGscPagesExport": 187,
+    "inBoth": 118,
+    "inInventoryOnly": 86,
+    "inGscOnly": 69
+  },
+  "entries": [
+    {
+      "path": "/about",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/about/",
+        "lastmod": "2026-03-10T16:27:17+00:00",
+        "sitemap": "page-sitemap.xml,video-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/about/",
+        "clicks": 422,
+        "impressions": 7985,
+        "ctrPercent": 5.28,
+        "position": 3.98
+      }
+    },
+    {
+      "path": "/free-courses",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/free-courses/",
+        "lastmod": "2026-01-06T19:26:11+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/free-courses/",
+        "clicks": 136,
+        "impressions": 5194,
+        "ctrPercent": 2.62,
+        "position": 3.4
+      }
+    },
+    {
+      "path": "/neothink-university",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/neothink-university/",
+        "lastmod": "2026-01-06T19:26:12+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/neothink-university/",
+        "clicks": 132,
+        "impressions": 5712,
+        "ctrPercent": 2.31,
+        "position": 3.42
+      }
+    },
+    {
+      "path": "/about-us",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/about-us/",
+        "lastmod": "2026-01-06T19:26:10+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/about-us/",
+        "clicks": 108,
+        "impressions": 5613,
+        "ctrPercent": 1.92,
+        "position": 4.51
+      }
+    },
+    {
+      "path": "/contact",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/contact/",
+        "lastmod": "2026-03-10T15:28:10+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/contact/",
+        "clicks": 103,
+        "impressions": 2198,
+        "ctrPercent": 4.69,
+        "position": 4.37
+      }
+    },
+    {
+      "path": "/events",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/events/",
+        "lastmod": "2026-03-10T15:30:04+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/events/",
+        "clicks": 86,
+        "impressions": 888,
+        "ctrPercent": 9.68,
+        "position": 4.31
+      }
+    },
+    {
+      "path": "/immortalis",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/immortalis/",
+        "lastmod": "2026-03-10T15:31:07+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/immortalis/",
+        "clicks": 80,
+        "impressions": 4807,
+        "ctrPercent": 1.66,
+        "position": 3.24
+      }
+    },
+    {
+      "path": "/faq",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/faq/",
+        "lastmod": "2026-03-10T15:29:02+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/faq/",
+        "clicks": 53,
+        "impressions": 3386,
+        "ctrPercent": 1.57,
+        "position": 4.91
+      }
+    },
+    {
+      "path": "/books",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/books/",
+        "lastmod": "2026-01-06T19:26:10+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/books/",
+        "clicks": 47,
+        "impressions": 1458,
+        "ctrPercent": 3.22,
+        "position": 9.31
+      }
+    },
+    {
+      "path": "/twelve-visions-party",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/twelve-visions-party/",
+        "lastmod": "2026-01-06T19:26:13+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/twelve-visions-party/",
+        "clicks": 41,
+        "impressions": 855,
+        "ctrPercent": 4.8,
+        "position": 7.1
+      }
+    },
+    {
+      "path": "/the-movement",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/the-movement/",
+        "lastmod": "2026-01-06T19:26:13+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/the-movement/",
+        "clicks": 34,
+        "impressions": 1413,
+        "ctrPercent": 2.41,
+        "position": 5.98
+      }
+    },
+    {
+      "path": "/the-prime-law",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/the-prime-law/",
+        "lastmod": "2026-01-06T19:26:13+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/the-prime-law/",
+        "clicks": 26,
+        "impressions": 672,
+        "ctrPercent": 3.87,
+        "position": 5.36
+      }
+    },
+    {
+      "path": "/programs",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/programs/",
+        "lastmod": "2026-01-06T19:26:12+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/programs/",
+        "clicks": 17,
+        "impressions": 428,
+        "ctrPercent": 3.97,
+        "position": 7.93
+      }
+    },
+    {
+      "path": "/secret-society-invitation-have-you-received-this-letter-what-does-it-mean",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/secret-society-invitation-have-you-received-this-letter-what-does-it-mean/",
+        "clicks": 15,
+        "impressions": 573,
+        "ctrPercent": 2.62,
+        "position": 9.84
+      }
+    },
+    {
+      "path": "/project-life",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/project-life/",
+        "lastmod": "2026-01-06T19:26:13+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/project-life/",
+        "clicks": 15,
+        "impressions": 187,
+        "ctrPercent": 8.02,
+        "position": 8.89
+      }
+    },
+    {
+      "path": "/mark-hamiltons-neothink-the-surprising-logic-behind-its-teachings",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/mark-hamiltons-neothink-the-surprising-logic-behind-its-teachings/",
+        "clicks": 13,
+        "impressions": 433,
+        "ctrPercent": 3,
+        "position": 13.69
+      }
+    },
+    {
+      "path": "/podcast",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/podcast/",
+        "lastmod": "2025-09-23T05:11:46+00:00",
+        "sitemap": "ss_podcast-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/podcast/",
+        "clicks": 12,
+        "impressions": 546,
+        "ctrPercent": 2.2,
+        "position": 10.1
+      }
+    },
+    {
+      "path": "/whats-the-truth-about-the-neothink-society-separating-fact-from-fiction",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/whats-the-truth-about-the-neothink-society-separating-fact-from-fiction/",
+        "clicks": 11,
+        "impressions": 545,
+        "ctrPercent": 2.02,
+        "position": 10.07
+      }
+    },
+    {
+      "path": "/how-the-neothink-secret-society-differs-from-other-secret-groups",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/how-the-neothink-secret-society-differs-from-other-secret-groups/",
+        "clicks": 10,
+        "impressions": 2650,
+        "ctrPercent": 0.38,
+        "position": 6.15
+      }
+    },
+    {
+      "path": "/podcast/are-we-the-illuminati-the-truth-behind-the-allegations-mh-explains",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/podcast/are-we-the-illuminati-the-truth-behind-the-allegations-mh-explains/",
+        "lastmod": "2025-09-23T04:40:28+00:00",
+        "sitemap": "ss_podcast-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/podcast/are-we-the-illuminati-the-truth-behind-the-allegations-mh-explains/",
+        "clicks": 10,
+        "impressions": 70,
+        "ctrPercent": 14.29,
+        "position": 9.74
+      }
+    },
+    {
+      "path": "/neothink-reviews",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/neothink-reviews/",
+        "lastmod": "2026-01-06T19:26:12+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/neothink-reviews/",
+        "clicks": 9,
+        "impressions": 3038,
+        "ctrPercent": 0.3,
+        "position": 4.43
+      }
+    },
+    {
+      "path": "/is-neothink-just-another-self-help-book",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/is-neothink-just-another-self-help-book/",
+        "lastmod": "2026-02-06T15:53:55+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/is-neothink-just-another-self-help-book/",
+        "clicks": 9,
+        "impressions": 436,
+        "ctrPercent": 2.06,
+        "position": 10.76
+      }
+    },
+    {
+      "path": "/is-the-neothink-society-legit-everything-you-need-to-know",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/is-the-neothink-society-legit-everything-you-need-to-know/",
+        "clicks": 8,
+        "impressions": 438,
+        "ctrPercent": 1.83,
+        "position": 14.71
+      }
+    },
+    {
+      "path": "/immortalis-the-great-experiment-of-our-time",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/immortalis-the-great-experiment-of-our-time/",
+        "lastmod": "2026-02-23T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/immortalis-the-great-experiment-of-our-time/",
+        "clicks": 6,
+        "impressions": 21,
+        "ctrPercent": 28.57,
+        "position": 10
+      }
+    },
+    {
+      "path": "/neothink-society-clearing-up-the-misunderstandings-about-the-secret-society-neothink",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/neothink-society-clearing-up-the-misunderstandings-about-the-secret-society-neothink/",
+        "clicks": 5,
+        "impressions": 127,
+        "ctrPercent": 3.94,
+        "position": 15.33
+      }
+    },
+    {
+      "path": "/secret-society-invitation-letter",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/secret-society-invitation-letter/",
+        "lastmod": "2026-02-06T05:10:26+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/secret-society-invitation-letter/",
+        "clicks": 4,
+        "impressions": 372,
+        "ctrPercent": 1.08,
+        "position": 11.79
+      }
+    },
+    {
+      "path": "/how-the-neothink-movement-empowers-financial-independence",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/how-the-neothink-movement-empowers-financial-independence/",
+        "clicks": 4,
+        "impressions": 354,
+        "ctrPercent": 1.13,
+        "position": 8.19
+      }
+    },
+    {
+      "path": "/what-people-get-wrong-about-neothink-university-and-whats-actually-true",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/what-people-get-wrong-about-neothink-university-and-whats-actually-true/",
+        "clicks": 4,
+        "impressions": 258,
+        "ctrPercent": 1.55,
+        "position": 9.74
+      }
+    },
+    {
+      "path": "/free",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/free/",
+        "lastmod": "2026-01-06T19:26:11+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/free/",
+        "clicks": 3,
+        "impressions": 228,
+        "ctrPercent": 1.32,
+        "position": 10.17
+      }
+    },
+    {
+      "path": "/neothink-mentality-a-new-way-to-look-at-life-and-work",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/neothink-mentality-a-new-way-to-look-at-life-and-work/",
+        "clicks": 3,
+        "impressions": 183,
+        "ctrPercent": 1.64,
+        "position": 7.07
+      }
+    },
+    {
+      "path": "/privacy-policy",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/privacy-policy/",
+        "lastmod": "2026-02-02T20:18:10+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/privacy-policy/",
+        "clicks": 3,
+        "impressions": 179,
+        "ctrPercent": 1.68,
+        "position": 13.51
+      }
+    },
+    {
+      "path": "/join-neothink-society-secret-meetings",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/join-neothink-society-secret-meetings/",
+        "lastmod": "2026-02-06T05:10:28+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/join-neothink-society-secret-meetings/",
+        "clicks": 3,
+        "impressions": 172,
+        "ctrPercent": 1.74,
+        "position": 7.23
+      }
+    },
+    {
+      "path": "/formula-cure-to-aging",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/formula-cure-to-aging/",
+        "lastmod": "2026-01-06T19:26:10+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/formula-cure-to-aging/",
+        "clicks": 3,
+        "impressions": 47,
+        "ctrPercent": 6.38,
+        "position": 13.38
+      }
+    },
+    {
+      "path": "/spreading-immortalis-to-world-leaders",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/spreading-immortalis-to-world-leaders/",
+        "lastmod": "2026-02-22T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml,video-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/spreading-immortalis-to-world-leaders/",
+        "clicks": 3,
+        "impressions": 31,
+        "ctrPercent": 9.68,
+        "position": 8.81
+      }
+    },
+    {
+      "path": "/neothink-mentality",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/neothink-mentality/",
+        "lastmod": "2026-02-10T20:59:54+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/neothink-mentality/",
+        "clicks": 2,
+        "impressions": 923,
+        "ctrPercent": 0.22,
+        "position": 5.28
+      }
+    },
+    {
+      "path": "/apply-for-membership",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/apply-for-membership/",
+        "lastmod": "2026-01-06T19:26:10+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/apply-for-membership/",
+        "clicks": 2,
+        "impressions": 359,
+        "ctrPercent": 0.56,
+        "position": 5.76
+      }
+    },
+    {
+      "path": "/how-to-join-neothink-society-secret-meetings",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/how-to-join-neothink-society-secret-meetings/",
+        "clicks": 2,
+        "impressions": 226,
+        "ctrPercent": 0.88,
+        "position": 7.79
+      }
+    },
+    {
+      "path": "/ascension-platform-for-business-and-personal-growth",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/ascension-platform-for-business-and-personal-growth/",
+        "lastmod": "2026-01-06T19:26:10+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/ascension-platform-for-business-and-personal-growth/",
+        "clicks": 2,
+        "impressions": 212,
+        "ctrPercent": 0.94,
+        "position": 10.33
+      }
+    },
+    {
+      "path": "/resources",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/resources/",
+        "lastmod": "2026-01-06T19:26:13+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/resources/",
+        "clicks": 2,
+        "impressions": 203,
+        "ctrPercent": 0.99,
+        "position": 23.98
+      }
+    },
+    {
+      "path": "/mark-hamiltons-neothink-surprising-logic",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/mark-hamiltons-neothink-surprising-logic/",
+        "lastmod": "2026-02-06T05:10:11+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/mark-hamiltons-neothink-surprising-logic/",
+        "clicks": 2,
+        "impressions": 124,
+        "ctrPercent": 1.61,
+        "position": 5.56
+      }
+    },
+    {
+      "path": "/newsletter",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/newsletter/",
+        "lastmod": "2026-01-06T19:26:12+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/newsletter/",
+        "clicks": 2,
+        "impressions": 124,
+        "ctrPercent": 1.61,
+        "position": 15.36
+      }
+    },
+    {
+      "path": "/blog",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/blog/",
+        "lastmod": "2026-01-09T18:11:36+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/blog/",
+        "clicks": 1,
+        "impressions": 273,
+        "ctrPercent": 0.37,
+        "position": 21.04
+      }
+    },
+    {
+      "path": "/mark-hamilton",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/mark-hamilton/",
+        "lastmod": "2026-03-21T04:05:29+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/mark-hamilton/",
+        "clicks": 1,
+        "impressions": 251,
+        "ctrPercent": 0.4,
+        "position": 3.49
+      }
+    },
+    {
+      "path": "/neothink-secret-society-differs-other-groups",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/neothink-secret-society-differs-other-groups/",
+        "lastmod": "2026-02-06T16:01:05+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/neothink-secret-society-differs-other-groups/",
+        "clicks": 1,
+        "impressions": 118,
+        "ctrPercent": 0.85,
+        "position": 12.53
+      }
+    },
+    {
+      "path": "/truth-about-neothink-society",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/truth-about-neothink-society/",
+        "lastmod": "2026-02-06T05:10:31+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/truth-about-neothink-society/",
+        "clicks": 1,
+        "impressions": 92,
+        "ctrPercent": 1.09,
+        "position": 14.08
+      }
+    },
+    {
+      "path": "/neothink-society-clearing-misunderstandings",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/neothink-society-clearing-misunderstandings/",
+        "lastmod": "2026-02-06T05:10:33+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/neothink-society-clearing-misunderstandings/",
+        "clicks": 1,
+        "impressions": 87,
+        "ctrPercent": 1.15,
+        "position": 13.7
+      }
+    },
+    {
+      "path": "/sample-page",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/sample-page/",
+        "lastmod": "2026-01-06T19:26:13+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/sample-page/",
+        "clicks": 1,
+        "impressions": 54,
+        "ctrPercent": 1.85,
+        "position": 14.09
+      }
+    },
+    {
+      "path": "/podcast-2",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/podcast-2/",
+        "lastmod": "2026-03-21T01:18:55+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/podcast-2/",
+        "clicks": 1,
+        "impressions": 44,
+        "ctrPercent": 2.27,
+        "position": 3.07
+      }
+    },
+    {
+      "path": "/creating-success-stories-with-neothink-mastermind-group",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/creating-success-stories-with-neothink-mastermind-group/",
+        "clicks": 1,
+        "impressions": 30,
+        "ctrPercent": 3.33,
+        "position": 11.9
+      }
+    },
+    {
+      "path": "/podcast/the-future-of-humanity-everything-becomes-free",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/podcast/the-future-of-humanity-everything-becomes-free/",
+        "lastmod": "2025-09-23T04:38:51+00:00",
+        "sitemap": "ss_podcast-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/podcast/the-future-of-humanity-everything-becomes-free/",
+        "clicks": 1,
+        "impressions": 25,
+        "ctrPercent": 4,
+        "position": 4.2
+      }
+    },
+    {
+      "path": "/neothink-manuscripts-skepticism-to-success",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/neothink-manuscripts-skepticism-to-success/",
+        "lastmod": "2026-02-06T05:10:10+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/neothink-manuscripts-skepticism-to-success/",
+        "clicks": 1,
+        "impressions": 20,
+        "ctrPercent": 5,
+        "position": 4.65
+      }
+    },
+    {
+      "path": "/the-city-that-cures-disease-neovia",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/the-city-that-cures-disease-neovia/",
+        "lastmod": "2026-02-26T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml,video-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/the-city-that-cures-disease-neovia/",
+        "clicks": 1,
+        "impressions": 13,
+        "ctrPercent": 7.69,
+        "position": 2.69
+      }
+    },
+    {
+      "path": "/renowned-philosopher-exposes-what-all-philosophies-get-wrong",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/renowned-philosopher-exposes-what-all-philosophies-get-wrong/",
+        "clicks": 1,
+        "impressions": 12,
+        "ctrPercent": 8.33,
+        "position": 4.17
+      }
+    },
+    {
+      "path": "/a-knight-in-shining-armor-immortalis",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/a-knight-in-shining-armor-immortalis/",
+        "lastmod": "2026-03-05T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml,video-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/a-knight-in-shining-armor-immortalis/",
+        "clicks": 1,
+        "impressions": 11,
+        "ctrPercent": 9.09,
+        "position": 4.64
+      }
+    },
+    {
+      "path": "/is-trumps-victory-the-beginning-of-a-new-era",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/is-trumps-victory-the-beginning-of-a-new-era/",
+        "clicks": 1,
+        "impressions": 9,
+        "ctrPercent": 11.11,
+        "position": 9.33
+      }
+    },
+    {
+      "path": "/how-the-neothink-society-can-be-both-empowering-and-challenging",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/how-the-neothink-society-can-be-both-empowering-and-challenging/",
+        "clicks": 1,
+        "impressions": 7,
+        "ctrPercent": 14.29,
+        "position": 11.71
+      }
+    },
+    {
+      "path": "/tag/mini-day-system",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/tag/mini-day-system/",
+        "clicks": 1,
+        "impressions": 6,
+        "ctrPercent": 16.67,
+        "position": 3.67
+      }
+    },
+    {
+      "path": "/",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/",
+        "lastmod": "2026-03-21T04:26:03+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://www.neothink.com/",
+        "clicks": 1,
+        "impressions": 1,
+        "ctrPercent": 100,
+        "position": 1
+      }
+    },
+    {
+      "path": "/neothink-coaching-programs",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/neothink-coaching-programs/",
+        "lastmod": "2026-01-06T19:26:10+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/neothink-coaching-programs/",
+        "clicks": 0,
+        "impressions": 218,
+        "ctrPercent": 0,
+        "position": 9.82
+      }
+    },
+    {
+      "path": "/neothink-9",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/neothink-9/",
+        "lastmod": "2026-03-21T01:16:18+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/neothink-9/",
+        "clicks": 0,
+        "impressions": 173,
+        "ctrPercent": 0,
+        "position": 3.76
+      }
+    },
+    {
+      "path": "/is-neothink-society-legit",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/is-neothink-society-legit/",
+        "lastmod": "2026-02-06T05:10:35+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/is-neothink-society-legit/",
+        "clicks": 0,
+        "impressions": 110,
+        "ctrPercent": 0,
+        "position": 12.32
+      }
+    },
+    {
+      "path": "/manuscripts",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/manuscripts/",
+        "lastmod": "2026-03-21T03:03:34+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/manuscripts/",
+        "clicks": 0,
+        "impressions": 101,
+        "ctrPercent": 0,
+        "position": 3.45
+      }
+    },
+    {
+      "path": "/mark-hamiltons-story",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/mark-hamiltons-story/",
+        "lastmod": "2026-02-24T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml,video-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/mark-hamiltons-story/",
+        "clicks": 0,
+        "impressions": 89,
+        "ctrPercent": 0,
+        "position": 3
+      }
+    },
+    {
+      "path": "/secret-society-letters-selling-happiness",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/secret-society-letters-selling-happiness/",
+        "lastmod": "2026-02-06T05:10:08+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/secret-society-letters-selling-happiness/",
+        "clicks": 0,
+        "impressions": 87,
+        "ctrPercent": 0,
+        "position": 12
+      }
+    },
+    {
+      "path": "/contact-form-submitted",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/contact-form-submitted/",
+        "lastmod": "2026-01-06T19:26:10+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/contact-form-submitted/",
+        "clicks": 0,
+        "impressions": 68,
+        "ctrPercent": 0,
+        "position": 53.84
+      }
+    },
+    {
+      "path": "/secret-society-letters-are-they-just-selling-happiness",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/secret-society-letters-are-they-just-selling-happiness/",
+        "clicks": 0,
+        "impressions": 63,
+        "ctrPercent": 0,
+        "position": 14.67
+      }
+    },
+    {
+      "path": "/neothink",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/neothink/",
+        "lastmod": "2026-03-21T01:16:25+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/neothink/",
+        "clicks": 0,
+        "impressions": 58,
+        "ctrPercent": 0,
+        "position": 4.29
+      }
+    },
+    {
+      "path": "/testimonials",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/testimonials/",
+        "clicks": 0,
+        "impressions": 53,
+        "ctrPercent": 0,
+        "position": 6.6
+      }
+    },
+    {
+      "path": "/neothink-mentality-new-way-life-work",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/neothink-mentality-new-way-life-work/",
+        "lastmod": "2026-02-06T16:01:02+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/neothink-mentality-new-way-life-work/",
+        "clicks": 0,
+        "impressions": 45,
+        "ctrPercent": 0,
+        "position": 6.87
+      }
+    },
+    {
+      "path": "/published-work-9",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/published-work-9/",
+        "lastmod": "2026-03-21T01:20:09+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/published-work-9/",
+        "clicks": 0,
+        "impressions": 37,
+        "ctrPercent": 0,
+        "position": 5.81
+      }
+    },
+    {
+      "path": "/areas-of-profit",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/areas-of-profit/",
+        "lastmod": "2026-02-10T22:09:39+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/areas-of-profit/",
+        "clicks": 0,
+        "impressions": 35,
+        "ctrPercent": 0,
+        "position": 2.51
+      }
+    },
+    {
+      "path": "/newsletter-signup-thank-you",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/newsletter-signup-thank-you/",
+        "lastmod": "2026-01-06T19:26:12+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/newsletter-signup-thank-you/",
+        "clicks": 0,
+        "impressions": 35,
+        "ctrPercent": 0,
+        "position": 12.8
+      }
+    },
+    {
+      "path": "/creating-the-demand-to-live-forever",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/creating-the-demand-to-live-forever/",
+        "lastmod": "2026-02-16T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/creating-the-demand-to-live-forever/",
+        "clicks": 0,
+        "impressions": 33,
+        "ctrPercent": 0,
+        "position": 4.06
+      }
+    },
+    {
+      "path": "/prime-law-5",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/prime-law-5/",
+        "lastmod": "2026-03-21T01:17:26+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/prime-law-5/",
+        "clicks": 0,
+        "impressions": 33,
+        "ctrPercent": 0,
+        "position": 3
+      }
+    },
+    {
+      "path": "/press-media",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/press-media/",
+        "lastmod": "2026-03-21T03:08:01+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/press-media/",
+        "clicks": 0,
+        "impressions": 30,
+        "ctrPercent": 0,
+        "position": 5.9
+      }
+    },
+    {
+      "path": "/tag/integrated-thinking",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/tag/integrated-thinking/",
+        "clicks": 0,
+        "impressions": 28,
+        "ctrPercent": 0,
+        "position": 5.46
+      }
+    },
+    {
+      "path": "/what-people-get-wrong-neothink-university",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/what-people-get-wrong-neothink-university/",
+        "lastmod": "2026-02-06T05:10:23+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/what-people-get-wrong-neothink-university/",
+        "clicks": 0,
+        "impressions": 26,
+        "ctrPercent": 0,
+        "position": 7.58
+      }
+    },
+    {
+      "path": "/how-neothink-brings-you-world-of-prosperity",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/how-neothink-brings-you-world-of-prosperity/",
+        "lastmod": "2026-03-17T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml,video-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/how-neothink-brings-you-world-of-prosperity/",
+        "clicks": 0,
+        "impressions": 25,
+        "ctrPercent": 0,
+        "position": 8.8
+      }
+    },
+    {
+      "path": "/neothink-books-do-they-reveal-a-secret-world",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/neothink-books-do-they-reveal-a-secret-world/",
+        "clicks": 0,
+        "impressions": 25,
+        "ctrPercent": 0,
+        "position": 7.16
+      }
+    },
+    {
+      "path": "/tag/mini-company-model",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/tag/mini-company-model/",
+        "clicks": 0,
+        "impressions": 25,
+        "ctrPercent": 0,
+        "position": 1.56
+      }
+    },
+    {
+      "path": "/this-is-how-close-we-are-to-biological-immortality",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/this-is-how-close-we-are-to-biological-immortality/",
+        "lastmod": "2026-02-11T22:26:15+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/this-is-how-close-we-are-to-biological-immortality/",
+        "clicks": 0,
+        "impressions": 25,
+        "ctrPercent": 0,
+        "position": 5.12
+      }
+    },
+    {
+      "path": "/freedom-from-rights",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/freedom-from-rights/",
+        "lastmod": "2026-02-10T19:43:57+00:00",
+        "sitemap": "post-sitemap.xml,video-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/freedom-from-rights/",
+        "clicks": 0,
+        "impressions": 24,
+        "ctrPercent": 0,
+        "position": 4.25
+      }
+    },
+    {
+      "path": "/neothink-books-reveal-secret-world",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/neothink-books-reveal-secret-world/",
+        "lastmod": "2026-02-06T05:10:19+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/neothink-books-reveal-secret-world/",
+        "clicks": 0,
+        "impressions": 24,
+        "ctrPercent": 0,
+        "position": 7.46
+      }
+    },
+    {
+      "path": "/future-of-humanity-everything-free",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/future-of-humanity-everything-free/",
+        "lastmod": "2026-02-11T03:27:48+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/future-of-humanity-everything-free/",
+        "clicks": 0,
+        "impressions": 23,
+        "ctrPercent": 0,
+        "position": 6.17
+      }
+    },
+    {
+      "path": "/benefits-active-neothink-member",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/benefits-active-neothink-member/",
+        "lastmod": "2026-02-06T05:10:25+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/benefits-active-neothink-member/",
+        "clicks": 0,
+        "impressions": 22,
+        "ctrPercent": 0,
+        "position": 10.5
+      }
+    },
+    {
+      "path": "/impact-profits",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/impact-profits/",
+        "lastmod": "2026-02-10T21:36:17+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/impact-profits/",
+        "clicks": 0,
+        "impressions": 22,
+        "ctrPercent": 0,
+        "position": 3.73
+      }
+    },
+    {
+      "path": "/the-missing-key-to-universal-prosperity",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/the-missing-key-to-universal-prosperity/",
+        "lastmod": "2026-03-08T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml,video-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/the-missing-key-to-universal-prosperity/",
+        "clicks": 0,
+        "impressions": 22,
+        "ctrPercent": 0,
+        "position": 3.55
+      }
+    },
+    {
+      "path": "/podcast/the-secret-society-reveals-civilizations-only-hope-for-a-good-future",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/podcast/the-secret-society-reveals-civilizations-only-hope-for-a-good-future/",
+        "lastmod": "2025-09-23T04:39:10+00:00",
+        "sitemap": "ss_podcast-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/podcast/the-secret-society-reveals-civilizations-only-hope-for-a-good-future/",
+        "clicks": 0,
+        "impressions": 21,
+        "ctrPercent": 0,
+        "position": 11.76
+      }
+    },
+    {
+      "path": "/what-do-secret-societies-do-understanding-their-purpose-and-existence",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/what-do-secret-societies-do-understanding-their-purpose-and-existence/",
+        "clicks": 0,
+        "impressions": 21,
+        "ctrPercent": 0,
+        "position": 7.67
+      }
+    },
+    {
+      "path": "/freedom-is-the-key-to-unlocking-true-wealth-in-2026",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/freedom-is-the-key-to-unlocking-true-wealth-in-2026/",
+        "clicks": 0,
+        "impressions": 20,
+        "ctrPercent": 0,
+        "position": 4.65
+      }
+    },
+    {
+      "path": "/how-to-discern-genuine-secret-society-opportunities-from-fraud",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/how-to-discern-genuine-secret-society-opportunities-from-fraud/",
+        "clicks": 0,
+        "impressions": 20,
+        "ctrPercent": 0,
+        "position": 25.5
+      }
+    },
+    {
+      "path": "/podcast/youre-being-manipulated-they-use-guilt-to-control-you-mark-hamilton",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/podcast/youre-being-manipulated-they-use-guilt-to-control-you-mark-hamilton/",
+        "lastmod": "2025-09-23T05:11:28+00:00",
+        "sitemap": "ss_podcast-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/podcast/youre-being-manipulated-they-use-guilt-to-control-you-mark-hamilton/",
+        "clicks": 0,
+        "impressions": 20,
+        "ctrPercent": 0,
+        "position": 11.7
+      }
+    },
+    {
+      "path": "/society",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/society/",
+        "lastmod": "2026-03-20T12:48:17+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/society/",
+        "clicks": 0,
+        "impressions": 20,
+        "ctrPercent": 0,
+        "position": 3.25
+      }
+    },
+    {
+      "path": "/what-i-offer",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/what-i-offer/",
+        "lastmod": "2026-01-06T19:26:13+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/what-i-offer/",
+        "clicks": 0,
+        "impressions": 19,
+        "ctrPercent": 0,
+        "position": 42.89
+      }
+    },
+    {
+      "path": "/beyond-tunnel-vision",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/beyond-tunnel-vision/",
+        "lastmod": "2026-02-10T21:22:24+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/beyond-tunnel-vision/",
+        "clicks": 0,
+        "impressions": 18,
+        "ctrPercent": 0,
+        "position": 5.83
+      }
+    },
+    {
+      "path": "/life-coaching",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/life-coaching/",
+        "lastmod": "2026-01-06T19:26:12+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/life-coaching/",
+        "clicks": 0,
+        "impressions": 18,
+        "ctrPercent": 0,
+        "position": 20.22
+      }
+    },
+    {
+      "path": "/podcast-list",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/podcast-list/",
+        "lastmod": "2026-03-21T01:18:49+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/podcast-list/",
+        "clicks": 0,
+        "impressions": 18,
+        "ctrPercent": 0,
+        "position": 9.44
+      }
+    },
+    {
+      "path": "/the-greatest-mental-breakthrough",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/the-greatest-mental-breakthrough/",
+        "lastmod": "2026-02-10T19:44:09+00:00",
+        "sitemap": "post-sitemap.xml,video-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/the-greatest-mental-breakthrough/",
+        "clicks": 0,
+        "impressions": 18,
+        "ctrPercent": 0,
+        "position": 3.06
+      }
+    },
+    {
+      "path": "/neothink-in-the-21st-century-how-to-navigate-todays-challenges",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/neothink-in-the-21st-century-how-to-navigate-todays-challenges/",
+        "clicks": 0,
+        "impressions": 16,
+        "ctrPercent": 0,
+        "position": 6.31
+      }
+    },
+    {
+      "path": "/aliens-real-never-visit-earth",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/aliens-real-never-visit-earth/",
+        "lastmod": "2026-02-11T13:52:40+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/aliens-real-never-visit-earth/",
+        "clicks": 0,
+        "impressions": 15,
+        "ctrPercent": 0,
+        "position": 6.47
+      }
+    },
+    {
+      "path": "/the-job-revolution",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/the-job-revolution/",
+        "lastmod": "2026-02-20T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml,video-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/the-job-revolution/",
+        "clicks": 0,
+        "impressions": 15,
+        "ctrPercent": 0,
+        "position": 2.47
+      }
+    },
+    {
+      "path": "/what-do-secret-societies-do",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/what-do-secret-societies-do/",
+        "lastmod": "2026-02-06T05:10:13+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/what-do-secret-societies-do/",
+        "clicks": 0,
+        "impressions": 14,
+        "ctrPercent": 0,
+        "position": 6.36
+      }
+    },
+    {
+      "path": "/discern-genuine-secret-society-opportunities",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/discern-genuine-secret-society-opportunities/",
+        "lastmod": "2026-02-06T05:10:21+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/discern-genuine-secret-society-opportunities/",
+        "clicks": 0,
+        "impressions": 13,
+        "ctrPercent": 0,
+        "position": 13.38
+      }
+    },
+    {
+      "path": "/tag/neothink-mentality",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/tag/neothink-mentality/",
+        "clicks": 0,
+        "impressions": 12,
+        "ctrPercent": 0,
+        "position": 10
+      }
+    },
+    {
+      "path": "/the-ancient-formula-for-wealth-and-influence-does-neothink-hold-the-answer",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/the-ancient-formula-for-wealth-and-influence-does-neothink-hold-the-answer/",
+        "clicks": 0,
+        "impressions": 12,
+        "ctrPercent": 0,
+        "position": 9.33
+      }
+    },
+    {
+      "path": "/starting-our-own-country",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/starting-our-own-country/",
+        "lastmod": "2026-03-10T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml,video-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/starting-our-own-country/",
+        "clicks": 0,
+        "impressions": 11,
+        "ctrPercent": 0,
+        "position": 4
+      }
+    },
+    {
+      "path": "/ofitsial-nyi-sait-epikstar-dlia-klientov-kompanii",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/ofitsial-nyi-sait-epikstar-dlia-klientov-kompanii/",
+        "clicks": 0,
+        "impressions": 10,
+        "ctrPercent": 0,
+        "position": 59.9
+      }
+    },
+    {
+      "path": "/tag/neothink-books",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/tag/neothink-books/",
+        "clicks": 0,
+        "impressions": 10,
+        "ctrPercent": 0,
+        "position": 3.1
+      }
+    },
+    {
+      "path": "/how-to-excel-at-work-33-practical-tips-for-professional-growth",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/how-to-excel-at-work-33-practical-tips-for-professional-growth/",
+        "clicks": 0,
+        "impressions": 9,
+        "ctrPercent": 0,
+        "position": 16.89
+      }
+    },
+    {
+      "path": "/neothink-society-empowering-and-challenging",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/neothink-society-empowering-and-challenging/",
+        "lastmod": "2026-02-06T16:01:14+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/neothink-society-empowering-and-challenging/",
+        "clicks": 0,
+        "impressions": 9,
+        "ctrPercent": 0,
+        "position": 10.22
+      }
+    },
+    {
+      "path": "/read-this-to-never-be-manipulated-again",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/read-this-to-never-be-manipulated-again/",
+        "clicks": 0,
+        "impressions": 9,
+        "ctrPercent": 0,
+        "position": 8.78
+      }
+    },
+    {
+      "path": "/rise-from-rut",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/rise-from-rut/",
+        "lastmod": "2026-02-10T19:44:03+00:00",
+        "sitemap": "post-sitemap.xml,video-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/rise-from-rut/",
+        "clicks": 0,
+        "impressions": 9,
+        "ctrPercent": 0,
+        "position": 4.56
+      }
+    },
+    {
+      "path": "/tag/immortality",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/tag/immortality/",
+        "clicks": 0,
+        "impressions": 9,
+        "ctrPercent": 0,
+        "position": 9.67
+      }
+    },
+    {
+      "path": "/freedom-key-to-unlocking-true-wealth",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/freedom-key-to-unlocking-true-wealth/",
+        "lastmod": "2026-02-11T20:25:08+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/freedom-key-to-unlocking-true-wealth/",
+        "clicks": 0,
+        "impressions": 8,
+        "ctrPercent": 0,
+        "position": 5.88
+      }
+    },
+    {
+      "path": "/neothink-and-the-twelve-visions-party-the-untold-truth",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/neothink-and-the-twelve-visions-party-the-untold-truth/",
+        "clicks": 0,
+        "impressions": 8,
+        "ctrPercent": 0,
+        "position": 5.25
+      }
+    },
+    {
+      "path": "/podcast/freeing-societys-hidden-geniuses-with-elon-musk",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/podcast/freeing-societys-hidden-geniuses-with-elon-musk/",
+        "lastmod": "2025-09-23T04:42:25+00:00",
+        "sitemap": "ss_podcast-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/podcast/freeing-societys-hidden-geniuses-with-elon-musk/",
+        "clicks": 0,
+        "impressions": 8,
+        "ctrPercent": 0,
+        "position": 9.62
+      }
+    },
+    {
+      "path": "/tag/neothink-books/page/2",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/tag/neothink-books/page/2/",
+        "clicks": 0,
+        "impressions": 8,
+        "ctrPercent": 0,
+        "position": 26.5
+      }
+    },
+    {
+      "path": "/tag/the-prime-law",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/tag/the-prime-law/",
+        "clicks": 0,
+        "impressions": 8,
+        "ctrPercent": 0,
+        "position": 5
+      }
+    },
+    {
+      "path": "/value-creator",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/value-creator/",
+        "lastmod": "2026-02-12T01:57:54+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/value-creator/",
+        "clicks": 0,
+        "impressions": 8,
+        "ctrPercent": 0,
+        "position": 2.12
+      }
+    },
+    {
+      "path": "/live-longer",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/live-longer/",
+        "lastmod": "2026-03-09T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/live-longer/",
+        "clicks": 0,
+        "impressions": 7,
+        "ctrPercent": 0,
+        "position": 5.57
+      }
+    },
+    {
+      "path": "/self-leader-secret",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/self-leader-secret/",
+        "lastmod": "2026-02-12T01:57:32+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/self-leader-secret/",
+        "clicks": 0,
+        "impressions": 7,
+        "ctrPercent": 0,
+        "position": 3.14
+      }
+    },
+    {
+      "path": "/the-grand-experiment-of-our-time",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/the-grand-experiment-of-our-time/",
+        "lastmod": "2026-03-07T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/the-grand-experiment-of-our-time/",
+        "clicks": 0,
+        "impressions": 7,
+        "ctrPercent": 0,
+        "position": 5.29
+      }
+    },
+    {
+      "path": "/what-will-shape-future-of-humanity",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/what-will-shape-future-of-humanity/",
+        "lastmod": "2026-02-06T15:50:16+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/what-will-shape-future-of-humanity/",
+        "clicks": 0,
+        "impressions": 7,
+        "ctrPercent": 0,
+        "position": 6.86
+      }
+    },
+    {
+      "path": "/doubts-about-neothink-society",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/doubts-about-neothink-society/",
+        "lastmod": "2026-02-06T15:53:24+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/doubts-about-neothink-society/",
+        "clicks": 0,
+        "impressions": 6,
+        "ctrPercent": 0,
+        "position": 17.67
+      }
+    },
+    {
+      "path": "/podcast/a-new-country-with-no-taxes-mark-hamilton",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/podcast/a-new-country-with-no-taxes-mark-hamilton/",
+        "lastmod": "2025-09-23T04:44:50+00:00",
+        "sitemap": "ss_podcast-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/podcast/a-new-country-with-no-taxes-mark-hamilton/",
+        "clicks": 0,
+        "impressions": 6,
+        "ctrPercent": 0,
+        "position": 7.17
+      }
+    },
+    {
+      "path": "/podcast/i-used-luck-to-make-a-fortune-and-you-can-too-the-neothink-mentality",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/podcast/i-used-luck-to-make-a-fortune-and-you-can-too-the-neothink-mentality/",
+        "lastmod": "2025-09-23T04:39:32+00:00",
+        "sitemap": "ss_podcast-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/podcast/i-used-luck-to-make-a-fortune-and-you-can-too-the-neothink-mentality/",
+        "clicks": 0,
+        "impressions": 6,
+        "ctrPercent": 0,
+        "position": 9.67
+      }
+    },
+    {
+      "path": "/the-surprising-reason-neothink-makes-you-irresistible",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/the-surprising-reason-neothink-makes-you-irresistible/",
+        "clicks": 0,
+        "impressions": 6,
+        "ctrPercent": 0,
+        "position": 5.17
+      }
+    },
+    {
+      "path": "/what-to-do-if-youre-having-doubts-about-the-neothink-society",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/what-to-do-if-youre-having-doubts-about-the-neothink-society/",
+        "clicks": 0,
+        "impressions": 6,
+        "ctrPercent": 0,
+        "position": 12
+      }
+    },
+    {
+      "path": "/what-will-shape-the-future-of-humanity-these-powerful-forces-will-define-it",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/what-will-shape-the-future-of-humanity-these-powerful-forces-will-define-it/",
+        "clicks": 0,
+        "impressions": 6,
+        "ctrPercent": 0,
+        "position": 31.33
+      }
+    },
+    {
+      "path": "/youre-being-manipulated-they-use-guilt-to-control-you",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/youre-being-manipulated-they-use-guilt-to-control-you/",
+        "lastmod": "2026-02-11T22:19:52+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/youre-being-manipulated-they-use-guilt-to-control-you/",
+        "clicks": 0,
+        "impressions": 6,
+        "ctrPercent": 0,
+        "position": 4.83
+      }
+    },
+    {
+      "path": "/a-new-country-with-no-taxes",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/a-new-country-with-no-taxes/",
+        "clicks": 0,
+        "impressions": 5,
+        "ctrPercent": 0,
+        "position": 4
+      }
+    },
+    {
+      "path": "/how-to-be-a-leader-the-one-thing-holding-you-back",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/how-to-be-a-leader-the-one-thing-holding-you-back/",
+        "lastmod": "2026-02-13T12:00:00+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/how-to-be-a-leader-the-one-thing-holding-you-back/",
+        "clicks": 0,
+        "impressions": 5,
+        "ctrPercent": 0,
+        "position": 6.2
+      }
+    },
+    {
+      "path": "/keep-the-balance",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/keep-the-balance/",
+        "lastmod": "2026-02-11T00:53:11+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/keep-the-balance/",
+        "clicks": 0,
+        "impressions": 5,
+        "ctrPercent": 0,
+        "position": 5.4
+      }
+    },
+    {
+      "path": "/tag/prime-literature",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/tag/prime-literature/",
+        "clicks": 0,
+        "impressions": 5,
+        "ctrPercent": 0,
+        "position": 9.6
+      }
+    },
+    {
+      "path": "/the-benefits-of-becoming-an-active-neothink-member",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/the-benefits-of-becoming-an-active-neothink-member/",
+        "clicks": 0,
+        "impressions": 5,
+        "ctrPercent": 0,
+        "position": 4.4
+      }
+    },
+    {
+      "path": "/analiz-stavok-vavada-sport-dlia-uvelicheniia-pribyli",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/analiz-stavok-vavada-sport-dlia-uvelicheniia-pribyli/",
+        "clicks": 0,
+        "impressions": 4,
+        "ctrPercent": 0,
+        "position": 36.25
+      }
+    },
+    {
+      "path": "/neothink-mastermind-group-success-stories",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/neothink-mastermind-group-success-stories/",
+        "lastmod": "2026-02-12T16:40:15+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/neothink-mastermind-group-success-stories/",
+        "clicks": 0,
+        "impressions": 4,
+        "ctrPercent": 0,
+        "position": 2.25
+      }
+    },
+    {
+      "path": "/podcast/reprogram-your-mind-to-be-rich-in-1-hour-the-neothink-approach",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/podcast/reprogram-your-mind-to-be-rich-in-1-hour-the-neothink-approach/",
+        "lastmod": "2025-09-23T04:39:58+00:00",
+        "sitemap": "ss_podcast-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/podcast/reprogram-your-mind-to-be-rich-in-1-hour-the-neothink-approach/",
+        "clicks": 0,
+        "impressions": 4,
+        "ctrPercent": 0,
+        "position": 4.5
+      }
+    },
+    {
+      "path": "/soar-beyond-peers",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/soar-beyond-peers/",
+        "lastmod": "2026-02-11T00:33:27+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/soar-beyond-peers/",
+        "clicks": 0,
+        "impressions": 4,
+        "ctrPercent": 0,
+        "position": 8.25
+      }
+    },
+    {
+      "path": "/tag/ten-second-miracle",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/tag/ten-second-miracle/",
+        "clicks": 0,
+        "impressions": 4,
+        "ctrPercent": 0,
+        "position": 19.75
+      }
+    },
+    {
+      "path": "/the-way-9",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/the-way-9/",
+        "lastmod": "2026-03-21T01:15:37+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/the-way-9/",
+        "clicks": 0,
+        "impressions": 4,
+        "ctrPercent": 0,
+        "position": 7.25
+      }
+    },
+    {
+      "path": "/trumps-victory-beginning-new-era",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/trumps-victory-beginning-new-era/",
+        "lastmod": "2026-02-11T14:04:22+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/trumps-victory-beginning-new-era/",
+        "clicks": 0,
+        "impressions": 4,
+        "ctrPercent": 0,
+        "position": 40.5
+      }
+    },
+    {
+      "path": "/who-really-joins-secret-societies-the-truth-behind-the-members",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/who-really-joins-secret-societies-the-truth-behind-the-members/",
+        "clicks": 0,
+        "impressions": 4,
+        "ctrPercent": 0,
+        "position": 60
+      }
+    },
+    {
+      "path": "/a-new-country-the-great-experiment-called-immortalis",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/a-new-country-the-great-experiment-called-immortalis/",
+        "lastmod": "2026-03-14T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml,video-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/a-new-country-the-great-experiment-called-immortalis/",
+        "clicks": 0,
+        "impressions": 3,
+        "ctrPercent": 0,
+        "position": 7.33
+      }
+    },
+    {
+      "path": "/aliens-are-real-but-theyll-never-visit-earth-heres-why",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/aliens-are-real-but-theyll-never-visit-earth-heres-why/",
+        "clicks": 0,
+        "impressions": 3,
+        "ctrPercent": 0,
+        "position": 23
+      }
+    },
+    {
+      "path": "/tag/cure-to-aging",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/tag/cure-to-aging/",
+        "clicks": 0,
+        "impressions": 3,
+        "ctrPercent": 0,
+        "position": 13
+      }
+    },
+    {
+      "path": "/tag/higher-level-thinking",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/tag/higher-level-thinking/",
+        "clicks": 0,
+        "impressions": 3,
+        "ctrPercent": 0,
+        "position": 18.33
+      }
+    },
+    {
+      "path": "/tag/universal-health",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/tag/universal-health/",
+        "clicks": 0,
+        "impressions": 3,
+        "ctrPercent": 0,
+        "position": 16.33
+      }
+    },
+    {
+      "path": "/the-cult-you-never-knew-existed",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/the-cult-you-never-knew-existed/",
+        "lastmod": "2026-03-16T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml,video-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/the-cult-you-never-knew-existed/",
+        "clicks": 0,
+        "impressions": 3,
+        "ctrPercent": 0,
+        "position": 27.67
+      }
+    },
+    {
+      "path": "/unified-field",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/unified-field/",
+        "lastmod": "2026-03-21T03:20:47+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/unified-field/",
+        "clicks": 0,
+        "impressions": 3,
+        "ctrPercent": 0,
+        "position": 2
+      }
+    },
+    {
+      "path": "/are-we-the-illuminati-truth",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/are-we-the-illuminati-truth/",
+        "lastmod": "2026-02-11T13:44:17+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/are-we-the-illuminati-truth/",
+        "clicks": 0,
+        "impressions": 2,
+        "ctrPercent": 0,
+        "position": 2
+      }
+    },
+    {
+      "path": "/excel-at-work-33-practical-tips",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/excel-at-work-33-practical-tips/",
+        "lastmod": "2026-02-06T05:11:03+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/excel-at-work-33-practical-tips/",
+        "clicks": 0,
+        "impressions": 2,
+        "ctrPercent": 0,
+        "position": 42.5
+      }
+    },
+    {
+      "path": "/get-involved",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/get-involved/",
+        "lastmod": "2026-03-21T01:00:44+00:00",
+        "sitemap": "page-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/get-involved/",
+        "clicks": 0,
+        "impressions": 2,
+        "ctrPercent": 0,
+        "position": 11.5
+      }
+    },
+    {
+      "path": "/neothink-21st-century-navigate-challenges",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/neothink-21st-century-navigate-challenges/",
+        "lastmod": "2026-02-06T15:53:34+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/neothink-21st-century-navigate-challenges/",
+        "clicks": 0,
+        "impressions": 2,
+        "ctrPercent": 0,
+        "position": 6
+      }
+    },
+    {
+      "path": "/neothink-manuscripts-from-skepticism-to-multigenerationals-wisdom",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/neothink-manuscripts-from-skepticism-to-multigenerationals-wisdom/",
+        "clicks": 0,
+        "impressions": 2,
+        "ctrPercent": 0,
+        "position": 3
+      }
+    },
+    {
+      "path": "/podcast/a-process-for-finding-achieving-your-lifes-purpose-mark-hamilton-2",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/podcast/a-process-for-finding-achieving-your-lifes-purpose-mark-hamilton-2/",
+        "clicks": 0,
+        "impressions": 2,
+        "ctrPercent": 0,
+        "position": 7
+      }
+    },
+    {
+      "path": "/tag/areas-of-purpose",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/tag/areas-of-purpose/",
+        "clicks": 0,
+        "impressions": 2,
+        "ctrPercent": 0,
+        "position": 39.5
+      }
+    },
+    {
+      "path": "/tag/division-of-essence",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/tag/division-of-essence/",
+        "clicks": 0,
+        "impressions": 2,
+        "ctrPercent": 0,
+        "position": 9
+      }
+    },
+    {
+      "path": "/the-neothink-debate-can-minimal-government-lead-to-maximum-progress",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/the-neothink-debate-can-minimal-government-lead-to-maximum-progress/",
+        "clicks": 0,
+        "impressions": 2,
+        "ctrPercent": 0,
+        "position": 6.5
+      }
+    },
+    {
+      "path": "business.neothink.com/",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://business.neothink.com/",
+        "clicks": 0,
+        "impressions": 2,
+        "ctrPercent": 0,
+        "position": 18.5
+      }
+    },
+    {
+      "path": "/find-happiness-in-retirement",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/find-happiness-in-retirement/",
+        "lastmod": "2026-02-06T05:10:54+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/find-happiness-in-retirement/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 10
+      }
+    },
+    {
+      "path": "/friday-night-essence",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/friday-night-essence/",
+        "lastmod": "2026-02-12T01:57:20+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/friday-night-essence/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 6
+      }
+    },
+    {
+      "path": "/land-based-immortalis",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/land-based-immortalis/",
+        "lastmod": "2026-03-04T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml,video-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/land-based-immortalis/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 2
+      }
+    },
+    {
+      "path": "/money-love-affair",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/money-love-affair/",
+        "lastmod": "2026-02-11T00:41:59+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/money-love-affair/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 2
+      }
+    },
+    {
+      "path": "/neothink-debate-minimal-government",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/neothink-debate-minimal-government/",
+        "lastmod": "2026-02-06T15:53:21+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/neothink-debate-minimal-government/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 1
+      }
+    },
+    {
+      "path": "/neothink-society-why-people-cant-stop-talking-about-it",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/neothink-society-why-people-cant-stop-talking-about-it/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 1
+      }
+    },
+    {
+      "path": "/podcast/a-process-for-finding-achieving-your-lifes-purpose-mark-hamilton",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/podcast/a-process-for-finding-achieving-your-lifes-purpose-mark-hamilton/",
+        "lastmod": "2025-09-23T05:08:57+00:00",
+        "sitemap": "ss_podcast-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/podcast/a-process-for-finding-achieving-your-lifes-purpose-mark-hamilton/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 4
+      }
+    },
+    {
+      "path": "/podcast/aliens-are-real-but-theyll-never-visit-earth-heres-why",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/podcast/aliens-are-real-but-theyll-never-visit-earth-heres-why/",
+        "lastmod": "2025-09-23T04:40:51+00:00",
+        "sitemap": "ss_podcast-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/podcast/aliens-are-real-but-theyll-never-visit-earth-heres-why/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 3
+      }
+    },
+    {
+      "path": "/podcast/freedom-is-the-key-to-unlocking-true-wealth-in-2024-2",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/podcast/freedom-is-the-key-to-unlocking-true-wealth-in-2024-2/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 50
+      }
+    },
+    {
+      "path": "/podcast/freeing-societys-hidden-geniuses-with-elon-musk-2",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/podcast/freeing-societys-hidden-geniuses-with-elon-musk-2/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 29
+      }
+    },
+    {
+      "path": "/podcast/is-trumps-victory-the-beginning-of-a-new-era",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/podcast/is-trumps-victory-the-beginning-of-a-new-era/",
+        "lastmod": "2025-09-23T04:41:13+00:00",
+        "sitemap": "ss_podcast-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/podcast/is-trumps-victory-the-beginning-of-a-new-era/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 1
+      }
+    },
+    {
+      "path": "/podcast/is-trumps-victory-the-beginning-of-a-new-era-2",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/podcast/is-trumps-victory-the-beginning-of-a-new-era-2/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 2
+      }
+    },
+    {
+      "path": "/podcast/the-future-of-humanity-everything-becomes-free-2",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/podcast/the-future-of-humanity-everything-becomes-free-2/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 7
+      }
+    },
+    {
+      "path": "/podcast/think-like-elon-musk-the-mind-hacks-that-build-billion-dollar-empires",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/podcast/think-like-elon-musk-the-mind-hacks-that-build-billion-dollar-empires/",
+        "lastmod": "2025-09-23T05:08:27+00:00",
+        "sitemap": "ss_podcast-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/podcast/think-like-elon-musk-the-mind-hacks-that-build-billion-dollar-empires/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 46
+      }
+    },
+    {
+      "path": "/secret-society-reveals-civilizations-hope",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/secret-society-reveals-civilizations-hope/",
+        "lastmod": "2026-02-11T03:58:00+00:00",
+        "sitemap": "post-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/secret-society-reveals-civilizations-hope/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 2
+      }
+    },
+    {
+      "path": "/tag/calm-parenting",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/tag/calm-parenting/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 32
+      }
+    },
+    {
+      "path": "/tag/curiosity-at-work",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/tag/curiosity-at-work/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 63
+      }
+    },
+    {
+      "path": "/tag/fne",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/tag/fne/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 10
+      }
+    },
+    {
+      "path": "/tag/happiness",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/tag/happiness/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 5
+      }
+    },
+    {
+      "path": "/tag/how-to-raise-a-genius",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/tag/how-to-raise-a-genius/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 28
+      }
+    },
+    {
+      "path": "/tag/human-potential",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/tag/human-potential/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 2
+      }
+    },
+    {
+      "path": "/tag/impact-profits",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/tag/impact-profits/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 3
+      }
+    },
+    {
+      "path": "/tag/power-of-calm",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/tag/power-of-calm/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 38
+      }
+    },
+    {
+      "path": "/tag/self-leader",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/tag/self-leader/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 3
+      }
+    },
+    {
+      "path": "/tag/wealth-building",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/tag/wealth-building/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 5
+      }
+    },
+    {
+      "path": "/tag/work-life-balance",
+      "inSitemap": false,
+      "gsc": {
+        "url": "https://neothink.com/tag/work-life-balance/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 16
+      }
+    },
+    {
+      "path": "/the-beautiful-vs-the-ugly-in-our-world-3",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/the-beautiful-vs-the-ugly-in-our-world-3/",
+        "lastmod": "2026-03-13T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml,video-sitemap.xml"
+      },
+      "gsc": {
+        "url": "https://neothink.com/the-beautiful-vs-the-ugly-in-our-world-3/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 5
+      }
+    },
+    {
+      "path": "/a-society-without-politics-poverty-or-war",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/a-society-without-politics-poverty-or-war/",
+        "lastmod": "2026-02-12T00:47:33+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/ai-purpose-void",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/ai-purpose-void/",
+        "lastmod": "2026-03-24T16:45:30+00:00",
+        "sitemap": "page-sitemap.xml"
+      }
+    },
+    {
+      "path": "/ancient-formula-wealth-influence-neothink",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/ancient-formula-wealth-influence-neothink/",
+        "lastmod": "2026-02-06T05:10:15+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/are-secret-societies-really-secret",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/are-secret-societies-really-secret/",
+        "lastmod": "2026-02-06T05:10:22+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/bicameral-mind",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/bicameral-mind/",
+        "lastmod": "2026-03-24T16:44:46+00:00",
+        "sitemap": "page-sitemap.xml"
+      }
+    },
+    {
+      "path": "/break-bad-habits-transformation-tips",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/break-bad-habits-transformation-tips/",
+        "lastmod": "2026-02-06T05:10:51+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/breaking-the-chains-on-consciousness",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/breaking-the-chains-on-consciousness/",
+        "lastmod": "2026-02-27T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml,video-sitemap.xml"
+      }
+    },
+    {
+      "path": "/building-the-engine-behind-immortalis",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/building-the-engine-behind-immortalis/",
+        "lastmod": "2026-02-21T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml,video-sitemap.xml"
+      }
+    },
+    {
+      "path": "/contact-2",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/contact-2/",
+        "lastmod": "2026-03-21T01:00:11+00:00",
+        "sitemap": "page-sitemap.xml"
+      }
+    },
+    {
+      "path": "/create-maintain-healthy-mindset",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/create-maintain-healthy-mindset/",
+        "lastmod": "2026-02-06T15:49:50+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/cure-to-aging",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/cure-to-aging/",
+        "lastmod": "2026-02-11T00:27:18+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/deal-with-financial-stress",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/deal-with-financial-stress/",
+        "lastmod": "2026-02-06T05:10:49+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/decoding-super-puzzle",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/decoding-super-puzzle/",
+        "lastmod": "2026-03-11T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml,video-sitemap.xml"
+      }
+    },
+    {
+      "path": "/escape-the-matrix-now",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/escape-the-matrix-now/",
+        "lastmod": "2026-02-12T16:40:09+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/feeling-stuck-in-life-how-to-fix",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/feeling-stuck-in-life-how-to-fix/",
+        "lastmod": "2026-02-06T05:10:34+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/find-your-passion-life-career",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/find-your-passion-life-career/",
+        "lastmod": "2026-02-06T05:10:48+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/finding-achieving-your-life-purpose",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/finding-achieving-your-life-purpose/",
+        "lastmod": "2026-02-11T21:41:14+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/finding-purpose-retirement",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/finding-purpose-retirement/",
+        "lastmod": "2026-02-06T05:10:53+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/freeing-hidden-geniuses-elon-musk",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/freeing-hidden-geniuses-elon-musk/",
+        "lastmod": "2026-02-11T19:52:25+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/good-financial-habits-change-life",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/good-financial-habits-change-life/",
+        "lastmod": "2026-02-06T15:49:56+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/higher-level-thinking",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/higher-level-thinking/",
+        "lastmod": "2026-02-10T21:59:32+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/how-every-individual-can-be-wealthy",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/how-every-individual-can-be-wealthy/",
+        "lastmod": "2026-03-15T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml,video-sitemap.xml"
+      }
+    },
+    {
+      "path": "/how-jobs-will-change",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/how-jobs-will-change/",
+        "lastmod": "2026-03-12T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml,video-sitemap.xml"
+      }
+    },
+    {
+      "path": "/how-to-have-fun-as-adult",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/how-to-have-fun-as-adult/",
+        "lastmod": "2026-02-06T15:49:53+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/how-to-raise-a-genius",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/how-to-raise-a-genius/",
+        "lastmod": "2026-02-11T02:58:36+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/illusion-pollution",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/illusion-pollution/",
+        "lastmod": "2026-02-15T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/integrated-thinking",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/integrated-thinking/",
+        "lastmod": "2026-02-12T01:57:43+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/lexicon",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/lexicon/",
+        "lastmod": "2026-03-20T12:46:57+00:00",
+        "sitemap": "page-sitemap.xml"
+      }
+    },
+    {
+      "path": "/libertarians-next-big-possibility",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/libertarians-next-big-possibility/",
+        "lastmod": "2026-03-03T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml,video-sitemap.xml"
+      }
+    },
+    {
+      "path": "/locations.kml",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/locations.kml",
+        "lastmod": "2026-02-12T21:35:04+00:00",
+        "sitemap": "local-sitemap.xml"
+      }
+    },
+    {
+      "path": "/make-money-stay-at-home-mom-2025",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/make-money-stay-at-home-mom-2025/",
+        "lastmod": "2026-02-06T16:01:11+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/mark-hamilton-luck-350-million",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/mark-hamilton-luck-350-million/",
+        "lastmod": "2026-02-11T04:11:49+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/mark-hamilton-visionary-neothink",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/mark-hamilton-visionary-neothink/",
+        "lastmod": "2026-02-06T15:53:37+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/master28",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/master28/",
+        "lastmod": "2026-01-06T19:26:10+00:00",
+        "sitemap": "page-sitemap.xml"
+      }
+    },
+    {
+      "path": "/mont-pelerin-pivot-into-our-essence",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/mont-pelerin-pivot-into-our-essence/",
+        "lastmod": "2026-03-06T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml,video-sitemap.xml"
+      }
+    },
+    {
+      "path": "/neothink-movement-financial-independence",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/neothink-movement-financial-independence/",
+        "lastmod": "2026-02-06T16:01:08+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/neothink-society-path-to-wealth",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/neothink-society-path-to-wealth/",
+        "lastmod": "2026-02-06T15:50:04+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/neothink-society-why-people-cant-stop-talking",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/neothink-society-why-people-cant-stop-talking/",
+        "lastmod": "2026-02-06T15:53:29+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/neothink-twelve-visions-party-truth",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/neothink-twelve-visions-party-truth/",
+        "lastmod": "2026-02-06T15:53:18+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/neothink-unrealistic-too-good-to-be-true",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/neothink-unrealistic-too-good-to-be-true/",
+        "lastmod": "2026-02-06T05:10:16+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/neovia",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/neovia/",
+        "lastmod": "2026-03-21T02:38:09+00:00",
+        "sitemap": "page-sitemap.xml"
+      }
+    },
+    {
+      "path": "/neovia-9",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/neovia-9/",
+        "lastmod": "2026-03-21T01:11:19+00:00",
+        "sitemap": "page-sitemap.xml"
+      }
+    },
+    {
+      "path": "/neovia-case",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/neovia-case/",
+        "lastmod": "2026-03-24T16:45:13+00:00",
+        "sitemap": "page-sitemap.xml"
+      }
+    },
+    {
+      "path": "/never-be-manipulated-again",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/never-be-manipulated-again/",
+        "lastmod": "2026-02-11T16:01:57+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/new-country-with-no-taxes",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/new-country-with-no-taxes/",
+        "lastmod": "2026-02-11T20:58:53+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/not-passionate-about-anything",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/not-passionate-about-anything/",
+        "lastmod": "2026-02-06T15:53:49+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/our-mission",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/our-mission/",
+        "lastmod": "2026-01-06T19:26:12+00:00",
+        "sitemap": "page-sitemap.xml"
+      }
+    },
+    {
+      "path": "/performing-self",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/performing-self/",
+        "lastmod": "2026-03-24T16:43:31+00:00",
+        "sitemap": "page-sitemap.xml"
+      }
+    },
+    {
+      "path": "/philosopher-make-your-life-exciting-again-do-this",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/philosopher-make-your-life-exciting-again-do-this/",
+        "lastmod": "2026-02-12T12:00:00+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/podcast/escape-the-matrix-now-mark-hamilton",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/podcast/escape-the-matrix-now-mark-hamilton/",
+        "lastmod": "2025-09-23T05:10:01+00:00",
+        "sitemap": "ss_podcast-sitemap.xml"
+      }
+    },
+    {
+      "path": "/podcast/freedom-is-the-key-to-unlocking-true-wealth-in-2024",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/podcast/freedom-is-the-key-to-unlocking-true-wealth-in-2024/",
+        "lastmod": "2025-09-23T04:44:26+00:00",
+        "sitemap": "ss_podcast-sitemap.xml"
+      }
+    },
+    {
+      "path": "/podcast/this-is-how-close-we-are-to-biological-immortality-mark-hamilton",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/podcast/this-is-how-close-we-are-to-biological-immortality-mark-hamilton/",
+        "lastmod": "2025-09-23T05:11:46+00:00",
+        "sitemap": "ss_podcast-sitemap.xml"
+      }
+    },
+    {
+      "path": "/podcast/want-to-sell-anything-in-2024-heres-the-secret",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/podcast/want-to-sell-anything-in-2024-heres-the-secret/",
+        "lastmod": "2025-09-23T04:41:59+00:00",
+        "sitemap": "ss_podcast-sitemap.xml"
+      }
+    },
+    {
+      "path": "/podcast/watch-this-to-never-be-manipulated-again",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/podcast/watch-this-to-never-be-manipulated-again/",
+        "lastmod": "2025-09-23T04:41:36+00:00",
+        "sitemap": "ss_podcast-sitemap.xml"
+      }
+    },
+    {
+      "path": "/power-of-calm",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/power-of-calm/",
+        "lastmod": "2026-02-11T01:01:17+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/prime-law",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/prime-law/",
+        "lastmod": "2026-03-21T01:18:01+00:00",
+        "sitemap": "page-sitemap.xml"
+      }
+    },
+    {
+      "path": "/published-work",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/published-work/",
+        "lastmod": "2026-03-21T03:13:14+00:00",
+        "sitemap": "page-sitemap.xml"
+      }
+    },
+    {
+      "path": "/reprogram-mind-to-be-rich",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/reprogram-mind-to-be-rich/",
+        "lastmod": "2026-02-11T04:19:33+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/self-leadership-strategies-empower-yourself",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/self-leadership-strategies-empower-yourself/",
+        "lastmod": "2026-02-06T15:49:58+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/sell-anything-marketing-secret",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/sell-anything-marketing-secret/",
+        "lastmod": "2026-02-11T17:26:58+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/separating-heroes-from-dreamers",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/separating-heroes-from-dreamers/",
+        "lastmod": "2026-02-28T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml,video-sitemap.xml"
+      }
+    },
+    {
+      "path": "/sms-opt-in",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/sms-opt-in/",
+        "lastmod": "2026-01-06T19:26:13+00:00",
+        "sitemap": "page-sitemap.xml"
+      }
+    },
+    {
+      "path": "/soaring-productivity",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/soaring-productivity/",
+        "lastmod": "2026-02-10T22:36:56+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/starting-over-at-50",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/starting-over-at-50/",
+        "lastmod": "2026-02-06T05:10:43+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/strategic-briefing-for-presidents",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/strategic-briefing-for-presidents/",
+        "lastmod": "2026-02-18T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml,video-sitemap.xml"
+      }
+    },
+    {
+      "path": "/terms-and-conditions",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/terms-and-conditions/",
+        "lastmod": "2026-01-06T19:26:13+00:00",
+        "sitemap": "page-sitemap.xml"
+      }
+    },
+    {
+      "path": "/the-2400-year-mistake",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/the-2400-year-mistake/",
+        "lastmod": "2026-02-19T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml,video-sitemap.xml"
+      }
+    },
+    {
+      "path": "/the-future-of-humanity-building-a-new-country-without-rulers",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/the-future-of-humanity-building-a-new-country-without-rulers/",
+        "lastmod": "2026-02-11T22:42:10+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/the-prime-law-mentality",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/the-prime-law-mentality/",
+        "lastmod": "2026-02-10T22:25:05+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/the-secret-to-a-wealthy-healthy-peaceful-country",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/the-secret-to-a-wealthy-healthy-peaceful-country/",
+        "lastmod": "2026-03-01T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml,video-sitemap.xml"
+      }
+    },
+    {
+      "path": "/the-two-obstacles-to-curing-aging",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/the-two-obstacles-to-curing-aging/",
+        "lastmod": "2026-02-25T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml,video-sitemap.xml"
+      }
+    },
+    {
+      "path": "/the-unbreakable-equation",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/the-unbreakable-equation/",
+        "lastmod": "2026-02-14T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/the-way",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/the-way/",
+        "lastmod": "2026-03-21T01:15:32+00:00",
+        "sitemap": "page-sitemap.xml"
+      }
+    },
+    {
+      "path": "/the-year-capitalism-sets-the-world-free",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/the-year-capitalism-sets-the-world-free/",
+        "lastmod": "2026-02-17T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/think-like-elon-musk-mind-hacks",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/think-like-elon-musk-mind-hacks/",
+        "lastmod": "2026-02-11T21:10:35+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/thriving-career-overcoming-burnout",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/thriving-career-overcoming-burnout/",
+        "lastmod": "2026-02-06T15:50:01+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/unified-field-9",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/unified-field-9/",
+        "lastmod": "2026-03-21T01:04:08+00:00",
+        "sitemap": "page-sitemap.xml"
+      }
+    },
+    {
+      "path": "/universal-wealth-secrets-the-solution-exposed",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/universal-wealth-secrets-the-solution-exposed/",
+        "lastmod": "2026-03-02T09:00:00+00:00",
+        "sitemap": "post-sitemap.xml,video-sitemap.xml"
+      }
+    },
+    {
+      "path": "/unleashed",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/unleashed/",
+        "lastmod": "2026-03-21T03:26:07+00:00",
+        "sitemap": "page-sitemap.xml"
+      }
+    },
+    {
+      "path": "/unlock-your-genius",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/unlock-your-genius/",
+        "lastmod": "2026-02-10T22:16:11+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/wealth-engine",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/wealth-engine/",
+        "lastmod": "2026-02-19T03:32:08+00:00",
+        "sitemap": "page-sitemap.xml"
+      }
+    },
+    {
+      "path": "/what-all-philosophies-get-wrong",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/what-all-philosophies-get-wrong/",
+        "lastmod": "2026-02-10T19:44:17+00:00",
+        "sitemap": "post-sitemap.xml,video-sitemap.xml"
+      }
+    },
+    {
+      "path": "/what-is-the-neothink-society",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/what-is-the-neothink-society/",
+        "lastmod": "2026-02-12T16:40:13+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/what-is-the-purpose-of-life",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/what-is-the-purpose-of-life/",
+        "lastmod": "2026-02-06T05:10:37+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/who-joins-secret-societies",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/who-joins-secret-societies/",
+        "lastmod": "2026-02-06T05:10:07+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    },
+    {
+      "path": "/why-neothink-makes-you-irresistible",
+      "inSitemap": true,
+      "inventory": {
+        "url": "https://neothink.com/why-neothink-makes-you-irresistible/",
+        "lastmod": "2026-02-11T20:35:23+00:00",
+        "sitemap": "post-sitemap.xml"
+      }
+    }
+  ]
+}
