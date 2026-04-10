@@ -6,8 +6,8 @@
  * 2. **GSC:** drop Search Console exports under `data/migration/gsc/<date>/`
  *    (see `performance-pages.csv`), then `pnpm migration:merge-gsc` →
  *    `data/migration/url-inventory-gsc-merged.json` (sort by clicks for priority).
- * 3. **Matrix:** add rows below (`sourcePath` = path WP serves). Then wire into
- *    `next.config` `redirects()`.
+ * 3. **Matrix:** add rows below for paths that need review; implemented 301s
+ *    live in `lib/migration/wp-redirects.ts` (imported by `next.config.ts`).
  */
 
 export type RedirectDisposition = "301" | "302" | "410" | "tbd";

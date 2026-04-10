@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { wpRedirects } from "./lib/migration/wp-redirects";
 
 /** Directory containing this config (the Next.js app root). Used to pin Turbopack when multiple lockfiles exist. */
 const projectRoot = path.dirname(fileURLToPath(import.meta.url));
@@ -24,6 +25,7 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      ...wpRedirects,
       {
         source: "/unleashed/download",
         destination: "/unleashed.pdf",
