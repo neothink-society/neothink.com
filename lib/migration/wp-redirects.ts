@@ -63,4 +63,8 @@ export const wpRedirects: Redirect[] = [
     "/what-people-get-wrong-about-neothink-university-and-whats-actually-true",
     "/what-people-get-wrong-neothink-university"
   ),
+  ...slugPair(
+    "/creating-success-stories-with-neothink-mastermind-group",
+    "/neothink-mastermind-group-success-stories"
+  ),
 ];

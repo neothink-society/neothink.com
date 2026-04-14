@@ -68,6 +68,8 @@ export const WP = {
   neothinkMovementFinancialIndependence: "/neothink-movement-financial-independence",
   /** Agency-era article: myths vs reality for Neothink University (WP post `what-people-get-wrong-neothink-university`). */
   whatPeopleGetWrongNeothinkUniversity: "/what-people-get-wrong-neothink-university",
+  /** Agency-era article: mastermind group success framing (WP post `neothink-mastermind-group-success-stories`). */
+  neothinkMastermindGroupSuccessStories: "/neothink-mastermind-group-success-stories",
   /** Direct mail for mailto links where a page route is not used. */
   contactMailto: "mailto:support@neothink.com",
   /** Manuscripts hub — use the same slug WordPress uses for this section. */

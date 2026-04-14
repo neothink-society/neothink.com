@@ -36,6 +36,7 @@
 - [Is the Neothink Society legit?](/is-neothink-society-legit): WordPress-migrated legitimacy primer; canonical path with legacy slug redirect.
 - [Neothink Movement & financial independence](/neothink-movement-financial-independence): WordPress-migrated themes article; canonical path with legacy slug redirect.
 - [What people get wrong about Neothink University](/what-people-get-wrong-neothink-university): WordPress-migrated myth-busting article; canonical path with legacy slug redirect.
+- [Neothink mastermind group success stories](/neothink-mastermind-group-success-stories): WordPress-migrated mastermind article; canonical path with legacy slug redirect.
 
 ## Key Terms
 

@@ -59,6 +59,7 @@ Machine-oriented pointers (human-readable site summary continues below).
 - [Is the Neothink Society legit?](/is-neothink-society-legit): Legitimacy and expectations overview (WordPress migration). Canonical path; a longer legacy slug redirects here.
 - [Neothink Movement & financial independence](/neothink-movement-financial-independence): Themes tied to the Movement and financial independence (WordPress migration). Canonical path; a longer legacy slug redirects here.
 - [What people get wrong about Neothink University](/what-people-get-wrong-neothink-university): Myths vs described reality (WordPress migration). Canonical path; a longer legacy slug redirects here.
+- [Neothink mastermind group success stories](/neothink-mastermind-group-success-stories): Mastermind collaboration and growth (WordPress migration). Canonical path; an older slug redirects here.
 - [FAQ](/faq): Frequently asked questions about the Neothink Society (programs, Project Life, Neothink Country, Ascension)—public context on neothink.com.
 - [Published Work](/published-work): Articles and research from the Institute.
 - [Contact](/contact): Get in touch with the Neothink Institute.
