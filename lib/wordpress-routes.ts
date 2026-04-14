@@ -58,6 +58,8 @@ export const WP = {
   joinNeothinkSocietySecretMeetings: "/join-neothink-society-secret-meetings",
   /** Agency-era article: “secret society” misunderstandings (WP post `neothink-society-clearing-misunderstandings`). */
   neothinkSocietyClearingMisunderstandings: "/neothink-society-clearing-misunderstandings",
+  /** Agency-era article: logic behind Neothink teachings (WP post `mark-hamiltons-neothink-surprising-logic`). */
+  markHamiltonsNeothinkSurprisingLogic: "/mark-hamiltons-neothink-surprising-logic",
   /** Direct mail for mailto links where a page route is not used. */
   contactMailto: "mailto:support@neothink.com",
   /** Manuscripts hub — use the same slug WordPress uses for this section. */

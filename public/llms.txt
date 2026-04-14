@@ -54,6 +54,7 @@ Machine-oriented pointers (human-readable site summary continues below).
 - [How to discern genuine secret society opportunities from fraud](/discern-genuine-secret-society-opportunities): Society-oriented checklist article (WordPress migration). Canonical path.
 - [Secret society invitation letter](/secret-society-invitation-letter): What an invitation can mean and how to assess legitimacy (WordPress migration). Canonical path; an alternate title slug redirects here.
 - [How to join Neothink Society secret meetings](/join-neothink-society-secret-meetings): Member-path orientation article (WordPress migration). Canonical path; an alternate “how-to-join” slug redirects here.
+- [Mark Hamilton’s Neothink: surprising logic](/mark-hamiltons-neothink-surprising-logic): Teachings framed as logic, structure, and creation-driven life (WordPress migration). Canonical path; a longer legacy slug redirects here.
 - [FAQ](/faq): Frequently asked questions about the Neothink Society (programs, Project Life, Neothink Country, Ascension)—public context on neothink.com.
 - [Published Work](/published-work): Articles and research from the Institute.
 - [Contact](/contact): Get in touch with the Neothink Institute.

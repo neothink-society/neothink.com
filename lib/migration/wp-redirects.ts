@@ -43,4 +43,8 @@ export const wpRedirects: Redirect[] = [
     "/neothink-society-clearing-up-the-misunderstandings-about-the-secret-society-neothink",
     "/neothink-society-clearing-misunderstandings"
   ),
+  ...slugPair(
+    "/mark-hamiltons-neothink-the-surprising-logic-behind-its-teachings",
+    "/mark-hamiltons-neothink-surprising-logic"
+  ),
 ];

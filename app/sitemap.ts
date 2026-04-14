@@ -67,6 +67,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.69,
     },
+    {
+      path: "/mark-hamiltons-neothink-surprising-logic",
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    },
     { path: "/neothink-mentality", changeFrequency: "monthly" as const, priority: 0.82 },
     { path: "/rise-from-rut", changeFrequency: "monthly" as const, priority: 0.8 },
     { path: "/freedom-from-rights", changeFrequency: "monthly" as const, priority: 0.8 },

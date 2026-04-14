@@ -31,6 +31,7 @@
 - [Discern genuine secret society opportunities from fraud](/discern-genuine-secret-society-opportunities): WordPress-migrated evaluation checklist; canonical path.
 - [Secret society invitation letter](/secret-society-invitation-letter): WordPress-migrated guide to invitations and legitimacy cues; canonical path with legacy slug redirect.
 - [Join Neothink Society secret meetings](/join-neothink-society-secret-meetings): WordPress-migrated orientation on meetings and membership path; canonical path with legacy slug redirect.
+- [Mark Hamilton’s Neothink: surprising logic](/mark-hamiltons-neothink-surprising-logic): WordPress-migrated article on logic, thinking mode vs following mode, and long-term vision; canonical path with legacy slug redirect.
 
 ## Key Terms
 
