@@ -1,0 +1,69 @@
+/* Article: Is Neothink just another self-help book? */
+
+.shb-page .shb-featured {
+  padding: 0 24px 32px;
+  background: var(--nu-cream);
+  border-bottom: 1px solid var(--nu-border);
+}
+
+.shb-page .shb-featured .shb-hero-image {
+  display: block;
+  max-width: 920px;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid var(--nu-border);
+}
+
+.shb-page .shb-body {
+  padding: 48px 24px 64px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.shb-page .shb-section {
+  margin-bottom: 40px;
+}
+
+.shb-page .shb-section h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(1.35rem, 2.5vw, 1.65rem);
+  font-weight: 500;
+  color: var(--nu-text);
+  margin: 0 0 16px;
+  line-height: 1.25;
+}
+
+.shb-page .shb-section p {
+  margin: 0 0 14px;
+}
+
+.shb-page .shb-section p:last-child {
+  margin-bottom: 0;
+}
+
+.shb-page .nu-prose a {
+  color: var(--nu-gold-deep);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.shb-page .nu-prose a:hover {
+  color: var(--nu-text);
+}
+
+.shb-page .shb-section .shb-list {
+  margin: 0 0 14px;
+  padding-left: 1.25rem;
+  max-width: 720px;
+}
+
+.shb-page .shb-section .shb-list li {
+  margin-bottom: 10px;
+  line-height: 1.65;
+}
+
+.shb-page .shb-section .shb-list li:last-child {
+  margin-bottom: 0;
+}

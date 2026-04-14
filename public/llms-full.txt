@@ -6,6 +6,7 @@
 
 - [The Unified Field](/unified-field): The foundational framework identifying the single structural variable — human consciousness — that determines whether civilizations flourish or collapse.
 - [Neovia](/neovia): A proposed intentional community and charter city designed around the non-aggression principle (Prime Law), serving as the practical application of the Unified Field framework.
+- [Immortalis](/immortalis): Neothink Society vision for “Neothink Country”—freedom, innovation, and flourishing—from digital community toward physical society under the Prime Law. Public context on this site.
 - [The Prime Law](/prime-law): A constitutional framework prohibiting the initiation of force, threat of force, or fraud against any individual's self, property, or contract.
 - [Neothink](/neothink): A cognitive framework for integrated thinking — the capacity to connect disparate domains into a unified causal picture of reality.
 - [The Way](/the-way): A personal development path for removing conditioned patterns and awakening self-directed consciousness.
@@ -19,6 +20,17 @@
 
 - [Unleashed: The Promethean Promise](/unleashed): The complete synthesis of the Unified Field of Conscious Civilization. After fifty years of research, this work identifies the single structural pattern governing every empire, every collapse, and every human destiny in recorded history.
 - [Published Work Archive](/published-work): Articles on civilizational theory, consciousness studies, political philosophy, AI and civilization, and personal development.
+
+## Member programs
+
+- [Neothink University](/neothink-university): Paid program offering of The Neothink Society (private education)—passion, prosperity, mindset, and wellness, with mentoring. Not the Neothink Institute’s free public learning hub on this site.
+- [FAQ](/faq): Society FAQ (programs, Project Life, Neothink Country, Ascension, contact orientation) published on the Institute site.
+- [Neothink Reviews](/neothink-reviews): Member stories hub with sample voices and legacy archive links; Institute-published orientation, not independent review verification.
+- [How Neothink differs from other secret groups](/neothink-secret-society-differs-other-groups): Article contrasting Neothink Society with generic secret-society patterns; canonical on neothink.com.
+- [Clearing up misunderstandings about the ‘Secret Society’](/neothink-society-clearing-misunderstandings): WordPress-migrated Society article on the “secret society” label vs described mission; canonical path with legacy URL redirect.
+- [Discern genuine secret society opportunities from fraud](/discern-genuine-secret-society-opportunities): WordPress-migrated evaluation checklist; canonical path.
+- [Secret society invitation letter](/secret-society-invitation-letter): WordPress-migrated guide to invitations and legitimacy cues; canonical path with legacy slug redirect.
+- [Join Neothink Society secret meetings](/join-neothink-society-secret-meetings): WordPress-migrated orientation on meetings and membership path; canonical path with legacy slug redirect.
 
 ## Key Terms
 

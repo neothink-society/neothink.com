@@ -157,6 +157,36 @@ export function itemListJsonLd(
   };
 }
 
+/**
+ * ItemList of named entities with descriptions (no per-item URL) — e.g. program pillars on a hub page.
+ * Helps search and answer engines recover structured lists that are not separate routes.
+ */
+export function itemListEntitiesJsonLd(opts: {
+  pathname: string;
+  listId: string;
+  name: string;
+  description: string;
+  items: readonly { name: string; description: string }[];
+}): Record<string, unknown> {
+  const pageUrl = `${siteConfig.url}${opts.pathname}`;
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "@id": `${pageUrl}#${opts.listId}`,
+    name: opts.name,
+    description: opts.description,
+    numberOfItems: opts.items.length,
+    itemListElement: opts.items.map((it, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: it.name,
+      description: it.description,
+    })),
+    isPartOf: { "@id": schemaIds.website },
+    publisher: { "@id": schemaIds.organization },
+  };
+}
+
 /** Blog / lesson post (Neothink Mentality series articles). */
 export function blogPostingJsonLd(opts: {
   pathname: string;

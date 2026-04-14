@@ -12,7 +12,8 @@
     "check": "pnpm lint && pnpm typecheck && pnpm build",
     "migration:inventory": "node scripts/fetch-wp-sitemap-inventory.mjs",
     "migration:merge-gsc": "node scripts/merge-gsc-inventory.mjs",
-    "migration:wp-page": "node scripts/wp-fetch-page.mjs"
+    "migration:wp-page": "node scripts/wp-fetch-page.mjs",
+    "migration:nu-testimonials": "node scripts/extract-neothink-university-testimonials.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.3.0",

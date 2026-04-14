@@ -69,6 +69,13 @@ const PUBLIC_CONTENT = [
 
 const SECONDARY = [
   {
+    title: "Neothink University",
+    body:
+      "Paid Neothink Society programs—passion, prosperity, mindset, and wellness—not part of this free public hub.",
+    href: WP.neothinkUniversity,
+    cta: "Learn more",
+  },
+  {
     title: "Get involved",
     body: "Invest, advise, build Neovia, or walk the path beyond public material.",
     href: WP.getInvolved,

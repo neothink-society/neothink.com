@@ -100,6 +100,13 @@ export function GetInvolvedPageContent() {
               <span className="gi-path-num">{path.num}</span>
               <h3>{path.title}</h3>
               <p>{path.body}</p>
+              {path.id === "support" ? (
+                <p className="gi-path-note">
+                  Paid Society program areas are summarized on{" "}
+                  <Link href={WP.neothinkUniversity}>Neothink University</Link> (separate from the Institute’s free public
+                  pages).
+                </p>
+              ) : null}
               <div className="gi-who">{path.who}</div>
               {path.cta.external ? (
                 <a href={path.cta.href} className="gi-path-cta">

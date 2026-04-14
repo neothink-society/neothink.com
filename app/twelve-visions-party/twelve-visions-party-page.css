@@ -1,0 +1,71 @@
+/* Twelve Visions Party — scoped under .nu-page.tvp-page */
+
+.tvp-page .tvp-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.tvp-page .tvp-intro-visual {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.tvp-page .tvp-hero-image,
+.tvp-page .tvp-body-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--nu-border);
+}
+
+.tvp-page .tvp-stone {
+  background: var(--nu-stone);
+}
+
+.tvp-page .tvp-list {
+  margin: 1.25rem 0 0;
+  padding-left: 1.25rem;
+  max-width: 720px;
+}
+
+.tvp-page .tvp-list li {
+  margin-bottom: 0.5rem;
+  line-height: 1.75;
+  color: var(--nu-body);
+}
+
+.tvp-page .tvp-inline-image {
+  margin: 2rem 0;
+}
+
+.tvp-page .tvp-inline-link {
+  color: var(--nu-gold-deep);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 500;
+}
+
+.tvp-page .tvp-inline-link:hover {
+  color: var(--nu-gold);
+}
+
+.tvp-page .nu-prose h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-weight: 300;
+  font-size: clamp(28px, 3.5vw, 44px);
+  color: var(--nu-text);
+  margin-bottom: 1.25rem;
+}
+
+.tvp-page .nu-prose p {
+  color: var(--nu-body);
+  line-height: 1.85;
+  max-width: 720px;
+}

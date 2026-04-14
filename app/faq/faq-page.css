@@ -1,0 +1,55 @@
+/* FAQ hub — extends Neothink University hub tokens (.nu-page) */
+
+.faq-hub-page .faq-visual-band {
+  padding: 0 24px 48px;
+  background: var(--nu-cream);
+  border-bottom: 1px solid var(--nu-border);
+}
+
+.faq-hub-page .faq-visual-inner {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.faq-hub-page .faq-hero-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid var(--nu-border);
+}
+
+.faq-hub-page .faq-grid--topics {
+  grid-template-columns: 1fr;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.faq-hub-page .faq-topic {
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--nu-border);
+  margin-bottom: 28px;
+}
+
+.faq-hub-page .faq-topic:last-child {
+  border-bottom: none;
+}
+
+.faq-hub-page .faq-topic h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 500;
+  color: var(--nu-text);
+  margin: 0 0 16px;
+}
+
+.faq-hub-page .faq-topic-image {
+  margin: 0 0 20px;
+}
+
+.faq-hub-page .faq-topic p {
+  margin: 0 0 14px;
+}
+
+.faq-hub-page .faq-topic p:last-child {
+  margin-bottom: 0;
+}

@@ -1,0 +1,53 @@
+/* Immortalis — extends Neothink University hub tokens (.nu-page) */
+
+.im-page .im-visual-band {
+  padding: 0 24px 48px;
+  background: var(--nu-cream);
+  border-bottom: 1px solid var(--nu-border);
+}
+
+.im-page .im-visual-inner {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.im-page .im-hero-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid var(--nu-border);
+}
+
+.im-page .im-benefits-visual {
+  margin-bottom: 28px;
+}
+
+.im-page .im-benefit-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 720px;
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.75;
+  color: var(--nu-body);
+}
+
+.im-page .im-benefit-list li {
+  padding: 14px 0;
+  border-bottom: 1px solid var(--nu-border);
+}
+
+.im-page .im-benefit-list li:last-child {
+  border-bottom: none;
+}
+
+.im-page .im-benefit-list strong {
+  font-weight: 500;
+  color: var(--nu-text);
+}
+
+.im-page .im-benefit-colon {
+  font-weight: 400;
+}

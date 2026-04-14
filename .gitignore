@@ -25,6 +25,9 @@
 .DS_Store
 *.pem
 
+# Local Playwright CLI review artifacts
+.playwright-cli/
+
 # debug
 npm-debug.log*
 yarn-debug.log*

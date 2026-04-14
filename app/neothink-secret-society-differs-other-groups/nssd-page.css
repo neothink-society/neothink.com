@@ -1,0 +1,54 @@
+/* Long-form article: Neothink vs other secret groups */
+
+.nssd-page .nssd-featured {
+  padding: 0 24px 32px;
+  background: var(--nu-cream);
+  border-bottom: 1px solid var(--nu-border);
+}
+
+.nssd-page .nssd-featured .nssd-hero-image {
+  display: block;
+  max-width: 920px;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid var(--nu-border);
+}
+
+.nssd-page .nssd-body {
+  padding: 48px 24px 64px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.nssd-page .nssd-section {
+  margin-bottom: 40px;
+}
+
+.nssd-page .nssd-section h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(1.35rem, 2.5vw, 1.65rem);
+  font-weight: 500;
+  color: var(--nu-text);
+  margin: 0 0 16px;
+  line-height: 1.25;
+}
+
+.nssd-page .nssd-section p {
+  margin: 0 0 14px;
+}
+
+.nssd-page .nssd-section p:last-child {
+  margin-bottom: 0;
+}
+
+.nssd-page .nu-prose a {
+  color: var(--nu-gold-deep);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.nssd-page .nu-prose a:hover {
+  color: var(--nu-text);
+}

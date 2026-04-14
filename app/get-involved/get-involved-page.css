@@ -162,6 +162,25 @@
   margin-bottom: 16px;
 }
 
+.gi-page .gi-path-note {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.75;
+  color: var(--gi-body);
+  margin: -8px 0 16px;
+}
+
+.gi-page .gi-path-note a {
+  color: var(--gi-text);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.gi-page .gi-path-note a:hover {
+  color: var(--gi-gold);
+}
+
 .gi-page .gi-path .gi-who {
   font-family: var(--font-jost), system-ui, sans-serif;
   font-size: 13px;

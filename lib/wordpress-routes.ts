@@ -8,6 +8,11 @@ export const WP = {
   about: "/about",
   unifiedField: "/unified-field",
   neovia: "/neovia",
+  /**
+   * Immortalis / “Neothink Country” vision page (WordPress slug `immortalis`).
+   * Society-aligned long-range society vision; Institute publishes for public context.
+   */
+  immortalis: "/immortalis",
   primeLaw: "/prime-law",
   neothink: "/neothink",
   theWay: "/the-way",
@@ -20,6 +25,39 @@ export const WP = {
   /** Primary video / podcast channel (linked from `/podcast`). */
   podcastChannel: "https://www.youtube.com/@NeothinkInstitute",
   contact: "/contact",
+  /** Society FAQ hub (WordPress slug `faq`). */
+  faq: "/faq",
+  /** Member reviews / stories hub (WordPress slug `neothink-reviews`). */
+  neothinkReviews: "/neothink-reviews",
+  /** Society events hub (WordPress slug `events`). */
+  events: "/events",
+  /** Society programs overview hub (WordPress slug `programs`). */
+  programs: "/programs",
+  /** Project Life — longevity / health program family (WordPress slug `project-life`). */
+  projectLife: "/project-life",
+  /** Twelve Visions Party — political movement page (WordPress slug `twelve-visions-party`). */
+  twelveVisionsParty: "/twelve-visions-party",
+  /** Public orientation page for the civilizational framework (WordPress slug `the-movement`). */
+  theMovement: "/the-movement",
+  /**
+   * AEO article: Neothink Society vs generic “secret group” narratives (WP post slug `neothink-secret-society-differs-other-groups`).
+   * Legacy long URL is redirected in `wp-redirects.ts`.
+   */
+  secretSocietyDiffers: "/neothink-secret-society-differs-other-groups",
+  /** AEO article: self-help framing (WP post slug `is-neothink-just-another-self-help-book`). */
+  isNeothinkSelfHelpBook: "/is-neothink-just-another-self-help-book",
+  /** Agency-era article: empowering vs challenging (WP post `neothink-society-empowering-and-challenging`). */
+  neothinkSocietyEmpoweringChallenging: "/neothink-society-empowering-challenging",
+  /** Agency-era article: Neothink & TVP (WP post `neothink-twelve-visions-party-truth`). */
+  neothinkTwelveVisionsPartyTruth: "/neothink-twelve-visions-party-truth",
+  /** Agency-era article: fraud vs genuine (WP post `discern-genuine-secret-society-opportunities`). */
+  discernGenuineSecretSociety: "/discern-genuine-secret-society-opportunities",
+  /** Agency-era article: secret society invitation letter (WP post `secret-society-invitation-letter`). */
+  secretSocietyInvitationLetter: "/secret-society-invitation-letter",
+  /** Agency-era article: joining Society secret meetings (WP post `join-neothink-society-secret-meetings`). */
+  joinNeothinkSocietySecretMeetings: "/join-neothink-society-secret-meetings",
+  /** Agency-era article: “secret society” misunderstandings (WP post `neothink-society-clearing-misunderstandings`). */
+  neothinkSocietyClearingMisunderstandings: "/neothink-society-clearing-misunderstandings",
   /** Direct mail for mailto links where a page route is not used. */
   contactMailto: "mailto:support@neothink.com",
   /** Manuscripts hub — use the same slug WordPress uses for this section. */
@@ -27,6 +65,11 @@ export const WP = {
   getInvolved: "/get-involved",
   /** Introductory Neothink Society courses (complimentary on-ramp). */
   freeCourses: "/free-courses",
+  /**
+   * Neothink Society paid programs hub (not free public learning). WordPress slug `neothink-university`.
+   * Distinct from Institute public research / free entry points on this site.
+   */
+  neothinkUniversity: "/neothink-university",
   /**
    * Neothink Mentality course (public). Still served from legacy WordPress HTML until migrated;
    * path matches the live site slug.

@@ -1,0 +1,824 @@
+/* Neothink University — hub layout (scoped under .nu-page) */
+
+.nu-page {
+  --nu-text: #0e0e0e;
+  --nu-body: #4a4540;
+  --nu-muted: #7a7570;
+  --nu-gold: #b8973a;
+  --nu-gold-deep: #8a7030;
+  --nu-cream: #fdfcfa;
+  --nu-stone: #f4f1ec;
+  --nu-border: #e8e3d8;
+  --nu-dark: #0e0e0e;
+}
+
+.nu-page .nu-hero {
+  padding: 160px 48px 100px;
+  text-align: center;
+  border-bottom: 1px solid var(--nu-border);
+  background: var(--nu-cream);
+}
+
+.nu-page .nu-hero-label {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--nu-gold);
+  margin-bottom: 36px;
+  opacity: 0;
+  animation: fcFadeUp 0.8s 0.2s ease forwards;
+}
+
+.nu-page .nu-hero h1 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(40px, 5vw, 72px);
+  font-weight: 300;
+  line-height: 1.1;
+  color: var(--nu-text);
+  max-width: 720px;
+  margin: 0 auto 28px;
+  opacity: 0;
+  animation: fcFadeUp 0.8s 0.4s ease forwards;
+}
+
+.nu-page .nu-hero h1 em {
+  font-style: italic;
+  color: var(--nu-gold-deep);
+}
+
+.nu-page .nu-hero-sub {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.8;
+  color: var(--nu-body);
+  max-width: 640px;
+  margin: 0 auto;
+  opacity: 0;
+  animation: fcFadeUp 0.8s 0.6s ease forwards;
+}
+
+@keyframes fcFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nu-page .nu-hero-label,
+  .nu-page .nu-hero h1,
+  .nu-page .nu-hero-sub {
+    animation: none;
+    opacity: 1;
+  }
+}
+
+.nu-page .nu-reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.nu-page .nu-reveal.nu-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nu-page .nu-reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+.nu-page .nu-section-label {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--nu-gold);
+  margin-bottom: 20px;
+  display: block;
+}
+
+/* Intro + prose */
+.nu-page .nu-intro {
+  padding: 80px 48px;
+  background: var(--nu-cream);
+  border-bottom: 1px solid var(--nu-border);
+}
+
+.nu-page .nu-intro-inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.nu-page .nu-figure {
+  margin: 0 0 32px;
+}
+
+.nu-page .nu-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--nu-border);
+}
+
+.nu-page .nu-prose h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(26px, 2.8vw, 34px);
+  font-weight: 300;
+  line-height: 1.2;
+  color: var(--nu-text);
+  margin: 48px 0 16px;
+}
+
+.nu-page .nu-prose h2:first-child {
+  margin-top: 0;
+}
+
+.nu-page .nu-prose p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.85;
+  color: var(--nu-body);
+  margin: 0 0 16px;
+}
+
+.nu-page .nu-prose ul {
+  margin: 16px 0 0;
+  padding-left: 1.25rem;
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.8;
+  color: var(--nu-body);
+}
+
+.nu-page .nu-prose li {
+  margin-bottom: 10px;
+}
+
+.nu-page .nu-prose strong {
+  font-weight: 500;
+  color: var(--nu-text);
+}
+
+/* Resources */
+.nu-page .nu-resources {
+  padding: 80px 48px;
+  background: var(--nu-stone);
+  border-bottom: 1px solid var(--nu-border);
+}
+
+.nu-page .nu-resources-inner {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.nu-page .nu-resources-header {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto 48px;
+}
+
+.nu-page .nu-resources-header h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(26px, 2.8vw, 36px);
+  font-weight: 300;
+  color: var(--nu-text);
+  margin-bottom: 12px;
+}
+
+.nu-page .nu-resources-header p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.8;
+  color: var(--nu-body);
+  margin: 0;
+}
+
+.nu-page .nu-resource-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  background: var(--nu-border);
+  border: 1px solid var(--nu-border);
+}
+
+.nu-page .nu-resource-card {
+  background: var(--nu-stone);
+  padding: 32px 28px;
+  transition: background 0.2s;
+}
+
+.nu-page .nu-resource-card:hover {
+  background: var(--nu-cream);
+}
+
+.nu-page .nu-resource-card--featured {
+  grid-column: 1 / -1;
+  background: var(--nu-cream);
+  border: 1px solid rgba(184, 151, 58, 0.45);
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+@media (max-width: 900px) {
+  .nu-page .nu-resource-card--featured {
+    grid-column: auto;
+  }
+}
+
+.nu-page .nu-resource-badge {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--nu-gold-deep);
+  display: block;
+  margin-bottom: 10px;
+}
+
+.nu-page .nu-resource-card h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--nu-text);
+  margin: 0 0 10px;
+}
+
+.nu-page .nu-resource-card p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.75;
+  color: var(--nu-body);
+  margin: 0 0 16px;
+}
+
+.nu-page .nu-resource-card a {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--nu-dark);
+  text-decoration: none;
+  border-bottom: 1px solid var(--nu-gold);
+  padding-bottom: 2px;
+}
+
+.nu-page .nu-resource-card a:hover {
+  color: var(--nu-gold);
+}
+
+/* Secondary strip */
+.nu-page .nu-secondary {
+  padding: 72px 48px;
+  background: var(--nu-cream);
+  border-bottom: 1px solid var(--nu-border);
+}
+
+.nu-page .nu-secondary-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nu-page .nu-secondary h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(24px, 2.6vw, 32px);
+  font-weight: 300;
+  color: var(--nu-text);
+  margin: 0 0 12px;
+}
+
+.nu-page .nu-secondary-lead {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.85;
+  color: var(--nu-body);
+  margin: 0 0 36px;
+}
+
+.nu-page .nu-secondary-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: var(--nu-border);
+  border: 1px solid var(--nu-border);
+  text-align: left;
+}
+
+.nu-page .nu-secondary-card {
+  background: var(--nu-cream);
+  padding: 28px 24px;
+}
+
+.nu-page .nu-secondary-card h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--nu-text);
+  margin: 0 0 8px;
+}
+
+.nu-page .nu-secondary-card p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.75;
+  color: var(--nu-body);
+  margin: 0 0 14px;
+}
+
+.nu-page .nu-secondary-card a {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--nu-dark);
+  text-decoration: none;
+  border-bottom: 1px solid var(--nu-gold);
+  padding-bottom: 2px;
+}
+
+.nu-page .nu-secondary-card a:hover {
+  color: var(--nu-gold);
+}
+
+/* About (prose) */
+.nu-page .nu-about {
+  padding: 80px 48px;
+  background: var(--nu-cream);
+  border-bottom: 1px solid var(--nu-border);
+}
+
+.nu-page .nu-about-inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/* FAQ (visible copy = FAQPage JSON-LD) */
+.nu-page .nu-faq {
+  padding: 80px 48px;
+  background: var(--nu-stone);
+  border-bottom: 1px solid var(--nu-border);
+}
+
+.nu-page .nu-faq-inner {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.nu-page .nu-faq h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(26px, 2.8vw, 36px);
+  font-weight: 300;
+  color: var(--nu-text);
+  text-align: center;
+  margin: 0 0 12px;
+}
+
+.nu-page .nu-faq-lead {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.8;
+  color: var(--nu-body);
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto 40px;
+}
+
+.nu-page .nu-faq-lead a {
+  color: var(--nu-dark);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.nu-page .nu-faq-lead a:hover {
+  color: var(--nu-gold-deep);
+}
+
+.nu-page .nu-faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.nu-page .nu-faq-grid article {
+  background: var(--nu-cream);
+  border: 1px solid var(--nu-border);
+  border-radius: 6px;
+  padding: 22px 20px;
+}
+
+.nu-page .nu-faq-grid h3 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--nu-text);
+  margin: 0 0 10px;
+  line-height: 1.35;
+}
+
+.nu-page .nu-faq-grid p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.75;
+  color: var(--nu-body);
+  margin: 0;
+}
+
+/* Why Society — wider grid */
+.nu-page .nu-why {
+  padding: 72px 48px;
+  background: var(--nu-stone);
+  border-bottom: 1px solid var(--nu-border);
+}
+
+.nu-page .nu-why .nu-secondary-inner {
+  max-width: 960px;
+}
+
+.nu-page .nu-why-foot {
+  margin-top: 28px;
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.75;
+  color: var(--nu-body);
+}
+
+.nu-page .nu-why-foot a {
+  color: var(--nu-dark);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.nu-page .nu-why-foot a:hover {
+  color: var(--nu-gold-deep);
+}
+
+/* Testimonials */
+.nu-page .nu-testimonials {
+  padding: 80px 48px;
+  background: var(--nu-cream);
+  border-bottom: 1px solid var(--nu-border);
+}
+
+.nu-page .nu-testimonials-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.nu-page .nu-carousel {
+  margin-top: 8px;
+}
+
+.nu-page .nu-carousel-region {
+  outline: none;
+}
+
+.nu-page .nu-carousel-region:focus-visible {
+  box-shadow: 0 0 0 2px var(--nu-cream), 0 0 0 4px var(--nu-gold);
+  border-radius: 4px;
+}
+
+.nu-page .nu-carousel-viewport {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-color: var(--nu-gold-deep) var(--nu-stone);
+  scrollbar-width: thin;
+  border: 1px solid var(--nu-border);
+  border-radius: 6px;
+  background: var(--nu-stone);
+}
+
+.nu-page .nu-carousel-viewport--reduced {
+  scroll-behavior: auto;
+}
+
+.nu-page .nu-carousel-track {
+  display: flex;
+}
+
+.nu-page .nu-carousel-slide {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  box-sizing: border-box;
+  padding: 20px 20px 24px;
+}
+
+.nu-page .nu-carousel-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  margin-top: 20px;
+}
+
+.nu-page .nu-carousel-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--nu-border);
+  background: var(--nu-cream);
+  color: var(--nu-dark);
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.nu-page .nu-carousel-btn:hover {
+  border-color: var(--nu-gold);
+  color: var(--nu-gold-deep);
+}
+
+.nu-page .nu-carousel-btn:focus-visible {
+  outline: 2px solid var(--nu-gold);
+  outline-offset: 2px;
+}
+
+.nu-page .nu-carousel-btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.nu-page .nu-carousel-counter {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: var(--nu-muted);
+  min-width: 4.5rem;
+  text-align: center;
+}
+
+.nu-page .nu-carousel-autoplay {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: transparent;
+  color: var(--nu-gold-deep);
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.nu-page .nu-carousel-autoplay:focus-visible {
+  outline: 2px solid var(--nu-gold);
+  outline-offset: 2px;
+}
+
+.nu-page .nu-carousel-dots-wrap {
+  margin-top: 16px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+
+.nu-page .nu-carousel-dots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  min-height: 12px;
+}
+
+.nu-page .nu-carousel-dot {
+  width: 9px;
+  height: 9px;
+  padding: 0;
+  border: 1px solid var(--nu-border);
+  border-radius: 50%;
+  background: var(--nu-cream);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background 0.15s, transform 0.15s;
+}
+
+.nu-page .nu-carousel-dot:hover {
+  border-color: var(--nu-gold);
+}
+
+.nu-page .nu-carousel-dot:focus-visible {
+  outline: 2px solid var(--nu-gold);
+  outline-offset: 2px;
+}
+
+.nu-page .nu-carousel-dot--active {
+  background: var(--nu-gold);
+  border-color: var(--nu-gold-deep);
+  transform: scale(1.15);
+}
+
+.nu-page .nu-testimonial-card {
+  background: var(--nu-cream);
+  border: 1px solid var(--nu-border);
+  padding: 24px;
+  border-radius: 6px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.nu-page .nu-testimonial-card-head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 12px;
+}
+
+.nu-page .nu-testimonial-avatar {
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.nu-page .nu-testimonial-avatar--placeholder {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--nu-gold-deep);
+  background: var(--nu-stone);
+  border: 1px solid var(--nu-border);
+}
+
+.nu-page .nu-testimonial-name-block {
+  min-width: 0;
+}
+
+.nu-page .nu-testimonial-name {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+  color: var(--nu-text);
+}
+
+.nu-page .nu-testimonial-subtitle {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--nu-muted);
+  margin: 4px 0 0;
+}
+
+.nu-page .nu-testimonial-excerpt {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.75;
+  color: var(--nu-body);
+  margin: 0 0 8px;
+}
+
+.nu-page .nu-testimonial-details summary {
+  cursor: pointer;
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--nu-gold-deep);
+  list-style: none;
+}
+
+.nu-page .nu-testimonial-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.nu-page .nu-testimonial-full {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--nu-border);
+}
+
+.nu-page .nu-testimonial-full p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.75;
+  color: var(--nu-body);
+  margin: 0 0 10px;
+}
+
+.nu-page .nu-testimonial-full p:last-child {
+  margin-bottom: 0;
+}
+
+/* CTA */
+.nu-page .nu-cta {
+  padding: 80px 48px 120px;
+  background: var(--nu-cream);
+  text-align: center;
+}
+
+.nu-page .nu-cta-inner {
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+.nu-page .nu-cta h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(24px, 2.6vw, 32px);
+  font-weight: 300;
+  color: var(--nu-text);
+  margin-bottom: 16px;
+}
+
+.nu-page .nu-cta p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.85;
+  color: var(--nu-body);
+  margin-bottom: 28px;
+}
+
+.nu-page .nu-cta-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px 20px;
+}
+
+.nu-page .nu-cta-links a {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--nu-dark);
+  text-decoration: none;
+  border-bottom: 1px solid var(--nu-gold);
+  padding-bottom: 2px;
+}
+
+.nu-page .nu-cta-links a:hover {
+  color: var(--nu-gold);
+}
+
+@media (max-width: 900px) {
+  .nu-page .nu-hero {
+    padding: 140px 24px 80px;
+  }
+
+  .nu-page .nu-intro,
+  .nu-page .nu-resources,
+  .nu-page .nu-secondary,
+  .nu-page .nu-cta {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .nu-page .nu-resource-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .nu-page .nu-secondary-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .nu-page .nu-about,
+  .nu-page .nu-faq,
+  .nu-page .nu-why,
+  .nu-page .nu-testimonials {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .nu-page .nu-faq-grid {
+    grid-template-columns: 1fr;
+  }
+}

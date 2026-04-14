@@ -23,6 +23,11 @@
  *   pnpm migration:wp-page -- --slug power-of-calm --post --out migration/source/power-of-calm.html
  *   pnpm migration:wp-page -- --id 494
  *   pnpm migration:wp-page -- --slug free-courses --out migration/source/free-courses.html
+ *   pnpm migration:wp-page -- --slug neothink-university --out migration/source/neothink-university.html
+ *   pnpm migration:wp-page -- --slug immortalis --out migration/source/immortalis.html
+ *   pnpm migration:wp-page -- --slug faq --out migration/source/faq.html
+ *   pnpm migration:wp-page -- --slug neothink-reviews --out migration/source/neothink-reviews.html
+ *   pnpm migration:wp-page -- --post --slug neothink-secret-society-differs-other-groups --out migration/source/neothink-secret-society-differs-other-groups.html
  *
  * Use `--post` for WordPress *posts* (e.g. Neothink Mentality lessons). Default is `pages`.
  *

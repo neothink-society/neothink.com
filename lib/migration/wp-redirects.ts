@@ -17,6 +17,10 @@ function slugPair(sourceBase: string, destination: string): Redirect[] {
 }
 
 export const wpRedirects: Redirect[] = [
+  ...slugPair(
+    "/how-the-neothink-secret-society-differs-from-other-secret-groups",
+    "/neothink-secret-society-differs-other-groups"
+  ),
   ...slugPair("/about-us", "/about"),
   ...slugPair("/the-prime-law", "/prime-law"),
   ...slugPair("/prime-law-5", "/prime-law"),
@@ -29,4 +33,14 @@ export const wpRedirects: Redirect[] = [
   ...slugPair("/books", "/manuscripts"),
   ...slugPair("/neothink-mentality-a-new-way-to-look-at-life-and-work", "/neothink-mentality"),
   ...slugPair("/neothink-mentality-new-way-life-work", "/neothink-mentality"),
+  ...slugPair("/neothink-coaching-programs", "/programs"),
+  ...slugPair(
+    "/secret-society-invitation-have-you-received-this-letter-what-does-it-mean",
+    "/secret-society-invitation-letter"
+  ),
+  ...slugPair("/how-to-join-neothink-society-secret-meetings", "/join-neothink-society-secret-meetings"),
+  ...slugPair(
+    "/neothink-society-clearing-up-the-misunderstandings-about-the-secret-society-neothink",
+    "/neothink-society-clearing-misunderstandings"
+  ),
 ];

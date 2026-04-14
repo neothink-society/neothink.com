@@ -20,6 +20,7 @@ Machine-oriented pointers (human-readable site summary continues below).
 
 - [The Unified Field](/unified-field): The foundational framework identifying the single structural variable — human consciousness — that determines whether civilizations flourish or collapse.
 - [Neovia](/neovia): A proposed intentional community and charter city designed around the non-aggression principle (Prime Law), serving as the practical application of the Unified Field framework.
+- [Immortalis](/immortalis): Neothink Society vision for “Neothink Country”—freedom, innovation, and flourishing—described as evolving from digital community toward physical society under the Prime Law. Public context on this site; not a substitute for legal or membership documents.
 - [The Prime Law](/prime-law): A constitutional framework prohibiting the initiation of force, threat of force, or fraud against any individual's self, property, or contract.
 - [Neothink](/neothink): A cognitive framework for integrated thinking — the capacity to connect disparate domains into a unified causal picture of reality.
 - [The Way](/the-way): A personal development path for removing conditioned patterns and awakening self-directed consciousness.
@@ -34,6 +35,11 @@ Machine-oriented pointers (human-readable site summary continues below).
 - [Unleashed: The Promethean Promise](/unleashed): The complete synthesis of the Unified Field of Conscious Civilization. After fifty years of research, this work identifies the single structural pattern governing every empire, every collapse, and every human destiny in recorded history.
 - [Published Work Archive](/published-work): Articles on civilizational theory, consciousness studies, political philosophy, AI and civilization, and personal development.
 
+## Member programs
+
+- [Neothink University](/neothink-university): Paid program offering of The Neothink Society (private education)—passion, prosperity, mindset, and wellness, with mentoring. Not the Neothink Institute’s free public learning hub on this site.
+- [Neothink Reviews](/neothink-reviews): Member-submitted stories and a sample carousel of voices; links to larger legacy archives off-site. Not third-party verified ratings—public context on neothink.com.
+
 ## Key Terms
 
 - Bicameral Mind: The pre-conscious cognitive structure theorized by Julian Jaynes, which the Unified Field framework extends to explain civilization's structural error.
@@ -43,5 +49,11 @@ Machine-oriented pointers (human-readable site summary continues below).
 
 ## Optional
 
+- [How Neothink differs from other secret groups](/neothink-secret-society-differs-other-groups): Public article contrasting Neothink Society patterns with generic “secret society” narratives (AEO). Canonical path; a longer legacy URL redirects here.
+- [Clearing up misunderstandings about the ‘Secret Society’](/neothink-society-clearing-misunderstandings): Society-oriented article (WordPress migration) on rumors vs empowerment framing. Canonical path; a longer legacy URL redirects here.
+- [How to discern genuine secret society opportunities from fraud](/discern-genuine-secret-society-opportunities): Society-oriented checklist article (WordPress migration). Canonical path.
+- [Secret society invitation letter](/secret-society-invitation-letter): What an invitation can mean and how to assess legitimacy (WordPress migration). Canonical path; an alternate title slug redirects here.
+- [How to join Neothink Society secret meetings](/join-neothink-society-secret-meetings): Member-path orientation article (WordPress migration). Canonical path; an alternate “how-to-join” slug redirects here.
+- [FAQ](/faq): Frequently asked questions about the Neothink Society (programs, Project Life, Neothink Country, Ascension)—public context on neothink.com.
 - [Published Work](/published-work): Articles and research from the Institute.
 - [Contact](/contact): Get in touch with the Neothink Institute.

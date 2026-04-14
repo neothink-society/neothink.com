@@ -50,6 +50,7 @@ const RESOURCE_LINKS = [
   { href: WP.manuscripts, label: "Manuscripts" },
   { href: WP.publishedWork, label: "Published Work" },
   { href: WP.podcast, label: "Podcast" },
+  { href: WP.neothinkUniversity, label: "Neothink University" },
   { href: WP.getInvolved, label: "Get Involved" },
   { href: WP.contact, label: "Contact" },
 ] as const;
@@ -165,6 +166,11 @@ export function AboutPageContent() {
           <p className="ab-reveal ab-para">
             Teaching is grounded in the Neothink idea system: decades of research and application, practical tools
             where they serve the framework, and community so that no one has to integrate this alone.
+          </p>
+          <p className="ab-reveal ab-para">
+            Paid program areas—including passion, prosperity, mindset, and wellness—are outlined on{" "}
+            <Link href={WP.neothinkUniversity}>Neothink University</Link>, a Neothink Society offering (not the
+            Institute’s free public material on this site).
           </p>
         </div>
       </section>

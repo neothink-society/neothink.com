@@ -10,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/unleashed", changeFrequency: "monthly" as const, priority: 0.9 },
     { path: "/neothink", changeFrequency: "monthly" as const, priority: 0.9 },
     { path: "/neovia", changeFrequency: "monthly" as const, priority: 0.9 },
+    { path: "/immortalis", changeFrequency: "monthly" as const, priority: 0.82 },
     { path: "/about", changeFrequency: "monthly" as const, priority: 0.88 },
     { path: "/mark-hamilton", changeFrequency: "monthly" as const, priority: 0.8 },
     { path: "/unified-field", changeFrequency: "monthly" as const, priority: 0.9 },
@@ -19,6 +20,53 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/prime-law", changeFrequency: "monthly" as const, priority: 0.8 },
     { path: "/get-involved", changeFrequency: "monthly" as const, priority: 0.75 },
     { path: "/free-courses", changeFrequency: "monthly" as const, priority: 0.78 },
+    { path: "/neothink-university", changeFrequency: "monthly" as const, priority: 0.77 },
+    { path: "/neothink-reviews", changeFrequency: "monthly" as const, priority: 0.76 },
+    { path: "/events", changeFrequency: "monthly" as const, priority: 0.77 },
+    { path: "/programs", changeFrequency: "monthly" as const, priority: 0.74 },
+    { path: "/project-life", changeFrequency: "monthly" as const, priority: 0.74 },
+    { path: "/twelve-visions-party", changeFrequency: "monthly" as const, priority: 0.76 },
+    { path: "/the-movement", changeFrequency: "monthly" as const, priority: 0.76 },
+    {
+      path: "/neothink-secret-society-differs-other-groups",
+      changeFrequency: "monthly" as const,
+      priority: 0.74,
+    },
+    {
+      path: "/is-neothink-just-another-self-help-book",
+      changeFrequency: "monthly" as const,
+      priority: 0.72,
+    },
+    {
+      path: "/neothink-society-empowering-challenging",
+      changeFrequency: "monthly" as const,
+      priority: 0.71,
+    },
+    {
+      path: "/neothink-twelve-visions-party-truth",
+      changeFrequency: "monthly" as const,
+      priority: 0.71,
+    },
+    {
+      path: "/discern-genuine-secret-society-opportunities",
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    },
+    {
+      path: "/secret-society-invitation-letter",
+      changeFrequency: "monthly" as const,
+      priority: 0.69,
+    },
+    {
+      path: "/join-neothink-society-secret-meetings",
+      changeFrequency: "monthly" as const,
+      priority: 0.69,
+    },
+    {
+      path: "/neothink-society-clearing-misunderstandings",
+      changeFrequency: "monthly" as const,
+      priority: 0.69,
+    },
     { path: "/neothink-mentality", changeFrequency: "monthly" as const, priority: 0.82 },
     { path: "/rise-from-rut", changeFrequency: "monthly" as const, priority: 0.8 },
     { path: "/freedom-from-rights", changeFrequency: "monthly" as const, priority: 0.8 },
@@ -36,6 +84,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/power-of-calm", changeFrequency: "monthly" as const, priority: 0.8 },
     { path: "/podcast", changeFrequency: "monthly" as const, priority: 0.75 },
     { path: "/contact", changeFrequency: "monthly" as const, priority: 0.8 },
+    { path: "/faq", changeFrequency: "monthly" as const, priority: 0.79 },
   ];
 
   return routes.map((route) => ({

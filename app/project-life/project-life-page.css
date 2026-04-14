@@ -1,0 +1,71 @@
+/* Project Life — scoped under .nu-page.plife-page */
+
+.plife-page .plife-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.plife-page .plife-intro-visual {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.plife-page .plife-hero-image,
+.plife-page .plife-body-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--nu-border);
+}
+
+.plife-page .plife-inline-image {
+  margin: 1.25rem 0 1.5rem;
+}
+
+.plife-page .plife-stone {
+  background: var(--nu-stone);
+}
+
+.plife-page .plife-list {
+  margin: 1.25rem 0 0;
+  padding-left: 1.25rem;
+  max-width: 720px;
+}
+
+.plife-page .plife-list li {
+  margin-bottom: 0.75rem;
+  line-height: 1.75;
+  color: var(--nu-body);
+}
+
+.plife-page .plife-inline-link {
+  color: var(--nu-gold-deep);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 500;
+}
+
+.plife-page .plife-inline-link:hover {
+  color: var(--nu-gold);
+}
+
+.plife-page .nu-prose h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-weight: 300;
+  font-size: clamp(28px, 3.5vw, 44px);
+  color: var(--nu-text);
+  margin-bottom: 1.25rem;
+}
+
+.plife-page .nu-prose p {
+  color: var(--nu-body);
+  line-height: 1.85;
+  max-width: 720px;
+}

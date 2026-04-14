@@ -1,0 +1,11 @@
+/* Neothink Reviews hub — token hooks under .nu-page.nr-page */
+
+.nr-page .nu-resource-card h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nr-page .nu-resource-card h3 a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

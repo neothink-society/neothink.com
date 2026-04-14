@@ -23,6 +23,7 @@ export const FOOTER_COLUMNS: readonly FooterColumn[] = [
       { href: WP.neothink, name: "Neothink" },
       { href: WP.theWay, name: "The Way" },
       { href: WP.neovia, name: "Neovia" },
+      { href: WP.immortalis, name: "Immortalis" },
     ],
   },
   {
@@ -31,6 +32,7 @@ export const FOOTER_COLUMNS: readonly FooterColumn[] = [
       { href: WP.about, name: "About" },
       { href: WP.markHamilton, name: "Mark Hamilton" },
       { href: WP.contact, name: "Contact" },
+      { href: WP.faq, name: "FAQ" },
     ],
   },
   {
@@ -38,6 +40,13 @@ export const FOOTER_COLUMNS: readonly FooterColumn[] = [
     links: [
       { href: WP.unleashed, name: "Unleashed" },
       { href: WP.freeCourses, name: "Free learning" },
+      { href: WP.neothinkUniversity, name: "Neothink University" },
+      { href: WP.programs, name: "Programs" },
+      { href: WP.projectLife, name: "Project Life" },
+      { href: WP.neothinkReviews, name: "Neothink Reviews" },
+      { href: WP.events, name: "Events" },
+      { href: WP.twelveVisionsParty, name: "Twelve Visions Party" },
+      { href: WP.theMovement, name: "The Movement" },
       { href: WP.publishedWork, name: "Published Work" },
       { href: WP.manuscripts, name: "Manuscripts" },
       { href: WP.podcast, name: "Podcast & video" },
@@ -61,7 +70,7 @@ export function getFooterNavigationItemListSchema(): JsonLd {
     "@id": schemaIds.footerNavigation,
     name: "Neothink Institute — primary site sections (footer)",
     description:
-      "Topic-grouped navigation to the Unified Field, Prime Law, Neothink, The Way, Neovia, institute pages, library, free learning hub, and participation.",
+      "Topic-grouped navigation to the Unified Field, Prime Law, Neothink, The Way, Neovia, Immortalis, institute pages, FAQ, library, free learning hub, Neothink University, Programs and Project Life hubs, Neothink Reviews (member stories), Society events, Twelve Visions Party, and participation.",
     numberOfItems: flat.length,
     itemListElement: flat.map((link, i) => ({
       "@type": "ListItem",
