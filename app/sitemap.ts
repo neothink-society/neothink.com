@@ -82,6 +82,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.71,
     },
+    {
+      path: "/neothink-movement-financial-independence",
+      changeFrequency: "monthly" as const,
+      priority: 0.71,
+    },
+    {
+      path: "/what-people-get-wrong-neothink-university",
+      changeFrequency: "monthly" as const,
+      priority: 0.71,
+    },
     { path: "/neothink-mentality", changeFrequency: "monthly" as const, priority: 0.82 },
     { path: "/rise-from-rut", changeFrequency: "monthly" as const, priority: 0.8 },
     { path: "/freedom-from-rights", changeFrequency: "monthly" as const, priority: 0.8 },

@@ -64,6 +64,10 @@ export const WP = {
   truthAboutNeothinkSociety: "/truth-about-neothink-society",
   /** Agency-era article: legitimacy FAQ-style (WP post `is-neothink-society-legit`). */
   isNeothinkSocietyLegit: "/is-neothink-society-legit",
+  /** Agency-era article: Movement & financial independence (WP post `neothink-movement-financial-independence`). */
+  neothinkMovementFinancialIndependence: "/neothink-movement-financial-independence",
+  /** Agency-era article: myths vs reality for Neothink University (WP post `what-people-get-wrong-neothink-university`). */
+  whatPeopleGetWrongNeothinkUniversity: "/what-people-get-wrong-neothink-university",
   /** Direct mail for mailto links where a page route is not used. */
   contactMailto: "mailto:support@neothink.com",
   /** Manuscripts hub — use the same slug WordPress uses for this section. */

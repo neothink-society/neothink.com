@@ -34,6 +34,8 @@
 - [Mark Hamilton’s Neothink: surprising logic](/mark-hamiltons-neothink-surprising-logic): WordPress-migrated article on logic, thinking mode vs following mode, and long-term vision; canonical path with legacy slug redirect.
 - [Truth about the Neothink Society](/truth-about-neothink-society): WordPress-migrated reviews and fact-vs-fiction orientation; canonical path with legacy slug redirect.
 - [Is the Neothink Society legit?](/is-neothink-society-legit): WordPress-migrated legitimacy primer; canonical path with legacy slug redirect.
+- [Neothink Movement & financial independence](/neothink-movement-financial-independence): WordPress-migrated themes article; canonical path with legacy slug redirect.
+- [What people get wrong about Neothink University](/what-people-get-wrong-neothink-university): WordPress-migrated myth-busting article; canonical path with legacy slug redirect.
 
 ## Key Terms
 

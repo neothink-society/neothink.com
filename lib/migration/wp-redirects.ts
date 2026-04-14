@@ -55,4 +55,12 @@ export const wpRedirects: Redirect[] = [
     "/is-the-neothink-society-legit-everything-you-need-to-know",
     "/is-neothink-society-legit"
   ),
+  ...slugPair(
+    "/how-the-neothink-movement-empowers-financial-independence",
+    "/neothink-movement-financial-independence"
+  ),
+  ...slugPair(
+    "/what-people-get-wrong-about-neothink-university-and-whats-actually-true",
+    "/what-people-get-wrong-neothink-university"
+  ),
 ];
