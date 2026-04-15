@@ -193,6 +193,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.73,
     },
     {
+      path: "/a-new-country-the-great-experiment-called-immortalis",
+      changeFrequency: "monthly" as const,
+      priority: 0.73,
+    },
+    {
+      path: "/the-beautiful-vs-the-ugly-in-our-world-3",
+      changeFrequency: "monthly" as const,
+      priority: 0.73,
+    },
+    {
+      path: "/how-jobs-will-change",
+      changeFrequency: "monthly" as const,
+      priority: 0.73,
+    },
+    {
       path: "/friday-night-essence",
       changeFrequency: "monthly" as const,
       priority: 0.74,

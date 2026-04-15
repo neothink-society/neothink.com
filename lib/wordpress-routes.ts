@@ -132,6 +132,12 @@ export const WP = {
   theCultYouNeverKnewExisted: "/the-cult-you-never-knew-existed",
   /** Neothink Philosophy: ruling class removal and network state (WP post `how-every-individual-can-be-wealthy`). */
   howEveryIndividualCanBeWealthy: "/how-every-individual-can-be-wealthy",
+  /** Neothink Philosophy: Immortalis as new country, protection-only government (WP post `a-new-country-the-great-experiment-called-immortalis`). */
+  aNewCountryTheGreatExperimentCalledImmortalis: "/a-new-country-the-great-experiment-called-immortalis",
+  /** Neothink Philosophy: value creators vs. value destroyers (WP post `the-beautiful-vs-the-ugly-in-our-world-3`). */
+  theBeautifulVsTheUglyInOurWorld3: "/the-beautiful-vs-the-ugly-in-our-world-3",
+  /** Neothink Philosophy: jobs of labor vs. mind, automation, super puzzles (WP post `how-jobs-will-change`). */
+  howJobsWillChange: "/how-jobs-will-change",
   /** Neothink Mentality lesson 3 (post). */
   beyondTunnelVision: "/beyond-tunnel-vision",
   /** Neothink Mentality lesson 4 (post). */

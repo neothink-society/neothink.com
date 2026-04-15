@@ -21,8 +21,10 @@ export const NEOTHINK_PHILOSOPHY_CATEGORY_SEO_DESCRIPTION =
 /** Slugs that have a dedicated Next.js route at `/${slug}`. */
 export const NEOTHINK_PHILOSOPHY_MIGRATED_SLUGS: ReadonlySet<string> = new Set([
   "a-knight-in-shining-armor-immortalis",
+  "a-new-country-the-great-experiment-called-immortalis",
   "breaking-the-chains-on-consciousness",
   "how-every-individual-can-be-wealthy",
+  "how-jobs-will-change",
   "how-neothink-brings-you-world-of-prosperity",
   "immortalis-the-great-experiment-of-our-time",
   "land-based-immortalis",
@@ -30,6 +32,7 @@ export const NEOTHINK_PHILOSOPHY_MIGRATED_SLUGS: ReadonlySet<string> = new Set([
   "mark-hamiltons-story",
   "mont-pelerin-pivot-into-our-essence",
   "the-city-that-cures-disease-neovia",
+  "the-beautiful-vs-the-ugly-in-our-world-3",
   "the-cult-you-never-knew-existed",
   "the-grand-experiment-of-our-time",
   "the-greatest-mental-breakthrough",

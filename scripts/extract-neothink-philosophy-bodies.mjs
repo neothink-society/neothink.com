@@ -53,6 +53,10 @@ const PATH_MAP = {
   "/how-neothink-brings-you-world-of-prosperity": "/how-neothink-brings-you-world-of-prosperity",
   "/the-cult-you-never-knew-existed": "/the-cult-you-never-knew-existed",
   "/how-every-individual-can-be-wealthy": "/how-every-individual-can-be-wealthy",
+  "/a-new-country-the-great-experiment-called-immortalis":
+    "/a-new-country-the-great-experiment-called-immortalis",
+  "/the-beautiful-vs-the-ugly-in-our-world-3": "/the-beautiful-vs-the-ugly-in-our-world-3",
+  "/how-jobs-will-change": "/how-jobs-will-change",
 };
 
 function norm(p) {
@@ -238,6 +242,27 @@ const jobs = [
     outFile: "lib/how-every-individual-can-be-wealthy-body-html.ts",
     startId: "e735828",
     endId: "48574aa",
+  },
+  {
+    slug: "a-new-country-the-great-experiment-called-immortalis",
+    constName: "A_NEW_COUNTRY_THE_GREAT_EXPERIMENT_CALLED_IMMORTALIS_BODY_HTML",
+    outFile: "lib/a-new-country-the-great-experiment-called-immortalis-body-html.ts",
+    startId: "abcde6c",
+    endId: "2dae69b",
+  },
+  {
+    slug: "the-beautiful-vs-the-ugly-in-our-world-3",
+    constName: "THE_BEAUTIFUL_VS_THE_UGLY_IN_OUR_WORLD_3_BODY_HTML",
+    outFile: "lib/the-beautiful-vs-the-ugly-in-our-world-3-body-html.ts",
+    startId: "a36c428",
+    endId: "c964ef4",
+  },
+  {
+    slug: "how-jobs-will-change",
+    constName: "HOW_JOBS_WILL_CHANGE_BODY_HTML",
+    outFile: "lib/how-jobs-will-change-body-html.ts",
+    startId: "04876e9",
+    endId: "893427d",
   },
 ];
 

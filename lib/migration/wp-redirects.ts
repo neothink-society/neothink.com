@@ -76,4 +76,5 @@ export const wpRedirects: Redirect[] = [
     "/renowned-philosopher-exposes-what-all-philosophies-get-wrong",
     "/what-all-philosophies-get-wrong"
   ),
+  ...slugPair("/beautiful-vs-ugly-in-our-world", "/the-beautiful-vs-the-ugly-in-our-world-3"),
 ];
