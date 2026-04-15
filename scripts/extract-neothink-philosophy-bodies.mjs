@@ -42,6 +42,10 @@ const PATH_MAP = {
   "/a-knight-in-shining-armor-immortalis": "/a-knight-in-shining-armor-immortalis",
   "/self-leader-secret": "/self-leader-secret",
   "/friday-night-essence": "/friday-night-essence",
+  "/land-based-immortalis": "/land-based-immortalis",
+  "/libertarians-next-big-possibility": "/libertarians-next-big-possibility",
+  "/mont-pelerin-pivot-into-our-essence": "/mont-pelerin-pivot-into-our-essence",
+  "/the-grand-experiment-of-our-time": "/the-grand-experiment-of-our-time",
 };
 
 function norm(p) {
@@ -157,6 +161,34 @@ const jobs = [
     outFile: "lib/value-creator-body-html.ts",
     startId: "5a2aeb9",
     endId: "f1dff83",
+  },
+  {
+    slug: "land-based-immortalis",
+    constName: "LAND_BASED_IMMORTALIS_BODY_HTML",
+    outFile: "lib/land-based-immortalis-body-html.ts",
+    startId: "d131e91",
+    endId: "4b60b52",
+  },
+  {
+    slug: "libertarians-next-big-possibility",
+    constName: "LIBERTARIANS_NEXT_BIG_POSSIBILITY_BODY_HTML",
+    outFile: "lib/libertarians-next-big-possibility-body-html.ts",
+    startId: "f42a7aa",
+    endId: "a43e73d",
+  },
+  {
+    slug: "mont-pelerin-pivot-into-our-essence",
+    constName: "MONT_PELERIN_PIVOT_INTO_OUR_ESSENCE_BODY_HTML",
+    outFile: "lib/mont-pelerin-pivot-into-our-essence-body-html.ts",
+    startId: "5208087",
+    endId: "0543f13",
+  },
+  {
+    slug: "the-grand-experiment-of-our-time",
+    constName: "THE_GRAND_EXPERIMENT_OF_OUR_TIME_BODY_HTML",
+    outFile: "lib/the-grand-experiment-of-our-time-body-html.ts",
+    startId: "b041d8f",
+    endId: "1c59aae",
   },
 ];
 

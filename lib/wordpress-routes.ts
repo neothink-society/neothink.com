@@ -107,6 +107,14 @@ export const WP = {
   theGreatestMentalBreakthrough: "/the-greatest-mental-breakthrough",
   /** Neothink Philosophy long-form: Immortalis letters of intent & political pivot (WP post `a-knight-in-shining-armor-immortalis`). */
   aKnightInShiningArmorImmortalis: "/a-knight-in-shining-armor-immortalis",
+  /** Neothink Philosophy: land tracks, federal land, Europe, Argentina (WP post `land-based-immortalis`). */
+  landBasedImmortalis: "/land-based-immortalis",
+  /** Neothink Philosophy: prime law capitalism vs. anarcho-capitalism (WP post `libertarians-next-big-possibility`). */
+  libertariansNextBigPossibility: "/libertarians-next-big-possibility",
+  /** Neothink Philosophy: Mont Pelerin pivot to medical-mecca messaging (WP post `mont-pelerin-pivot-into-our-essence`). */
+  montPelerinPivotIntoOurEssence: "/mont-pelerin-pivot-into-our-essence",
+  /** Neothink Philosophy: America’s founding parallel and Immortalis (WP post `the-grand-experiment-of-our-time`). */
+  theGrandExperimentOfOurTime: "/the-grand-experiment-of-our-time",
   /** Neothink Mentality lesson 3 (post). */
   beyondTunnelVision: "/beyond-tunnel-vision",
   /** Neothink Mentality lesson 4 (post). */
