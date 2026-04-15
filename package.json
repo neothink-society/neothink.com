@@ -14,7 +14,8 @@
     "migration:merge-gsc": "node scripts/merge-gsc-inventory.mjs",
     "migration:wp-page": "node scripts/wp-fetch-page.mjs",
     "migration:nu-testimonials": "node scripts/extract-neothink-university-testimonials.mjs",
-    "migration:awakening-body": "node scripts/extract-neothink-awakening-body.mjs"
+    "migration:awakening-body": "node scripts/extract-neothink-awakening-body.mjs",
+    "migration:philosophy-body": "node scripts/extract-neothink-philosophy-bodies.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.3.0",

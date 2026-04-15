@@ -95,6 +95,12 @@ export const WP = {
   freedomKeyToUnlockingTrueWealth: "/freedom-key-to-unlocking-true-wealth",
   /** Neothink Awakening article: Neothink thinking levels, mini-days, division of essence (WP post `reprogram-mind-to-be-rich`). */
   reprogramMindToBeRich: "/reprogram-mind-to-be-rich",
+  /** Neothink Philosophy long-form: Mark Hamilton’s story / following mode (WP post `mark-hamiltons-story`). */
+  markHamiltonsStory: "/mark-hamiltons-story",
+  /** Neothink Philosophy long-form: Immortalis / Prime Law Capitalism (WP post `immortalis-the-great-experiment-of-our-time`). */
+  immortalisGreatExperimentOfOurTime: "/immortalis-the-great-experiment-of-our-time",
+  /** Neothink Philosophy long-form: Neovia biotech freedom city speech (WP post `the-city-that-cures-disease-neovia`). */
+  theCityThatCuresDiseaseNeovia: "/the-city-that-cures-disease-neovia",
   /** Neothink Mentality lesson 3 (post). */
   beyondTunnelVision: "/beyond-tunnel-vision",
   /** Neothink Mentality lesson 4 (post). */

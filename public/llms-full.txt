@@ -39,6 +39,9 @@
 - [Neothink mastermind group success stories](/neothink-mastermind-group-success-stories): WordPress-migrated mastermind article; canonical path with legacy slug redirect.
 - [Freedom & true wealth](/freedom-key-to-unlocking-true-wealth): Neothink Awakening article (Elementor body + app shell + FAQ).
 - [Reprogram mind to be rich](/reprogram-mind-to-be-rich): Neothink Awakening article (Elementor body + app shell + FAQ).
+- [Mark Hamilton’s story](/mark-hamiltons-story): Neothink Philosophy long-form (Elementor body + FAQ).
+- [Immortalis great experiment](/immortalis-the-great-experiment-of-our-time): Neothink Philosophy long-form (Elementor body + FAQ).
+- [Neovia city speech](/the-city-that-cures-disease-neovia): Neothink Philosophy long-form (Elementor body + FAQ).
 
 ## Key Terms
 
