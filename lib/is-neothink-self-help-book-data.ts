@@ -1,8 +1,8 @@
 /**
  * Article migrated from WordPress post `is-neothink-just-another-self-help-book` (id 3593).
  * Agency-era post (published 2025-08-25). Body copy matches WP `content.rendered` (Feb 2026 snapshot);
- * inline links are expressed as `[[key|label]]` for Next. The philosophies article link targets a URL not
- * yet migrated in this app (`/what-all-philosophies-get-wrong/`).
+ * inline links are expressed as `[[key|label]]` for Next. The philosophies article resolves to the migrated
+ * Neothink Philosophy route {@link WP.whatAllPhilosophiesGetWrong}.
  *
  * @see https://neothink.com/wp-json/wp/v2/posts/3593
  */
@@ -96,9 +96,6 @@ export const IS_NEOTHINK_SELF_HELP_SECTIONS: readonly ShbSection[] = [
 /** Same external join target as in WordPress. */
 export const IS_NEOTHINK_JOIN_EXTERNAL = "https://www.theneothinksociety.com/join-the-neothink-society/";
 
-/** Legacy WP path not yet a Next route; keep absolute so the link works in production. */
-export const SHB_PHILOSOPHIES_LEGACY_URL = "https://neothink.com/what-all-philosophies-get-wrong/" as const;
-
 /** Society section on About (WP used `#what-is-neothink-society`; this app uses `ab-society-heading`). */
 export const SHB_ABOUT_SOCIETY_HREF = `${WP.about}#ab-society-heading` as const;
 
@@ -106,4 +103,5 @@ export const SHB_ABOUT_SOCIETY_HREF = `${WP.about}#ab-society-heading` as const;
 export const SHB_INLINE_HREF: Record<string, string> = {
   integratedThinking: WP.integratedThinking,
   valueCreator: WP.valueCreator,
+  philosophiesWrong: WP.whatAllPhilosophiesGetWrong,
 };

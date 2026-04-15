@@ -72,4 +72,8 @@ export const wpRedirects: Redirect[] = [
     "/creating-success-stories-with-neothink-mastermind-group",
     "/neothink-mastermind-group-success-stories"
   ),
+  ...slugPair(
+    "/renowned-philosopher-exposes-what-all-philosophies-get-wrong",
+    "/what-all-philosophies-get-wrong"
+  ),
 ];

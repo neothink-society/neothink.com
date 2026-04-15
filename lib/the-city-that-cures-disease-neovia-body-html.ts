@@ -93,7 +93,7 @@ export const NEOVIA_SPEECH_BODY_HTML = `<div class="elementor-element elementor-
 				</div>
 				<div class="elementor-element elementor-element-af7479c elementor-widget elementor-widget-text-editor" data-id="af7479c" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p>The backbone of it all is the <a href="https://neothink.com/the-unbreakable-equation/" style="color:#96792B;text-decoration:underline;">Prime Law</a>. No person or institution may initiate force or fraud. Hamilton is careful to distinguish this from lawlessness: <em>The rule is not “anything goes.” The rule is no aggression, robust responsibility. That is the difference between chaos and catalytic freedom.</em></p>								</div>
+									<p>The backbone of it all is the <a href="/the-unbreakable-equation" style="color:#96792B;text-decoration:underline;">Prime Law</a>. No person or institution may initiate force or fraud. Hamilton is careful to distinguish this from lawlessness: <em>The rule is not “anything goes.” The rule is no aggression, robust responsibility. That is the difference between chaos and catalytic freedom.</em></p>								</div>
 				</div>
 				<div class="elementor-element elementor-element-3306e6f elementor-widget elementor-widget-text-editor" data-id="3306e6f" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">

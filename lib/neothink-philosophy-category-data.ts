@@ -21,6 +21,7 @@ export const NEOTHINK_PHILOSOPHY_CATEGORY_SEO_DESCRIPTION =
 /** Slugs that have a dedicated Next.js route at `/${slug}`. */
 export const NEOTHINK_PHILOSOPHY_MIGRATED_SLUGS: ReadonlySet<string> = new Set([
   "a-knight-in-shining-armor-immortalis",
+  "breaking-the-chains-on-consciousness",
   "immortalis-the-great-experiment-of-our-time",
   "land-based-immortalis",
   "libertarians-next-big-possibility",
@@ -30,6 +31,8 @@ export const NEOTHINK_PHILOSOPHY_MIGRATED_SLUGS: ReadonlySet<string> = new Set([
   "the-grand-experiment-of-our-time",
   "the-greatest-mental-breakthrough",
   "the-missing-key-to-universal-prosperity",
+  "the-unbreakable-equation",
+  "what-all-philosophies-get-wrong",
 ]);
 
 export type NeothinkPhilosophySeriesPost = {

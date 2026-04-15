@@ -120,6 +120,12 @@ export const WP = {
   montPelerinPivotIntoOurEssence: "/mont-pelerin-pivot-into-our-essence",
   /** Neothink Philosophy: America’s founding parallel and Immortalis (WP post `the-grand-experiment-of-our-time`). */
   theGrandExperimentOfOurTime: "/the-grand-experiment-of-our-time",
+  /** Neothink Philosophy: Plato’s scaffolding, force, survival vs. transcendent pressures (WP post `breaking-the-chains-on-consciousness`). */
+  breakingTheChainsOnConsciousness: "/breaking-the-chains-on-consciousness",
+  /** Neothink Philosophy: Neo-Tech + Neothink + Prime Law (WP post `the-unbreakable-equation`). */
+  theUnbreakableEquation: "/the-unbreakable-equation",
+  /** Neothink Philosophy: subtractive lineage Rand → Wallace → Hamilton (WP post `what-all-philosophies-get-wrong`). */
+  whatAllPhilosophiesGetWrong: "/what-all-philosophies-get-wrong",
   /** Neothink Mentality lesson 3 (post). */
   beyondTunnelVision: "/beyond-tunnel-vision",
   /** Neothink Mentality lesson 4 (post). */

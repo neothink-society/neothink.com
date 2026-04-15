@@ -47,6 +47,9 @@ const PATH_MAP = {
   "/mont-pelerin-pivot-into-our-essence": "/mont-pelerin-pivot-into-our-essence",
   "/the-grand-experiment-of-our-time": "/the-grand-experiment-of-our-time",
   "/category/neothink-philosophy": "/category/neothink-philosophy",
+  "/breaking-the-chains-on-consciousness": "/breaking-the-chains-on-consciousness",
+  "/the-unbreakable-equation": "/the-unbreakable-equation",
+  "/what-all-philosophies-get-wrong": "/what-all-philosophies-get-wrong",
 };
 
 function norm(p) {
@@ -190,6 +193,27 @@ const jobs = [
     outFile: "lib/the-grand-experiment-of-our-time-body-html.ts",
     startId: "b041d8f",
     endId: "1c59aae",
+  },
+  {
+    slug: "breaking-the-chains-on-consciousness",
+    constName: "BREAKING_THE_CHAINS_ON_CONSCIOUSNESS_BODY_HTML",
+    outFile: "lib/breaking-the-chains-on-consciousness-body-html.ts",
+    startId: "e775752",
+    endId: "d740239",
+  },
+  {
+    slug: "the-unbreakable-equation",
+    constName: "THE_UNBREAKABLE_EQUATION_BODY_HTML",
+    outFile: "lib/the-unbreakable-equation-body-html.ts",
+    startId: "e61ba49",
+    endId: "6dd25f4",
+  },
+  {
+    slug: "what-all-philosophies-get-wrong",
+    constName: "WHAT_ALL_PHILOSOPHIES_GET_WRONG_BODY_HTML",
+    outFile: "lib/what-all-philosophies-get-wrong-body-html.ts",
+    startId: "kno2yf7p",
+    endId: "62h4xag4",
   },
 ];
 

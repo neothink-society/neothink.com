@@ -11,7 +11,6 @@ import {
   IS_NEOTHINK_JOIN_EXTERNAL,
   SHB_ABOUT_SOCIETY_HREF,
   SHB_INLINE_HREF,
-  SHB_PHILOSOPHIES_LEGACY_URL,
 } from "@/lib/is-neothink-self-help-book-data";
 import { IS_NEOTHINK_SELF_HELP_FAQ } from "@/lib/is-neothink-self-help-book-faq";
 import { WP } from "@/lib/wordpress-routes";
@@ -38,12 +37,6 @@ function parseShbInline(text: string): ReactNode {
         <Link key={`${i++}-${key}`} href={SHB_ABOUT_SOCIETY_HREF}>
           {label}
         </Link>
-      );
-    } else if (key === "philosophiesWrong") {
-      out.push(
-        <a key={`${i++}-${key}`} href={SHB_PHILOSOPHIES_LEGACY_URL}>
-          {label}
-        </a>
       );
     } else {
       const href = SHB_INLINE_HREF[key];

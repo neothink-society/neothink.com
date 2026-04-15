@@ -163,6 +163,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.73,
     },
     {
+      path: "/breaking-the-chains-on-consciousness",
+      changeFrequency: "monthly" as const,
+      priority: 0.73,
+    },
+    {
+      path: "/the-unbreakable-equation",
+      changeFrequency: "monthly" as const,
+      priority: 0.73,
+    },
+    {
+      path: "/what-all-philosophies-get-wrong",
+      changeFrequency: "monthly" as const,
+      priority: 0.73,
+    },
+    {
       path: "/friday-night-essence",
       changeFrequency: "monthly" as const,
       priority: 0.74,
