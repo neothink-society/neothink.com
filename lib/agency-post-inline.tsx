@@ -13,6 +13,9 @@ export const AGENCY_ABOUT_SOCIETY_HREF = `${WP.about}#ab-society-heading` as con
 const INLINE: Record<string, string> = {
   contact: WP.contact,
   faq: WP.faq,
+  freedomFromRights: WP.freedomFromRights,
+  freedomKeyToUnlockingTrueWealth: WP.freedomKeyToUnlockingTrueWealth,
+  reprogramMindToBeRich: WP.reprogramMindToBeRich,
   programs: WP.programs,
   events: WP.events,
   freeCourses: WP.freeCourses,

@@ -91,6 +91,10 @@ export const WP = {
   riseFromRut: "/rise-from-rut",
   /** Neothink Mentality lesson 2 (post). */
   freedomFromRights: "/freedom-from-rights",
+  /** Neothink Awakening article: freedom, regulation, Prime Law, Immortalis (WP post `freedom-key-to-unlocking-true-wealth`). */
+  freedomKeyToUnlockingTrueWealth: "/freedom-key-to-unlocking-true-wealth",
+  /** Neothink Awakening article: Neothink thinking levels, mini-days, division of essence (WP post `reprogram-mind-to-be-rich`). */
+  reprogramMindToBeRich: "/reprogram-mind-to-be-rich",
   /** Neothink Mentality lesson 3 (post). */
   beyondTunnelVision: "/beyond-tunnel-vision",
   /** Neothink Mentality lesson 4 (post). */

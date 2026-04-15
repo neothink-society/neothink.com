@@ -1,0 +1,100 @@
+/* Neothink Awakening long-form posts: Elementor HTML fragments + app shell */
+
+.nu-awakening-html {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 0 24px 56px;
+}
+
+.nu-awakening-html .e-con-inner {
+  max-width: 100%;
+}
+
+.nu-awakening-html img {
+  max-width: 100%;
+  height: auto;
+}
+
+.nu-awakening-html .step-circle {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #d4a853 0%, #f5d799 50%, #d4a853 100%);
+  color: #050505;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-inter, Inter, system-ui, sans-serif);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.nu-awakening-quick {
+  padding: 32px 24px 24px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.nu-awakening-quick .nu-awakening-kicker {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--nu-gold-deep, #a57a03);
+  margin: 0 0 8px;
+}
+
+.nu-awakening-quick h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(1.25rem, 2.2vw, 1.5rem);
+  font-weight: 500;
+  margin: 0 0 14px;
+  line-height: 1.25;
+}
+
+.nu-awakening-quick p {
+  margin: 0;
+  line-height: 1.65;
+}
+
+.nu-awakening-video {
+  padding: 0 24px 32px;
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.nu-awakening-video-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--nu-border);
+  background: #0a0a0a;
+}
+
+.nu-awakening-video-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.nu-awakening-byline {
+  font-size: 14px;
+  color: var(--nu-muted, #64748b);
+  margin-top: 8px;
+}
+
+.nu-awakening-byline a {
+  color: var(--nu-gold-deep);
+  text-decoration: none;
+}
+
+.nu-awakening-byline a:hover {
+  text-decoration: underline;
+}

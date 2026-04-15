@@ -60,6 +60,8 @@ Machine-oriented pointers (human-readable site summary continues below).
 - [Neothink Movement & financial independence](/neothink-movement-financial-independence): Themes tied to the Movement and financial independence (WordPress migration). Canonical path; a longer legacy slug redirects here.
 - [What people get wrong about Neothink University](/what-people-get-wrong-neothink-university): Myths vs described reality (WordPress migration). Canonical path; a longer legacy slug redirects here.
 - [Neothink mastermind group success stories](/neothink-mastermind-group-success-stories): Mastermind collaboration and growth (WordPress migration). Canonical path; an older slug redirects here.
+- [Freedom & true wealth (Neothink Awakening)](/freedom-key-to-unlocking-true-wealth): Regulation, innovation, Prime Law, Immortalis — long-form article migrated from WordPress Elementor HTML.
+- [Reprogram your mind to be rich (Neothink Awakening)](/reprogram-mind-to-be-rich): Thinking levels, mini-days, division of essence — long-form article migrated from WordPress Elementor HTML.
 - [FAQ](/faq): Frequently asked questions about the Neothink Society (programs, Project Life, Neothink Country, Ascension)—public context on neothink.com.
 - [Published Work](/published-work): Articles and research from the Institute.
 - [Contact](/contact): Get in touch with the Neothink Institute.

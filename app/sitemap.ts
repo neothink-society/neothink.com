@@ -97,6 +97,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.7,
     },
+    {
+      path: "/freedom-key-to-unlocking-true-wealth",
+      changeFrequency: "monthly" as const,
+      priority: 0.72,
+    },
+    {
+      path: "/reprogram-mind-to-be-rich",
+      changeFrequency: "monthly" as const,
+      priority: 0.72,
+    },
     { path: "/neothink-mentality", changeFrequency: "monthly" as const, priority: 0.82 },
     { path: "/rise-from-rut", changeFrequency: "monthly" as const, priority: 0.8 },
     { path: "/freedom-from-rights", changeFrequency: "monthly" as const, priority: 0.8 },

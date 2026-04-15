@@ -1,7 +1,7 @@
 /**
  * Article migrated from WordPress post `neothink-movement-financial-independence` (id 2212).
  * Published 2024-09-12. Body matches WP `content.rendered` (Feb 2026 snapshot).
- * Intro links to not-yet-migrated WP paths use `[[legacyNeothink|…|url]]`.
+ * Intro links to Neothink Awakening articles on this app use `[[freedomKeyToUnlockingTrueWealth|…]]` and `[[reprogramMindToBeRich|…]]`.
  *
  * @see https://neothink.com/wp-json/wp/v2/posts/2212
  */
@@ -23,7 +23,7 @@ export const NMFI_DATES = {
 export const NMFI_HEADLINE = "How The Neothink Movement Empowers Financial Independence" as const;
 
 export const NMFI_INTRO_PARAS: readonly string[] = [
-  "Imagine waking up every day knowing you have the tools and mindset to achieve true [[legacyNeothink|financial freedom|https://neothink.com/freedom-key-to-unlocking-true-wealth/]] and independence. The Neothink Movement provides this powerful opportunity to individuals seeking personal growth, happiness, and fulfillment. Emphasizing a [[legacyNeothink|shift in perspective|https://neothink.com/reprogram-mind-to-be-rich/]] and thinking encourages people to break free from stagnation and embrace a life filled with purpose and prosperity.",
+  "Imagine waking up every day knowing you have the tools and mindset to achieve true [[freedomKeyToUnlockingTrueWealth|financial freedom]] and independence. The Neothink Movement provides this powerful opportunity to individuals seeking personal growth, happiness, and fulfillment. Emphasizing a [[reprogramMindToBeRich|shift in perspective]] and thinking encourages people to break free from stagnation and embrace a life filled with purpose and prosperity.",
 ];
 
 export type NmfiSection = {
