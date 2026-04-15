@@ -13,7 +13,7 @@ import {
 import { MH_STORY_FAQ } from "@/lib/mark-hamiltons-story-faq";
 import { WP } from "@/lib/wordpress-routes";
 
-const SERIES = "https://neothink.com/category/neothink-philosophy/";
+const SERIES = WP.neothinkPhilosophyCategory;
 
 export function MarkHamiltonsStoryPageContent() {
   return (

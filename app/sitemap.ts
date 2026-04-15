@@ -108,6 +108,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.72,
     },
     {
+      path: "/category/neothink-philosophy",
+      changeFrequency: "weekly" as const,
+      priority: 0.74,
+    },
+    {
       path: "/mark-hamiltons-story",
       changeFrequency: "monthly" as const,
       priority: 0.73,

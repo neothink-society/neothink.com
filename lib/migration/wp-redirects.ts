@@ -17,6 +17,11 @@ function slugPair(sourceBase: string, destination: string): Redirect[] {
 }
 
 export const wpRedirects: Redirect[] = [
+  {
+    source: "/category/neothink-philosophy/",
+    destination: "/category/neothink-philosophy",
+    permanent: true,
+  },
   ...slugPair(
     "/how-the-neothink-secret-society-differs-from-other-secret-groups",
     "/neothink-secret-society-differs-other-groups"

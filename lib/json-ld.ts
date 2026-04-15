@@ -26,7 +26,7 @@ export function breadcrumbListJsonLd(
   };
 }
 
-type PageSchemaType = "WebPage" | "ContactPage" | "AboutPage" | "ProfilePage";
+type PageSchemaType = "WebPage" | "ContactPage" | "AboutPage" | "ProfilePage" | "CollectionPage";
 
 type WebPageJsonLdInput = {
   pathname: string;

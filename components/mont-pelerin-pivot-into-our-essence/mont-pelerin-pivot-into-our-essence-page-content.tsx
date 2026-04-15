@@ -13,7 +13,7 @@ import {
 import { MONT_PELERIN_PIVOT_FAQ } from "@/lib/mont-pelerin-pivot-into-our-essence-faq";
 import { WP } from "@/lib/wordpress-routes";
 
-const SERIES = "https://neothink.com/category/neothink-philosophy/";
+const SERIES = WP.neothinkPhilosophyCategory;
 
 export function MontPelerinPivotIntoOurEssencePageContent() {
   return (

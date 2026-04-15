@@ -13,7 +13,7 @@ import {
 import { THE_GRAND_EXPERIMENT_OF_OUR_TIME_FAQ } from "@/lib/the-grand-experiment-of-our-time-faq";
 import { WP } from "@/lib/wordpress-routes";
 
-const SERIES = "https://neothink.com/category/neothink-philosophy/";
+const SERIES = WP.neothinkPhilosophyCategory;
 
 export function TheGrandExperimentOfOurTimePageContent() {
   return (

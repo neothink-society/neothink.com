@@ -13,7 +13,7 @@ import {
 import { KNIGHT_IMMORTALIS_FAQ } from "@/lib/a-knight-in-shining-armor-immortalis-faq";
 import { WP } from "@/lib/wordpress-routes";
 
-const SERIES = "https://neothink.com/category/neothink-philosophy/";
+const SERIES = WP.neothinkPhilosophyCategory;
 
 export function AKnightInShiningArmorImmortalisPageContent() {
   return (

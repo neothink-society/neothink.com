@@ -38,6 +38,7 @@ export const FOOTER_COLUMNS: readonly FooterColumn[] = [
   {
     label: "Philosophy & speeches",
     links: [
+      { href: WP.neothinkPhilosophyCategory, name: "Neothink Philosophy (series)" },
       { href: WP.markHamiltonsStory, name: "Mark Hamilton’s story" },
       { href: WP.immortalisGreatExperimentOfOurTime, name: "Immortalis: Great Experiment" },
       { href: WP.landBasedImmortalis, name: "Land-based Immortalis" },
@@ -83,7 +84,7 @@ export function getFooterNavigationItemListSchema(): JsonLd {
     "@id": schemaIds.footerNavigation,
     name: "Neothink Institute — primary site sections (footer)",
     description:
-      "Topic-grouped navigation to the Unified Field, Prime Law, Neothink, The Way, Neovia, Immortalis, institute pages, FAQ, Neothink Philosophy long-form speeches (Mark Hamilton’s story, Immortalis essays, land-based Immortalis, Mont Pelerin pivot, grand experiment, knight address, Neovia keynote), library, free learning hub, Neothink University, Programs and Project Life hubs, Neothink Reviews (member stories), Society events, Twelve Visions Party, and participation.",
+      "Topic-grouped navigation to the Unified Field, Prime Law, Neothink, The Way, Neovia, Immortalis, institute pages, FAQ, Neothink Philosophy series hub (/category/neothink-philosophy) plus long-form speeches (Mark Hamilton’s story, Immortalis essays, land-based Immortalis, Mont Pelerin pivot, grand experiment, knight address, Neovia keynote), library, free learning hub, Neothink University, Programs and Project Life hubs, Neothink Reviews (member stories), Society events, Twelve Visions Party, and participation.",
     numberOfItems: flat.length,
     itemListElement: flat.map((link, i) => ({
       "@type": "ListItem",

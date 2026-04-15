@@ -87,31 +87,39 @@ export function NeothinkPhilosophyLongformPageContent({
   const heroHeadingId = `${idPrefix}-hero-heading`;
   const introLeadId = `${idPrefix}-intro-lead`;
   const quickTitleId = `${idPrefix}-quick-title`;
+  const seriesIsInternal = seriesHref.startsWith("/");
+  const seriesPillStyle = {
+    display: "inline-block" as const,
+    background: "linear-gradient(135deg,#d4a853 0%,#f5d799 50%,#d4a853 100%)",
+    color: "#050505",
+    padding: "8px 20px",
+    borderRadius: 24,
+    fontSize: 12,
+    fontWeight: 700,
+    textTransform: "uppercase" as const,
+    letterSpacing: "0.12em",
+    textDecoration: "none" as const,
+  };
 
   return (
     <main id="main-content" ref={mainRef} className="nu-page shb-page">
       <article>
         <header className="nu-hero" aria-labelledby={heroHeadingId}>
           <div className="nu-hero-label">
-            <a
-              href={seriesHref}
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{
-                display: "inline-block",
-                background: "linear-gradient(135deg,#d4a853 0%,#f5d799 50%,#d4a853 100%)",
-                color: "#050505",
-                padding: "8px 20px",
-                borderRadius: 24,
-                fontSize: 12,
-                fontWeight: 700,
-                textTransform: "uppercase",
-                letterSpacing: "0.12em",
-                textDecoration: "none",
-              }}
-            >
-              {seriesLabel}
-            </a>
+            {seriesIsInternal ? (
+              <Link href={seriesHref} style={seriesPillStyle}>
+                {seriesLabel}
+              </Link>
+            ) : (
+              <a
+                href={seriesHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={seriesPillStyle}
+              >
+                {seriesLabel}
+              </a>
+            )}
           </div>
           <h1 id={heroHeadingId}>{heading}</h1>
           {introHtml ? (

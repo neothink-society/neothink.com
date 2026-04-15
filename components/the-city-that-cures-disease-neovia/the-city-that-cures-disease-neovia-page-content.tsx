@@ -13,7 +13,7 @@ import {
 import { NEOVIA_SPEECH_FAQ } from "@/lib/the-city-that-cures-disease-neovia-faq";
 import { WP } from "@/lib/wordpress-routes";
 
-const SERIES = "https://neothink.com/category/neothink-philosophy/";
+const SERIES = WP.neothinkPhilosophyCategory;
 
 export function TheCityThatCuresDiseaseNeoviaPageContent() {
   return (

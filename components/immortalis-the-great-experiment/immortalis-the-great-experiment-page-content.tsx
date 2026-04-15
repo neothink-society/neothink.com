@@ -13,7 +13,7 @@ import {
 import { IGE_FAQ } from "@/lib/immortalis-the-great-experiment-faq";
 import { WP } from "@/lib/wordpress-routes";
 
-const SERIES = "https://neothink.com/category/neothink-philosophy/";
+const SERIES = WP.neothinkPhilosophyCategory;
 
 export function ImmortalisTheGreatExperimentPageContent() {
   return (

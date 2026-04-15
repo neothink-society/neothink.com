@@ -13,7 +13,7 @@ import {
 import { GMB_FAQ } from "@/lib/the-greatest-mental-breakthrough-faq";
 import { WP } from "@/lib/wordpress-routes";
 
-const SERIES = "https://neothink.com/category/neothink-philosophy/";
+const SERIES = WP.neothinkPhilosophyCategory;
 
 export function TheGreatestMentalBreakthroughPageContent() {
   return (

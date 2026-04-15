@@ -95,6 +95,11 @@ export const WP = {
   freedomKeyToUnlockingTrueWealth: "/freedom-key-to-unlocking-true-wealth",
   /** Neothink Awakening article: Neothink thinking levels, mini-days, division of essence (WP post `reprogram-mind-to-be-rich`). */
   reprogramMindToBeRich: "/reprogram-mind-to-be-rich",
+  /**
+   * Neothink Philosophy — category hub (WordPress category `neothink-philosophy`, id 81).
+   * Lists all series posts; links to Next routes where migrated, else canonical post permalinks.
+   */
+  neothinkPhilosophyCategory: "/category/neothink-philosophy",
   /** Neothink Philosophy long-form: Mark Hamilton’s story / following mode (WP post `mark-hamiltons-story`). */
   markHamiltonsStory: "/mark-hamiltons-story",
   /** Neothink Philosophy long-form: Immortalis / Prime Law Capitalism (WP post `immortalis-the-great-experiment-of-our-time`). */

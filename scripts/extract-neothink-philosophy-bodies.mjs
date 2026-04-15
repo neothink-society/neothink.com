@@ -46,6 +46,7 @@ const PATH_MAP = {
   "/libertarians-next-big-possibility": "/libertarians-next-big-possibility",
   "/mont-pelerin-pivot-into-our-essence": "/mont-pelerin-pivot-into-our-essence",
   "/the-grand-experiment-of-our-time": "/the-grand-experiment-of-our-time",
+  "/category/neothink-philosophy": "/category/neothink-philosophy",
 };
 
 function norm(p) {

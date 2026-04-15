@@ -13,7 +13,7 @@ import {
 import { LIBERTARIANS_NEXT_BIG_POSSIBILITY_FAQ } from "@/lib/libertarians-next-big-possibility-faq";
 import { WP } from "@/lib/wordpress-routes";
 
-const SERIES = "https://neothink.com/category/neothink-philosophy/";
+const SERIES = WP.neothinkPhilosophyCategory;
 
 export function LibertariansNextBigPossibilityPageContent() {
   return (
