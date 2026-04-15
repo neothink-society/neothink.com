@@ -36,8 +36,8 @@ export function TheGreatestMentalBreakthroughPageContent() {
           Related: <Link href={WP.theMissingKeyToUniversalProsperity}>Missing key to prosperity</Link>,{" "}
           <Link href={WP.reprogramMindToBeRich}>Reprogram your mind</Link>,{" "}
           <Link href={WP.markHamiltonsStory}>Mark Hamilton’s story</Link>,{" "}
-          <a href="https://neothink.com/integrated-thinking/">Integrated thinking</a>,{" "}
-          <a href="https://neothink.com/value-creator/">Value creator</a>.
+          <Link href={WP.integratedThinking}>Integrated thinking</Link>,{" "}
+          <Link href={WP.valueCreator}>Value creator</Link>.
         </>
       }
       faqItems={GMB_FAQ}

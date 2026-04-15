@@ -27,8 +27,9 @@ type Props = {
   quickTitle: string;
   /** Trusted HTML from WordPress quick-answer block */
   quickAnswerHtml: string;
-  youtubeId: string;
-  videoTitle: string;
+  /** Omit both to hide the video block (e.g. Neothink Concepts articles with no embed). */
+  youtubeId?: string;
+  videoTitle?: string;
   bodyHtml: string;
   faqHeadingId: string;
   faqLead: ReactNode;
@@ -83,7 +84,6 @@ export function NeothinkPhilosophyLongformPageContent({
     return () => obs.disconnect();
   }, []);
 
-  const embedUrl = `https://www.youtube-nocookie.com/embed/${youtubeId}?rel=0`;
   const heroHeadingId = `${idPrefix}-hero-heading`;
   const introLeadId = `${idPrefix}-intro-lead`;
   const quickTitleId = `${idPrefix}-quick-title`;
@@ -146,17 +146,19 @@ export function NeothinkPhilosophyLongformPageContent({
           <div className="nu-prose" dangerouslySetInnerHTML={{ __html: quickAnswerHtml }} />
         </div>
 
-        <section className="nu-awakening-video nu-reveal" aria-label="Video">
-          <div className="nu-awakening-video-frame">
-            <iframe
-              title={videoTitle}
-              src={embedUrl}
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-              loading="lazy"
-            />
-          </div>
-        </section>
+        {youtubeId ? (
+          <section className="nu-awakening-video nu-reveal" aria-label="Video">
+            <div className="nu-awakening-video-frame">
+              <iframe
+                title={videoTitle ?? "Video"}
+                src={`https://www.youtube-nocookie.com/embed/${youtubeId}?rel=0`}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                loading="lazy"
+              />
+            </div>
+          </section>
+        ) : null}
 
         <div className="nu-awakening-html nu-reveal" dangerouslySetInnerHTML={{ __html: bodyHtml }} />
 

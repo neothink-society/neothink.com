@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Regenerate Elementor body fragments for Neothink Philosophy long-form posts.
+ * Regenerate Elementor body fragments for Neothink Philosophy & Neothink Concepts long-form posts.
  * Requires migration/source/<slug>.html from wp-fetch-page.mjs.
  *
  *   pnpm migration:philosophy-body
@@ -40,6 +40,8 @@ const PATH_MAP = {
   "/the-missing-key-to-universal-prosperity": "/the-missing-key-to-universal-prosperity",
   "/the-greatest-mental-breakthrough": "/the-greatest-mental-breakthrough",
   "/a-knight-in-shining-armor-immortalis": "/a-knight-in-shining-armor-immortalis",
+  "/self-leader-secret": "/self-leader-secret",
+  "/friday-night-essence": "/friday-night-essence",
 };
 
 function norm(p) {
@@ -127,6 +129,34 @@ const jobs = [
     outFile: "lib/a-knight-in-shining-armor-immortalis-body-html.ts",
     startId: "fa4d8bd",
     endId: "d276150",
+  },
+  {
+    slug: "friday-night-essence",
+    constName: "FRIDAY_NIGHT_ESSENCE_BODY_HTML",
+    outFile: "lib/friday-night-essence-body-html.ts",
+    startId: "b2eb876",
+    endId: "a547647",
+  },
+  {
+    slug: "self-leader-secret",
+    constName: "SELF_LEADER_SECRET_BODY_HTML",
+    outFile: "lib/self-leader-secret-body-html.ts",
+    startId: "f1def32",
+    endId: "57e4682",
+  },
+  {
+    slug: "integrated-thinking",
+    constName: "INTEGRATED_THINKING_BODY_HTML",
+    outFile: "lib/integrated-thinking-body-html.ts",
+    startId: "ec6351c",
+    endId: "8a14740",
+  },
+  {
+    slug: "value-creator",
+    constName: "VALUE_CREATOR_BODY_HTML",
+    outFile: "lib/value-creator-body-html.ts",
+    startId: "5a2aeb9",
+    endId: "f1dff83",
   },
 ];
 

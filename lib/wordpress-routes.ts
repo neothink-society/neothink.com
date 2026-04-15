@@ -123,6 +123,8 @@ export const WP = {
   integratedThinking: "/integrated-thinking",
   valueCreator: "/value-creator",
   selfLeaderSecret: "/self-leader-secret",
+  /** Neothink Concepts: Friday-Night Essence (WP post `friday-night-essence`). */
+  fridayNightEssence: "/friday-night-essence",
   soaringProductivity: "/soaring-productivity",
   /** Neothink Mentality lesson 10 (post). */
   cureToAging: "/cure-to-aging",

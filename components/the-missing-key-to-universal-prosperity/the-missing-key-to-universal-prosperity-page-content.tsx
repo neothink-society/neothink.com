@@ -37,7 +37,7 @@ export function TheMissingKeyToUniversalProsperityPageContent() {
           <Link href={WP.markHamiltonsStory}>Mark Hamilton’s story</Link>,{" "}
           <Link href={WP.reprogramMindToBeRich}>Reprogram your mind</Link>,{" "}
           <Link href={WP.neothinkMentality}>Neothink Mentality</Link>,{" "}
-          <a href="https://neothink.com/integrated-thinking/">Integrated thinking</a>.
+          <Link href={WP.integratedThinking}>Integrated thinking</Link>.
         </>
       }
       faqItems={MKUP_FAQ}
