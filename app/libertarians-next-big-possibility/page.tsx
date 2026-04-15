@@ -3,12 +3,17 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
 import {
   LIBERTARIANS_NEXT_BIG_POSSIBILITY_DATES,
-  LIBERTARIANS_NEXT_BIG_POSSIBILITY_META_TITLE,
+  LIBERTARIANS_NEXT_BIG_POSSIBILITY_HEADLINE,
+  LIBERTARIANS_NEXT_BIG_POSSIBILITY_META_DESCRIPTION,
   LIBERTARIANS_NEXT_BIG_POSSIBILITY_PATH,
+  LIBERTARIANS_NEXT_BIG_POSSIBILITY_SEO_TITLE,
+  LIBERTARIANS_NEXT_BIG_POSSIBILITY_VIDEO_RUNTIME_MINUTES,
+  LIBERTARIANS_NEXT_BIG_POSSIBILITY_YOUTUBE_ID,
 } from "@/lib/libertarians-next-big-possibility-data";
 import { LIBERTARIANS_NEXT_BIG_POSSIBILITY_FAQ } from "@/lib/libertarians-next-big-possibility-faq";
 import { siteConfig } from "@/lib/metadata";
@@ -21,15 +26,13 @@ import "../neothink-awakening/neothink-awakening-html.css";
 
 const PATH = LIBERTARIANS_NEXT_BIG_POSSIBILITY_PATH;
 const CANONICAL = `${siteConfig.url}${PATH}`;
-
-const DESCRIPTION =
-  "Prime Law capitalism: governance without government, order without rule of man, and why anarcho-capitalism needed the Prime Law — Neothink Philosophy on neothink.com.";
+const DOC_TITLE = `${LIBERTARIANS_NEXT_BIG_POSSIBILITY_SEO_TITLE} | Neothink Institute`;
 
 const SPEAKABLE = ["main#main-content h1", "#lnb-intro-lead", "#lnb-quick-title", "#lnb-faq-heading"] as const;
 
 export const metadata = pageMetadata({
-  title: `${LIBERTARIANS_NEXT_BIG_POSSIBILITY_META_TITLE} | Neothink Institute`,
-  description: DESCRIPTION,
+  title: DOC_TITLE,
+  description: LIBERTARIANS_NEXT_BIG_POSSIBILITY_META_DESCRIPTION,
   pathname: PATH,
   ogType: "article",
   article: {
@@ -45,8 +48,8 @@ const breadcrumbs = breadcrumbListJsonLd([
 
 const pageLd = webPageJsonLd({
   pathname: PATH,
-  name: `${LIBERTARIANS_NEXT_BIG_POSSIBILITY_META_TITLE} | Neothink Institute`,
-  description: DESCRIPTION,
+  name: DOC_TITLE,
+  description: LIBERTARIANS_NEXT_BIG_POSSIBILITY_META_DESCRIPTION,
   datePublished: `${LIBERTARIANS_NEXT_BIG_POSSIBILITY_DATES.datePublished}T09:00:00.000Z`,
   dateModified: `${LIBERTARIANS_NEXT_BIG_POSSIBILITY_DATES.dateModified}T20:09:36.000Z`,
   aboutId: schemaIds.society,
@@ -57,14 +60,26 @@ const pageLd = webPageJsonLd({
 
 const articleLd = blogPostingJsonLd({
   pathname: PATH,
-  headline: LIBERTARIANS_NEXT_BIG_POSSIBILITY_META_TITLE,
-  description: DESCRIPTION,
+  headline: LIBERTARIANS_NEXT_BIG_POSSIBILITY_HEADLINE,
+  description: LIBERTARIANS_NEXT_BIG_POSSIBILITY_META_DESCRIPTION,
   datePublished: `${LIBERTARIANS_NEXT_BIG_POSSIBILITY_DATES.datePublished}T09:00:00.000Z`,
   dateModified: `${LIBERTARIANS_NEXT_BIG_POSSIBILITY_DATES.dateModified}T20:09:36.000Z`,
   authorId: schemaIds.organization,
 });
 
 const faqLd = faqPageJsonLd(PATH, LIBERTARIANS_NEXT_BIG_POSSIBILITY_FAQ);
+
+const videoLd = videoObjectJsonLd({
+  pathname: PATH,
+  name: "Libertarians’ Next Big Possibility — Neothink Society address (Mark Hamilton)",
+  description: LIBERTARIANS_NEXT_BIG_POSSIBILITY_META_DESCRIPTION,
+  embedUrl: `https://www.youtube.com/embed/${LIBERTARIANS_NEXT_BIG_POSSIBILITY_YOUTUBE_ID}`,
+  thumbnailUrl: `https://i.ytimg.com/vi/${LIBERTARIANS_NEXT_BIG_POSSIBILITY_YOUTUBE_ID}/maxresdefault.jpg`,
+  uploadDate: `${LIBERTARIANS_NEXT_BIG_POSSIBILITY_DATES.datePublished}T09:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${LIBERTARIANS_NEXT_BIG_POSSIBILITY_YOUTUBE_ID}`,
+  durationMinutes: LIBERTARIANS_NEXT_BIG_POSSIBILITY_VIDEO_RUNTIME_MINUTES,
+  speakerId: schemaIds.founder,
+});
 
 export default function LibertariansNextBigPossibilityPage() {
   return (
@@ -76,6 +91,7 @@ export default function LibertariansNextBigPossibilityPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }} />
       <LibertariansNextBigPossibilityPageContent />
     </>
   );

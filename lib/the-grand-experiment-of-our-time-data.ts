@@ -12,11 +12,17 @@ export const THE_GRAND_EXPERIMENT_OF_OUR_TIME_DATES = {
   dateModified: "2026-02-12",
 } as const;
 
-export const THE_GRAND_EXPERIMENT_OF_OUR_TIME_META_TITLE = "The Grand Experiment of Our Time" as const;
+export const THE_GRAND_EXPERIMENT_OF_OUR_TIME_SEO_TITLE =
+  "Grand Experiment: Founding & Prime Law" as const;
 
 export const THE_GRAND_EXPERIMENT_OF_OUR_TIME_HEADLINE = "The Grand Experiment of Our Time" as const;
 
+export const THE_GRAND_EXPERIMENT_OF_OUR_TIME_META_DESCRIPTION =
+  "The second grand experiment: from America’s Enlightenment constitution to Immortalis and the Prime Law—libertarian thought codified. Video, recap, and FAQ." as const;
+
 export const THE_GRAND_EXPERIMENT_OF_OUR_TIME_YOUTUBE_ID = "-VXK2L8iaMM" as const;
+
+export const THE_GRAND_EXPERIMENT_OF_OUR_TIME_VIDEO_RUNTIME_MINUTES = 14 as const;
 
 export const THE_GRAND_EXPERIMENT_OF_OUR_TIME_INTRO_HTML =
   "<p>In a formal address to the Neothink Society, Mark Hamilton draws a sweeping parallel across centuries: just as the American founders codified 100 years of Enlightenment thought into the US Constitution — launching what he calls <strong>the grand experiment of self-governance</strong> — Immortalis now codifies 100 years of libertarian thought into the Prime Law, launching <strong>the second grand experiment</strong>. Hamilton traces the line from classical liberalism through the non-aggression principle to a new civilization built on pure freedom, positioned to become the medical mecca of the world.</p>" as const;

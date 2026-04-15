@@ -3,12 +3,17 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
 import {
   MONT_PELERIN_PIVOT_DATES,
-  MONT_PELERIN_PIVOT_META_TITLE,
+  MONT_PELERIN_PIVOT_HEADLINE,
+  MONT_PELERIN_PIVOT_META_DESCRIPTION,
   MONT_PELERIN_PIVOT_PATH,
+  MONT_PELERIN_PIVOT_SEO_TITLE,
+  MONT_PELERIN_PIVOT_VIDEO_RUNTIME_MINUTES,
+  MONT_PELERIN_PIVOT_YOUTUBE_ID,
 } from "@/lib/mont-pelerin-pivot-into-our-essence-data";
 import { MONT_PELERIN_PIVOT_FAQ } from "@/lib/mont-pelerin-pivot-into-our-essence-faq";
 import { siteConfig } from "@/lib/metadata";
@@ -21,15 +26,13 @@ import "../neothink-awakening/neothink-awakening-html.css";
 
 const PATH = MONT_PELERIN_PIVOT_PATH;
 const CANONICAL = `${siteConfig.url}${PATH}`;
-
-const DESCRIPTION =
-  "The Mont Pelerin pivot: medical mecca messaging, essence vs. abstraction, turnkey packages — Neothink Philosophy citizens meeting on neothink.com.";
+const DOC_TITLE = `${MONT_PELERIN_PIVOT_SEO_TITLE} | Neothink Institute`;
 
 const SPEAKABLE = ["main#main-content h1", "#mpp-intro-lead", "#mpp-quick-title", "#mpp-faq-heading"] as const;
 
 export const metadata = pageMetadata({
-  title: `${MONT_PELERIN_PIVOT_META_TITLE} | Neothink Institute`,
-  description: DESCRIPTION,
+  title: DOC_TITLE,
+  description: MONT_PELERIN_PIVOT_META_DESCRIPTION,
   pathname: PATH,
   ogType: "article",
   article: {
@@ -45,8 +48,8 @@ const breadcrumbs = breadcrumbListJsonLd([
 
 const pageLd = webPageJsonLd({
   pathname: PATH,
-  name: `${MONT_PELERIN_PIVOT_META_TITLE} | Neothink Institute`,
-  description: DESCRIPTION,
+  name: DOC_TITLE,
+  description: MONT_PELERIN_PIVOT_META_DESCRIPTION,
   datePublished: `${MONT_PELERIN_PIVOT_DATES.datePublished}T09:00:00.000Z`,
   dateModified: `${MONT_PELERIN_PIVOT_DATES.dateModified}T20:09:47.000Z`,
   aboutId: schemaIds.society,
@@ -57,14 +60,26 @@ const pageLd = webPageJsonLd({
 
 const articleLd = blogPostingJsonLd({
   pathname: PATH,
-  headline: MONT_PELERIN_PIVOT_META_TITLE,
-  description: DESCRIPTION,
+  headline: MONT_PELERIN_PIVOT_HEADLINE,
+  description: MONT_PELERIN_PIVOT_META_DESCRIPTION,
   datePublished: `${MONT_PELERIN_PIVOT_DATES.datePublished}T09:00:00.000Z`,
   dateModified: `${MONT_PELERIN_PIVOT_DATES.dateModified}T20:09:47.000Z`,
   authorId: schemaIds.organization,
 });
 
 const faqLd = faqPageJsonLd(PATH, MONT_PELERIN_PIVOT_FAQ);
+
+const videoLd = videoObjectJsonLd({
+  pathname: PATH,
+  name: "The Mont Pelerin Pivot — citizens meeting (Mark Hamilton)",
+  description: MONT_PELERIN_PIVOT_META_DESCRIPTION,
+  embedUrl: `https://www.youtube.com/embed/${MONT_PELERIN_PIVOT_YOUTUBE_ID}`,
+  thumbnailUrl: `https://i.ytimg.com/vi/${MONT_PELERIN_PIVOT_YOUTUBE_ID}/maxresdefault.jpg`,
+  uploadDate: `${MONT_PELERIN_PIVOT_DATES.datePublished}T09:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${MONT_PELERIN_PIVOT_YOUTUBE_ID}`,
+  durationMinutes: MONT_PELERIN_PIVOT_VIDEO_RUNTIME_MINUTES,
+  speakerId: schemaIds.founder,
+});
 
 export default function MontPelerinPivotIntoOurEssencePage() {
   return (
@@ -76,6 +91,7 @@ export default function MontPelerinPivotIntoOurEssencePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }} />
       <MontPelerinPivotIntoOurEssencePageContent />
     </>
   );

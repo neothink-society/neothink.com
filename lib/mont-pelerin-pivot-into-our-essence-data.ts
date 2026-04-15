@@ -12,11 +12,16 @@ export const MONT_PELERIN_PIVOT_DATES = {
   dateModified: "2026-02-12",
 } as const;
 
-export const MONT_PELERIN_PIVOT_META_TITLE = "The Mont Pelerin Pivot: Into Our Essence" as const;
+export const MONT_PELERIN_PIVOT_SEO_TITLE = "Mont Pelerin Pivot: Medical Mecca First" as const;
 
 export const MONT_PELERIN_PIVOT_HEADLINE = "The Mont Pelerin Pivot: Into Our Essence" as const;
 
+export const MONT_PELERIN_PIVOT_META_DESCRIPTION =
+  "The Mont Pelerin pivot: lead with the medical mecca and longevity, not the Prime Law first—essence, turnkey packages, and strategy. Video, recap, and FAQ." as const;
+
 export const MONT_PELERIN_PIVOT_YOUTUBE_ID = "4umEGq2oePw" as const;
+
+export const MONT_PELERIN_PIVOT_VIDEO_RUNTIME_MINUTES = 16 as const;
 
 export const MONT_PELERIN_PIVOT_INTRO_HTML =
   "<p>At the Mont Pelerin Society conference in Mexico City, surrounded by Austrian school libertarians who instantly grasped the Prime Law, Mark Hamilton made a paradoxical discovery: the very ease of communicating with soulmates revealed that the message was wrong for everyone else. The pivot: stop leading with freedom and the Prime Law. Start leading with what Immortalis actually <em>is</em> — the medical mecca of the world, curing the diseases that destroy lives. Hamilton calls it getting closer to <strong>our essence</strong>.</p>" as const;

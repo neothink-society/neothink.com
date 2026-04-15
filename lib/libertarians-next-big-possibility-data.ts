@@ -12,13 +12,17 @@ export const LIBERTARIANS_NEXT_BIG_POSSIBILITY_DATES = {
   dateModified: "2026-02-12",
 } as const;
 
-export const LIBERTARIANS_NEXT_BIG_POSSIBILITY_META_TITLE =
-  "Libertarians’ Next Big Possibility: Prime Law Capitalism" as const;
+export const LIBERTARIANS_NEXT_BIG_POSSIBILITY_SEO_TITLE = "Prime Law Capitalism Explained" as const;
 
 export const LIBERTARIANS_NEXT_BIG_POSSIBILITY_HEADLINE =
   "Libertarians’ Next Big Possibility: Prime Law Capitalism" as const;
 
+export const LIBERTARIANS_NEXT_BIG_POSSIBILITY_META_DESCRIPTION =
+  "Prime Law capitalism completes anarcho-capitalism—111 words deliver order without rule of man. Mark Hamilton Neothink Philosophy: video, recap, and FAQ." as const;
+
 export const LIBERTARIANS_NEXT_BIG_POSSIBILITY_YOUTUBE_ID = "u0fwtQaqKo4" as const;
+
+export const LIBERTARIANS_NEXT_BIG_POSSIBILITY_VIDEO_RUNTIME_MINUTES = 10 as const;
 
 export const LIBERTARIANS_NEXT_BIG_POSSIBILITY_INTRO_HTML =
   "<p>Anarcho-capitalism has never been tried — not because it lacks appeal, but because it lacks one thing: <strong>order</strong>. Without order, freedom dissolves into chaos. With government, freedom dissolves into rule of man. In this address, Mark Hamilton identifies the missing puzzle piece that resolves this centuries-old dilemma: the <strong>Prime Law</strong> — governance without government, order without higher authority, a self-governing civilization answerable to 111 words instead of billions of pages of law.</p>" as const;
