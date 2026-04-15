@@ -126,6 +126,12 @@ export const WP = {
   theUnbreakableEquation: "/the-unbreakable-equation",
   /** Neothink Philosophy: subtractive lineage Rand → Wallace → Hamilton (WP post `what-all-philosophies-get-wrong`). */
   whatAllPhilosophiesGetWrong: "/what-all-philosophies-get-wrong",
+  /** Neothink Philosophy: following mode, Prime Law, and mass prosperity (WP post `how-neothink-brings-you-world-of-prosperity`). */
+  howNeothinkBringsYouWorldOfProsperity: "/how-neothink-brings-you-world-of-prosperity",
+  /** Neothink Philosophy: ruling class as cult and Immortalis (WP post `the-cult-you-never-knew-existed`). */
+  theCultYouNeverKnewExisted: "/the-cult-you-never-knew-existed",
+  /** Neothink Philosophy: ruling class removal and network state (WP post `how-every-individual-can-be-wealthy`). */
+  howEveryIndividualCanBeWealthy: "/how-every-individual-can-be-wealthy",
   /** Neothink Mentality lesson 3 (post). */
   beyondTunnelVision: "/beyond-tunnel-vision",
   /** Neothink Mentality lesson 4 (post). */

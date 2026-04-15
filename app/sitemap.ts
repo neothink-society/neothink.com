@@ -178,6 +178,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.73,
     },
     {
+      path: "/how-neothink-brings-you-world-of-prosperity",
+      changeFrequency: "monthly" as const,
+      priority: 0.73,
+    },
+    {
+      path: "/the-cult-you-never-knew-existed",
+      changeFrequency: "monthly" as const,
+      priority: 0.73,
+    },
+    {
+      path: "/how-every-individual-can-be-wealthy",
+      changeFrequency: "monthly" as const,
+      priority: 0.73,
+    },
+    {
       path: "/friday-night-essence",
       changeFrequency: "monthly" as const,
       priority: 0.74,

@@ -50,6 +50,9 @@ const PATH_MAP = {
   "/breaking-the-chains-on-consciousness": "/breaking-the-chains-on-consciousness",
   "/the-unbreakable-equation": "/the-unbreakable-equation",
   "/what-all-philosophies-get-wrong": "/what-all-philosophies-get-wrong",
+  "/how-neothink-brings-you-world-of-prosperity": "/how-neothink-brings-you-world-of-prosperity",
+  "/the-cult-you-never-knew-existed": "/the-cult-you-never-knew-existed",
+  "/how-every-individual-can-be-wealthy": "/how-every-individual-can-be-wealthy",
 };
 
 function norm(p) {
@@ -214,6 +217,27 @@ const jobs = [
     outFile: "lib/what-all-philosophies-get-wrong-body-html.ts",
     startId: "kno2yf7p",
     endId: "62h4xag4",
+  },
+  {
+    slug: "how-neothink-brings-you-world-of-prosperity",
+    constName: "HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_BODY_HTML",
+    outFile: "lib/how-neothink-brings-you-world-of-prosperity-body-html.ts",
+    startId: "d27bea15",
+    endId: "c685e6c8",
+  },
+  {
+    slug: "the-cult-you-never-knew-existed",
+    constName: "THE_CULT_YOU_NEVER_KNEW_EXISTED_BODY_HTML",
+    outFile: "lib/the-cult-you-never-knew-existed-body-html.ts",
+    startId: "770cf2a",
+    endId: "8eb429b",
+  },
+  {
+    slug: "how-every-individual-can-be-wealthy",
+    constName: "HOW_EVERY_INDIVIDUAL_CAN_BE_WEALTHY_BODY_HTML",
+    outFile: "lib/how-every-individual-can-be-wealthy-body-html.ts",
+    startId: "e735828",
+    endId: "48574aa",
   },
 ];
 
