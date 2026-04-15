@@ -122,6 +122,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.73,
     },
+    {
+      path: "/the-missing-key-to-universal-prosperity",
+      changeFrequency: "monthly" as const,
+      priority: 0.73,
+    },
+    {
+      path: "/the-greatest-mental-breakthrough",
+      changeFrequency: "monthly" as const,
+      priority: 0.73,
+    },
+    {
+      path: "/a-knight-in-shining-armor-immortalis",
+      changeFrequency: "monthly" as const,
+      priority: 0.73,
+    },
     { path: "/neothink-mentality", changeFrequency: "monthly" as const, priority: 0.82 },
     { path: "/rise-from-rut", changeFrequency: "monthly" as const, priority: 0.8 },
     { path: "/freedom-from-rights", changeFrequency: "monthly" as const, priority: 0.8 },

@@ -101,6 +101,12 @@ export const WP = {
   immortalisGreatExperimentOfOurTime: "/immortalis-the-great-experiment-of-our-time",
   /** Neothink Philosophy long-form: Neovia biotech freedom city speech (WP post `the-city-that-cures-disease-neovia`). */
   theCityThatCuresDiseaseNeovia: "/the-city-that-cures-disease-neovia",
+  /** Neothink Philosophy long-form: following mode & self-leader mentality (WP post `the-missing-key-to-universal-prosperity`). */
+  theMissingKeyToUniversalProsperity: "/the-missing-key-to-universal-prosperity",
+  /** Neothink Philosophy long-form: subtractive vs. additive progress (WP post `the-greatest-mental-breakthrough`). */
+  theGreatestMentalBreakthrough: "/the-greatest-mental-breakthrough",
+  /** Neothink Philosophy long-form: Immortalis letters of intent & political pivot (WP post `a-knight-in-shining-armor-immortalis`). */
+  aKnightInShiningArmorImmortalis: "/a-knight-in-shining-armor-immortalis",
   /** Neothink Mentality lesson 3 (post). */
   beyondTunnelVision: "/beyond-tunnel-vision",
   /** Neothink Mentality lesson 4 (post). */

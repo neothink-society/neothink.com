@@ -37,6 +37,9 @@ const PATH_MAP = {
   "/mark-hamiltons-story": "/mark-hamiltons-story",
   "/immortalis-the-great-experiment-of-our-time": "/immortalis-the-great-experiment-of-our-time",
   "/the-city-that-cures-disease-neovia": "/the-city-that-cures-disease-neovia",
+  "/the-missing-key-to-universal-prosperity": "/the-missing-key-to-universal-prosperity",
+  "/the-greatest-mental-breakthrough": "/the-greatest-mental-breakthrough",
+  "/a-knight-in-shining-armor-immortalis": "/a-knight-in-shining-armor-immortalis",
 };
 
 function norm(p) {
@@ -103,6 +106,27 @@ const jobs = [
     outFile: "lib/immortalis-the-great-experiment-body-html.ts",
     startId: "8db9def",
     endId: "f9b116e",
+  },
+  {
+    slug: "the-missing-key-to-universal-prosperity",
+    constName: "MISSING_KEY_UNIVERSAL_PROSPERITY_BODY_HTML",
+    outFile: "lib/the-missing-key-to-universal-prosperity-body-html.ts",
+    startId: "4568dce",
+    endId: "fe5c2d3",
+  },
+  {
+    slug: "the-greatest-mental-breakthrough",
+    constName: "GREATEST_MENTAL_BREAKTHROUGH_BODY_HTML",
+    outFile: "lib/the-greatest-mental-breakthrough-body-html.ts",
+    startId: "ope5n9ce",
+    endId: "7fqv7pxl",
+  },
+  {
+    slug: "a-knight-in-shining-armor-immortalis",
+    constName: "KNIGHT_IMMORTALIS_BODY_HTML",
+    outFile: "lib/a-knight-in-shining-armor-immortalis-body-html.ts",
+    startId: "fa4d8bd",
+    endId: "d276150",
   },
 ];
 
