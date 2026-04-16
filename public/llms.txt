@@ -62,7 +62,7 @@ Machine-oriented pointers (human-readable site summary continues below).
 - [Neothink mastermind group success stories](/neothink-mastermind-group-success-stories): Mastermind collaboration and growth (WordPress migration). Canonical path; an older slug redirects here.
 - [Freedom & true wealth (Neothink Awakening)](/freedom-key-to-unlocking-true-wealth): Regulation, innovation, Prime Law, Immortalis — long-form article migrated from WordPress Elementor HTML.
 - [Reprogram your mind to be rich (Neothink Awakening)](/reprogram-mind-to-be-rich): Thinking levels, mini-days, division of essence — long-form article migrated from WordPress Elementor HTML.
-- [Neothink Philosophy — series hub](/category/neothink-philosophy): Category index aligned with WordPress `neothink-philosophy` (81); lists all posts, links to on-site articles where migrated.
+- [Neothink Philosophy — series hub](/category/neothink-philosophy): Full series (31 articles) on-site — subtractive progress, Immortalis, Neovia, capitalism, Plato/Aristotle, illusion pollution, job revolution, and related long-form talks with video and FAQ.
 - [Mark Hamilton’s story (Neothink Philosophy)](/mark-hamiltons-story): Following mode, subtle mysticism, integrated thinking — long-form speech migrated from WordPress.
 - [Immortalis: The Great Experiment (Neothink Philosophy)](/immortalis-the-great-experiment-of-our-time): Prime Law Capitalism speech migrated from WordPress.
 - [The city that cures disease: Neovia (Neothink Philosophy)](/the-city-that-cures-disease-neovia): Neovia biotech freedom city keynote migrated from WordPress.

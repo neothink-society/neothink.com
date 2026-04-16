@@ -77,4 +77,12 @@ export const wpRedirects: Redirect[] = [
     "/what-all-philosophies-get-wrong"
   ),
   ...slugPair("/beautiful-vs-ugly-in-our-world", "/the-beautiful-vs-the-ugly-in-our-world-3"),
+  ...slugPair("/integrated-thinking-see-what-specialists-miss", "/integrated-thinking"),
+  ...slugPair("/future-of-humanity-everything-free", "/the-job-revolution"),
+  ...slugPair("/never-be-manipulated-again", "/illusion-pollution"),
+  ...slugPair("/read-this-to-never-be-manipulated-again", "/illusion-pollution"),
+  ...slugPair("/freeing-hidden-geniuses-elon-musk", "/immortalis"),
+  ...slugPair("/secret-society-reveals-civilizations-hope", "/the-cult-you-never-knew-existed"),
+  ...slugPair("/mark-hamilton-luck-350-million", "/mark-hamiltons-story"),
+  ...slugPair("/thriving-career-overcoming-burnout", "/the-missing-key-to-universal-prosperity"),
 ];

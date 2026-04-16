@@ -69,6 +69,16 @@ const PATH_MAP = {
   "/the-year-capitalism-sets-the-world-free": "/the-year-capitalism-sets-the-world-free",
   "/creating-the-demand-to-live-forever": "/creating-the-demand-to-live-forever",
   "/illusion-pollution": "/illusion-pollution",
+  /** Neothink Mentality & legacy marketing slugs → canonical routes */
+  "/rise-from-rut": "/rise-from-rut",
+  "/integrated-thinking-see-what-specialists-miss": "/integrated-thinking",
+  "/future-of-humanity-everything-free": "/the-job-revolution",
+  "/never-be-manipulated-again": "/illusion-pollution",
+  "/read-this-to-never-be-manipulated-again": "/illusion-pollution",
+  "/freeing-hidden-geniuses-elon-musk": "/immortalis",
+  "/secret-society-reveals-civilizations-hope": "/the-cult-you-never-knew-existed",
+  "/mark-hamilton-luck-350-million": "/mark-hamiltons-story",
+  "/thriving-career-overcoming-burnout": "/the-missing-key-to-universal-prosperity",
 };
 
 function norm(p) {

@@ -12,7 +12,8 @@ import {
 import { SELF_LEADER_SECRET_FAQ } from "@/lib/self-leader-secret-faq";
 import { WP } from "@/lib/wordpress-routes";
 
-const SERIES = "https://neothink.com/category/neothink-concepts/";
+/** No `/category/neothink-concepts` hub yet; anchor the series chip to a flagship Concepts article. */
+const SERIES = WP.integratedThinking;
 
 export function SelfLeaderSecretPageContent() {
   return (

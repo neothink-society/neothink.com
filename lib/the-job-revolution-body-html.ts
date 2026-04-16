@@ -25,7 +25,7 @@ export const THE_JOB_REVOLUTION_BODY_HTML = `<div class="elementor-element eleme
 				</div>
 				<div class="elementor-element elementor-element-1deda84 elementor-widget elementor-widget-text-editor" data-id="1deda84" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p>Hamilton points out that Neothink has existed throughout history, but fewer than one percent of people tap into it. That is why he named it Neothink — new think — because for 99+ percent of people, it <em>is</em> new. His life’s work has been to bring Neothink to everyone: first for the individual, then for <a style="color: #96792b; text-decoration: underline;" href="https://neothink.com/rise-from-rut/">business owners</a>, and now for civilization itself.</p>								</div>
+									<p>Hamilton points out that Neothink has existed throughout history, but fewer than one percent of people tap into it. That is why he named it Neothink — new think — because for 99+ percent of people, it <em>is</em> new. His life’s work has been to bring Neothink to everyone: first for the individual, then for <a style="color: #96792b; text-decoration: underline;" href="/rise-from-rut">business owners</a>, and now for civilization itself.</p>								</div>
 				</div>
 				<div class="elementor-element elementor-element-2fa4d22 elementor-widget elementor-widget-text-editor" data-id="2fa4d22" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">

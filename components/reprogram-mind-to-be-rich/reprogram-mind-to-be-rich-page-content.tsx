@@ -14,9 +14,10 @@ import {
 import { RMTBR_FAQ } from "@/lib/reprogram-mind-to-be-rich-faq";
 import { WP } from "@/lib/wordpress-routes";
 
-const AWAKENING_SERIES = "https://neothink.com/category/neothink-awakening/";
-const LUCK_350M = "https://neothink.com/mark-hamilton-luck-350-million/";
-const GREATEST_MENTAL = "https://neothink.com/the-greatest-mental-breakthrough/";
+/** On-site entry points for the Neothink Awakening arc (no category hub route yet). */
+const AWAKENING_ENTRY = WP.freedomKeyToUnlockingTrueWealth;
+const LUCK_350M = WP.markHamiltonsStory;
+const GREATEST_MENTAL = WP.theGreatestMentalBreakthrough;
 
 export function ReprogramMindToBeRichPageContent() {
   const mainRef = useRef<HTMLElement>(null);
@@ -54,10 +55,8 @@ export function ReprogramMindToBeRichPageContent() {
       <article>
         <header className="nu-hero" aria-labelledby="rmtbr-hero-heading">
           <div className="nu-hero-label">
-            <a
-              href={AWAKENING_SERIES}
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href={AWAKENING_ENTRY}
               style={{
                 display: "inline-block",
                 background: "linear-gradient(135deg,#d4a853 0%,#f5d799 50%,#d4a853 100%)",
@@ -72,7 +71,7 @@ export function ReprogramMindToBeRichPageContent() {
               }}
             >
               Neothink Awakening
-            </a>
+            </Link>
           </div>
           <h1 id="rmtbr-hero-heading">{RMTBR_HEADLINE}</h1>
           {RMTBR_INTRO_PARAS.map((para, idx) => (
@@ -118,16 +117,16 @@ export function ReprogramMindToBeRichPageContent() {
           <h2 id="rmtbr-quick-title">How can you reprogram your mind to be rich?</h2>
           <p>
             <strong>Through Neothink—a limitless way of thinking that starts simple and scales infinitely.</strong>{" "}
-            <a href={LUCK_350M} style={{ color: "#96792b", textDecoration: "none" }}>
+            <Link href={LUCK_350M} style={{ color: "#96792b", textDecoration: "none" }}>
               Mark Hamilton
-            </a>{" "}
+            </Link>{" "}
             developed this approach after nearly losing his business. By applying a thinking technique that pulls
             concepts together into new systems, he went from drowning in daily tasks to building a $350 million
             enterprise. The key: most people are trapped in perceptual thinking (reacting to what’s in front of them).
             Neothink teaches you how to rise to conceptual thinking, then to{" "}
-            <a href={GREATEST_MENTAL} style={{ color: "#96792b", textDecoration: "none" }}>
+            <Link href={GREATEST_MENTAL} style={{ color: "#96792b", textDecoration: "none" }}>
               integrating
-            </a>{" "}
+            </Link>{" "}
             concepts into breakthrough systems that create wealth.
           </p>
         </div>
