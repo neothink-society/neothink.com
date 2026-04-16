@@ -11,7 +11,6 @@ import {
   NEOTHINK_PHILOSOPHY_MIGRATED_SLUGS,
   NEOTHINK_PHILOSOPHY_SERIES_POSTS,
 } from "@/lib/neothink-philosophy-category-data";
-import { siteConfig } from "@/lib/metadata";
 import { pageMetadata } from "@/lib/seo-metadata";
 import { schemaIds } from "@/lib/schema-ids";
 

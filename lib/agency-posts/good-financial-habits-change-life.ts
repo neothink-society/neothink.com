@@ -7,7 +7,7 @@
 export const GOOD_FINANCIAL_HABITS_CHANGE_LIFE_PATH = "/good-financial-habits-change-life";
 export const GOOD_FINANCIAL_HABITS_CHANGE_LIFE_HEADLINE = "18 Good Financial Habits That Can Change Your Life";
 export const GOOD_FINANCIAL_HABITS_CHANGE_LIFE_META_TITLE = "18 Good Financial Habits That Can Change Your Life";
-export const GOOD_FINANCIAL_HABITS_CHANGE_LIFE_DESCRIPTION = "Developing good financial habits can be a game-changer, paving the way for financial security and peace of mind.";
+export const GOOD_FINANCIAL_HABITS_CHANGE_LIFE_DESCRIPTION = "";
 
 export const GOOD_FINANCIAL_HABITS_CHANGE_LIFE_DATES = {
   datePublished: "2024-07-16T05:38:23Z",
@@ -15,10 +15,10 @@ export const GOOD_FINANCIAL_HABITS_CHANGE_LIFE_DATES = {
 } as const;
 
 export const GOOD_FINANCIAL_HABITS_CHANGE_LIFE_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2024/08/18-good-financial-habits-that-can-change1.jpg",
+  src: "/brand-assets/neothink-hero.jpg",
   alt: "18 Good Financial Habits That Can Change Your Life",
-  width: 1000,
-  height: 667,
+  width: 1200,
+  height: 630,
 } as const;
 
 export const GOOD_FINANCIAL_HABITS_CHANGE_LIFE_INTRO_PARAS: readonly string[] = [

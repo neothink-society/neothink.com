@@ -2,12 +2,39 @@
 
 import Image from "next/image";
 import { ChevronLeft, ChevronRight, Pause, Play } from "lucide-react";
-import { useCallback, useEffect, useId, useRef, useState, type KeyboardEvent } from "react";
+import {
+  useCallback,
+  useEffect,
+  useId,
+  useRef,
+  useState,
+  useSyncExternalStore,
+  type KeyboardEvent,
+} from "react";
 
 import type { NuTestimonial } from "@/lib/neothink-university-testimonials.generated";
 import { NEOTHINK_UNIVERSITY_TESTIMONIALS } from "@/lib/neothink-university-testimonials.generated";
 
 const AUTOPLAY_MS = 9000;
+
+const REDUCE_MOTION_QUERY = "(prefers-reduced-motion: reduce)";
+
+function subscribeReduceMotion(notify: () => void): () => void {
+  if (typeof window === "undefined" || typeof window.matchMedia !== "function") {
+    return () => {};
+  }
+  const mq = window.matchMedia(REDUCE_MOTION_QUERY);
+  mq.addEventListener("change", notify);
+  return () => mq.removeEventListener("change", notify);
+}
+
+function getReduceMotionSnapshot(): boolean {
+  return window.matchMedia(REDUCE_MOTION_QUERY).matches;
+}
+
+function getReduceMotionServerSnapshot(): boolean {
+  return false;
+}
 
 function initialsFromName(name: string): string {
   const clean = name.replace(/^[-–]\s*/, "").trim();
@@ -74,13 +101,17 @@ export function NeothinkUniversityTestimonials() {
   const scrollerRef = useRef<HTMLDivElement>(null);
   const indexRef = useRef(0);
   const [index, setIndex] = useState(0);
-  const [reduceMotion, setReduceMotion] = useState(false);
+  const reduceMotion = useSyncExternalStore(
+    subscribeReduceMotion,
+    getReduceMotionSnapshot,
+    getReduceMotionServerSnapshot
+  );
   const [hoverPaused, setHoverPaused] = useState(false);
   const [autoplayOff, setAutoplayOff] = useState(false);
-  const [announce, setAnnounce] = useState("");
 
   const total = NEOTHINK_UNIVERSITY_TESTIMONIALS.length;
   const current = NEOTHINK_UNIVERSITY_TESTIMONIALS[index];
+  const announce = current ? `Story ${index + 1} of ${total}. ${current.name}.` : "";
   const atStart = index <= 0;
   const atEnd = index >= total - 1;
 
@@ -100,14 +131,6 @@ export function NeothinkUniversityTestimonials() {
   useEffect(() => {
     indexRef.current = index;
   }, [index]);
-
-  useEffect(() => {
-    const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
-    setReduceMotion(mq.matches);
-    const fn = () => setReduceMotion(mq.matches);
-    mq.addEventListener("change", fn);
-    return () => mq.removeEventListener("change", fn);
-  }, []);
 
   useEffect(() => {
     const el = scrollerRef.current;
@@ -140,11 +163,6 @@ export function NeothinkUniversityTestimonials() {
       if (debounceId !== undefined) window.clearTimeout(debounceId);
     };
   }, [total]);
-
-  useEffect(() => {
-    if (!current) return;
-    setAnnounce(`Story ${index + 1} of ${total}. ${current.name}.`);
-  }, [index, current, total]);
 
   const autoplayActive = !reduceMotion && !hoverPaused && !autoplayOff;
 

@@ -87,7 +87,6 @@ function parseTestimonials(html) {
     if (fullM) fullParagraphs = htmlBrToParagraphs(fullM[1]);
 
     if (fullParagraphs.length === 0) {
-      const pBlocks = [...chunk.matchAll(/<p>([\s\S]*?)<\/p>/g)];
       const inContent = chunk.indexOf("testimonial-content");
       const beforeFields = chunk.indexOf('testimonial-field name">');
       const slice =

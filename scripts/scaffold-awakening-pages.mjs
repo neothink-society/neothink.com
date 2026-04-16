@@ -48,28 +48,6 @@ const CONST_PREFIX = {
   "how-to-raise-a-genius": "HTRG",
 };
 
-const WP_ROUTE_KEY = {
-  "universal-wealth-secrets-the-solution-exposed": "universalWealthSecretsTheSolutionExposed",
-  "the-secret-to-a-wealthy-healthy-peaceful-country": "theSecretToAWealthyHealthyPeacefulCountry",
-  "separating-heroes-from-dreamers": "separatingHeroesFromDreamers",
-  "how-to-be-a-leader-the-one-thing-holding-you-back": "howToBeALeaderTheOneThingHoldingYouBack",
-  "philosopher-make-your-life-exciting-again-do-this": "philosopherMakeYourLifeExcitingAgainDoThis",
-  "a-society-without-politics-poverty-or-war": "aSocietyWithoutPoliticsPovertyOrWar",
-  "the-future-of-humanity-building-a-new-country-without-rulers": "theFutureOfHumanityBuildingANewCountryWithoutRulers",
-  "this-is-how-close-we-are-to-biological-immortality": "thisIsHowCloseWeAreToBiologicalImmortality",
-  "youre-being-manipulated-they-use-guilt-to-control-you": "yourBeingManipulatedGuiltToControlYou",
-  "escape-the-matrix-now": "escapeTheMatrixNow",
-  "finding-achieving-your-life-purpose": "findingAchievingYourLifePurpose",
-  "think-like-elon-musk-mind-hacks": "thinkLikeElonMuskMindHacks",
-  "new-country-with-no-taxes": "newCountryWithNoTaxes",
-  "why-neothink-makes-you-irresistible": "whyNeothinkMakesYouIrresistible",
-  "sell-anything-marketing-secret": "sellAnythingMarketingSecret",
-  "trumps-victory-beginning-new-era": "trumpsVictoryBeginningNewEra",
-  "aliens-real-never-visit-earth": "aliensRealNeverVisitEarth",
-  "are-we-the-illuminati-truth": "areWeTheIlluminatiTruth",
-  "how-to-raise-a-genius": "howToRaiseAGenius",
-};
-
 function pascal(slug) {
   return slug
     .split("-")
@@ -79,15 +57,6 @@ function pascal(slug) {
 
 function upperSnake(slug) {
   return slug.replace(/[^a-z0-9]+/gi, "_").toUpperCase();
-}
-
-function titleCaseFromH1(h1) {
-  return h1
-    .replace(/[^a-zA-Z0-9\s]/g, " ")
-    .split(/\s+/)
-    .filter(Boolean)
-    .map((w) => w[0].toUpperCase() + w.slice(1).toLowerCase())
-    .join(" ");
 }
 
 function readDataConstants(slug) {

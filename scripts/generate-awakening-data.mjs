@@ -19,7 +19,7 @@
  *
  * @see https://neothink.com/wp-json/wp/v2/posts?categories=80
  */
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -275,14 +275,6 @@ function constPrefix(slug) {
     "universal-wealth-secrets-the-solution-exposed": "UWSSE",
   };
   return map[slug] || slug.replace(/[^a-z0-9]+/gi, "_").toUpperCase();
-}
-
-function slugPathVar(slug) {
-  return `${constPrefix(slug)}_PATH`;
-}
-
-function tsEscape(s) {
-  return s.replace(/\\/g, "\\\\").replace(/`/g, "\\`").replace(/\$\{/g, "\\${");
 }
 
 function toDoubleQuoted(s) {
