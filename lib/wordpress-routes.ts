@@ -97,6 +97,43 @@ export const WP = {
   reprogramMindToBeRich: "/reprogram-mind-to-be-rich",
   /** Neothink Awakening article: inner mind space question technique (WP post `how-to-raise-a-genius`). */
   howToRaiseAGenius: "/how-to-raise-a-genius",
+  /** Neothink Awakening: Prime Law, no politics/poverty/war (WP post `a-society-without-politics-poverty-or-war`). */
+  aSocietyWithoutPoliticsPovertyOrWar: "/a-society-without-politics-poverty-or-war",
+  /** Neothink Awakening: aliens as a value-for-value argument (WP post `aliens-real-never-visit-earth`). */
+  aliensRealNeverVisitEarth: "/aliens-real-never-visit-earth",
+  /** Neothink Awakening: answer to the "illuminati" allegation (WP post `are-we-the-illuminati-truth`). */
+  areWeTheIlluminatiTruth: "/are-we-the-illuminati-truth",
+  /** Neothink Awakening: escaping the following mode (WP post `escape-the-matrix-now`). */
+  escapeTheMatrixNow: "/escape-the-matrix-now",
+  /** Neothink Awakening: vector-finding & life purpose (WP post `finding-achieving-your-life-purpose`). */
+  findingAchievingYourLifePurpose: "/finding-achieving-your-life-purpose",
+  /** Neothink Awakening: one blocker to leadership (WP post `how-to-be-a-leader-the-one-thing-holding-you-back`). */
+  howToBeALeaderTheOneThingHoldingYouBack: "/how-to-be-a-leader-the-one-thing-holding-you-back",
+  /** Neothink Awakening: new-country/no-taxes framing (WP post `new-country-with-no-taxes`). */
+  newCountryWithNoTaxes: "/new-country-with-no-taxes",
+  /** Neothink Awakening: make life exciting again (WP post `philosopher-make-your-life-exciting-again-do-this`). */
+  philosopherMakeYourLifeExcitingAgainDoThis: "/philosopher-make-your-life-exciting-again-do-this",
+  /** Neothink Awakening: $350M marketing secret / value creation (WP post `sell-anything-marketing-secret`). */
+  sellAnythingMarketingSecret: "/sell-anything-marketing-secret",
+  /** Neothink Awakening: heroes vs dreamers (WP post `separating-heroes-from-dreamers`). */
+  separatingHeroesFromDreamers: "/separating-heroes-from-dreamers",
+  /** Neothink Awakening: building a country without rulers (WP post `the-future-of-humanity-building-a-new-country-without-rulers`). */
+  theFutureOfHumanityBuildingANewCountryWithoutRulers:
+    "/the-future-of-humanity-building-a-new-country-without-rulers",
+  /** Neothink Awakening: the secret to a wealthy/healthy/peaceful country (WP post `the-secret-to-a-wealthy-healthy-peaceful-country`). */
+  theSecretToAWealthyHealthyPeacefulCountry: "/the-secret-to-a-wealthy-healthy-peaceful-country",
+  /** Neothink Awakening: Elon Musk–style integrated thinking (WP post `think-like-elon-musk-mind-hacks`). */
+  thinkLikeElonMuskMindHacks: "/think-like-elon-musk-mind-hacks",
+  /** Neothink Awakening: how close we are to biological immortality (WP post `this-is-how-close-we-are-to-biological-immortality`). */
+  thisIsHowCloseWeAreToBiologicalImmortality: "/this-is-how-close-we-are-to-biological-immortality",
+  /** Neothink Awakening: Trump’s victory framing (WP post `trumps-victory-beginning-new-era`). */
+  trumpsVictoryBeginningNewEra: "/trumps-victory-beginning-new-era",
+  /** Neothink Awakening: universal wealth secrets (WP post `universal-wealth-secrets-the-solution-exposed`). */
+  universalWealthSecretsTheSolutionExposed: "/universal-wealth-secrets-the-solution-exposed",
+  /** Neothink Awakening: why Neothink makes you irresistible (WP post `why-neothink-makes-you-irresistible`). */
+  whyNeothinkMakesYouIrresistible: "/why-neothink-makes-you-irresistible",
+  /** Neothink Awakening: guilt-based manipulation (WP post `youre-being-manipulated-they-use-guilt-to-control-you`). */
+  yourBeingManipulatedGuiltToControlYou: "/youre-being-manipulated-they-use-guilt-to-control-you",
   /**
    * Neothink Philosophy — category hub (WordPress category `neothink-philosophy`, id 81).
    * Lists all series posts; links to Next routes where migrated, else canonical post permalinks.

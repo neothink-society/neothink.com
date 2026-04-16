@@ -39,6 +39,25 @@
 - [Neothink mastermind group success stories](/neothink-mastermind-group-success-stories): WordPress-migrated mastermind article; canonical path with legacy slug redirect.
 - [Freedom & true wealth](/freedom-key-to-unlocking-true-wealth): Neothink Awakening article (Elementor body + app shell + FAQ).
 - [Reprogram mind to be rich](/reprogram-mind-to-be-rich): Neothink Awakening article (Elementor body + app shell + FAQ).
+- [How to raise a genius](/how-to-raise-a-genius): Neothink Awakening article (Elementor body + app shell + FAQ).
+- [Universal wealth secrets: solution exposed](/universal-wealth-secrets-the-solution-exposed): Neothink Awakening article (Elementor body + app shell + FAQ).
+- [Secret to a wealthy, healthy, peaceful country](/the-secret-to-a-wealthy-healthy-peaceful-country): Neothink Awakening article (Elementor body + app shell + FAQ).
+- [Separating heroes from dreamers](/separating-heroes-from-dreamers): Neothink Awakening article (Elementor body + app shell + FAQ).
+- [How to be a leader: the one thing holding you back](/how-to-be-a-leader-the-one-thing-holding-you-back): Neothink Awakening article (Elementor body + app shell + FAQ).
+- [Philosopher: make your life exciting again](/philosopher-make-your-life-exciting-again-do-this): Neothink Awakening article (Elementor body + app shell + FAQ).
+- [A society without politics, poverty, or war](/a-society-without-politics-poverty-or-war): Neothink Awakening article (Elementor body + app shell + FAQ).
+- [Building a new country without rulers](/the-future-of-humanity-building-a-new-country-without-rulers): Neothink Awakening article (Elementor body + app shell + FAQ).
+- [How close we are to biological immortality](/this-is-how-close-we-are-to-biological-immortality): Neothink Awakening article (Elementor body + app shell + FAQ).
+- [You're being manipulated — guilt as control](/youre-being-manipulated-they-use-guilt-to-control-you): Neothink Awakening article (Elementor body + app shell + FAQ).
+- [Escape the matrix NOW](/escape-the-matrix-now): Neothink Awakening article (Elementor body + app shell + FAQ).
+- [Finding & achieving your life's purpose](/finding-achieving-your-life-purpose): Neothink Awakening article (Elementor body + app shell + FAQ).
+- [Think like Elon Musk — mind hacks](/think-like-elon-musk-mind-hacks): Neothink Awakening article (Elementor body + app shell + FAQ).
+- [A new country with no taxes?](/new-country-with-no-taxes): Neothink Awakening article (Elementor body + app shell + FAQ).
+- [Why Neothink makes you irresistible](/why-neothink-makes-you-irresistible): Neothink Awakening article (Elementor body + app shell + FAQ).
+- [Want to sell anything? $350M secret](/sell-anything-marketing-secret): Neothink Awakening article (Elementor body + app shell + FAQ).
+- [Trump's victory — beginning of a new era](/trumps-victory-beginning-new-era): Neothink Awakening article (Elementor body + app shell + FAQ).
+- [Aliens are real… never visit earth](/aliens-real-never-visit-earth): Neothink Awakening article (Elementor body + app shell + FAQ).
+- [Are we the Illuminati? The truth](/are-we-the-illuminati-truth): Neothink Awakening article (Elementor body + app shell + FAQ).
 - [Neothink Philosophy — series hub](/category/neothink-philosophy): Lists category 81 posts; native links for migrated articles.
 - [Neothink Awakening — series hub](/category/neothink-awakening): Lists category 80 posts; native links for migrated Awakening articles.
 - [Neothink Concepts — series hub](/category/neothink-concepts): Lists category 84 posts; native links for all Concepts articles on this site.

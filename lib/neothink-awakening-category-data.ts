@@ -19,9 +19,27 @@ export const NEOTHINK_AWAKENING_CATEGORY_SEO_DESCRIPTION =
   "Neothink Awakening series: Mark Hamilton articles on mindset, freedom, wealth, leadership, and civilization—full list with native reading on neothink.com where articles are migrated." as const;
 
 export const NEOTHINK_AWAKENING_MIGRATED_SLUGS: ReadonlySet<string> = new Set([
+  "a-society-without-politics-poverty-or-war",
+  "aliens-real-never-visit-earth",
+  "are-we-the-illuminati-truth",
+  "escape-the-matrix-now",
+  "finding-achieving-your-life-purpose",
   "freedom-key-to-unlocking-true-wealth",
-  "reprogram-mind-to-be-rich",
+  "how-to-be-a-leader-the-one-thing-holding-you-back",
   "how-to-raise-a-genius",
+  "new-country-with-no-taxes",
+  "philosopher-make-your-life-exciting-again-do-this",
+  "reprogram-mind-to-be-rich",
+  "sell-anything-marketing-secret",
+  "separating-heroes-from-dreamers",
+  "the-future-of-humanity-building-a-new-country-without-rulers",
+  "the-secret-to-a-wealthy-healthy-peaceful-country",
+  "think-like-elon-musk-mind-hacks",
+  "this-is-how-close-we-are-to-biological-immortality",
+  "trumps-victory-beginning-new-era",
+  "universal-wealth-secrets-the-solution-exposed",
+  "why-neothink-makes-you-irresistible",
+  "youre-being-manipulated-they-use-guilt-to-control-you",
 ]);
 
 export type NeothinkAwakeningSeriesPost = {
