@@ -21,6 +21,7 @@ export const NEOTHINK_AWAKENING_CATEGORY_SEO_DESCRIPTION =
 export const NEOTHINK_AWAKENING_MIGRATED_SLUGS: ReadonlySet<string> = new Set([
   "freedom-key-to-unlocking-true-wealth",
   "reprogram-mind-to-be-rich",
+  "how-to-raise-a-genius",
 ]);
 
 export type NeothinkAwakeningSeriesPost = {

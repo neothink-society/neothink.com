@@ -95,6 +95,8 @@ export const WP = {
   freedomKeyToUnlockingTrueWealth: "/freedom-key-to-unlocking-true-wealth",
   /** Neothink Awakening article: Neothink thinking levels, mini-days, division of essence (WP post `reprogram-mind-to-be-rich`). */
   reprogramMindToBeRich: "/reprogram-mind-to-be-rich",
+  /** Neothink Awakening article: inner mind space question technique (WP post `how-to-raise-a-genius`). */
+  howToRaiseAGenius: "/how-to-raise-a-genius",
   /**
    * Neothink Philosophy — category hub (WordPress category `neothink-philosophy`, id 81).
    * Lists all series posts; links to Next routes where migrated, else canonical post permalinks.

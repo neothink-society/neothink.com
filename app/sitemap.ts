@@ -108,6 +108,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.72,
     },
     {
+      path: "/how-to-raise-a-genius",
+      changeFrequency: "monthly" as const,
+      priority: 0.72,
+    },
+    {
       path: "/category/neothink-philosophy",
       changeFrequency: "weekly" as const,
       priority: 0.74,
