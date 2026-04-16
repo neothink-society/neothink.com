@@ -33,7 +33,9 @@ const AGENCY_SLUGS = [
   "what-will-shape-future-of-humanity",
   "doubts-about-neothink-society",
   "neothink-debate-minimal-government",
-  "neothink-society-empowering-and-challenging",
+  // Intentionally omitted: "neothink-society-empowering-and-challenging" was a
+  // WordPress duplicate of the in-house page `/neothink-society-empowering-challenging`.
+  // It is handled via 301 redirect in `lib/migration/wp-redirects.ts`.
   "who-joins-secret-societies",
   "secret-society-letters-selling-happiness",
   "neothink-manuscripts-skepticism-to-success",

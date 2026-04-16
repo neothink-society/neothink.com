@@ -8,7 +8,7 @@
 
 import { WP } from "@/lib/wordpress-routes";
 
-export const NSEC_PATH = "/neothink-society-empowering-and-challenging" as const;
+export const NSEC_PATH = "/neothink-society-empowering-challenging" as const;
 
 export const NSEC_WP = {
   postId: "3581",

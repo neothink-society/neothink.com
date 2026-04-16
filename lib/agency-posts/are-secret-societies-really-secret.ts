@@ -7,7 +7,7 @@
 export const ARE_SECRET_SOCIETIES_REALLY_SECRET_PATH = "/are-secret-societies-really-secret";
 export const ARE_SECRET_SOCIETIES_REALLY_SECRET_HEADLINE = "Are ‘Secret Societies’ Really That Secret?";
 export const ARE_SECRET_SOCIETIES_REALLY_SECRET_META_TITLE = "Are ‘Secret Societies’ Really That Secret?";
-export const ARE_SECRET_SOCIETIES_REALLY_SECRET_DESCRIPTION = "";
+export const ARE_SECRET_SOCIETIES_REALLY_SECRET_DESCRIPTION = "When you hear the phrase “join a secret society,” what images come to mind? Perhaps mysterious gatherings, coded messages, or exclusive access only granted…";
 
 export const ARE_SECRET_SOCIETIES_REALLY_SECRET_DATES = {
   datePublished: "2025-06-02T15:42:07Z",

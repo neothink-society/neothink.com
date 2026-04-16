@@ -63,8 +63,13 @@ function canonicalize(p) {
 
 function main() {
   const inv = JSON.parse(fs.readFileSync(INV, "utf8"));
-  const sitemap = inv.entries.filter((e) => e.inSitemap);
-  const wpPaths = sitemap.map((e) => canonicalize(e.path));
+  // Audit both sitemap + GSC-indexed URLs (the inventory merges both). GSC-only
+  // entries catch long editorial slugs that WordPress removed from the sitemap
+  // but Google still has indexed — they need redirects just as urgently.
+  const auditable = inv.entries.filter(
+    (e) => (e.inSitemap || e.gsc) && e.path && e.path.startsWith("/")
+  );
+  const wpPaths = auditable.map((e) => canonicalize(e.path));
 
   const appRoutes = new Set(
     [...listAppRoutes(APP_DIR)].map((r) => canonicalize(r))
@@ -105,10 +110,10 @@ function main() {
     }
   }
 
-  console.log(`WP sitemap URLs:         ${wpPaths.length}`);
-  console.log(`  Resolved (Next route): ${resolves.length}`);
-  console.log(`  Redirected (301):      ${redirects.length}`);
-  console.log(`  Gaps (TODO):           ${gaps.length}`);
+  console.log(`WP URLs audited (sitemap + GSC): ${wpPaths.length}`);
+  console.log(`  Resolved (Next route):         ${resolves.length}`);
+  console.log(`  Redirected (301):              ${redirects.length}`);
+  console.log(`  Gaps (TODO):                   ${gaps.length}`);
   if (gaps.length) {
     console.log("\n-- Gaps --");
     for (const g of gaps.sort()) console.log(`  ${g}`);

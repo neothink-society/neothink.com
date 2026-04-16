@@ -7,7 +7,7 @@
 export const DEAL_WITH_FINANCIAL_STRESS_PATH = "/deal-with-financial-stress";
 export const DEAL_WITH_FINANCIAL_STRESS_HEADLINE = "How to Deal With Financial Stress and Build a Solid Financial Foundation";
 export const DEAL_WITH_FINANCIAL_STRESS_META_TITLE = "How to Deal With Financial Stress and Build a Solid Financial Foundation";
-export const DEAL_WITH_FINANCIAL_STRESS_DESCRIPTION = "";
+export const DEAL_WITH_FINANCIAL_STRESS_DESCRIPTION = "Ask anyone about their goals in life and chances are, most will tell you that wealth is one of them. According to a recent survey from Empower financial…";
 
 export const DEAL_WITH_FINANCIAL_STRESS_DATES = {
   datePublished: "2025-03-05T11:09:14Z",

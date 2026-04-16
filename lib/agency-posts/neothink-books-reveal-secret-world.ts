@@ -7,7 +7,7 @@
 export const NEOTHINK_BOOKS_REVEAL_SECRET_WORLD_PATH = "/neothink-books-reveal-secret-world";
 export const NEOTHINK_BOOKS_REVEAL_SECRET_WORLD_HEADLINE = "Neothink Books: Do They Reveal A Secret World?";
 export const NEOTHINK_BOOKS_REVEAL_SECRET_WORLD_META_TITLE = "Neothink Books: Do They Reveal A Secret World?";
-export const NEOTHINK_BOOKS_REVEAL_SECRET_WORLD_DESCRIPTION = "";
+export const NEOTHINK_BOOKS_REVEAL_SECRET_WORLD_DESCRIPTION = "Central to this philosophy are the Neothink books – comprehensive manuscripts that guide readers on how to break free from stagnation and live the…";
 
 export const NEOTHINK_BOOKS_REVEAL_SECRET_WORLD_DATES = {
   datePublished: "2025-06-16T16:18:31Z",

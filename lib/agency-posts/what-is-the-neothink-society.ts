@@ -7,7 +7,7 @@
 export const WHAT_IS_THE_NEOTHINK_SOCIETY_PATH = "/what-is-the-neothink-society";
 export const WHAT_IS_THE_NEOTHINK_SOCIETY_HEADLINE = "What Is The Neothink Society?";
 export const WHAT_IS_THE_NEOTHINK_SOCIETY_META_TITLE = "What Is The Neothink Society?";
-export const WHAT_IS_THE_NEOTHINK_SOCIETY_DESCRIPTION = "";
+export const WHAT_IS_THE_NEOTHINK_SOCIETY_DESCRIPTION = "The Neothink Society is a community and philosophy founded by Mark Hamilton that guides people toward extraordinary, purpose-filled lives.";
 
 export const WHAT_IS_THE_NEOTHINK_SOCIETY_DATES = {
   datePublished: "2025-04-24T09:47:31Z",

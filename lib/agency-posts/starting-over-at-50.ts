@@ -7,7 +7,7 @@
 export const STARTING_OVER_AT_50_PATH = "/starting-over-at-50";
 export const STARTING_OVER_AT_50_HEADLINE = "Is Starting Over At 50 Too Late For Success?";
 export const STARTING_OVER_AT_50_META_TITLE = "Is Starting Over At 50 Too Late For Success?";
-export const STARTING_OVER_AT_50_DESCRIPTION = "";
+export const STARTING_OVER_AT_50_DESCRIPTION = "Starting over at any age can be scary. With a world of opportunity outstretched before you, there’s also so much unknown. Fear of the unknown is what…";
 
 export const STARTING_OVER_AT_50_DATES = {
   datePublished: "2025-03-20T11:26:38Z",

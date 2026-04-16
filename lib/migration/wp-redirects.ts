@@ -212,4 +212,152 @@ export const wpRedirects: Redirect[] = [
   // Default WP artifacts / test pages -> home.
   ...slugPair("/sample-page", "/"),
   ...slugPair("/master28", "/"),
+
+  // ---- GSC-only gap sweep ---------------------------------------------------
+  // URLs Google indexed from WordPress that never appeared in the sitemap.
+  // Long editorial slug -> canonical migrated short slug (agency-era posts).
+  ...slugPair(
+    "/is-trumps-victory-the-beginning-of-a-new-era",
+    "/trumps-victory-beginning-new-era"
+  ),
+  ...slugPair(
+    "/how-the-neothink-society-can-be-both-empowering-and-challenging",
+    "/neothink-society-empowering-challenging"
+  ),
+  // Agency-era WP slug also collapses into the in-house canonical (these were
+  // two URLs for the same article in WordPress; consolidate to the shorter
+  // in-house slug to avoid duplicate content on Next.js).
+  ...slugPair(
+    "/neothink-society-empowering-and-challenging",
+    "/neothink-society-empowering-challenging"
+  ),
+  ...slugPair(
+    "/secret-society-letters-are-they-just-selling-happiness",
+    "/secret-society-letters-selling-happiness"
+  ),
+  ...slugPair(
+    "/neothink-books-do-they-reveal-a-secret-world",
+    "/neothink-books-reveal-secret-world"
+  ),
+  ...slugPair(
+    "/what-do-secret-societies-do-understanding-their-purpose-and-existence",
+    "/what-do-secret-societies-do"
+  ),
+  ...slugPair(
+    "/freedom-is-the-key-to-unlocking-true-wealth-in-2026",
+    "/freedom-key-to-unlocking-true-wealth"
+  ),
+  ...slugPair(
+    "/how-to-discern-genuine-secret-society-opportunities-from-fraud",
+    "/discern-genuine-secret-society-opportunities"
+  ),
+  ...slugPair(
+    "/neothink-in-the-21st-century-how-to-navigate-todays-challenges",
+    "/neothink-21st-century-navigate-challenges"
+  ),
+  ...slugPair(
+    "/the-ancient-formula-for-wealth-and-influence-does-neothink-hold-the-answer",
+    "/ancient-formula-wealth-influence-neothink"
+  ),
+  ...slugPair(
+    "/how-to-excel-at-work-33-practical-tips-for-professional-growth",
+    "/excel-at-work-33-practical-tips"
+  ),
+  ...slugPair(
+    "/neothink-and-the-twelve-visions-party-the-untold-truth",
+    "/twelve-visions-party"
+  ),
+  ...slugPair(
+    "/the-surprising-reason-neothink-makes-you-irresistible",
+    "/why-neothink-makes-you-irresistible"
+  ),
+  ...slugPair(
+    "/what-to-do-if-youre-having-doubts-about-the-neothink-society",
+    "/doubts-about-neothink-society"
+  ),
+  ...slugPair(
+    "/what-will-shape-the-future-of-humanity-these-powerful-forces-will-define-it",
+    "/what-will-shape-future-of-humanity"
+  ),
+  ...slugPair("/a-new-country-with-no-taxes", "/new-country-with-no-taxes"),
+  ...slugPair(
+    "/the-benefits-of-becoming-an-active-neothink-member",
+    "/benefits-active-neothink-member"
+  ),
+  ...slugPair(
+    "/aliens-are-real-but-theyll-never-visit-earth-heres-why",
+    "/aliens-real-never-visit-earth"
+  ),
+  ...slugPair(
+    "/who-really-joins-secret-societies-the-truth-behind-the-members",
+    "/who-joins-secret-societies"
+  ),
+  ...slugPair(
+    "/neothink-manuscripts-from-skepticism-to-multigenerationals-wisdom",
+    "/neothink-manuscripts-skepticism-to-success"
+  ),
+  ...slugPair(
+    "/the-neothink-debate-can-minimal-government-lead-to-maximum-progress",
+    "/neothink-debate-minimal-government"
+  ),
+  ...slugPair(
+    "/neothink-society-why-people-cant-stop-talking-about-it",
+    "/neothink-society-why-people-cant-stop-talking"
+  ),
+  ...slugPair("/testimonials", "/neothink-reviews"),
+
+  // Duplicate podcast episode slugs (-2 suffix from WordPress post duplicates).
+  ...slugPair(
+    "/podcast/a-process-for-finding-achieving-your-lifes-purpose-mark-hamilton-2",
+    "/finding-achieving-your-life-purpose"
+  ),
+  ...slugPair(
+    "/podcast/freedom-is-the-key-to-unlocking-true-wealth-in-2024-2",
+    "/freedom-key-to-unlocking-true-wealth"
+  ),
+  ...slugPair(
+    "/podcast/freeing-societys-hidden-geniuses-with-elon-musk-2",
+    "/immortalis"
+  ),
+  ...slugPair(
+    "/podcast/is-trumps-victory-the-beginning-of-a-new-era-2",
+    "/trumps-victory-beginning-new-era"
+  ),
+  ...slugPair(
+    "/podcast/the-future-of-humanity-everything-becomes-free-2",
+    "/the-job-revolution"
+  ),
+
+  // Tag archives (WordPress /tag/* pages) -> best topical surface on Next.js.
+  // Most point at a canonical article or category hub; none are indexed for traffic.
+  ...slugPair("/tag/mini-day-system", "/reprogram-mind-to-be-rich"),
+  ...slugPair("/tag/integrated-thinking", "/integrated-thinking"),
+  ...slugPair("/tag/mini-company-model", "/category/neothink-awakening"),
+  ...slugPair("/tag/neothink-mentality", "/neothink-mentality"),
+  ...slugPair("/tag/neothink-books", "/manuscripts"),
+  ...slugPair("/tag/neothink-books/page/2", "/manuscripts"),
+  ...slugPair("/tag/the-prime-law", "/prime-law"),
+  ...slugPair("/tag/immortality", "/immortalis"),
+  ...slugPair("/tag/prime-literature", "/manuscripts"),
+  ...slugPair("/tag/ten-second-miracle", "/category/neothink-awakening"),
+  ...slugPair("/tag/cure-to-aging", "/project-life"),
+  ...slugPair("/tag/higher-level-thinking", "/category/neothink-concepts"),
+  ...slugPair("/tag/universal-health", "/project-life"),
+  ...slugPair("/tag/areas-of-purpose", "/finding-achieving-your-life-purpose"),
+  ...slugPair("/tag/division-of-essence", "/reprogram-mind-to-be-rich"),
+  ...slugPair("/tag/calm-parenting", "/how-to-raise-a-genius"),
+  ...slugPair("/tag/curiosity-at-work", "/category/neothink-awakening"),
+  ...slugPair("/tag/fne", "/friday-night-essence"),
+  ...slugPair("/tag/happiness", "/category/neothink-awakening"),
+  ...slugPair("/tag/how-to-raise-a-genius", "/how-to-raise-a-genius"),
+  ...slugPair("/tag/human-potential", "/category/neothink-awakening"),
+  ...slugPair("/tag/impact-profits", "/category/neothink-awakening"),
+  ...slugPair("/tag/power-of-calm", "/category/neothink-awakening"),
+  ...slugPair("/tag/self-leader", "/self-leader-secret"),
+  ...slugPair("/tag/wealth-building", "/category/neothink-awakening"),
+  ...slugPair("/tag/work-life-balance", "/category/neothink-awakening"),
+
+  // WordPress spam (Russian affiliate slugs injected by past exploit) -> home.
+  ...slugPair("/ofitsial-nyi-sait-epikstar-dlia-klientov-kompanii", "/"),
+  ...slugPair("/analiz-stavok-vavada-sport-dlia-uvelicheniia-pribyli", "/"),
 ];

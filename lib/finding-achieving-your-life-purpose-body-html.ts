@@ -28,7 +28,7 @@ export const FINDING_ACHIEVING_YOUR_LIFE_PURPOSE_BODY_HTML = `<div class="elemen
 				</div>
 				<div class="elementor-element elementor-element-ffb8eb0 elementor-widget elementor-widget-text-editor" data-id="ffb8eb0" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p>Mark Hamilton carries a sadness in his heart for the millions of people who go through life without purpose. He’s watched it happen across generations—young graduates whose dreams fizzle within years of entering the workforce, and people his own age who’ve spent entire lifetimes <a href="https://neothink.com/rise-from-rut/" style="color:#96792B;">feeling stuck</a>, caught in what he calls “stagnation traps.”</p>								</div>
+									<p>Mark Hamilton carries a sadness in his heart for the millions of people who go through life without purpose. He’s watched it happen across generations—young graduates whose dreams fizzle within years of entering the workforce, and people his own age who’ve spent entire lifetimes <a href="/rise-from-rut" style="color:#96792B;">feeling stuck</a>, caught in what he calls “stagnation traps.”</p>								</div>
 				</div>
 				<div class="elementor-element elementor-element-af53f43 elementor-widget elementor-widget-text-editor" data-id="af53f43" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">

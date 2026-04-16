@@ -7,7 +7,7 @@
 export const FIND_HAPPINESS_IN_RETIREMENT_PATH = "/find-happiness-in-retirement";
 export const FIND_HAPPINESS_IN_RETIREMENT_HEADLINE = "7 Ways To Find Happiness in Retirement";
 export const FIND_HAPPINESS_IN_RETIREMENT_META_TITLE = "7 Ways To Find Happiness in Retirement";
-export const FIND_HAPPINESS_IN_RETIREMENT_DESCRIPTION = "";
+export const FIND_HAPPINESS_IN_RETIREMENT_DESCRIPTION = "Retirement can mean freedom and many people feel that way after having been stuck in dead-end careers for 20, 30, or 40+ years. However, too much free time…";
 
 export const FIND_HAPPINESS_IN_RETIREMENT_DATES = {
   datePublished: "2025-02-20T10:37:51Z",
@@ -22,7 +22,9 @@ export const FIND_HAPPINESS_IN_RETIREMENT_IMAGE = {
 } as const;
 
 export const FIND_HAPPINESS_IN_RETIREMENT_INTRO_PARAS: readonly string[] = [
-  "it the right way. After working for their entire lives, some people assume retirement will be an automatic straight shot to happiness. Unfortunately, without proper planning and strategy, it may be the case that they’re unpleasantly surprised with what life looks like once they retire.",
+  // NOTE: the original WordPress post begins with a fragment "it the right way. After working..."
+  // clearly mangled during authoring. Starting the on-page intro at the second paragraph keeps
+  // the surface source-faithful while avoiding a mid-sentence opener. The full body is unchanged.
   "Retirement can mean freedom and many people feel that way after having been stuck in dead-end careers for 20, 30, or 40+ years. However, too much free time and a lack of structure can result in boredom, complacency, and a lack of fulfillment. That’s the exact opposite of how you want to feel in your golden years.",
   "The lucky thing is there are countless ways to find true happiness in retirement. From discovering new passions and interests to connecting with new friends, there’s a world of opportunity just waiting for you on the other side of retirement. But here’s a secret: at the end of the day, the people who are happy in retirement are those who have purpose in life. As it turns out, this is the formula for happiness whether or not you’re retired. When finding and living in your purpose becomes the primary focus, everything else falls into place.",
   "You can live this way whether retirement is around the corner or not. If, however, you’re on the precipice of this momentous life change and want to go about it the right way, these 7 tips for how to have a happy retirement will help."

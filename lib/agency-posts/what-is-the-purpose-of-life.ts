@@ -7,7 +7,7 @@
 export const WHAT_IS_THE_PURPOSE_OF_LIFE_PATH = "/what-is-the-purpose-of-life";
 export const WHAT_IS_THE_PURPOSE_OF_LIFE_HEADLINE = "What Is The Purpose Of Life and How Can We Discover It?";
 export const WHAT_IS_THE_PURPOSE_OF_LIFE_META_TITLE = "What Is The Purpose Of Life and How Can We Discover It?";
-export const WHAT_IS_THE_PURPOSE_OF_LIFE_DESCRIPTION = "";
+export const WHAT_IS_THE_PURPOSE_OF_LIFE_DESCRIPTION = "Have you ever questioned the meaning of life? Have you ever asked yourself, “What’s it all for?” or “What is the point of all of this?” If so,…";
 
 export const WHAT_IS_THE_PURPOSE_OF_LIFE_DATES = {
   datePublished: "2025-04-01T06:02:52Z",
@@ -66,8 +66,8 @@ export const WHAT_IS_THE_PURPOSE_OF_LIFE_BODY_HTML = `<h2 class="wp-block-headin
 
 <h2 class="wp-block-heading">The Key to Living a Purposeful Life</h2>
 
-<p>Living a purposeful life means living according to <a href="https://neothink.com/the-prime-law/">The Prime Law</a>. As the constitution of Neothink’s philosophy, Prime Law clearly states that the purpose of human life is to prosper and live happily. We do that by creating value within ourselves and for others.</p>
+<p>Living a purposeful life means living according to <a href="/prime-law">The Prime Law</a>. As the constitution of Neothink’s philosophy, Prime Law clearly states that the purpose of human life is to prosper and live happily. We do that by creating value within ourselves and for others.</p>
 
-<p>If you are committed to living a life full of purpose, meaning, and value, you are ready to <a href="https://www.theneothinksociety.com/join-the-neothink-society/" target="_blank" rel="noopener">join The Neothink Society</a>. Learn more <a href="https://neothink.com/about-neothink/">about Neothink</a> and how to step into your life’s purpose when you connect with us today.</p>
+<p>If you are committed to living a life full of purpose, meaning, and value, you are ready to <a href="https://www.theneothinksociety.com/join-the-neothink-society/" target="_blank" rel="noopener">join The Neothink Society</a>. Learn more <a href="/about-neothink">about Neothink</a> and how to step into your life’s purpose when you connect with us today.</p>
 
 <p> </p>`;

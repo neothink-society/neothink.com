@@ -7,7 +7,7 @@
 export const SELF_LEADERSHIP_STRATEGIES_EMPOWER_YOURSELF_PATH = "/self-leadership-strategies-empower-yourself";
 export const SELF_LEADERSHIP_STRATEGIES_EMPOWER_YOURSELF_HEADLINE = "9 Self-Leadership Strategies To Empower Yourself";
 export const SELF_LEADERSHIP_STRATEGIES_EMPOWER_YOURSELF_META_TITLE = "9 Self-Leadership Strategies To Empower Yourself";
-export const SELF_LEADERSHIP_STRATEGIES_EMPOWER_YOURSELF_DESCRIPTION = "Empowering yourself through self-leadership strategies can transform your personal and professional life.";
+export const SELF_LEADERSHIP_STRATEGIES_EMPOWER_YOURSELF_DESCRIPTION = "Empowering yourself through self-leadership strategies can transform your personal and professional life. Self-leadership is about taking control of your…";
 
 export const SELF_LEADERSHIP_STRATEGIES_EMPOWER_YOURSELF_DATES = {
   datePublished: "2024-07-08T05:38:24Z",
@@ -15,10 +15,10 @@ export const SELF_LEADERSHIP_STRATEGIES_EMPOWER_YOURSELF_DATES = {
 } as const;
 
 export const SELF_LEADERSHIP_STRATEGIES_EMPOWER_YOURSELF_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2024/08/9-self-leadership-strategies-to-empower.jpg",
+  src: "/brand-assets/neothink-hero.jpg",
   alt: "9 Self-Leadership Strategies To Empower Yourself",
-  width: 1000,
-  height: 650,
+  width: 1200,
+  height: 630,
 } as const;
 
 export const SELF_LEADERSHIP_STRATEGIES_EMPOWER_YOURSELF_INTRO_PARAS: readonly string[] = [

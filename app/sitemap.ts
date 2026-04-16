@@ -350,7 +350,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/what-will-shape-future-of-humanity", changeFrequency: "monthly" as const, priority: 0.6 },
     { path: "/doubts-about-neothink-society", changeFrequency: "monthly" as const, priority: 0.6 },
     { path: "/neothink-debate-minimal-government", changeFrequency: "monthly" as const, priority: 0.6 },
-    { path: "/neothink-society-empowering-and-challenging", changeFrequency: "monthly" as const, priority: 0.6 },
     { path: "/who-joins-secret-societies", changeFrequency: "monthly" as const, priority: 0.6 },
     { path: "/secret-society-letters-selling-happiness", changeFrequency: "monthly" as const, priority: 0.6 },
     { path: "/neothink-manuscripts-skepticism-to-success", changeFrequency: "monthly" as const, priority: 0.6 },
