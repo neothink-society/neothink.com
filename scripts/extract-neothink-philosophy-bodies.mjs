@@ -57,6 +57,9 @@ const PATH_MAP = {
     "/a-new-country-the-great-experiment-called-immortalis",
   "/the-beautiful-vs-the-ugly-in-our-world-3": "/the-beautiful-vs-the-ugly-in-our-world-3",
   "/how-jobs-will-change": "/how-jobs-will-change",
+  "/decoding-super-puzzle": "/decoding-super-puzzle",
+  "/starting-our-own-country": "/starting-our-own-country",
+  "/live-longer": "/live-longer",
 };
 
 function norm(p) {
@@ -263,6 +266,27 @@ const jobs = [
     outFile: "lib/how-jobs-will-change-body-html.ts",
     startId: "04876e9",
     endId: "893427d",
+  },
+  {
+    slug: "decoding-super-puzzle",
+    constName: "DECODING_SUPER_PUZZLE_BODY_HTML",
+    outFile: "lib/decoding-super-puzzle-body-html.ts",
+    startId: "470cbee",
+    endId: "a2d94ed",
+  },
+  {
+    slug: "starting-our-own-country",
+    constName: "STARTING_OUR_OWN_COUNTRY_BODY_HTML",
+    outFile: "lib/starting-our-own-country-body-html.ts",
+    startId: "2b67209",
+    endId: "d22cb7d",
+  },
+  {
+    slug: "live-longer",
+    constName: "LIVE_LONGER_BODY_HTML",
+    outFile: "lib/live-longer-body-html.ts",
+    startId: "703957f",
+    endId: "2031d45",
   },
 ];
 

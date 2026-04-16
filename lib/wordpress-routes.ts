@@ -138,6 +138,12 @@ export const WP = {
   theBeautifulVsTheUglyInOurWorld3: "/the-beautiful-vs-the-ugly-in-our-world-3",
   /** Neothink Philosophy: jobs of labor vs. mind, automation, super puzzles (WP post `how-jobs-will-change`). */
   howJobsWillChange: "/how-jobs-will-change",
+  /** Neothink Philosophy: Super Puzzle trilogy, three-component aging formula, billionaire strategy (WP post `decoding-super-puzzle`). */
+  decodingSuperPuzzle: "/decoding-super-puzzle",
+  /** Neothink Philosophy: two puzzle pieces, medical mecca, All Citizens Meeting 2025 (WP post `starting-our-own-country`). */
+  startingOurOwnCountry: "/starting-our-own-country",
+  /** Neothink Philosophy: RAADfest, three obstacles, mortal vs. immortal mentality (WP post `live-longer`). */
+  liveLonger: "/live-longer",
   /** Neothink Mentality lesson 3 (post). */
   beyondTunnelVision: "/beyond-tunnel-vision",
   /** Neothink Mentality lesson 4 (post). */

@@ -61,8 +61,8 @@ export function HowJobsWillChangePageContent() {
         },
         {
           title: "Decoding Super Puzzle",
-          description: "Secret formula for curing aging (series on neothink.com).",
-          href: "/decoding-super-puzzle",
+          description: "Secret formula for curing aging.",
+          href: WP.decodingSuperPuzzle,
           cta: "Read article",
         },
       ]}

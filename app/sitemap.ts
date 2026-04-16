@@ -208,6 +208,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.73,
     },
     {
+      path: "/decoding-super-puzzle",
+      changeFrequency: "monthly" as const,
+      priority: 0.73,
+    },
+    {
+      path: "/starting-our-own-country",
+      changeFrequency: "monthly" as const,
+      priority: 0.73,
+    },
+    {
+      path: "/live-longer",
+      changeFrequency: "monthly" as const,
+      priority: 0.73,
+    },
+    {
       path: "/friday-night-essence",
       changeFrequency: "monthly" as const,
       priority: 0.74,
