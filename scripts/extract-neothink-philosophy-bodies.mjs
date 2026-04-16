@@ -49,6 +49,7 @@ const PATH_MAP = {
   "/category/neothink-philosophy": "/category/neothink-philosophy",
   "/category/neothink-awakening": "/category/neothink-awakening",
   "/category/neothink-concepts": "/category/neothink-concepts",
+  "/category/neothink-mentality": "/category/neothink-mentality",
   "/breaking-the-chains-on-consciousness": "/breaking-the-chains-on-consciousness",
   "/the-unbreakable-equation": "/the-unbreakable-equation",
   "/what-all-philosophies-get-wrong": "/what-all-philosophies-get-wrong",

@@ -104,6 +104,8 @@ export const WP = {
   neothinkAwakeningCategory: "/category/neothink-awakening",
   /** Neothink Concepts — category hub (WordPress category `neothink-concepts`, id 84). */
   neothinkConceptsCategory: "/category/neothink-concepts",
+  /** Neothink Mentality — category hub (WordPress category `neothink-mentality`, id 39). */
+  neothinkMentalityCategory: "/category/neothink-mentality",
   /** Neothink Philosophy long-form: Mark Hamilton’s story / following mode (WP post `mark-hamiltons-story`). */
   markHamiltonsStory: "/mark-hamiltons-story",
   /** Neothink Philosophy long-form: Immortalis / Prime Law Capitalism (WP post `immortalis-the-great-experiment-of-our-time`). */

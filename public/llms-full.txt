@@ -42,6 +42,7 @@
 - [Neothink Philosophy — series hub](/category/neothink-philosophy): Lists category 81 posts; native links for migrated articles.
 - [Neothink Awakening — series hub](/category/neothink-awakening): Lists category 80 posts; native links for migrated Awakening articles.
 - [Neothink Concepts — series hub](/category/neothink-concepts): Lists category 84 posts; native links for all Concepts articles on this site.
+- [Neothink Mentality — lesson index](/category/neothink-mentality): Lists category 39 posts (fourteen lessons); pairs with [/neothink-mentality](/neothink-mentality) course hub.
 - [Mark Hamilton’s story](/mark-hamiltons-story): Neothink Philosophy long-form (Elementor body + FAQ).
 - [Immortalis great experiment](/immortalis-the-great-experiment-of-our-time): Neothink Philosophy long-form (Elementor body + FAQ).
 - [Neovia city speech](/the-city-that-cures-disease-neovia): Neothink Philosophy long-form (Elementor body + FAQ).

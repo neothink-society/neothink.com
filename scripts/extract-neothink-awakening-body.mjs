@@ -46,6 +46,7 @@ const PATH_MAP = {
   "/value-creator": "/value-creator",
   "/category/neothink-awakening": "/category/neothink-awakening",
   "/category/neothink-concepts": "/category/neothink-concepts",
+  "/category/neothink-mentality": "/category/neothink-mentality",
 };
 
 function norm(p) {

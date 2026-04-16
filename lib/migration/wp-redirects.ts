@@ -32,6 +32,11 @@ export const wpRedirects: Redirect[] = [
     destination: "/category/neothink-concepts",
     permanent: true,
   },
+  {
+    source: "/category/neothink-mentality/",
+    destination: "/category/neothink-mentality",
+    permanent: true,
+  },
   ...slugPair(
     "/how-the-neothink-secret-society-differs-from-other-secret-groups",
     "/neothink-secret-society-differs-other-groups"
@@ -42,6 +47,8 @@ export const wpRedirects: Redirect[] = [
   ...slugPair("/the-way-9", "/the-way"),
   ...slugPair("/published-work-9", "/published-work"),
   ...slugPair("/neothink-9", "/neothink"),
+  ...slugPair("/neovia-9", "/neovia"),
+  ...slugPair("/unified-field-9", "/unified-field"),
   ...slugPair("/podcast-2", "/podcast"),
   ...slugPair("/podcast-list", "/podcast"),
   ...slugPair("/contact-2", "/contact"),

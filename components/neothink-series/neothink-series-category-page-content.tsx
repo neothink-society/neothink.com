@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { ReactNode } from "react";
 
 export type NeothinkSeriesCategoryPost = {
   readonly slug: string;
@@ -14,6 +15,8 @@ export type NeothinkSeriesCategoryPageContentProps = {
   readonly posts: readonly NeothinkSeriesCategoryPost[];
   readonly postHref: (slug: string) => string;
   readonly postIsMigrated: (slug: string) => boolean;
+  /** Optional block directly under the intro (e.g. link to a related cornerstone page). */
+  readonly introFooter?: ReactNode;
 };
 
 export function NeothinkSeriesCategoryPageContent({
@@ -24,6 +27,7 @@ export function NeothinkSeriesCategoryPageContent({
   posts,
   postHref,
   postIsMigrated,
+  introFooter,
 }: NeothinkSeriesCategoryPageContentProps) {
   return (
     <main id="main-content" className="nu-page shb-page">
@@ -37,6 +41,7 @@ export function NeothinkSeriesCategoryPageContent({
         >
           {intro}
         </p>
+        {introFooter}
       </header>
 
       <section

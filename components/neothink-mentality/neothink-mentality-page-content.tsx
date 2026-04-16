@@ -102,7 +102,11 @@ export function NeothinkMentalityPageContent() {
         <div className="nm-section-head">
           <span className="nm-kicker">The complete series</span>
           <h2 id="nm-lessons-heading">Fourteen lessons</h2>
-          <p>Open each lesson on the site. When a page is still legacy HTML during migration, the slug stays the same.</p>
+          <p>
+            Open each lesson on the site.{" "}
+            <Link href={WP.neothinkMentalityCategory}>Lesson index</Link> lists the same fourteen posts in WordPress
+            publication order (cornerstone hub for SEO and sharing).
+          </p>
         </div>
         <ul className="nm-lesson-list">
           {NEOTHINK_MENTALITY_LESSONS.map((lesson, i) => (

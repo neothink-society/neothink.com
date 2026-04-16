@@ -65,6 +65,7 @@ Machine-oriented pointers (human-readable site summary continues below).
 - [Neothink Philosophy — series hub](/category/neothink-philosophy): Full series (31 articles) on-site — subtractive progress, Immortalis, Neovia, capitalism, Plato/Aristotle, illusion pollution, job revolution, and related long-form talks with video and FAQ.
 - [Neothink Awakening — series hub](/category/neothink-awakening): WordPress category hub — ordered list of Awakening posts; native links for articles migrated on neothink.com.
 - [Neothink Concepts — series hub](/category/neothink-concepts): WordPress category hub — integrated thinking, self-leadership, value creation, Friday-Night Essence; all listed posts are on-site.
+- [Neothink Mentality — lesson index](/category/neothink-mentality): WordPress category hub — fourteen lesson posts in publication order; pairs with [/neothink-mentality](/neothink-mentality) (course overview, videos, FAQ).
 - [Mark Hamilton’s story (Neothink Philosophy)](/mark-hamiltons-story): Following mode, subtle mysticism, integrated thinking — long-form speech migrated from WordPress.
 - [Immortalis: The Great Experiment (Neothink Philosophy)](/immortalis-the-great-experiment-of-our-time): Prime Law Capitalism speech migrated from WordPress.
 - [The city that cures disease: Neovia (Neothink Philosophy)](/the-city-that-cures-disease-neovia): Neovia biotech freedom city keynote migrated from WordPress.
