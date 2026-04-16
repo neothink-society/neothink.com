@@ -15,7 +15,7 @@ export const NEOTHINK_DEBATE_MINIMAL_GOVERNMENT_DATES = {
 } as const;
 
 export const NEOTHINK_DEBATE_MINIMAL_GOVERNMENT_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2025/09/silhouette-friends-sunset-water.jpg",
+  src: "/images/wp/2025/09/silhouette-friends-sunset-water.jpg",
   alt: "The Neothink Debate: Can Minimal Government Lead To Maximum Progress?",
   width: 1200,
   height: 630,

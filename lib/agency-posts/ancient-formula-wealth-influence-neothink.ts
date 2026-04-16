@@ -15,7 +15,7 @@ export const ANCIENT_FORMULA_WEALTH_INFLUENCE_NEOTHINK_DATES = {
 } as const;
 
 export const ANCIENT_FORMULA_WEALTH_INFLUENCE_NEOTHINK_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2025/07/businessman-saving-moneyman-carrying-a-wallet-in-hand-the-doll.jpg",
+  src: "/images/wp/2025/07/businessman-saving-moneyman-carrying-a-wallet-in-hand-the-doll.jpg",
   alt: "The Ancient Formula For Wealth And Influence: Does Neothink Hold The Answer?",
   width: 1000,
   height: 667,

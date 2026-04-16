@@ -10,7 +10,7 @@ import type { AwakeningArticleImage } from "@/components/neothink-awakening/neot
 export const FHBNCWR_PATH = "/the-future-of-humanity-building-a-new-country-without-rulers" as const;
 
 export const FHBNCWR_IMAGE: AwakeningArticleImage = {
-  src: "https://neothink.com/wp-content/uploads/2026/01/The-Future-of-Humanity-Building-a-New-Country-Without-Rulers.jpg",
+  src: "/images/wp/2026/01/The-Future-of-Humanity-Building-a-New-Country-Without-Rulers.jpg",
   alt: "The Future of Humanity: Building a New Country Without Rulers — Neothink Awakening article",
   width: 1280,
   height: 720,

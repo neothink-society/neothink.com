@@ -8,7 +8,7 @@
 export const TATNS_PATH = "/truth-about-neothink-society" as const;
 
 export const TATNS_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2025/04/young-man-scientist-in-futuristic-laboratory-investigating-dna-genome.jpg",
+  src: "/images/wp/2025/04/young-man-scientist-in-futuristic-laboratory-investigating-dna-genome.jpg",
   alt: "Young man scientist in futuristic laboratory investigating",
   width: 1000,
   height: 667,

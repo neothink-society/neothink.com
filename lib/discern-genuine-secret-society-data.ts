@@ -15,7 +15,7 @@ export const DGSS_WP = {
 } as const;
 
 export const DGSS_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2025/07/fraud-investigation-examining-evidence.jpg",
+  src: "/images/wp/2025/07/fraud-investigation-examining-evidence.jpg",
   alt: "How To Discern Genuine Secret Society Opportunities From Fraud",
   width: 1000,
   height: 667,

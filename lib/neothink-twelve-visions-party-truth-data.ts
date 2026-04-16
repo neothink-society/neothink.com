@@ -15,7 +15,7 @@ export const NTV_TRUTH_WP = {
 } as const;
 
 export const NTV_TRUTH_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2025/09/book-opened-in-library-on-wooden-shelf-education-background-with-copy-space-for-text-toned.jpg",
+  src: "/images/wp/2025/09/book-opened-in-library-on-wooden-shelf-education-background-with-copy-space-for-text-toned.jpg",
   alt: "Neothink And The Twelve Visions Party: The Untold Truth",
   width: 1000,
   height: 667,
@@ -80,7 +80,7 @@ export const NTV_TRUTH_SECTIONS: readonly NtvSection[] = [
 
 export const NTV_TRUTH_JOIN_EXTERNAL = "https://www.theneothinksociety.com/join-the-neothink-society/";
 
-export const NTV_TRUTH_NO_TAXES_LEGACY_URL = "https://neothink.com/new-country-with-no-taxes/" as const;
+export const NTV_TRUTH_NO_TAXES_LEGACY_URL = "/new-country-with-no-taxes" as const;
 
 export const NTV_TRUTH_ABOUT_SOCIETY_HREF = `${WP.about}#ab-society-heading` as const;
 

@@ -12,14 +12,14 @@ export const TVP_WP = {
 } as const;
 
 export const TVP_HERO_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2024/09/twelve-vision-1.png",
+  src: "/images/wp/2024/09/twelve-vision-1.png",
   alt: "Twelve Visions Party — political movement focused on human potential",
   width: 1000,
   height: 667,
 } as const;
 
 export const TVP_BENEFITS_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2024/09/twelve-vision-2.png",
+  src: "/images/wp/2024/09/twelve-vision-2.png",
   alt: "Twelve Visions — personal and societal thriving",
   width: 1000,
   height: 667,

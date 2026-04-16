@@ -15,7 +15,7 @@ export const NEOTHINK_UNREALISTIC_TOO_GOOD_TO_BE_TRUE_DATES = {
 } as const;
 
 export const NEOTHINK_UNREALISTIC_TOO_GOOD_TO_BE_TRUE_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2025/07/college-students-with-thumbs-up.jpg",
+  src: "/images/wp/2025/07/college-students-with-thumbs-up.jpg",
   alt: "People Say Neothink Is Unrealistic: Is It Too Good To Be True?",
   width: 1000,
   height: 667,

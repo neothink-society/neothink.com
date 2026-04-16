@@ -13,14 +13,14 @@ export const EVENTS_WP = {
 } as const;
 
 export const EVENTS_HERO_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2024/09/evnt1.png",
+  src: "/images/wp/2024/09/evnt1.png",
   alt: "Neothink Society events — gatherings focused on growth and integrated thinking",
   width: 1000,
   height: 667,
 } as const;
 
 export const EVENTS_BENEFITS_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2024/09/evnt2.png",
+  src: "/images/wp/2024/09/evnt2.png",
   alt: "Members connecting at Neothink Society programs",
   width: 1000,
   height: 667,

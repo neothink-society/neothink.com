@@ -15,7 +15,7 @@ export const WHO_JOINS_SECRET_SOCIETIES_DATES = {
 } as const;
 
 export const WHO_JOINS_SECRET_SOCIETIES_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2025/08/who-really-joins-secret-scoieites.jpg",
+  src: "/images/wp/2025/08/who-really-joins-secret-scoieites.jpg",
   alt: "Who Really Joins Secret Societies? The Truth Behind The Members",
   width: 1000,
   height: 667,

@@ -15,7 +15,7 @@ export const NEOTHINK_MANUSCRIPTS_SKEPTICISM_TO_SUCCESS_DATES = {
 } as const;
 
 export const NEOTHINK_MANUSCRIPTS_SKEPTICISM_TO_SUCCESS_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2025/08/neothink-manuscripts.jpg",
+  src: "/images/wp/2025/08/neothink-manuscripts.jpg",
   alt: "Neothink Manuscripts: From Skepticism To Multigenerationals Wisdom",
   width: 1000,
   height: 667,

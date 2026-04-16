@@ -1,10 +1,10 @@
 /**
- * Image URLs from WordPress HTML migrations — keep in sync with source exports.
- * @see https://neothink.com/wp-content/uploads/...
+ * Canonical URLs for images that originated in the WordPress media library.
+ * Files live under `public/images/...`; legacy `/wp-content/uploads/*` paths
+ * redirect to these in `next.config.ts` so inbound links keep working.
  */
-export const MARK_HAMILTON_PORTRAIT_URL =
-  "https://neothink.com/wp-content/uploads/2025/12/Screenshot-2025-12-23-at-6.04.23-PM.png" as const;
+export const MARK_HAMILTON_PORTRAIT_URL = "/images/mark-hamilton.png" as const;
 
 /** Free Courses page hero and body (WordPress media library). */
 export const FREE_COURSES_HERO_IMAGE_URL =
-  "https://neothink.com/wp-content/uploads/2024/09/free-courses1.png" as const;
+  "/images/wp/2024/09/free-courses1.png" as const;

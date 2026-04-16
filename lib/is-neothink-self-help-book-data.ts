@@ -16,7 +16,7 @@ export const IS_NEOTHINK_SELF_HELP_WP = {
 } as const;
 
 export const IS_NEOTHINK_SELF_HELP_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2025/09/stack-open-books-flipped-pages-gray-background-learning-reading-self.jpg",
+  src: "/images/wp/2025/09/stack-open-books-flipped-pages-gray-background-learning-reading-self.jpg",
   alt: "Is Neothink Just Another Self-Help Book?",
   width: 1000,
   height: 667,

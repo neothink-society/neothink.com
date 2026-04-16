@@ -9,7 +9,7 @@
 export const NMGS_PATH = "/neothink-mastermind-group-success-stories" as const;
 
 export const NMGS_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2025/05/img-Creating-Success-Stories-With-NeoThink-Mastermind-Group.jpg",
+  src: "/images/wp/2025/05/img-Creating-Success-Stories-With-NeoThink-Mastermind-Group.jpg",
   alt: "Creating Success Stories With NeoThink Mastermind Group",
   width: 1000,
   height: 667,

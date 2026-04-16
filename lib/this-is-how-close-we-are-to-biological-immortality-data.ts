@@ -10,7 +10,7 @@ import type { AwakeningArticleImage } from "@/components/neothink-awakening/neot
 export const HCBI_PATH = "/this-is-how-close-we-are-to-biological-immortality" as const;
 
 export const HCBI_IMAGE: AwakeningArticleImage = {
-  src: "https://neothink.com/wp-content/uploads/2026/01/This-is-How-Close-We-Are-to-Biological-Immortality.jpg",
+  src: "/images/wp/2026/01/This-is-How-Close-We-Are-to-Biological-Immortality.jpg",
   alt: "This is How Close We Are to Biological Immortality — Neothink Awakening article",
   width: 1280,
   height: 720,

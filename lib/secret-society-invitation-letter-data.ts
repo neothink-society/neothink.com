@@ -9,7 +9,7 @@
 export const SSIL_PATH = "/secret-society-invitation-letter" as const;
 
 export const SSIL_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2025/05/img-Secret-Society-Invitation-Have-You-Received-This-Letter-What-Does-It-Mean.jpg",
+  src: "/images/wp/2025/05/img-Secret-Society-Invitation-Have-You-Received-This-Letter-What-Does-It-Mean.jpg",
   alt: "Secret Society Invitation: Have You Received This Letter? What Does It Mean?",
   width: 1000,
   height: 667,

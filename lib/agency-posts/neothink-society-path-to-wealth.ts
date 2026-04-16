@@ -15,7 +15,7 @@ export const NEOTHINK_SOCIETY_PATH_TO_WEALTH_DATES = {
 } as const;
 
 export const NEOTHINK_SOCIETY_PATH_TO_WEALTH_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2025/07/hand-holding-a-tree-growing-on-coins.jpg",
+  src: "/images/wp/2025/07/hand-holding-a-tree-growing-on-coins.jpg",
   alt: "Neothink Society: A Path To Wealth Or Just Another Membership?",
   width: 1000,
   height: 667,

@@ -10,7 +10,7 @@ import type { AwakeningArticleImage } from "@/components/neothink-awakening/neot
 export const TVBNE_PATH = "/trumps-victory-beginning-new-era" as const;
 
 export const TVBNE_IMAGE: AwakeningArticleImage = {
-  src: "https://neothink.com/wp-content/uploads/2026/01/Is-Trumps-Victory-the-Beginning-of-a-New-Era.jpg",
+  src: "/images/wp/2026/01/Is-Trumps-Victory-the-Beginning-of-a-New-Era.jpg",
   alt: "Is Trump’s Victory the Beginning of a New Era? — Neothink Awakening article",
   width: 1280,
   height: 720,

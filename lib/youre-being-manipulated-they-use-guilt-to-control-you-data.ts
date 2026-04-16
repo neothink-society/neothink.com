@@ -10,7 +10,7 @@ import type { AwakeningArticleImage } from "@/components/neothink-awakening/neot
 export const YBMG_PATH = "/youre-being-manipulated-they-use-guilt-to-control-you" as const;
 
 export const YBMG_IMAGE: AwakeningArticleImage = {
-  src: "https://neothink.com/wp-content/uploads/2026/01/Youre-Being-Manipulated-They-use-Guilt-to-Control-You.jpg",
+  src: "/images/wp/2026/01/Youre-Being-Manipulated-They-use-Guilt-to-Control-You.jpg",
   alt: "You’re Being Manipulated! They Use Guilt to Control You! — Neothink Awakening article",
   width: 1280,
   height: 720,

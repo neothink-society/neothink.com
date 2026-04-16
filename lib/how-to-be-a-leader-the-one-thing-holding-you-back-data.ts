@@ -10,7 +10,7 @@ import type { AwakeningArticleImage } from "@/components/neothink-awakening/neot
 export const HBL1TH_PATH = "/how-to-be-a-leader-the-one-thing-holding-you-back" as const;
 
 export const HBL1TH_IMAGE: AwakeningArticleImage = {
-  src: "https://neothink.com/wp-content/uploads/2026/01/How-to-Be-a-Leader-The-1-Thing-Holding-You-Back.jpg",
+  src: "/images/wp/2026/01/How-to-Be-a-Leader-The-1-Thing-Holding-You-Back.jpg",
   alt: "How to Be a Leader: The 1 Thing Holding You Back — Neothink Awakening article",
   width: 1280,
   height: 720,

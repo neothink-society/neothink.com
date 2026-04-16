@@ -25,7 +25,7 @@ export const MOVEMENT_WP = {
 
 /** Matches Rank Math `primaryImageOfPage` on the legacy URL. */
 export const MOVEMENT_HERO_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2026/02/youtube-banner-neothink-institute-ready.png",
+  src: "/images/wp/2026/02/youtube-banner-neothink-institute-ready.png",
   alt: "Neothink Institute: civilizational research and public orientation",
   width: 2560,
   height: 1440,

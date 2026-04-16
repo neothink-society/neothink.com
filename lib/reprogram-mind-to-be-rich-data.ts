@@ -8,7 +8,7 @@
 export const RMTBR_PATH = "/reprogram-mind-to-be-rich" as const;
 
 export const RMTBR_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2026/01/REPROGRAM-Your-Mind-to-be-Rich-in-One-Hour%E2%80%A6.-The-Neothink-Approach.jpg",
+  src: "/images/wp/2026/01/REPROGRAM-Your-Mind-to-be-Rich-in-One-Hour….-The-Neothink-Approach.jpg",
   alt: "Reprogram your mind to be rich — Neothink Awakening article",
   width: 1200,
   height: 630,

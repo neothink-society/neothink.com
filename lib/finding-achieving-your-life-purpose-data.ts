@@ -10,7 +10,7 @@ import type { AwakeningArticleImage } from "@/components/neothink-awakening/neot
 export const FAYLP_PATH = "/finding-achieving-your-life-purpose" as const;
 
 export const FAYLP_IMAGE: AwakeningArticleImage = {
-  src: "https://neothink.com/wp-content/uploads/2026/02/A-Process-for-Finding-Achieving-Your-Lifes-Purpose-Mark-Hamilton.jpg",
+  src: "/images/wp/2026/02/A-Process-for-Finding-Achieving-Your-Lifes-Purpose-Mark-Hamilton.jpg",
   alt: "A Process for Finding & Achieving Your Life’s Purpose — Neothink Awakening article",
   width: 1280,
   height: 720,

@@ -19,13 +19,13 @@ export const IMMORTALIS_ABOUT = {
 
 export const IMMORTALIS_IMAGES = {
   heroVisual: {
-    src: "https://neothink.com/wp-content/uploads/2024/09/neothink-country-1.png",
+    src: "/images/wp/2024/09/neothink-country-1.png",
     alt: "Neothink Country — conceptual landscape for the Immortalis vision",
     width: 1000,
     height: 667,
   },
   benefitsVisual: {
-    src: "https://neothink.com/wp-content/uploads/2024/09/neothink-country-2.png",
+    src: "/images/wp/2024/09/neothink-country-2.png",
     alt: "Neothink Country — community and progress",
     width: 1000,
     height: 667,

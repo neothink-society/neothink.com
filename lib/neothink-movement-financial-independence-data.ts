@@ -9,7 +9,7 @@
 export const NMFI_PATH = "/neothink-movement-financial-independence" as const;
 
 export const NMFI_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2024/09/how-the-neothink-movement-empowers-financial.jpg",
+  src: "/images/wp/2024/09/how-the-neothink-movement-empowers-financial.jpg",
   alt: "How The Neothink Movement Empowers Financial Independence",
   width: 1000,
   height: 665,

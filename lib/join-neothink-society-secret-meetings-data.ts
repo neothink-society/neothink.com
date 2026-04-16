@@ -9,7 +9,7 @@
 export const JNSSM_PATH = "/join-neothink-society-secret-meetings" as const;
 
 export const JNSSM_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2025/05/img-How-To-Join-Neothink-Society-Secret-Meetings.jpg",
+  src: "/images/wp/2025/05/img-How-To-Join-Neothink-Society-Secret-Meetings.jpg",
   alt: "How To Join Neothink Society Secret Meetings",
   width: 1000,
   height: 667,

@@ -15,7 +15,7 @@ export const WHAT_DO_SECRET_SOCIETIES_DO_DATES = {
 } as const;
 
 export const WHAT_DO_SECRET_SOCIETIES_DO_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2025/07/large-group-of-friends-with-a-smile-looking-at-the-camera.jpg",
+  src: "/images/wp/2025/07/large-group-of-friends-with-a-smile-looking-at-the-camera.jpg",
   alt: "What Do Secret Societies Do? Understanding Their Purpose And Existence",
   width: 1000,
   height: 667,

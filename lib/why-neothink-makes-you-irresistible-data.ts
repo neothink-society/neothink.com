@@ -10,7 +10,7 @@ import type { AwakeningArticleImage } from "@/components/neothink-awakening/neot
 export const WNMYI_PATH = "/why-neothink-makes-you-irresistible" as const;
 
 export const WNMYI_IMAGE: AwakeningArticleImage = {
-  src: "https://neothink.com/wp-content/uploads/2026/01/The-Surprising-Reason-Neothink-Makes-You-IRRESISTIBLE.jpg",
+  src: "/images/wp/2026/01/The-Surprising-Reason-Neothink-Makes-You-IRRESISTIBLE.jpg",
   alt: "The Surprising Reason Neothink Makes You Irresistible — Neothink Awakening article",
   width: 1280,
   height: 720,

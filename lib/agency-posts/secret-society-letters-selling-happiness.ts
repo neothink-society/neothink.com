@@ -15,7 +15,7 @@ export const SECRET_SOCIETY_LETTERS_SELLING_HAPPINESS_DATES = {
 } as const;
 
 export const SECRET_SOCIETY_LETTERS_SELLING_HAPPINESS_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2025/08/secret-society.jpg",
+  src: "/images/wp/2025/08/secret-society.jpg",
   alt: "Secret Society Letters: Are They Just Selling Happiness?",
   width: 1000,
   height: 667,

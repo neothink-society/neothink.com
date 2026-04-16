@@ -10,19 +10,19 @@ export const SOCIETY_FAQ_INTRO =
 
 export const SOCIETY_FAQ_IMAGES = {
   header: {
-    src: "https://neothink.com/wp-content/uploads/2024/09/faq1.png",
+    src: "/images/wp/2024/09/faq1.png",
     alt: "Neothink Society frequently asked questions",
     width: 1000,
     height: 667,
   },
   projectLife: {
-    src: "https://neothink.com/wp-content/uploads/2024/09/faq2.png",
+    src: "/images/wp/2024/09/faq2.png",
     alt: "Project Life — health and longevity",
     width: 1000,
     height: 667,
   },
   ascension: {
-    src: "https://neothink.com/wp-content/uploads/2024/09/faq3.png",
+    src: "/images/wp/2024/09/faq3.png",
     alt: "Ascension — business and growth community",
     width: 1000,
     height: 667,

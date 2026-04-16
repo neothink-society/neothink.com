@@ -8,7 +8,7 @@
 export const WPGU_PATH = "/what-people-get-wrong-neothink-university" as const;
 
 export const WPGU_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2025/05/img-What-People-Get-Wrong-About-Neothink-University-And-Whats-Actually-True.jpg",
+  src: "/images/wp/2025/05/img-What-People-Get-Wrong-About-Neothink-University-And-Whats-Actually-True.jpg",
   alt: "What People Get Wrong About Neothink University And What’s Actually True",
   width: 1000,
   height: 667,

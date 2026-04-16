@@ -12,7 +12,7 @@
 export const MHNSL_PATH = "/mark-hamiltons-neothink-surprising-logic" as const;
 
 export const MHNSL_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2025/08/mark-hamiltons.jpg",
+  src: "/images/wp/2025/08/mark-hamiltons.jpg",
   alt: "Mark Hamilton’s Neothink: The Surprising Logic Behind Its Teachings",
   width: 1000,
   height: 667,

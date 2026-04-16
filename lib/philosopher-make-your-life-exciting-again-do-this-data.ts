@@ -10,7 +10,7 @@ import type { AwakeningArticleImage } from "@/components/neothink-awakening/neot
 export const PMLEA_PATH = "/philosopher-make-your-life-exciting-again-do-this" as const;
 
 export const PMLEA_IMAGE: AwakeningArticleImage = {
-  src: "https://neothink.com/wp-content/uploads/2026/01/PHILOSOPHER-Make-Your-Life-Exciting-Again-DO-THIS.jpg",
+  src: "/images/wp/2026/01/PHILOSOPHER-Make-Your-Life-Exciting-Again-DO-THIS.jpg",
   alt: "Make Your Life Exciting Again: Find Your Friday Night Essence — Neothink Awakening article",
   width: 1280,
   height: 720,

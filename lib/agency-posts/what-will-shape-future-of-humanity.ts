@@ -15,7 +15,7 @@ export const WHAT_WILL_SHAPE_FUTURE_OF_HUMANITY_DATES = {
 } as const;
 
 export const WHAT_WILL_SHAPE_FUTURE_OF_HUMANITY_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2025/09/open-hands-holding-giving-showing-concept.jpg",
+  src: "/images/wp/2025/09/open-hands-holding-giving-showing-concept.jpg",
   alt: "What Will Shape The Future Of Humanity? These Powerful Forces Will Define It",
   width: 1200,
   height: 630,

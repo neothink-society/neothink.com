@@ -15,7 +15,7 @@ export const NSEC_WP = {
 } as const;
 
 export const NSEC_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2025/09/studio-portrait-smiling-mature-businesswoman-plain-background.jpg",
+  src: "/images/wp/2025/09/studio-portrait-smiling-mature-businesswoman-plain-background.jpg",
   alt: "How The Neothink Society Can Be Both Empowering And Challenging",
   width: 1000,
   height: 667,
@@ -97,7 +97,7 @@ export const NSEC_SECTIONS: readonly NsecSection[] = [
 
 export const NSEC_JOIN_EXTERNAL = "https://www.theneothinksociety.com/join-the-neothink-society/";
 
-export const NSEC_GREATEST_MENTAL_URL = "https://neothink.com/the-greatest-mental-breakthrough/" as const;
+export const NSEC_GREATEST_MENTAL_URL = "/the-greatest-mental-breakthrough" as const;
 
 export const NSEC_ABOUT_SOCIETY_HREF = `${WP.about}#ab-society-heading` as const;
 

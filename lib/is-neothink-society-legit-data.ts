@@ -8,7 +8,7 @@
 export const INSL_PATH = "/is-neothink-society-legit" as const;
 
 export const INSL_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2025/04/group-of-people-with-business-trainer.jpg",
+  src: "/images/wp/2025/04/group-of-people-with-business-trainer.jpg",
   alt: "Group of people with business trainer",
   width: 1000,
   height: 667,

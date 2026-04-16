@@ -10,7 +10,7 @@ import type { AwakeningArticleImage } from "@/components/neothink-awakening/neot
 export const EMN_PATH = "/escape-the-matrix-now" as const;
 
 export const EMN_IMAGE: AwakeningArticleImage = {
-  src: "https://neothink.com/wp-content/uploads/2026/01/Escape-the-Matrix-NOW.jpg",
+  src: "/images/wp/2026/01/Escape-the-Matrix-NOW.jpg",
   alt: "Escape the Matrix NOW — Neothink Awakening article",
   width: 1280,
   height: 720,

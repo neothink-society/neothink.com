@@ -11,7 +11,7 @@ import type { AwakeningArticleImage } from "@/components/neothink-awakening/neot
 export const HTRG_PATH = "/how-to-raise-a-genius" as const;
 
 export const HTRG_IMAGE: AwakeningArticleImage = {
-  src: "https://neothink.com/wp-content/uploads/2026/01/how-to-raise-a-genius-the-one-question-thumbnail.jpg",
+  src: "/images/wp/2026/01/how-to-raise-a-genius-the-one-question-thumbnail.jpg",
   alt: "How to raise a genius — Neothink Awakening article",
   width: 1280,
   height: 720,

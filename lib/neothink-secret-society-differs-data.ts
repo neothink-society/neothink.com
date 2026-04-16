@@ -8,7 +8,7 @@
 export const NSSD_PATH = "/neothink-secret-society-differs-other-groups" as const;
 
 export const NSSD_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2024/08/how-the-neothink-secret-society-differs.jpg",
+  src: "/images/wp/2024/08/how-the-neothink-secret-society-differs.jpg",
   alt: "How the Neothink Secret Society differs from other secret groups",
   width: 1000,
   height: 667,

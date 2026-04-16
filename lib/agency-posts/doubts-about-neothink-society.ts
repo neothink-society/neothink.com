@@ -15,7 +15,7 @@ export const DOUBTS_ABOUT_NEOTHINK_SOCIETY_DATES = {
 } as const;
 
 export const DOUBTS_ABOUT_NEOTHINK_SOCIETY_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2025/09/young-black-lady-deep-thought-indoor-setting.jpg",
+  src: "/images/wp/2025/09/young-black-lady-deep-thought-indoor-setting.jpg",
   alt: "What To Do If You’re Having Doubts About The Neothink Society",
   width: 1200,
   height: 630,

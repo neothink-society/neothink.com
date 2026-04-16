@@ -10,7 +10,7 @@ import type { AwakeningArticleImage } from "@/components/neothink-awakening/neot
 export const TLEMMH_PATH = "/think-like-elon-musk-mind-hacks" as const;
 
 export const TLEMMH_IMAGE: AwakeningArticleImage = {
-  src: "https://neothink.com/wp-content/uploads/2026/01/Gemini_Generated_Image_m1t1v4m1t1v4m1t1-scaled.png",
+  src: "/images/wp/2026/01/Gemini_Generated_Image_m1t1v4m1t1v4m1t1-scaled.png",
   alt: "Think Like Elon Musk: The Mind Hacks That Build Billion-Dollar Empires — Neothink Awakening article",
   width: 2560,
   height: 1429,

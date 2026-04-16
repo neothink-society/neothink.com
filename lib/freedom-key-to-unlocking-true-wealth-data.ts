@@ -8,7 +8,7 @@
 export const FKTUW_PATH = "/freedom-key-to-unlocking-true-wealth" as const;
 
 export const FKTUW_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2026/01/Freedom-is-the-KEY-to-Unlocking-True-Wealth-in-2026.jpg",
+  src: "/images/wp/2026/01/Freedom-is-the-KEY-to-Unlocking-True-Wealth-in-2026.jpg",
   alt: "Freedom is the key to unlocking true wealth — Neothink Awakening article",
   width: 1200,
   height: 630,

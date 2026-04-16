@@ -10,7 +10,7 @@ import type { AwakeningArticleImage } from "@/components/neothink-awakening/neot
 export const ARNV_PATH = "/aliens-real-never-visit-earth" as const;
 
 export const ARNV_IMAGE: AwakeningArticleImage = {
-  src: "https://neothink.com/wp-content/uploads/2026/01/Aliens-Are-Real…-But-Theyll-Never-Visit-Earth-–-Heres-Why.jpg",
+  src: "/images/wp/2026/01/Aliens-Are-Real…-But-Theyll-Never-Visit-Earth-–-Heres-Why.jpg",
   alt: "Aliens Are Real… But They’ll Never Visit Earth — Neothink Awakening article",
   width: 1280,
   height: 720,

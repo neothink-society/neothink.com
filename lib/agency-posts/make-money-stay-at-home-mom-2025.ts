@@ -15,7 +15,7 @@ export const MAKE_MONEY_STAY_AT_HOME_MOM_2025_DATES = {
 } as const;
 
 export const MAKE_MONEY_STAY_AT_HOME_MOM_2025_IMAGE = {
-  src: "https://neothink.com/wp-content/uploads/2025/04/couple-at-real-estate-agency.jpg",
+  src: "/images/wp/2025/04/couple-at-real-estate-agency.jpg",
   alt: "Couple at real estate agency",
   width: 1000,
   height: 667,

@@ -10,7 +10,7 @@ import type { AwakeningArticleImage } from "@/components/neothink-awakening/neot
 export const SAMS_PATH = "/sell-anything-marketing-secret" as const;
 
 export const SAMS_IMAGE: AwakeningArticleImage = {
-  src: "https://neothink.com/wp-content/uploads/2026/01/Want-to-Sell-Anything-in-2025-Heres-the-Secret.jpg",
+  src: "/images/wp/2026/01/Want-to-Sell-Anything-in-2025-Heres-the-Secret.jpg",
   alt: "Want to Sell Anything? Here’s the $350 Million Secret — Neothink Awakening article",
   width: 1280,
   height: 720,

@@ -10,7 +10,7 @@ import type { AwakeningArticleImage } from "@/components/neothink-awakening/neot
 export const SWPPW_PATH = "/a-society-without-politics-poverty-or-war" as const;
 
 export const SWPPW_IMAGE: AwakeningArticleImage = {
-  src: "https://neothink.com/wp-content/uploads/2026/01/A-Society-Without-Politics-Poverty-or-War.jpg",
+  src: "/images/wp/2026/01/A-Society-Without-Politics-Poverty-or-War.jpg",
   alt: "A Society Without Politics, Poverty, or War — Neothink Awakening article",
   width: 640,
   height: 480,
