@@ -343,6 +343,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/podcast", changeFrequency: "monthly" as const, priority: 0.75 },
     { path: "/contact", changeFrequency: "monthly" as const, priority: 0.8 },
     { path: "/faq", changeFrequency: "monthly" as const, priority: 0.79 },
+    { path: "/privacy-policy", changeFrequency: "yearly" as const, priority: 0.3 },
+    { path: "/terms-and-conditions", changeFrequency: "yearly" as const, priority: 0.3 },
   ];
 
   return routes.map((route) => ({

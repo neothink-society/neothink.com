@@ -102,4 +102,14 @@ export const wpRedirects: Redirect[] = [
   ...slugPair("/secret-society-reveals-civilizations-hope", "/the-cult-you-never-knew-existed"),
   ...slugPair("/mark-hamilton-luck-350-million", "/mark-hamiltons-story"),
   ...slugPair("/thriving-career-overcoming-burnout", "/the-missing-key-to-universal-prosperity"),
+  // /blog (WP landing page with category index) -> the most active public category hub.
+  ...slugPair("/blog", "/category/neothink-awakening"),
+  // /newsletter (WP signup page) -> /contact until the Next app ships a native newsletter flow.
+  ...slugPair("/newsletter", "/contact"),
+  ...slugPair("/newsletter-signup-thank-you", "/contact"),
+  // Trailing-slash variants for newly migrated legal pages (Next.js auto-handles /.
+  // trailing slashes to non-trailing, but we also list them here for clarity
+  // and to survive any routing changes).
+  { source: "/privacy-policy/", destination: "/privacy-policy", permanent: true },
+  { source: "/terms-and-conditions/", destination: "/terms-and-conditions", permanent: true },
 ];

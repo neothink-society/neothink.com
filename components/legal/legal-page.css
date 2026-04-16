@@ -1,0 +1,138 @@
+/* Shared styles for simple legal pages (privacy, terms). Scoped under .lp-page. */
+
+.lp-page {
+  --lp-text: #0e0e0e;
+  --lp-body: #4a4540;
+  --lp-muted: #7a7570;
+  --lp-gold: #b8973a;
+  --lp-gold-deep: #8a7030;
+  --lp-cream: #fdfcfa;
+  --lp-stone: #f4f1ec;
+  --lp-border: #e8e3d8;
+  background: var(--lp-cream);
+}
+
+.lp-page .lp-hero {
+  padding: 140px 48px 60px;
+  text-align: center;
+  border-bottom: 1px solid var(--lp-border);
+}
+
+.lp-page .lp-eyebrow {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--lp-gold);
+  margin: 0 0 24px;
+}
+
+.lp-page .lp-hero h1 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(34px, 4.4vw, 56px);
+  font-weight: 300;
+  line-height: 1.1;
+  color: var(--lp-text);
+  max-width: 760px;
+  margin: 0 auto 20px;
+}
+
+.lp-page .lp-last-updated {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--lp-muted);
+  margin: 0;
+}
+
+.lp-page .lp-content {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 56px 48px 96px;
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.75;
+  color: var(--lp-body);
+}
+
+.lp-page .lp-intro p {
+  margin: 0 0 18px;
+}
+
+.lp-page .lp-intro p:last-child {
+  margin-bottom: 0;
+}
+
+.lp-page .lp-section {
+  margin-top: 40px;
+  scroll-margin-top: 120px;
+}
+
+.lp-page .lp-section h2 {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(22px, 2.4vw, 28px);
+  font-weight: 400;
+  color: var(--lp-text);
+  margin: 0 0 16px;
+}
+
+.lp-page .lp-section p {
+  margin: 0 0 14px;
+}
+
+.lp-page .lp-section ul {
+  margin: 0 0 14px;
+  padding-left: 1.4em;
+  list-style: disc;
+}
+
+.lp-page .lp-section li {
+  margin: 0 0 6px;
+}
+
+.lp-page .lp-section a {
+  color: var(--lp-gold-deep);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.lp-page .lp-section a:hover {
+  color: var(--lp-text);
+}
+
+.lp-page .lp-contact address {
+  font-style: normal;
+  display: block;
+  margin: 0 0 14px;
+}
+
+.lp-page .lp-sibling {
+  margin-top: 56px;
+  padding-top: 24px;
+  border-top: 1px solid var(--lp-border);
+}
+
+.lp-page .lp-sibling a {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--lp-gold-deep);
+  text-decoration: none;
+}
+
+.lp-page .lp-sibling a:hover {
+  color: var(--lp-text);
+}
+
+@media (max-width: 600px) {
+  .lp-page .lp-hero {
+    padding: 110px 24px 44px;
+  }
+  .lp-page .lp-content {
+    padding: 40px 24px 72px;
+  }
+}

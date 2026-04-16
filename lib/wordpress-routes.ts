@@ -72,6 +72,10 @@ export const WP = {
   neothinkMastermindGroupSuccessStories: "/neothink-mastermind-group-success-stories",
   /** Direct mail for mailto links where a page route is not used. */
   contactMailto: "mailto:support@neothink.com",
+  /** Privacy policy (WP page slug `privacy-policy`). */
+  privacyPolicy: "/privacy-policy",
+  /** Terms and conditions (WP page slug `terms-and-conditions`). */
+  termsAndConditions: "/terms-and-conditions",
   /** Manuscripts hub — use the same slug WordPress uses for this section. */
   manuscripts: "/manuscripts",
   getInvolved: "/get-involved",

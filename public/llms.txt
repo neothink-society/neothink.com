@@ -102,3 +102,5 @@ Machine-oriented pointers (human-readable site summary continues below).
 - [FAQ](/faq): Frequently asked questions about the Neothink Society (programs, Project Life, Neothink Country, Ascension)—public context on neothink.com.
 - [Published Work](/published-work): Articles and research from the Institute.
 - [Contact](/contact): Get in touch with the Neothink Institute.
+- [Privacy Policy](/privacy-policy): Personal-information practices, SMS data protection, CCPA/CPRA/GDPR rights (source-faithful migration from WordPress).
+- [Terms and Conditions](/terms-and-conditions): Acceptance, SMS messaging terms, disclaimers, governing law, dispute resolution (source-faithful migration from WordPress).
