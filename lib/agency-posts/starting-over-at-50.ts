@@ -1,0 +1,33 @@
+/**
+ * Data module for agency-era post `starting-over-at-50`. Source-faithful migration
+ * from WordPress (published 2025-03-20).
+ *
+ * Regenerate: node scripts/migrate-agency-posts.mjs --write --only starting-over-at-50
+ */
+export const STARTING_OVER_AT_50_PATH = "/starting-over-at-50";
+export const STARTING_OVER_AT_50_HEADLINE = "Is Starting Over At 50 Too Late For Success?";
+export const STARTING_OVER_AT_50_META_TITLE = "Is Starting Over At 50 Too Late For Success?";
+export const STARTING_OVER_AT_50_DESCRIPTION = "";
+
+export const STARTING_OVER_AT_50_DATES = {
+  datePublished: "2025-03-20T11:26:38Z",
+  dateModified: "2026-02-06T05:10:43Z",
+} as const;
+
+export const STARTING_OVER_AT_50_IMAGE = {
+  src: "/brand-assets/neothink-hero.jpg",
+  alt: "Is Starting Over At 50 Too Late For Success?",
+  width: 1200,
+  height: 630,
+} as const;
+
+export const STARTING_OVER_AT_50_INTRO_PARAS: readonly string[] = [
+  "Starting over at any age can be scary. With a world of opportunity outstretched before you, there’s also so much unknown. Fear of the unknown is what prevents many of us from moving forward and experiencing true happiness.",
+  "Time and time again, people think it’s too late to start over at 50…or 40, or 60. Really, though, you could make that argument for any time of your life. Starting over at any age is hard because it requires you to get uncomfortable. The thing you need to hold onto, however, especially when times get tough, is that this discomfort is temporary. What’s more, it will be so worth it when you discover what’s on the other side of it.",
+  "Spoiler: it’s lasting, extraordinary, existential happiness.",
+  "50 is definitely not too late to start over, whether that means pursuing a new career, diving into a new relationship, or moving to a new part of the world. Additionally, with Project Life – The Neothink Society’s initiative designed to extend and enhance our lives – 50 is just the beginning."
+];
+
+export const STARTING_OVER_AT_50_MIN_READ = "4 min read";
+
+export const STARTING_OVER_AT_50_BODY_HTML = `<h2>Why Starting Over is a Good Thing</h2><p>No matter the age, starting over can be an extremely positive thing for you and the people in your life. This willingness to take a chance on yourself is evidence that you’re not holding onto old perceptions of who you thought you were. By committing to starting over, you’re releasing the past and refusing to stay stuck.</p><p>Starting over at 50 is a way to honor your own happiness. Doing this is you defying the mundane and refusing to be held by. Rather than living a life of complacency and boredom, you’re showing yourself that more is possible.</p><h2>How to Approach Starting Over at 50, 60, or Any Age</h2><p>The key to success in life is strategy. It’s seldom wise to jump headfirst into something without any sort of a plan. Instead, look at what others have done and how they’ve been successful in their pursuits. Then follow, replicate, and improve upon these initiatives.</p><h4>Don’t Rush – Plan</h4><p>You don’t need to have a script for the rest of your life after 50, but some semblance of a plan will help you make this restart a real success. Think about it: you’ve had 50 years to get this far so why rush into a rash life decision now? Take some time to think about what starting over means for you.</p><p>Put together a few short and long term plans. These should be things you want to achieve in the near and not-so-near future. Having a plan of action will help ease fear of the unknown, which is what holds so many people back from starting over at 50.</p><h4>Take Action</h4><p>On the other hand, don’t take too long or you run the risk of talking yourself out of it. Set these plans into action by taking purposeful steps. <a href="https://www.theneothinksociety.com/join-the-neothink-society/" target="_blank" rel="noopener">Join a society</a> or organization, reach out to people in and outside of your network, make new connections, or sign up for educational courses. Liberate yourself to take a few risks. Don’t just think about change – enact it.</p><h4>Take Risks</h4><p>Speaking of risk, take one! Take several. Given that you’re starting over, there’s no time like the present to take a leap of faith and take risks. Now is the time to explore the things you held yourself back from before. Without the constraints of who you were prior, you’re free to explore the world anew. You don’t have to subscribe to the set of limitations you put on yourself before. Starting over is like a blank slate so give yourself permission to see it that way.</p><h4>Learn About Yourself</h4><p>Starting over at 50, starting over at 55, or starting over at any age is a journey of self-discovery. Now is the time to get introspective and very specific about who you want to be. What will it take for you to achieve lasting happiness in this new life?</p><p>Introspection requires:</p><ul><li>Addressing your past</li><li>Moving past your past</li><li>Acknowledging your regrets</li><li>Making amends to those who need it</li><li>Evaluating your finances</li><li>Getting honest with yourself</li></ul><p>Do engage in this introspection, ask yourself the following:</p><ul><li>Why do I want to start over?</li><li>What was I unhappy with in my old life that makes me want to start anew?</li><li>What do I love doing?</li><li>What do I hate doing?</li><li>What are my strengths?</li><li>What am I passionate about?</li><li>What does my new life look like?</li><li>Does my new life require a career change ? A different change? A modification in my relationship?</li><li>What have I always wanted to do that I still haven’t? How can I do this when I start over?</li></ul><h2>The Benefits of Starting Over at 50</h2><p>50 is the new…you! It’s not the new 30, 40, or 60. No matter your age, starting over is hard. The older we get, the more society tells us to stay where we are. These messages can become ingrained into us and may prevent us from living as our truest, happiest selves.</p><p>There are so many benefits of starting over at 50.</p><ul><li>You’re wiser than you were when you were younger</li><li>You can make better decisions for yourself, your life, and your family</li><li>You know who you are and can move forth with confidence</li></ul><p>It may not be easy but it will be worth it. Need support for this new chapter of your life? <a href="/programs">Neothink’s Coaching Programs </a>are intended for just that. Learn more <a href="/about#what-is-neothink-society">about The Neothink Society</a> and discover how you can step into the best era of your life today.</p>`;

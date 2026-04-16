@@ -9,7 +9,7 @@ import type { Redirect } from "next/dist/lib/load-custom-routes";
  */
 function slugPair(sourceBase: string, destination: string): Redirect[] {
   const s = sourceBase.replace(/\/$/, "");
-  const d = destination.replace(/\/$/, "");
+  const d = destination === "/" ? "/" : destination.replace(/\/$/, "");
   return [
     { source: s, destination: d, permanent: true },
     { source: `${s}/`, destination: d, permanent: true },
@@ -112,4 +112,104 @@ export const wpRedirects: Redirect[] = [
   // and to survive any routing changes).
   { source: "/privacy-policy/", destination: "/privacy-policy", permanent: true },
   { source: "/terms-and-conditions/", destination: "/terms-and-conditions", permanent: true },
+
+  // ---- Pre-cutover gap sweep (from scripts/verify-wp-coverage.mjs) ---------
+  // Podcast episode deep-links -> matching article (or /podcast hub when no direct match).
+  ...slugPair(
+    "/podcast/are-we-the-illuminati-the-truth-behind-the-allegations-mh-explains",
+    "/are-we-the-illuminati-truth"
+  ),
+  ...slugPair(
+    "/podcast/the-future-of-humanity-everything-becomes-free",
+    "/the-job-revolution"
+  ),
+  ...slugPair(
+    "/podcast/the-secret-society-reveals-civilizations-only-hope-for-a-good-future",
+    "/the-cult-you-never-knew-existed"
+  ),
+  ...slugPair(
+    "/podcast/youre-being-manipulated-they-use-guilt-to-control-you-mark-hamilton",
+    "/youre-being-manipulated-they-use-guilt-to-control-you"
+  ),
+  ...slugPair(
+    "/podcast/freeing-societys-hidden-geniuses-with-elon-musk",
+    "/immortalis"
+  ),
+  ...slugPair(
+    "/podcast/a-new-country-with-no-taxes-mark-hamilton",
+    "/a-new-country-the-great-experiment-called-immortalis"
+  ),
+  ...slugPair(
+    "/podcast/i-used-luck-to-make-a-fortune-and-you-can-too-the-neothink-mentality",
+    "/mark-hamiltons-story"
+  ),
+  ...slugPair(
+    "/podcast/a-process-for-finding-achieving-your-lifes-purpose-mark-hamilton",
+    "/finding-achieving-your-life-purpose"
+  ),
+  ...slugPair(
+    "/podcast/aliens-are-real-but-theyll-never-visit-earth-heres-why",
+    "/aliens-real-never-visit-earth"
+  ),
+  ...slugPair(
+    "/podcast/think-like-elon-musk-the-mind-hacks-that-build-billion-dollar-empires",
+    "/think-like-elon-musk-mind-hacks"
+  ),
+  ...slugPair(
+    "/podcast/escape-the-matrix-now-mark-hamilton",
+    "/escape-the-matrix-now"
+  ),
+  ...slugPair(
+    "/podcast/freedom-is-the-key-to-unlocking-true-wealth-in-2024",
+    "/freedom-key-to-unlocking-true-wealth"
+  ),
+  ...slugPair(
+    "/podcast/this-is-how-close-we-are-to-biological-immortality-mark-hamilton",
+    "/cure-to-aging"
+  ),
+  ...slugPair(
+    "/podcast/watch-this-to-never-be-manipulated-again",
+    "/illusion-pollution"
+  ),
+  // Podcast episodes with no direct article match -> hub.
+  ...slugPair(
+    "/podcast/reprogram-your-mind-to-be-rich-in-1-hour-the-neothink-approach",
+    "/podcast"
+  ),
+  ...slugPair(
+    "/podcast/is-trumps-victory-the-beginning-of-a-new-era",
+    "/podcast"
+  ),
+  ...slugPair(
+    "/podcast/want-to-sell-anything-in-2024-heres-the-secret",
+    "/podcast"
+  ),
+
+  // Legacy "free / resources / programs" landing pages.
+  ...slugPair("/free", "/free-courses"),
+  ...slugPair("/resources", "/free-courses"),
+  ...slugPair("/ascension-platform-for-business-and-personal-growth", "/programs"),
+  ...slugPair("/life-coaching", "/programs"),
+  ...slugPair("/what-i-offer", "/programs"),
+  ...slugPair("/wealth-engine", "/areas-of-profit"),
+
+  // Marketing/outreach pages -> best existing surface.
+  ...slugPair("/apply-for-membership", "/contact"),
+  ...slugPair("/contact-form-submitted", "/contact"),
+  ...slugPair("/press-media", "/contact"),
+  ...slugPair("/sms-opt-in", "/contact"),
+  ...slugPair("/our-mission", "/the-movement"),
+  ...slugPair("/society", "/the-movement"),
+
+  // Concept / topic pages with weaker content -> best topical hub.
+  ...slugPair("/formula-cure-to-aging", "/cure-to-aging"),
+  ...slugPair("/neovia-case", "/neovia"),
+  ...slugPair("/ai-purpose-void", "/finding-achieving-your-life-purpose"),
+  ...slugPair("/bicameral-mind", "/beyond-tunnel-vision"),
+  ...slugPair("/performing-self", "/about"),
+  ...slugPair("/lexicon", "/faq"),
+
+  // Default WP artifacts / test pages -> home.
+  ...slugPair("/sample-page", "/"),
+  ...slugPair("/master28", "/"),
 ];

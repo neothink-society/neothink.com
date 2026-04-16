@@ -44,6 +44,9 @@ yarn-error.log*
 # Local WordPress HTML dumps from `pnpm migration:wp-page -- --out ...`
 /migration/source/*.html
 
+# Local per-agent fetch cache for agency-era post migration
+/migration/agency-cache/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
