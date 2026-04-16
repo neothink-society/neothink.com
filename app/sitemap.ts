@@ -223,6 +223,51 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.73,
     },
     {
+      path: "/the-two-obstacles-to-curing-aging",
+      changeFrequency: "monthly" as const,
+      priority: 0.73,
+    },
+    {
+      path: "/spreading-immortalis-to-world-leaders",
+      changeFrequency: "monthly" as const,
+      priority: 0.73,
+    },
+    {
+      path: "/building-the-engine-behind-immortalis",
+      changeFrequency: "monthly" as const,
+      priority: 0.73,
+    },
+    {
+      path: "/the-job-revolution",
+      changeFrequency: "monthly" as const,
+      priority: 0.73,
+    },
+    {
+      path: "/the-2400-year-mistake",
+      changeFrequency: "monthly" as const,
+      priority: 0.73,
+    },
+    {
+      path: "/strategic-briefing-for-presidents",
+      changeFrequency: "monthly" as const,
+      priority: 0.73,
+    },
+    {
+      path: "/the-year-capitalism-sets-the-world-free",
+      changeFrequency: "monthly" as const,
+      priority: 0.73,
+    },
+    {
+      path: "/creating-the-demand-to-live-forever",
+      changeFrequency: "monthly" as const,
+      priority: 0.73,
+    },
+    {
+      path: "/illusion-pollution",
+      changeFrequency: "monthly" as const,
+      priority: 0.73,
+    },
+    {
       path: "/friday-night-essence",
       changeFrequency: "monthly" as const,
       priority: 0.74,

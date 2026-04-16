@@ -97,7 +97,7 @@ export const BREAKING_THE_CHAINS_ON_CONSCIOUSNESS_BODY_HTML = `<div class="eleme
 				</div>
 				<div class="elementor-element elementor-element-e12b684 elementor-widget elementor-widget-text-editor" data-id="e12b684" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p>The problem is that under current civilization, survival is never fully secured. <a href="https://neothink.com/the-two-obstacles-to-curing-aging/" style="color:#96792B;text-decoration:underline;">Eroom’s Law</a> (Moore’s Law backwards) means pharmaceutical costs and timelines keep increasing. Regulatory burden makes cures crawl. Economic stagnation traps people in routine. The bubble never pops — and consciousness never expands beyond it.</p>								</div>
+									<p>The problem is that under current civilization, survival is never fully secured. <a href="/the-two-obstacles-to-curing-aging" style="color:#96792B;text-decoration:underline;">Eroom’s Law</a> (Moore’s Law backwards) means pharmaceutical costs and timelines keep increasing. Regulatory burden makes cures crawl. Economic stagnation traps people in routine. The bubble never pops — and consciousness never expands beyond it.</p>								</div>
 				</div>
 				<div class="elementor-element elementor-element-5aac250 elementor-widget elementor-widget-text-editor" data-id="5aac250" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">

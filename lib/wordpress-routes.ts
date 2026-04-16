@@ -144,6 +144,24 @@ export const WP = {
   startingOurOwnCountry: "/starting-our-own-country",
   /** Neothink Philosophy: RAADfest, three obstacles, mortal vs. immortal mentality (WP post `live-longer`). */
   liveLonger: "/live-longer",
+  /** Neothink Philosophy: stagnation & regulation vs. curing aging (WP post `the-two-obstacles-to-curing-aging`). */
+  theTwoObstaclesToCuringAging: "/the-two-obstacles-to-curing-aging",
+  /** Neothink Philosophy: Prime Law to world leaders (WP post `spreading-immortalis-to-world-leaders`). */
+  spreadingImmortalisToWorldLeaders: "/spreading-immortalis-to-world-leaders",
+  /** Neothink Philosophy: business engine around Immortalis (WP post `building-the-engine-behind-immortalis`). */
+  buildingTheEngineBehindImmortalis: "/building-the-engine-behind-immortalis",
+  /** Neothink Philosophy: pure capitalism endpoint (WP post `the-job-revolution`). */
+  theJobRevolution: "/the-job-revolution",
+  /** Neothink Philosophy: Plato, Aristotle, unified field (WP post `the-2400-year-mistake`). */
+  theTwentyFourHundredYearMistake: "/the-2400-year-mistake",
+  /** Neothink Philosophy: structural fix for civilization (WP post `strategic-briefing-for-presidents`). */
+  strategicBriefingForPresidents: "/strategic-briefing-for-presidents",
+  /** Neothink Philosophy: pure capitalism & universal wealth (WP post `the-year-capitalism-sets-the-world-free`). */
+  theYearCapitalismSetsTheWorldFree: "/the-year-capitalism-sets-the-world-free",
+  /** Neothink Philosophy: Neothink vs. stagnation (WP post `creating-the-demand-to-live-forever`). */
+  creatingTheDemandToLiveForever: "/creating-the-demand-to-live-forever",
+  /** Neothink Philosophy: ruling-class cult & illusions (WP post `illusion-pollution`). */
+  illusionPollution: "/illusion-pollution",
   /** Neothink Mentality lesson 3 (post). */
   beyondTunnelVision: "/beyond-tunnel-vision",
   /** Neothink Mentality lesson 4 (post). */

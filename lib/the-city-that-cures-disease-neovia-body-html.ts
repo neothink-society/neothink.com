@@ -25,7 +25,7 @@ export const NEOVIA_SPEECH_BODY_HTML = `<div class="elementor-element elementor-
 				</div>
 				<div class="elementor-element elementor-element-eac747c elementor-widget elementor-widget-text-editor" data-id="eac747c" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p>So Hamilton spent 45 years building tools that lift ordinary people into value creators. Because when people rise, <a href="https://neothink.com/the-two-obstacles-to-curing-aging/" style="color:#96792B;text-decoration:underline;">demand for longevity rises with them</a>. But then the second hard truth stood in front of him like a wall: overburdensome regulation made the supply of longevity crawl. It costs $1 to $2 billion and a decade or more to bring a single life-saving drug to market. Investors shrank, timelines stretched, patients waited — and too many never made it.</p>								</div>
+									<p>So Hamilton spent 45 years building tools that lift ordinary people into value creators. Because when people rise, <a href="/the-two-obstacles-to-curing-aging" style="color:#96792B;text-decoration:underline;">demand for longevity rises with them</a>. But then the second hard truth stood in front of him like a wall: overburdensome regulation made the supply of longevity crawl. It costs $1 to $2 billion and a decade or more to bring a single life-saving drug to market. Investors shrank, timelines stretched, patients waited — and too many never made it.</p>								</div>
 				</div>
 				<div class="elementor-element elementor-element-3fca86e elementor-widget elementor-widget-text-editor" data-id="3fca86e" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -117,7 +117,7 @@ export const NEOVIA_SPEECH_BODY_HTML = `<div class="elementor-element elementor-
 				</div>
 				<div class="elementor-element elementor-element-de27e74 elementor-widget elementor-widget-text-editor" data-id="de27e74" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p>When 90% of the population feels freedom as healing, the non-aggression ideal ceases to be theory. It becomes daily life. From that beachhead, <a href="https://neothink.com/spreading-immortalis-to-world-leaders/" style="color:#96792B;text-decoration:underline;">Prime Law freedom can spread</a> industry by industry until a nation catches the same healthy addiction to liberty that cured its families. Hamilton’s phrase for the endpoint: a future Prime Law nation.</p>								</div>
+									<p>When 90% of the population feels freedom as healing, the non-aggression ideal ceases to be theory. It becomes daily life. From that beachhead, <a href="/spreading-immortalis-to-world-leaders" style="color:#96792B;text-decoration:underline;">Prime Law freedom can spread</a> industry by industry until a nation catches the same healthy addiction to liberty that cured its families. Hamilton’s phrase for the endpoint: a future Prime Law nation.</p>								</div>
 				</div>
 				<div class="elementor-element elementor-element-e601eed elementor-widget elementor-widget-text-editor" data-id="e601eed" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -157,7 +157,7 @@ export const NEOVIA_SPEECH_BODY_HTML = `<div class="elementor-element elementor-
 				</div>
 				<div class="elementor-element elementor-element-663daf1 elementor-widget elementor-widget-text-editor" data-id="663daf1" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p>Neovia is the operational answer to the question Hamilton has been building toward for 45 years: how do you cure aging when the system is designed to prevent it? The answer is not to reform the system but to build the city where the cure becomes inevitable. The <a href="https://neothink.com/the-two-obstacles-to-curing-aging/" style="color:#96792B;text-decoration:underline;">two obstacles</a> — stagnation and regulation — are overcome not by fighting them head-on but by creating a zone where neither can operate.</p>								</div>
+									<p>Neovia is the operational answer to the question Hamilton has been building toward for 45 years: how do you cure aging when the system is designed to prevent it? The answer is not to reform the system but to build the city where the cure becomes inevitable. The <a href="/the-two-obstacles-to-curing-aging" style="color:#96792B;text-decoration:underline;">two obstacles</a> — stagnation and regulation — are overcome not by fighting them head-on but by creating a zone where neither can operate.</p>								</div>
 				</div>
 				<div class="elementor-element elementor-element-ba6e30a elementor-widget elementor-widget-text-editor" data-id="ba6e30a" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
