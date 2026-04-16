@@ -18,6 +18,21 @@ export const NEOTHINK_AWAKENING_CATEGORY_INTRO =
 export const NEOTHINK_AWAKENING_CATEGORY_SEO_DESCRIPTION =
   "Neothink Awakening series: Mark Hamilton articles on mindset, freedom, wealth, leadership, and civilization—full list with native reading on neothink.com where articles are migrated." as const;
 
+/**
+ * Awakening slugs whose WordPress URL 301-redirects to an existing on-site
+ * Next.js route. The category hub should link directly to the canonical target
+ * so the hub avoids an extra hop through WordPress.
+ *
+ * @see lib/migration/wp-redirects.ts
+ */
+export const NEOTHINK_AWAKENING_REDIRECT_TARGETS: ReadonlyMap<string, string> = new Map([
+  ["freeing-hidden-geniuses-elon-musk", "/immortalis"],
+  ["never-be-manipulated-again", "/illusion-pollution"],
+  ["mark-hamilton-luck-350-million", "/mark-hamiltons-story"],
+  ["secret-society-reveals-civilizations-hope", "/the-cult-you-never-knew-existed"],
+  ["future-of-humanity-everything-free", "/the-job-revolution"],
+]);
+
 export const NEOTHINK_AWAKENING_MIGRATED_SLUGS: ReadonlySet<string> = new Set([
   "a-society-without-politics-poverty-or-war",
   "aliens-real-never-visit-earth",
@@ -127,9 +142,18 @@ export const NEOTHINK_AWAKENING_SERIES_POSTS: readonly NeothinkAwakeningSeriesPo
 
 export function neothinkAwakeningPostHref(slug: string): string {
   if (NEOTHINK_AWAKENING_MIGRATED_SLUGS.has(slug)) return `/${slug}`;
+  const redirectTarget = NEOTHINK_AWAKENING_REDIRECT_TARGETS.get(slug);
+  if (redirectTarget) return redirectTarget;
   return `${siteConfig.url}/${slug}/`;
 }
 
+/**
+ * Treat redirected posts as "on-site" for link-styling purposes; the hub links
+ * straight to the canonical Next.js target so there is no external hop.
+ */
 export function neothinkAwakeningPostIsMigrated(slug: string): boolean {
-  return NEOTHINK_AWAKENING_MIGRATED_SLUGS.has(slug);
+  return (
+    NEOTHINK_AWAKENING_MIGRATED_SLUGS.has(slug) ||
+    NEOTHINK_AWAKENING_REDIRECT_TARGETS.has(slug)
+  );
 }
