@@ -12,7 +12,7 @@ import {
 import { FRIDAY_NIGHT_ESSENCE_FAQ } from "@/lib/friday-night-essence-faq";
 import { WP } from "@/lib/wordpress-routes";
 
-const SERIES = "https://neothink.com/category/neothink-concepts/";
+const SERIES = WP.neothinkConceptsCategory;
 
 export function FridayNightEssencePageContent() {
   return (

@@ -16,8 +16,6 @@ import { FKTUW_FAQ } from "@/lib/freedom-key-to-unlocking-true-wealth-faq";
 import { parseAgencyPostInline } from "@/lib/agency-post-inline";
 import { WP } from "@/lib/wordpress-routes";
 
-const AWAKENING_SERIES = "https://neothink.com/category/neothink-awakening/";
-
 export function FreedomKeyToUnlockingTrueWealthPageContent() {
   const mainRef = useRef<HTMLElement>(null);
 
@@ -54,10 +52,8 @@ export function FreedomKeyToUnlockingTrueWealthPageContent() {
       <article>
         <header className="nu-hero" aria-labelledby="fktuw-hero-heading">
           <div className="nu-hero-label">
-            <a
-              href={AWAKENING_SERIES}
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href={WP.neothinkAwakeningCategory}
               style={{
                 display: "inline-block",
                 background: "linear-gradient(135deg,#d4a853 0%,#f5d799 50%,#d4a853 100%)",
@@ -72,7 +68,7 @@ export function FreedomKeyToUnlockingTrueWealthPageContent() {
               }}
             >
               Neothink Awakening
-            </a>
+            </Link>
           </div>
           <h1 id="fktuw-hero-heading">{FKTUW_HEADLINE}</h1>
           {FKTUW_INTRO_PARAS.map((para, idx) => (

@@ -100,6 +100,10 @@ export const WP = {
    * Lists all series posts; links to Next routes where migrated, else canonical post permalinks.
    */
   neothinkPhilosophyCategory: "/category/neothink-philosophy",
+  /** Neothink Awakening — category hub (WordPress category `neothink-awakening`, id 80). */
+  neothinkAwakeningCategory: "/category/neothink-awakening",
+  /** Neothink Concepts — category hub (WordPress category `neothink-concepts`, id 84). */
+  neothinkConceptsCategory: "/category/neothink-concepts",
   /** Neothink Philosophy long-form: Mark Hamilton’s story / following mode (WP post `mark-hamiltons-story`). */
   markHamiltonsStory: "/mark-hamiltons-story",
   /** Neothink Philosophy long-form: Immortalis / Prime Law Capitalism (WP post `immortalis-the-great-experiment-of-our-time`). */

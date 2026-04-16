@@ -47,6 +47,8 @@ const PATH_MAP = {
   "/mont-pelerin-pivot-into-our-essence": "/mont-pelerin-pivot-into-our-essence",
   "/the-grand-experiment-of-our-time": "/the-grand-experiment-of-our-time",
   "/category/neothink-philosophy": "/category/neothink-philosophy",
+  "/category/neothink-awakening": "/category/neothink-awakening",
+  "/category/neothink-concepts": "/category/neothink-concepts",
   "/breaking-the-chains-on-consciousness": "/breaking-the-chains-on-consciousness",
   "/the-unbreakable-equation": "/the-unbreakable-equation",
   "/what-all-philosophies-get-wrong": "/what-all-philosophies-get-wrong",

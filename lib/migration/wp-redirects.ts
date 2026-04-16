@@ -22,6 +22,16 @@ export const wpRedirects: Redirect[] = [
     destination: "/category/neothink-philosophy",
     permanent: true,
   },
+  {
+    source: "/category/neothink-awakening/",
+    destination: "/category/neothink-awakening",
+    permanent: true,
+  },
+  {
+    source: "/category/neothink-concepts/",
+    destination: "/category/neothink-concepts",
+    permanent: true,
+  },
   ...slugPair(
     "/how-the-neothink-secret-society-differs-from-other-secret-groups",
     "/neothink-secret-society-differs-other-groups"

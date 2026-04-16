@@ -44,6 +44,8 @@ const PATH_MAP = {
   "/mark-hamiltons-neothink-surprising-logic": "/mark-hamiltons-neothink-surprising-logic",
   "/truth-about-neothink-society": "/truth-about-neothink-society",
   "/value-creator": "/value-creator",
+  "/category/neothink-awakening": "/category/neothink-awakening",
+  "/category/neothink-concepts": "/category/neothink-concepts",
 };
 
 function norm(p) {

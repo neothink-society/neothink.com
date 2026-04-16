@@ -12,7 +12,7 @@ import {
 import { VALUE_CREATOR_FAQ } from "@/lib/value-creator-faq";
 import { WP } from "@/lib/wordpress-routes";
 
-const SERIES = "https://neothink.com/category/neothink-concepts/";
+const SERIES = WP.neothinkConceptsCategory;
 
 export function ValueCreatorPageContent() {
   return (

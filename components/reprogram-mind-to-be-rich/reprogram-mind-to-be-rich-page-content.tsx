@@ -14,8 +14,7 @@ import {
 import { RMTBR_FAQ } from "@/lib/reprogram-mind-to-be-rich-faq";
 import { WP } from "@/lib/wordpress-routes";
 
-/** On-site entry points for the Neothink Awakening arc (no category hub route yet). */
-const AWAKENING_ENTRY = WP.freedomKeyToUnlockingTrueWealth;
+const AWAKENING_ENTRY = WP.neothinkAwakeningCategory;
 const LUCK_350M = WP.markHamiltonsStory;
 const GREATEST_MENTAL = WP.theGreatestMentalBreakthrough;
 

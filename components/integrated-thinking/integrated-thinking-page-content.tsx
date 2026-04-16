@@ -12,7 +12,7 @@ import {
 import { INTEGRATED_THINKING_FAQ } from "@/lib/integrated-thinking-faq";
 import { WP } from "@/lib/wordpress-routes";
 
-const SERIES = "https://neothink.com/category/neothink-concepts/";
+const SERIES = WP.neothinkConceptsCategory;
 
 export function IntegratedThinkingPageContent() {
   return (
