@@ -360,4 +360,7 @@ export const wpRedirects: Redirect[] = [
   // WordPress spam (Russian affiliate slugs injected by past exploit) -> home.
   ...slugPair("/ofitsial-nyi-sait-epikstar-dlia-klientov-kompanii", "/"),
   ...slugPair("/analiz-stavok-vavada-sport-dlia-uvelicheniia-pribyli", "/"),
+
+  // Dead WordPress plugin artifacts (WP Geo / KML).
+  { source: "/locations.kml", destination: "/", permanent: true },
 ];
