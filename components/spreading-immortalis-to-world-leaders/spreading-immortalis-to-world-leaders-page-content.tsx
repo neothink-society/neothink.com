@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 
 import { NeothinkPhilosophyLongformPageContent } from "@/components/neothink-philosophy/neothink-philosophy-longform-page-content";
