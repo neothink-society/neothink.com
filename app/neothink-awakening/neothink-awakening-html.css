@@ -15,6 +15,116 @@
   height: auto;
 }
 
+/* ------------------------------------------------------------------
+ * Typography for migrated Elementor body HTML.
+ *
+ * Tailwind's preflight resets h1–h6 to inherit font-size/weight and
+ * zeroes p margins. The migrated HTML uses `.elementor-heading-title`
+ * and `.elementor-widget-text-editor > p` which relied on Elementor's
+ * own CSS for type scale and vertical rhythm — which we don't ship.
+ *
+ * These rules restore proper heading sizes, paragraph spacing, and
+ * list styling for the plain-prose flow of each post. They are scoped
+ * to `.nu-awakening-html` so they never touch the rest of the site,
+ * and inline styles on designed callouts/step-cards continue to win
+ * for font-family / font-size / color.
+ * ------------------------------------------------------------------ */
+
+.nu-awakening-html h2,
+.nu-awakening-html h2.elementor-heading-title {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(1.6rem, 4.2vw, 2.2rem);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--nu-text, #0e0e0e);
+  margin: 48px 0 18px;
+}
+
+.nu-awakening-html h3,
+.nu-awakening-html h3.elementor-heading-title {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(1.25rem, 3vw, 1.45rem);
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--nu-text, #0e0e0e);
+  margin: 32px 0 12px;
+}
+
+.nu-awakening-html h4,
+.nu-awakening-html h4.elementor-heading-title {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(1.05rem, 2.4vw, 1.2rem);
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--nu-text, #0e0e0e);
+  margin: 24px 0 8px;
+}
+
+/* Body paragraphs & lists inside Elementor text-editor widgets.
+ * Using a structural child selector so designed callouts (which
+ * wrap their content in `<div>` with inline styles) aren't affected. */
+.nu-awakening-html .elementor-widget-text-editor > .elementor-widget-container > p {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--nu-body, #4a4540);
+  margin: 0 0 18px;
+}
+
+.nu-awakening-html .elementor-widget-text-editor > .elementor-widget-container > ul,
+.nu-awakening-html .elementor-widget-text-editor > .elementor-widget-container > ol {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--nu-body, #4a4540);
+  margin: 0 0 20px;
+  padding-left: 1.5rem;
+}
+
+.nu-awakening-html .elementor-widget-text-editor > .elementor-widget-container > ul {
+  list-style: disc;
+}
+
+.nu-awakening-html .elementor-widget-text-editor > .elementor-widget-container > ol {
+  list-style: decimal;
+}
+
+.nu-awakening-html .elementor-widget-text-editor > .elementor-widget-container > ul > li,
+.nu-awakening-html .elementor-widget-text-editor > .elementor-widget-container > ol > li {
+  margin-bottom: 8px;
+}
+
+/* Give section-level heading widgets a little breathing room before the
+ * rule beats in on heading margin. `.elementor-widget-heading` wraps the
+ * heading element; the heading's own margin already handles the gap. */
+.nu-awakening-html .elementor-widget-heading + .elementor-widget-text-editor {
+  /* No extra gap — heading margin-bottom already provides it. */
+}
+
+/* Blockquotes in plain-prose context. */
+.nu-awakening-html .elementor-widget-text-editor > .elementor-widget-container > blockquote {
+  margin: 0 0 20px;
+  padding: 12px 20px;
+  border-left: 3px solid var(--nu-gold-deep, #7A6528);
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: 1.15rem;
+  line-height: 1.55;
+  color: var(--nu-text, #0e0e0e);
+  font-style: italic;
+}
+
+/* Emphasis inside plain prose. Intentionally does not override `color`
+ * — nested callouts with dark backgrounds inherit cream text, and
+ * forcing near-black on `<strong>` would fail WCAG contrast there. */
+.nu-awakening-html .elementor-widget-text-editor > .elementor-widget-container strong {
+  font-weight: 700;
+}
+
+.nu-awakening-html .elementor-widget-text-editor > .elementor-widget-container em {
+  font-style: italic;
+}
+
 .nu-awakening-html .step-circle {
   flex-shrink: 0;
   width: 40px;
