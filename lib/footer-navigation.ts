@@ -4,91 +4,60 @@ import { schemaIds } from "@/lib/schema-ids";
 import { WP } from "@/lib/wordpress-routes";
 
 /**
- * Sitewide footer columns: IA aligned with brand hierarchy (ideas → institute → library → action)
- * and with `public/llms.txt` core concepts. Used by `SiteFooter` and JSON-LD `ItemList` (`#footer-navigation`).
+ * Sitewide footer IA — reduced to the **main pages** only:
+ * the original set Wallace created (the seven header-nav destinations:
+ * Unified Field, Neovia, The Way, Neothink, Mark Hamilton, Published Work,
+ * Unleashed) plus the pages those seven link to internally (Prime Law,
+ * Manuscripts, Podcast, Get Involved).
+ *
+ * Anything outside this set (series category hubs, About/FAQ, Neothink
+ * University, Events, Programs, etc.) lives in the page bodies and XML
+ * sitemap — it is intentionally not in the footer.
  */
-export type FooterColumn = {
-  /** Short heading shown in the footer (visible). */
-  label: string;
-  /** `name` is visible anchor text and JSON-LD `ListItem.name` (keep in sync for AEO). */
-  links: readonly { href: string; name: string }[];
-};
+export type FooterLink = { href: string; name: string };
 
-export const FOOTER_COLUMNS: readonly FooterColumn[] = [
-  {
-    label: "Core framework",
-    links: [
-      { href: WP.unifiedField, name: "Unified Field" },
-      { href: WP.primeLaw, name: "Prime Law" },
-      { href: WP.neothink, name: "Neothink" },
-      { href: WP.theWay, name: "The Way" },
-      { href: WP.neovia, name: "Neovia" },
-      { href: WP.immortalis, name: "Immortalis" },
-    ],
-  },
-  {
-    label: "Institute & founder",
-    links: [
-      { href: WP.about, name: "About" },
-      { href: WP.markHamilton, name: "Mark Hamilton" },
-      { href: WP.contact, name: "Contact" },
-      { href: WP.faq, name: "FAQ" },
-      { href: WP.privacyPolicy, name: "Privacy Policy" },
-      { href: WP.termsAndConditions, name: "Terms and Conditions" },
-    ],
-  },
-  {
-    label: "Series",
-    links: [
-      { href: WP.neothinkPhilosophyCategory, name: "Neothink Philosophy" },
-      { href: WP.neothinkAwakeningCategory, name: "Neothink Awakening" },
-      { href: WP.neothinkConceptsCategory, name: "Neothink Concepts" },
-      { href: WP.neothinkMentalityCategory, name: "Neothink Mentality (lessons)" },
-      { href: WP.markHamiltonsStory, name: "Mark Hamilton’s story" },
-      { href: WP.immortalisGreatExperimentOfOurTime, name: "Immortalis: Great Experiment" },
-      { href: WP.landBasedImmortalis, name: "Land-based Immortalis" },
-      { href: WP.theGrandExperimentOfOurTime, name: "Grand experiment of our time" },
-      { href: WP.theCityThatCuresDiseaseNeovia, name: "Neovia city speech" },
-    ],
-  },
-  {
-    label: "Library & follow",
-    links: [
-      { href: WP.unleashed, name: "Unleashed" },
-      { href: WP.freeCourses, name: "Free learning" },
-      { href: WP.neothinkUniversity, name: "Neothink University" },
-      { href: WP.programs, name: "Programs" },
-      { href: WP.projectLife, name: "Project Life" },
-      { href: WP.neothinkReviews, name: "Neothink Reviews" },
-      { href: WP.events, name: "Events" },
-      { href: WP.twelveVisionsParty, name: "Twelve Visions Party" },
-      { href: WP.theMovement, name: "The Movement" },
-      { href: WP.publishedWork, name: "Published Work" },
-      { href: WP.manuscripts, name: "Manuscripts" },
-      { href: WP.podcast, name: "Podcast & video" },
-      { href: WP.getInvolved, name: "Get Involved" },
-    ],
-  },
+export const FOOTER_PRIMARY_LINKS: readonly FooterLink[] = [
+  { href: WP.unifiedField, name: "Unified Field" },
+  { href: WP.neovia, name: "Neovia" },
+  { href: WP.theWay, name: "The Way" },
+  { href: WP.neothink, name: "Neothink" },
+  { href: WP.markHamilton, name: "Mark Hamilton" },
+  { href: WP.primeLaw, name: "Prime Law" },
+  { href: WP.publishedWork, name: "Published Work" },
+  { href: WP.manuscripts, name: "Manuscripts" },
+  { href: WP.unleashed, name: "Unleashed" },
+  { href: WP.podcast, name: "Podcast" },
+  { href: WP.getInvolved, name: "Get Involved" },
+] as const;
+
+/**
+ * Legal / meta fine-print rendered on a single small row with the copyright.
+ * Kept minimal for compliance (privacy/terms) and reachability (contact).
+ */
+export const FOOTER_FINE_PRINT_LINKS: readonly FooterLink[] = [
+  { href: WP.privacyPolicy, name: "Privacy Policy" },
+  { href: WP.termsAndConditions, name: "Terms" },
+  { href: WP.contact, name: "Contact" },
 ] as const;
 
 type JsonLd = Record<string, unknown>;
 
 /**
- * Valid schema.org `ItemList` of primary internal destinations — mirrors the visible footer.
- * Linked from `WebSite` via `hasPart` for crawlers and answer engines.
+ * `ItemList` mirroring the visible footer's primary pages — linked from
+ * `WebSite.hasPart` for crawlers and answer engines. Order matches the
+ * visible DOM order for `SpeakableSpecification`/AEO consistency.
  */
 export function getFooterNavigationItemListSchema(): JsonLd {
   const base = siteConfig.url;
-  const flat = FOOTER_COLUMNS.flatMap((col) => col.links);
 
   return {
     "@type": "ItemList",
     "@id": schemaIds.footerNavigation,
-    name: "Neothink Institute — primary site sections (footer)",
+    name: "Neothink Institute — primary pages (footer)",
     description:
-      "Topic-grouped navigation to the Unified Field, Prime Law, Neothink, The Way, Neovia, Immortalis, institute pages, FAQ, privacy and terms, all four series hubs (Neothink Philosophy, Awakening, Concepts, and Mentality lessons) plus long-form Mark Hamilton speeches, library, free learning hub, Neothink University, Programs and Project Life hubs, Neothink Reviews (member stories), Society events, Twelve Visions Party, and participation.",
-    numberOfItems: flat.length,
-    itemListElement: flat.map((link, i) => ({
+      "Primary destinations on neothink.com: the Unified Field, Neovia, The Way, Neothink, Mark Hamilton, Prime Law, Published Work, Manuscripts, Unleashed, Podcast, and Get Involved.",
+    numberOfItems: FOOTER_PRIMARY_LINKS.length,
+    itemListElement: FOOTER_PRIMARY_LINKS.map((link, i) => ({
       "@type": "ListItem",
       position: i + 1,
       name: link.name,
