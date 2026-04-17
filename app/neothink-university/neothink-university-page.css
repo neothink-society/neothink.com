@@ -491,10 +491,39 @@
 
 .nu-page .nu-carousel {
   margin-top: 8px;
+  /* Hard stop for WCAG 1.4.10 Reflow: never let the carousel's internal
+   * horizontal scroll leak out to the document. Previously a sum of
+   * 38 slides × ~325px of min-content per slide grew the page to ~12 344 px
+   * wide on mobile, creating a page-level horizontal scrollbar. Clipping
+   * the region keeps all horizontal scroll inside the viewport where it
+   * belongs. */
+  max-width: 100%;
+  overflow-x: clip;
 }
 
 .nu-page .nu-carousel-region {
   outline: none;
+  max-width: 100%;
+  /* Subtle right-edge gradient signals "scroll for more" without adding
+   * chrome. The region also supplies the clip context for the gradient
+   * overlay defined on ::after. */
+  position: relative;
+}
+
+.nu-page .nu-carousel-region::after {
+  content: "";
+  position: absolute;
+  inset: 1px 1px 1px auto;
+  width: 32px;
+  pointer-events: none;
+  background: linear-gradient(90deg, transparent, var(--nu-stone));
+  opacity: 0.9;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nu-page .nu-carousel-region::after {
+    display: none;
+  }
 }
 
 .nu-page .nu-carousel-region:focus-visible {
@@ -504,6 +533,7 @@
 
 .nu-page .nu-carousel-viewport {
   overflow-x: auto;
+  overscroll-behavior-inline: contain;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
@@ -512,6 +542,12 @@
   border: 1px solid var(--nu-border);
   border-radius: 0;
   background: var(--nu-stone);
+  max-width: 100%;
+  /* Flex parents default to min-width:auto (= min-content) on their
+   * children. The viewport lives inside a flex/grid page column, so this
+   * override is required to let the viewport actually bound its own
+   * width instead of expanding to the track's sum-of-slides width. */
+  min-width: 0;
 }
 
 .nu-page .nu-carousel-viewport--reduced {
@@ -524,6 +560,10 @@
 
 .nu-page .nu-carousel-slide {
   flex: 0 0 100%;
+  /* Slides themselves also need min-width:0 so long unwrapped content
+   * (names, URLs, quoted text) can't push a slide past 100% of the
+   * viewport width and re-introduce document-level overflow. */
+  min-width: 0;
   scroll-snap-align: start;
   scroll-snap-stop: always;
   box-sizing: border-box;
@@ -605,33 +645,53 @@
 .nu-page .nu-carousel-dots {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  /* Gap stays tight visually but the dots themselves now carry a 24 px
+   * square hit area (see below), so we rely on that for touch-target
+   * spacing rather than a large gap. */
+  gap: 0;
   justify-content: center;
-  min-height: 12px;
+  min-height: 24px;
 }
 
+/* Each dot is a 24 × 24 px transparent hit-box with a centered 9 px
+ * visual dot drawn as an inset background. This preserves Wallace's
+ * tight dot aesthetic while satisfying WCAG 2.5.8 Target Size (AA):
+ * minimum 24 × 24 CSS pixels for pointer targets. */
 .nu-page .nu-carousel-dot {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  flex-shrink: 0;
+  position: relative;
+  transition: transform 0.15s;
+}
+
+.nu-page .nu-carousel-dot::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
   width: 9px;
   height: 9px;
-  padding: 0;
   border: 1px solid var(--nu-border);
   border-radius: 50%;
   background: var(--nu-cream);
-  cursor: pointer;
-  flex-shrink: 0;
-  transition: background 0.15s, transform 0.15s;
+  transition: background 0.15s, border-color 0.15s;
 }
 
-.nu-page .nu-carousel-dot:hover {
+.nu-page .nu-carousel-dot:hover::before {
   border-color: var(--nu-gold-deep);
 }
 
 .nu-page .nu-carousel-dot:focus-visible {
   outline: 2px solid var(--nu-gold-deep);
-  outline-offset: 2px;
+  outline-offset: -2px;
 }
 
-.nu-page .nu-carousel-dot--active {
+.nu-page .nu-carousel-dot--active::before {
   background: var(--nu-gold);
   border-color: var(--nu-gold-deep);
   transform: scale(1.15);

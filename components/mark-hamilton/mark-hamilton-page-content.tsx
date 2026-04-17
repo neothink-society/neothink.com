@@ -59,42 +59,42 @@ const BODY_OF_WORK = [
 
 const ARTICLES = [
   {
-    href: "/articles/bicameral-mind",
+    href: WP.theGreatestMentalBreakthrough,
     tag: "Consciousness",
     title: "When the Gods Fell Silent: The Bicameral Mind and Its Collapse",
     description:
       "The moment humanity lost its internal guidance system — and the emergency philosophy that arose to replace it.",
   },
   {
-    href: "/articles/aristotle",
+    href: WP.theTwentyFourHundredYearMistake,
     tag: "The Lineage",
     title: "Aristotle: The Only Full Breakthrough",
     description:
       "The one mind that crossed the threshold into fully integrated consciousness. Why his works were lost — and why that loss was the greatest tragedy in human history.",
   },
   {
-    href: "/articles/prime-law",
+    href: WP.primeLaw,
     tag: "Political Theory",
     title: "The Prime Law: A Natural Law, Not an Ideology",
     description:
       "Every civilization that violated the Law of Humanity paid the same price. The Prime Law codifies what history has already proven across millennia.",
   },
   {
-    href: "/articles/nuclear-threshold",
+    href: WP.theUnbreakableEquation,
     tag: "Existential Risk",
     title: "The Nuclear Decision Threshold",
     description:
       "Multiple hierarchies, each maximizing force, each armed to annihilate, with AI accelerating every decision. Why annihilation is certain on the current trajectory.",
   },
   {
-    href: "/articles/neovia-case",
+    href: WP.neovia,
     tag: "Neovia",
     title: "The Case for Neovia: Why It Must Be Built Now",
     description:
       "The anti-extinction architecture. The first non-coercive civilizational alternative in history. Why it is the most important project on earth.",
   },
   {
-    href: "/articles/hierarchy",
+    href: WP.theFutureOfHumanityBuildingANewCountryWithoutRulers,
     tag: "Civilizational Theory",
     title: "Hierarchy: The 2,400-Year Structure That Was Never Meant to Last",
     description:

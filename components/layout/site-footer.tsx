@@ -72,9 +72,13 @@ export function SiteFooter() {
             >
               {FOOTER_FINE_PRINT_LINKS.map((link) => (
                 <li key={link.href}>
+                  {/* inline-flex + min-h-6 + py-1 gives every fine-print
+                   * link a 24x(>=24)px hit area without enlarging the
+                   * visible text — required for WCAG 2.5.8 Target Size
+                   * (AA, 24 CSS pixels). */}
                   <Link
                     href={link.href}
-                    className="font-light text-[#FDFCFA]/60 transition-colors hover:text-[#FDFCFA]/90"
+                    className="inline-flex min-h-6 items-center py-1 font-light text-[#FDFCFA]/60 transition-colors hover:text-[#FDFCFA]/90"
                   >
                     {link.name}
                   </Link>

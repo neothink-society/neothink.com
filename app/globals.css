@@ -2589,3 +2589,71 @@ a.nu-prose:hover {
   color: var(--ink);
   text-decoration-thickness: 2px;
 }
+
+/* ── WCAG 1.4.10 Reflow for migrated WordPress prose ──
+ *
+ * WordPress body HTML (rendered via dangerouslySetInnerHTML) contains
+ * <table>s with intrinsic column widths of 380-440 px, and occasional
+ * long unbreakable anchor text (URLs, affiliate links) that push the
+ * content column past 320 px on mobile. Both trigger a horizontal
+ * scrollbar on the document (1.4.10 AA fail).
+ *
+ * Tables: make them horizontally scrollable *inside* the prose column
+ * instead of extending the document. display:block + overflow-x:auto on
+ * the <table> itself is the only portable fix short of rewriting the
+ * markup, which we can't do for agency-era posts (per AGENTS.md).
+ *
+ * Long anchors / code: allow wrapping inside words for URLs so the
+ * link can break at any character when there's no whitespace to wrap
+ * at. This only affects rendering, not the link target.
+ */
+.nu-prose table,
+.nu-awakening-html table,
+.shb-body table,
+.nssd-body table,
+.wp-content table,
+.wp-prose table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-collapse: collapse;
+}
+
+.nu-prose a,
+.nu-awakening-html a,
+.shb-body a,
+.nssd-body a,
+.wp-content a,
+.wp-prose a,
+a.nu-prose {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.nu-prose code,
+.nu-prose pre,
+.nu-awakening-html code,
+.nu-awakening-html pre,
+.shb-body code,
+.shb-body pre,
+.nssd-body code,
+.nssd-body pre,
+.wp-content code,
+.wp-content pre,
+.wp-prose code,
+.wp-prose pre {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  max-width: 100%;
+}
+
+.nu-prose pre,
+.nu-awakening-html pre,
+.shb-body pre,
+.nssd-body pre,
+.wp-content pre,
+.wp-prose pre {
+  overflow-x: auto;
+  white-space: pre-wrap;
+}

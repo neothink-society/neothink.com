@@ -68,6 +68,6 @@ export const WHAT_IS_THE_PURPOSE_OF_LIFE_BODY_HTML = `<h2 class="wp-block-headin
 
 <p>Living a purposeful life means living according to <a href="/prime-law">The Prime Law</a>. As the constitution of Neothink’s philosophy, Prime Law clearly states that the purpose of human life is to prosper and live happily. We do that by creating value within ourselves and for others.</p>
 
-<p>If you are committed to living a life full of purpose, meaning, and value, you are ready to <a href="https://www.theneothinksociety.com/join-the-neothink-society/" target="_blank" rel="noopener">join The Neothink Society</a>. Learn more <a href="/about-neothink">about Neothink</a> and how to step into your life’s purpose when you connect with us today.</p>
+<p>If you are committed to living a life full of purpose, meaning, and value, you are ready to <a href="https://www.theneothinksociety.com/join-the-neothink-society/" target="_blank" rel="noopener">join The Neothink Society</a>. Learn more <a href="/neothink">about Neothink</a> and how to step into your life’s purpose when you connect with us today.</p>
 
 <p> </p>`;

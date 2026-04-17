@@ -12,7 +12,7 @@ const ARTICLES: {
   footer: string;
 }[] = [
   {
-    href: "/articles/unified-field",
+    href: WP.unifiedField,
     tag: "Civilizational Theory",
     title: "The Unified Field of Conscious Civilization: A Complete Introduction",
     description:
@@ -20,7 +20,7 @@ const ARTICLES: {
     footer: "Mark Hamilton · Foundational",
   },
   {
-    href: "/articles/bicameral-mind",
+    href: WP.theGreatestMentalBreakthrough,
     tag: "Consciousness Studies",
     title: "The Bicameral Mind and Its Modern Residue",
     description:
@@ -28,7 +28,7 @@ const ARTICLES: {
     footer: "Neothink Institute · Lexicon",
   },
   {
-    href: "/articles/prime-law",
+    href: WP.primeLaw,
     tag: "Political Theory",
     title:
       "The Prime Law: Why the Prohibition of Initiated Force Is a Natural Law, Not an Ideology",
@@ -37,7 +37,7 @@ const ARTICLES: {
     footer: "Mark Hamilton · Policy",
   },
   {
-    href: "/articles/ai-purpose-void",
+    href: WP.theJobRevolution,
     tag: "AI & Civilization",
     title: "The Purpose Void: What AI Is About to Do to Human Identity",
     description:
@@ -45,7 +45,7 @@ const ARTICLES: {
     footer: "Wallace Hamilton · Current",
   },
   {
-    href: "/articles/neovia-case",
+    href: WP.neovia,
     tag: "Neovia",
     title: "The Case for Neovia: Why the Anti-Extinction Architecture Must Be Built Now",
     description:
@@ -53,7 +53,7 @@ const ARTICLES: {
     footer: "Mark Hamilton · Strategic",
   },
   {
-    href: "/articles/performing-self",
+    href: WP.theWay,
     tag: "The Way",
     title: "The Performing Self: Why You Are Not Who You Think You Are",
     description:

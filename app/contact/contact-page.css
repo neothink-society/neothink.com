@@ -152,16 +152,38 @@
 
 .ct-page .ct-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* minmax(0, 1fr) prevents grid tracks from expanding to the min-content
+   * size of their children, which was pushing the page past 320 px on
+   * mobile. Single column under 640 px gives cards room for their
+   * 40x36 px inset padding. */
+  grid-template-columns: minmax(0, 1fr);
   gap: 1px;
   background: var(--ct-border);
   border: 1px solid var(--ct-border);
+}
+
+@media (min-width: 640px) {
+  .ct-page .ct-grid {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
 }
 
 .ct-page .ct-card {
   background: var(--ct-cream);
   padding: 40px 36px;
   transition: background 0.2s;
+  /* Grid items default to min-width: auto (min-content), which lets the
+   * longest unbreakable token in the card expand the track past its
+   * parent. Force the card to stay within its column and wrap long
+   * tokens gracefully — required for WCAG 1.4.10 Reflow at 320 px. */
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 480px) {
+  .ct-page .ct-card {
+    padding: 32px 20px;
+  }
 }
 
 .ct-page .ct-card:hover {

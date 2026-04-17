@@ -42,6 +42,7 @@ export const wpRedirects: Redirect[] = [
     "/neothink-secret-society-differs-other-groups"
   ),
   ...slugPair("/about-us", "/about"),
+  ...slugPair("/about-neothink", "/neothink"),
   ...slugPair("/the-prime-law", "/prime-law"),
   ...slugPair("/prime-law-5", "/prime-law"),
   ...slugPair("/the-way-9", "/the-way"),
