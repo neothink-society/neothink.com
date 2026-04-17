@@ -7,9 +7,9 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: "Jost", ui-sans-serif, system-ui, sans-serif;
-  --font-serif: "Cormorant Garamond", Georgia, serif;
-  --font-heading: "Cormorant Garamond", Georgia, serif;
+  --font-sans: var(--font-jost), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-cormorant-garamond), Georgia, serif;
+  --font-heading: var(--font-cormorant-garamond), Georgia, serif;
   --font-mono: ui-monospace, monospace;
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
@@ -72,7 +72,10 @@
   --serif: "Cormorant Garamond", Georgia, serif;
   --sans: "Jost", ui-sans-serif, system-ui, sans-serif;
 
-  /* shadcn variables mapped to Neothink palette */
+  /* shadcn/Sera variables mapped to the Neothink palette.
+   * Sera ships the taupe-base oklch palette; we re-map to the
+   * institute's gold/ink/stone so Sera primitives inherit brand
+   * colors while keeping Sera's geometry and spacing. */
   --background: #FDFCFA;
   --foreground: #0E0E0E;
   --card: #FDFCFA;
@@ -96,7 +99,8 @@
   --chart-3: #4A4540;
   --chart-4: #E8E3D8;
   --chart-5: #0E0E0E;
-  --radius: 0.5rem;
+  /* Square corners are part of the Sera/brand aesthetic. */
+  --radius: 0rem;
   --sidebar: #FDFCFA;
   --sidebar-foreground: #0E0E0E;
   --sidebar-primary: #B8973A;
@@ -108,6 +112,7 @@
 }
 
 .dark {
+  /* Neothink dark palette: inverted warm off-white/ink with gold-light accents. */
   --background: #0E0E0E;
   --foreground: #FDFCFA;
   --card: #1A1A18;
@@ -541,7 +546,7 @@
   bottom: 4px;
   width: 5px;
   background: linear-gradient(90deg, #c8c0a8, #e8dfc8, #c8c0a8);
-  border-radius: 0 1px 1px 0;
+  border-radius: 0;
 }
 
 .ann-b-book-inner {

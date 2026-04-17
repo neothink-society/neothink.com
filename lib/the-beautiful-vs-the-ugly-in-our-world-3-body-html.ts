@@ -5,7 +5,7 @@ export const THE_BEAUTIFUL_VS_THE_UGLY_IN_OUR_WORLD_3_BODY_HTML = `<div class="e
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-8184e49 elementor-widget elementor-widget-text-editor" data-id="8184e49" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<div style="background: #1a1a1a; border: 2px solid #d4a853; padding: 24px 28px; border-radius: 12px; margin: 32px 0;">
+									<div style="background: #1a1a1a; border: 2px solid #d4a853; padding: 24px 28px; border-radius: 0; margin: 32px 0;">
 <p style="margin: 0; font-size: 18px; line-height: 1.6; color: #e5e7eb;">Key Takeaways:
 <ul style="list-style: none; padding: 0; margin: 0; color: #e5e7eb; font-size: 18px;"><li style="margin-bottom: 12px; line-height: 1.6;"><span style="color: #d4a853;">✓</span> <strong>Value creators</strong> are intellectually beautiful—they produce real value that people want</li><li style="margin-bottom: 12px; line-height: 1.6;"><span style="color: #d4a853;">✓</span> <strong>Value destroyers</strong> are intellectually ugly—they live off value creators through force and regulation</li><li style="margin-bottom: 12px; line-height: 1.6;"><span style="color: #d4a853;">✓</span> Cookie-cutter jobs keep you safe from attack, but entrepreneurship exposes you to opposition</li><li style="margin-bottom: 12px; line-height: 1.6;"><span style="color: #d4a853;">✓</span> The Neothink transformation takes you from productivity to value creation to defending against destructive forces</li><li style="margin-bottom: 12px; line-height: 1.6;"><span style="color: #d4a853;">✓</span> We live in an upside-down world where good is portrayed as bad and bad as good</li></ul></p></div>								</div>
 				</div>
@@ -23,7 +23,7 @@ export const THE_BEAUTIFUL_VS_THE_UGLY_IN_OUR_WORLD_3_BODY_HTML = `<div class="e
 				</div>
 				<div class="elementor-element elementor-element-0e47e24 elementor-widget elementor-widget-text-editor" data-id="0e47e24" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<div style="background: #FFF8E7; border-left: 4px solid #A57A03; padding: 24px 28px; border-radius: 12px; margin: 32px 0;">
+									<div style="background: #FFF8E7; border-left: 4px solid #A57A03; padding: 24px 28px; border-radius: 0; margin: 32px 0;">
 <p style="margin: 0; font-size: 20px; line-height: 1.6; color: #2d2d2d; font-style: italic;">&#8220;Human consciousness is meant for creativity. The Neothink mentality breaks you out of the old following mode and into a creative mode where you can rise up as a business person and bring values to the world.&#8221;</p><p style="margin: 16px 0 0 0; font-size: 15px; color: #A57A03; font-style: normal;">— Mark Hamilton</p></div>								</div>
 				</div>
 				<div class="elementor-element elementor-element-040a1b0 elementor-widget elementor-widget-heading" data-id="040a1b0" data-element_type="widget" data-e-type="widget" id="awakening" data-widget_type="heading.default">
@@ -48,7 +48,7 @@ export const THE_BEAUTIFUL_VS_THE_UGLY_IN_OUR_WORLD_3_BODY_HTML = `<div class="e
 				</div>
 				<div class="elementor-element elementor-element-21fb739 elementor-widget elementor-widget-text-editor" data-id="21fb739" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<div style="background: #F8F5F3; border-left: 4px solid #A57A03; padding: 24px 28px; border-radius: 12px; margin: 32px 0;">
+									<div style="background: #F8F5F3; border-left: 4px solid #A57A03; padding: 24px 28px; border-radius: 0; margin: 32px 0;">
 <h4 style="margin: 0 0 12px 0; font-family: 'Libre Baskerville', serif; font-size: 18px; font-weight: 700; color: #A57A03;">Intellectually Beautiful</h4>
 <p style="margin: 0; font-size: 18px; line-height: 1.6; color: #2d2d2d;">People who create genuine value that others want and are willing to pay for. They are productive, creative, and focused on improving lives through honest value exchange.</p></div>								</div>
 				</div>
@@ -62,7 +62,7 @@ export const THE_BEAUTIFUL_VS_THE_UGLY_IN_OUR_WORLD_3_BODY_HTML = `<div class="e
 				</div>
 				<div class="elementor-element elementor-element-c0d4f83 elementor-widget elementor-widget-text-editor" data-id="c0d4f83" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<div style="background: #FFF8E7; border-left: 4px solid #A57A03; padding: 24px 28px; border-radius: 12px; margin: 32px 0;">
+									<div style="background: #FFF8E7; border-left: 4px solid #A57A03; padding: 24px 28px; border-radius: 0; margin: 32px 0;">
 <p style="margin: 0; font-size: 20px; line-height: 1.6; color: #2d2d2d; font-style: italic;">&#8220;As long as they&#8217;re in their little cookie cutter job, doing what the external authorities want them to do, they&#8217;re safe. But as soon as they become substantial, an entrepreneur, that&#8217;s when they run into things like regulations.&#8221;</p><p style="margin: 16px 0 0 0; font-size: 15px; color: #A57A03; font-style: normal;">— Mark Hamilton</p></div>								</div>
 				</div>
 				<div class="elementor-element elementor-element-3d92cd1 elementor-widget elementor-widget-heading" data-id="3d92cd1" data-element_type="widget" data-e-type="widget" id="ugly" data-widget_type="heading.default">
@@ -71,7 +71,7 @@ export const THE_BEAUTIFUL_VS_THE_UGLY_IN_OUR_WORLD_3_BODY_HTML = `<div class="e
 				</div>
 				<div class="elementor-element elementor-element-0e3c3f1 elementor-widget elementor-widget-text-editor" data-id="0e3c3f1" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<div style="background: #F8F5F3; border-left: 4px solid #A57A03; padding: 24px 28px; border-radius: 12px; margin: 32px 0;">
+									<div style="background: #F8F5F3; border-left: 4px solid #A57A03; padding: 24px 28px; border-radius: 0; margin: 32px 0;">
 <h4 style="margin: 0 0 12px 0; font-family: 'Libre Baskerville', serif; font-size: 18px; font-weight: 700; color: #A57A03;">Intellectually Ugly</h4>
 <p style="margin: 0; font-size: 18px; line-height: 1.6; color: #2d2d2d;">People who destroy value or live off the productivity of others through force, regulation, manipulation, or deception. They rise up off the backs of value creators.</p></div>								</div>
 				</div>
@@ -94,7 +94,7 @@ export const THE_BEAUTIFUL_VS_THE_UGLY_IN_OUR_WORLD_3_BODY_HTML = `<div class="e
 				</div>
 				<div class="elementor-element elementor-element-ef2bc20 elementor-widget elementor-widget-text-editor" data-id="ef2bc20" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<div style="background: #FFF8E7; border-left: 4px solid #A57A03; padding: 24px 28px; border-radius: 12px; margin: 32px 0;">
+									<div style="background: #FFF8E7; border-left: 4px solid #A57A03; padding: 24px 28px; border-radius: 0; margin: 32px 0;">
 <p style="margin: 0; font-size: 20px; line-height: 1.6; color: #2d2d2d; font-style: italic;">&#8220;You have value destroyers who rise up off the backs of value creators.&#8221;</p><p style="margin: 16px 0 0 0; font-size: 15px; color: #A57A03; font-style: normal;">— Mark Hamilton</p></div>								</div>
 				</div>
 				<div class="elementor-element elementor-element-13fe5e0 elementor-widget elementor-widget-text-editor" data-id="13fe5e0" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
@@ -139,7 +139,7 @@ export const THE_BEAUTIFUL_VS_THE_UGLY_IN_OUR_WORLD_3_BODY_HTML = `<div class="e
 				</div>
 				<div class="elementor-element elementor-element-757714f elementor-widget elementor-widget-text-editor" data-id="757714f" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<div style="background: #FFFFFF; border: 2px solid #e0d5c3; padding: 28px; border-radius: 12px; margin: 24px 0;">
+									<div style="background: #FFFFFF; border: 2px solid #e0d5c3; padding: 28px; border-radius: 0; margin: 24px 0;">
 <h4 style="margin: 0 0 20px 0; font-family: 'Libre Baskerville', serif; font-size: 20px; color: #1a1a1a;">The Neothink Path</h4>
 <ol style="margin: 0; padding-left: 24px; color: #2d2d2d; font-size: 18px; line-height: 1.8;">
 <li style="margin-bottom: 16px;"><strong>Productivity</strong> — Learn time management techniques like the Mini-Day System to achieve extraordinary output</li>
@@ -168,7 +168,7 @@ export const THE_BEAUTIFUL_VS_THE_UGLY_IN_OUR_WORLD_3_BODY_HTML = `<div class="e
 				</div>
 				<div class="elementor-element elementor-element-8fb84ec elementor-widget elementor-widget-text-editor" data-id="8fb84ec" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<div style="background: #FFF8E7; border-left: 4px solid #A57A03; padding: 24px 28px; border-radius: 12px; margin: 32px 0;">
+									<div style="background: #FFF8E7; border-left: 4px solid #A57A03; padding: 24px 28px; border-radius: 0; margin: 32px 0;">
 <p style="margin: 0; font-size: 20px; line-height: 1.6; color: #2d2d2d; font-style: italic;">&#8220;They have you believe good is bad and bad is good. It&#8217;s a reverse world, upside down world.&#8221;</p><p style="margin: 16px 0 0 0; font-size: 15px; color: #A57A03; font-style: normal;">— Mark Hamilton</p></div>								</div>
 				</div>
 				<div class="elementor-element elementor-element-3cd6efd elementor-widget elementor-widget-text-editor" data-id="3cd6efd" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
@@ -190,7 +190,7 @@ export const THE_BEAUTIFUL_VS_THE_UGLY_IN_OUR_WORLD_3_BODY_HTML = `<div class="e
 				</div>
 				<div class="elementor-element elementor-element-7a3131e elementor-widget elementor-widget-text-editor" data-id="7a3131e" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<div style="background: #FFF8E7; border-left: 4px solid #A57A03; padding: 24px 28px; border-radius: 12px; margin: 32px 0;">
+									<div style="background: #FFF8E7; border-left: 4px solid #A57A03; padding: 24px 28px; border-radius: 0; margin: 32px 0;">
 <p style="margin: 0; font-size: 20px; line-height: 1.6; color: #2d2d2d; font-style: italic;">&#8220;The irrationality in the world will eventually overtake the rationality. The ugly will eventually overtake the beautiful.&#8221;</p><p style="margin: 16px 0 0 0; font-size: 15px; color: #A57A03; font-style: normal;">— Mark Hamilton</p></div>								</div>
 				</div>
 				<div class="elementor-element elementor-element-940d1a2 elementor-widget elementor-widget-text-editor" data-id="940d1a2" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">

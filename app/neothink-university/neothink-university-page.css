@@ -425,7 +425,7 @@
 .nu-page .nu-faq-grid article {
   background: var(--nu-cream);
   border: 1px solid var(--nu-border);
-  border-radius: 6px;
+  border-radius: 0;
   padding: 22px 20px;
 }
 
@@ -499,7 +499,7 @@
 
 .nu-page .nu-carousel-region:focus-visible {
   box-shadow: 0 0 0 2px var(--nu-cream), 0 0 0 4px var(--nu-gold);
-  border-radius: 4px;
+  border-radius: 0;
 }
 
 .nu-page .nu-carousel-viewport {
@@ -510,7 +510,7 @@
   scrollbar-color: var(--nu-gold-deep) var(--nu-stone);
   scrollbar-width: thin;
   border: 1px solid var(--nu-border);
-  border-radius: 6px;
+  border-radius: 0;
   background: var(--nu-stone);
 }
 
@@ -588,7 +588,7 @@
   background: transparent;
   color: var(--nu-gold-deep);
   cursor: pointer;
-  border-radius: 6px;
+  border-radius: 0;
 }
 
 .nu-page .nu-carousel-autoplay:focus-visible {
@@ -641,7 +641,7 @@
   background: var(--nu-cream);
   border: 1px solid var(--nu-border);
   padding: 24px;
-  border-radius: 6px;
+  border-radius: 0;
   max-width: 720px;
   margin: 0 auto;
 }

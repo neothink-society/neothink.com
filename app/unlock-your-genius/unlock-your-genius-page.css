@@ -509,7 +509,7 @@
   border: 1px solid #2a2824;
   padding: 28px 24px;
   margin: 20px 0 0;
-  border-radius: 2px;
+  border-radius: 0;
 }
 
 .uyg-page .uyg-callout-dark .uyg-callout-kicker {
@@ -556,7 +556,7 @@
   align-items: center;
   background: #fff;
   border: 1px solid var(--uyg-border);
-  border-radius: 12px;
+  border-radius: 0;
   padding: 20px;
   text-align: center;
 }
@@ -608,7 +608,7 @@
 .uyg-page .uyg-lift-card {
   background: #fff;
   border: 1px solid var(--uyg-border);
-  border-radius: 12px;
+  border-radius: 0;
   padding: 22px;
   text-align: center;
 }

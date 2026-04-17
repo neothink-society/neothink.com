@@ -509,7 +509,7 @@
   border: 1px solid #2a2824;
   padding: 28px 24px;
   margin: 20px 0 0;
-  border-radius: 2px;
+  border-radius: 0;
 }
 
 .poc-page .poc-callout-dark .poc-callout-kicker {
@@ -556,7 +556,7 @@
   align-items: center;
   background: #fff;
   border: 1px solid var(--poc-border);
-  border-radius: 12px;
+  border-radius: 0;
   padding: 20px;
   text-align: center;
 }
@@ -608,7 +608,7 @@
 .poc-page .poc-lift-card {
   background: #fff;
   border: 1px solid var(--poc-border);
-  border-radius: 12px;
+  border-radius: 0;
   padding: 22px;
   text-align: center;
 }
@@ -646,7 +646,7 @@
   background: #1a1917;
   border: 1px solid #2a2824;
   border-left: 4px solid var(--poc-gold);
-  border-radius: 10px;
+  border-radius: 0;
   padding: 20px 22px;
 }
 
@@ -680,7 +680,7 @@
 .poc-page .poc-ford-block {
   background: #1a1917;
   border: 2px solid var(--poc-gold);
-  border-radius: 16px;
+  border-radius: 0;
   padding: 28px 24px 32px;
   margin: 24px 0 0;
   text-align: center;
@@ -769,7 +769,7 @@
 .poc-page .poc-story-card {
   background: #fff;
   border: 1px solid var(--poc-border);
-  border-radius: 12px;
+  border-radius: 0;
   padding: 28px;
   margin: 20px 0 0;
 }
@@ -801,14 +801,14 @@
 .poc-page .poc-highlight {
   background: #fef9c3;
   padding: 2px 6px;
-  border-radius: 4px;
+  border-radius: 0;
   font-weight: 600;
 }
 
 .poc-page .poc-insight {
   background: #f0f7f0;
   border-left: 4px solid #4caf50;
-  border-radius: 0 12px 12px 0;
+  border-radius: 0;
   padding: 22px 24px;
   margin: 24px 0 0;
 }
@@ -849,7 +849,7 @@
 .poc-page .poc-synergy {
   background: #e0f2fe;
   border-left: 4px solid #0284c7;
-  border-radius: 0 12px 12px 0;
+  border-radius: 0;
   padding: 22px 24px;
   margin: 24px 0 0;
 }
@@ -862,7 +862,7 @@
 .poc-page .poc-trap {
   background: #fff8e7;
   border-left: 4px solid #a57a03;
-  border-radius: 0 12px 12px 0;
+  border-radius: 0;
   padding: 22px 24px;
   margin: 24px 0 0;
 }
@@ -882,7 +882,7 @@
 .poc-page .poc-movement-card {
   background: #fff;
   border: 2px solid var(--poc-border);
-  border-radius: 12px;
+  border-radius: 0;
   padding: 18px 16px;
   text-align: center;
 }
@@ -906,7 +906,7 @@
 .poc-page .poc-stat-64 {
   background: #1a1917;
   border: 2px solid var(--poc-gold);
-  border-radius: 16px;
+  border-radius: 0;
   padding: 28px 24px;
   margin: 24px 0 0;
   text-align: center;
@@ -979,7 +979,7 @@
 .poc-page .poc-path-flow {
   background: #1a1917;
   border: 2px solid var(--poc-gold);
-  border-radius: 16px;
+  border-radius: 0;
   padding: 24px 20px 28px;
   margin: 20px 0 0;
 }
@@ -1003,7 +1003,7 @@
 
 .poc-page .poc-path-step {
   background: #2a2a2a;
-  border-radius: 12px;
+  border-radius: 0;
   padding: 14px 16px;
   text-align: center;
   flex: 1;
@@ -1052,7 +1052,7 @@
 .poc-page .poc-quote-card {
   background: #fff;
   border: 1px solid var(--poc-border);
-  border-radius: 16px;
+  border-radius: 0;
   padding: 28px 26px 26px;
   margin: 20px 0 0;
   position: relative;
@@ -1096,7 +1096,7 @@
 .poc-page .poc-highlight {
   background: #fef9c3;
   padding: 2px 6px;
-  border-radius: 4px;
+  border-radius: 0;
   font-weight: 600;
 }
 
@@ -1110,7 +1110,7 @@
 .poc-page .poc-pair-card {
   background: #fff;
   border: 2px solid var(--poc-border);
-  border-radius: 12px;
+  border-radius: 0;
   padding: 22px;
 }
 
@@ -1138,7 +1138,7 @@
 
 .poc-page .poc-child-card {
   background: #1a1917;
-  border-radius: 16px;
+  border-radius: 0;
   padding: 28px 24px;
   margin: 20px 0 0;
   text-align: center;
@@ -1168,7 +1168,7 @@
 .poc-page .poc-train-card {
   background: #fff;
   border: 1px solid var(--poc-border);
-  border-radius: 16px;
+  border-radius: 0;
   padding: 28px;
   margin: 20px 0 0;
 }

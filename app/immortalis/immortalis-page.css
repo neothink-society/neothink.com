@@ -14,7 +14,7 @@
 .im-page .im-hero-image {
   width: 100%;
   height: auto;
-  border-radius: 12px;
+  border-radius: 0;
   border: 1px solid var(--nu-border);
 }
 

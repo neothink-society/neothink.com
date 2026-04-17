@@ -6,7 +6,7 @@ export const HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_BODY_HTML = `<div class
 				<div class="elementor-element elementor-element-8fc48c47 elementor-widget elementor-widget-text-editor" data-id="8fc48c47" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 									
-<div style="background: linear-gradient(135deg, rgba(212, 175, 55, 0.08) 0%, rgba(139, 115, 85, 0.08) 100%); border: 1px solid rgba(212, 175, 55, 0.2); padding: 36px; margin: 32px 0; border-radius: 12px;">
+<div style="background: linear-gradient(135deg, rgba(212, 175, 55, 0.08) 0%, rgba(139, 115, 85, 0.08) 100%); border: 1px solid rgba(212, 175, 55, 0.2); padding: 36px; margin: 32px 0; border-radius: 0;">
     <h3 style="color: #96792B; font-size: 24px; font-weight: 600; margin: 0 0 16px 0; font-family: 'Libre Baskerville', serif;">Key Takeaways</h3>
     <p style="font-size: 18px; line-height: 1.8; color: #2C2C2C; margin: 0;">For 45 years, Neothink has been a private invite-only society helping millions break free from the following mode. Now, Mark Hamilton is going public to reach entire civilizations. The Prime Law removes initiatory force from government, replacing corrupt political systems with honest market business—unleashing prosperity that will rise thousands of times.</p>
 </div>
@@ -26,7 +26,7 @@ export const HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_BODY_HTML = `<div class
 				<div class="elementor-element elementor-element-a2767340 elementor-widget elementor-widget-text-editor" data-id="a2767340" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 									
-<div style="background: #FFF8E7; border-left: 4px solid #D4AF37; padding: 28px 32px; margin: 32px 0; border-radius: 4px;">
+<div style="background: #FFF8E7; border-left: 4px solid #D4AF37; padding: 28px 32px; margin: 32px 0; border-radius: 0;">
     <p style="font-size: 20px; line-height: 1.7; color: #2C2C2C; margin: 0 0 16px 0; font-style: italic;">&#8220;All of Neothink is based on one common denominator: removing the weakness in the human race—the following mode.&#8221;</p>
     <p style="font-size: 14px; color: #96792B; margin: 0; font-weight: 600;">— Mark Hamilton</p>
 </div>
@@ -52,7 +52,7 @@ export const HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_BODY_HTML = `<div class
 				<div class="elementor-element elementor-element-ec227524 elementor-widget elementor-widget-text-editor" data-id="ec227524" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 									
-<div style="background: #2C2C2C; padding: 32px; margin: 32px 0; border-radius: 8px; border-left: 4px solid #8B7355;">
+<div style="background: #2C2C2C; padding: 32px; margin: 32px 0; border-radius: 0; border-left: 4px solid #8B7355;">
     
 <p style="font-size: 19px; line-height: 1.7; color: #E8E8E8; margin: 0;"><strong style="color: #D4AF37;">The realization:</strong> Whereas individuals struggle with the following mode, <em>civilization as a whole</em> struggles in the following mode. It&#8217;s the scourge of humanity.</p>
 <p style="font-size: 17px; line-height: 1.8; color: #C8C8C8; margin: 16px 0 0 0;">Hamilton can no longer help people one-by-one. He must change entire civilizations.</p>
@@ -79,7 +79,7 @@ export const HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_BODY_HTML = `<div class
 				<div class="elementor-element elementor-element-b178468a elementor-widget elementor-widget-text-editor" data-id="b178468a" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 									
-<div style="background: #F5F0EA; border: 1px solid rgba(212, 175, 55, 0.2); padding: 28px 32px; margin: 32px 0; border-radius: 8px;">
+<div style="background: #F5F0EA; border: 1px solid rgba(212, 175, 55, 0.2); padding: 28px 32px; margin: 32px 0; border-radius: 0;">
     <h4 style="color: #96792B; font-size: 18px; font-weight: 600; margin: 0 0 12px 0; font-family: 'Libre Baskerville', serif;">The Prime Law</h4>
     <p style="font-size: 17px; line-height: 1.8; color: #2C2C2C; margin: 0;">A constitutional amendment that removes all initiatory force from society, including from government. No person, group, or government may initiate force, threat of force, or fraud against any individual&#8217;s self, property, or contract.</p>
 </div>
@@ -96,7 +96,7 @@ export const HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_BODY_HTML = `<div class
 				<div class="elementor-element elementor-element-cf9e97cf elementor-widget elementor-widget-text-editor" data-id="cf9e97cf" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 									
-<div style="background: #F5F0EA; border: 1px solid rgba(212, 175, 55, 0.15); padding: 32px 36px; margin: 32px 0; border-radius: 8px;">
+<div style="background: #F5F0EA; border: 1px solid rgba(212, 175, 55, 0.15); padding: 32px 36px; margin: 32px 0; border-radius: 0;">
     <ul style="margin: 0; padding-left: 24px; color: #2C2C2C; font-size: 18px; line-height: 1.8;">
         <li style="margin-bottom: 16px; padding-left: 8px;"><strong>No politics</strong> means no lobbying, no favors, no protectionism.</li><li style="margin-bottom: 16px; padding-left: 8px;"><strong>No regulatory capture</strong> means businesses compete on merit, not connections.</li><li style="margin-bottom: 16px; padding-left: 8px;"><strong>Pure market dynamics</strong> drive innovation, value creation, and falling prices.</li>
     </ul>
@@ -122,7 +122,7 @@ export const HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_BODY_HTML = `<div class
 				<div class="elementor-element elementor-element-70c1064c elementor-widget elementor-widget-text-editor" data-id="70c1064c" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 									
-<div style="background: #F5F0EA; border: 1px solid rgba(212, 175, 55, 0.15); padding: 32px 36px; margin: 32px 0; border-radius: 8px;">
+<div style="background: #F5F0EA; border: 1px solid rgba(212, 175, 55, 0.15); padding: 32px 36px; margin: 32px 0; border-radius: 0;">
     <ol style="margin: 0; padding-left: 24px; color: #2C2C2C; font-size: 18px; line-height: 1.8;">
         <li style="margin-bottom: 20px; padding-left: 12px;"><strong style="color: #96792B;">The Computer Revolution</strong><br><span style="color: #555555; font-size: 17px;">Before government regulation could grip the PC industry, computer power that cost millions of dollars became pocket-sized within years. That&#8217;s free market business at work.</span></li><li style="margin-bottom: 20px; padding-left: 12px;"><strong style="color: #96792B;">Henry Ford&#8217;s Assembly Line</strong><br><span style="color: #555555; font-size: 17px;">A century ago, before silicon chips, Henry Ford perfected the assembly line and drove car prices down so dramatically that automobiles moved from toys of the rich to driveways of ordinary people.</span></li>
     </ol>
@@ -138,7 +138,7 @@ export const HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_BODY_HTML = `<div class
 				<div class="elementor-element elementor-element-968cf847 elementor-widget elementor-widget-text-editor" data-id="968cf847" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 									
-<div style="background: #FFF8E7; border-left: 4px solid #D4AF37; padding: 28px 32px; margin: 32px 0; border-radius: 4px;">
+<div style="background: #FFF8E7; border-left: 4px solid #D4AF37; padding: 28px 32px; margin: 32px 0; border-radius: 0;">
     <p style="font-size: 20px; line-height: 1.7; color: #2C2C2C; margin: 0 0 16px 0; font-style: italic;">&#8220;Your prosperity is going to rise thousands of times, as demonstrated in the days of Henry Ford and recently in the computer revolution. And look out with AI, my friends. Great days are coming.&#8221;</p>
     <p style="font-size: 14px; color: #96792B; margin: 0; font-weight: 600;">— Mark Hamilton</p>
 </div>
