@@ -29,7 +29,7 @@ export const BUILDING_THE_ENGINE_BEHIND_IMMORTALIS_BODY_HTML = `<div class="elem
 				</div>
 				<div class="elementor-element elementor-element-f5c888d elementor-widget elementor-widget-text-editor" data-id="f5c888d" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<div style="background:linear-gradient(135deg,#FFF8E7 0%,#FDF6E7 100%);border:2px solid #A57A03;border-radius: 0;padding:32px;margin:0 0 24px 0;text-align:center;"><div style="font-family:Inter,sans-serif;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#A57A03;margin-bottom:16px;">HAMILTON ON BUSINESS AS THE ENGINE</div><p style="font-family:'Libre Baskerville',serif;font-size:22px;font-weight:700;color:#1a1a1a;margin:0;line-height:1.4;font-style:italic;">“Business is the ecosystem that creates and disseminates values. We had to become a business to reach the searchers of the world.”</p></div>								</div>
+									<div style="background:linear-gradient(135deg,#FFF8E7 0%,#FDF6E7 100%);border:2px solid #A57A03;border-radius: 0;padding:32px;margin:0 0 24px 0;text-align:center;"><div style="font-family:Inter,sans-serif;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#7A6528;margin-bottom:16px;">HAMILTON ON BUSINESS AS THE ENGINE</div><p style="font-family:'Libre Baskerville',serif;font-size:22px;font-weight:700;color:#1a1a1a;margin:0;line-height:1.4;font-style:italic;">“Business is the ecosystem that creates and disseminates values. We had to become a business to reach the searchers of the world.”</p></div>								</div>
 				</div>
 				<div class="elementor-element elementor-element-5a4df71 elementor-widget elementor-widget-text-editor" data-id="5a4df71" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -49,7 +49,7 @@ export const BUILDING_THE_ENGINE_BEHIND_IMMORTALIS_BODY_HTML = `<div class="elem
 				</div>
 				<div class="elementor-element elementor-element-bed81ae elementor-widget elementor-widget-text-editor" data-id="bed81ae" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p>But Hamilton identifies a fundamental problem with their approach: they are fighting a losing battle. Trapped inside what he calls the <a href="/illusion-pollution" style="color:#96792B;text-decoration:underline;">anti-civilization loop</a>, their longevity research faces the same regulatory suppression that killed the DuPont cancer cure and has held back <a href="/the-job-revolution" style="color:#96792B;text-decoration:underline;">every industry</a> for decades. Good progress, Hamilton says, but it won’t happen within their lifetimes. Perhaps their children’s or grandchildren’s — but not theirs.</p>								</div>
+									<p>But Hamilton identifies a fundamental problem with their approach: they are fighting a losing battle. Trapped inside what he calls the <a href="/illusion-pollution" style="color:#7A6528;text-decoration:underline;">anti-civilization loop</a>, their longevity research faces the same regulatory suppression that killed the DuPont cancer cure and has held back <a href="/the-job-revolution" style="color:#7A6528;text-decoration:underline;">every industry</a> for decades. Good progress, Hamilton says, but it won’t happen within their lifetimes. Perhaps their children’s or grandchildren’s — but not theirs.</p>								</div>
 				</div>
 				<div class="elementor-element elementor-element-6e31a62 elementor-widget elementor-widget-text-editor" data-id="6e31a62" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -69,7 +69,7 @@ export const BUILDING_THE_ENGINE_BEHIND_IMMORTALIS_BODY_HTML = `<div class="elem
 				</div>
 				<div class="elementor-element elementor-element-6aa67c6 elementor-widget elementor-widget-text-editor" data-id="6aa67c6" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p>Hamilton describes active outreach to people who have started chartered city-states, free cities, and economic free zones around the world. These are existing models of governance outside traditional nation-state structures — and they represent natural allies for a country built on the <a href="/the-unbreakable-equation" style="color:#96792B;text-decoration:underline;">Prime Law</a>.</p>								</div>
+									<p>Hamilton describes active outreach to people who have started chartered city-states, free cities, and economic free zones around the world. These are existing models of governance outside traditional nation-state structures — and they represent natural allies for a country built on the <a href="/the-unbreakable-equation" style="color:#7A6528;text-decoration:underline;">Prime Law</a>.</p>								</div>
 				</div>
 				<div class="elementor-element elementor-element-cdc81ed elementor-widget elementor-widget-text-editor" data-id="cdc81ed" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -77,7 +77,7 @@ export const BUILDING_THE_ENGINE_BEHIND_IMMORTALIS_BODY_HTML = `<div class="elem
 				</div>
 				<div class="elementor-element elementor-element-9f48e46 elementor-widget elementor-widget-text-editor" data-id="9f48e46" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<div style="background:#FFF8E7;border-left:4px solid #A57A03;border-radius: 0;padding:24px;margin:0 0 24px 0;"><div style="font-family:Inter,sans-serif;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#A57A03;margin-bottom:8px;">CHARTERED CITY-STATE</div><p style="font-family:Inter,sans-serif;font-size:16px;color:#2d2d2d;margin:0;line-height:1.7;">A semi-autonomous jurisdiction within a host country that operates under its own governance framework, often with reduced regulation and independent legal structures. Several exist worldwide as economic free zones. Hamilton sees them as proof-of-concept for the Immortalis model — a new country built on the Prime Law with its own constitution.</p></div>								</div>
+									<div style="background:#FFF8E7;border-left:4px solid #A57A03;border-radius: 0;padding:24px;margin:0 0 24px 0;"><div style="font-family:Inter,sans-serif;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#7A6528;margin-bottom:8px;">CHARTERED CITY-STATE</div><p style="font-family:Inter,sans-serif;font-size:16px;color:#2d2d2d;margin:0;line-height:1.7;">A semi-autonomous jurisdiction within a host country that operates under its own governance framework, often with reduced regulation and independent legal structures. Several exist worldwide as economic free zones. Hamilton sees them as proof-of-concept for the Immortalis model — a new country built on the Prime Law with its own constitution.</p></div>								</div>
 				</div>
 				<div class="elementor-element elementor-element-acb16ff elementor-widget elementor-widget-text-editor" data-id="acb16ff" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -121,7 +121,7 @@ export const BUILDING_THE_ENGINE_BEHIND_IMMORTALIS_BODY_HTML = `<div class="elem
 				</div>
 				<div class="elementor-element elementor-element-a5b44b4 elementor-widget elementor-widget-text-editor" data-id="a5b44b4" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p>With that brain drain comes an economic boom. Hamilton describes a cascade: the geniuses arrive, breakthroughs accelerate, the economy surges, and costs drop toward zero as the <a href="/the-job-revolution" style="color:#96792B;text-decoration:underline;">pure capitalism phenomenon</a> spreads across all industries. Fatal diseases are conquered. Cancer, heart disease, and aging itself are cured. Not in some distant century — within the lifetimes of people alive today.</p>								</div>
+									<p>With that brain drain comes an economic boom. Hamilton describes a cascade: the geniuses arrive, breakthroughs accelerate, the economy surges, and costs drop toward zero as the <a href="/the-job-revolution" style="color:#7A6528;text-decoration:underline;">pure capitalism phenomenon</a> spreads across all industries. Fatal diseases are conquered. Cancer, heart disease, and aging itself are cured. Not in some distant century — within the lifetimes of people alive today.</p>								</div>
 				</div>
 				<div class="elementor-element elementor-element-57cd68f elementor-widget elementor-widget-text-editor" data-id="57cd68f" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -141,7 +141,7 @@ export const BUILDING_THE_ENGINE_BEHIND_IMMORTALIS_BODY_HTML = `<div class="elem
 				</div>
 				<div class="elementor-element elementor-element-19f2a9d elementor-widget elementor-widget-text-editor" data-id="19f2a9d" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p>Hamilton revisits his vision of the <a href="/the-job-revolution" style="color:#96792B;text-decoration:underline;">beautiful ecosystem</a> of business. In the current anti-civilization, money is the metric that drives enterprise. Businesses create and disseminate values, and profits are the engine. There is nothing wrong with that — it is how values reach people today.</p>								</div>
+									<p>Hamilton revisits his vision of the <a href="/the-job-revolution" style="color:#7A6528;text-decoration:underline;">beautiful ecosystem</a> of business. In the current anti-civilization, money is the metric that drives enterprise. Businesses create and disseminate values, and profits are the engine. There is nothing wrong with that — it is how values reach people today.</p>								</div>
 				</div>
 				<div class="elementor-element elementor-element-f116fc8 elementor-widget elementor-widget-text-editor" data-id="f116fc8" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">

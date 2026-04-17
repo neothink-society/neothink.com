@@ -24,7 +24,7 @@ export const A_NEW_COUNTRY_THE_GREAT_EXPERIMENT_CALLED_IMMORTALIS_BODY_HTML = `<
 				<div class="elementor-element elementor-element-7254981 elementor-widget elementor-widget-text-editor" data-id="7254981" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 									<div style="background: #FFF8E7; border-left: 4px solid #A57A03; padding: 24px 28px; border-radius: 0; margin: 32px 0;">
-<p style="margin: 0; font-size: 20px; line-height: 1.6; color: #2d2d2d; font-style: italic;">&#8220;When he told me that the Federal Drug Administration enforced these regulations that made it cost prohibitive for the world&#8217;s largest chemical company, DuPont, to not be able to have to drop this promising project, I remember as a child thinking how evil that was.&#8221;</p><p style="margin: 16px 0 0 0; font-size: 15px; color: #A57A03; font-style: normal;">— Mark Hamilton</p></div>								</div>
+<p style="margin: 0; font-size: 20px; line-height: 1.6; color: #2d2d2d; font-style: italic;">&#8220;When he told me that the Federal Drug Administration enforced these regulations that made it cost prohibitive for the world&#8217;s largest chemical company, DuPont, to not be able to have to drop this promising project, I remember as a child thinking how evil that was.&#8221;</p><p style="margin: 16px 0 0 0; font-size: 15px; color:#7A6528; font-style: normal;">— Mark Hamilton</p></div>								</div>
 				</div>
 				<div class="elementor-element elementor-element-2608a0a elementor-widget elementor-widget-text-editor" data-id="2608a0a" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -45,7 +45,7 @@ export const A_NEW_COUNTRY_THE_GREAT_EXPERIMENT_CALLED_IMMORTALIS_BODY_HTML = `<
 				<div class="elementor-element elementor-element-1fcd5d5 elementor-widget elementor-widget-text-editor" data-id="1fcd5d5" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 									<div style="background: #FFF8E7; border-left: 4px solid #A57A03; padding: 24px 28px; border-radius: 0; margin: 32px 0;">
-<p style="margin: 0; font-size: 20px; line-height: 1.6; color: #2d2d2d; font-style: italic;">&#8220;Power can only be built through honest values, value creation for the world. But then it can quickly be stolen by politicians and bureaucrats by knocking them down and putting themselves above them.&#8221;</p><p style="margin: 16px 0 0 0; font-size: 15px; color: #A57A03; font-style: normal;">— Mark Hamilton</p></div>								</div>
+<p style="margin: 0; font-size: 20px; line-height: 1.6; color: #2d2d2d; font-style: italic;">&#8220;Power can only be built through honest values, value creation for the world. But then it can quickly be stolen by politicians and bureaucrats by knocking them down and putting themselves above them.&#8221;</p><p style="margin: 16px 0 0 0; font-size: 15px; color:#7A6528; font-style: normal;">— Mark Hamilton</p></div>								</div>
 				</div>
 				<div class="elementor-element elementor-element-1d82528 elementor-widget elementor-widget-text-editor" data-id="1d82528" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -75,7 +75,7 @@ export const A_NEW_COUNTRY_THE_GREAT_EXPERIMENT_CALLED_IMMORTALIS_BODY_HTML = `<
 				<div class="elementor-element elementor-element-b5a17c0 elementor-widget elementor-widget-text-editor" data-id="b5a17c0" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 									<div style="background: #F8F5F3; border-left: 4px solid #A57A03; padding: 24px 28px; border-radius: 0; margin: 32px 0;">
-<h4 style="margin: 0 0 12px 0; font-family: 'Libre Baskerville', serif; font-size: 18px; font-weight: 700; color: #A57A03;">Immortalis</h4>
+<h4 style="margin: 0 0 12px 0; font-family: 'Libre Baskerville', serif; font-size: 18px; font-weight: 700; color:#7A6528;">Immortalis</h4>
 <p style="margin: 0; font-size: 18px; line-height: 1.6; color: #2d2d2d;">The first country in human history with no ruling class—built entirely on mutual value exchange, governed by a protection-only government that serves citizens instead of ruling them.</p></div>								</div>
 				</div>
 				<div class="elementor-element elementor-element-612d5ca elementor-widget elementor-widget-text-editor" data-id="612d5ca" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
@@ -87,15 +87,15 @@ export const A_NEW_COUNTRY_THE_GREAT_EXPERIMENT_CALLED_IMMORTALIS_BODY_HTML = `<
 									<div style="background: #FFFFFF; border: 2px solid #e0d5c3; padding: 28px; border-radius: 0; margin: 24px 0;">
 <h4 style="margin: 0 0 20px 0; font-family: 'Libre Baskerville', serif; font-size: 20px; color: #1a1a1a;">The Three Pillars of Immortalis</h4>
 <div style="margin-bottom: 20px;">
-<h5 style="margin: 0 0 8px 0; font-family: 'Libre Baskerville', serif; font-size: 18px; color: #A57A03;">1. Constitution Forbidding Initiatory Force</h5>
+<h5 style="margin: 0 0 8px 0; font-family: 'Libre Baskerville', serif; font-size: 18px; color:#7A6528;">1. Constitution Forbidding Initiatory Force</h5>
 <p style="margin: 0; color: #2d2d2d; font-size: 18px; line-height: 1.6;">Politicians and regulators cannot use force to steal power from those who build it through value creation.</p>
 </div>
 <div style="margin-bottom: 20px;">
-<h5 style="margin: 0 0 8px 0; font-family: 'Libre Baskerville', serif; font-size: 18px; color: #A57A03;">2. Protection-Only Government</h5>
+<h5 style="margin: 0 0 8px 0; font-family: 'Libre Baskerville', serif; font-size: 18px; color:#7A6528;">2. Protection-Only Government</h5>
 <p style="margin: 0; color: #2d2d2d; font-size: 18px; line-height: 1.6;">Government exists only to protect citizens—nothing more. It&#8217;s a service-based government, not a ruling authority.</p>
 </div>
 <div style="margin-bottom: 0;">
-<h5 style="margin: 0 0 8px 0; font-family: 'Libre Baskerville', serif; font-size: 18px; color: #A57A03;">3. Mutual Value Exchange</h5>
+<h5 style="margin: 0 0 8px 0; font-family: 'Libre Baskerville', serif; font-size: 18px; color:#7A6528;">3. Mutual Value Exchange</h5>
 <p style="margin: 0; color: #2d2d2d; font-size: 18px; line-height: 1.6;">You pay for protection. If government oversteps, you stop paying. Competitors rise up. Your dollars do the voting.</p>
 </div>
 </div>								</div>
@@ -111,7 +111,7 @@ export const A_NEW_COUNTRY_THE_GREAT_EXPERIMENT_CALLED_IMMORTALIS_BODY_HTML = `<
 				<div class="elementor-element elementor-element-1b48cc8 elementor-widget elementor-widget-text-editor" data-id="1b48cc8" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 									<div style="background: #FFF8E7; border-left: 4px solid #A57A03; padding: 24px 28px; border-radius: 0; margin: 32px 0;">
-<p style="margin: 0; font-size: 20px; line-height: 1.6; color: #2d2d2d; font-style: italic;">&#8220;As the government starts overstepping its boundaries, you can just stop paying them. It&#8217;s a mutual value exchange. You&#8217;re paying for their protection. So competitors will rise up, and the money will shift over. Your dollars will do the voting.&#8221;</p><p style="margin: 16px 0 0 0; font-size: 15px; color: #A57A03; font-style: normal;">— Mark Hamilton</p></div>								</div>
+<p style="margin: 0; font-size: 20px; line-height: 1.6; color: #2d2d2d; font-style: italic;">&#8220;As the government starts overstepping its boundaries, you can just stop paying them. It&#8217;s a mutual value exchange. You&#8217;re paying for their protection. So competitors will rise up, and the money will shift over. Your dollars will do the voting.&#8221;</p><p style="margin: 16px 0 0 0; font-size: 15px; color:#7A6528; font-style: normal;">— Mark Hamilton</p></div>								</div>
 				</div>
 				<div class="elementor-element elementor-element-d30818a elementor-widget elementor-widget-text-editor" data-id="d30818a" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -163,7 +163,7 @@ export const A_NEW_COUNTRY_THE_GREAT_EXPERIMENT_CALLED_IMMORTALIS_BODY_HTML = `<
 				<div class="elementor-element elementor-element-e4a3874 elementor-widget elementor-widget-text-editor" data-id="e4a3874" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 									<div style="background: #FFF8E7; border-left: 4px solid #A57A03; padding: 24px 28px; border-radius: 0; margin: 32px 0;">
-<p style="margin: 0; font-size: 20px; line-height: 1.6; color: #2d2d2d; font-style: italic;">&#8220;I&#8217;ve seen the rise of prosperity in the computer industry that advanced so quickly that the government couldn&#8217;t really get its folks on it. And look what happened to computer power. Today, you put in your pocket something a Fortune 500 company not too long ago could only afford.&#8221;</p><p style="margin: 16px 0 0 0; font-size: 15px; color: #A57A03; font-style: normal;">— Mark Hamilton</p></div>								</div>
+<p style="margin: 0; font-size: 20px; line-height: 1.6; color: #2d2d2d; font-style: italic;">&#8220;I&#8217;ve seen the rise of prosperity in the computer industry that advanced so quickly that the government couldn&#8217;t really get its folks on it. And look what happened to computer power. Today, you put in your pocket something a Fortune 500 company not too long ago could only afford.&#8221;</p><p style="margin: 16px 0 0 0; font-size: 15px; color:#7A6528; font-style: normal;">— Mark Hamilton</p></div>								</div>
 				</div>
 				<div class="elementor-element elementor-element-46d54c6 elementor-widget elementor-widget-text-editor" data-id="46d54c6" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -216,7 +216,7 @@ export const A_NEW_COUNTRY_THE_GREAT_EXPERIMENT_CALLED_IMMORTALIS_BODY_HTML = `<
 				<div class="elementor-element elementor-element-1b6fe48 elementor-widget elementor-widget-text-editor" data-id="1b6fe48" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 									<div style="background: #FFF8E7; border-left: 4px solid #A57A03; padding: 24px 28px; border-radius: 0; margin: 32px 0;">
-<p style="margin: 0; font-size: 20px; line-height: 1.6; color: #2d2d2d; font-style: italic;">&#8220;Imagine what it would be like to live in Immortalis. Imagine your prosperity, your wealth, your health. And I want you to compare it to what you don&#8217;t have—because only by knowing what you don&#8217;t have can you really see and start feeling what you could have.&#8221;</p><p style="margin: 16px 0 0 0; font-size: 15px; color: #A57A03; font-style: normal;">— Mark Hamilton</p></div>								</div>
+<p style="margin: 0; font-size: 20px; line-height: 1.6; color: #2d2d2d; font-style: italic;">&#8220;Imagine what it would be like to live in Immortalis. Imagine your prosperity, your wealth, your health. And I want you to compare it to what you don&#8217;t have—because only by knowing what you don&#8217;t have can you really see and start feeling what you could have.&#8221;</p><p style="margin: 16px 0 0 0; font-size: 15px; color:#7A6528; font-style: normal;">— Mark Hamilton</p></div>								</div>
 				</div>
 					</div>
 				</div>`;

@@ -18,7 +18,7 @@ export default function NotFound() {
       id="main-content"
       className="flex min-h-screen flex-col items-center justify-center bg-[#FDFCFA] px-6 text-center"
     >
-      <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-[#B8973A]">
+      <p className="text-[10px] font-medium uppercase tracking-[0.22em] text-[#7A6528]">
         404
       </p>
       <h1 className="mt-4 font-serif text-[clamp(36px,5vw,64px)] font-light leading-[1.1] text-[#0E0E0E]">
@@ -29,7 +29,7 @@ export default function NotFound() {
       </p>
       <Link
         href={WP.home}
-        className="mt-10 inline-flex min-h-[44px] items-center border border-[#C8C0B0] px-9 py-4 text-[12px] font-medium uppercase tracking-[0.14em] text-[#4A4540] transition-colors duration-200 hover:border-[#B8973A] hover:text-[#B8973A]"
+        className="mt-10 inline-flex min-h-[44px] items-center border border-[#C8C0B0] px-9 py-4 text-[12px] font-medium uppercase tracking-[0.14em] text-[#4A4540] transition-colors duration-200 hover:border-[#7A6528] hover:text-[#7A6528]"
       >
         Return Home
       </Link>

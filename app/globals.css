@@ -1644,7 +1644,11 @@
   font-family: var(--serif);
   font-size: 64px;
   font-weight: 300;
-  color: #e8e3d8;
+  /* #938772 lifts ratio vs paper (#fdfcfa) above 3:1 for 64 px large-text
+   * (WCAG 1.4.3 AA). The prior #e8e3d8 sat at 1.24:1. The numerals are
+   * aria-hidden decorative accents; this darker warm neutral preserves the
+   * subtle "ghost numeral" aesthetic while clearing the contrast audit. */
+  color: #938772;
   line-height: 1;
   margin-bottom: 20px;
   display: block;
@@ -2541,8 +2545,13 @@
 .nssd-body a,
 .wp-content a,
 .wp-prose a {
-  color: var(--gold-ink);
-  text-decoration: underline;
+  /* !important is required because the migrated Elementor HTML emits
+   * inline `style="color:#...;text-decoration:none;"` on anchor tags,
+   * which would otherwise defeat the underline. Underlining prose links
+   * is a WCAG 1.4.1 requirement — color alone must not be the sole
+   * indicator of a link within surrounding text. */
+  color: var(--gold-ink) !important;
+  text-decoration: underline !important;
   text-underline-offset: 2px;
   text-decoration-thickness: 1px;
 }
