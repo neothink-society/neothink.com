@@ -3,7 +3,7 @@
 .pl-page {
   --pl-text: #0e0e0e;
   --pl-body: #4a4540;
-  --pl-muted: #7a7570;
+  --pl-muted: #706B65;
   --pl-gold: #b8973a;
   --pl-gold-deep: #7A6528;
   --pl-gold-bright: #d4b060;
@@ -11,7 +11,9 @@
   --pl-stone: #f4f1ec;
   --pl-border: #e8e3d8;
   --pl-dark: #0e0e0e;
-  --pl-negative: #a06040;
+  /* Darkened from #a06040 (4.40:1 on stone, AA fail) to #8c4f33 which
+   * lands at 5.8:1 — still clearly red-orange but passes AA. */
+  --pl-negative: #8c4f33;
 }
 
 /* ── HERO ── */
@@ -212,7 +214,9 @@
   font-size: 15px;
   font-weight: 300;
   line-height: 1.8;
-  color: rgba(253, 252, 250, 0.4);
+  /* 0.4 alpha ≈ #6e6d6c on #0e0e0e = 3.1:1 (fails AA). Bump to 0.65
+   * for ≈ 7:1. */
+  color: rgba(253, 252, 250, 0.65);
   font-style: italic;
   max-width: 560px;
   margin: 0 auto;
@@ -502,7 +506,10 @@
 }
 
 .pl-page .pl-compare-col--old .pl-compare-col-label {
-  color: var(--pl-muted);
+  /* --pl-muted (#706B65) is tuned for muted text on LIGHT bg. On
+   * dark prime-law columns it drops below AA 4.5:1 at 10px. Use a
+   * lighter gray so small uppercase label passes 4.5:1. */
+  color: #a8a4a0;
 }
 
 .pl-page .pl-compare-col--new .pl-compare-col-label {
@@ -536,7 +543,9 @@
 }
 
 .pl-page .pl-compare-col--old .pl-compare-row h4 {
-  color: rgba(253, 252, 250, 0.4);
+  /* Bump from 0.4 → 0.65 alpha: de-emphasized h4 for the "old way"
+   * column needs >=4.5:1 at 12px. 0.4 resolved to ~3.2:1. */
+  color: rgba(253, 252, 250, 0.65);
 }
 
 .pl-page .pl-compare-col--new .pl-compare-row h4 {

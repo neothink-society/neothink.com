@@ -3,7 +3,7 @@
 .ffr-page {
   --ffr-text: #0e0e0e;
   --ffr-body: #4a4540;
-  --ffr-muted: #7a7570;
+  --ffr-muted: #706B65;
   --ffr-gold: #b8973a;
   --ffr-gold-deep: #7A6528;
   --ffr-cream: #fdfcfa;
@@ -513,15 +513,28 @@
   color: #faf9f6;
 }
 
-.ffr-page .ffr-prime-law-sub {
+.ffr-page .ffr-prime-law-sub,
+.ffr-page .ffr-prose .ffr-prime-law-sub {
   font-family: var(--font-jost), system-ui, sans-serif;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   text-align: center;
-  color: var(--ffr-gold-deep);
+  /* Display gold on dark prime-law card — see .ffr-prime-law-preamble
+   * strong below for rationale. Needs the .ffr-prose specificity bump
+   * to beat `.ffr-prose p { color: var(--ffr-body) }` from the body rule. */
+  color: var(--ffr-gold);
   margin: 0 0 24px;
+}
+
+.ffr-page .ffr-prose .ffr-prime-law-preamble {
+  /* Same specificity bump for the preamble text inside `.ffr-prose`. */
+  color: rgba(250, 249, 246, 0.92);
+}
+
+.ffr-page .ffr-prose .ffr-prime-law-preamble strong {
+  color: var(--ffr-gold);
 }
 
 .ffr-page .ffr-prime-law-preamble {
@@ -535,7 +548,10 @@
 }
 
 .ffr-page .ffr-prime-law-preamble strong {
-  color: var(--ffr-gold-deep);
+  /* Display gold on dark bg — gold-deep (#7A6528) fails 4.5:1 against
+   * the preamble's near-black surface. Display gold (#B8973A) hits 5.5:1
+   * which passes AA normal text and preserves the brand accent. */
+  color: var(--ffr-gold);
   font-weight: 600;
 }
 
@@ -554,7 +570,7 @@
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--ffr-gold-deep);
+  color: var(--ffr-gold);
   margin-bottom: 8px;
 }
 
@@ -581,7 +597,8 @@
   font-weight: 700;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--ffr-gold-deep);
+  /* Display gold on dark callout (see .ffr-prime-law-preamble strong). */
+  color: var(--ffr-gold);
   margin: 0 0 10px;
 }
 
@@ -602,7 +619,8 @@
 }
 
 .ffr-page .ffr-callout-dark strong {
-  color: var(--ffr-gold-deep);
+  /* Display gold on dark callout. */
+  color: var(--ffr-gold);
   font-weight: 600;
 }
 

@@ -117,7 +117,7 @@ export const REPROGRAM_MIND_BODY_HTML = `<div class="elementor-element elementor
 				</div>
 				<div class="elementor-element elementor-element-22fb551 elementor-widget elementor-widget-text-editor" data-id="22fb551" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<div style="background:#FFF8E7;border-left:4px solid #d97706;border-radius: 0;padding:24px;margin:0 0 24px 0;"><div style="font-family:Inter,sans-serif;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#d97706;margin-bottom:8px;">THE PROBLEM</div><h3 style="font-family:'Libre Baskerville',serif;font-size:18px;font-weight:700;color:#1a1a1a;margin:0 0 10px 0;">Delegating Kills Businesses</h3><p style="font-family:Inter,sans-serif;font-size:16px;color:#2d2d2d;margin:0;line-height:1.7;">Division of labor works for manufacturing—repetitive physical tasks. But business is a living organism. Separating the mind from the body kills it. Companies bloat with bureaucracy until hatchet men come in and cut 75% of the staff. Elon Musk fired 80% of Twitter employees, and it works better than ever. This pattern repeats because the underlying structure is wrong.</p></div>								</div>
+									<div style="background:#FFF8E7;border-left:4px solid #d97706;border-radius: 0;padding:24px;margin:0 0 24px 0;"><div style="font-family:Inter,sans-serif;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#b45309;margin-bottom:8px;">THE PROBLEM</div><h3 style="font-family:'Libre Baskerville',serif;font-size:18px;font-weight:700;color:#1a1a1a;margin:0 0 10px 0;">Delegating Kills Businesses</h3><p style="font-family:Inter,sans-serif;font-size:16px;color:#2d2d2d;margin:0;line-height:1.7;">Division of labor works for manufacturing—repetitive physical tasks. But business is a living organism. Separating the mind from the body kills it. Companies bloat with bureaucracy until hatchet men come in and cut 75% of the staff. Elon Musk fired 80% of Twitter employees, and it works better than ever. This pattern repeats because the underlying structure is wrong.</p></div>								</div>
 				</div>
 				<div class="elementor-element elementor-element-72bb52c elementor-widget elementor-widget-text-editor" data-id="72bb52c" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -173,7 +173,7 @@ export const REPROGRAM_MIND_BODY_HTML = `<div class="elementor-element elementor
 				</div>
 				<div class="elementor-element elementor-element-bf016dc elementor-widget elementor-widget-text-editor" data-id="bf016dc" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p style="text-align:center;color:#64748b;font-size:16px;margin-top:-16px;">Apply Mark Hamilton’s approach to escape perceptual thinking</p>								</div>
+									<p style="text-align:center;color:#475569;font-size:16px;margin-top:-16px;">Apply Mark Hamilton’s approach to escape perceptual thinking</p>								</div>
 				</div>
 				<div class="elementor-element elementor-element-bdb834b elementor-widget elementor-widget-text-editor" data-id="bdb834b" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">

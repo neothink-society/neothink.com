@@ -2568,6 +2568,32 @@
   text-decoration-thickness: 2px;
 }
 
+/* Agency-era migrated HTML contains Elementor dark cards that set their
+ * surface via inline style="background:#1a1a1a" (or similar near-black).
+ * Our general prose-link rule above forces color:var(--gold-ink) with
+ * !important, which is #7A6528 — perfect on cream/stone, but only 3.1:1
+ * on #1a1a1a (fails WCAG 2.1 AA). Inside these dark cards, swap to
+ * --gold (#B8973A), which lands at ~6.0:1 on #1a1a1a. The attribute
+ * selectors intentionally match both `#1a1a1a` and `#1a1917` (used by
+ * our own .X-callout-dark surfaces and some agency cards) regardless of
+ * the internal whitespace after the colon. */
+.nu-awakening-html [style*="background:#1a1a1a"] a,
+.nu-awakening-html [style*="background: #1a1a1a"] a,
+.nu-awakening-html [style*="background:#1a1917"] a,
+.nu-awakening-html [style*="background: #1a1917"] a,
+.nu-awakening-html [style*="background:#0e0e0e"] a,
+.nu-awakening-html [style*="background: #0e0e0e"] a,
+.wp-content [style*="background:#1a1a1a"] a,
+.wp-content [style*="background: #1a1a1a"] a,
+.nu-prose [style*="background:#1a1a1a"] a,
+.nu-prose [style*="background: #1a1a1a"] a,
+.shb-body [style*="background:#1a1a1a"] a,
+.shb-body [style*="background: #1a1a1a"] a,
+.nssd-body [style*="background:#1a1a1a"] a,
+.nssd-body [style*="background: #1a1a1a"] a {
+  color: var(--gold) !important;
+}
+
 /* Byline credit links inside .nu-hero-sub ("Published by …") also carry
  * the .nu-prose class. axe link-in-text-block flags them when not
  * underlined because color-vs-surrounding-text is 2.00:1, so we keep
@@ -2627,6 +2653,25 @@ a.nu-prose:hover {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   border-collapse: collapse;
+}
+
+/* Focusable wrapper for migrated tables — satisfies WCAG
+ * scrollable-region-focusable so keyboard users can scroll wide tables. */
+.nu-table-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nu-table-scroll:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+.nu-table-scroll > table {
+  display: table;
+  width: 100%;
+  overflow: visible;
 }
 
 .nu-prose a,

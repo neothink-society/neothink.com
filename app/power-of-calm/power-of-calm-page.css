@@ -3,7 +3,7 @@
 .poc-page {
   --poc-text: #0e0e0e;
   --poc-body: #4a4540;
-  --poc-muted: #7a7570;
+  --poc-muted: #706B65;
   --poc-gold: #b8973a;
   --poc-gold-deep: #7A6528;
   --poc-cream: #fdfcfa;
@@ -512,13 +512,14 @@
   border-radius: 0;
 }
 
-.poc-page .poc-callout-dark .poc-callout-kicker {
+.poc-page .poc-callout-dark .poc-callout-kicker,
+.poc-page .poc-prose .poc-callout-dark .poc-callout-kicker {
   font-family: var(--font-jost), system-ui, sans-serif;
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--poc-gold-deep);
+  color: var(--poc-gold);
   margin: 0 0 10px;
 }
 
@@ -530,7 +531,8 @@
   color: #faf9f6;
 }
 
-.poc-page .poc-callout-dark p {
+.poc-page .poc-callout-dark p,
+.poc-page .poc-prose .poc-callout-dark p {
   font-family: var(--font-jost), system-ui, sans-serif;
   font-size: 16px;
   line-height: 1.75;
@@ -538,8 +540,9 @@
   color: rgba(250, 249, 246, 0.9);
 }
 
-.poc-page .poc-callout-dark strong {
-  color: var(--poc-gold-deep);
+.poc-page .poc-callout-dark strong,
+.poc-page .poc-prose .poc-callout-dark strong {
+  color: var(--poc-gold);
   font-weight: 600;
 }
 
@@ -868,7 +871,7 @@
 }
 
 .poc-page .poc-trap .poc-kicker {
-  color: #a57a03;
+  color: #7A6528;
   margin-bottom: 6px;
 }
 

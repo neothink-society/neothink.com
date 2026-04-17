@@ -84,6 +84,27 @@ export function NeothinkPhilosophyLongformPageContent({
     return () => obs.disconnect();
   }, []);
 
+  useEffect(() => {
+    // Make any wide tables from migrated WordPress HTML keyboard-accessible
+    // scrollable regions (WCAG 2.1 — scrollable-region-focusable). We wrap each
+    // table in a focusable container rather than setting tabindex on the table
+    // itself so screen readers still read it as a table.
+    const root = mainRef.current;
+    if (!root) return;
+    const tables = root.querySelectorAll<HTMLTableElement>(".nu-awakening-html table");
+    tables.forEach((table) => {
+      if (table.parentElement?.classList.contains("nu-table-scroll")) return;
+      const wrap = document.createElement("div");
+      wrap.className = "nu-table-scroll";
+      wrap.setAttribute("tabindex", "0");
+      wrap.setAttribute("role", "region");
+      const caption = table.querySelector("caption")?.textContent?.trim();
+      wrap.setAttribute("aria-label", caption || "Table");
+      table.parentElement?.insertBefore(wrap, table);
+      wrap.appendChild(table);
+    });
+  }, [bodyHtml]);
+
   const heroHeadingId = `${idPrefix}-hero-heading`;
   const introLeadId = `${idPrefix}-intro-lead`;
   const quickTitleId = `${idPrefix}-quick-title`;

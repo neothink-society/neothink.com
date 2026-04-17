@@ -3,7 +3,7 @@
 .pw-page {
   --pw-text: #0e0e0e;
   --pw-body: #4a4540;
-  --pw-muted: #7a7570;
+  --pw-muted: #706B65;
   --pw-gold: #b8973a;
   --pw-gold-deep: #7A6528;
   --pw-gold-bright: #d4b060;
@@ -210,7 +210,9 @@
 .pw-page .pw-featured-text .pw-featured-author {
   font-family: var(--font-jost), system-ui, sans-serif;
   font-size: 13px;
-  color: rgba(253, 252, 250, 0.4);
+  /* 0.4 alpha failed AA (#6e6d6c ≈ 3.3:1 on #0e0e0e). 0.65 alpha lands
+   * at ~#a6a5a3 ≈ 7:1. */
+  color: rgba(253, 252, 250, 0.65);
   margin-bottom: 28px;
   display: block;
 }
@@ -311,7 +313,9 @@
   font-weight: 500;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: rgba(253, 252, 250, 0.35);
+  /* 0.35 alpha ≈ #666665 on #151515 = 3.0:1 (fails AA small text).
+   * Bump to 0.65 so small-caps label passes AA (~6.8:1). */
+  color: rgba(253, 252, 250, 0.65);
 }
 
 /* ── ARTICLE SECTIONS ── */

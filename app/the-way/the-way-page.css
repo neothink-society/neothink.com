@@ -102,7 +102,7 @@
   font-weight: 400;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #7a7570;
+  color: #706B65;
   opacity: 0;
   animation: tw-fade-up 0.8s 0.8s ease forwards;
 }
@@ -201,7 +201,7 @@
   font-size: 24px;
   font-weight: 300;
   font-style: italic;
-  color: #7a7570;
+  color: #706B65;
   line-height: 1.5;
   padding: 32px 0 32px 32px;
   border-left: 2px solid #7A6528;
@@ -249,7 +249,9 @@
 }
 
 .tw-page .tw-world-label.false {
-  color: #7a7570;
+  /* #706B65 on #141414 = 3.49:1 (fails AA 4.5:1 for 10 px small-caps).
+   * #a8a39c lands at ~6:1 on the same surface. */
+  color: #a8a39c;
 }
 .tw-page .tw-world-label.golden {
   color: #d4b060;
@@ -343,7 +345,9 @@
   font-family: var(--font-cormorant-garamond), Georgia, serif;
   font-size: 64px;
   font-weight: 300;
-  color: #e8e3d8;
+  /* Match homepage .nti-stage-num: #938772 passes 3:1 for 64 px large
+   * text (WCAG 1.4.3 AA). Preserves "ghost numeral" aesthetic. */
+  color: #938772;
   line-height: 1;
   margin-bottom: 20px;
   display: block;
@@ -545,7 +549,7 @@
 
 .tw-page .tw-connection-link p {
   font-size: 13px;
-  color: #7a7570;
+  color: #706B65;
   margin-bottom: 0;
 }
 

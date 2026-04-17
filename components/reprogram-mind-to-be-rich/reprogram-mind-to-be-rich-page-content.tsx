@@ -116,14 +116,14 @@ export function ReprogramMindToBeRichPageContent() {
           <h2 id="rmtbr-quick-title">How can you reprogram your mind to be rich?</h2>
           <p>
             <strong>Through Neothink—a limitless way of thinking that starts simple and scales infinitely.</strong>{" "}
-            <Link href={LUCK_350M} style={{ color: "#96792b", textDecoration: "none" }}>
+            <Link href={LUCK_350M} style={{ color: "#7A6528" }}>
               Mark Hamilton
             </Link>{" "}
             developed this approach after nearly losing his business. By applying a thinking technique that pulls
             concepts together into new systems, he went from drowning in daily tasks to building a $350 million
             enterprise. The key: most people are trapped in perceptual thinking (reacting to what’s in front of them).
             Neothink teaches you how to rise to conceptual thinking, then to{" "}
-            <Link href={GREATEST_MENTAL} style={{ color: "#96792b", textDecoration: "none" }}>
+            <Link href={GREATEST_MENTAL} style={{ color: "#7A6528" }}>
               integrating
             </Link>{" "}
             concepts into breakthrough systems that create wealth.

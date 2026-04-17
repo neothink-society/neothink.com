@@ -11,7 +11,7 @@
   --uf-stone-dark: #c8c0b0;
   --uf-text-primary: #0e0e0e;
   --uf-text-secondary: #4a4540;
-  --uf-text-muted: #7a7570;
+  --uf-text-muted: #706B65;
   --uf-white: #fdfcfa;
   --uf-max: 1160px;
   --uf-narrow: 760px;
@@ -508,7 +508,9 @@
 
 .uf-page .uf-law-example p {
   font-size: 13px;
-  color: rgba(253, 252, 250, 0.45);
+  /* 0.45 alpha computed to #7e7e7d on the panel bg, which fails AA at
+   * 4.05:1 on #161616. 0.7 alpha lands at ~#b5b4b0 (7.5:1), AA pass. */
+  color: rgba(253, 252, 250, 0.7);
   line-height: 1.7;
   margin-bottom: 0;
 }
@@ -523,7 +525,9 @@
 }
 
 .uf-page .uf-law-up {
-  color: #c75050;
+  /* #c75050 on the panel bg measured as ~3.4:1. Lightened to keep the
+   * warm-red semantic while passing AA (~7:1) on #161616. */
+  color: #e5716b;
 }
 .uf-page .uf-law-down {
   color: var(--uf-gold-light);
@@ -654,7 +658,10 @@
   font-family: var(--font-cormorant-garamond), Georgia, serif;
   font-size: 32px;
   font-weight: 300;
-  color: var(--uf-stone-dark);
+  /* --uf-stone-dark is a border/divider token, not a text token.
+   * Use --gold-ink (#7A6528) so the serif initials hit AA large-text
+   * 3:1 against the stone-mid avatar background. */
+  color: var(--gold-ink);
 }
 
 .uf-page .uf-author-text h3 {

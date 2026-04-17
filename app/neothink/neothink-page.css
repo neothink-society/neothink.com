@@ -64,7 +64,7 @@
   font-weight: 400;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #7a7570;
+  color: #706B65;
   opacity: 0;
   animation: ntFadeUp 0.8s 0.8s ease forwards;
 }
@@ -165,7 +165,7 @@
   font-size: 24px;
   font-weight: 300;
   font-style: italic;
-  color: #7a7570;
+  color: #706B65;
   line-height: 1.5;
   padding: 32px 0 32px 32px;
   border-left: 2px solid #7A6528;
@@ -420,7 +420,7 @@
 }
 
 .nt-compare-col.mortal .nt-compare-col-label {
-  color: #7a7570;
+  color: #706B65;
 }
 
 .nt-compare-col.immortal .nt-compare-col-label {
@@ -525,7 +525,7 @@
 
 .nt-history-era p {
   font-size: 13px;
-  color: #7a7570;
+  color: #706B65;
   line-height: 1.65;
   margin-bottom: 0;
 }
@@ -650,7 +650,7 @@
 .nt-conn-link p {
   font-family: var(--sans);
   font-size: 13px;
-  color: #7a7570;
+  color: #706B65;
   margin-bottom: 0;
   font-weight: 300;
 }

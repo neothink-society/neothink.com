@@ -3,7 +3,7 @@
 .uyg-page {
   --uyg-text: #0e0e0e;
   --uyg-body: #4a4540;
-  --uyg-muted: #7a7570;
+  --uyg-muted: #706B65;
   --uyg-gold: #b8973a;
   --uyg-gold-deep: #7A6528;
   --uyg-cream: #fdfcfa;
@@ -512,13 +512,14 @@
   border-radius: 0;
 }
 
-.uyg-page .uyg-callout-dark .uyg-callout-kicker {
+.uyg-page .uyg-callout-dark .uyg-callout-kicker,
+.uyg-page .uyg-prose .uyg-callout-dark .uyg-callout-kicker {
   font-family: var(--font-jost), system-ui, sans-serif;
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--uyg-gold-deep);
+  color: var(--uyg-gold);
   margin: 0 0 10px;
 }
 
@@ -530,7 +531,8 @@
   color: #faf9f6;
 }
 
-.uyg-page .uyg-callout-dark p {
+.uyg-page .uyg-callout-dark p,
+.uyg-page .uyg-prose .uyg-callout-dark p {
   font-family: var(--font-jost), system-ui, sans-serif;
   font-size: 16px;
   line-height: 1.75;
@@ -538,8 +540,9 @@
   color: rgba(250, 249, 246, 0.9);
 }
 
-.uyg-page .uyg-callout-dark strong {
-  color: var(--uyg-gold-deep);
+.uyg-page .uyg-callout-dark strong,
+.uyg-page .uyg-prose .uyg-callout-dark strong {
+  color: var(--uyg-gold);
   font-weight: 600;
 }
 

@@ -11,7 +11,7 @@
   --nv-stone-dark: #c8c0b0;
   --nv-text-primary: #0e0e0e;
   --nv-text-secondary: #4a4540;
-  --nv-text-muted: #7a7570;
+  --nv-text-muted: #706B65;
   --nv-white: #fdfcfa;
   --nv-max: 1160px;
   --nv-narrow: 760px;
@@ -381,7 +381,9 @@
 
 .nv-page .nv-primelaw-note {
   font-size: 15px;
-  color: rgba(253, 252, 250, 0.45);
+  /* 0.45 alpha ≈ #7a7978 on #0e0e0e = 4.44:1 (just under AA 4.5:1).
+   * Nudge up so small-body copy passes AA on deep bg. */
+  color: rgba(253, 252, 250, 0.55);
   line-height: 1.8;
   font-weight: 300;
   max-width: 560px;

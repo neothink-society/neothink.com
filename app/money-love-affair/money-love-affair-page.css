@@ -3,7 +3,7 @@
 .mla-page {
   --mla-text: #0e0e0e;
   --mla-body: #4a4540;
-  --mla-muted: #7a7570;
+  --mla-muted: #706B65;
   --mla-gold: #b8973a;
   --mla-gold-deep: #7A6528;
   --mla-cream: #fdfcfa;
@@ -512,13 +512,14 @@
   border-radius: 0;
 }
 
-.mla-page .mla-callout-dark .mla-callout-kicker {
+.mla-page .mla-callout-dark .mla-callout-kicker,
+.mla-page .mla-prose .mla-callout-dark .mla-callout-kicker {
   font-family: var(--font-jost), system-ui, sans-serif;
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--mla-gold-deep);
+  color: var(--mla-gold);
   margin: 0 0 10px;
 }
 
@@ -530,7 +531,8 @@
   color: #faf9f6;
 }
 
-.mla-page .mla-callout-dark p {
+.mla-page .mla-callout-dark p,
+.mla-page .mla-prose .mla-callout-dark p {
   font-family: var(--font-jost), system-ui, sans-serif;
   font-size: 16px;
   line-height: 1.75;
@@ -538,8 +540,9 @@
   color: rgba(250, 249, 246, 0.9);
 }
 
-.mla-page .mla-callout-dark strong {
-  color: var(--mla-gold-deep);
+.mla-page .mla-callout-dark strong,
+.mla-page .mla-prose .mla-callout-dark strong {
+  color: var(--mla-gold);
   font-weight: 600;
 }
 
@@ -868,7 +871,7 @@
 }
 
 .mla-page .mla-trap .mla-kicker {
-  color: #a57a03;
+  color: #7A6528;
   margin-bottom: 6px;
 }
 

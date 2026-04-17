@@ -3,7 +3,7 @@
 .sbp-page {
   --sbp-text: #0e0e0e;
   --sbp-body: #4a4540;
-  --sbp-muted: #7a7570;
+  --sbp-muted: #706B65;
   --sbp-gold: #b8973a;
   --sbp-gold-deep: #7A6528;
   --sbp-cream: #fdfcfa;
@@ -512,13 +512,14 @@
   border-radius: 0;
 }
 
-.sbp-page .sbp-callout-dark .sbp-callout-kicker {
+.sbp-page .sbp-callout-dark .sbp-callout-kicker,
+.sbp-page .sbp-prose .sbp-callout-dark .sbp-callout-kicker {
   font-family: var(--font-jost), system-ui, sans-serif;
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--sbp-gold-deep);
+  color: var(--sbp-gold);
   margin: 0 0 10px;
 }
 
@@ -530,7 +531,8 @@
   color: #faf9f6;
 }
 
-.sbp-page .sbp-callout-dark p {
+.sbp-page .sbp-callout-dark p,
+.sbp-page .sbp-prose .sbp-callout-dark p {
   font-family: var(--font-jost), system-ui, sans-serif;
   font-size: 16px;
   line-height: 1.75;
@@ -538,8 +540,9 @@
   color: rgba(250, 249, 246, 0.9);
 }
 
-.sbp-page .sbp-callout-dark strong {
-  color: var(--sbp-gold-deep);
+.sbp-page .sbp-callout-dark strong,
+.sbp-page .sbp-prose .sbp-callout-dark strong {
+  color: var(--sbp-gold);
   font-weight: 600;
 }
 
@@ -868,7 +871,7 @@
 }
 
 .sbp-page .sbp-trap .sbp-kicker {
-  color: #a57a03;
+  color: #7A6528;
   margin-bottom: 6px;
 }
 
@@ -984,11 +987,13 @@
   margin: 20px 0 0;
 }
 
-.sbp-page .sbp-vision-cascade > .sbp-kicker {
+.sbp-page .sbp-vision-cascade > .sbp-kicker,
+.sbp-page .sbp-prose .sbp-vision-cascade > .sbp-kicker {
   text-align: center;
   display: block;
   margin-bottom: 20px;
-  color: var(--sbp-gold-deep);
+  /* Display gold on dark cascade card (#1a1917). */
+  color: var(--sbp-gold);
 }
 
 .sbp-page .sbp-vision-stack {
@@ -1013,7 +1018,8 @@
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--sbp-gold-deep);
+  /* Display gold on #2a2a2a dark panel (see callout-kicker rationale). */
+  color: var(--sbp-gold);
   margin-bottom: 4px;
 }
 
@@ -1157,8 +1163,10 @@
   margin: 20px 0 0;
 }
 
-.sbp-page .sbp-nash-card .sbp-kicker {
-  color: var(--sbp-gold-deep);
+.sbp-page .sbp-nash-card .sbp-kicker,
+.sbp-page .sbp-prose .sbp-nash-card .sbp-kicker {
+  /* Display gold on dark nash card (#1a1917). */
+  color: var(--sbp-gold);
   margin-bottom: 10px;
 }
 

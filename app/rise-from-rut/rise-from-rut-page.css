@@ -3,7 +3,7 @@
 .rr-page {
   --rr-text: #0e0e0e;
   --rr-body: #4a4540;
-  --rr-muted: #7a7570;
+  --rr-muted: #706B65;
   --rr-gold: #b8973a;
   --rr-gold-deep: #7A6528;
   --rr-cream: #fdfcfa;
@@ -248,6 +248,8 @@
 
 .rr-page .rr-def a {
   color: var(--rr-gold-deep);
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .rr-page .rr-compare {

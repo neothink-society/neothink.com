@@ -152,7 +152,7 @@ export const HOW_TO_RAISE_A_GENIUS_BODY_HTML = `<div class="elementor-element el
 				</div>
 				<div class="elementor-element elementor-element-faa01ac elementor-widget elementor-widget-text-editor" data-id="faa01ac" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p style="text-align:center;color:#64748b;font-size:16px;margin-top:-16px;">A simple daily practice that develops genius-level thinking</p>								</div>
+									<p style="text-align:center;color:#475569;font-size:16px;margin-top:-16px;">A simple daily practice that develops genius-level thinking</p>								</div>
 				</div>
 				<div class="elementor-element elementor-element-5b89d44 elementor-widget elementor-widget-text-editor" data-id="5b89d44" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
