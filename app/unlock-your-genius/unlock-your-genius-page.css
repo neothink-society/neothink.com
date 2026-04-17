@@ -5,7 +5,7 @@
   --uyg-body: #4a4540;
   --uyg-muted: #7a7570;
   --uyg-gold: #b8973a;
-  --uyg-gold-deep: #8a7030;
+  --uyg-gold-deep: #7A6528;
   --uyg-cream: #fdfcfa;
   --uyg-stone: #f4f1ec;
   --uyg-border: #e8e3d8;
@@ -216,7 +216,7 @@
   margin: 32px auto 0;
   padding: 24px 28px;
   background: var(--uyg-stone);
-  border-left: 3px solid var(--uyg-gold);
+  border-left: 3px solid var(--uyg-gold-deep);
 }
 
 .uyg-page .uyg-def-label {
@@ -439,7 +439,7 @@
 
 .uyg-page .uyg-btn:hover {
   background: var(--uyg-gold);
-  border-color: var(--uyg-gold);
+  border-color: var(--uyg-gold-deep);
   color: var(--uyg-dark);
 }
 
@@ -450,7 +450,7 @@
 }
 
 .uyg-page .uyg-btn--ghost:hover {
-  border-color: var(--uyg-gold);
+  border-color: var(--uyg-gold-deep);
 }
 
 .uyg-page .uyg-reveal {
@@ -518,7 +518,7 @@
   font-weight: 700;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--uyg-gold);
+  color: var(--uyg-gold-deep);
   margin: 0 0 10px;
 }
 
@@ -539,7 +539,7 @@
 }
 
 .uyg-page .uyg-callout-dark strong {
-  color: var(--uyg-gold);
+  color: var(--uyg-gold-deep);
   font-weight: 600;
 }
 

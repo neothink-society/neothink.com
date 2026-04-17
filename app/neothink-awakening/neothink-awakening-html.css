@@ -90,11 +90,16 @@
   margin-top: 8px;
 }
 
+/* Byline credit links. A persistent underline is required so axe's
+ * link-in-text-block rule (WCAG 1.4.1) passes — gold-on-body gold is
+ * ~2.0:1 which is below the 3:1 non-color-affordance threshold. */
 .nu-awakening-byline a {
   color: var(--nu-gold-deep);
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
 }
 
 .nu-awakening-byline a:hover {
-  text-decoration: underline;
+  text-decoration-thickness: 2px;
 }

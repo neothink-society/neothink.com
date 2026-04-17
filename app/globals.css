@@ -42,6 +42,9 @@
   --color-card: var(--card);
   --color-gold: var(--gold);
   --color-gold-light: var(--gold-light);
+  --color-gold-ink: var(--gold-ink);
+  --color-gold-ink-deep: var(--gold-ink-deep);
+  --color-gold-display: var(--gold-display);
   --color-ink: var(--ink);
   --color-stone-mid: var(--stone-mid);
   --color-cream: var(--cream);
@@ -58,15 +61,43 @@
 }
 
 :root {
-  /* Neothink design tokens */
+  /* Neothink design tokens
+   *
+   * Gold has three semantic roles:
+   *   --gold         #B8973A  Ornamental brand gold. Use ONLY for fills,
+   *                           backgrounds, and large (>=24px) decorative
+   *                           marks on light backgrounds. Pairs with
+   *                           ink/white text (ink-on-gold 6.92:1 passes
+   *                           WCAG AA). Never use as small text color or
+   *                           thin UI indicator on a light background —
+   *                           it is only 2.72:1 there and fails 3:1.
+   *   --gold-ink     #7A6528  Accessible text gold for light backgrounds.
+   *                           Use for body text, eyebrow labels, links,
+   *                           borders-as-indicator, and focus rings.
+   *                           Hits 5.98:1 on paper (#FDFCFA) and 5.43:1
+   *                           on stone (#F4F1EC), so it clears AA normal
+   *                           text (4.5:1) on both cream surfaces as well
+   *                           as 3:1 UI contrast. When used as a link
+   *                           inside a paragraph, underline it so
+   *                           link-in-text-block (3:1 vs body) is met.
+   *   --gold-light   #D4B060  For gold text on dark backgrounds
+   *                           (9.36:1 on ink). Not for light backgrounds.
+   *   --gold-display  (alias) Same as --gold; named so intent reads
+   *                           clearly in components.
+   *   --gold-ink-deep (alias) Kept as an alias of --gold-ink for existing
+   *                           references; same value.
+   */
   --gold: #B8973A;
+  --gold-display: #B8973A;
+  --gold-ink: #7A6528;
+  --gold-ink-deep: #7A6528;
   --gold-light: #D4B060;
   --ink: #0E0E0E;
   --white: #FDFCFA;
   --stone-mid: #E8E3D8;
   --text-secondary: #4A4540;
   --cream: #F4F1EC;
-  --gold-muted: #8A7030;
+  --gold-muted: #7A6528;
   --border-secondary: #C8C0B0;
   /* WordPress header parity (nti-nav-*) */
   --serif: "Cormorant Garamond", Georgia, serif;
@@ -82,7 +113,7 @@
   --card-foreground: #0E0E0E;
   --popover: #FDFCFA;
   --popover-foreground: #0E0E0E;
-  --primary: #B8973A;
+  --primary: #7A6528;
   --primary-foreground: #FDFCFA;
   --secondary: #F4F1EC;
   --secondary-foreground: #0E0E0E;
@@ -93,7 +124,7 @@
   --destructive: oklch(0.577 0.245 27.325);
   --border: #E8E3D8;
   --input: #E8E3D8;
-  --ring: #B8973A;
+  --ring: #7A6528;
   --chart-1: #B8973A;
   --chart-2: #D4B060;
   --chart-3: #4A4540;
@@ -103,12 +134,12 @@
   --radius: 0rem;
   --sidebar: #FDFCFA;
   --sidebar-foreground: #0E0E0E;
-  --sidebar-primary: #B8973A;
+  --sidebar-primary: #7A6528;
   --sidebar-primary-foreground: #FDFCFA;
   --sidebar-accent: #F4F1EC;
   --sidebar-accent-foreground: #0E0E0E;
   --sidebar-border: #E8E3D8;
-  --sidebar-ring: #B8973A;
+  --sidebar-ring: #7A6528;
 }
 
 .dark {
@@ -188,7 +219,7 @@
   font-weight: 500;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: #b8973a;
+  color: #7A6528;
   margin-bottom: 32px;
   opacity: 0;
   animation: ntiHeroFadeUp 0.8s 0.2s ease forwards;
@@ -209,7 +240,7 @@
 
 .nti-hero h1 em {
   font-style: italic;
-  color: #8a7030;
+  color: #7A6528;
 }
 
 .nti-hero .nti-sub {
@@ -246,8 +277,8 @@
 }
 
 .nti-hero .nti-btn-primary:hover {
-  background: #b8973a;
-  border-color: #b8973a;
+  background: #7A6528;
+  border-color: #7A6528;
 }
 
 .nti-hero .nti-btn-secondary {
@@ -265,8 +296,8 @@
 }
 
 .nti-hero .nti-btn-secondary:hover {
-  border-color: #b8973a;
-  color: #b8973a;
+  border-color: #7A6528;
+  color: #7A6528;
 }
 
 .nti-hero .nti-rule {
@@ -285,7 +316,7 @@
   font-size: 10px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: #7a7570;
+  color: #706B65;
   opacity: 0;
   animation: ntiHeroFadeUp 1s 1.2s ease forwards;
 }
@@ -349,7 +380,7 @@
 /* ── Homepage announcement / Unleashed band (WordPress .ann-b) ── */
 .ann-b {
   background: #f4f1ec;
-  border-top: 3px solid #b8973a;
+  border-top: 3px solid #7A6528;
   border-bottom: 1px solid #e8e3d8;
   padding: 80px 48px;
   font-family: var(--sans);
@@ -391,7 +422,7 @@
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  background: #b8973a;
+  background: #7A6528;
   padding: 10px 20px;
   margin-bottom: 32px;
   align-self: flex-start;
@@ -440,7 +471,7 @@
 
 .ann-b-left h2 em {
   font-style: italic;
-  color: #8a7030;
+  color: #7A6528;
 }
 
 .ann-b-subtitle {
@@ -448,7 +479,7 @@
   font-weight: 400;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: #b8973a;
+  color: var(--gold-ink);
   margin-bottom: 20px;
 }
 
@@ -486,8 +517,8 @@
 }
 
 .ann-btn-dark:hover {
-  background: #b8973a;
-  border-color: #b8973a;
+  background: #7A6528;
+  border-color: #7A6528;
 }
 
 .ann-btn-outline {
@@ -509,8 +540,8 @@
 }
 
 .ann-btn-outline:hover {
-  border-color: #b8973a;
-  color: #b8973a;
+  border-color: #7A6528;
+  color: #7A6528;
 }
 
 .ann-b-book {
@@ -767,7 +798,7 @@
   font-weight: 500;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: #b8973a;
+  color: #7A6528;
   margin-bottom: 20px;
   display: block;
 }
@@ -792,7 +823,7 @@
 
 .nti-framework .nti-left h2 em {
   font-style: italic;
-  color: #8a7030;
+  color: #7A6528;
 }
 
 .nti-framework .nti-left p {
@@ -823,8 +854,8 @@
 }
 
 .nti-framework .nti-btn:hover {
-  border-color: #b8973a;
-  color: #b8973a;
+  border-color: #7A6528;
+  color: #7A6528;
 }
 
 .nti-framework .nti-cards {
@@ -848,7 +879,7 @@
   font-family: var(--serif);
   font-size: 13px;
   font-weight: 400;
-  color: #b8973a;
+  color: #7A6528;
   letter-spacing: 0.1em;
   margin-bottom: 12px;
   display: block;
@@ -922,7 +953,7 @@
   font-weight: 500;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: #b8973a;
+  color: #7A6528;
   margin-bottom: 20px;
   display: block;
 }
@@ -949,7 +980,7 @@
   font-size: 13px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #b8973a;
+  color: #7A6528;
   font-weight: 500;
   margin-bottom: 36px;
   display: block;
@@ -970,7 +1001,7 @@
 
 .nti-mark .nti-pullquote {
   font-style: italic;
-  color: #7a7570 !important;
+  color: #706B65 !important;
   font-family: var(--serif) !important;
   font-size: 17px !important;
   line-height: 1.6 !important;
@@ -1036,8 +1067,8 @@
 }
 
 .nti-mark .nti-btn:hover {
-  border-color: #b8973a;
-  color: #b8973a;
+  border-color: #7A6528;
+  color: #7A6528;
 }
 
 .nti-mark .nti-portrait {
@@ -1156,7 +1187,7 @@
   font-weight: 500;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: #b8973a;
+  color: #7A6528;
   margin-bottom: 20px;
   display: block;
 }
@@ -1180,7 +1211,7 @@
 
 .nti-podcast .nti-text h2 em {
   font-style: italic;
-  color: #8a7030;
+  color: #7A6528;
 }
 
 .nti-podcast .nti-text p {
@@ -1211,8 +1242,8 @@
 }
 
 .nti-podcast .nti-btn:hover {
-  background: #b8973a;
-  border-color: #b8973a;
+  background: #7A6528;
+  border-color: #7A6528;
 }
 
 .nti-podcast .nti-visual {
@@ -1272,7 +1303,7 @@
 
 .nti-podcast .nti-badge:hover {
   border-color: rgba(184, 151, 58, 0.7);
-  color: #b8973a;
+  color: #7A6528;
 }
 
 .nti-podcast .nti-reveal {
@@ -1410,7 +1441,7 @@
   font-size: 12px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: rgba(253, 252, 250, 0.45);
+  color: rgba(253, 252, 250, 0.6);
   font-weight: 400;
 }
 
@@ -1541,7 +1572,7 @@
   font-weight: 500;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: #b8973a;
+  color: #7A6528;
   margin-bottom: 20px;
   display: block;
 }
@@ -1587,7 +1618,7 @@
   font-size: 22px;
   font-weight: 300;
   font-style: italic;
-  color: #7a7570;
+  color: #706B65;
   line-height: 1.5;
 }
 
@@ -1643,7 +1674,7 @@
   font-size: 10px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: #b8973a;
+  color: #7A6528;
   font-weight: 500;
 }
 
@@ -1686,8 +1717,8 @@
 }
 
 .nti-way .nti-btn:hover {
-  background: #b8973a;
-  border-color: #b8973a;
+  background: #7A6528;
+  border-color: #7A6528;
 }
 
 .nti-way .nti-reveal {
@@ -1752,7 +1783,7 @@
   font-weight: 500;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: #b8973a;
+  color: #7A6528;
   margin-bottom: 20px;
   display: block;
 }
@@ -1775,7 +1806,7 @@
 
 .nti-neothink .nti-grid h2 em {
   font-style: italic;
-  color: #8a7030;
+  color: #7A6528;
 }
 
 .nti-neothink .nti-grid p {
@@ -1806,8 +1837,8 @@
 }
 
 .nti-neothink .nti-btn:hover {
-  border-color: #b8973a;
-  color: #b8973a;
+  border-color: #7A6528;
+  color: #7A6528;
 }
 
 .nti-neothink .nti-caps {
@@ -1986,7 +2017,7 @@
   font-weight: 500;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: #b8973a;
+  color: #7A6528;
   margin-bottom: 20px;
   display: block;
 }
@@ -2026,7 +2057,7 @@
   font-size: 10px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: #b8973a;
+  color: #7A6528;
   font-weight: 500;
   margin-bottom: 16px;
   display: block;
@@ -2055,7 +2086,7 @@
   font-size: 11px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #7a7570;
+  color: #706B65;
   font-weight: 500;
 }
 
@@ -2082,8 +2113,8 @@
 }
 
 .nti-articles .nti-btn:hover {
-  border-color: #b8973a;
-  color: #b8973a;
+  border-color: #7A6528;
+  color: #7A6528;
 }
 
 .nti-articles .nti-reveal {
@@ -2163,7 +2194,10 @@
 }
 
 .nti-nav-logo span {
-  color: var(--gold);
+  /* Use the accessible ink gold here so the wordmark passes contrast in
+   * body copy size. The hero/display gold (--gold) is reserved for
+   * decorative large surfaces where its 2.7:1 is brand-intentional. */
+  color: var(--gold-ink);
 }
 
 .nti-nav-bottom {
@@ -2479,7 +2513,79 @@
   a:focus-visible,
   button:focus-visible,
   [role="button"]:focus-visible {
-    outline: 2px solid #B8973A;
+    outline: 2px solid #7A6528;
     outline-offset: 2px;
   }
+}
+
+/* ── Gold links inside prose paragraphs ──
+ *
+ * When a gold link sits inside a block of body text, color alone is not
+ * enough to identify it as a link: color-vs-body gold (#7A6528) against
+ * body text (#4A4540) is only 2.00:1, below the 3:1 "link in text block"
+ * requirement (WCAG 1.4.1, and modern axe link-in-text-block rule).
+ *
+ * The accessible fix is a persistent underline on links inside body
+ * text. These selectors cover every migrated WordPress prose container
+ * we ship: .nu-prose (primary), .nu-awakening-html (blog-post body),
+ * .shb-body / .nssd-body (long-form article bodies), and the generic
+ * wp-content / wp-prose hooks for safety. Nav, buttons, and link-lists
+ * keep their own affordances (already have underline-on-hover, color
+ * shift, or a visible shape).
+ */
+.nu-prose a,
+.nu-awakening-html a,
+.nu-awakening-byline a,
+.nu-hero-sub a,
+.shb-body a,
+.nssd-body a,
+.wp-content a,
+.wp-prose a {
+  color: var(--gold-ink);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+}
+
+.nu-prose a:hover,
+.nu-awakening-html a:hover,
+.nu-awakening-byline a:hover,
+.nu-hero-sub a:hover,
+.shb-body a:hover,
+.nssd-body a:hover,
+.wp-content a:hover,
+.wp-prose a:hover {
+  color: var(--ink);
+  text-decoration-thickness: 2px;
+}
+
+/* Byline credit links inside .nu-hero-sub ("Published by …") also carry
+ * the .nu-prose class. axe link-in-text-block flags them when not
+ * underlined because color-vs-surrounding-text is 2.00:1, so we keep
+ * the underline. (Earlier attempt to strip underline for visual
+ * cleanliness broke accessibility; visual clutter is preferable to an
+ * a11y regression.) */
+.nu-hero-sub a.nu-prose {
+  color: var(--gold-ink);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+}
+.nu-hero-sub a.nu-prose:hover {
+  color: var(--ink);
+  text-decoration-thickness: 2px;
+}
+
+/* Also catch the anchor that carries .nu-prose as its ONLY styling hook
+ * (common pattern for inline links inside migrated prose). The rule
+ * above targets descendants, so this one handles the element itself. */
+a.nu-prose {
+  color: var(--gold-ink);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+}
+a.nu-prose:hover {
+  color: var(--ink);
+  text-decoration-thickness: 2px;
 }

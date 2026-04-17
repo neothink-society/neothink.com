@@ -5,7 +5,7 @@
   --mla-body: #4a4540;
   --mla-muted: #7a7570;
   --mla-gold: #b8973a;
-  --mla-gold-deep: #8a7030;
+  --mla-gold-deep: #7A6528;
   --mla-cream: #fdfcfa;
   --mla-stone: #f4f1ec;
   --mla-border: #e8e3d8;
@@ -216,7 +216,7 @@
   margin: 32px auto 0;
   padding: 24px 28px;
   background: var(--mla-stone);
-  border-left: 3px solid var(--mla-gold);
+  border-left: 3px solid var(--mla-gold-deep);
 }
 
 .mla-page .mla-def-label {
@@ -439,7 +439,7 @@
 
 .mla-page .mla-btn:hover {
   background: var(--mla-gold);
-  border-color: var(--mla-gold);
+  border-color: var(--mla-gold-deep);
   color: var(--mla-dark);
 }
 
@@ -450,7 +450,7 @@
 }
 
 .mla-page .mla-btn--ghost:hover {
-  border-color: var(--mla-gold);
+  border-color: var(--mla-gold-deep);
 }
 
 .mla-page .mla-reveal {
@@ -518,7 +518,7 @@
   font-weight: 700;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--mla-gold);
+  color: var(--mla-gold-deep);
   margin: 0 0 10px;
 }
 
@@ -539,7 +539,7 @@
 }
 
 .mla-page .mla-callout-dark strong {
-  color: var(--mla-gold);
+  color: var(--mla-gold-deep);
   font-weight: 600;
 }
 
@@ -645,7 +645,7 @@
 .mla-page .mla-structure-card {
   background: #1a1917;
   border: 1px solid #2a2824;
-  border-left: 4px solid var(--mla-gold);
+  border-left: 4px solid var(--mla-gold-deep);
   border-radius: 0;
   padding: 20px 22px;
 }
@@ -656,7 +656,7 @@
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--mla-gold);
+  color: var(--mla-gold-deep);
   margin: 0 0 8px;
 }
 
@@ -679,7 +679,7 @@
 /* Ford assembly line + lesson-specific callouts */
 .mla-page .mla-ford-block {
   background: #1a1917;
-  border: 2px solid var(--mla-gold);
+  border: 2px solid var(--mla-gold-deep);
   border-radius: 0;
   padding: 28px 24px 32px;
   margin: 24px 0 0;
@@ -741,20 +741,20 @@
 
 .mla-page .mla-ford-arrow {
   font-size: 36px;
-  color: var(--mla-gold);
+  color: var(--mla-gold-deep);
   line-height: 1;
 }
 
 .mla-page .mla-ford-divider {
   margin-top: 22px;
   padding-top: 22px;
-  border-top: 2px dashed var(--mla-gold);
+  border-top: 2px dashed var(--mla-gold-deep);
 }
 
 .mla-page .mla-ford-8x {
   font-size: clamp(48px, 10vw, 64px);
   font-weight: 700;
-  color: var(--mla-gold);
+  color: var(--mla-gold-deep);
   line-height: 1;
 }
 
@@ -905,7 +905,7 @@
 
 .mla-page .mla-stat-64 {
   background: #1a1917;
-  border: 2px solid var(--mla-gold);
+  border: 2px solid var(--mla-gold-deep);
   border-radius: 0;
   padding: 28px 24px;
   margin: 24px 0 0;
@@ -915,7 +915,7 @@
 .mla-page .mla-stat-64-num {
   font-size: clamp(56px, 14vw, 72px);
   font-weight: 700;
-  color: var(--mla-gold);
+  color: var(--mla-gold-deep);
   line-height: 1;
 }
 
@@ -937,7 +937,7 @@
 
 .mla-page .mla-rule {
   border: none;
-  border-top: 1px solid var(--mla-gold);
+  border-top: 1px solid var(--mla-gold-deep);
   margin: 40px auto 0;
   width: 60px;
   opacity: 0.85;
@@ -978,7 +978,7 @@
 /* Path to curing aging (horizontal steps) */
 .mla-page .mla-path-flow {
   background: #1a1917;
-  border: 2px solid var(--mla-gold);
+  border: 2px solid var(--mla-gold-deep);
   border-radius: 0;
   padding: 24px 20px 28px;
   margin: 20px 0 0;
@@ -1014,7 +1014,7 @@
 .mla-page .mla-path-step-num {
   font-size: 26px;
   font-weight: 700;
-  color: var(--mla-gold);
+  color: var(--mla-gold-deep);
   margin-bottom: 4px;
 }
 
@@ -1029,7 +1029,7 @@
 .mla-page .mla-path-arrow {
   align-self: center;
   font-size: 22px;
-  color: var(--mla-gold);
+  color: var(--mla-gold-deep);
   line-height: 1;
 }
 
@@ -1161,7 +1161,7 @@
 }
 
 .mla-page .mla-child-card strong {
-  color: var(--mla-gold);
+  color: var(--mla-gold-deep);
   font-weight: 600;
 }
 

@@ -157,11 +157,46 @@ Religion, religious, sacred text, scripture, church, worship, congregation, Bibl
 
 ## **4.1 Color Palette**
 
-**Gold (\#B8973A):** Primary accent. Section labels, links, hover states, rules, badges. The signature color.
+The Neothink Institute palette carries **three** gold roles. Each one has a WCAG-tested purpose; using the wrong one on the wrong surface is the single most common contrast mistake in the migration.
 
-**Gold Light (\#D4B060):** Used on dark backgrounds for gold text, emphasis, italic highlights.
+**Gold — Display (\#B8973A):** The signature brand gold. Use ONLY as a FILL or LARGE DECORATIVE MARK on light backgrounds, and as TEXT on dark backgrounds. Examples: the logo's "Institute" word, ornamental 1 px rules, 6 px dots, the book-ribbon, the dark hero CTA with ink-colored text, chart-1 accent. Do **not** use as small text or thin UI indicator on a light background — it is only 2.72:1 against paper, which fails WCAG text and UI contrast. Also exposed as the CSS token `--gold` and `--gold-display` (same value).
 
-**Gold Dim (\#8A7030):** Used for italic emphasis in headings on light backgrounds.
+**Gold — Ink (\#7A6528):** The accessible small-text gold. Use for body-size text, section/eyebrow labels, prose and nav links, borders-as-indicator, focus rings, and button fills where the button has *white* text. Hits 5.98:1 on paper (\#FDFCFA) and 5.43:1 on stone (\#F4F1EC), so it clears AA normal text and 3:1 UI contrast on both cream surfaces. This is the value behind `--gold-ink`, `--gold-ink-deep` (legacy alias), `--gold-muted`, shadcn's `--primary`, and shadcn's `--ring`. When used as a link inside a paragraph, add an underline — gold-vs-body is only ~2.3:1, below the 3:1 link-in-text-block requirement, and the underline is what carries the link affordance.
+
+**Gold — Light (\#D4B060):** Used on dark backgrounds for gold text, emphasis, and italic highlights. Hits 9.36:1 on ink. Not for light backgrounds (fails there). CSS token: `--gold-light`.
+
+**Italic emphasis in headings on light backgrounds** uses Gold — Ink (\#7A6528), not the display gold, for the same contrast reason.
+
+**Ink (\#0E0E0E):** Primary text color on light backgrounds. Dark section backgrounds.
+
+**Stone (\#F4F1EC):** Alternate section background. Light warm gray.
+
+**Stone Mid (\#E8E3D8):** Grid gaps, borders, dividers between cards.
+
+**Stone Dark (\#C8C0B0):** Secondary borders, button outlines.
+
+**Text Primary (\#0E0E0E):** Headlines, bold text, emphasis.
+
+**Text Secondary (\#4A4540):** Body text.
+
+**Text Muted (\#7A7570):** Captions, metadata, footer text.
+
+**White (\#FDFCFA):** Page background. Not pure white. Warm off-white.
+
+### Gold contrast cheatsheet
+
+| Foreground | Background | Ratio | Verdict |
+| --- | --- | --- | --- |
+| Gold — Display \#B8973A text | Paper \#FDFCFA | 2.72:1 | FAILS (text and UI) |
+| Gold — Display \#B8973A text | Stone \#F4F1EC | 2.47:1 | FAILS (text and UI) |
+| Gold — Ink \#7A6528 text | Paper \#FDFCFA | 5.98:1 | PASSES AA normal + UI |
+| Gold — Ink \#7A6528 text | Stone \#F4F1EC | 5.43:1 | PASSES AA normal + UI |
+| Gold — Light \#D4B060 text | Ink \#0E0E0E | 9.36:1 | PASSES AAA |
+| Ink \#0E0E0E text | Gold — Display \#B8973A fill | 6.92:1 | PASSES AA |
+| White \#FDFCFA text | Gold — Display \#B8973A fill | 2.72:1 | FAILS — use Gold — Ink fill instead |
+| White \#FDFCFA text | Gold — Ink \#7A6528 fill | 5.98:1 | PASSES AA |
+
+Logotypes (the "Neothink Institute" wordmark and any equivalent logo art) are exempt from contrast requirements, so Display gold is still correct there even on light backgrounds — that is explicitly allowed by WCAG.
 
 **Ink (\#0E0E0E):** Primary text color on light backgrounds. Dark section backgrounds.
 
@@ -187,7 +222,7 @@ Religion, religious, sacred text, scripture, church, worship, congregation, Bibl
 
 **Button Text:** Jost, weight 500, 12px, letter-spacing 0.14em, uppercase.
 
-**Section Labels:** Jost, weight 500, 10px, letter-spacing 0.22em, uppercase, gold color.
+**Section Labels:** Jost, weight 500, 10px, letter-spacing 0.22em, uppercase, Gold — Ink (\#7A6528). Section labels are body-size text, not a logotype, so they use the accessible gold. Display gold (\#B8973A) on this size would fail WCAG.
 
 Font imports (include at top of every HTML widget): Cormorant Garamond (300, 400, 500, 600, italic 300, 400\) and Jost (300, 400, 500, 600).
 

@@ -5,7 +5,7 @@
   --poc-body: #4a4540;
   --poc-muted: #7a7570;
   --poc-gold: #b8973a;
-  --poc-gold-deep: #8a7030;
+  --poc-gold-deep: #7A6528;
   --poc-cream: #fdfcfa;
   --poc-stone: #f4f1ec;
   --poc-border: #e8e3d8;
@@ -216,7 +216,7 @@
   margin: 32px auto 0;
   padding: 24px 28px;
   background: var(--poc-stone);
-  border-left: 3px solid var(--poc-gold);
+  border-left: 3px solid var(--poc-gold-deep);
 }
 
 .poc-page .poc-def-label {
@@ -439,7 +439,7 @@
 
 .poc-page .poc-btn:hover {
   background: var(--poc-gold);
-  border-color: var(--poc-gold);
+  border-color: var(--poc-gold-deep);
   color: var(--poc-dark);
 }
 
@@ -450,7 +450,7 @@
 }
 
 .poc-page .poc-btn--ghost:hover {
-  border-color: var(--poc-gold);
+  border-color: var(--poc-gold-deep);
 }
 
 .poc-page .poc-reveal {
@@ -518,7 +518,7 @@
   font-weight: 700;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--poc-gold);
+  color: var(--poc-gold-deep);
   margin: 0 0 10px;
 }
 
@@ -539,7 +539,7 @@
 }
 
 .poc-page .poc-callout-dark strong {
-  color: var(--poc-gold);
+  color: var(--poc-gold-deep);
   font-weight: 600;
 }
 
@@ -645,7 +645,7 @@
 .poc-page .poc-structure-card {
   background: #1a1917;
   border: 1px solid #2a2824;
-  border-left: 4px solid var(--poc-gold);
+  border-left: 4px solid var(--poc-gold-deep);
   border-radius: 0;
   padding: 20px 22px;
 }
@@ -656,7 +656,7 @@
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--poc-gold);
+  color: var(--poc-gold-deep);
   margin: 0 0 8px;
 }
 
@@ -679,7 +679,7 @@
 /* Ford assembly line + lesson-specific callouts */
 .poc-page .poc-ford-block {
   background: #1a1917;
-  border: 2px solid var(--poc-gold);
+  border: 2px solid var(--poc-gold-deep);
   border-radius: 0;
   padding: 28px 24px 32px;
   margin: 24px 0 0;
@@ -741,20 +741,20 @@
 
 .poc-page .poc-ford-arrow {
   font-size: 36px;
-  color: var(--poc-gold);
+  color: var(--poc-gold-deep);
   line-height: 1;
 }
 
 .poc-page .poc-ford-divider {
   margin-top: 22px;
   padding-top: 22px;
-  border-top: 2px dashed var(--poc-gold);
+  border-top: 2px dashed var(--poc-gold-deep);
 }
 
 .poc-page .poc-ford-8x {
   font-size: clamp(48px, 10vw, 64px);
   font-weight: 700;
-  color: var(--poc-gold);
+  color: var(--poc-gold-deep);
   line-height: 1;
 }
 
@@ -905,7 +905,7 @@
 
 .poc-page .poc-stat-64 {
   background: #1a1917;
-  border: 2px solid var(--poc-gold);
+  border: 2px solid var(--poc-gold-deep);
   border-radius: 0;
   padding: 28px 24px;
   margin: 24px 0 0;
@@ -915,7 +915,7 @@
 .poc-page .poc-stat-64-num {
   font-size: clamp(56px, 14vw, 72px);
   font-weight: 700;
-  color: var(--poc-gold);
+  color: var(--poc-gold-deep);
   line-height: 1;
 }
 
@@ -937,7 +937,7 @@
 
 .poc-page .poc-rule {
   border: none;
-  border-top: 1px solid var(--poc-gold);
+  border-top: 1px solid var(--poc-gold-deep);
   margin: 40px auto 0;
   width: 60px;
   opacity: 0.85;
@@ -978,7 +978,7 @@
 /* Path to curing aging (horizontal steps) */
 .poc-page .poc-path-flow {
   background: #1a1917;
-  border: 2px solid var(--poc-gold);
+  border: 2px solid var(--poc-gold-deep);
   border-radius: 0;
   padding: 24px 20px 28px;
   margin: 20px 0 0;
@@ -1014,7 +1014,7 @@
 .poc-page .poc-path-step-num {
   font-size: 26px;
   font-weight: 700;
-  color: var(--poc-gold);
+  color: var(--poc-gold-deep);
   margin-bottom: 4px;
 }
 
@@ -1029,7 +1029,7 @@
 .poc-page .poc-path-arrow {
   align-self: center;
   font-size: 22px;
-  color: var(--poc-gold);
+  color: var(--poc-gold-deep);
   line-height: 1;
 }
 
@@ -1161,7 +1161,7 @@
 }
 
 .poc-page .poc-child-card strong {
-  color: var(--poc-gold);
+  color: var(--poc-gold-deep);
   font-weight: 600;
 }
 

@@ -5,7 +5,7 @@
   --pc-body: #4a4540;
   --pc-muted: #7a7570;
   --pc-gold: #b8973a;
-  --pc-gold-deep: #8a7030;
+  --pc-gold-deep: #7A6528;
   --pc-gold-bright: #d4b060;
   --pc-cream: #fdfcfa;
   --pc-stone: #f4f1ec;
@@ -26,7 +26,7 @@
   font-weight: 500;
   letter-spacing: 0.25em;
   text-transform: uppercase;
-  color: var(--pc-gold);
+  color: var(--pc-gold-deep);
   margin-bottom: 36px;
   opacity: 0;
   animation: pcFadeUp 0.8s 0.2s ease forwards;
@@ -106,7 +106,7 @@
   font-weight: 500;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: var(--pc-gold);
+  color: var(--pc-gold-deep);
   margin-bottom: 20px;
   display: block;
 }
@@ -248,8 +248,8 @@
 }
 
 .pc-page .pc-btn-light:hover {
-  border-color: var(--pc-gold);
-  color: var(--pc-gold);
+  border-color: var(--pc-gold-deep);
+  color: var(--pc-gold-deep);
 }
 
 /* Arc */
@@ -381,7 +381,7 @@
   font-size: 11px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--pc-gold);
+  color: var(--pc-gold-deep);
   font-weight: 500;
   margin-top: 10px;
   display: block;

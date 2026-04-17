@@ -5,7 +5,7 @@
   --fc-body: #4a4540;
   --fc-muted: #7a7570;
   --fc-gold: #b8973a;
-  --fc-gold-deep: #8a7030;
+  --fc-gold-deep: #7A6528;
   --fc-cream: #fdfcfa;
   --fc-stone: #f4f1ec;
   --fc-border: #e8e3d8;
@@ -25,7 +25,7 @@
   font-weight: 500;
   letter-spacing: 0.25em;
   text-transform: uppercase;
-  color: var(--fc-gold);
+  color: var(--fc-gold-deep);
   margin-bottom: 36px;
   opacity: 0;
   animation: fcFadeUp 0.8s 0.2s ease forwards;
@@ -105,7 +105,7 @@
   font-weight: 500;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: var(--fc-gold);
+  color: var(--fc-gold-deep);
   margin-bottom: 20px;
   display: block;
 }
@@ -277,12 +277,12 @@
   text-transform: uppercase;
   color: var(--fc-dark);
   text-decoration: none;
-  border-bottom: 1px solid var(--fc-gold);
+  border-bottom: 1px solid var(--fc-gold-deep);
   padding-bottom: 2px;
 }
 
 .fc-page .fc-resource-card a:hover {
-  color: var(--fc-gold);
+  color: var(--fc-gold-deep);
 }
 
 /* Secondary strip */
@@ -354,12 +354,12 @@
   text-transform: uppercase;
   color: var(--fc-dark);
   text-decoration: none;
-  border-bottom: 1px solid var(--fc-gold);
+  border-bottom: 1px solid var(--fc-gold-deep);
   padding-bottom: 2px;
 }
 
 .fc-page .fc-secondary-card a:hover {
-  color: var(--fc-gold);
+  color: var(--fc-gold-deep);
 }
 
 /* CTA */
@@ -406,12 +406,12 @@
   text-transform: uppercase;
   color: var(--fc-dark);
   text-decoration: none;
-  border-bottom: 1px solid var(--fc-gold);
+  border-bottom: 1px solid var(--fc-gold-deep);
   padding-bottom: 2px;
 }
 
 .fc-page .fc-cta-links a:hover {
-  color: var(--fc-gold);
+  color: var(--fc-gold-deep);
 }
 
 @media (max-width: 900px) {

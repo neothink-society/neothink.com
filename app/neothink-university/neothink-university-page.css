@@ -3,9 +3,9 @@
 .nu-page {
   --nu-text: #0e0e0e;
   --nu-body: #4a4540;
-  --nu-muted: #7a7570;
+  --nu-muted: #706B65;
   --nu-gold: #b8973a;
-  --nu-gold-deep: #8a7030;
+  --nu-gold-deep: #7A6528;
   --nu-cream: #fdfcfa;
   --nu-stone: #f4f1ec;
   --nu-border: #e8e3d8;
@@ -25,7 +25,7 @@
   font-weight: 500;
   letter-spacing: 0.25em;
   text-transform: uppercase;
-  color: var(--nu-gold);
+  color: var(--nu-gold-deep);
   margin-bottom: 36px;
   opacity: 0;
   animation: fcFadeUp 0.8s 0.2s ease forwards;
@@ -105,7 +105,7 @@
   font-weight: 500;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: var(--nu-gold);
+  color: var(--nu-gold-deep);
   margin-bottom: 20px;
   display: block;
 }
@@ -277,12 +277,12 @@
   text-transform: uppercase;
   color: var(--nu-dark);
   text-decoration: none;
-  border-bottom: 1px solid var(--nu-gold);
+  border-bottom: 1px solid var(--nu-gold-deep);
   padding-bottom: 2px;
 }
 
 .nu-page .nu-resource-card a:hover {
-  color: var(--nu-gold);
+  color: var(--nu-gold-deep);
 }
 
 /* Secondary strip */
@@ -354,12 +354,12 @@
   text-transform: uppercase;
   color: var(--nu-dark);
   text-decoration: none;
-  border-bottom: 1px solid var(--nu-gold);
+  border-bottom: 1px solid var(--nu-gold-deep);
   padding-bottom: 2px;
 }
 
 .nu-page .nu-secondary-card a:hover {
-  color: var(--nu-gold);
+  color: var(--nu-gold-deep);
 }
 
 /* About (prose) */
@@ -554,12 +554,12 @@
 }
 
 .nu-page .nu-carousel-btn:hover {
-  border-color: var(--nu-gold);
+  border-color: var(--nu-gold-deep);
   color: var(--nu-gold-deep);
 }
 
 .nu-page .nu-carousel-btn:focus-visible {
-  outline: 2px solid var(--nu-gold);
+  outline: 2px solid var(--nu-gold-deep);
   outline-offset: 2px;
 }
 
@@ -592,7 +592,7 @@
 }
 
 .nu-page .nu-carousel-autoplay:focus-visible {
-  outline: 2px solid var(--nu-gold);
+  outline: 2px solid var(--nu-gold-deep);
   outline-offset: 2px;
 }
 
@@ -623,11 +623,11 @@
 }
 
 .nu-page .nu-carousel-dot:hover {
-  border-color: var(--nu-gold);
+  border-color: var(--nu-gold-deep);
 }
 
 .nu-page .nu-carousel-dot:focus-visible {
-  outline: 2px solid var(--nu-gold);
+  outline: 2px solid var(--nu-gold-deep);
   outline-offset: 2px;
 }
 
@@ -781,12 +781,12 @@
   text-transform: uppercase;
   color: var(--nu-dark);
   text-decoration: none;
-  border-bottom: 1px solid var(--nu-gold);
+  border-bottom: 1px solid var(--nu-gold-deep);
   padding-bottom: 2px;
 }
 
 .nu-page .nu-cta-links a:hover {
-  color: var(--nu-gold);
+  color: var(--nu-gold-deep);
 }
 
 @media (max-width: 900px) {

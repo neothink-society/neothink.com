@@ -5,7 +5,7 @@
   --pl-body: #4a4540;
   --pl-muted: #7a7570;
   --pl-gold: #b8973a;
-  --pl-gold-deep: #8a7030;
+  --pl-gold-deep: #7A6528;
   --pl-gold-bright: #d4b060;
   --pl-cream: #fdfcfa;
   --pl-stone: #f4f1ec;
@@ -116,7 +116,7 @@
   font-weight: 500;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: var(--pl-gold);
+  color: var(--pl-gold-deep);
   margin-bottom: 20px;
   display: block;
 }
@@ -265,7 +265,7 @@
   color: var(--pl-muted);
   line-height: 1.5;
   padding: 32px 0 32px 32px;
-  border-left: 2px solid var(--pl-gold);
+  border-left: 2px solid var(--pl-gold-deep);
   margin: 40px 0;
 }
 
@@ -343,7 +343,7 @@
 }
 
 .pl-page .pl-proof-direction--recedes {
-  color: var(--pl-gold);
+  color: var(--pl-gold-deep);
 }
 
 .pl-page .pl-proof-direction--rises {
@@ -377,7 +377,7 @@
 }
 
 .pl-page .pl-proof-result--positive {
-  color: var(--pl-gold);
+  color: var(--pl-gold-deep);
 }
 
 .pl-page .pl-proof-result--negative {
@@ -676,7 +676,7 @@
   font-size: 11px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--pl-gold);
+  color: var(--pl-gold-deep);
   font-weight: 500;
   margin-top: 12px;
   display: block;

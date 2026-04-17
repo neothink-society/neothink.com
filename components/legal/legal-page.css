@@ -5,7 +5,7 @@
   --lp-body: #4a4540;
   --lp-muted: #7a7570;
   --lp-gold: #b8973a;
-  --lp-gold-deep: #8a7030;
+  --lp-gold-deep: #7A6528;
   --lp-cream: #fdfcfa;
   --lp-stone: #f4f1ec;
   --lp-border: #e8e3d8;
@@ -24,7 +24,7 @@
   font-weight: 500;
   letter-spacing: 0.25em;
   text-transform: uppercase;
-  color: var(--lp-gold);
+  color: var(--lp-gold-deep);
   margin: 0 0 24px;
 }
 

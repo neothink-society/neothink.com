@@ -56,11 +56,11 @@ export function SiteFooter() {
           }}
         >
           <p
-            className="font-light text-[#FDFCFA]/40"
+            className="font-light text-[#FDFCFA]/60"
             style={{ fontSize: "12px", letterSpacing: "0.02em" }}
           >
             &copy; 2026{" "}
-            <span className="font-serif text-[#FDFCFA]/60">
+            <span className="font-serif text-[#FDFCFA]/75">
               The Neothink Institute
             </span>
             . All Rights Reserved.
@@ -74,7 +74,7 @@ export function SiteFooter() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="font-light text-[#FDFCFA]/40 transition-colors hover:text-[#FDFCFA]/80"
+                    className="font-light text-[#FDFCFA]/60 transition-colors hover:text-[#FDFCFA]/90"
                   >
                     {link.name}
                   </Link>

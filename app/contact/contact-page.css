@@ -5,7 +5,7 @@
   --ct-body: #4a4540;
   --ct-muted: #7a7570;
   --ct-gold: #b8973a;
-  --ct-gold-deep: #8a7030;
+  --ct-gold-deep: #7A6528;
   --ct-cream: #fdfcfa;
   --ct-stone: #f4f1ec;
   --ct-border: #e8e3d8;
@@ -25,7 +25,7 @@
   font-weight: 500;
   letter-spacing: 0.25em;
   text-transform: uppercase;
-  color: var(--ct-gold);
+  color: var(--ct-gold-deep);
   margin-bottom: 36px;
   opacity: 0;
   animation: ctFadeUp 0.8s 0.2s ease forwards;
@@ -105,7 +105,7 @@
   font-weight: 500;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: var(--ct-gold);
+  color: var(--ct-gold-deep);
   margin-bottom: 20px;
   display: block;
 }
@@ -174,7 +174,7 @@
   font-weight: 500;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--ct-gold);
+  color: var(--ct-gold-deep);
   margin-bottom: 12px;
   display: block;
 }
@@ -204,14 +204,14 @@
   text-transform: uppercase;
   color: var(--ct-dark);
   text-decoration: none;
-  border-bottom: 1px solid var(--ct-gold);
+  border-bottom: 1px solid var(--ct-gold-deep);
   padding-bottom: 2px;
   transition: color 0.2s, border-color 0.2s;
 }
 
 .ct-page .ct-card a:hover {
-  color: var(--ct-gold);
-  border-color: var(--ct-gold);
+  color: var(--ct-gold-deep);
+  border-color: var(--ct-gold-deep);
 }
 
 /* Participate */
@@ -267,7 +267,7 @@
 
 .ct-page .ct-btn:hover {
   background: var(--ct-gold);
-  border-color: var(--ct-gold);
+  border-color: var(--ct-gold-deep);
 }
 
 /* Social */
@@ -312,8 +312,8 @@
 }
 
 .ct-page .ct-social a:hover {
-  border-color: var(--ct-gold);
-  color: var(--ct-gold);
+  border-color: var(--ct-gold-deep);
+  color: var(--ct-gold-deep);
 }
 
 @media (max-width: 900px) {

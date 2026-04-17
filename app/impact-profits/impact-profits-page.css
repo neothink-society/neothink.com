@@ -5,7 +5,7 @@
   --ip-body: #4a4540;
   --ip-muted: #7a7570;
   --ip-gold: #b8973a;
-  --ip-gold-deep: #8a7030;
+  --ip-gold-deep: #7A6528;
   --ip-cream: #fdfcfa;
   --ip-stone: #f4f1ec;
   --ip-border: #e8e3d8;
@@ -216,7 +216,7 @@
   margin: 32px auto 0;
   padding: 24px 28px;
   background: var(--ip-stone);
-  border-left: 3px solid var(--ip-gold);
+  border-left: 3px solid var(--ip-gold-deep);
 }
 
 .ip-page .ip-def-label {
@@ -439,7 +439,7 @@
 
 .ip-page .ip-btn:hover {
   background: var(--ip-gold);
-  border-color: var(--ip-gold);
+  border-color: var(--ip-gold-deep);
   color: var(--ip-dark);
 }
 
@@ -450,7 +450,7 @@
 }
 
 .ip-page .ip-btn--ghost:hover {
-  border-color: var(--ip-gold);
+  border-color: var(--ip-gold-deep);
 }
 
 .ip-page .ip-reveal {
@@ -518,7 +518,7 @@
   font-weight: 700;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--ip-gold);
+  color: var(--ip-gold-deep);
   margin: 0 0 10px;
 }
 
@@ -539,6 +539,6 @@
 }
 
 .ip-page .ip-callout-dark strong {
-  color: var(--ip-gold);
+  color: var(--ip-gold-deep);
   font-weight: 600;
 }

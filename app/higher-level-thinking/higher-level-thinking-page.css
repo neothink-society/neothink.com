@@ -5,7 +5,7 @@
   --hlt-body: #4a4540;
   --hlt-muted: #7a7570;
   --hlt-gold: #b8973a;
-  --hlt-gold-deep: #8a7030;
+  --hlt-gold-deep: #7A6528;
   --hlt-cream: #fdfcfa;
   --hlt-stone: #f4f1ec;
   --hlt-border: #e8e3d8;
@@ -216,7 +216,7 @@
   margin: 32px auto 0;
   padding: 24px 28px;
   background: var(--hlt-stone);
-  border-left: 3px solid var(--hlt-gold);
+  border-left: 3px solid var(--hlt-gold-deep);
 }
 
 .hlt-page .hlt-def-label {
@@ -439,7 +439,7 @@
 
 .hlt-page .hlt-btn:hover {
   background: var(--hlt-gold);
-  border-color: var(--hlt-gold);
+  border-color: var(--hlt-gold-deep);
   color: var(--hlt-dark);
 }
 
@@ -450,7 +450,7 @@
 }
 
 .hlt-page .hlt-btn--ghost:hover {
-  border-color: var(--hlt-gold);
+  border-color: var(--hlt-gold-deep);
 }
 
 .hlt-page .hlt-reveal {
@@ -518,7 +518,7 @@
   font-weight: 700;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--hlt-gold);
+  color: var(--hlt-gold-deep);
   margin: 0 0 10px;
 }
 
@@ -539,6 +539,6 @@
 }
 
 .hlt-page .hlt-callout-dark strong {
-  color: var(--hlt-gold);
+  color: var(--hlt-gold-deep);
   font-weight: 600;
 }

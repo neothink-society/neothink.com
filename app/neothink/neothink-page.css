@@ -23,7 +23,7 @@
   font-weight: 500;
   letter-spacing: 0.25em;
   text-transform: uppercase;
-  color: #b8973a;
+  color: #7A6528;
   margin-bottom: 36px;
   opacity: 0;
   animation: ntFadeUp 0.8s 0.2s ease forwards;
@@ -43,7 +43,7 @@
 
 .nt-hero h1 em {
   font-style: italic;
-  color: #8a7030;
+  color: #7A6528;
 }
 
 .nt-hero-sub {
@@ -70,7 +70,7 @@
 }
 
 .nt-hero-meta span {
-  color: #b8973a;
+  color: #7A6528;
 }
 
 .nt-reveal {
@@ -92,7 +92,7 @@
   font-weight: 500;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: #b8973a;
+  color: #7A6528;
   margin-bottom: 20px;
   display: block;
 }
@@ -143,7 +143,7 @@
 
 .nt-argument h2 em {
   font-style: italic;
-  color: #8a7030;
+  color: #7A6528;
 }
 
 .nt-argument p {
@@ -168,7 +168,7 @@
   color: #7a7570;
   line-height: 1.5;
   padding: 32px 0 32px 32px;
-  border-left: 2px solid #b8973a;
+  border-left: 2px solid #7A6528;
   margin: 40px 0;
 }
 
@@ -202,7 +202,7 @@
 
 .nt-cap-header h2 em {
   font-style: italic;
-  color: #8a7030;
+  color: #7A6528;
 }
 
 .nt-cap-header p {
@@ -237,7 +237,7 @@
 .nt-cap-num {
   font-family: var(--serif);
   font-size: 14px;
-  color: #b8973a;
+  color: #7A6528;
   letter-spacing: 0.1em;
   margin-bottom: 16px;
   display: block;
@@ -362,7 +362,7 @@
 
 .nt-mentality h2 em {
   font-style: italic;
-  color: #8a7030;
+  color: #7A6528;
 }
 
 .nt-mentality p {
@@ -424,7 +424,7 @@
 }
 
 .nt-compare-col.immortal .nt-compare-col-label {
-  color: #b8973a;
+  color: #7A6528;
 }
 
 .nt-compare-col h4 {
@@ -469,7 +469,7 @@
 
 .nt-history h2 em {
   font-style: italic;
-  color: #8a7030;
+  color: #7A6528;
 }
 
 .nt-history p {
@@ -510,7 +510,7 @@
   font-weight: 500;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: #b8973a;
+  color: #7A6528;
   margin-bottom: 8px;
   display: block;
 }
@@ -600,7 +600,7 @@
 
 .nt-conn-inner h2 em {
   font-style: italic;
-  color: #8a7030;
+  color: #7A6528;
 }
 
 .nt-conn-text p {
@@ -660,7 +660,7 @@
   font-size: 11px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: #b8973a;
+  color: #7A6528;
   font-weight: 500;
   margin-top: 12px;
   display: block;
@@ -717,7 +717,7 @@
 
 .nt-btn-primary:hover {
   background: #b8973a;
-  border-color: #b8973a;
+  border-color: #7A6528;
 }
 
 .nt-btn-secondary {
@@ -740,8 +740,8 @@
 }
 
 .nt-btn-secondary:hover {
-  border-color: #b8973a;
-  color: #b8973a;
+  border-color: #7A6528;
+  color: #7A6528;
 }
 
 .nt-cta-buttons {

@@ -5,7 +5,7 @@
   --aop-body: #4a4540;
   --aop-muted: #7a7570;
   --aop-gold: #b8973a;
-  --aop-gold-deep: #8a7030;
+  --aop-gold-deep: #7A6528;
   --aop-cream: #fdfcfa;
   --aop-stone: #f4f1ec;
   --aop-border: #e8e3d8;
@@ -216,7 +216,7 @@
   margin: 32px auto 0;
   padding: 24px 28px;
   background: var(--aop-stone);
-  border-left: 3px solid var(--aop-gold);
+  border-left: 3px solid var(--aop-gold-deep);
 }
 
 .aop-page .aop-def-label {
@@ -439,7 +439,7 @@
 
 .aop-page .aop-btn:hover {
   background: var(--aop-gold);
-  border-color: var(--aop-gold);
+  border-color: var(--aop-gold-deep);
   color: var(--aop-dark);
 }
 
@@ -450,7 +450,7 @@
 }
 
 .aop-page .aop-btn--ghost:hover {
-  border-color: var(--aop-gold);
+  border-color: var(--aop-gold-deep);
 }
 
 .aop-page .aop-reveal {
@@ -518,7 +518,7 @@
   font-weight: 700;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--aop-gold);
+  color: var(--aop-gold-deep);
   margin: 0 0 10px;
 }
 
@@ -539,7 +539,7 @@
 }
 
 .aop-page .aop-callout-dark strong {
-  color: var(--aop-gold);
+  color: var(--aop-gold-deep);
   font-weight: 600;
 }
 

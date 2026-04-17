@@ -5,7 +5,7 @@
   --rr-body: #4a4540;
   --rr-muted: #7a7570;
   --rr-gold: #b8973a;
-  --rr-gold-deep: #8a7030;
+  --rr-gold-deep: #7A6528;
   --rr-cream: #fdfcfa;
   --rr-stone: #f4f1ec;
   --rr-border: #e8e3d8;
@@ -216,7 +216,7 @@
   margin: 32px auto 0;
   padding: 24px 28px;
   background: var(--rr-stone);
-  border-left: 3px solid var(--rr-gold);
+  border-left: 3px solid var(--rr-gold-deep);
 }
 
 .rr-page .rr-def-label {
@@ -439,7 +439,7 @@
 
 .rr-page .rr-btn:hover {
   background: var(--rr-gold);
-  border-color: var(--rr-gold);
+  border-color: var(--rr-gold-deep);
   color: var(--rr-dark);
 }
 
@@ -450,7 +450,7 @@
 }
 
 .rr-page .rr-btn--ghost:hover {
-  border-color: var(--rr-gold);
+  border-color: var(--rr-gold-deep);
 }
 
 .rr-page .rr-reveal {

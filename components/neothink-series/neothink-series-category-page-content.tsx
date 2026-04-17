@@ -89,7 +89,7 @@ export function NeothinkSeriesCategoryPageContent({
                   </div>
                   <span
                     className="shrink-0 text-[10px] font-semibold uppercase tracking-[0.14em]"
-                    style={{ color: migrated ? "#8a7030" : "var(--nu-muted, #7a7570)" }}
+                    style={{ color: migrated ? "#7A6528" : "var(--nu-muted, #7a7570)" }}
                   >
                     {migrated ? "On-site article" : "Permalink"}
                   </span>

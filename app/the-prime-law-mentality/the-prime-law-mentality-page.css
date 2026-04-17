@@ -5,7 +5,7 @@
   --plm-body: #4a4540;
   --plm-muted: #7a7570;
   --plm-gold: #b8973a;
-  --plm-gold-deep: #8a7030;
+  --plm-gold-deep: #7A6528;
   --plm-cream: #fdfcfa;
   --plm-stone: #f4f1ec;
   --plm-border: #e8e3d8;
@@ -216,7 +216,7 @@
   margin: 32px auto 0;
   padding: 24px 28px;
   background: var(--plm-stone);
-  border-left: 3px solid var(--plm-gold);
+  border-left: 3px solid var(--plm-gold-deep);
 }
 
 .plm-page .plm-def-label {
@@ -439,7 +439,7 @@
 
 .plm-page .plm-btn:hover {
   background: var(--plm-gold);
-  border-color: var(--plm-gold);
+  border-color: var(--plm-gold-deep);
   color: var(--plm-dark);
 }
 
@@ -450,7 +450,7 @@
 }
 
 .plm-page .plm-btn--ghost:hover {
-  border-color: var(--plm-gold);
+  border-color: var(--plm-gold-deep);
 }
 
 .plm-page .plm-reveal {
@@ -518,7 +518,7 @@
   font-weight: 700;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--plm-gold);
+  color: var(--plm-gold-deep);
   margin: 0 0 10px;
 }
 
@@ -539,7 +539,7 @@
 }
 
 .plm-page .plm-callout-dark strong {
-  color: var(--plm-gold);
+  color: var(--plm-gold-deep);
   font-weight: 600;
 }
 
@@ -645,7 +645,7 @@
 .plm-page .plm-structure-card {
   background: #1a1917;
   border: 1px solid #2a2824;
-  border-left: 4px solid var(--plm-gold);
+  border-left: 4px solid var(--plm-gold-deep);
   border-radius: 0;
   padding: 20px 22px;
 }
@@ -656,7 +656,7 @@
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--plm-gold);
+  color: var(--plm-gold-deep);
   margin: 0 0 8px;
 }
 

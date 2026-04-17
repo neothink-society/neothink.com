@@ -5,7 +5,7 @@
   --btv-body: #4a4540;
   --btv-muted: #7a7570;
   --btv-gold: #b8973a;
-  --btv-gold-deep: #8a7030;
+  --btv-gold-deep: #7A6528;
   --btv-cream: #fdfcfa;
   --btv-stone: #f4f1ec;
   --btv-border: #e8e3d8;
@@ -216,7 +216,7 @@
   margin: 32px auto 0;
   padding: 24px 28px;
   background: var(--btv-stone);
-  border-left: 3px solid var(--btv-gold);
+  border-left: 3px solid var(--btv-gold-deep);
 }
 
 .btv-page .btv-def-label {
@@ -439,7 +439,7 @@
 
 .btv-page .btv-btn:hover {
   background: var(--btv-gold);
-  border-color: var(--btv-gold);
+  border-color: var(--btv-gold-deep);
   color: var(--btv-dark);
 }
 
@@ -450,7 +450,7 @@
 }
 
 .btv-page .btv-btn--ghost:hover {
-  border-color: var(--btv-gold);
+  border-color: var(--btv-gold-deep);
 }
 
 .btv-page .btv-reveal {
@@ -518,7 +518,7 @@
   font-weight: 700;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--btv-gold);
+  color: var(--btv-gold-deep);
   margin: 0 0 10px;
 }
 
@@ -539,6 +539,6 @@
 }
 
 .btv-page .btv-callout-dark strong {
-  color: var(--btv-gold);
+  color: var(--btv-gold-deep);
   font-weight: 600;
 }

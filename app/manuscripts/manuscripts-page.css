@@ -3,9 +3,9 @@
 .ms-page {
   --ms-text: #0e0e0e;
   --ms-body: #4a4540;
-  --ms-muted: #7a7570;
+  --ms-muted: #706B65;
   --ms-gold: #b8973a;
-  --ms-gold-deep: #8a7030;
+  --ms-gold-deep: #7A6528;
   --ms-gold-bright: #d4b060;
   --ms-cream: #fdfcfa;
   --ms-stone: #f4f1ec;
@@ -26,7 +26,7 @@
   font-weight: 500;
   letter-spacing: 0.25em;
   text-transform: uppercase;
-  color: var(--ms-gold);
+  color: var(--ms-gold-deep);
   margin-bottom: 36px;
   opacity: 0;
   animation: msFadeUp 0.8s 0.2s ease forwards;
@@ -147,7 +147,7 @@
 .ms-page .ms-featured-note {
   font-family: var(--font-jost), system-ui, sans-serif;
   font-size: 13px;
-  color: rgba(253, 252, 250, 0.35);
+  color: rgba(253, 252, 250, 0.6);
   font-style: italic;
   margin-bottom: 28px;
 }
@@ -222,7 +222,7 @@
 .ms-page .ms-fv-author {
   font-family: var(--font-jost), system-ui, sans-serif;
   font-size: 14px;
-  color: rgba(253, 252, 250, 0.4);
+  color: rgba(253, 252, 250, 0.6);
   font-weight: 300;
 }
 
@@ -240,7 +240,7 @@
 .ms-page .ms-library-header {
   margin-bottom: 64px;
   padding-bottom: 20px;
-  border-bottom: 2px solid var(--ms-gold);
+  border-bottom: 2px solid var(--ms-gold-deep);
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -470,7 +470,7 @@
   font-family: var(--font-cormorant-garamond), Georgia, serif;
   font-size: 32px;
   font-weight: 300;
-  color: #c8c0b0;
+  color: var(--gold-ink);
 }
 
 .ms-page .ms-author-text h3 {
@@ -486,7 +486,7 @@
   font-size: 12px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--ms-gold);
+  color: var(--ms-gold-deep);
   font-weight: 500;
   margin-bottom: 12px;
   display: block;
@@ -508,7 +508,7 @@
   font-size: 12px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--ms-gold);
+  color: var(--ms-gold-deep);
   font-weight: 500;
   text-decoration: none;
   transition: letter-spacing 0.3s;

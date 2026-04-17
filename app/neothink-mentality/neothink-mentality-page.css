@@ -5,7 +5,7 @@
   --nm-body: #4a4540;
   --nm-muted: #7a7570;
   --nm-gold: #b8973a;
-  --nm-gold-deep: #8a7030;
+  --nm-gold-deep: #7A6528;
   --nm-cream: #fdfcfa;
   --nm-stone: #f4f1ec;
   --nm-border: #e8e3d8;
@@ -444,7 +444,7 @@
 
 .nm-page .nm-btn:hover {
   background: var(--nm-gold);
-  border-color: var(--nm-gold);
+  border-color: var(--nm-gold-deep);
   color: var(--nm-dark);
 }
 
@@ -455,7 +455,7 @@
 }
 
 .nm-page .nm-btn--ghost:hover {
-  border-color: var(--nm-gold);
+  border-color: var(--nm-gold-deep);
   background: var(--nm-stone);
   color: var(--nm-dark);
 }

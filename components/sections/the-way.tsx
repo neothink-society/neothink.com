@@ -98,7 +98,9 @@ export function TheWay() {
         <div className="nti-stages">
           {STAGES.map((stage) => (
             <div key={stage.title} className="nti-stage nti-reveal">
-              <span className="nti-stage-num">{stage.numeral}</span>
+              <span className="nti-stage-num" aria-hidden="true">
+                {stage.numeral}
+              </span>
               <h3>{stage.title}</h3>
               <p>{stage.description}</p>
               <span className="nti-stage-tag">{stage.tag}</span>

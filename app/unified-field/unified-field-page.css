@@ -3,7 +3,7 @@
 .uf-page {
   --uf-gold: #b8973a;
   --uf-gold-light: #d4b060;
-  --uf-gold-dim: #8a7030;
+  --uf-gold-dim: #7A6528;
   --uf-ink: #0e0e0e;
   --uf-ink-soft: #1c1c1c;
   --uf-stone: #f4f1ec;
@@ -47,7 +47,7 @@
   font-weight: 500;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: var(--uf-gold);
+  color: var(--uf-gold-dim);
   margin-bottom: 20px;
   display: block;
 }
@@ -105,7 +105,7 @@
 }
 .uf-page .uf-btn-primary:hover {
   background: var(--uf-gold);
-  border-color: var(--uf-gold);
+  border-color: var(--uf-gold-dim);
 }
 
 .uf-page .uf-btn-secondary {
@@ -123,8 +123,8 @@
   display: inline-block;
 }
 .uf-page .uf-btn-secondary:hover {
-  border-color: var(--uf-gold);
-  color: var(--uf-gold);
+  border-color: var(--uf-gold-dim);
+  color: var(--uf-gold-dim);
 }
 
 .uf-page .uf-btn-light {
@@ -159,7 +159,7 @@
   font-weight: 500;
   letter-spacing: 0.25em;
   text-transform: uppercase;
-  color: var(--uf-gold);
+  color: var(--uf-gold-dim);
   margin-bottom: 36px;
   opacity: 0;
   animation: uf-fade-up 0.8s 0.2s ease forwards;
@@ -205,7 +205,7 @@
   animation: uf-fade-up 0.8s 0.8s ease forwards;
 }
 .uf-page .uf-hero-meta span {
-  color: var(--uf-gold);
+  color: var(--uf-gold-dim);
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -285,7 +285,7 @@
   color: var(--uf-text-muted);
   line-height: 1.5;
   padding: 32px 0 32px 32px;
-  border-left: 2px solid var(--uf-gold);
+  border-left: 2px solid var(--uf-gold-dim);
   margin: 40px 0;
 }
 
@@ -309,7 +309,7 @@
   font-weight: 500;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: var(--uf-gold);
+  color: var(--uf-gold-dim);
   text-align: center;
   margin: 0 auto 56px;
   line-height: inherit;
@@ -337,7 +337,7 @@
 .uf-page .uf-pillar-num {
   font-family: var(--font-cormorant-garamond), Georgia, serif;
   font-size: 14px;
-  color: var(--uf-gold);
+  color: var(--uf-gold-dim);
   letter-spacing: 0.1em;
   margin-bottom: 16px;
   display: block;
@@ -419,7 +419,7 @@
   font-weight: 500;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--uf-gold);
+  color: var(--uf-gold-dim);
   margin-bottom: 14px;
   display: block;
 }
@@ -586,7 +586,7 @@
   font-size: 13px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--uf-gold);
+  color: var(--uf-gold-dim);
   font-weight: 500;
   margin-bottom: 24px;
   display: block;
@@ -669,7 +669,7 @@
   font-size: 12px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--uf-gold);
+  color: var(--uf-gold-dim);
   font-weight: 500;
   margin-bottom: 12px;
   display: block;
@@ -689,7 +689,7 @@
   font-size: 12px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--uf-gold);
+  color: var(--uf-gold-dim);
   font-weight: 500;
   text-decoration: none;
   transition: letter-spacing 0.3s;

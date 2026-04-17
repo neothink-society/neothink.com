@@ -5,7 +5,7 @@
   --ab-body: #4a4540;
   --ab-muted: #7a7570;
   --ab-gold: #b8973a;
-  --ab-gold-deep: #8a7030;
+  --ab-gold-deep: #7A6528;
   --ab-cream: #fdfcfa;
   --ab-stone: #f4f1ec;
   --ab-border: #e8e3d8;
@@ -29,7 +29,7 @@
   font-weight: 500;
   letter-spacing: 0.25em;
   text-transform: uppercase;
-  color: var(--ab-gold);
+  color: var(--ab-gold-deep);
   margin-bottom: 28px;
   opacity: 0;
   animation: abFadeUp 0.8s 0.15s ease forwards;
@@ -150,7 +150,7 @@
   font-weight: 500;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--ab-gold);
+  color: var(--ab-gold-deep);
 }
 
 .ab-page .ab-pillar-text {
@@ -180,7 +180,7 @@
 }
 
 .ab-page .ab-resource-list a:hover {
-  color: var(--ab-gold);
+  color: var(--ab-gold-deep);
 }
 
 .ab-page .ab-body {
@@ -299,7 +299,7 @@
 
 .ab-page .ab-btn-primary:hover {
   background: var(--ab-gold);
-  border-color: var(--ab-gold);
+  border-color: var(--ab-gold-deep);
   color: var(--ab-cream);
 }
 
@@ -322,6 +322,6 @@
 }
 
 .ab-page .ab-btn-secondary:hover {
-  border-color: var(--ab-gold);
+  border-color: var(--ab-gold-deep);
   color: var(--ab-gold-deep);
 }

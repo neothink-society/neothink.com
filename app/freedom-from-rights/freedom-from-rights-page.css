@@ -5,7 +5,7 @@
   --ffr-body: #4a4540;
   --ffr-muted: #7a7570;
   --ffr-gold: #b8973a;
-  --ffr-gold-deep: #8a7030;
+  --ffr-gold-deep: #7A6528;
   --ffr-cream: #fdfcfa;
   --ffr-stone: #f4f1ec;
   --ffr-border: #e8e3d8;
@@ -216,7 +216,7 @@
   margin: 32px auto 0;
   padding: 24px 28px;
   background: var(--ffr-stone);
-  border-left: 3px solid var(--ffr-gold);
+  border-left: 3px solid var(--ffr-gold-deep);
 }
 
 .ffr-page .ffr-def-label {
@@ -439,7 +439,7 @@
 
 .ffr-page .ffr-btn:hover {
   background: var(--ffr-gold);
-  border-color: var(--ffr-gold);
+  border-color: var(--ffr-gold-deep);
   color: var(--ffr-dark);
 }
 
@@ -450,7 +450,7 @@
 }
 
 .ffr-page .ffr-btn--ghost:hover {
-  border-color: var(--ffr-gold);
+  border-color: var(--ffr-gold-deep);
 }
 
 .ffr-page .ffr-reveal {
@@ -520,7 +520,7 @@
   letter-spacing: 0.14em;
   text-transform: uppercase;
   text-align: center;
-  color: var(--ffr-gold);
+  color: var(--ffr-gold-deep);
   margin: 0 0 24px;
 }
 
@@ -535,7 +535,7 @@
 }
 
 .ffr-page .ffr-prime-law-preamble strong {
-  color: var(--ffr-gold);
+  color: var(--ffr-gold-deep);
   font-weight: 600;
 }
 
@@ -554,7 +554,7 @@
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--ffr-gold);
+  color: var(--ffr-gold-deep);
   margin-bottom: 8px;
 }
 
@@ -581,7 +581,7 @@
   font-weight: 700;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--ffr-gold);
+  color: var(--ffr-gold-deep);
   margin: 0 0 10px;
 }
 
@@ -602,7 +602,7 @@
 }
 
 .ffr-page .ffr-callout-dark strong {
-  color: var(--ffr-gold);
+  color: var(--ffr-gold-deep);
   font-weight: 600;
 }
 

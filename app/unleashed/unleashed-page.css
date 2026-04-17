@@ -4,7 +4,7 @@
   --ul-bg-dark: #0e0e0e;
   --ul-gold: #d4b060;
   --ul-gold-muted: #b8973a;
-  --ul-gold-deep: #8a7030;
+  --ul-gold-deep: #7A6528;
   --ul-cream: #fdfcfa;
   --ul-stone: #f4f1ec;
   --ul-border: #e8e3d8;
@@ -40,7 +40,7 @@
   font-weight: 500;
   letter-spacing: 0.25em;
   text-transform: uppercase;
-  color: var(--ul-gold);
+  color: var(--ul-gold-deep);
   margin-bottom: 40px;
   position: relative;
   opacity: 0;
@@ -67,7 +67,7 @@
   font-weight: 500;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--ul-gold);
+  color: var(--ul-gold-deep);
   margin-bottom: 48px;
   position: relative;
   opacity: 0;
@@ -129,7 +129,7 @@
   text-transform: uppercase;
   color: var(--ul-bg-dark);
   background: var(--ul-gold);
-  border: 1px solid var(--ul-gold);
+  border: 1px solid var(--ul-gold-deep);
   padding: 16px 36px;
   text-decoration: none;
   transition: background 0.25s, border-color 0.25s, color 0.25s;
@@ -157,8 +157,8 @@
 }
 
 .ul-page .ul-btn-light:hover {
-  border-color: var(--ul-gold);
-  color: var(--ul-gold);
+  border-color: var(--ul-gold-deep);
+  color: var(--ul-gold-deep);
 }
 
 @keyframes ulFadeUp {

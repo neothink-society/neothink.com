@@ -5,7 +5,7 @@
   --pw-body: #4a4540;
   --pw-muted: #7a7570;
   --pw-gold: #b8973a;
-  --pw-gold-deep: #8a7030;
+  --pw-gold-deep: #7A6528;
   --pw-gold-bright: #d4b060;
   --pw-cream: #fdfcfa;
   --pw-stone: #f4f1ec;
@@ -26,7 +26,7 @@
   font-weight: 500;
   letter-spacing: 0.25em;
   text-transform: uppercase;
-  color: var(--pw-gold);
+  color: var(--pw-gold-deep);
   margin-bottom: 36px;
   opacity: 0;
   animation: pwFadeUp 0.8s 0.2s ease forwards;
@@ -106,7 +106,7 @@
   font-weight: 500;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: var(--pw-gold);
+  color: var(--pw-gold-deep);
   margin-bottom: 20px;
   display: block;
 }
@@ -159,8 +159,8 @@
 
 .pw-page .pw-filter-tag:hover,
 .pw-page .pw-filter-tag.pw-active {
-  border-color: var(--pw-gold);
-  color: var(--pw-gold);
+  border-color: var(--pw-gold-deep);
+  color: var(--pw-gold-deep);
 }
 
 /* ── FEATURED WORK ── */
@@ -327,7 +327,7 @@
   max-width: 1160px;
   margin: 0 auto 40px;
   padding-bottom: 20px;
-  border-bottom: 2px solid var(--pw-gold);
+  border-bottom: 2px solid var(--pw-gold-deep);
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -397,7 +397,7 @@
   font-weight: 500;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--pw-gold);
+  color: var(--pw-gold-deep);
   margin-bottom: 14px;
   display: block;
 }
@@ -486,7 +486,7 @@
 
 .pw-page .pw-btn-primary:hover {
   background: var(--pw-gold);
-  border-color: var(--pw-gold);
+  border-color: var(--pw-gold-deep);
 }
 
 .pw-page .pw-manuscripts-list {
@@ -528,7 +528,7 @@
   font-size: 11px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--pw-gold);
+  color: var(--pw-gold-deep);
   font-weight: 500;
   margin-top: 8px;
   display: block;
