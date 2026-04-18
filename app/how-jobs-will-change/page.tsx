@@ -34,6 +34,12 @@ export const metadata = pageMetadata({
   title: DOC_TITLE,
   description: HOW_JOBS_WILL_CHANGE_META_DESCRIPTION,
   pathname: PATH,
+    articleOgImage: {
+    src: `https://i.ytimg.com/vi/${HOW_JOBS_WILL_CHANGE_YOUTUBE_ID}/hqdefault.jpg`,
+    alt: `${HOW_JOBS_WILL_CHANGE_HEADLINE} — video thumbnail`,
+    width: 480,
+    height: 360,
+  },
   ogType: "article",
   article: {
     publishedTime: `${HOW_JOBS_WILL_CHANGE_DATES.datePublished}T09:00:00.000Z`,
@@ -65,6 +71,7 @@ const articleLd = blogPostingJsonLd({
   datePublished: `${HOW_JOBS_WILL_CHANGE_DATES.datePublished}T09:00:00.000Z`,
   dateModified: `2026-02-12T20:10:10.000Z`,
   authorId: schemaIds.organization,
+  image: `https://i.ytimg.com/vi/${HOW_JOBS_WILL_CHANGE_YOUTUBE_ID}/hqdefault.jpg`,
 });
 
 const faqLd = faqPageJsonLd(PATH, HOW_JOBS_WILL_CHANGE_FAQ);

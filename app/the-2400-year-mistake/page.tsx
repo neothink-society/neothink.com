@@ -36,6 +36,12 @@ export const metadata = pageMetadata({
   title: DOC_TITLE,
   description: THE_2400_YEAR_MISTAKE_META_DESCRIPTION,
   pathname: PATH,
+    articleOgImage: {
+    src: `https://i.ytimg.com/vi/${THE_2400_YEAR_MISTAKE_YOUTUBE_ID}/hqdefault.jpg`,
+    alt: `${THE_2400_YEAR_MISTAKE_HEADLINE} — video thumbnail`,
+    width: 480,
+    height: 360,
+  },
   ogType: "article",
   article: {
     publishedTime: `${THE_2400_YEAR_MISTAKE_DATES.datePublished}T09:00:00.000Z`,
@@ -67,6 +73,7 @@ const articleLd = blogPostingJsonLd({
   datePublished: `${THE_2400_YEAR_MISTAKE_DATES.datePublished}T09:00:00.000Z`,
   dateModified: MODIFIED,
   authorId: schemaIds.organization,
+  image: `https://i.ytimg.com/vi/${THE_2400_YEAR_MISTAKE_YOUTUBE_ID}/hqdefault.jpg`,
 });
 
 const faqLd = faqPageJsonLd(PATH, THE_2400_YEAR_MISTAKE_FAQ);

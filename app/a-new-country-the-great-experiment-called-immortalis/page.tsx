@@ -34,6 +34,12 @@ export const metadata = pageMetadata({
   title: DOC_TITLE,
   description: A_NEW_COUNTRY_THE_GREAT_EXPERIMENT_CALLED_IMMORTALIS_META_DESCRIPTION,
   pathname: PATH,
+    articleOgImage: {
+    src: `https://i.ytimg.com/vi/${A_NEW_COUNTRY_THE_GREAT_EXPERIMENT_CALLED_IMMORTALIS_YOUTUBE_ID}/hqdefault.jpg`,
+    alt: `${A_NEW_COUNTRY_THE_GREAT_EXPERIMENT_CALLED_IMMORTALIS_HEADLINE} — video thumbnail`,
+    width: 480,
+    height: 360,
+  },
   ogType: "article",
   article: {
     publishedTime: `${A_NEW_COUNTRY_THE_GREAT_EXPERIMENT_CALLED_IMMORTALIS_DATES.datePublished}T09:00:00.000Z`,
@@ -65,6 +71,7 @@ const articleLd = blogPostingJsonLd({
   datePublished: `${A_NEW_COUNTRY_THE_GREAT_EXPERIMENT_CALLED_IMMORTALIS_DATES.datePublished}T09:00:00.000Z`,
   dateModified: `2026-02-14T04:13:18.000Z`,
   authorId: schemaIds.organization,
+  image: `https://i.ytimg.com/vi/${A_NEW_COUNTRY_THE_GREAT_EXPERIMENT_CALLED_IMMORTALIS_YOUTUBE_ID}/hqdefault.jpg`,
 });
 
 const faqLd = faqPageJsonLd(PATH, A_NEW_COUNTRY_THE_GREAT_EXPERIMENT_CALLED_IMMORTALIS_FAQ);

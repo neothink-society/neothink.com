@@ -2,6 +2,7 @@ import { ValueCreatorPageContent } from "@/components/value-creator/value-creato
 import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
+  defaultOpenGraphImageUrl,
   faqPageJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
@@ -27,6 +28,12 @@ export const metadata = pageMetadata({
   title: `${VALUE_CREATOR_META_TITLE} | Neothink Institute`,
   description: DESCRIPTION,
   pathname: PATH,
+    articleOgImage: {
+    src: defaultOpenGraphImageUrl(),
+    alt: `${VALUE_CREATOR_META_TITLE} | ${siteConfig.name}`,
+    width: 1200,
+    height: 630,
+  },
   ogType: "article",
   article: {
     publishedTime: `${VALUE_CREATOR_DATES.datePublished}T11:00:00.000Z`,
@@ -58,6 +65,7 @@ const articleLd = blogPostingJsonLd({
   datePublished: `${VALUE_CREATOR_DATES.datePublished}T11:00:00.000Z`,
   dateModified: `${VALUE_CREATOR_DATES.dateModified}T01:57:54.000Z`,
   authorId: schemaIds.organization,
+  image: defaultOpenGraphImageUrl(),
 });
 
 const faqLd = faqPageJsonLd(PATH, VALUE_CREATOR_FAQ);

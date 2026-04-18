@@ -36,6 +36,12 @@ export const metadata = pageMetadata({
   title: DOC_TITLE,
   description: CREATING_THE_DEMAND_TO_LIVE_FOREVER_META_DESCRIPTION,
   pathname: PATH,
+    articleOgImage: {
+    src: `https://i.ytimg.com/vi/${CREATING_THE_DEMAND_TO_LIVE_FOREVER_YOUTUBE_ID}/hqdefault.jpg`,
+    alt: `${CREATING_THE_DEMAND_TO_LIVE_FOREVER_HEADLINE} — video thumbnail`,
+    width: 480,
+    height: 360,
+  },
   ogType: "article",
   article: {
     publishedTime: `${CREATING_THE_DEMAND_TO_LIVE_FOREVER_DATES.datePublished}T09:00:00.000Z`,
@@ -67,6 +73,7 @@ const articleLd = blogPostingJsonLd({
   datePublished: `${CREATING_THE_DEMAND_TO_LIVE_FOREVER_DATES.datePublished}T09:00:00.000Z`,
   dateModified: MODIFIED,
   authorId: schemaIds.organization,
+  image: `https://i.ytimg.com/vi/${CREATING_THE_DEMAND_TO_LIVE_FOREVER_YOUTUBE_ID}/hqdefault.jpg`,
 });
 
 const faqLd = faqPageJsonLd(PATH, CREATING_THE_DEMAND_TO_LIVE_FOREVER_FAQ);

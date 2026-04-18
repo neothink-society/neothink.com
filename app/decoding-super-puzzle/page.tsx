@@ -34,6 +34,12 @@ export const metadata = pageMetadata({
   title: DOC_TITLE,
   description: DECODING_SUPER_PUZZLE_META_DESCRIPTION,
   pathname: PATH,
+    articleOgImage: {
+    src: `https://i.ytimg.com/vi/${DECODING_SUPER_PUZZLE_YOUTUBE_ID}/hqdefault.jpg`,
+    alt: `${DECODING_SUPER_PUZZLE_HEADLINE} — video thumbnail`,
+    width: 480,
+    height: 360,
+  },
   ogType: "article",
   article: {
     publishedTime: `${DECODING_SUPER_PUZZLE_DATES.datePublished}T09:00:00.000Z`,
@@ -65,6 +71,7 @@ const articleLd = blogPostingJsonLd({
   datePublished: `${DECODING_SUPER_PUZZLE_DATES.datePublished}T09:00:00.000Z`,
   dateModified: `2026-02-12T20:10:06.000Z`,
   authorId: schemaIds.organization,
+  image: `https://i.ytimg.com/vi/${DECODING_SUPER_PUZZLE_YOUTUBE_ID}/hqdefault.jpg`,
 });
 
 const faqLd = faqPageJsonLd(PATH, DECODING_SUPER_PUZZLE_FAQ);

@@ -34,6 +34,12 @@ export const metadata = pageMetadata({
   title: DOC_TITLE,
   description: LIVE_LONGER_META_DESCRIPTION,
   pathname: PATH,
+    articleOgImage: {
+    src: `https://i.ytimg.com/vi/${LIVE_LONGER_YOUTUBE_ID}/hqdefault.jpg`,
+    alt: `${LIVE_LONGER_HEADLINE} — video thumbnail`,
+    width: 480,
+    height: 360,
+  },
   ogType: "article",
   article: {
     publishedTime: `${LIVE_LONGER_DATES.datePublished}T09:00:00.000Z`,
@@ -65,6 +71,7 @@ const articleLd = blogPostingJsonLd({
   datePublished: `${LIVE_LONGER_DATES.datePublished}T09:00:00.000Z`,
   dateModified: `2026-02-12T20:09:58.000Z`,
   authorId: schemaIds.organization,
+  image: `https://i.ytimg.com/vi/${LIVE_LONGER_YOUTUBE_ID}/hqdefault.jpg`,
 });
 
 const faqLd = faqPageJsonLd(PATH, LIVE_LONGER_FAQ);

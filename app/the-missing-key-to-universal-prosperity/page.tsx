@@ -28,6 +28,12 @@ export const metadata = pageMetadata({
   title: `${MKUP_META_TITLE} | Neothink Institute`,
   description: DESCRIPTION,
   pathname: PATH,
+    articleOgImage: {
+    src: `https://i.ytimg.com/vi/${MKUP_YOUTUBE_ID}/hqdefault.jpg`,
+    alt: `${MKUP_META_TITLE} — video thumbnail`,
+    width: 480,
+    height: 360,
+  },
   ogType: "article",
   article: {
     publishedTime: `${MKUP_DATES.datePublished}T09:00:00.000Z`,
@@ -59,6 +65,7 @@ const articleLd = blogPostingJsonLd({
   datePublished: `${MKUP_DATES.datePublished}T09:00:00.000Z`,
   dateModified: `${MKUP_DATES.dateModified}T20:09:55.000Z`,
   authorId: schemaIds.organization,
+  image: `https://i.ytimg.com/vi/${MKUP_YOUTUBE_ID}/hqdefault.jpg`,
 });
 
 const faqLd = faqPageJsonLd(PATH, MKUP_FAQ);

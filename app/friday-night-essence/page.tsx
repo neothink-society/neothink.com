@@ -2,6 +2,7 @@ import { FridayNightEssencePageContent } from "@/components/friday-night-essence
 import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
+  defaultOpenGraphImageUrl,
   faqPageJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
@@ -31,6 +32,12 @@ export const metadata = pageMetadata({
   title: `${FRIDAY_NIGHT_ESSENCE_META_TITLE} | Neothink Institute`,
   description: DESCRIPTION,
   pathname: PATH,
+    articleOgImage: {
+    src: defaultOpenGraphImageUrl(),
+    alt: `${FRIDAY_NIGHT_ESSENCE_META_TITLE} | ${siteConfig.name}`,
+    width: 1200,
+    height: 630,
+  },
   ogType: "article",
   article: {
     publishedTime: `${FRIDAY_NIGHT_ESSENCE_DATES.datePublished}T23:04:47.000Z`,
@@ -62,6 +69,7 @@ const articleLd = blogPostingJsonLd({
   datePublished: `${FRIDAY_NIGHT_ESSENCE_DATES.datePublished}T23:04:47.000Z`,
   dateModified: `${FRIDAY_NIGHT_ESSENCE_DATES.dateModified}T01:57:20.000Z`,
   authorId: schemaIds.organization,
+  image: defaultOpenGraphImageUrl(),
 });
 
 const faqLd = faqPageJsonLd(PATH, FRIDAY_NIGHT_ESSENCE_FAQ);

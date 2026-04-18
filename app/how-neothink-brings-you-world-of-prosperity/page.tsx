@@ -34,6 +34,12 @@ export const metadata = pageMetadata({
   title: DOC_TITLE,
   description: HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_META_DESCRIPTION,
   pathname: PATH,
+    articleOgImage: {
+    src: `https://i.ytimg.com/vi/${HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_YOUTUBE_ID}/hqdefault.jpg`,
+    alt: `${HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_HEADLINE} — video thumbnail`,
+    width: 480,
+    height: 360,
+  },
   ogType: "article",
   article: {
     publishedTime: `${HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_DATES.datePublished}T09:00:00.000Z`,
@@ -65,6 +71,7 @@ const articleLd = blogPostingJsonLd({
   datePublished: `${HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_DATES.datePublished}T09:00:00.000Z`,
   dateModified: "2026-02-14T03:54:55.000Z",
   authorId: schemaIds.organization,
+  image: `https://i.ytimg.com/vi/${HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_YOUTUBE_ID}/hqdefault.jpg`,
 });
 
 const faqLd = faqPageJsonLd(PATH, HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_FAQ);

@@ -34,6 +34,12 @@ export const metadata = pageMetadata({
   title: DOC_TITLE,
   description: WHAT_ALL_PHILOSOPHIES_GET_WRONG_META_DESCRIPTION,
   pathname: PATH,
+    articleOgImage: {
+    src: `https://i.ytimg.com/vi/${WHAT_ALL_PHILOSOPHIES_GET_WRONG_YOUTUBE_ID}/hqdefault.jpg`,
+    alt: `${WHAT_ALL_PHILOSOPHIES_GET_WRONG_HEADLINE} — video thumbnail`,
+    width: 480,
+    height: 360,
+  },
   ogType: "article",
   article: {
     publishedTime: `${WHAT_ALL_PHILOSOPHIES_GET_WRONG_DATES.datePublished}T12:00:00.000Z`,
@@ -65,6 +71,7 @@ const articleLd = blogPostingJsonLd({
   datePublished: `${WHAT_ALL_PHILOSOPHIES_GET_WRONG_DATES.datePublished}T12:00:00.000Z`,
   dateModified: "2026-02-10T19:44:17.000Z",
   authorId: schemaIds.organization,
+  image: `https://i.ytimg.com/vi/${WHAT_ALL_PHILOSOPHIES_GET_WRONG_YOUTUBE_ID}/hqdefault.jpg`,
 });
 
 const faqLd = faqPageJsonLd(PATH, WHAT_ALL_PHILOSOPHIES_GET_WRONG_FAQ);

@@ -34,6 +34,12 @@ export const metadata = pageMetadata({
   title: DOC_TITLE,
   description: THE_GRAND_EXPERIMENT_OF_OUR_TIME_META_DESCRIPTION,
   pathname: PATH,
+    articleOgImage: {
+    src: `https://i.ytimg.com/vi/${THE_GRAND_EXPERIMENT_OF_OUR_TIME_YOUTUBE_ID}/hqdefault.jpg`,
+    alt: `${THE_GRAND_EXPERIMENT_OF_OUR_TIME_HEADLINE} — video thumbnail`,
+    width: 480,
+    height: 360,
+  },
   ogType: "article",
   article: {
     publishedTime: `${THE_GRAND_EXPERIMENT_OF_OUR_TIME_DATES.datePublished}T09:00:00.000Z`,
@@ -65,6 +71,7 @@ const articleLd = blogPostingJsonLd({
   datePublished: `${THE_GRAND_EXPERIMENT_OF_OUR_TIME_DATES.datePublished}T09:00:00.000Z`,
   dateModified: `${THE_GRAND_EXPERIMENT_OF_OUR_TIME_DATES.dateModified}T20:09:51.000Z`,
   authorId: schemaIds.organization,
+  image: `https://i.ytimg.com/vi/${THE_GRAND_EXPERIMENT_OF_OUR_TIME_YOUTUBE_ID}/hqdefault.jpg`,
 });
 
 const faqLd = faqPageJsonLd(PATH, THE_GRAND_EXPERIMENT_OF_OUR_TIME_FAQ);

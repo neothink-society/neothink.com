@@ -34,6 +34,12 @@ export const metadata = pageMetadata({
   title: DOC_TITLE,
   description: THE_BEAUTIFUL_VS_THE_UGLY_IN_OUR_WORLD_3_META_DESCRIPTION,
   pathname: PATH,
+    articleOgImage: {
+    src: `https://i.ytimg.com/vi/${THE_BEAUTIFUL_VS_THE_UGLY_IN_OUR_WORLD_3_YOUTUBE_ID}/hqdefault.jpg`,
+    alt: `${THE_BEAUTIFUL_VS_THE_UGLY_IN_OUR_WORLD_3_HEADLINE} — video thumbnail`,
+    width: 480,
+    height: 360,
+  },
   ogType: "article",
   article: {
     publishedTime: `${THE_BEAUTIFUL_VS_THE_UGLY_IN_OUR_WORLD_3_DATES.datePublished}T09:00:00.000Z`,
@@ -65,6 +71,7 @@ const articleLd = blogPostingJsonLd({
   datePublished: `${THE_BEAUTIFUL_VS_THE_UGLY_IN_OUR_WORLD_3_DATES.datePublished}T09:00:00.000Z`,
   dateModified: `2026-02-14T03:55:08.000Z`,
   authorId: schemaIds.organization,
+  image: `https://i.ytimg.com/vi/${THE_BEAUTIFUL_VS_THE_UGLY_IN_OUR_WORLD_3_YOUTUBE_ID}/hqdefault.jpg`,
 });
 
 const faqLd = faqPageJsonLd(PATH, THE_BEAUTIFUL_VS_THE_UGLY_IN_OUR_WORLD_3_FAQ);

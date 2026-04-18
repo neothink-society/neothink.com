@@ -34,6 +34,12 @@ export const metadata = pageMetadata({
   title: DOC_TITLE,
   description: LAND_BASED_IMMORTALIS_META_DESCRIPTION,
   pathname: PATH,
+    articleOgImage: {
+    src: `https://i.ytimg.com/vi/${LAND_BASED_IMMORTALIS_YOUTUBE_ID}/hqdefault.jpg`,
+    alt: `${LAND_BASED_IMMORTALIS_HEADLINE} — video thumbnail`,
+    width: 480,
+    height: 360,
+  },
   ogType: "article",
   article: {
     publishedTime: `${LAND_BASED_IMMORTALIS_DATES.datePublished}T09:00:00.000Z`,
@@ -65,6 +71,7 @@ const articleLd = blogPostingJsonLd({
   datePublished: `${LAND_BASED_IMMORTALIS_DATES.datePublished}T09:00:00.000Z`,
   dateModified: `${LAND_BASED_IMMORTALIS_DATES.dateModified}T20:09:39.000Z`,
   authorId: schemaIds.organization,
+  image: `https://i.ytimg.com/vi/${LAND_BASED_IMMORTALIS_YOUTUBE_ID}/hqdefault.jpg`,
 });
 
 const faqLd = faqPageJsonLd(PATH, LAND_BASED_IMMORTALIS_FAQ);

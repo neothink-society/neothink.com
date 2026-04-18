@@ -36,6 +36,12 @@ export const metadata = pageMetadata({
   title: DOC_TITLE,
   description: SPREADING_IMMORTALIS_TO_WORLD_LEADERS_META_DESCRIPTION,
   pathname: PATH,
+    articleOgImage: {
+    src: `https://i.ytimg.com/vi/${SPREADING_IMMORTALIS_TO_WORLD_LEADERS_YOUTUBE_ID}/hqdefault.jpg`,
+    alt: `${SPREADING_IMMORTALIS_TO_WORLD_LEADERS_HEADLINE} — video thumbnail`,
+    width: 480,
+    height: 360,
+  },
   ogType: "article",
   article: {
     publishedTime: `${SPREADING_IMMORTALIS_TO_WORLD_LEADERS_DATES.datePublished}T09:00:00.000Z`,
@@ -67,6 +73,7 @@ const articleLd = blogPostingJsonLd({
   datePublished: `${SPREADING_IMMORTALIS_TO_WORLD_LEADERS_DATES.datePublished}T09:00:00.000Z`,
   dateModified: MODIFIED,
   authorId: schemaIds.organization,
+  image: `https://i.ytimg.com/vi/${SPREADING_IMMORTALIS_TO_WORLD_LEADERS_YOUTUBE_ID}/hqdefault.jpg`,
 });
 
 const faqLd = faqPageJsonLd(PATH, SPREADING_IMMORTALIS_TO_WORLD_LEADERS_FAQ);

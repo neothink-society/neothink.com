@@ -36,6 +36,12 @@ export const metadata = pageMetadata({
   title: DOC_TITLE,
   description: STRATEGIC_BRIEFING_FOR_PRESIDENTS_META_DESCRIPTION,
   pathname: PATH,
+    articleOgImage: {
+    src: `https://i.ytimg.com/vi/${STRATEGIC_BRIEFING_FOR_PRESIDENTS_YOUTUBE_ID}/hqdefault.jpg`,
+    alt: `${STRATEGIC_BRIEFING_FOR_PRESIDENTS_HEADLINE} — video thumbnail`,
+    width: 480,
+    height: 360,
+  },
   ogType: "article",
   article: {
     publishedTime: `${STRATEGIC_BRIEFING_FOR_PRESIDENTS_DATES.datePublished}T09:00:00.000Z`,
@@ -67,6 +73,7 @@ const articleLd = blogPostingJsonLd({
   datePublished: `${STRATEGIC_BRIEFING_FOR_PRESIDENTS_DATES.datePublished}T09:00:00.000Z`,
   dateModified: MODIFIED,
   authorId: schemaIds.organization,
+  image: `https://i.ytimg.com/vi/${STRATEGIC_BRIEFING_FOR_PRESIDENTS_YOUTUBE_ID}/hqdefault.jpg`,
 });
 
 const faqLd = faqPageJsonLd(PATH, STRATEGIC_BRIEFING_FOR_PRESIDENTS_FAQ);

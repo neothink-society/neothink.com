@@ -33,6 +33,12 @@ export const metadata = pageMetadata({
   title: `${KNIGHT_IMMORTALIS_META_TITLE} | Neothink Institute`,
   description: DESCRIPTION,
   pathname: PATH,
+    articleOgImage: {
+    src: `https://i.ytimg.com/vi/${KNIGHT_IMMORTALIS_YOUTUBE_ID}/hqdefault.jpg`,
+    alt: `${KNIGHT_IMMORTALIS_META_TITLE} — video thumbnail`,
+    width: 480,
+    height: 360,
+  },
   ogType: "article",
   article: {
     publishedTime: `${KNIGHT_IMMORTALIS_DATES.datePublished}T09:00:00.000Z`,
@@ -64,6 +70,7 @@ const articleLd = blogPostingJsonLd({
   datePublished: `${KNIGHT_IMMORTALIS_DATES.datePublished}T09:00:00.000Z`,
   dateModified: `${KNIGHT_IMMORTALIS_DATES.dateModified}T20:09:43.000Z`,
   authorId: schemaIds.organization,
+  image: `https://i.ytimg.com/vi/${KNIGHT_IMMORTALIS_YOUTUBE_ID}/hqdefault.jpg`,
 });
 
 const faqLd = faqPageJsonLd(PATH, KNIGHT_IMMORTALIS_FAQ);

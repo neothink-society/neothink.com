@@ -36,6 +36,12 @@ export const metadata = pageMetadata({
   title: DOC_TITLE,
   description: THE_YEAR_CAPITALISM_SETS_THE_WORLD_FREE_META_DESCRIPTION,
   pathname: PATH,
+    articleOgImage: {
+    src: `https://i.ytimg.com/vi/${THE_YEAR_CAPITALISM_SETS_THE_WORLD_FREE_YOUTUBE_ID}/hqdefault.jpg`,
+    alt: `${THE_YEAR_CAPITALISM_SETS_THE_WORLD_FREE_HEADLINE} — video thumbnail`,
+    width: 480,
+    height: 360,
+  },
   ogType: "article",
   article: {
     publishedTime: `${THE_YEAR_CAPITALISM_SETS_THE_WORLD_FREE_DATES.datePublished}T09:00:00.000Z`,
@@ -67,6 +73,7 @@ const articleLd = blogPostingJsonLd({
   datePublished: `${THE_YEAR_CAPITALISM_SETS_THE_WORLD_FREE_DATES.datePublished}T09:00:00.000Z`,
   dateModified: MODIFIED,
   authorId: schemaIds.organization,
+  image: `https://i.ytimg.com/vi/${THE_YEAR_CAPITALISM_SETS_THE_WORLD_FREE_YOUTUBE_ID}/hqdefault.jpg`,
 });
 
 const faqLd = faqPageJsonLd(PATH, THE_YEAR_CAPITALISM_SETS_THE_WORLD_FREE_FAQ);

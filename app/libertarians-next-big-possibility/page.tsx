@@ -34,6 +34,12 @@ export const metadata = pageMetadata({
   title: DOC_TITLE,
   description: LIBERTARIANS_NEXT_BIG_POSSIBILITY_META_DESCRIPTION,
   pathname: PATH,
+    articleOgImage: {
+    src: `https://i.ytimg.com/vi/${LIBERTARIANS_NEXT_BIG_POSSIBILITY_YOUTUBE_ID}/hqdefault.jpg`,
+    alt: `${LIBERTARIANS_NEXT_BIG_POSSIBILITY_HEADLINE} — video thumbnail`,
+    width: 480,
+    height: 360,
+  },
   ogType: "article",
   article: {
     publishedTime: `${LIBERTARIANS_NEXT_BIG_POSSIBILITY_DATES.datePublished}T09:00:00.000Z`,
@@ -65,6 +71,7 @@ const articleLd = blogPostingJsonLd({
   datePublished: `${LIBERTARIANS_NEXT_BIG_POSSIBILITY_DATES.datePublished}T09:00:00.000Z`,
   dateModified: `${LIBERTARIANS_NEXT_BIG_POSSIBILITY_DATES.dateModified}T20:09:36.000Z`,
   authorId: schemaIds.organization,
+  image: `https://i.ytimg.com/vi/${LIBERTARIANS_NEXT_BIG_POSSIBILITY_YOUTUBE_ID}/hqdefault.jpg`,
 });
 
 const faqLd = faqPageJsonLd(PATH, LIBERTARIANS_NEXT_BIG_POSSIBILITY_FAQ);

@@ -34,6 +34,12 @@ export const metadata = pageMetadata({
   title: DOC_TITLE,
   description: STARTING_OUR_OWN_COUNTRY_META_DESCRIPTION,
   pathname: PATH,
+    articleOgImage: {
+    src: `https://i.ytimg.com/vi/${STARTING_OUR_OWN_COUNTRY_YOUTUBE_ID}/hqdefault.jpg`,
+    alt: `${STARTING_OUR_OWN_COUNTRY_HEADLINE} — video thumbnail`,
+    width: 480,
+    height: 360,
+  },
   ogType: "article",
   article: {
     publishedTime: `${STARTING_OUR_OWN_COUNTRY_DATES.datePublished}T09:00:00.000Z`,
@@ -65,6 +71,7 @@ const articleLd = blogPostingJsonLd({
   datePublished: `${STARTING_OUR_OWN_COUNTRY_DATES.datePublished}T09:00:00.000Z`,
   dateModified: `2026-02-12T20:10:02.000Z`,
   authorId: schemaIds.organization,
+  image: `https://i.ytimg.com/vi/${STARTING_OUR_OWN_COUNTRY_YOUTUBE_ID}/hqdefault.jpg`,
 });
 
 const faqLd = faqPageJsonLd(PATH, STARTING_OUR_OWN_COUNTRY_FAQ);

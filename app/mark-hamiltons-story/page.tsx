@@ -28,6 +28,12 @@ export const metadata = pageMetadata({
   title: `${MH_STORY_META_TITLE} | Neothink Institute`,
   description: DESCRIPTION,
   pathname: PATH,
+    articleOgImage: {
+    src: `https://i.ytimg.com/vi/${MH_STORY_YOUTUBE_ID}/hqdefault.jpg`,
+    alt: `${MH_STORY_META_TITLE} — video thumbnail`,
+    width: 480,
+    height: 360,
+  },
   ogType: "article",
   article: {
     publishedTime: `${MH_STORY_DATES.datePublished}T09:00:00.000Z`,
@@ -59,6 +65,7 @@ const articleLd = blogPostingJsonLd({
   datePublished: `${MH_STORY_DATES.datePublished}T09:00:00.000Z`,
   dateModified: `${MH_STORY_DATES.dateModified}T04:10:39.000Z`,
   authorId: schemaIds.organization,
+  image: `https://i.ytimg.com/vi/${MH_STORY_YOUTUBE_ID}/hqdefault.jpg`,
 });
 
 const faqLd = faqPageJsonLd(PATH, MH_STORY_FAQ);

@@ -34,6 +34,12 @@ export const metadata = pageMetadata({
   title: DOC_TITLE,
   description: THE_CULT_YOU_NEVER_KNEW_EXISTED_META_DESCRIPTION,
   pathname: PATH,
+    articleOgImage: {
+    src: `https://i.ytimg.com/vi/${THE_CULT_YOU_NEVER_KNEW_EXISTED_YOUTUBE_ID}/hqdefault.jpg`,
+    alt: `${THE_CULT_YOU_NEVER_KNEW_EXISTED_HEADLINE} — video thumbnail`,
+    width: 480,
+    height: 360,
+  },
   ogType: "article",
   article: {
     publishedTime: `${THE_CULT_YOU_NEVER_KNEW_EXISTED_DATES.datePublished}T09:00:00.000Z`,
@@ -65,6 +71,7 @@ const articleLd = blogPostingJsonLd({
   datePublished: `${THE_CULT_YOU_NEVER_KNEW_EXISTED_DATES.datePublished}T09:00:00.000Z`,
   dateModified: "2026-02-14T03:53:51.000Z",
   authorId: schemaIds.organization,
+  image: `https://i.ytimg.com/vi/${THE_CULT_YOU_NEVER_KNEW_EXISTED_YOUTUBE_ID}/hqdefault.jpg`,
 });
 
 const faqLd = faqPageJsonLd(PATH, THE_CULT_YOU_NEVER_KNEW_EXISTED_FAQ);

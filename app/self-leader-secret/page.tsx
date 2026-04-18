@@ -2,6 +2,7 @@ import { SelfLeaderSecretPageContent } from "@/components/self-leader-secret/sel
 import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
+  defaultOpenGraphImageUrl,
   faqPageJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
@@ -31,6 +32,12 @@ export const metadata = pageMetadata({
   title: `${SELF_LEADER_SECRET_META_TITLE} | Neothink Institute`,
   description: DESCRIPTION,
   pathname: PATH,
+    articleOgImage: {
+    src: defaultOpenGraphImageUrl(),
+    alt: `${SELF_LEADER_SECRET_META_TITLE} | ${siteConfig.name}`,
+    width: 1200,
+    height: 630,
+  },
   ogType: "article",
   article: {
     publishedTime: `${SELF_LEADER_SECRET_DATES.datePublished}T23:00:00.000Z`,
@@ -62,6 +69,7 @@ const articleLd = blogPostingJsonLd({
   datePublished: `${SELF_LEADER_SECRET_DATES.datePublished}T23:00:00.000Z`,
   dateModified: `${SELF_LEADER_SECRET_DATES.dateModified}T01:57:32.000Z`,
   authorId: schemaIds.organization,
+  image: defaultOpenGraphImageUrl(),
 });
 
 const faqLd = faqPageJsonLd(PATH, SELF_LEADER_SECRET_FAQ);

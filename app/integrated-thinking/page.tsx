@@ -2,6 +2,7 @@ import { IntegratedThinkingPageContent } from "@/components/integrated-thinking/
 import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
+  defaultOpenGraphImageUrl,
   faqPageJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
@@ -31,6 +32,12 @@ export const metadata = pageMetadata({
   title: `${INTEGRATED_THINKING_META_TITLE} | Neothink Institute`,
   description: DESCRIPTION,
   pathname: PATH,
+    articleOgImage: {
+    src: defaultOpenGraphImageUrl(),
+    alt: `${INTEGRATED_THINKING_META_TITLE} | ${siteConfig.name}`,
+    width: 1200,
+    height: 630,
+  },
   ogType: "article",
   article: {
     publishedTime: `${INTEGRATED_THINKING_DATES.datePublished}T11:00:00.000Z`,
@@ -62,6 +69,7 @@ const articleLd = blogPostingJsonLd({
   datePublished: `${INTEGRATED_THINKING_DATES.datePublished}T11:00:00.000Z`,
   dateModified: `${INTEGRATED_THINKING_DATES.dateModified}T01:57:43.000Z`,
   authorId: schemaIds.organization,
+  image: defaultOpenGraphImageUrl(),
 });
 
 const faqLd = faqPageJsonLd(PATH, INTEGRATED_THINKING_FAQ);

@@ -34,6 +34,12 @@ export const metadata = pageMetadata({
   title: DOC_TITLE,
   description: BREAKING_THE_CHAINS_ON_CONSCIOUSNESS_META_DESCRIPTION,
   pathname: PATH,
+    articleOgImage: {
+    src: `https://i.ytimg.com/vi/${BREAKING_THE_CHAINS_ON_CONSCIOUSNESS_YOUTUBE_ID}/hqdefault.jpg`,
+    alt: `${BREAKING_THE_CHAINS_ON_CONSCIOUSNESS_HEADLINE} — video thumbnail`,
+    width: 480,
+    height: 360,
+  },
   ogType: "article",
   article: {
     publishedTime: `${BREAKING_THE_CHAINS_ON_CONSCIOUSNESS_DATES.datePublished}T09:00:00.000Z`,
@@ -65,6 +71,7 @@ const articleLd = blogPostingJsonLd({
   datePublished: `${BREAKING_THE_CHAINS_ON_CONSCIOUSNESS_DATES.datePublished}T09:00:00.000Z`,
   dateModified: "2026-02-12T18:19:40.000Z",
   authorId: schemaIds.organization,
+  image: `https://i.ytimg.com/vi/${BREAKING_THE_CHAINS_ON_CONSCIOUSNESS_YOUTUBE_ID}/hqdefault.jpg`,
 });
 
 const faqLd = faqPageJsonLd(PATH, BREAKING_THE_CHAINS_ON_CONSCIOUSNESS_FAQ);
