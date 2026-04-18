@@ -46,7 +46,7 @@ export const IS_NEOTHINK_SELF_HELP_SECTIONS: readonly ShbSection[] = [
     title: "Neothink Book Summary: Understanding the Foundation",
     paragraphs: [
       "The Neothink books introduce a concept we call integrated thinking. It’s a method that connects logic, creativity, and purpose in a way that helps people solve problems, set meaningful goals, and produce real value. This type of thinking replaces scattered effort with clear direction.",
-      "Many of our members first discover Neothink through the literature. These books introduce a step-by-step shift in perspective. Instead of teaching surface-level strategies, they delve into mental patterns and demonstrate how to build a life based on creation rather than reaction.",
+      "Many of our members first discover Neothink through the literature. These books introduce a step-by-step shift in perspective. Instead of teaching surface-level strategies, they work through mental patterns and demonstrate how to build a life based on creation rather than reaction.",
       "The system is rooted in something we call the Twelve Visions, which serve as guiding principles for personal and professional development. These visions include clear, practical frameworks for improving health, building wealth, developing romantic partnerships, and achieving inner peace.",
       "As readers explore the Neothink books, they begin seeing themselves as [[valueCreator|value creators]]; people who build businesses, lead families, and contribute to communities with purpose. They stop waiting for motivation and start acting on structured thinking.",
     ],

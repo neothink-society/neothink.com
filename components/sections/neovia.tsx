@@ -86,7 +86,7 @@ export function Neovia() {
         <div className="nti-grid">
           <div className="nti-left nti-reveal">
             <h2 id="neovia-heading">
-              Neovia — the first civilization designed for{" "}
+              Neovia, the first civilization designed for{" "}
               <em>fully integrated</em> human consciousness.
             </h2>
             <p>

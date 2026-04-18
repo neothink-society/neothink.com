@@ -10,13 +10,13 @@ const PILLARS = [
     num: "I.",
     title: "The Bicameral Origin",
     body:
-      "2,400 years ago, the internal voice structure that governed human cognition collapsed. Philosophy arose not as wisdom — but as emergency stabilization for a species that had lost its psychological foundation. The bicameral mind was not merely a psychological state. It was a civilizational operating system. It governed hierarchy, authority, obedience, warfare, religion, and governance. Its collapse did not immediately produce modern consciousness. It produced a prolonged transitional era that has never fully resolved.",
+      "2,400 years ago, the internal voice structure that governed human cognition collapsed. Philosophy arose not as wisdom, but as emergency stabilization for a species that had lost its psychological foundation. The bicameral mind was not merely a psychological state. It was a civilizational operating system. It governed hierarchy, authority, obedience, warfare, religion, and governance. Its collapse did not immediately produce modern consciousness. It produced a prolonged transitional era that has never fully resolved.",
   },
   {
     num: "II.",
     title: "The Aristotelian Interruption",
     body:
-      "For one brief moment, Aristotle completed the transition to fully integrated consciousness — a mind capable of observing reality directly, reasoning causally, and governing itself internally. His works were lost before the correction could propagate. Humanity took a 2,400-year detour into hierarchy, force, and external authority. Everything since — the Dark Ages, the Renaissance, the Enlightenment, the century of blood — is the turbulence of a species trying to complete a transition that was interrupted.",
+      "For one brief moment, Aristotle completed the transition to fully integrated consciousness: a mind capable of observing reality directly, reasoning causally, and governing itself internally. His works were lost before the correction could propagate. Humanity took a 2,400-year detour into hierarchy, force, and external authority. Everything since (the Dark Ages, the Renaissance, the Enlightenment, the century of blood) is the turbulence of a species trying to complete a transition that was interrupted.",
   },
   {
     num: "III.",
@@ -28,7 +28,7 @@ const PILLARS = [
     num: "IV.",
     title: "The Correction",
     body:
-      "The Prime Law — the prohibition of initiated force — is the structural codification of the Civilizational Law. Not a moral ideal but an engineering specification for civilization. Neovia is its physical expression: the first society in human history designed to remove initiated force at the root and create the conditions in which fully conscious human beings can operate without constraint. The correction that was interrupted 2,400 years ago is now operational.",
+      "The Prime Law, the prohibition of initiated force, is the structural codification of the Civilizational Law. Not a moral ideal but an engineering specification for civilization. Neovia is its physical expression: the first society in human history designed to remove initiated force at the root and create the conditions in which fully conscious human beings can operate without constraint. The correction that was interrupted 2,400 years ago is now operational.",
   },
 ] as const;
 
@@ -41,12 +41,12 @@ const ARC_ITEMS = [
   {
     era: "469–399 BC",
     title: "Socrates: The First Turn Inward",
-    body: "The man who taught people to think about thinking — and was killed for it.",
+    body: "The man who taught people to think about thinking, and was killed for it.",
   },
   {
     era: "428–348 BC",
     title: "Plato: The Great Preservation Error",
-    body: "The emergency system that saved civilization — and froze it.",
+    body: "The emergency system that saved civilization, and froze it.",
   },
   {
     era: "384–322 BC",
@@ -61,12 +61,12 @@ const ARC_ITEMS = [
   {
     era: "~4 BC–32 AD",
     title: "Jesus: The Inner Voice Awakened",
-    body: "Not founding a religion — initiating an evolutionary upgrade of the human mind.",
+    body: "Not founding a religion. Initiating an evolutionary upgrade of the human mind.",
   },
   {
     era: "354–430 AD",
     title: "Augustine: The Closing of the Path",
-    body: "How Plato's scaffolding was baptized into Christianity — sealing consciousness for a millennium.",
+    body: "How Plato's scaffolding was baptized into Christianity, sealing consciousness for a millennium.",
   },
   {
     era: "~500–1200 AD",
@@ -167,14 +167,14 @@ export function UnifiedFieldPageContent() {
             <p>
               There are moments in history when something that was always latent inside the human mind suddenly becomes
               visible. Controlling fire was one of those moments. Language was another. Writing. Law. Science.
-              Computing. Each was not merely a tool but a liberation — a release of power that had always been waiting for
+              Computing. Each was not merely a tool but a liberation: a release of power that had always been waiting for
               the right structure to carry it.
             </p>
             <p>
               The Unified Field of Conscious Civilization reveals the next release. For the first time, we can see the
               hidden structure that has governed every civilization, every religion, every economy, and every revolution
               across all of recorded history. What once looked like chaos locks into place. Ancient Egypt, Greece, Rome,
-              the Church, the Enlightenment, modern science, totalitarianism, capitalism, the digital age — they are
+              the Church, the Enlightenment, modern science, totalitarianism, capitalism, the digital age: they are
               not disconnected events.{" "}
               <strong>They are phases of consciousness unfolding under the same invisible laws.</strong>
             </p>
@@ -184,7 +184,7 @@ export function UnifiedFieldPageContent() {
           <div className="uf-reveal">
             <p>
               Approximately 2,400 years ago, the internal voice structure that had governed human cognition for
-              millennia — what Julian Jaynes identified as the bicameral mind — collapsed. For untold millennia, human
+              millennia (what Julian Jaynes identified as the bicameral mind) collapsed. For untold millennia, human
               beings had not experienced themselves as autonomous decision-makers. Command came from elsewhere,
               experienced as voices and imperatives that were obeyed without question. Entire civilizations were
               constructed around them.
@@ -196,9 +196,9 @@ export function UnifiedFieldPageContent() {
               replaced it.
             </p>
             <p>
-              Into this vacuum stepped something entirely new. For the first time in human history, philosophy appeared —
+              Into this vacuum stepped something entirely new. For the first time in human history, philosophy appeared,
               not in one place, not in one culture, but across the world within a remarkably compressed window of time.
-              Confucius, the Upanishadic thinkers, Zoroaster, Plato — all responding to the same global rupture.
+              Confucius, the Upanishadic thinkers, Zoroaster, Plato, all responding to the same global rupture.
             </p>
           </div>
 
@@ -232,8 +232,8 @@ export function UnifiedFieldPageContent() {
           <div className="uf-reveal">
             <p>
               At the exact moment Plato built his cage, one mind completed the full breakthrough into integrated
-              consciousness. <strong>Aristotle</strong> — raised in relative stability, trained in empirical observation,
-              educated in Plato&apos;s Academy — did something no one else in antiquity achieved. He grounded thought in
+              consciousness. <strong>Aristotle</strong>, raised in relative stability, trained in empirical observation,
+              educated in Plato&apos;s Academy, did something no one else in antiquity achieved. He grounded thought in
               reality as it is. He integrated logic, observation, causality, ethics, and purpose into a unified
               framework that treated the human mind not as a vessel for commands but as an active integrator of reality.
             </p>
@@ -249,8 +249,8 @@ export function UnifiedFieldPageContent() {
             <p>
               But Aristotle&apos;s works were scattered. Many were lost. Some burned. Others were buried, deteriorating
               underground, later misinterpreted or filtered through theological lenses that stripped them of their
-              integrative power. What survived was partial — perhaps one-third. What mattered most — the operating system
-              itself — was gone.
+              integrative power. What survived was partial, perhaps one-third. What mattered most, the operating system
+              itself, was gone.
             </p>
           </div>
 
@@ -268,8 +268,8 @@ export function UnifiedFieldPageContent() {
             <p>
               The pattern repeated with devastating consistency. When Aristotle&apos;s works partially resurfaced through
               Aquinas in the thirteenth century, the Renaissance exploded. When Enlightenment thinkers built on that
-              recovery, civilization soared — especially in America, where force was constrained more than anywhere in
-              history. When force returned under new language — bureaucracy, central planning, ideological salvation —
+              recovery, civilization soared, especially in America, where force was constrained more than anywhere in
+              history. When force returned under new language (bureaucracy, central planning, ideological salvation),
               civilization collapsed again. The twentieth century became the bloodiest era in history because it
               institutionalized coercion at scale.
             </p>
@@ -287,7 +287,7 @@ export function UnifiedFieldPageContent() {
             <p>
               The correction is the Prime Law: the prohibition of initiated force as a structural foundation, not as a
               moral aspiration but as civilizational architecture. And the physical expression of that correction is
-              Neovia — the first society ever designed to remove force at the root and allow consciousness to operate at
+              Neovia, the first society ever designed to remove force at the root and allow consciousness to operate at
               the power it was always designed for.
             </p>
             <p>
@@ -395,13 +395,13 @@ export function UnifiedFieldPageContent() {
             </h2>
             <p>
               <strong>Unleashed: The Promethean Promise</strong> is Mark Hamilton&apos;s complete delivery of the
-              Unified Field of Conscious Civilization. The full arc — from the collapse of the bicameral mind through
+              Unified Field of Conscious Civilization. The full arc, from the collapse of the bicameral mind through
               Socrates, Plato, Aristotle, Jesus, Augustine, the Dark Ages, the Enlightenment, the century of blood, the
               Prime Law, and Neovia.
             </p>
             <p>
-              This is the definitive work. The proof that the 2,400-year detour can finally end. Available in its entirety
-              — because this knowledge belongs to everyone.
+              This is the definitive work. The proof that the 2,400-year detour can finally end. Available in its entirety,
+              because this knowledge belongs to everyone.
             </p>
             <Link href={WP.unleashed} className="uf-btn-primary" style={{ marginTop: 32 }}>
               Read Unleashed
@@ -435,7 +435,7 @@ export function UnifiedFieldPageContent() {
             <span className="uf-author-title">Civilizational Theorist · Founder, Neothink Institute</span>
             <p>
               Mark Hamilton has spent fifty years assembling the most comprehensive map of consciousness and civilization
-              ever constructed. The Unified Field is the result — and Neovia is its physical expression. Three
+              ever constructed. The Unified Field is the result, and Neovia is its physical expression. Three
               generations of development. Now entering its public phase.
             </p>
             <Link href={WP.markHamilton}>Full Biography →</Link>

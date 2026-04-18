@@ -18,7 +18,7 @@ const CREDENTIALS = [
       "The first complete synthesis linking individual cognition, social order, economic productivity, and political legitimacy to a single underlying structure.",
   },
   {
-    title: "Neovia — Prime Law Civilization Prototype",
+    title: "Neovia: Prime Law Civilization Prototype",
     description:
       "Conceived as an anti-extinction architecture: the first jurisdictional solution to the collision between nuclear-era civilization and artificial intelligence.",
   },

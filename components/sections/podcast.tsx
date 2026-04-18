@@ -51,7 +51,7 @@ export function Podcast() {
         <div className="nti-grid nti-reveal">
           <div className="nti-text">
             <h2 id="podcast-heading">
-              <em>Unleashed</em> — The Podcast
+              <em>Unleashed</em>: The Podcast
             </h2>
             <p>
               Mark Hamilton and Wallace Hamilton in conversation delivering the
@@ -72,7 +72,7 @@ export function Podcast() {
               rel="noopener noreferrer"
               className="nti-btn"
             >
-              COMING SOON — SUBSCRIBE
+              COMING SOON · SUBSCRIBE
             </a>
           </div>
           <div className="nti-visual">

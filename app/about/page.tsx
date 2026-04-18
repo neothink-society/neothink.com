@@ -8,7 +8,7 @@ import "./about-page.css";
 export const metadata = pageMetadata({
   title: "About | Neothink Institute",
   description:
-    "The Neothink Institute, Society, and Mark Hamilton — Unified Field, Neovia, and the Neothink corpus. Research institution and membership community.",
+    "The Neothink Institute, Society, and Mark Hamilton. The Unified Field, Neovia, and the Neothink corpus. Research institution and membership community.",
   pathname: "/about",
   /** About/institution page; not a dated article. */
   ogType: "website",
@@ -23,7 +23,7 @@ const pageLd = webPageJsonLd({
   pathname: "/about",
   name: "About | Neothink Institute",
   description:
-    "The Neothink Institute, Society, and Mark Hamilton — Unified Field, Neovia, and the Neothink corpus. Research institution and membership community.",
+    "The Neothink Institute, Society, and Mark Hamilton. The Unified Field, Neovia, and the Neothink corpus. Research institution and membership community.",
   pageType: "AboutPage",
   mainEntityId: schemaIds.organization,
   speakableSelectors: ["#ab-hero-heading", "#ab-institute-heading"],

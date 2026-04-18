@@ -95,7 +95,10 @@ function auditSlug(slug) {
   const bp = src.indexOf("blogPostingJsonLd({");
   if (bp !== -1) {
     const chunk = src.slice(bp, bp + 3000);
-    row.blogPostingHasImage = /\bimage:\s*[A-Za-z0-9_]+\.src\s*,/.test(chunk);
+    // StaticImageData `.src`, URL literals, or helpers like `defaultOpenGraphImageUrl()`.
+    row.blogPostingHasImage = /\bimage:\s*(?:[A-Za-z0-9_][A-Za-z0-9_]*\(\)|[A-Za-z0-9_]+\.src|`[^`]*`|"[^"]*"|'[^']*')/.test(
+      chunk
+    );
   }
 
   let desc = extractDescriptionConst(src);

@@ -6,7 +6,7 @@ import { schemaIds } from "@/lib/schema-ids";
 import "./unified-field-page.css";
 
 export const metadata = pageMetadata({
-  title: "The Unified Field of Conscious Civilization — Neothink Institute",
+  title: "The Unified Field of Conscious Civilization | Neothink Institute",
   description:
     "The first complete synthesis identifying the single structural pattern governing every empire, every economy, and every human destiny across all of recorded history. A fifty-year body of work by Mark Hamilton.",
   pathname: "/unified-field",
@@ -20,7 +20,7 @@ const breadcrumbs = breadcrumbListJsonLd([
 
 const pageLd = webPageJsonLd({
   pathname: "/unified-field",
-  name: "The Unified Field of Conscious Civilization — Neothink Institute",
+  name: "The Unified Field of Conscious Civilization | Neothink Institute",
   description:
     "The first complete synthesis identifying the single structural pattern governing every empire, every economy, and every human destiny across all of recorded history. A fifty-year body of work by Mark Hamilton.",
   aboutId: schemaIds.organization,
