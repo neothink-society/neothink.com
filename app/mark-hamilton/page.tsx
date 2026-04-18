@@ -6,9 +6,9 @@ import { schemaIds } from "@/lib/schema-ids";
 import "./mark-hamilton-page.css";
 
 export const metadata = pageMetadata({
-  title: "Mark Hamilton — Founder, Neothink Institute",
+  title: "Mark Hamilton | Founder, Neothink Institute",
   description:
-    "Mark Hamilton is the architect of the Unified Field of Conscious Civilization and the originator of Neovia — the first civilization designed to remove initiated force and allow consciousness to operate at full power.",
+    "Mark Hamilton is the architect of the Unified Field of Conscious Civilization and the originator of Neovia, the first civilization designed to remove initiated force and allow consciousness to operate at full power.",
   pathname: "/mark-hamilton",
   ogType: "profile",
 });
@@ -20,9 +20,9 @@ const breadcrumbs = breadcrumbListJsonLd([
 
 const pageLd = webPageJsonLd({
   pathname: "/mark-hamilton",
-  name: "Mark Hamilton — Founder, Neothink Institute",
+  name: "Mark Hamilton | Founder, Neothink Institute",
   description:
-    "Mark Hamilton is the architect of the Unified Field of Conscious Civilization and the originator of Neovia — the first civilization designed to remove initiated force and allow consciousness to operate at full power.",
+    "Mark Hamilton is the architect of the Unified Field of Conscious Civilization and the originator of Neovia, the first civilization designed to remove initiated force and allow consciousness to operate at full power.",
   pageType: "ProfilePage",
   mainEntityId: schemaIds.founder,
   speakableSelectors: ["#mh-hero-heading"],

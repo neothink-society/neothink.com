@@ -1,4 +1,4 @@
-/** Table of contents — aligned with WordPress Unleashed page export */
+/** Table of contents: aligned with WordPress Unleashed page export */
 
 export type TocChapter = {
   /** Display number; empty string renders an empty column cell */

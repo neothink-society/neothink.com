@@ -6,7 +6,7 @@ import { schemaIds } from "@/lib/schema-ids";
 import "./neovia-page.css";
 
 export const metadata = pageMetadata({
-  title: "Neovia — The First Civilization Designed for Fully Conscious Human Beings",
+  title: "Neovia: The First Civilization Designed for Fully Conscious Human Beings",
   description:
     "Neovia is the first civilizational architecture in human history designed to remove initiated force at the structural root and allow consciousness to operate at full power. The anti-extinction exit ramp.",
   pathname: "/neovia",
@@ -20,7 +20,7 @@ const breadcrumbs = breadcrumbListJsonLd([
 
 const pageLd = webPageJsonLd({
   pathname: "/neovia",
-  name: "Neovia — The First Civilization Designed for Fully Conscious Human Beings",
+  name: "Neovia: The First Civilization Designed for Fully Conscious Human Beings",
   description:
     "Neovia is the first civilizational architecture in human history designed to remove initiated force at the structural root and allow consciousness to operate at full power. The anti-extinction exit ramp.",
   aboutId: schemaIds.organization,

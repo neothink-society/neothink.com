@@ -20,7 +20,7 @@ const BODY_OF_WORK = [
     label: "The Magnum Opus",
     title: "Unleashed: The Promethean Promise",
     description:
-      "The complete delivery of the Unified Field — tracing the arc of consciousness from the bicameral collapse through the Prime Law to Neovia. The definitive work. Available in its entirety on this site.",
+      "The complete delivery of the Unified Field, tracing the arc of consciousness from the bicameral collapse through the Prime Law to Neovia. The definitive work. Available in its entirety on this site.",
     linkText: "Read Unleashed →",
   },
   {
@@ -28,7 +28,7 @@ const BODY_OF_WORK = [
     label: "The Civilizational Design",
     title: "Neovia",
     description:
-      "The first civilization designed to remove initiated force at the structural root. Not a utopia — an anti-extinction architecture. The physical expression of the Prime Law and the proof that the correction works.",
+      "The first civilization designed to remove initiated force at the structural root. Not a utopia. An anti-extinction architecture. The physical expression of the Prime Law and the proof that the correction works.",
     linkText: "Explore Neovia →",
   },
   {
@@ -36,7 +36,7 @@ const BODY_OF_WORK = [
     label: "The Operating System",
     title: "Neothink",
     description:
-      "The cognitive technology for the uncovered mind. Integrated thinking, cause-and-effect reasoning, concept building, future prediction — what consciousness does when it is no longer caged by hierarchy and force.",
+      "The cognitive technology for the uncovered mind. Integrated thinking, cause-and-effect reasoning, concept building, future prediction: what consciousness does when it is no longer caged by hierarchy and force.",
     linkText: "What Is Neothink →",
   },
   {
@@ -44,7 +44,7 @@ const BODY_OF_WORK = [
     label: "The Constitutional Foundation",
     title: "The Prime Law",
     description:
-      "The prohibition of initiated force — codified not as moral aspiration but as civilizational architecture. The structural correction for the 2,400-year detour. Three articles. No exceptions.",
+      "The prohibition of initiated force, codified not as moral aspiration but as civilizational architecture. The structural correction for the 2,400-year detour. Three articles. No exceptions.",
     linkText: "Read the Prime Law →",
   },
   {
@@ -52,7 +52,7 @@ const BODY_OF_WORK = [
     label: "The Corpus",
     title: "The Neothink Corpus",
     description:
-      "Millions of words across manuscripts, books, and strategic briefings spanning five decades — the complete body of work on consciousness, economics, political theory, and civilizational design.",
+      "Millions of words across manuscripts, books, and strategic briefings spanning five decades: the complete body of work on consciousness, economics, political theory, and civilizational design.",
     linkText: "View Published Work →",
   },
 ];
@@ -63,14 +63,14 @@ const ARTICLES = [
     tag: "Consciousness",
     title: "When the Gods Fell Silent: The Bicameral Mind and Its Collapse",
     description:
-      "The moment humanity lost its internal guidance system — and the emergency philosophy that arose to replace it.",
+      "The moment humanity lost its internal guidance system, and the emergency philosophy that arose to replace it.",
   },
   {
     href: WP.theTwentyFourHundredYearMistake,
     tag: "The Lineage",
     title: "Aristotle: The Only Full Breakthrough",
     description:
-      "The one mind that crossed the threshold into fully integrated consciousness. Why his works were lost — and why that loss was the greatest tragedy in human history.",
+      "The one mind that crossed the threshold into fully integrated consciousness. Why his works were lost, and why that loss was the greatest tragedy in human history.",
   },
   {
     href: WP.primeLaw,
@@ -150,8 +150,8 @@ export function MarkHamiltonPageContent() {
               Civilizational Theorist &middot; Systems Philosopher &middot; Founder, Neothink Institute
             </div>
             <p className="mh-hero-intro">
-              The architect of the Unified Field of Conscious Civilization and the originator of Neovia
-              — the first civilization designed to remove initiated force and allow consciousness to operate
+              The architect of the Unified Field of Conscious Civilization and the originator of Neovia,
+              the first civilization designed to remove initiated force and allow consciousness to operate
               at full, unhindered power. Five decades of independent research culminating in the most
               comprehensive framework for understanding consciousness and civilization ever assembled.
             </p>
@@ -180,7 +180,7 @@ export function MarkHamiltonPageContent() {
       <section className="mh-question" aria-label="The radical question">
         <div className="mh-question-inner mh-reveal">
           <blockquote>
-            Where others sought better rulers, better laws, or better ideologies — Hamilton asked a more
+            Where others sought better rulers, better laws, or better ideologies, Hamilton asked a more
             fundamental question: <em>what if hierarchy itself is the problem?</em> And more importantly:{" "}
             <em>what replaces it?</em>
           </blockquote>
@@ -198,18 +198,18 @@ export function MarkHamiltonPageContent() {
           <div className="mh-reveal">
             <p>Some people accept the world as it is. Mark Hamilton couldn&apos;t.</p>
             <p>
-              He saw what everyone sees — the wars, the corruption, the cycles of hope and collapse that
+              He saw what everyone sees: the wars, the corruption, the cycles of hope and collapse that
               have defined human history. But where others saw inevitability, Hamilton saw a question:{" "}
               <strong>why?</strong>
             </p>
             <p>
               Why does every civilization eventually decay? Why does every revolution become what it
-              fought against? Why does power always corrupt, collapse always come? Why has the human species
-              — with the most powerful brain in the known universe — never built a civilization that lasts?
+              fought against?               Why does power always corrupt, collapse always come? Why has the human species,
+              with the most powerful brain in the known universe, never built a civilization that lasts?
             </p>
             <p>
               It wasn&apos;t enough to say &quot;human nature.&quot; For Hamilton, that wasn&apos;t an
-              answer. It was a surrender. And he refused to surrender — because he loved life too much.
+              answer. It was a surrender. And he refused to surrender, because he loved life too much.
               Loved humanity too much. Loved what we <strong>could be</strong> too much to accept that
               self-destruction was our destiny.
             </p>
@@ -219,13 +219,13 @@ export function MarkHamiltonPageContent() {
           <h3 className="mh-reveal">Fifty Years</h3>
           <div className="mh-reveal">
             <p>
-              Hamilton wasn&apos;t interested in surface explanations — another political theory, another
+              Hamilton wasn&apos;t interested in surface explanations: another political theory, another
               reform that would buy a few decades before the next collapse. He was looking for the root.
               The reason <strong>every</strong> system eventually fails.
             </p>
             <p>
               He studied history, psychology, economics, consciousness. He traced the problem back through
-              millennia — through Julian Jaynes&apos; research on the bicameral mind, through
+              millennia, through Julian Jaynes&apos; research on the bicameral mind, through
               Aristotle&apos;s lost framework for integrated consciousness, through every empire that rose
               and fell on the same invisible fault line.
             </p>
@@ -233,14 +233,14 @@ export function MarkHamiltonPageContent() {
             <p>
               Every civilization in history has been built on the same foundation:{" "}
               <strong>external authority.</strong> Someone above you tells you what is true, what is
-              allowed, how to live. This structure doesn&apos;t just allow corruption — it guarantees it.
+              allowed, how to live. This structure doesn&apos;t just allow corruption: it guarantees it.
               Concentrated power always decays. Not because people are evil, but because the system is
               designed to fail.
             </p>
           </div>
 
           <div className="mh-pullquote mh-reveal">
-            Hamilton called it the 2,400-year civilizational detour — a wrong turn humanity took when
+            Hamilton called it the 2,400-year civilizational detour: a wrong turn humanity took when
             external authority replaced internal self-leadership as the organizing principle of civilization.
             Every empire, every nation, every revolution since then has operated within the same paradigm.
           </div>
@@ -257,7 +257,7 @@ export function MarkHamiltonPageContent() {
           <div className="mh-reveal">
             <p>But diagnosis wasn&apos;t enough. So Hamilton built the alternative.</p>
             <p>
-              Over decades, he authored millions of words — books, manuscripts, frameworks — synthesizing his
+              Over decades, he authored millions of words (books, manuscripts, frameworks), synthesizing his
               discovery into what he called the{" "}
               <strong>Unified Field of Conscious Civilization</strong>: a complete architecture showing how
               cognition, economics, governance, and human potential all arise from the same underlying
@@ -266,13 +266,13 @@ export function MarkHamiltonPageContent() {
             <p>
               The Unified Field revealed something that had been hiding in plain sight across all of recorded
               history: <strong>as force rises, civilization collapses. As force recedes, civilization soars.</strong>{" "}
-              Not as a political preference — as a natural law with the reliability of gravity. Every
+              Not as a political preference, but as a natural law with the reliability of gravity. Every
               civilization that violated it paid the same price. Every period of flourishing occurred when
               force was constrained.
             </p>
             <p>
-              From this discovery emerged the <strong>Prime Law</strong> — the prohibition of initiated force
-              — not as a moral ideal, but as the necessary structural condition for advanced consciousness to
+              From this discovery emerged the <strong>Prime Law</strong>, the prohibition of initiated force,
+              not as a moral ideal, but as the necessary structural condition for advanced consciousness to
               function at scale.
             </p>
           </div>
@@ -284,37 +284,37 @@ export function MarkHamiltonPageContent() {
               Because understanding why civilization fails isn&apos;t the same as building one that works.
               Hamilton didn&apos;t want to write another book that people admired and filed away. He wanted
               to build the proof. A real civilization. A real city. A real demonstration that the Prime Law
-              works — that when force is removed, human consciousness doesn&apos;t collapse into chaos. It
+              works: that when force is removed, human consciousness doesn&apos;t collapse into chaos. It
               explodes into creation.
             </p>
             <p>
               That city is <strong>Neovia</strong>. And it is under development now.
             </p>
             <p>
-              The result of fifty years wasn&apos;t just a theory. It was <strong>Neothink</strong> — an
+              The result of fifty years wasn&apos;t just a theory. It was <strong>Neothink</strong>, an
               operating system for the uncovered mind. A framework that restores what hierarchy suppresses:
-              the creative mind, internal authority, self-generated values. Not a philosophy to believe in —
-              a technology for human consciousness.
+              the creative mind, internal authority, self-generated values. Not a philosophy to believe in.
+              A technology for human consciousness.
             </p>
           </div>
 
           <div className="mh-pullquote mh-reveal">
             Hamilton&apos;s work is distinctive for treating civilization as an engineering problem rather than
-            a political debate — and for insisting that consciousness is not merely personal, but
+            a political debate, and for insisting that consciousness is not merely personal, but
             civilizational.
           </div>
 
           <div className="mh-reveal">
             <p>
               For fifty years, this work developed largely outside the public eye. Hamilton built quietly,
-              rigorously, comprehensively — producing the most complete framework for understanding
+              rigorously, comprehensively, producing the most complete framework for understanding
               consciousness and civilization that has ever been assembled. Multiple generations contributed to
               its development. Now it enters its public phase.
             </p>
             <p>Not because the world is ready. Because it can&apos;t wait any longer.</p>
             <p>
-              The Unified Field reveals that the current trajectory — nuclear-armed hierarchies competing for
-              maximum force, with AI compressing every decision — has only one endpoint. The correction that
+              The Unified Field reveals that the current trajectory (nuclear-armed hierarchies competing for
+              maximum force, with AI compressing every decision) has only one endpoint. The correction that
               was interrupted 2,400 years ago when Aristotle&apos;s works were lost must be completed now.
               Not eventually. Now.
             </p>
@@ -333,7 +333,7 @@ export function MarkHamiltonPageContent() {
             Five decades. <em>One integrated vision.</em>
           </h2>
           <p>
-            The scope of Hamilton&apos;s output is unlike anything in modern intellectual history — millions
+            The scope of Hamilton&apos;s output is unlike anything in modern intellectual history: millions
             of words across manuscripts, books, and strategic frameworks, all building toward a single
             integrated picture of consciousness and civilization.
           </p>
@@ -359,7 +359,7 @@ export function MarkHamiltonPageContent() {
               Read <em>Unleashed</em>
             </h2>
             <p>
-              Hamilton&apos;s magnum opus delivers the complete Unified Field of Conscious Civilization —
+              Hamilton&apos;s magnum opus delivers the complete Unified Field of Conscious Civilization,
               from the collapse of the bicameral mind through Socrates, Plato, Aristotle, Jesus, Augustine,
               the Dark Ages, the Enlightenment, the century of blood, the Prime Law, and Neovia.
             </p>
@@ -395,13 +395,13 @@ export function MarkHamiltonPageContent() {
           </div>
           <div className="mh-podcast-text">
             <h3 id="mh-podcast-heading">
-              <em>Unleashed</em> — The Podcast
+              <em>Unleashed</em>: The Podcast
             </h3>
             <p>
-              Mark Hamilton and Wallace Hamilton in conversation — delivering the Unified Field to the world
+              Mark Hamilton and Wallace Hamilton in conversation, delivering the Unified Field to the world
               for the first time. The discovery, the proof, and the vision, in twelve founding episodes.
             </p>
-            <Link href={WP.podcast}>Coming Soon — Subscribe →</Link>
+            <Link href={WP.podcast}>Coming Soon · Subscribe →</Link>
           </div>
         </div>
       </section>

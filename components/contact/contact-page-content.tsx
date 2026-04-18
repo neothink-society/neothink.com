@@ -24,14 +24,14 @@ const INBOXES = [
   {
     label: "Advisory",
     title: "Expertise & counsel",
-    description: "Science, architecture, strategy, technology — if your craft accelerates the work, write here.",
+    description: "Science, architecture, strategy, technology: if your craft accelerates the work, write here.",
     href: "mailto:support+advise@neothink.com",
     linkText: "support+advise@neothink.com",
   },
   {
     label: "Build",
     title: "Engineers & operators",
-    description: "Builders who want to construct what has never existed — Neovia and the systems around it.",
+    description: "Builders who want to construct what has never existed: Neovia and the systems around it.",
     href: "mailto:support+build@neothink.com",
     linkText: "support+build@neothink.com",
   },
@@ -90,7 +90,7 @@ export function ContactPageContent() {
           Contact the <em>Institute.</em>
         </h1>
         <p className="ct-hero-sub">
-          Whether you are discovering the work for the first time or ready to invest, advise, or build — start here. We respond to genuine inquiries personally.
+          Whether you are discovering the work for the first time or ready to invest, advise, or build, start here. We respond to genuine inquiries personally.
         </p>
       </section>
 
@@ -102,7 +102,7 @@ export function ContactPageContent() {
               Write to the <em>right inbox.</em>
             </h2>
             <p>
-              Using the correct address helps us route your message to the people who can actually help — without delay.
+              Using the correct address helps us route your message to the people who can actually help, without delay.
             </p>
           </div>
 
@@ -125,7 +125,7 @@ export function ContactPageContent() {
             Structured ways to <em>participate.</em>
           </h2>
           <p>
-            If you are deciding how to engage — invest, advise, build, or walk the personal path — the Get Involved page lays out each path with context and next steps.
+            If you are deciding how to engage (invest, advise, build, or walk the personal path), the Get Involved page lays out each path with context and next steps.
           </p>
           <Link href={WP.getInvolved} className="ct-btn">
             Get Involved

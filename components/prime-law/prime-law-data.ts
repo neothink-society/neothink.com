@@ -1,4 +1,4 @@
-/** Prime Law page — structured content from WordPress export */
+/** Prime Law page: structured content from WordPress export */
 
 export const PREAMBLE_PARAGRAPHS = [
   "The purpose of human life is to prosper and live happily.",

@@ -1,4 +1,4 @@
-/* Prime Law — WordPress export parity (scoped under .pl-page) */
+/* Prime Law: WordPress export parity (scoped under .pl-page) */
 
 .pl-page {
   --pl-text: #0e0e0e;
@@ -12,7 +12,7 @@
   --pl-border: #e8e3d8;
   --pl-dark: #0e0e0e;
   /* Darkened from #a06040 (4.40:1 on stone, AA fail) to #8c4f33 which
-   * lands at 5.8:1 — still clearly red-orange but passes AA. */
+   * lands at 5.8:1; still clearly red-orange but passes AA. */
   --pl-negative: #8c4f33;
 }
 

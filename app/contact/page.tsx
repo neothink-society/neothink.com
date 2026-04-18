@@ -8,7 +8,7 @@ import "./contact-page.css";
 export const metadata = pageMetadata({
   title: "Contact | Neothink Institute",
   description:
-    "Reach the Neothink Institute — general inquiries, investment, advisory, and build channels. We respond personally.",
+    "Reach the Neothink Institute: general inquiries, investment, advisory, and build channels. We respond personally.",
   pathname: "/contact",
   ogType: "website",
 });
@@ -22,7 +22,7 @@ const pageLd = webPageJsonLd({
   pathname: "/contact",
   name: "Contact | Neothink Institute",
   description:
-    "Reach the Neothink Institute — general inquiries, investment, advisory, and build channels. We respond personally.",
+    "Reach the Neothink Institute: general inquiries, investment, advisory, and build channels. We respond personally.",
   pageType: "ContactPage",
   aboutId: schemaIds.organization,
   speakableSelectors: ["#ct-hero-heading"],

@@ -58,7 +58,7 @@ const CHAIN = [
   {
     title: "The Psychology",
     body:
-      "Hierarchical systems produce obedience over agency — fragmented responsibility, compartmentalized ethics. \"I was following orders.\"",
+      "Hierarchical systems produce obedience over agency: fragmented responsibility, compartmentalized ethics. \"I was following orders.\"",
   },
   {
     title: "The Logic",
@@ -201,8 +201,8 @@ export function NeoviaPageContent() {
             <p>
               It became permanent. And it became invisible.{" "}
               <strong>
-                Every institution you were raised inside — every government, every school, every
-                workplace, every religious body — still operates on this architecture.
+                Every institution you were raised inside (every government, every school, every
+                workplace, every religious body) still operates on this architecture.
               </strong>{" "}
               It is the operating system of the world. And it has a fatal design flaw.
             </p>
@@ -260,7 +260,7 @@ export function NeoviaPageContent() {
           </div>
 
           <p className="nv-primelaw-note">
-            The Prime Law does not reform hierarchy. It replaces it. Not as a moral ideal — as
+            The Prime Law does not reform hierarchy. It replaces it. Not as a moral ideal, but as
             civilizational architecture. The first constitutional framework in history built on the
             absolute prohibition of initiated force.
           </p>
@@ -329,7 +329,7 @@ export function NeoviaPageContent() {
               mortal mentality, life is a finite project. A plateau to reach, a routine to maintain, a
               slow decline to accept. Under the immortal mentality, life is an open-ended arc of creation.
               Each horizon reached reveals new horizons beyond it. Meaning compounds. Curiosity deepens.
-              The mind never seeks an ending — it seeks what it has not yet created.
+              The mind never seeks an ending. It seeks what it has not yet created.
             </p>
           </div>
 
@@ -373,7 +373,7 @@ export function NeoviaPageContent() {
             </h2>
             <p>
               The Platonic hierarchy is no longer merely a philosophical structure. It is a control
-              architecture — and it now commands the power to end the species.
+              architecture, and it now commands the power to end the species.
             </p>
             <p>
               In a hierarchical world, states are sovereign. Sovereignty requires deterrence. Deterrence

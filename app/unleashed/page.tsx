@@ -8,7 +8,7 @@ import "./unleashed-page.css";
 export const metadata = pageMetadata({
   title: "Unleashed: The Promethean Promise | Mark Hamilton",
   description:
-    "The complete delivery of the Unified Field of Conscious Civilization. Fifty years of research tracing consciousness from the silence of the gods to Neovia — the magnum opus by Mark Hamilton.",
+    "The complete delivery of the Unified Field of Conscious Civilization. Fifty years of research tracing consciousness from the silence of the gods to Neovia, the magnum opus by Mark Hamilton.",
   pathname: "/unleashed",
   ogType: "article",
 });
@@ -22,7 +22,7 @@ const pageLd = webPageJsonLd({
   pathname: "/unleashed",
   name: "Unleashed: The Promethean Promise | Mark Hamilton",
   description:
-    "The complete delivery of the Unified Field of Conscious Civilization. Fifty years of research tracing consciousness from the silence of the gods to Neovia — the magnum opus by Mark Hamilton.",
+    "The complete delivery of the Unified Field of Conscious Civilization. Fifty years of research tracing consciousness from the silence of the gods to Neovia, the magnum opus by Mark Hamilton.",
   datePublished: "2025-01-01",
   dateModified: "2025-01-01",
   aboutId: schemaIds.unleashedBook,

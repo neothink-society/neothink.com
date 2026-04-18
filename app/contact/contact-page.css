@@ -1,4 +1,4 @@
-/* Contact — aligned with migrated page patterns (scoped under .ct-page) */
+/* Contact: aligned with migrated page patterns (scoped under .ct-page) */
 
 .ct-page {
   --ct-text: #0e0e0e;
@@ -175,7 +175,7 @@
   /* Grid items default to min-width: auto (min-content), which lets the
    * longest unbreakable token in the card expand the track past its
    * parent. Force the card to stay within its column and wrap long
-   * tokens gracefully — required for WCAG 1.4.10 Reflow at 320 px. */
+   * tokens gracefully; required for WCAG 1.4.10 Reflow at 320 px. */
   min-width: 0;
   overflow-wrap: anywhere;
 }

@@ -9,13 +9,13 @@ const RELATED_LINKS = [
   {
     href: WP.unleashed,
     title: "Unleashed",
-    description: "The complete book behind the podcast — the Unified Field of Conscious Civilization in full.",
+    description: "The complete book behind the podcast: the Unified Field of Conscious Civilization in full.",
     arrow: "Read online →",
   },
   {
     href: WP.unifiedField,
     title: "The Unified Field",
-    description: "The framework in one place — the argument the podcast unpacks in conversation.",
+    description: "The framework in one place, the argument the podcast unpacks in conversation.",
     arrow: "Explore the framework →",
   },
   {
@@ -67,10 +67,10 @@ export function PodcastPageContent() {
       <section className="pc-hero" aria-labelledby="pc-hero-heading">
         <div className="pc-hero-label">In Conversation</div>
         <h1 id="pc-hero-heading">
-          <em>Unleashed</em> — The Podcast
+          <em>Unleashed</em>: The Podcast
         </h1>
         <p className="pc-hero-sub">
-          Mark Hamilton and Wallace Hamilton deliver the Unified Field of Conscious Civilization in dialogue — the discovery that explains the cage around the mind, the pattern behind civilizational rise and fall, and what comes next.
+          Mark Hamilton and Wallace Hamilton deliver the Unified Field of Conscious Civilization in dialogue: the discovery that explains the cage around the mind, the pattern behind civilizational rise and fall, and what comes next.
         </p>
       </section>
 
@@ -130,11 +130,11 @@ export function PodcastPageContent() {
             What the founding episodes <em>cover.</em>
           </h2>
           <p>
-            The conversation follows the same spine as <em>Unleashed</em>: consciousness, force, and civilizational design — not as abstract theory, but as the through-line of human history and your life today.
+            The conversation follows the same spine as <em>Unleashed</em>: consciousness, force, and civilizational design, not as abstract theory, but as the through-line of human history and your life today.
           </p>
           <ul>
             <li>The rupture of the bicameral mind and the silence of the gods</li>
-            <li>Athens, Socrates, Plato, Aristotle — and the loss that changed everything</li>
+            <li>Athens, Socrates, Plato, Aristotle, and the loss that changed everything</li>
             <li>Christianity, empire, the long night, and the return of reason</li>
             <li>The Law of Humanity, the Prime Law, and Neovia as structural answer</li>
             <li>What it means to live and build after you see the cage</li>

@@ -6,9 +6,9 @@ import { schemaIds } from "@/lib/schema-ids";
 import "./podcast-page.css";
 
 export const metadata = pageMetadata({
-  title: "Unleashed — The Podcast | Neothink Institute",
+  title: "Unleashed: The Podcast | Neothink Institute",
   description:
-    "Mark Hamilton and Wallace Hamilton on the Unified Field of Conscious Civilization. Twelve founding episodes — on YouTube.",
+    "Mark Hamilton and Wallace Hamilton on the Unified Field of Conscious Civilization. Twelve founding episodes on YouTube.",
   pathname: "/podcast",
   ogType: "website",
 });
@@ -20,9 +20,9 @@ const breadcrumbs = breadcrumbListJsonLd([
 
 const pageLd = webPageJsonLd({
   pathname: "/podcast",
-  name: "Unleashed — The Podcast | Neothink Institute",
+  name: "Unleashed: The Podcast | Neothink Institute",
   description:
-    "Mark Hamilton and Wallace Hamilton on the Unified Field of Conscious Civilization. Twelve founding episodes — on YouTube.",
+    "Mark Hamilton and Wallace Hamilton on the Unified Field of Conscious Civilization. Twelve founding episodes on YouTube.",
   aboutId: schemaIds.podcastSeries,
   speakableSelectors: SPEAKABLE_MAIN_H1,
 });
