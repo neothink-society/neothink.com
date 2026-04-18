@@ -7,36 +7,36 @@ export const HBL1TH_FAQ = [
   {
     question: "What is the following mode?",
     answer:
-      "A conditioned mental state where you follow external authorities instead of thinking independently. It begins in infancy through mimicked reactions—following parents, siblings, the world around us. Most people never leave this mode, remaining followers their entire lives. It’s the great imprisonment of the human mind that enables ruling classes to exist.",
+      "A conditioned mental state where you follow external authorities instead of thinking independently. It begins in infancy through mimicked reactions: following parents, siblings, the world around us. Most people never leave this mode, remaining followers their entire lives. It’s the great imprisonment of the human mind that enables ruling classes to exist.",
   },
   {
     question: "How do I know if I’m in the following mode?",
     answer:
-      "Ask yourself: when was the last time you went against the crowd—even just a group of friends—and wanted to? If going against external authorities feels uncomfortable, if you accept narratives without healthy skepticism, if you let experts tell you what to think instead of building your own puzzle pictures of logic, you’re in the following mode.",
+      "Ask yourself: when was the last time you went against the crowd: even just a group of friends: and wanted to? If going against external authorities feels uncomfortable, if you accept narratives without healthy skepticism, if you let experts tell you what to think instead of building your own puzzle pictures of logic, you’re in the following mode.",
   },
   {
     question: "What is the Prime Law?",
     answer:
-      "The Prime Law removes all initiatory force—the initiation or threat of force, including fraud. Instead of adding rights (which can be manipulated), it removes the negative. Once you protect the individual (the smallest minority), you’ve protected everyone equally. This is what the Founding Fathers missed.",
+      "The Prime Law removes all initiatory force: the initiation or threat of force, including fraud. Instead of adding rights (which can be manipulated), it removes the negative. Once you protect the individual (the smallest minority), you’ve protected everyone equally. This is what the Founding Fathers missed.",
   },
   {
     question: "What is a business civilization?",
     answer:
-      "A society with no political system—only mutual value exchange through competing businesses. Your dollars do the voting instead of manipulated elections. Without initiatory force, there are no forced taxes (only voluntary tithing), no regulations blocking progress. Prosperity explodes because businesses serve consumers to survive.",
+      "A society with no political system: only mutual value exchange through competing businesses. Your dollars do the voting instead of manipulated elections. Without initiatory force, there are no forced taxes (only voluntary tithing), no regulations blocking progress. Prosperity explodes because businesses serve consumers to survive.",
   },
   {
     question: "Who are the exceptions who broke free?",
     answer:
-      "Elon Musk, Steve Jobs, Henry Ford, Thomas Edison. These people broke the chain and entered a new mentality. They brought genuine values through honest effort—unlike the parasitical ruling class who took the dishonest, lazy route to unearned power. The difference between the two paths is fundamental.",
+      "Elon Musk, Steve Jobs, Henry Ford, Thomas Edison. These people broke the chain and entered a new mentality. They brought genuine values through honest effort: unlike the parasitical ruling class who took the dishonest, lazy route to unearned power. The difference between the two paths is fundamental.",
   },
   {
     question: "How do I break free of the following mode?",
     answer:
-      "Through Neothink tools: Learn integrated thinking—rising up to pull together puzzle pieces of logic yourself instead of accepting narratives from external authorities. Question everything with healthy skepticism. Become a self-leader rather than waiting for someone to tell you what to do.",
+      "Through Neothink tools: Learn integrated thinking: rising up to pull together puzzle pieces of logic yourself instead of accepting narratives from external authorities. Question everything with healthy skepticism. Become a self-leader rather than waiting for someone to tell you what to do.",
   },
   {
     question: "Why is Hamilton going public now?",
     answer:
-      "For 45 years, Hamilton ran a private Neothink club helping individual searchers. But he’s witnessed civilization itself sinking deeper into the following mode—the power grab has gotten too great. To fix the problem at the civilization level, he must go public and reach the masses directly.",
+      "For 45 years, Hamilton ran a private Neothink club helping individual searchers. But he’s witnessed civilization itself sinking deeper into the following mode: the power grab has gotten too great. To fix the problem at the civilization level, he must go public and reach the masses directly.",
   },
 ] as const;

@@ -12,7 +12,7 @@ export const FHBNCWR_FAQ = [
   {
     question: "What is initiatory force?",
     answer:
-      "Initiatory force is the actual initiation of force on others. It includes regulations, executive orders, and legislation that require compliance under threat of civil penalties or criminal punishment. It’s the “rule of man”—policies enforced simply because those in power prefer them, not because they serve the people.",
+      "Initiatory force is the actual initiation of force on others. It includes regulations, executive orders, and legislation that require compliance under threat of civil penalties or criminal punishment. It’s the “rule of man”: policies enforced simply because those in power prefer them, not because they serve the people.",
   },
   {
     question: "What is a business civilization?",
@@ -22,7 +22,7 @@ export const FHBNCWR_FAQ = [
   {
     question: "Why is this different from left vs right politics?",
     answer:
-      "This isn’t a point on the political spectrum from left to right—it’s a third dimension entirely. Instead of choosing between political factions that all use initiatory force, this approach says “no” to politics altogether. It’s the anti-politics option that has never been available before.",
+      "This isn’t a point on the political spectrum from left to right: it’s a third dimension entirely. Instead of choosing between political factions that all use initiatory force, this approach says “no” to politics altogether. It’s the anti-politics option that has never been available before.",
   },
   {
     question: "What are the three benefits of the new country?",

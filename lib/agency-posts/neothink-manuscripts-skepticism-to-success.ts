@@ -38,7 +38,7 @@ export const NEOTHINK_MANUSCRIPTS_SKEPTICISM_TO_SUCCESS_BODY_HTML = `<h2>The Fir
 <p>Progress comes through engagement. Readers are encouraged to apply the material and reflect. For many, this leads to long-term growth in their careers, relationships, and mental clarity.</p>
 <h2>Skepticism Is Natural, But It Is Not the End</h2>
 <p>Doubt is a natural response. The format and delivery, often through unexpected mail, can feel unorthodox. Some view it as a sales tactic, while others question the cost or the number of volumes involved.</p>
-<p>But for many, skepticism becomes part of the transformation. Doubt often signals unfamiliar territory. Most people have never encountered a system that openly challenges cultural norms while empowering personal autonomy. Readers who stay with the material often describe a turning point—when confusion gives way to insight.</p>
+<p>But for many, skepticism becomes part of the transformation. Doubt often signals unfamiliar territory. Most people have never encountered a system that openly challenges cultural norms while empowering personal autonomy. Readers who stay with the material often describe a turning point: when confusion gives way to insight.</p>
 <p>What begins as an odd invitation gradually becomes a new way of seeing life.</p>
 <h2>Lessons That Stretch Across Generations</h2>
 <p>One of the greatest strengths of the Neothink manuscripts is their lasting relevance. The core ideas are not tied to trends or momentary advice. They focus on value creation, personal responsibility, and unlocking higher levels of human consciousness.</p>

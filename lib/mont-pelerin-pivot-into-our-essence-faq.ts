@@ -7,7 +7,7 @@ export const MONT_PELERIN_PIVOT_FAQ = [
   {
     question: "What was the pivot Hamilton made at Mont Pelerin?",
     answer:
-      "Hamilton shifted from leading with the Prime Law and freedom (surpassing Dubai and Singapore) to leading with Immortalis’s essence: becoming the medical mecca of the world. The new message focuses on curing diseases and providing affordable healthcare — something everyone responds to regardless of political orientation.",
+      "Hamilton shifted from leading with the Prime Law and freedom (surpassing Dubai and Singapore) to leading with Immortalis’s essence: becoming the medical mecca of the world. The new message focuses on curing diseases and providing affordable healthcare, something everyone responds to regardless of political orientation.",
   },
   {
     question: "What does getting closer to your essence mean?",
@@ -17,7 +17,7 @@ export const MONT_PELERIN_PIVOT_FAQ = [
   {
     question: "How will Immortalis approach the Trump administration?",
     answer:
-      "With a turnkey package: federal land, infrastructure plan, memorandums of understanding from biomedical companies, and complete research — everything assembled so Trump can say “Do it.” No theories, no philosophy, just a ready-to-execute plan.",
+      "With a turnkey package: federal land, infrastructure plan, memorandums of understanding from biomedical companies, and complete research, everything assembled so Trump can say “Do it.” No theories, no philosophy, just a ready-to-execute plan.",
   },
   {
     question: "What is the face to the world?",
@@ -27,6 +27,6 @@ export const MONT_PELERIN_PIVOT_FAQ = [
   {
     question: "Why can’t Immortalis lead with the Prime Law when approaching governments?",
     answer:
-      "Because it requires too much explanation and can push government officials away. Even sympathetic leaders need a practical reason to engage. By leading with the medical mecca — curing diseases, affordable healthcare — officials pursue Immortalis rather than Immortalis having to chase them.",
+      "Because it requires too much explanation and can push government officials away. Even sympathetic leaders need a practical reason to engage. By leading with the medical mecca, curing diseases, affordable healthcare, officials pursue Immortalis rather than Immortalis having to chase them.",
   },
 ] as const;

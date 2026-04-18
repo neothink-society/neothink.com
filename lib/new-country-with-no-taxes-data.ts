@@ -11,7 +11,7 @@ export const NCNT_PATH = "/new-country-with-no-taxes" as const;
 
 export const NCNT_IMAGE: AwakeningArticleImage = {
   src: "/images/wp/2026/02/A-New-Country-with-No-Taxes-Mark-Hamilton.jpg",
-  alt: "A New Country with No Taxes? — Neothink Awakening article",
+  alt: "A New Country with No Taxes?, Neothink Awakening article",
   width: 1280,
   height: 720,
 };

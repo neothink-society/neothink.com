@@ -16,14 +16,14 @@ export const PROJECT_LIFE_WP = {
 
 export const PROJECT_LIFE_HERO_IMAGE = {
   src: "/images/wp/2024/09/project-life-1.png",
-  alt: "Project Life — longevity and health within the Neothink Society",
+  alt: "Project Life, longevity and health within the Neothink Society",
   width: 1000,
   height: 667,
 } as const;
 
 export const PROJECT_LIFE_SECTION_IMAGE = {
   src: "/images/wp/2024/09/project-life-2.png",
-  alt: "Project Life — research-backed health support",
+  alt: "Project Life, research-backed health support",
   width: 1000,
   height: 667,
 } as const;

@@ -11,7 +11,7 @@ export const EMN_PATH = "/escape-the-matrix-now" as const;
 
 export const EMN_IMAGE: AwakeningArticleImage = {
   src: "/images/wp/2026/01/Escape-the-Matrix-NOW.jpg",
-  alt: "Escape the Matrix NOW — Neothink Awakening article",
+  alt: "Escape the Matrix NOW, Neothink Awakening article",
   width: 1280,
   height: 720,
 };
@@ -30,7 +30,7 @@ export const EMN_YOUTUBE_ID = "xMSyAOS2-jc" as const;
 export const EMN_MIN_READ = "14 min read" as const;
 
 export const EMN_INTRO_PARAS: readonly string[] = [
-  "The Neothink Awakening is the complete transformation from following mode to creative mode—the next evolution of the human mind. Mark Hamilton’s own journey provides the template: from beautiful breakthroughs, through facing the ugly realities of the world, to ultimate freedom.",
+  "The Neothink Awakening is the complete transformation from following mode to creative mode: the next evolution of the human mind. Mark Hamilton’s own journey provides the template: from beautiful breakthroughs, through facing the ugly realities of the world, to ultimate freedom.",
 ];
 
 export const EMN_QUICK_ANSWER_KICKER = "Quick answer" as const;
@@ -38,4 +38,4 @@ export const EMN_QUICK_ANSWER_TITLE = "What Is the Neothink Awakening?" as const
 export const EMN_QUICK_ANSWER_LEAD_STRONG: string | undefined = undefined;
 
 /** Prose body of the quick answer (first paragraph from WP). Edit by hand to add inline Links. */
-export const EMN_QUICK_ANSWER_REST = "The Neothink Awakening is the complete psychological, physical, and conscious shift that occurs as you break into the Neothink Mentality—the next evolution of the human mind. It’s the transformation from following mode (doing what external authorities tell you, stuck in routine ruts) to creative mode (integrating reality, creating values, experiencing genuine purpose). The journey begins with beautiful breakthroughs—then exposes you to the ugly realities of the world—and ultimately leads to freedom." as const;
+export const EMN_QUICK_ANSWER_REST = "The Neothink Awakening is the complete psychological, physical, and conscious shift that occurs as you break into the Neothink Mentality: the next evolution of the human mind. It’s the transformation from following mode (doing what external authorities tell you, stuck in routine ruts) to creative mode (integrating reality, creating values, experiencing genuine purpose). The journey begins with beautiful breakthroughs: then exposes you to the ugly realities of the world: and ultimately leads to freedom." as const;

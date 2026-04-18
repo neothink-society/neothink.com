@@ -5,7 +5,7 @@ export const BUILDING_THE_ENGINE_BEHIND_IMMORTALIS_FAQ = [
   },
   {
     question: "Why does Immortalis need a business ecosystem?",
-    answer: "Hamilton learned from the Neo-Tech experience that great values need an engine to reach the world. Business creates and disseminates values. Without a business ecosystem, Immortalis remains a side project. With one, it gains the metrics, revenue, and momentum to drive the vision across the planet — including to third-world countries.",
+    answer: "Hamilton learned from the Neo-Tech experience that great values need an engine to reach the world. Business creates and disseminates values. Without a business ecosystem, Immortalis remains a side project. With one, it gains the metrics, revenue, and momentum to drive the vision across the planet, including to third-world countries.",
   },
   {
     question: "Who are the billionaires who want to live forever?",

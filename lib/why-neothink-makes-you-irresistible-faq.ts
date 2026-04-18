@@ -12,7 +12,7 @@ export const WNMYI_FAQ = [
   {
     question: "Why does intelligence matter for attraction?",
     answer:
-      "Unlike other species that rely primarily on physical attributes, human survival historically depended on superior intelligence. We’re evolutionarily programmed to find higher-level thinkers attractive—it signals that potential offspring would have better survival chances.",
+      "Unlike other species that rely primarily on physical attributes, human survival historically depended on superior intelligence. We’re evolutionarily programmed to find higher-level thinkers attractive: it signals that potential offspring would have better survival chances.",
   },
   {
     question: "What is the difference between following mode and creative mode?",
@@ -22,7 +22,7 @@ export const WNMYI_FAQ = [
   {
     question: "Why are happy people more attractive?",
     answer:
-      "Genuine happiness signals that someone is functioning well—operating in harmony with their nature. This authentic positive energy is inherently attractive because it suggests a healthy, thriving individual who would be a good partner.",
+      "Genuine happiness signals that someone is functioning well: operating in harmony with their nature. This authentic positive energy is inherently attractive because it suggests a healthy, thriving individual who would be a good partner.",
   },
   {
     question: "What is “value reflection” in relationships?",
@@ -37,6 +37,6 @@ export const WNMYI_FAQ = [
   {
     question: "Should young people join Neothink specifically for relationships?",
     answer:
-      "While Neothink isn’t a dating service, Hamilton encourages young adults to get involved because they’ll be surrounded by creative, value-driven people—significantly increasing the odds of finding a compatible life partner.",
+      "While Neothink isn’t a dating service, Hamilton encourages young adults to get involved because they’ll be surrounded by creative, value-driven people: significantly increasing the odds of finding a compatible life partner.",
   },
 ] as const;

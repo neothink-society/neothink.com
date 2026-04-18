@@ -1,5 +1,5 @@
 /**
- * Phase 0 — WordPress → Next.js URL migration.
+ * Phase 0, WordPress → Next.js URL migration.
  *
  * 1. **Inventory:** `pnpm migration:inventory` → `data/migration/url-inventory.json`
  *    (live XML sitemaps).

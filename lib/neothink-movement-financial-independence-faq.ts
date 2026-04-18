@@ -1,5 +1,5 @@
 /**
- * FAQ — visible copy must match FAQPage JSON-LD.
+ * FAQ, visible copy must match FAQPage JSON-LD.
  */
 
 export const NMFI_FAQ = [

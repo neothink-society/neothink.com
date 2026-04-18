@@ -11,7 +11,7 @@ export const AWTI_PATH = "/are-we-the-illuminati-truth" as const;
 
 export const AWTI_IMAGE: AwakeningArticleImage = {
   src: "/images/wp/2026/01/Are-We-the-Illuminati-The-Truth-Behind-the-Allegations.jpg",
-  alt: "Are We the Illuminati? The Truth Behind the Allegations — Neothink Awakening article",
+  alt: "Are We the Illuminati? The Truth Behind the Allegations, Neothink Awakening article",
   width: 1280,
   height: 720,
 };
@@ -30,7 +30,7 @@ export const AWTI_YOUTUBE_ID = "l79YZkjgxmo" as const;
 export const AWTI_MIN_READ = "11 min read" as const;
 
 export const AWTI_INTRO_PARAS: readonly string[] = [
-  "For five decades, the private Neothink Club has been called “the new Illuminati.” Mark Hamilton, its founder, has remained largely silent about this label—until now.",
+  "For five decades, the private Neothink Club has been called “the new Illuminati.” Mark Hamilton, its founder, has remained largely silent about this label: until now.",
   "In a recent discussion, Hamilton addressed the allegation directly. His response wasn’t defensive or dismissive. Instead, he did something unexpected: he acknowledged the parallels.",
 ];
 
@@ -39,4 +39,4 @@ export const AWTI_QUICK_ANSWER_TITLE = "Is Neothink the Illuminati?" as const;
 export const AWTI_QUICK_ANSWER_LEAD_STRONG = "Neothink has been called “the new Illuminati” for over 50 years" as const;
 
 /** Prose body of the quick answer (first paragraph from WP). Edit by hand to add inline Links. */
-export const AWTI_QUICK_ANSWER_REST = "due to striking parallels with the original Bavarian Illuminati: both operated as secret societies, both opposed ruling class control over society, both faced government persecution, and both influenced world events from behind the scenes. However, unlike conspiracy theories suggest, Neothink is entirely benevolent—focused on achieving pure freedom and helping humanity thrive through the elimination of initiatory force." as const;
+export const AWTI_QUICK_ANSWER_REST = "due to striking parallels with the original Bavarian Illuminati: both operated as secret societies, both opposed ruling class control over society, both faced government persecution, and both influenced world events from behind the scenes. However, unlike conspiracy theories suggest, Neothink is entirely benevolent: focused on achieving pure freedom and helping humanity thrive through the elimination of initiatory force." as const;

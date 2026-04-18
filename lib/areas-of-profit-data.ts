@@ -1,5 +1,5 @@
 /**
- * Neothink Mentality lesson 6 — Areas of Profit (WordPress post id 4624).
+ * Neothink Mentality lesson 6: Areas of Profit (WordPress post id 4624).
  * Video: https://www.youtube.com/watch?v=Kiz5xLm6ksk
  * @see migration/source/areas-of-profit.html
  */
@@ -17,10 +17,10 @@ export const AREAS_OF_PROFIT_LESSON = {
 } as const;
 
 export const AREAS_OF_PROFIT_TAKEAWAYS = [
-  "After Project Curiosity, list basic responsibilities, then group them into areas of purpose—where money is actually made.",
+  "After Project Curiosity, list basic responsibilities, then group them into areas of purpose: where money is actually made.",
   "Integrated division of essence replaces the inferior division of labor by tying work to profit channels and the creative mind.",
   "Each area of purpose can function as a mini-company (full-scope ownership of that money-making slice).",
-  "Target one area, take nitty-gritty responsibilities others will often release, and persist—control where money is made.",
+  "Target one area, take nitty-gritty responsibilities others will often release, and persist: control where money is made.",
 ] as const;
 
 /** Hamilton’s historical publishing example (pre-internet); principle generalizes. */
@@ -35,25 +35,25 @@ export const AREAS_OF_PROFIT_PUBLISHING_EXAMPLE = [
   },
   {
     title: "Direct mail marketing",
-    body: "Offers arriving by mail—e.g. in an envelope in the mailbox.",
+    body: "Offers arriving by mail (e.g. in an envelope in the mailbox).",
   },
   {
     title: "Customer database marketing",
-    body: "Selling more to existing customers—the “back end,” expanding their relationship with the business.",
+    body: "Selling more to existing customers (the “back end”), expanding their relationship with the business.",
   },
 ] as const;
 
 /** Spoken frame: inferior to integrated division of essence. */
 export const AREAS_OF_PROFIT_DIVISION_LABOR = [
   "Typical breakdown: each basic responsibility becomes a separate specialized job or department",
-  "Workers stay in narrow, repetitive tasks—the routine rut",
+  "Workers stay in narrow, repetitive tasks: the routine rut",
   "Inferior productivity in the lesson’s framing; silent frustration and stagnation",
   "Little connection to where money actually enters",
 ] as const;
 
 export const AREAS_OF_PROFIT_DIVISION_ESSENCE = [
   "Basic responsibilities integrate under specific areas of purpose instead of staying dead-end silos",
-  "Multiple “mini-companies”—each channel run full scope: marketing, orders, fulfillment, service, data, accounting",
+  "Multiple “mini-companies,” each channel run full scope: marketing, orders, fulfillment, service, data, accounting",
   "Creative mind brought into every role; exhilarated in-house entrepreneurs vs. bored specialization",
   "Productivity and potential described as open-ended compared with division-of-labor defaults",
 ] as const;
@@ -65,7 +65,7 @@ export const AREAS_OF_PROFIT_PROCESS_STEPS = [
   },
   {
     title: "List basic responsibilities",
-    body: "Write the main building blocks of the company—not only your role, but the full operation.",
+    body: "Write the main building blocks of the company: not only your role, but the full operation.",
   },
   {
     title: "Identify areas of purpose",
@@ -109,6 +109,6 @@ export const AREAS_OF_PROFIT_FAQ = [
   {
     question: "How is this different from just seeking a promotion?",
     answer:
-      "Promotions often deepen division-of-labor specialization with a new title. Owning an area of purpose is framed as connection to profit generation—closer to entrepreneurial scope than to a vertical specialty ladder alone.",
+      "Promotions often deepen division-of-labor specialization with a new title. Owning an area of purpose is framed as connection to profit generation: closer to entrepreneurial scope than to a vertical specialty ladder alone.",
   },
 ] as const;

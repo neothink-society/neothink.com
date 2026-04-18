@@ -179,13 +179,13 @@ export function getWebPageSchema(): JsonLd {
 }
 
 /**
- * Unleashed audio/video series — referenced from `/podcast` WebPage `about`.
+ * Unleashed audio/video series, referenced from `/podcast` WebPage `about`.
  */
 export function getPodcastSeriesSchema(): JsonLd {
   return {
     "@type": "PodcastSeries",
     "@id": schemaIds.podcastSeries,
-    name: "Unleashed — The Podcast",
+    name: "Unleashed, The Podcast",
     url: `${siteConfig.url}/podcast`,
     inLanguage: "en-US",
     publisher: { "@id": schemaIds.organization },

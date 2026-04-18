@@ -1,5 +1,5 @@
 /**
- * Neothink Mentality lesson 8 — The Prime Law Mentality (WordPress post id 4654).
+ * Neothink Mentality lesson 8: The Prime Law Mentality (WordPress post id 4654).
  * Video: https://www.youtube.com/watch?v=Kp2GZm5N4F8
  * @see migration/source/the-prime-law-mentality.html
  */
@@ -17,10 +17,10 @@ export const PRIME_LAW_MENTALITY_LESSON = {
 } as const;
 
 export const PRIME_LAW_MENTALITY_TAKEAWAYS = [
-  "The Prime Law forbids initiatory force, fraud, and coercion by any person, group, or government—framed as a single standard, not a patchwork of exceptions.",
+  "The Prime Law forbids initiatory force, fraud, and coercion by any person, group, or government, framed as a single standard, not a patchwork of exceptions.",
   "It is offered as a replacement for “rule by man” with systemic protection of individual freedom, including as a constitutional amendment in the Institute’s materials.",
   "Policy-by-policy reform within a force-based system is described as strategically weak compared with removing initiatory force at the root.",
-  "Pure freedom under that standard is tied in the essay to universal wealth, health, and peace—aspirational outcomes in Hamilton’s political arc.",
+  "Pure freedom under that standard is tied in the essay to universal wealth, health, and peace: aspirational outcomes in Hamilton’s political arc.",
 ] as const;
 
 export const PRIME_LAW_STRUCTURE = [
@@ -77,7 +77,7 @@ export const PRIME_LAW_MENTALITY_STEPS = [
   },
   {
     title: "Develop integrated thinking",
-    body: "Use the series’ habits—curiosity, integration—to connect politics, economics, and personal action.",
+    body: "Use the series’ habits (curiosity, integration) to connect politics, economics, and personal action.",
   },
   {
     title: "Lead yourself",
@@ -89,7 +89,7 @@ export const PRIME_LAW_MENTALITY_FAQ = [
   {
     question: "How is the Prime Law different from the Bill of Rights?",
     answer:
-      "The essay contrasts enumerated rights that can be qualified in practice with a single non-initiation rule and Article 3’s no-exceptions clause—arguing less room for gradual erosion through legislation and interpretation.",
+      "The essay contrasts enumerated rights that can be qualified in practice with a single non-initiation rule and Article 3’s no-exceptions clause, arguing less room for gradual erosion through legislation and interpretation.",
   },
   {
     question: "Would the Prime Law eliminate all government?",
@@ -104,7 +104,7 @@ export const PRIME_LAW_MENTALITY_FAQ = [
   {
     question: "Why would politicians adopt the Prime Law?",
     answer:
-      "The page expects adoption from public demand and clarity, not from incumbents’ convenience—Neothink mentality as mass understanding.",
+      "The page expects adoption from public demand and clarity, not from incumbents’ convenience: Neothink mentality as mass understanding.",
   },
   {
     question: "How does this connect to earlier lessons in the series?",

@@ -1,12 +1,12 @@
 /**
- * FAQ — visible copy must match FAQPage JSON-LD.
+ * FAQ, visible copy must match FAQPage JSON-LD.
  */
 
 export const INSL_FAQ = [
   {
     question: "Does this page guarantee the Neothink Society is “legit” for every reader?",
     answer:
-      "No. It explains how the Society describes itself, common misconceptions, and that outcomes depend on individual effort—as reflected in the closing sections.",
+      "No. It explains how the Society describes itself, common misconceptions, and that outcomes depend on individual effort: as reflected in the closing sections.",
   },
   {
     question: "Is this legal, membership, or investment advice?",

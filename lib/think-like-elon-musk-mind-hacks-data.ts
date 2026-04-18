@@ -11,7 +11,7 @@ export const TLEMMH_PATH = "/think-like-elon-musk-mind-hacks" as const;
 
 export const TLEMMH_IMAGE: AwakeningArticleImage = {
   src: "/images/wp/2026/01/Gemini_Generated_Image_m1t1v4m1t1v4m1t1-scaled.png",
-  alt: "Think Like Elon Musk: The Mind Hacks That Build Billion-Dollar Empires — Neothink Awakening article",
+  alt: "Think Like Elon Musk: The Mind Hacks That Build Billion-Dollar Empires, Neothink Awakening article",
   width: 2560,
   height: 1429,
 };
@@ -30,7 +30,7 @@ export const TLEMMH_YOUTUBE_ID = "bMEzqVZ7_Lc" as const;
 export const TLEMMH_MIN_READ = "10 min read" as const;
 
 export const TLEMMH_INTRO_PARAS: readonly string[] = [
-  "Mark Hamilton reveals the five key characteristics that separate super achievers like Elon Musk, Steve Jobs, and Richard Branson from everyone else—and the exact process to develop each one yourself.",
+  "Mark Hamilton reveals the five key characteristics that separate super achievers like Elon Musk, Steve Jobs, and Richard Branson from everyone else: and the exact process to develop each one yourself.",
 ];
 
 export const TLEMMH_QUICK_ANSWER_KICKER = "Quick answer" as const;
@@ -38,4 +38,4 @@ export const TLEMMH_QUICK_ANSWER_TITLE = "What Makes Super Achievers’ Minds Di
 export const TLEMMH_QUICK_ANSWER_LEAD_STRONG = "Super achievers like Elon Musk, Steve Jobs, and Richard Branson" as const;
 
 /** Prose body of the quick answer (first paragraph from WP). Edit by hand to add inline Links. */
-export const TLEMMH_QUICK_ANSWER_REST = "share five key characteristics: extraordinary time management, powerful visions, childlike curiosity, driven purpose, and doing what they love. The difference isn’t talent—it’s that they broke out of the “following mode” most people get trapped in and developed a creative, self-leader mentality." as const;
+export const TLEMMH_QUICK_ANSWER_REST = "share five key characteristics: extraordinary time management, powerful visions, childlike curiosity, driven purpose, and doing what they love. The difference isn’t talent: it’s that they broke out of the “following mode” most people get trapped in and developed a creative, self-leader mentality." as const;

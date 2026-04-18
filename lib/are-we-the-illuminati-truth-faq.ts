@@ -7,7 +7,7 @@ export const AWTI_FAQ = [
   {
     question: "Is Neothink the Illuminati?",
     answer:
-      "Neothink has been called “the new Illuminati” for over 50 years due to parallels with the original Bavarian Illuminati: both operated as secret societies, both opposed ruling class control over society, and both faced government persecution. However, unlike conspiracy theories suggest, Neothink is entirely benevolent—focused on pure freedom and helping humanity thrive.",
+      "Neothink has been called “the new Illuminati” for over 50 years due to parallels with the original Bavarian Illuminati: both operated as secret societies, both opposed ruling class control over society, and both faced government persecution. However, unlike conspiracy theories suggest, Neothink is entirely benevolent: focused on pure freedom and helping humanity thrive.",
   },
   {
     question: "What was the original Illuminati?",
@@ -17,21 +17,21 @@ export const AWTI_FAQ = [
   {
     question: "Why has Neothink been called a secret society?",
     answer:
-      "For 50 years, Neothink operated privately—spreading its ideas through literature and personal networks rather than public platforms. Mark Hamilton only began speaking publicly on social media in recent years. This private operation, combined with the society’s influence on world events, led to comparisons with secret societies like the Illuminati.",
+      "For 50 years, Neothink operated privately: spreading its ideas through literature and personal networks rather than public platforms. Mark Hamilton only began speaking publicly on social media in recent years. This private operation, combined with the society’s influence on world events, led to comparisons with secret societies like the Illuminati.",
   },
   {
     question: "What is the goal of Neothink?",
     answer:
-      "Neothink’s ultimate goal is pure freedom from initiatory force—freedom from the ruling class control that has suppressed civilizations throughout history. This freedom enables humanity to thrive and eventually cure aging and death through biological immortality. Mark Hamilton is building Immortalis, a new country based on the Prime Law constitution, to achieve this vision.",
+      "Neothink’s ultimate goal is pure freedom from initiatory force: freedom from the ruling class control that has suppressed civilizations throughout history. This freedom enables humanity to thrive and eventually cure aging and death through biological immortality. Mark Hamilton is building Immortalis, a new country based on the Prime Law constitution, to achieve this vision.",
   },
   {
     question: "Has Neothink faced government persecution?",
     answer:
-      "Yes. Like the original Illuminati, Neothink has faced repeated government attacks over several decades. Mark Hamilton’s father even went to prison. These attacks parallel how the Bavarian government outlawed the original Illuminati in 1785 after just 9 years—both were perceived as threats by ruling authorities.",
+      "Yes. Like the original Illuminati, Neothink has faced repeated government attacks over several decades. Mark Hamilton’s father even went to prison. These attacks parallel how the Bavarian government outlawed the original Illuminati in 1785 after just 9 years: both were perceived as threats by ruling authorities.",
   },
   {
     question: "What is Immortalis?",
     answer:
-      "Immortalis is a new country being founded by Mark Hamilton based on the Prime Law constitution. In Immortalis, there will be no initiatory force whatsoever—creating pure freedom for the first time on Earth. This environment will allow geniuses to thrive without ruling class interference, ultimately enabling cures for cancer, heart disease, and aging itself.",
+      "Immortalis is a new country being founded by Mark Hamilton based on the Prime Law constitution. In Immortalis, there will be no initiatory force whatsoever: creating pure freedom for the first time on Earth. This environment will allow geniuses to thrive without ruling class interference, ultimately enabling cures for cancer, heart disease, and aging itself.",
   },
 ] as const;

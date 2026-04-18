@@ -11,7 +11,7 @@ export const HCBI_PATH = "/this-is-how-close-we-are-to-biological-immortality" a
 
 export const HCBI_IMAGE: AwakeningArticleImage = {
   src: "/images/wp/2026/01/This-is-How-Close-We-Are-to-Biological-Immortality.jpg",
-  alt: "This is How Close We Are to Biological Immortality — Neothink Awakening article",
+  alt: "This is How Close We Are to Biological Immortality, Neothink Awakening article",
   width: 1280,
   height: 720,
 };
@@ -30,7 +30,7 @@ export const HCBI_YOUTUBE_ID = "bL_DWdm7hgA" as const;
 export const HCBI_MIN_READ = "14 min read" as const;
 
 export const HCBI_INTRO_PARAS: readonly string[] = [
-  "Mark Hamilton reveals Project Life—his 45-year journey toward curing aging and death. This isn’t wishful thinking. It’s a three-leg approach that addresses the psychological, political, and medical barriers standing between humanity and the end of aging.",
+  "Mark Hamilton reveals Project Life: his 45-year journey toward curing aging and death. This isn’t wishful thinking. It’s a three-leg approach that addresses the psychological, political, and medical barriers standing between humanity and the end of aging.",
 ];
 
 export const HCBI_QUICK_ANSWER_KICKER = "Quick answer" as const;
@@ -38,4 +38,4 @@ export const HCBI_QUICK_ANSWER_TITLE = "How Close Are We to Biological Immortali
 export const HCBI_QUICK_ANSWER_LEAD_STRONG: string | undefined = undefined;
 
 /** Prose body of the quick answer (first paragraph from WP). Edit by hand to add inline Links. */
-export const HCBI_QUICK_ANSWER_REST = "Mark Hamilton estimates 20 years: 10 years to establish a sovereign territory based on the Prime Law (freeing geniuses from regulatory suppression), then 10 more years of unrestricted medical research to cure fatal diseases and aging itself. This generation may be the first to achieve longevity escape velocity—where science advances faster than you age." as const;
+export const HCBI_QUICK_ANSWER_REST = "Mark Hamilton estimates 20 years: 10 years to establish a sovereign territory based on the Prime Law (freeing geniuses from regulatory suppression), then 10 more years of unrestricted medical research to cure fatal diseases and aging itself. This generation may be the first to achieve longevity escape velocity: where science advances faster than you age." as const;

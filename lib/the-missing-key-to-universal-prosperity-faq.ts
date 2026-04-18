@@ -12,12 +12,12 @@ export const MKUP_FAQ = [
   {
     question: "What is the self-leader mentality?",
     answer:
-      "The self-leader mentality is the Neothink mentality — the antidote to the following mode. Hamilton calls it the second evolutionary leap of the human mind: from the bicameral-plagued conscious mind into the fully integrating self-leader mode. It involves questioning narratives, building logic with your own mind, and drawing your own conclusions rather than following information handed down by authorities.",
+      "The self-leader mentality is the Neothink mentality, the antidote to the following mode. Hamilton calls it the second evolutionary leap of the human mind: from the bicameral-plagued conscious mind into the fully integrating self-leader mode. It involves questioning narratives, building logic with your own mind, and drawing your own conclusions rather than following information handed down by authorities.",
   },
   {
     question: "What are the two paths for those who escape the following mode?",
     answer:
-      "Those who escape the following mode go in one of two directions. Path A is the dishonest and lazy path: exploiting the following mode in others for power and wealth, becoming the ruling and influencing class — the value destroyers. Path B is the honest and effort path: bringing material values to everyone through genuine integrations — the value creators, the heroes.",
+      "Those who escape the following mode go in one of two directions. Path A is the dishonest and lazy path: exploiting the following mode in others for power and wealth, becoming the ruling and influencing class, the value destroyers. Path B is the honest and effort path: bringing material values to everyone through genuine integrations, the value creators, the heroes.",
   },
   {
     question: "How does the first evolutionary leap parallel the second?",

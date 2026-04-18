@@ -1,5 +1,5 @@
 /**
- * Neothink Mentality lesson 5 — Higher Level Thinking (WordPress post id 4591).
+ * Neothink Mentality lesson 5: Higher Level Thinking (WordPress post id 4591).
  * Video: https://www.youtube.com/watch?v=EVauhNelWOQ
  * @see migration/source/higher-level-thinking.html
  */
@@ -18,7 +18,7 @@ export const HIGHER_LEVEL_THINKING_LESSON = {
 
 export const HIGHER_LEVEL_THINKING_TAKEAWAYS = [
   "Integrated thinking is higher level thinking: the mind rises above specialized tasks to see the whole business.",
-  "Integrations are connections your elevated mind makes—like puzzle pieces snapping together.",
+  "Integrations are connections your elevated mind makes, like puzzle pieces snapping together.",
   "Project Curiosity at work lifts you from the hypnotic routine rut toward that wider view.",
   "The same cognitive motion appears in major self-made success; it is trainable through curiosity and synthesis.",
 ] as const;
@@ -41,7 +41,7 @@ export const HIGHER_LEVEL_THINKING_RISING_STEPS = [
   {
     title: "Start in the specialized rut",
     body:
-      "Tunnel vision and routine focus are the common starting point—not the destination. Naming that position is the first step out.",
+      "Tunnel vision and routine focus are the common starting point, not the destination. Naming that position is the first step out.",
   },
   {
     title: "Begin Project Curiosity",
@@ -51,12 +51,12 @@ export const HIGHER_LEVEL_THINKING_RISING_STEPS = [
   {
     title: "Feel your mind rising",
     body:
-      "As awareness expands, perspective widens—you see more of the operation and your attention lifts above the rut.",
+      "As awareness expands, perspective widens: you see more of the operation and your attention lifts above the rut.",
   },
   {
     title: "Integrations begin happening",
     body:
-      "From that elevated position, patterns and connections start forming—often like puzzle pieces snapping into place.",
+      "From that elevated position, patterns and connections start forming, often like puzzle pieces snapping into place.",
   },
   {
     title: "Enter higher level thinking",
@@ -69,7 +69,7 @@ export const HIGHER_LEVEL_THINKING_FAQ = [
   {
     question: "How long does it take for my mind to rise to higher level thinking?",
     answer:
-      "The shift begins during Project Curiosity—often within a couple of weeks of broader attention—and deepens as you keep learning the business. Some people notice first integrations quickly; others need longer. Consistent curiosity matters more than a fixed clock.",
+      "The shift begins during Project Curiosity, often within a couple of weeks of broader attention, and deepens as you keep learning the business. Some people notice first integrations quickly; others need longer. Consistent curiosity matters more than a fixed clock.",
   },
   {
     question: "Do I need special intelligence or education for integrated thinking?",
@@ -89,6 +89,6 @@ export const HIGHER_LEVEL_THINKING_FAQ = [
   {
     question: "How do I know if my mind has truly risen to higher level thinking?",
     answer:
-      "You notice integrations forming on their own, profit-impacting areas becoming clearer, and moments where separate facts snap together—often with relief from the hypnotic grip of pure routine.",
+      "You notice integrations forming on their own, profit-impacting areas becoming clearer, and moments where separate facts snap together, often with relief from the hypnotic grip of pure routine.",
   },
 ] as const;

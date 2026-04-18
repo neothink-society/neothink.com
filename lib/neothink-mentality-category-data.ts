@@ -1,5 +1,5 @@
 /**
- * Neothink Mentality — WordPress category `neothink-mentality` (id 39).
+ * Neothink Mentality: WordPress category `neothink-mentality` (id 39).
  * All category posts have on-site lesson routes; order is newest first (WP REST).
  *
  * @see https://neothink.com/wp-json/wp/v2/posts?categories=39
@@ -16,7 +16,7 @@ export const NEOTHINK_MENTALITY_CATEGORY_INTRO =
   "The Neothink Mentality represents the next stage of human cognitive evolution. For half a century, these tools have helped people break free from what holds most of humanity back: the unconscious habit of following rather than creating. With over 3 million collector's edition books sold worldwide, this proven system is now accessible to you. Move beyond limitation and into integrated, self-directed thinking." as const;
 
 export const NEOTHINK_MENTALITY_CATEGORY_SEO_DESCRIPTION =
-  "Neothink Mentality series: fourteen public video lessons on integrated thinking—full index with on-site lesson pages, course hub at /neothink-mentality, published by Neothink Institute." as const;
+  "Neothink Mentality series: fourteen public video lessons on integrated thinking, full index with on-site lesson pages, course hub at /neothink-mentality, published by Neothink Institute." as const;
 
 export const NEOTHINK_MENTALITY_MIGRATED_SLUGS: ReadonlySet<string> = new Set([
   "power-of-calm",

@@ -2,12 +2,12 @@ export const THE_BEAUTIFUL_VS_THE_UGLY_IN_OUR_WORLD_3_FAQ = [
   {
     question: 'What does "intellectually beautiful" mean?',
     answer:
-      "Intellectually beautiful people are value creators—entrepreneurs, innovators, and productive individuals who create genuine value that others want and are willing to pay for. They operate through honest value exchange, not force or deception.",
+      "Intellectually beautiful people are value creators: entrepreneurs, innovators, and productive individuals who create genuine value that others want and are willing to pay for. They operate through honest value exchange, not force or deception.",
   },
   {
     question: 'What does "intellectually ugly" mean?',
     answer:
-      "Intellectually ugly people are value destroyers—politicians, regulatory bureaucrats, and others who live off the productivity of value creators through force, legislation, and regulation. They rise up off the backs of productive people without creating anything themselves.",
+      "Intellectually ugly people are value destroyers: politicians, regulatory bureaucrats, and others who live off the productivity of value creators through force, legislation, and regulation. They rise up off the backs of productive people without creating anything themselves.",
   },
   {
     question: "Why do value creators face opposition from the government?",

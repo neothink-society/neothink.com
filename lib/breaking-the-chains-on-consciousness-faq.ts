@@ -7,7 +7,7 @@ export const BREAKING_THE_CHAINS_ON_CONSCIOUSNESS_FAQ = [
   {
     question: "What was the Axial Age?",
     answer:
-      "The Axial Age (~800–200 BCE) was the period when philosophy and organized religion emerged independently across Greece, India, China, and Persia. Hamilton connects this to the breakdown of the bicameral mind — as hallucinated guiding voices faded, civilizations needed replacement authorities, and philosophy filled the void.",
+      "The Axial Age (~800–200 BCE) was the period when philosophy and organized religion emerged independently across Greece, India, China, and Persia. Hamilton connects this to the breakdown of the bicameral mind, as hallucinated guiding voices faded, civilizations needed replacement authorities, and philosophy filled the void.",
   },
   {
     question: "What did Aristotle mean by “natural slaves”?",
@@ -17,12 +17,12 @@ export const BREAKING_THE_CHAINS_ON_CONSCIOUSNESS_FAQ = [
   {
     question: "How does force destroy consciousness?",
     answer:
-      "Hamilton’s argument is precise: consciousness IS volition (independent will). Initiatory force overrides choice and replaces volition with compliance. Since consciousness is volition, destroying volition destroys consciousness. This is why the Prime Law — the prohibition of initiatory force — is a consciousness principle, not just a political one.",
+      "Hamilton’s argument is precise: consciousness IS volition (independent will). Initiatory force overrides choice and replaces volition with compliance. Since consciousness is volition, destroying volition destroys consciousness. This is why the Prime Law, the prohibition of initiatory force, is a consciousness principle, not just a political one.",
   },
   {
     question: "What are transcendent pressures?",
     answer:
-      "Transcendent pressures are self-imposed drives to add value to existence — the internal motivation that emerges when survival pressures (wealth, health, peace) are removed. Where survival pressures ask “How do I stay alive?”, transcendent pressures ask “What can I create that has never existed before?” They represent the natural state of unchained consciousness.",
+      "Transcendent pressures are self-imposed drives to add value to existence, the internal motivation that emerges when survival pressures (wealth, health, peace) are removed. Where survival pressures ask “How do I stay alive?”, transcendent pressures ask “What can I create that has never existed before?” They represent the natural state of unchained consciousness.",
   },
   {
     question: "What is the unified field of conscious civilization?",

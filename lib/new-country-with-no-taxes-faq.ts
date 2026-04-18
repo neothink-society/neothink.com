@@ -7,12 +7,12 @@ export const NCNT_FAQ = [
   {
     question: "How can a country function without taxes?",
     answer:
-      "Citizens voluntarily tithe 10% to service providers of their choice. If you want to live in “the beautiful society,” you agree to this tithe—but you control where it goes. Your dollars do the voting, creating accountability through market forces rather than political promises.",
+      "Citizens voluntarily tithe 10% to service providers of their choice. If you want to live in “the beautiful society,” you agree to this tithe: but you control where it goes. Your dollars do the voting, creating accountability through market forces rather than political promises.",
   },
   {
     question: "What about big businesses that benefit from current regulations?",
     answer:
-      "Hamilton acknowledges that many large companies are “married with politicians” and benefit from regulations that block competition. These companies likely won’t move. But genuine “market business people”—true value creators—would flood to the new country to escape taxes and regulations.",
+      "Hamilton acknowledges that many large companies are “married with politicians” and benefit from regulations that block competition. These companies likely won’t move. But genuine “market business people”: true value creators: would flood to the new country to escape taxes and regulations.",
   },
   {
     question: "Wouldn’t removing all regulations be dangerous?",
@@ -22,7 +22,7 @@ export const NCNT_FAQ = [
   {
     question: "How does “government as a business” work?",
     answer:
-      "It’s subjected to competition. If the service providers don’t deliver value, your tithe dollars go to a competitor. This creates instant accountability—unlike voting, where you’re stuck with results for years regardless of performance.",
+      "It’s subjected to competition. If the service providers don’t deliver value, your tithe dollars go to a competitor. This creates instant accountability: unlike voting, where you’re stuck with results for years regardless of performance.",
   },
   {
     question: "Why would billionaires be interested?",

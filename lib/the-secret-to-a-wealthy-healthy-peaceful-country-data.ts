@@ -11,7 +11,7 @@ export const SWHPC_PATH = "/the-secret-to-a-wealthy-healthy-peaceful-country" as
 
 export const SWHPC_IMAGE: AwakeningArticleImage = {
   src: "https://neothink.com/opengraph-image",
-  alt: "Neothink Institute — The Intellectual Foundation for the Next Stage of Human Civilization",
+  alt: "Neothink Institute, The Intellectual Foundation for the Next Stage of Human Civilization",
   width: 1200,
   height: 630,
 };
@@ -30,7 +30,7 @@ export const SWHPC_YOUTUBE_ID = "c0Z-gXJ2VV8" as const;
 export const SWHPC_MIN_READ = "15 min read" as const;
 
 export const SWHPC_INTRO_PARAS: readonly string[] = [
-  "What if the cure for poverty, disease, and crime were not a political program but the removal of politics itself? In this address to the Neothink Society, Mark Hamilton lays out the concrete actions for moving civilization from the political system we have always known — where ruling classes suppress the working class through initiatory force — into a pure business civilization under the Prime Law. He introduces the Neothink Network State, a digital country where citizens can experience the business civilization immediately, and reveals the stimulation-first approach that will open the world’s eyes to what has never existed on Earth.",
+  "What if the cure for poverty, disease, and crime were not a political program but the removal of politics itself? In this address to the Neothink Society, Mark Hamilton lays out the concrete actions for moving civilization from the political system we have always known, where ruling classes suppress the working class through initiatory force, into a pure business civilization under the Prime Law. He introduces the Neothink Network State, a digital country where citizens can experience the business civilization immediately, and reveals the stimulation-first approach that will open the world’s eyes to what has never existed on Earth.",
 ];
 
 export const SWHPC_QUICK_ANSWER_KICKER = "Quick answer" as const;
@@ -38,4 +38,4 @@ export const SWHPC_QUICK_ANSWER_TITLE = "What Is the Secret to a Wealthy, Health
 export const SWHPC_QUICK_ANSWER_LEAD_STRONG: string | undefined = undefined;
 
 /** Prose body of the quick answer (first paragraph from WP). Edit by hand to add inline Links. */
-export const SWHPC_QUICK_ANSWER_REST = "The secret is moving from a political civilization — where ruling classes backed by initiatory force suppress the working class — to a pure business civilization under the Prime Law. In a business civilization there are no ruling classes. The only thing above the working class is the Prime Law, which forbids initiatory force, threat of force, or fraud. Everything operates on mutual value exchange." as const;
+export const SWHPC_QUICK_ANSWER_REST = "The secret is moving from a political civilization, where ruling classes backed by initiatory force suppress the working class, to a pure business civilization under the Prime Law. In a business civilization there are no ruling classes. The only thing above the working class is the Prime Law, which forbids initiatory force, threat of force, or fraud. Everything operates on mutual value exchange." as const;

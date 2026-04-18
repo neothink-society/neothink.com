@@ -1,5 +1,5 @@
 /**
- * Neothink Mentality lesson 9 — Soaring Productivity (WordPress post id 4670).
+ * Neothink Mentality lesson 9: Soaring Productivity (WordPress post id 4670).
  * Video (embed from migration): https://www.youtube.com/watch?v=rBCoZtSZVtM
  * @see migration/source/soaring-productivity.html
  */
@@ -52,7 +52,7 @@ export const SOARING_PRODUCTIVITY_MOVEMENTS = [
   },
   {
     title: "Writing",
-    body: "Creative or analytical writing in dedicated blocks—including copywriting in the video",
+    body: "Creative or analytical writing in dedicated blocks, including copywriting in the video",
   },
   {
     title: "Accounting",
@@ -60,7 +60,7 @@ export const SOARING_PRODUCTIVITY_MOVEMENTS = [
   },
   {
     title: "Meetings",
-    body: "Face-to-face time in set windows—who or what is secondary to the movement",
+    body: "Face-to-face time in set windows; who or what is secondary to the movement",
   },
   {
     title: "Operations",
@@ -72,7 +72,7 @@ export const SOARING_PRODUCTIVITY_STEPS = [
   {
     title: "Identify your physical movements",
     body:
-      "List every type of action you perform: phone calls, emails, writing, meetings, analysis, operations. Don’t categorize by topic—categorize by what you’re physically doing.",
+      "List every type of action you perform: phone calls, emails, writing, meetings, analysis, operations. Don’t categorize by topic; categorize by what you’re physically doing.",
   },
   {
     title: "Assign time slots",
@@ -107,7 +107,7 @@ export const SOARING_PRODUCTIVITY_FAQ = [
   {
     question: "What if my job requires immediate responses to incoming requests?",
     answer:
-      "Build “responsive” time into your assembly line as its own movement type. You’re not ignoring urgent matters—you’re containing them to specific slots. Most “urgent” requests can wait an hour or two. For truly time-sensitive roles, create shorter cycles with more frequent response windows.",
+      "Build “responsive” time into your assembly line as its own movement type. You’re not ignoring urgent matters: you’re containing them to specific slots. Most “urgent” requests can wait an hour or two. For truly time-sensitive roles, create shorter cycles with more frequent response windows.",
   },
   {
     question: "How is this different from time blocking?",
@@ -117,7 +117,7 @@ export const SOARING_PRODUCTIVITY_FAQ = [
   {
     question: "Can I really move through 23 projects at once?",
     answer:
-      "Yes, when you combine the assembly line schedule with the Neothink Mentality. Your phone call slot might touch 10 different projects. Your writing slot might advance 5 more. Because you’re batching by movement, you’re not switching contexts—you’re flowing through work while integrated thinking maintains the connections.",
+      "Yes, when you combine the assembly line schedule with the Neothink Mentality. Your phone call slot might touch 10 different projects. Your writing slot might advance 5 more. Because you’re batching by movement, you’re not switching contexts: you’re flowing through work while integrated thinking maintains the connections.",
   },
   {
     question: "What movement types should I start with?",
@@ -127,6 +127,6 @@ export const SOARING_PRODUCTIVITY_FAQ = [
   {
     question: "How long does it take to see results?",
     answer:
-      "The shift in intensity can be felt immediately—often within the first day. The full 8× productivity gain develops as you refine your slot sizes and protect your boundaries. Most people report significant gains within the first week, with continued improvement over the first month.",
+      "The shift in intensity can be felt immediately, often within the first day. The full 8× productivity gain develops as you refine your slot sizes and protect your boundaries. Most people report significant gains within the first week, with continued improvement over the first month.",
   },
 ] as const;

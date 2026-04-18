@@ -1,6 +1,6 @@
 /**
  * Long-form article migrated from WordPress post `neothink-secret-society-differs-other-groups` (id 1977).
- * Inline links use `[[routeKey|anchor text]]` — see `parseNssdInline` in the page component.
+ * Inline links use `[[routeKey|anchor text]]`, see `parseNssdInline` in the page component.
  *
  * @see migration/source/neothink-secret-society-differs-other-groups.html
  */

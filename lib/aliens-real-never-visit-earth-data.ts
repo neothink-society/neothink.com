@@ -11,7 +11,7 @@ export const ARNV_PATH = "/aliens-real-never-visit-earth" as const;
 
 export const ARNV_IMAGE: AwakeningArticleImage = {
   src: "/images/wp/2026/01/Aliens-Are-Real…-But-Theyll-Never-Visit-Earth-–-Heres-Why.jpg",
-  alt: "Aliens Are Real… But They’ll Never Visit Earth — Neothink Awakening article",
+  alt: "Aliens Are Real… But They’ll Never Visit Earth, Neothink Awakening article",
   width: 1280,
   height: 720,
 };
@@ -30,13 +30,13 @@ export const ARNV_YOUTUBE_ID = "Feo1rxRgZd8" as const;
 export const ARNV_MIN_READ = "13 min read" as const;
 
 export const ARNV_INTRO_PARAS: readonly string[] = [
-  "Do aliens exist? Mark Hamilton’s answer might surprise you: “I do believe they’re all throughout the universe—and some far advanced beyond planet Earth.”",
+  "Do aliens exist? Mark Hamilton’s answer might surprise you: “I do believe they’re all throughout the universe: and some far advanced beyond planet Earth.”",
   "But have any ever landed here? “No. I don’t believe that any extraterrestrial aliens have ever landed on planet Earth.”",
 ];
 
 export const ARNV_QUICK_ANSWER_KICKER = "Quick answer" as const;
 export const ARNV_QUICK_ANSWER_TITLE = "Have aliens ever visited Earth?" as const;
-export const ARNV_QUICK_ANSWER_LEAD_STRONG = "No—and they never will." as const;
+export const ARNV_QUICK_ANSWER_LEAD_STRONG = "No: and they never will." as const;
 
 /** Prose body of the quick answer (first paragraph from WP). Edit by hand to add inline Links. */
 export const ARNV_QUICK_ANSWER_REST = "While conscious beings almost certainly exist throughout the universe, any civilization advanced enough to travel millions of light years would have nothing to gain from visiting Earth. They would have passed their “Nuclear Decision Threshold,” leaving irrationality behind and advancing so far technologically that Earth would be like kindergarten to them. The sheer cost in time, energy, and resources would never be worth it for beings who could learn nothing from us." as const;

@@ -7,7 +7,7 @@ export const FAYLP_FAQ = [
   {
     question: "Why do so many people feel stuck without purpose in life?",
     answer:
-      "Most jobs are structured using the Division of Labor, which breaks work into specialized, repetitive tasks. While effective for manufacturing, this approach prevents people from using their creative minds to build value—the essence of being human. When you can’t create, you feel purposeless.",
+      "Most jobs are structured using the Division of Labor, which breaks work into specialized, repetitive tasks. While effective for manufacturing, this approach prevents people from using their creative minds to build value: the essence of being human. When you can’t create, you feel purposeless.",
   },
   {
     question: "What is the Division of Essence?",
@@ -17,12 +17,12 @@ export const FAYLP_FAQ = [
   {
     question: "What is Project Curiosity?",
     answer:
-      "Project Curiosity means approaching your workplace with childlike wonder—asking questions about every department, learning how things work, building genuine relationships. This expands your integration capacity and helps you see the whole company rather than just your narrow role.",
+      "Project Curiosity means approaching your workplace with childlike wonder: asking questions about every department, learning how things work, building genuine relationships. This expands your integration capacity and helps you see the whole company rather than just your narrow role.",
   },
   {
     question: "What are Areas of Purpose in a business?",
     answer:
-      "Areas of Purpose are the money-making, value-building parts of a business—customer acquisition, marketing, product development, efficiency improvements. If you’re not working in an area that builds value and wealth, your job is essentially disposable. Moving into these areas gives your work meaning.",
+      "Areas of Purpose are the money-making, value-building parts of a business: customer acquisition, marketing, product development, efficiency improvements. If you’re not working in an area that builds value and wealth, your job is essentially disposable. Moving into these areas gives your work meaning.",
   },
   {
     question: "What is the White Collar Hoax?",
@@ -37,6 +37,6 @@ export const FAYLP_FAQ = [
   {
     question: "Why is integration the key to business success?",
     answer:
-      "Even the greatest specialist fails without integration. Milton Hershey succeeded by integrating all aspects of his candy business. Steve Jobs emphasized that history’s greatest innovators were integrators who both thought and did. Specialization is the opposite of integration—it keeps you stuck.",
+      "Even the greatest specialist fails without integration. Milton Hershey succeeded by integrating all aspects of his candy business. Steve Jobs emphasized that history’s greatest innovators were integrators who both thought and did. Specialization is the opposite of integration: it keeps you stuck.",
   },
 ] as const;

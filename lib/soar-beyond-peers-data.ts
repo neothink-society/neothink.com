@@ -1,5 +1,5 @@
 /**
- * Neothink Mentality lesson 11 — Soar Beyond Peers (WordPress post id 4694).
+ * Neothink Mentality lesson 11: Soar Beyond Peers (WordPress post id 4694).
  * Video: https://www.youtube.com/watch?v=ZaGpmOi0IrA
  * @see migration/source/soar-beyond-peers.html
  */
@@ -18,8 +18,8 @@ export const SOAR_BEYOND_PEERS_LESSON = {
 
 export const SOAR_BEYOND_PEERS_TAKEAWAYS = [
   "Reverse-engineer grand visions into projects, then into physical tasks you can schedule.",
-  "With the assembly line schedule, handle 23+ projects in a week—batching by movement, not by topic.",
-  "Focus on the essence of the business or role—where the money and leverage actually are.",
+  "With the assembly line schedule, handle 23+ projects in a week, batching by movement, not by topic.",
+  "Focus on the essence of the business or role: where the money and leverage actually are.",
   "10-second miracles: brief moments of integrated insight that can change a trajectory (restaurant; Charles Nash at Durant Dort).",
 ] as const;
 
@@ -38,14 +38,14 @@ export const SOAR_BEYOND_PEERS_SOARING = [
   "23+ projects flowing on one line",
   "280 equivalent extra hours in a 5-day week (8× framing)",
   "Trajectory-changing execution",
-  "Moments of sudden clarity—10-second miracles",
+  "Moments of sudden clarity: 10-second miracles",
 ] as const;
 
 export const SOAR_BEYOND_PEERS_STEPS = [
   {
     title: "Identify your grand vision",
     body:
-      "What genuinely excites you? Make it vivid. That becomes the North Star—Hamilton stresses dreaming big once the self-leader position is in reach.",
+      "What genuinely excites you? Make it vivid. That becomes the North Star: Hamilton stresses dreaming big once the self-leader position is in reach.",
   },
   {
     title: "Break into projects",
@@ -55,7 +55,7 @@ export const SOAR_BEYOND_PEERS_STEPS = [
   {
     title: "Reduce to physical tasks",
     body:
-      "Break each project into physical movements—calls, writing, meetings—so they plug into the assembly line schedule (like the robotic arm on a line).",
+      "Break each project into physical movements (calls, writing, meetings) so they plug into the assembly line schedule (like the robotic arm on a line).",
   },
   {
     title: "Apply the assembly line",
@@ -65,7 +65,7 @@ export const SOAR_BEYOND_PEERS_STEPS = [
   {
     title: "Focus on essence",
     body:
-      "Pour expanded capacity into the core value-creation activity—the essence—rather than only busywork.",
+      "Pour expanded capacity into the core value-creation activity (the essence) rather than only busywork.",
   },
 ] as const;
 
@@ -86,7 +86,7 @@ export const SOAR_BEYOND_PEERS_FAQ = [
   {
     question: "How do 10-second miracles actually work?",
     answer:
-      "They are brief moments when a prepared mind recognizes a new pattern—in a conversation, a question, or a glimpse of integrated thinking—and a path changes fast.",
+      "They are brief moments when a prepared mind recognizes a new pattern (in a conversation, a question, or a glimpse of integrated thinking) and a path changes fast.",
   },
   {
     question: "Is handling 23 projects sustainable long-term?",

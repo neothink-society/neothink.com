@@ -2,12 +2,12 @@ export const IGE_FAQ = [
   {
     question: "What is Prime Law Capitalism?",
     answer:
-      "Prime Law Capitalism is Hamilton’s evolution of anarcho-capitalism into an actualized system. It is pure capitalism built on the Prime Law foundation — self-governance through the natural law of protection, with no higher authority granted to any person, group, or government. It eliminates the disease of initiatory force entirely, making freedom permanent rather than temporary.",
+      "Prime Law Capitalism is Hamilton’s evolution of anarcho-capitalism into an actualized system. It is pure capitalism built on the Prime Law foundation, self-governance through the natural law of protection, with no higher authority granted to any person, group, or government. It eliminates the disease of initiatory force entirely, making freedom permanent rather than temporary.",
   },
   {
     question: "Why has anarcho-capitalism never been tried?",
     answer:
-      "Because it has no mechanism for order. Every civilization needs order, but traditional order requires government — a higher authority with the power of force. Without the Prime Law, anarcho-capitalism appears chaotic and lawless. The Prime Law solves this by providing self-governance under natural law — complete order without higher authority.",
+      "Because it has no mechanism for order. Every civilization needs order, but traditional order requires government, a higher authority with the power of force. Without the Prime Law, anarcho-capitalism appears chaotic and lawless. The Prime Law solves this by providing self-governance under natural law, complete order without higher authority.",
   },
   {
     question: "What is the disease of mankind?",
@@ -17,7 +17,7 @@ export const IGE_FAQ = [
   {
     question: "How is Immortalis different from other free zones?",
     answer:
-      "Other chartered cities and free zones offer degrees of freedom but retain some form of higher authority. Only Immortalis proposes to eliminate initiatory force entirely through the Prime Law as its sole constitution — 111 words that provide order through natural law rather than through any granted authority.",
+      "Other chartered cities and free zones offer degrees of freedom but retain some form of higher authority. Only Immortalis proposes to eliminate initiatory force entirely through the Prime Law as its sole constitution, 111 words that provide order through natural law rather than through any granted authority.",
   },
   {
     question: "What happened at the Prospera event in Roatan?",

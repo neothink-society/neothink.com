@@ -32,7 +32,7 @@ export function pageMetadata(input: {
   article?: { publishedTime?: string; modifiedTime?: string };
   /**
    * Primary share image for this URL (hero / featured). When set, Open Graph and
-   * Twitter use it instead of the site default — aligns social previews with
+   * Twitter use it instead of the site default; aligns social previews with
    * `blogPostingJsonLd` `image` and visible hero art.
    */
   articleOgImage?: ArticleOgImage;

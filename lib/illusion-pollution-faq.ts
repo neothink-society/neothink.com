@@ -5,7 +5,7 @@ export const ILLUSION_POLLUTION_FAQ = [
   },
   {
     question: "How does the ruling class function as a cult?",
-    answer: "A cult controls its victims’ lives and manipulates their minds for the benefit of the leaders. Hamilton argues the ruling class fits this definition exactly — it uses illusions planted from childhood to maintain power, trigger panic at threats to its authority, and extract wealth from the population it claims to serve.",
+    answer: "A cult controls its victims’ lives and manipulates their minds for the benefit of the leaders. Hamilton argues the ruling class fits this definition exactly, it uses illusions planted from childhood to maintain power, trigger panic at threats to its authority, and extract wealth from the population it claims to serve.",
   },
   {
     question: "What is the chasm between current thinking and Immortalis?",
@@ -13,7 +13,7 @@ export const ILLUSION_POLLUTION_FAQ = [
   },
   {
     question: "How will structural government reduction help Immortalis?",
-    answer: "Hamilton predicts that dramatically reducing the bureaucratic state will produce rising prosperity that forces illusions out experientially. When people see direct benefits from reduced government, the conditioning breaks — closing approximately half the chasm within two years.",
+    answer: "Hamilton predicts that dramatically reducing the bureaucratic state will produce rising prosperity that forces illusions out experientially. When people see direct benefits from reduced government, the conditioning breaks, closing approximately half the chasm within two years.",
   },
   {
     question: "What does it mean to say great minds are “staging for Immortalis”?",
@@ -21,6 +21,6 @@ export const ILLUSION_POLLUTION_FAQ = [
   },
   {
     question: "How does Neothink allow Hamilton to see the future?",
-    answer: "Neothink is the ability to build puzzle-pictures by integrating concepts across domains and time. It is not mystical prediction — it is the same pattern-recognition process that allows you to see what a jigsaw puzzle will look like before all the pieces are in place. Hamilton’s Neo-Tech upbringing gave him the ability to see through illusions, which is the foundation of this capacity.",
+    answer: "Neothink is the ability to build puzzle-pictures by integrating concepts across domains and time. It is not mystical prediction, it is the same pattern-recognition process that allows you to see what a jigsaw puzzle will look like before all the pieces are in place. Hamilton’s Neo-Tech upbringing gave him the ability to see through illusions, which is the foundation of this capacity.",
   },
 ] as const;

@@ -1,5 +1,5 @@
 /**
- * Neothink Mentality lesson 1 — rise from the routine rut (WordPress post id 4314).
+ * Neothink Mentality lesson 1: rise from the routine rut (WordPress post id 4314).
  * @see migration/source/rise-from-rut.html
  */
 export const RISE_FROM_RUT_LESSON = {
@@ -20,7 +20,7 @@ export const RISE_FROM_RUT_LESSON = {
 export const RISE_FROM_RUT_TAKEAWAYS = [
   "The following-mode mentality keeps people in routine ruts by focusing on tasks instead of value creation.",
   "Integrated thinking connects parts of a system so opportunities invisible to specialization become visible.",
-  "The lesson video is Hamilton’s first-person account: at fifteen, night-shift dishwasher—essence-thinking versus task-thinking at the same job.",
+  "The lesson video is Hamilton’s first-person account: at fifteen, night-shift dishwasher, essence-thinking versus task-thinking at the same job.",
   "The Neothink mentality is trained with specific tools; the next lesson introduces Project Curiosity.",
 ] as const;
 
@@ -65,7 +65,7 @@ export const RISE_FROM_RUT_STEPS = [
   },
 ] as const;
 
-/** FAQ — aligned with visible page; used for JSON-LD. */
+/** FAQ: aligned with visible page; used for JSON-LD. */
 export const RISE_FROM_RUT_FAQ = [
   {
     question: "Can anyone develop integrated thinking?",

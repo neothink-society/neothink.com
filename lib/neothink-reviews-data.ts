@@ -6,7 +6,7 @@
  */
 
 export const NEOTHINK_REVIEWS_HERO_SUB =
-  "Read member stories from people who describe how the Neothink Society and the Neothink idea system affected their lives—from personal growth to business. This page is published by the Neothink Institute as public context; individual experiences are member-submitted and not independent third-party verification.";
+  "Read member stories from people who describe how the Neothink Society and the Neothink idea system affected their lives: from personal growth to business. This page is published by the Neothink Institute as public context; individual experiences are member-submitted and not independent third-party verification.";
 
 export const NEOTHINK_REVIEWS_SECTION_TITLE = "Member stories: real experiences with the Neothink Society";
 

@@ -11,7 +11,7 @@ export const PMLEA_PATH = "/philosopher-make-your-life-exciting-again-do-this" a
 
 export const PMLEA_IMAGE: AwakeningArticleImage = {
   src: "/images/wp/2026/01/PHILOSOPHER-Make-Your-Life-Exciting-Again-DO-THIS.jpg",
-  alt: "Make Your Life Exciting Again: Find Your Friday Night Essence — Neothink Awakening article",
+  alt: "Make Your Life Exciting Again: Find Your Friday Night Essence, Neothink Awakening article",
   width: 1280,
   height: 720,
 };
@@ -30,7 +30,7 @@ export const PMLEA_YOUTUBE_ID = "4fClCSLkZlM" as const;
 export const PMLEA_MIN_READ = "20 min read" as const;
 
 export const PMLEA_INTRO_PARAS: readonly string[] = [
-  "Mark Hamilton reveals the practical technique to escape your stagnant rut and live your life’s ambition. Discover your Friday Night Essence and use the Mini Day schedule to transform what you love into your livelihood—not motivation that fades in two weeks, but a system that has transformed lives for 45 years.",
+  "Mark Hamilton reveals the practical technique to escape your stagnant rut and live your life’s ambition. Discover your Friday Night Essence and use the Mini Day schedule to transform what you love into your livelihood: not motivation that fades in two weeks, but a system that has transformed lives for 45 years.",
 ];
 
 export const PMLEA_QUICK_ANSWER_KICKER = "Quick answer" as const;
@@ -38,4 +38,4 @@ export const PMLEA_QUICK_ANSWER_TITLE = "How Do You Make Your Life Exciting Agai
 export const PMLEA_QUICK_ANSWER_LEAD_STRONG: string | undefined = undefined;
 
 /** Prose body of the quick answer (first paragraph from WP). Edit by hand to add inline Links. */
-export const PMLEA_QUICK_ANSWER_REST = "Discover your Friday Night Essence—something productive you love doing during “shutdown time.” Then use the Mini Day schedule to build it around your current job until it becomes your livelihood. This isn’t another “follow your passion” speech. It’s a practical system that transforms the impractical into reality, like Jack London rising from illiterate dock worker to legendary author." as const;
+export const PMLEA_QUICK_ANSWER_REST = "Discover your Friday Night Essence: something productive you love doing during “shutdown time.” Then use the Mini Day schedule to build it around your current job until it becomes your livelihood. This isn’t another “follow your passion” speech. It’s a practical system that transforms the impractical into reality, like Jack London rising from illiterate dock worker to legendary author." as const;

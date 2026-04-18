@@ -11,7 +11,7 @@ export const SWPPW_PATH = "/a-society-without-politics-poverty-or-war" as const;
 
 export const SWPPW_IMAGE: AwakeningArticleImage = {
   src: "/images/wp/2026/01/A-Society-Without-Politics-Poverty-or-War.jpg",
-  alt: "A Society Without Politics, Poverty, or War — Neothink Awakening article",
+  alt: "A Society Without Politics, Poverty, or War, Neothink Awakening article",
   width: 640,
   height: 480,
 };
@@ -30,7 +30,7 @@ export const SWPPW_YOUTUBE_ID = "kPq3Qx2Xtng" as const;
 export const SWPPW_MIN_READ = "10 min read" as const;
 
 export const SWPPW_INTRO_PARAS: readonly string[] = [
-  "Mark Hamilton reveals how a business civilization based on the Prime Law eliminates politics, poverty, and war through mutual value exchange. This isn’t about choosing better politicians—it’s about recognizing that the political paradigm itself is the source of humanity’s suffering.",
+  "Mark Hamilton reveals how a business civilization based on the Prime Law eliminates politics, poverty, and war through mutual value exchange. This isn’t about choosing better politicians: it’s about recognizing that the political paradigm itself is the source of humanity’s suffering.",
 ];
 
 export const SWPPW_QUICK_ANSWER_KICKER = "Quick answer" as const;
@@ -38,4 +38,4 @@ export const SWPPW_QUICK_ANSWER_TITLE = "What Is a Society Without Politics, Pov
 export const SWPPW_QUICK_ANSWER_LEAD_STRONG: string | undefined = undefined;
 
 /** Prose body of the quick answer (first paragraph from WP). Edit by hand to add inline Links. */
-export const SWPPW_QUICK_ANSWER_REST = "A business civilization based on the Prime Law—no ruling class, no political class, no initiatory force. Everything operates through mutual value exchange. When no one can force or suppress others, prosperity explodes, diseases get cured rapidly, poverty disappears, and peace becomes the natural state. This has never happened in human history." as const;
+export const SWPPW_QUICK_ANSWER_REST = "A business civilization based on the Prime Law: no ruling class, no political class, no initiatory force. Everything operates through mutual value exchange. When no one can force or suppress others, prosperity explodes, diseases get cured rapidly, poverty disappears, and peace becomes the natural state. This has never happened in human history." as const;

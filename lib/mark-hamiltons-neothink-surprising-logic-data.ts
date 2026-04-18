@@ -68,7 +68,7 @@ export const MHNSL_SECTIONS: readonly MhnslSection[] = [
     title: "The Power of the Creation-Driven Life",
     paragraphs: [
       "Mark Hamilton described a life shaped by purpose as the “creation-driven life.” It is not about doing more for the sake of activity. It is about doing what matters. This state brings a sense of clarity, energy, and daily excitement.",
-      "Neothink helps individuals uncover their “Friday Night Essence”—a unique passion often buried beneath routine. Once that passion is recognized, the next step is to build a life around it, including income, health, and relationships that reflect one’s true self.",
+      "Neothink helps individuals uncover their “Friday Night Essence”: a unique passion often buried beneath routine. Once that passion is recognized, the next step is to build a life around it, including income, health, and relationships that reflect one’s true self.",
     ],
   },
   {

@@ -146,7 +146,7 @@ function addVideoIfMissing(src, basename, youtubeConst, titleToken, descriptionR
 
   const videoBlock = `const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: \`\${${titleToken}} — video | Neothink Institute\`,
+  name: \`\${${titleToken}}, video | Neothink Institute\`,
   description: ${descriptionRef},
   embedUrl: \`https://www.youtube.com/embed/\${${youtubeConst}}\`,
   thumbnailUrl: \`https://i.ytimg.com/vi/\${${youtubeConst}}/hqdefault.jpg\`,
@@ -224,7 +224,7 @@ function patchSlug(appSlug) {
     ogLines = [
       "  articleOgImage: {",
       `    src: \`https://i.ytimg.com/vi/\${${ytConst}}/hqdefault.jpg\`,`,
-      `    alt: \`\${${titleToken}} — video thumbnail\`,`,
+      `    alt: \`\${${titleToken}}, video thumbnail\`,`,
       "    width: 480,",
       "    height: 360,",
       "  },",

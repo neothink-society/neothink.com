@@ -1,5 +1,5 @@
 /**
- * FAQ for secret-society comparison article — must match visible copy (FAQPage JSON-LD).
+ * FAQ for secret-society comparison article, must match visible copy (FAQPage JSON-LD).
  */
 
 export const NSSD_FAQ = [
@@ -11,12 +11,12 @@ export const NSSD_FAQ = [
   {
     question: "How should I read claims about transparency and open knowledge?",
     answer:
-      "As member-facing positioning and public explanation—not a guarantee that every Society activity is public. Use the FAQ, About, and Contact pages on this site for routing, and treat deep membership mechanics as handled through Society channels.",
+      "As member-facing positioning and public explanation: not a guarantee that every Society activity is public. Use the FAQ, About, and Contact pages on this site for routing, and treat deep membership mechanics as handled through Society channels.",
   },
   {
     question: "What is integrated thinking in this context?",
     answer:
-      "As used here, it means connecting ideas across domains and questioning rigid dogma—aligned with the Neothink framework described on this site’s Neothink and related pages.",
+      "As used here, it means connecting ideas across domains and questioning rigid dogma: aligned with the Neothink framework described on this site’s Neothink and related pages.",
   },
   {
     question: "Does this page replace the Neothink Institute’s research pages?",

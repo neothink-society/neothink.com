@@ -7,7 +7,7 @@ export const SWPPW_FAQ = [
   {
     question: "What is a society without politics?",
     answer:
-      "A business civilization based on the Prime Law—no ruling class, no political class, no initiatory force. Everything operates through mutual value exchange. With 100 billion people who have walked the earth, every civilization has had a political structure with rulers. This would be the first without one.",
+      "A business civilization based on the Prime Law: no ruling class, no political class, no initiatory force. Everything operates through mutual value exchange. With 100 billion people who have walked the earth, every civilization has had a political structure with rulers. This would be the first without one.",
   },
   {
     question: "How can there be order without government?",
@@ -32,7 +32,7 @@ export const SWPPW_FAQ = [
   {
     question: "What is the path to this society?",
     answer:
-      "Start with a network state—a digital community operating under the Prime Law. Grow the community through mutual value exchange. Eventually acquire physical territory and achieve sovereignty as a nation state. This allows building the new paradigm without fighting the old political systems.",
+      "Start with a network state: a digital community operating under the Prime Law. Grow the community through mutual value exchange. Eventually acquire physical territory and achieve sovereignty as a nation state. This allows building the new paradigm without fighting the old political systems.",
   },
   {
     question: "Isn’t this just idealistic dreaming?",

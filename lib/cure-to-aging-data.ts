@@ -1,5 +1,5 @@
 /**
- * Neothink Mentality lesson 10 — Cure to Aging (WordPress post id 4682).
+ * Neothink Mentality lesson 10: Cure to Aging (WordPress post id 4682).
  * Video: https://www.youtube.com/watch?v=vnLK2BAN3Lw
  * @see migration/source/cure-to-aging.html
  */
@@ -55,7 +55,7 @@ export const CURE_TO_AGING_STEPS = [
   {
     title: "Break free from following mode",
     body:
-      "Recognize specialized thinking—routine tasks and orders from above. That awareness begins the escape from the stagnation trap.",
+      "Recognize specialized thinking: routine tasks and orders from above. That awareness begins the escape from the stagnation trap.",
   },
   {
     title: "Embrace the Neothink Mentality",
@@ -65,7 +65,7 @@ export const CURE_TO_AGING_STEPS = [
   {
     title: "Rediscover the desire to live",
     body:
-      "As the “child of the past” returns, enthusiasm and joy return—you naturally want more life.",
+      "As the “child of the past” returns, enthusiasm and joy return: you naturally want more life.",
   },
   {
     title: "Pursue aggressive longevity",
@@ -80,14 +80,14 @@ export const CURE_TO_AGING_STEPS = [
 ] as const;
 
 export const CURE_TO_AGING_CORE_ORDERED = [
-  "Create demand by spreading the Neothink Mentality—helping people want to live deeply, not only longer on paper.",
+  "Create demand by spreading the Neothink Mentality, helping people want to live deeply, not only longer on paper.",
   "Free supply by removing initiatory force through the Prime Law (and related political paths Hamilton discusses).",
   "Bridge the gap with aggressive longevity practices until biological solutions arrive.",
 ] as const;
 
 export const CURE_TO_AGING_MISSION_BULLETS = [
   "Pull people out of specialized thinking and routine ruts",
-  "Break into integrated thinking—the Neothink Mentality",
+  "Break into integrated thinking: the Neothink Mentality",
   "Rise in business, success, and the life you were meant to live",
   "Move from follower toward integrator and self-leader",
   "Address illusions that suppress progress",
@@ -98,17 +98,17 @@ export const CURE_TO_AGING_FAQ = [
   {
     question: "Why would I want to live forever if I’m unhappy now?",
     answer:
-      "The talk’s premise is that unhappiness in a rut suppresses demand for longevity. The Neothink Mentality is framed as changing the inner life first—toward creation and joy—so wanting more life becomes natural.",
+      "The talk’s premise is that unhappiness in a rut suppresses demand for longevity. The Neothink Mentality is framed as changing the inner life first, toward creation and joy, so wanting more life becomes natural.",
   },
   {
     question: "How do regulations actually block longevity research?",
     answer:
-      "The essay cites cost, delay, and compliance burden making promising lines of research economically unviable. The DuPont cancer example illustrates FDA friction killing a 1970s program—not science failing in isolation, but the project becoming too expensive to continue.",
+      "The essay cites cost, delay, and compliance burden making promising lines of research economically unviable. The DuPont cancer example illustrates FDA friction killing a 1970s program: not science failing in isolation, but the project becoming too expensive to continue.",
   },
   {
     question: "What is cure2aging.com?",
     answer:
-      "Hamilton describes it as a site oriented toward the billionaire club—laying out paths, obstacles, and options including sovereign-territory thinking. It complements these public talks.",
+      "Hamilton describes it as a site oriented toward the billionaire club, laying out paths, obstacles, and options including sovereign-territory thinking. It complements these public talks.",
   },
   {
     question: "How does the Prime Law connect to curing aging?",

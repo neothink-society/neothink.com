@@ -11,7 +11,7 @@ export const FAYLP_PATH = "/finding-achieving-your-life-purpose" as const;
 
 export const FAYLP_IMAGE: AwakeningArticleImage = {
   src: "/images/wp/2026/02/A-Process-for-Finding-Achieving-Your-Lifes-Purpose-Mark-Hamilton.jpg",
-  alt: "A Process for Finding & Achieving Your Life’s Purpose — Neothink Awakening article",
+  alt: "A Process for Finding & Achieving Your Life’s Purpose, Neothink Awakening article",
   width: 1280,
   height: 720,
 };
@@ -30,7 +30,7 @@ export const FAYLP_YOUTUBE_ID = "OjsUbzNRynM" as const;
 export const FAYLP_MIN_READ = "12 min read" as const;
 
 export const FAYLP_INTRO_PARAS: readonly string[] = [
-  "Mark Hamilton carries a sadness in his heart for the millions of people who go through life without purpose—stuck in stagnation traps, doing dead-end work that never engages their creative minds. But he doesn’t just identify the problem. He provides the complete process to fix it.",
+  "Mark Hamilton carries a sadness in his heart for the millions of people who go through life without purpose: stuck in stagnation traps, doing dead-end work that never engages their creative minds. But he doesn’t just identify the problem. He provides the complete process to fix it.",
 ];
 
 export const FAYLP_QUICK_ANSWER_KICKER = "Quick answer" as const;
@@ -38,4 +38,4 @@ export const FAYLP_QUICK_ANSWER_TITLE = "Why Do Millions Feel Stuck Without Purp
 export const FAYLP_QUICK_ANSWER_LEAD_STRONG = "Because jobs are designed wrong." as const;
 
 /** Prose body of the quick answer (first paragraph from WP). Edit by hand to add inline Links. */
-export const FAYLP_QUICK_ANSWER_REST = "Most companies use the Division of Labor—which was meant for manufacturing—to organize mind-intensive business work. This creates specialized, dead-end tasks that turn humans into robots and prevent them from using their creative minds. The solution is the Division of Essence, which aligns the essence of business (building value) with the essence of being human (creating value)." as const;
+export const FAYLP_QUICK_ANSWER_REST = "Most companies use the Division of Labor: which was meant for manufacturing: to organize mind-intensive business work. This creates specialized, dead-end tasks that turn humans into robots and prevent them from using their creative minds. The solution is the Division of Essence, which aligns the essence of business (building value) with the essence of being human (creating value)." as const;

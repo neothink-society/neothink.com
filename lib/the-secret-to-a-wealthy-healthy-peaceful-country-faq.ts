@@ -7,7 +7,7 @@ export const SWHPC_FAQ = [
   {
     question: "What is a pure business civilization?",
     answer:
-      "A civilization with no ruling classes, operating solely on mutual value exchange under the Prime Law. There is no initiatory force, no fraud, no suppression. Free geniuses and advancing technology drive prices toward zero and values toward infinity. Hamilton equates this to the Civilization of the Universe — what civilizations across the universe achieve after surviving their nuclear decision threshold.",
+      "A civilization with no ruling classes, operating solely on mutual value exchange under the Prime Law. There is no initiatory force, no fraud, no suppression. Free geniuses and advancing technology drive prices toward zero and values toward infinity. Hamilton equates this to the Civilization of the Universe, what civilizations across the universe achieve after surviving their nuclear decision threshold.",
   },
   {
     question: "What is the Neothink Network State?",
@@ -17,7 +17,7 @@ export const SWHPC_FAQ = [
   {
     question: "What does “stimulate first, educate later” mean?",
     answer:
-      "Hamilton’s approach to reaching the masses. Instead of leading with explanations (which loses people), you lead with bold, stimulating claims — end poverty, cure disease, eliminate crime. When people ask “How?” you’ve hooked them and earned permission to educate. Stimulation makes the world go round; education follows.",
+      "Hamilton’s approach to reaching the masses. Instead of leading with explanations (which loses people), you lead with bold, stimulating claims, end poverty, cure disease, eliminate crime. When people ask “How?” you’ve hooked them and earned permission to educate. Stimulation makes the world go round; education follows.",
   },
   {
     question: "How would a business civilization cure poverty?",
@@ -27,7 +27,7 @@ export const SWHPC_FAQ = [
   {
     question: "What was the billionaire project?",
     answer:
-      "Hamilton ran targeted Google ads to billionaires who have invested heavily in living forever — including Brian Johnson, Peter Thiel, and others. The ads appeared as information nuggets on their search engine results and linked to personalized letters on cure2aging.com. Brian Johnson subsequently announced his goal to start a new country. Google later canceled all of Hamilton’s ads, ending the project.",
+      "Hamilton ran targeted Google ads to billionaires who have invested heavily in living forever, including Brian Johnson, Peter Thiel, and others. The ads appeared as information nuggets on their search engine results and linked to personalized letters on cure2aging.com. Brian Johnson subsequently announced his goal to start a new country. Google later canceled all of Hamilton’s ads, ending the project.",
   },
   {
     question: "What does “emotional withdrawal” mean in this context?",

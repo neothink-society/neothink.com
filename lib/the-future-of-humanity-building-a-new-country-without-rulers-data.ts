@@ -11,7 +11,7 @@ export const FHBNCWR_PATH = "/the-future-of-humanity-building-a-new-country-with
 
 export const FHBNCWR_IMAGE: AwakeningArticleImage = {
   src: "/images/wp/2026/01/The-Future-of-Humanity-Building-a-New-Country-Without-Rulers.jpg",
-  alt: "The Future of Humanity: Building a New Country Without Rulers — Neothink Awakening article",
+  alt: "The Future of Humanity: Building a New Country Without Rulers, Neothink Awakening article",
   width: 1280,
   height: 720,
 };
@@ -30,7 +30,7 @@ export const FHBNCWR_YOUTUBE_ID = "DY_o1VgDv9s" as const;
 export const FHBNCWR_MIN_READ = "15 min read" as const;
 
 export const FHBNCWR_INTRO_PARAS: readonly string[] = [
-  "Mark Hamilton reveals his vision for a business civilization—the first in human history without a ruling class. Based on the Prime Law, this isn’t left vs right politics. It’s a third option: no politics at all. A world of unprecedented wealth, health, and peace.",
+  "Mark Hamilton reveals his vision for a business civilization: the first in human history without a ruling class. Based on the Prime Law, this isn’t left vs right politics. It’s a third option: no politics at all. A world of unprecedented wealth, health, and peace.",
 ];
 
 export const FHBNCWR_QUICK_ANSWER_KICKER = "Quick answer" as const;
@@ -38,4 +38,4 @@ export const FHBNCWR_QUICK_ANSWER_TITLE = "What Is This New Country Without Rule
 export const FHBNCWR_QUICK_ANSWER_LEAD_STRONG: string | undefined = undefined;
 
 /** Prose body of the quick answer (first paragraph from WP). Edit by hand to add inline Links. */
-export const FHBNCWR_QUICK_ANSWER_REST = "Mark Hamilton is building a business civilization—the first in human history without a ruling class. Based on the Prime Law (no initiatory force), it operates entirely on mutual value exchange. This isn’t left vs right politics—it’s a third option: no politics at all. Citizens will experience unprecedented wealth, health, and peace." as const;
+export const FHBNCWR_QUICK_ANSWER_REST = "Mark Hamilton is building a business civilization: the first in human history without a ruling class. Based on the Prime Law (no initiatory force), it operates entirely on mutual value exchange. This isn’t left vs right politics: it’s a third option: no politics at all. Citizens will experience unprecedented wealth, health, and peace." as const;

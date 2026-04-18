@@ -11,7 +11,7 @@ export const SAMS_PATH = "/sell-anything-marketing-secret" as const;
 
 export const SAMS_IMAGE: AwakeningArticleImage = {
   src: "/images/wp/2026/01/Want-to-Sell-Anything-in-2025-Heres-the-Secret.jpg",
-  alt: "Want to Sell Anything? Here’s the $350 Million Secret — Neothink Awakening article",
+  alt: "Want to Sell Anything? Here’s the $350 Million Secret, Neothink Awakening article",
   width: 1280,
   height: 720,
 };
@@ -31,7 +31,7 @@ export const SAMS_YOUTUBE_ID: string | undefined = undefined;
 export const SAMS_MIN_READ = "13 min read" as const;
 
 export const SAMS_INTRO_PARAS: readonly string[] = [
-  "Mark Hamilton reveals the marketing technique that generated $350 million in sales—something no other marketer on Earth has ever understood.",
+  "Mark Hamilton reveals the marketing technique that generated $350 million in sales: something no other marketer on Earth has ever understood.",
   "It’s not pain points. It’s not even forces of nature. It’s something far deeper that every human being carries inside them.",
 ];
 
@@ -40,4 +40,4 @@ export const SAMS_QUICK_ANSWER_TITLE = "What’s the Marketing Secret Behind $35
 export const SAMS_QUICK_ANSWER_LEAD_STRONG = "The Child of the Past." as const;
 
 /** Prose body of the quick answer (first paragraph from WP). Edit by hand to add inline Links. */
-export const SAMS_QUICK_ANSWER_REST = "While top marketers know about pain points and forces of nature (sex, instant gratification, popularity), Mark Hamilton discovered something deeper: every person carries a dormant “child” inside—the wonder and expectation they had in youth before adult life caused them to resign their dreams. Awaken that child, and you’ve tapped into the largest common denominator need on Earth." as const;
+export const SAMS_QUICK_ANSWER_REST = "While top marketers know about pain points and forces of nature (sex, instant gratification, popularity), Mark Hamilton discovered something deeper: every person carries a dormant “child” inside: the wonder and expectation they had in youth before adult life caused them to resign their dreams. Awaken that child, and you’ve tapped into the largest common denominator need on Earth." as const;

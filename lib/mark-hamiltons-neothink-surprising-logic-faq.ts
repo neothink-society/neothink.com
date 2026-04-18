@@ -1,12 +1,12 @@
 /**
- * FAQ — visible copy must match FAQPage JSON-LD.
+ * FAQ, visible copy must match FAQPage JSON-LD.
  */
 
 export const MHNSL_FAQ = [
   {
     question: "Is Neothink described here as mystical or purely emotional?",
     answer:
-      "This article frames it as grounded in logic, structure, and applied systems—see the sections on logic vs emotion and the mind shift from “following mode” to “thinking mode.”",
+      "This article frames it as grounded in logic, structure, and applied systems: see the sections on logic vs emotion and the mind shift from “following mode” to “thinking mode.”",
   },
   {
     question: "Is this article legal, membership, or financial advice?",

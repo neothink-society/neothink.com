@@ -7,27 +7,27 @@ export const SHFD_FAQ = [
   {
     question: "What is the Impact Moment?",
     answer:
-      "The Impact Moment is the first time your creativity produces a measurable positive change in the world around you. It is a concrete event — you improved something and the improvement can be measured by metrics. Hamilton argues this single moment is what separates people who rise from people who stay stuck in the following mode.",
+      "The Impact Moment is the first time your creativity produces a measurable positive change in the world around you. It is a concrete event, you improved something and the improvement can be measured by metrics. Hamilton argues this single moment is what separates people who rise from people who stay stuck in the following mode.",
   },
   {
     question: "What is Project Curiosity?",
     answer:
-      "Project Curiosity is Hamilton’s name for the practice of tapping into your childlike curiosity at your place of work. Instead of staying locked in your routine tasks, you explore all areas of the business, ask questions, and look at the numbers — specifically how to cut costs or increase customers. It is the gateway to the Impact Moment.",
+      "Project Curiosity is Hamilton’s name for the practice of tapping into your childlike curiosity at your place of work. Instead of staying locked in your routine tasks, you explore all areas of the business, ask questions, and look at the numbers, specifically how to cut costs or increase customers. It is the gateway to the Impact Moment.",
   },
   {
     question: "How did Charles Nash use the Impact Moment?",
     answer:
-      "Nash started on a factory floor pounding iron at Durant-Dort Carriage Company. A few days in, he suggested a power hammer to save money — his first Impact Moment. From there, creativity rippled outward: he improved a drill press, fixed the trimming process, and rose to become the youngest president of General Motors before founding Nash Motors.",
+      "Nash started on a factory floor pounding iron at Durant-Dort Carriage Company. A few days in, he suggested a power hammer to save money, his first Impact Moment. From there, creativity rippled outward: he improved a drill press, fixed the trimming process, and rose to become the youngest president of General Motors before founding Nash Motors.",
   },
   {
     question: "What are mini-days?",
     answer:
-      "Mini-days are Hamilton’s term for breaking a dream down into its fundamental physical movements — typically three to six activities. These are placed around your current routine (before work, after work, days off) to steadily pull you from stagnation into the life you want. Jack London used four mini-days to rise from cannery dropout to highest-paid author of his time.",
+      "Mini-days are Hamilton’s term for breaking a dream down into its fundamental physical movements, typically three to six activities. These are placed around your current routine (before work, after work, days off) to steadily pull you from stagnation into the life you want. Jack London used four mini-days to rise from cannery dropout to highest-paid author of his time.",
   },
   {
     question: "What is the difference between the following mode and the creative mode?",
     answer:
-      "The following mode is the default mentality where you do what you’re told: routine tasks, tunnel vision, stagnant rut. The creative mode — what Hamilton calls the Neothink mentality — is where your mind actively improves the world around you. The shift happens through the Impact Moment, your first measurable creative breakthrough.",
+      "The following mode is the default mentality where you do what you’re told: routine tasks, tunnel vision, stagnant rut. The creative mode, what Hamilton calls the Neothink mentality, is where your mind actively improves the world around you. The shift happens through the Impact Moment, your first measurable creative breakthrough.",
   },
   {
     question: "Can anyone experience an Impact Moment regardless of age or position?",

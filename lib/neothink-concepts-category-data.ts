@@ -1,5 +1,5 @@
 /**
- * Neothink Concepts — WordPress category `neothink-concepts` (id 84).
+ * Neothink Concepts, WordPress category `neothink-concepts` (id 84).
  * Listing matches WP post order (newest first).
  *
  * @see https://neothink.com/wp-json/wp/v2/posts?categories=84
@@ -16,7 +16,7 @@ export const NEOTHINK_CONCEPTS_CATEGORY_INTRO =
   "Neothink Concepts are focused articles on the cognitive toolkit behind creation and self-direction: Friday-Night Essence as your deepest motivational root, the self-leader path beyond following mode, integrated thinking across domains, and shifting from maintaining value to creating it. Read in any order; together they show how Neothink applies in work and life." as const;
 
 export const NEOTHINK_CONCEPTS_CATEGORY_SEO_DESCRIPTION =
-  "Neothink Concepts series: Friday-Night Essence, self-leadership, integrated thinking, and value creation—canonical articles on Neothink Institute." as const;
+  "Neothink Concepts series: Friday-Night Essence, self-leadership, integrated thinking, and value creation: canonical articles on Neothink Institute." as const;
 
 /** All Concepts posts listed in this category currently have Next.js routes. */
 export const NEOTHINK_CONCEPTS_MIGRATED_SLUGS: ReadonlySet<string> = new Set([

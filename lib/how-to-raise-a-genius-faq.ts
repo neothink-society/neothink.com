@@ -2,7 +2,7 @@ export const HTRG_FAQ = [
   {
     question: "What is the one question to ask children to raise a genius?",
     answer:
-      "The question is: “What did you THINK about that?” When your child shares something from their day, don’t stop at “that’s nice.” Ask them what they thought or how they felt about it. This forces them into their inner mind space—developing introspection and subjective thinking.",
+      "The question is: “What did you THINK about that?” When your child shares something from their day, don’t stop at “that’s nice.” Ask them what they thought or how they felt about it. This forces them into their inner mind space: developing introspection and subjective thinking.",
   },
   {
     question: "What is the “following mode” in child development?",
@@ -22,11 +22,11 @@ export const HTRG_FAQ = [
   {
     question: "Can adults break out of the following mode too?",
     answer:
-      "Yes, but it’s harder than for children because brain patterns are more established. Adults can break the following mode through Neothink techniques—the same principles applied systematically to adult consciousness.",
+      "Yes, but it’s harder than for children because brain patterns are more established. Adults can break the following mode through Neothink techniques: the same principles applied systematically to adult consciousness.",
   },
   {
     question: "How does breaking the following mode create geniuses?",
     answer:
-      "When you open a child’s inner mind space through introspection, they develop curiosity. This curiosity leads them into vectors of fascination—like Musk’s space obsession, Ford taking apart machines, or Jobs’ interest in design. Super achievers trace success back to these childhood turning points.",
+      "When you open a child’s inner mind space through introspection, they develop curiosity. This curiosity leads them into vectors of fascination: like Musk’s space obsession, Ford taking apart machines, or Jobs’ interest in design. Super achievers trace success back to these childhood turning points.",
   },
 ] as const;

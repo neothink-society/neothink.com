@@ -69,7 +69,7 @@
    *                           marks on light backgrounds. Pairs with
    *                           ink/white text (ink-on-gold 6.92:1 passes
    *                           WCAG AA). Never use as small text color or
-   *                           thin UI indicator on a light background —
+   *                           thin UI indicator on a light background;
    *                           it is only 2.72:1 there and fails 3:1.
    *   --gold-ink     #7A6528  Accessible text gold for light backgrounds.
    *                           Use for body text, eyebrow labels, links,
@@ -2444,7 +2444,7 @@
   }
 }
 
-/* Content visibility — skip layout/paint for off-screen sections */
+/* Content visibility: skip layout/paint for off-screen sections */
 .cv-auto {
   content-visibility: auto;
   contain-intrinsic-size: auto 600px;
@@ -2548,7 +2548,7 @@
   /* !important is required because the migrated Elementor HTML emits
    * inline `style="color:#...;text-decoration:none;"` on anchor tags,
    * which would otherwise defeat the underline. Underlining prose links
-   * is a WCAG 1.4.1 requirement — color alone must not be the sole
+   * is a WCAG 1.4.1 requirement: color alone must not be the sole
    * indicator of a link within surrounding text. */
   color: var(--gold-ink) !important;
   text-decoration: underline !important;
@@ -2571,7 +2571,7 @@
 /* Agency-era migrated HTML contains Elementor dark cards that set their
  * surface via inline style="background:#1a1a1a" (or similar near-black).
  * Our general prose-link rule above forces color:var(--gold-ink) with
- * !important, which is #7A6528 — perfect on cream/stone, but only 3.1:1
+ * !important, which is #7A6528: perfect on cream/stone, but only 3.1:1
  * on #1a1a1a (fails WCAG 2.1 AA). Inside these dark cards, swap to
  * --gold (#B8973A), which lands at ~6.0:1 on #1a1a1a. The attribute
  * selectors intentionally match both `#1a1a1a` and `#1a1917` (used by
@@ -2655,7 +2655,7 @@ a.nu-prose:hover {
   border-collapse: collapse;
 }
 
-/* Focusable wrapper for migrated tables — satisfies WCAG
+/* Focusable wrapper for migrated tables: satisfies WCAG
  * scrollable-region-focusable so keyboard users can scroll wide tables. */
 .nu-table-scroll {
   max-width: 100%;

@@ -11,7 +11,7 @@ export const TVBNE_PATH = "/trumps-victory-beginning-new-era" as const;
 
 export const TVBNE_IMAGE: AwakeningArticleImage = {
   src: "/images/wp/2026/01/Is-Trumps-Victory-the-Beginning-of-a-New-Era.jpg",
-  alt: "Is Trump’s Victory the Beginning of a New Era? — Neothink Awakening article",
+  alt: "Is Trump’s Victory the Beginning of a New Era?, Neothink Awakening article",
   width: 1280,
   height: 720,
 };
@@ -30,7 +30,7 @@ export const TVBNE_YOUTUBE_ID = "1f8x3iXtn6w" as const;
 export const TVBNE_MIN_READ = "13 min read" as const;
 
 export const TVBNE_INTRO_PARAS: readonly string[] = [
-  "In the aftermath of the 2024 election, Mark Hamilton broke his long-standing silence on political matters—not to endorse candidates, but to identify the one factor that truly determines prosperity: the size of government.",
+  "In the aftermath of the 2024 election, Mark Hamilton broke his long-standing silence on political matters: not to endorse candidates, but to identify the one factor that truly determines prosperity: the size of government.",
   "“The really good thing to focus on is the reduction of the federal bureaucracy. That says it all.”",
 ];
 
@@ -39,4 +39,4 @@ export const TVBNE_QUICK_ANSWER_TITLE = "Is Trump’s Victory the Beginning of a
 export const TVBNE_QUICK_ANSWER_LEAD_STRONG = "Mark Hamilton sees the 2024 election through one key metric: government reduction." as const;
 
 /** Prose body of the quick answer (first paragraph from WP). Edit by hand to add inline Links. */
-export const TVBNE_QUICK_ANSWER_REST = "He bypasses partisan debates entirely, focusing instead on the planned shrinking of federal bureaucracy through DOGE (Department of Government Efficiency). When government shrinks, the economy grows, costs drop, and prosperity expands—proven by the unregulated computer revolution. This represents “Phase One” toward a fully free society." as const;
+export const TVBNE_QUICK_ANSWER_REST = "He bypasses partisan debates entirely, focusing instead on the planned shrinking of federal bureaucracy through DOGE (Department of Government Efficiency). When government shrinks, the economy grows, costs drop, and prosperity expands: proven by the unregulated computer revolution. This represents “Phase One” toward a fully free society." as const;

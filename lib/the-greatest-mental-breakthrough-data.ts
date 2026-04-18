@@ -24,4 +24,4 @@ export const GMB_INTRO_HTML =
   "<p>A framework for understanding why <strong>subtractive improvement</strong> creates exponential leverage in business, psychology, and human flourishing.</p>" as const;
 
 export const GMB_QUICK_ANSWER_HTML =
-  "<p>The greatest mental breakthrough is understanding that <strong>removing the negative</strong> consistently outperforms adding the positive. Rather than endlessly accumulating new skills, habits, or knowledge, identify and eliminate the few recurring obstacles — stagnation, following mode, and suppression of creative essence — that block human potential. This subtractive approach produces permanent, compounding progress.</p>" as const;
+  "<p>The greatest mental breakthrough is understanding that <strong>removing the negative</strong> consistently outperforms adding the positive. Rather than endlessly accumulating new skills, habits, or knowledge, identify and eliminate the few recurring obstacles, stagnation, following mode, and suppression of creative essence, that block human potential. This subtractive approach produces permanent, compounding progress.</p>" as const;

@@ -5,7 +5,7 @@ export const STRATEGIC_BRIEFING_FOR_PRESIDENTS_FAQ = [
   },
   {
     question: "What was the Platonic freeze?",
-    answer: "The moment when Plato’s philosophy — designed as a transitional scaffold for a world still largely bicameral — was mistakenly adopted as the permanent political ideal of Western civilization. Every governing structure since, from empires to modern bureaucracies, is built on this bicameral-era assumption.",
+    answer: "The moment when Plato’s philosophy, designed as a transitional scaffold for a world still largely bicameral, was mistakenly adopted as the permanent political ideal of Western civilization. Every governing structure since, from empires to modern bureaucracies, is built on this bicameral-era assumption.",
   },
   {
     question: "What happened to Aristotle’s works?",
@@ -13,11 +13,11 @@ export const STRATEGIC_BRIEFING_FOR_PRESIDENTS_FAQ = [
   },
   {
     question: "Why can’t existing governments be reformed to fix this?",
-    answer: "Because every modern nation is built constitutionally, economically, and psychologically on Plato’s assumption that people cannot govern themselves. No reform can fix a foundation. The solution requires a new zone where the correct operating system — the Prime Law — can run from the ground up.",
+    answer: "Because every modern nation is built constitutionally, economically, and psychologically on Plato’s assumption that people cannot govern themselves. No reform can fix a foundation. The solution requires a new zone where the correct operating system, the Prime Law, can run from the ground up.",
   },
   {
     question: "What is Neovia?",
-    answer: "A proposed sovereign zone where the Prime Law is absolute and voluntary interaction is the only social mechanism. Hamilton describes it not as a city but as a civilizational correction — the missing third stage that completes the stalled transition from bicameral-era governance to fully conscious civilization.",
+    answer: "A proposed sovereign zone where the Prime Law is absolute and voluntary interaction is the only social mechanism. Hamilton describes it not as a city but as a civilizational correction, the missing third stage that completes the stalled transition from bicameral-era governance to fully conscious civilization.",
   },
   {
     question: "How does this relate to the Prime Law?",

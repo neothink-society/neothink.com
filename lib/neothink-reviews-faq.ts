@@ -1,5 +1,5 @@
 /**
- * FAQ for Neothink Reviews — must match visible copy (FAQPage JSON-LD).
+ * FAQ for Neothink Reviews, must match visible copy (FAQPage JSON-LD).
  */
 
 export const NEOTHINK_REVIEWS_FAQ = [
@@ -11,7 +11,7 @@ export const NEOTHINK_REVIEWS_FAQ = [
   {
     question: "Are these independent or verified third-party reviews?",
     answer:
-      "No. They are self-reported by members and presented in the Society’s ecosystem—not neutral third-party ratings (for example app-store or Better Business Bureau style). Readers should treat them as qualitative member voices, not as statistically verified outcomes.",
+      "No. They are self-reported by members and presented in the Society’s ecosystem: not neutral third-party ratings (for example app-store or Better Business Bureau style). Readers should treat them as qualitative member voices, not as statistically verified outcomes.",
   },
   {
     question: "How is this page related to the Neothink Institute?",
@@ -31,6 +31,6 @@ export const NEOTHINK_REVIEWS_FAQ = [
   {
     question: "Do member stories guarantee results for me?",
     answer:
-      "No. Individual experiences vary. This page is for orientation and transparency about how members describe their journeys—not a promise of specific financial, health, or life outcomes.",
+      "No. Individual experiences vary. This page is for orientation and transparency about how members describe their journeys: not a promise of specific financial, health, or life outcomes.",
   },
 ] as const;

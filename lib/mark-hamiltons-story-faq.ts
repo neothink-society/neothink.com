@@ -3,7 +3,7 @@ export const MH_STORY_FAQ = [
   {
     question: "What is subtle mysticism?",
     answer:
-      "In Hamilton’s framing, subtle mysticism is the hidden “following mode” people do not recognize in themselves—more damaging than obvious mysticism because it stays invisible while shaping careers, beliefs, and stagnation.",
+      "In Hamilton’s framing, subtle mysticism is the hidden “following mode” people do not recognize in themselves: more damaging than obvious mysticism because it stays invisible while shaping careers, beliefs, and stagnation.",
   },
   {
     question: "How does this relate to Neo-Tech?",
@@ -13,7 +13,7 @@ export const MH_STORY_FAQ = [
   {
     question: "Why did Hamilton write business books?",
     answer:
-      "He describes business authorship as a vehicle to break people out of the following mode into integrated thinking and the Neothink mentality—not primarily as generic business how-to.",
+      "He describes business authorship as a vehicle to break people out of the following mode into integrated thinking and the Neothink mentality: not primarily as generic business how-to.",
   },
   {
     question: "What is the difference between a value producer and a value creator?",

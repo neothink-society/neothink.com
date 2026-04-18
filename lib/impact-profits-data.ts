@@ -1,5 +1,5 @@
 /**
- * Neothink Mentality lesson 4 — Impact Profits (WordPress post id 4606).
+ * Neothink Mentality lesson 4: Impact Profits (WordPress post id 4606).
  * Video: https://www.youtube.com/watch?v=KD9tcurr8qE
  * @see migration/source/impact-profits.html
  */
@@ -17,10 +17,10 @@ export const IMPACT_PROFITS_LESSON = {
 } as const;
 
 export const IMPACT_PROFITS_TAKEAWAYS = [
-  "Impact profits are the common denominators of income—specific places where value is created and money is made.",
+  "Impact profits are the common denominators of income: specific places where value is created and money is made.",
   "Project Curiosity widens attention so these profit-impacting areas become visible.",
   "Charles Nash’s arc from blacksmith to industry leadership illustrates improving work that affects profits, not only executing tasks.",
-  "Value creation—not merely harder labor—is the path Hamilton ties to wealth and the Neothink mentality.",
+  "Value creation, not merely harder labor, is the path Hamilton ties to wealth and the Neothink mentality.",
 ] as const;
 
 export const IMPACT_PROFITS_SPECIALIZED_WORKER = [
@@ -63,7 +63,7 @@ export const IMPACT_PROFITS_PROCESS_STEPS = [
   },
   {
     title: "Create value in that area",
-    body: "Ask how the work could be done better; implement improvements you can—quality, speed, clarity, cost.",
+    body: "Ask how the work could be done better; implement improvements you can: quality, speed, clarity, cost.",
   },
   {
     title: "Let results speak",

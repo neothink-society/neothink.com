@@ -11,7 +11,7 @@ export const UWSSE_PATH = "/universal-wealth-secrets-the-solution-exposed" as co
 
 export const UWSSE_IMAGE: AwakeningArticleImage = {
   src: "https://neothink.com/opengraph-image",
-  alt: "Neothink Institute — The Intellectual Foundation for the Next Stage of Human Civilization",
+  alt: "Neothink Institute, The Intellectual Foundation for the Next Stage of Human Civilization",
   width: 1200,
   height: 630,
 };
@@ -30,7 +30,7 @@ export const UWSSE_YOUTUBE_ID = "NZNVwo_iSwU" as const;
 export const UWSSE_MIN_READ = "18 min read" as const;
 
 export const UWSSE_INTRO_PARAS: readonly string[] = [
-  "Imagine you are trapped in a cave. The entrance collapsed thousands of years ago. For 3,000 years, humanity has been chipping away at the wall of rocks — the external authorities, the politicians, the force-backed ruling class — and every time a boulder is moved, more collapse down. In this address to the Neothink Society, Mark Hamilton reveals what he calls perhaps the greatest breakthrough of conscious man: the rocks are an illusion. Stop fighting. Withdraw. And the wall vanishes.",
+  "Imagine you are trapped in a cave. The entrance collapsed thousands of years ago. For 3,000 years, humanity has been chipping away at the wall of rocks, the external authorities, the politicians, the force-backed ruling class, and every time a boulder is moved, more collapse down. In this address to the Neothink Society, Mark Hamilton reveals what he calls perhaps the greatest breakthrough of conscious man: the rocks are an illusion. Stop fighting. Withdraw. And the wall vanishes.",
 ];
 
 export const UWSSE_QUICK_ANSWER_KICKER = "Quick answer" as const;
@@ -38,4 +38,4 @@ export const UWSSE_QUICK_ANSWER_TITLE = "What Is the Solution Hamilton Exposes?"
 export const UWSSE_QUICK_ANSWER_LEAD_STRONG: string | undefined = undefined;
 
 /** Prose body of the quick answer (first paragraph from WP). Edit by hand to add inline Links. */
-export const UWSSE_QUICK_ANSWER_REST = "The solution is counterintuitive: instead of fighting external authorities — which is their wheelhouse, their game, their rules — you withdraw. The parasitical ruling class exists because of our following mode. It is a classic cause-and-effect dynamic: the following mode of civilization causes the opposite and equal reaction — leaders who oblige to lead us. Their power is unearned. It depends entirely on our following mode. Remove the cause and the effect vanishes." as const;
+export const UWSSE_QUICK_ANSWER_REST = "The solution is counterintuitive: instead of fighting external authorities, which is their wheelhouse, their game, their rules, you withdraw. The parasitical ruling class exists because of our following mode. It is a classic cause-and-effect dynamic: the following mode of civilization causes the opposite and equal reaction, leaders who oblige to lead us. Their power is unearned. It depends entirely on our following mode. Remove the cause and the effect vanishes." as const;

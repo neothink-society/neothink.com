@@ -1,5 +1,5 @@
 /**
- * Terms and Conditions content — sourced verbatim from the WordPress original
+ * Terms and Conditions content, sourced verbatim from the WordPress original
  * (https://neothink.com/terms-and-conditions/, last updated 2026-01-04).
  *
  * Keep the legal copy source-faithful. When the live terms change, update

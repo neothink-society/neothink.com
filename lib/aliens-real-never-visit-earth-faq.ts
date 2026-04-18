@@ -7,7 +7,7 @@ export const ARNV_FAQ = [
   {
     question: "Do aliens exist?",
     answer:
-      "Yes, conscious beings almost certainly exist throughout the universe. When you understand numbers and the countless energy systems throughout the universe, it becomes clear that conscious life exists all over—civilizations may be light years apart, but they’re there. This has become more accepted since the work of Carl Sagan and others.",
+      "Yes, conscious beings almost certainly exist throughout the universe. When you understand numbers and the countless energy systems throughout the universe, it becomes clear that conscious life exists all over: civilizations may be light years apart, but they’re there. This has become more accepted since the work of Carl Sagan and others.",
   },
   {
     question: "Have aliens ever visited Earth?",
@@ -22,7 +22,7 @@ export const ARNV_FAQ = [
   {
     question: "Why wouldn’t advanced aliens want to help or teach us?",
     answer:
-      "The sheer cost in time, energy, and resources to travel light years would not be worth it. Advanced beings would find much more productive ways to teach more advanced conscious beings for greater return. It’s like asking why a busy adult wouldn’t fly around the world to teach a kindergarten class for a week—they simply wouldn’t.",
+      "The sheer cost in time, energy, and resources to travel light years would not be worth it. Advanced beings would find much more productive ways to teach more advanced conscious beings for greater return. It’s like asking why a busy adult wouldn’t fly around the world to teach a kindergarten class for a week: they simply wouldn’t.",
   },
   {
     question: "What is the Universal Computer theory?",
@@ -32,6 +32,6 @@ export const ARNV_FAQ = [
   {
     question: "How long have humans been truly conscious?",
     answer:
-      "Only about 3,000 years. Studies and historical writings—including the Bible—demonstrate this transition from a more animal-like mind that automatically reacted to stimuli, to the conscious mind with introspection and decision-making ability. We have only recently entered the exponential phase of advancement with AI technology.",
+      "Only about 3,000 years. Studies and historical writings: including the Bible: demonstrate this transition from a more animal-like mind that automatically reacted to stimuli, to the conscious mind with introspection and decision-making ability. We have only recently entered the exponential phase of advancement with AI technology.",
   },
 ] as const;

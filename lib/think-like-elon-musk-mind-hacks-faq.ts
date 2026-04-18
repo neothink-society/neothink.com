@@ -7,7 +7,7 @@ export const TLEMMH_FAQ = [
   {
     question: "Can anyone really develop a mind like Elon Musk?",
     answer:
-      "Yes. The difference between super achievers and ordinary people isn’t innate talent—it’s that they broke out of the “following mode” and developed a creative, self-leader mindset. Hamilton provides the specific process to make this transition.",
+      "Yes. The difference between super achievers and ordinary people isn’t innate talent: it’s that they broke out of the “following mode” and developed a creative, self-leader mindset. Hamilton provides the specific process to make this transition.",
   },
   {
     question: "How does the Mini-Day System create 8x productivity?",
@@ -17,12 +17,12 @@ export const TLEMMH_FAQ = [
   {
     question: "What if I’m stuck in a boring job I hate?",
     answer:
-      "Start with Project Curiosity where you are—learn everything about the business. You’ll discover areas of purpose you never knew existed. Or use the Jack London process to build physical movements toward what you truly love around your “income mini-day.”",
+      "Start with Project Curiosity where you are: learn everything about the business. You’ll discover areas of purpose you never knew existed. Or use the Jack London process to build physical movements toward what you truly love around your “income mini-day.”",
   },
   {
     question: "How do I get colleagues to give up their responsibilities?",
     answer:
-      "Ask for the “nitty-gritty details”—the tasks everyone hates. People will gladly let you take them. These details are the building blocks of responsibilities, and pulling them together creates your Area of Purpose.",
+      "Ask for the “nitty-gritty details”: the tasks everyone hates. People will gladly let you take them. These details are the building blocks of responsibilities, and pulling them together creates your Area of Purpose.",
   },
   {
     question: "What if I don’t know what I truly love?",
@@ -32,11 +32,11 @@ export const TLEMMH_FAQ = [
   {
     question: "Why is curiosity so important?",
     answer:
-      "Curiosity is what allows children to achieve the impossible—like learning language from scratch. Super achievers never lost this childlike curiosity. Project Curiosity is the method to resurrect it in yourself.",
+      "Curiosity is what allows children to achieve the impossible: like learning language from scratch. Super achievers never lost this childlike curiosity. Project Curiosity is the method to resurrect it in yourself.",
   },
   {
     question: "What is the Neothink mentality?",
     answer:
-      "The Neothink mentality is a self-leader modality—you’re leading your life, in total control, creating values. It contrasts with the following mentality where external authorities direct your life and you merely react.",
+      "The Neothink mentality is a self-leader modality: you’re leading your life, in total control, creating values. It contrasts with the following mentality where external authorities direct your life and you merely react.",
   },
 ] as const;

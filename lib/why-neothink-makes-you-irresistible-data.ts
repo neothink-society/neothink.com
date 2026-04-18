@@ -11,7 +11,7 @@ export const WNMYI_PATH = "/why-neothink-makes-you-irresistible" as const;
 
 export const WNMYI_IMAGE: AwakeningArticleImage = {
   src: "/images/wp/2026/01/The-Surprising-Reason-Neothink-Makes-You-IRRESISTIBLE.jpg",
-  alt: "The Surprising Reason Neothink Makes You Irresistible — Neothink Awakening article",
+  alt: "The Surprising Reason Neothink Makes You Irresistible, Neothink Awakening article",
   width: 1280,
   height: 720,
 };
@@ -30,7 +30,7 @@ export const WNMYI_YOUTUBE_ID = "q8FSzYWyptU" as const;
 export const WNMYI_MIN_READ = "9 min read" as const;
 
 export const WNMYI_INTRO_PARAS: readonly string[] = [
-  "Mark Hamilton reveals the evolutionary psychology behind why Neothink practitioners are genuinely more attractive. It’s not charm or techniques—it’s operating at a higher mental capacity that our survival instincts recognize as superior.",
+  "Mark Hamilton reveals the evolutionary psychology behind why Neothink practitioners are genuinely more attractive. It’s not charm or techniques: it’s operating at a higher mental capacity that our survival instincts recognize as superior.",
 ];
 
 export const WNMYI_QUICK_ANSWER_KICKER = "Quick answer" as const;
@@ -38,4 +38,4 @@ export const WNMYI_QUICK_ANSWER_TITLE = "Why Does Neothink Make People More Attr
 export const WNMYI_QUICK_ANSWER_LEAD_STRONG = "Neothink makes you more attractive" as const;
 
 /** Prose body of the quick answer (first paragraph from WP). Edit by hand to add inline Links. */
-export const WNMYI_QUICK_ANSWER_REST = "because it elevates your mental capacity to a higher level. Since human survival historically depended on superior intelligence, we’re evolutionarily wired to find creative, high-level thinkers irresistible. Neothink breaks you out of the “following mode” into the “creative mode”—and that transformation is genuinely attractive." as const;
+export const WNMYI_QUICK_ANSWER_REST = "because it elevates your mental capacity to a higher level. Since human survival historically depended on superior intelligence, we’re evolutionarily wired to find creative, high-level thinkers irresistible. Neothink breaks you out of the “following mode” into the “creative mode”: and that transformation is genuinely attractive." as const;

@@ -12,7 +12,7 @@ export const HTRG_PATH = "/how-to-raise-a-genius" as const;
 
 export const HTRG_IMAGE: AwakeningArticleImage = {
   src: "/images/wp/2026/01/how-to-raise-a-genius-the-one-question-thumbnail.jpg",
-  alt: "How to raise a genius — Neothink Awakening article",
+  alt: "How to raise a genius, Neothink Awakening article",
   width: 1280,
   height: 720,
 };
@@ -22,7 +22,7 @@ export const HTRG_DATES = {
   dateModified: "2026-02-11",
 } as const;
 
-/** `<title>` / Open Graph — mirrors the WordPress title. */
+/** `<title>` / Open Graph, mirrors the WordPress title. */
 export const HTRG_META_TITLE = "How to Raise a Genius: Always Ask Them THIS One Question" as const;
 
 /** H1 matches in-page Elementor heading. */
@@ -34,7 +34,7 @@ export const HTRG_YOUTUBE_ID = "SxRXvKZSAR4" as const;
 export const HTRG_MIN_READ = "8 min read" as const;
 
 export const HTRG_INTRO_PARAS: readonly string[] = [
-  "There’s a technique that can transform a child today into a genius tomorrow. It sounds bold—maybe even unbelievable—but the principle behind it is the same one that separates super achievers like Elon Musk, Steve Jobs, and Henry Ford from everyone else.",
+  "There’s a technique that can transform a child today into a genius tomorrow. It sounds bold: maybe even unbelievable: but the principle behind it is the same one that separates super achievers like Elon Musk, Steve Jobs, and Henry Ford from everyone else.",
   "The technique is remarkably simple. But its simplicity hides profound power.",
 ];
 

@@ -7,12 +7,12 @@ export const EMN_FAQ = [
   {
     question: "What is the Neothink Awakening?",
     answer:
-      "The Neothink Awakening is the psychological, physical, and conscious shift that occurs as someone breaks into the Neothink Mentality—the next evolution of the human mind. It involves moving from following mode to creative mode—integrating reality and creating values.",
+      "The Neothink Awakening is the psychological, physical, and conscious shift that occurs as someone breaks into the Neothink Mentality: the next evolution of the human mind. It involves moving from following mode to creative mode: integrating reality and creating values.",
   },
   {
     question: "What is following mode vs creative mode?",
     answer:
-      "Following mode is the residual bicameral mentality where people follow external authorities, stay in routine ruts, and never use their creative minds. Creative mode is how humans are meant to live—integrating reality, becoming entrepreneurs, creating values, and experiencing genuine purpose.",
+      "Following mode is the residual bicameral mentality where people follow external authorities, stay in routine ruts, and never use their creative minds. Creative mode is how humans are meant to live: integrating reality, becoming entrepreneurs, creating values, and experiencing genuine purpose.",
   },
   {
     question: "What is the maze of illusions?",
@@ -22,7 +22,7 @@ export const EMN_FAQ = [
   {
     question: "Who are the intellectually beautiful vs intellectually ugly?",
     answer:
-      "The intellectually beautiful are value creators who bring genuine value to the world through innovation and entrepreneurship. The intellectually ugly are those who rise by suppressing value creators—politicians, regulatory bureaucrats, and others who create illusions to maintain power.",
+      "The intellectually beautiful are value creators who bring genuine value to the world through innovation and entrepreneurship. The intellectually ugly are those who rise by suppressing value creators: politicians, regulatory bureaucrats, and others who create illusions to maintain power.",
   },
   {
     question: "What is the bicameral mind?",
@@ -32,7 +32,7 @@ export const EMN_FAQ = [
   {
     question: "What is the Nuclear Decision Threshold?",
     answer:
-      "A concept developed by Dr. Frank R. Wallace describing the point where a civilization has the power to destroy itself. To survive, it must eliminate irrationality. Those that pass through become purely rational civilizations—the Civilization of the Universe.",
+      "A concept developed by Dr. Frank R. Wallace describing the point where a civilization has the power to destroy itself. To survive, it must eliminate irrationality. Those that pass through become purely rational civilizations: the Civilization of the Universe.",
   },
   {
     question: "Why is Mark Hamilton going public now after 45+ years?",

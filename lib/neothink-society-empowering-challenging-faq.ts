@@ -1,5 +1,5 @@
 /**
- * FAQ for empowering/challenging article — visible copy must match FAQPage JSON-LD.
+ * FAQ for empowering/challenging article, visible copy must match FAQPage JSON-LD.
  */
 
 export const NSEC_FAQ = [

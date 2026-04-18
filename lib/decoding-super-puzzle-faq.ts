@@ -12,12 +12,12 @@ export const DECODING_SUPER_PUZZLE_FAQ = [
   {
     question: "Why is value creation the first component?",
     answer:
-      "Because people must feel exhilarated to want to live forever. Value production leads to stagnation and routine — stagnant people have no desire for immortality. Value creation generates the exhilaration and demand that drives the entire formula forward.",
+      "Because people must feel exhilarated to want to live forever. Value production leads to stagnation and routine, stagnant people have no desire for immortality. Value creation generates the exhilaration and demand that drives the entire formula forward.",
   },
   {
     question: "What is the billionaire strategy?",
     answer:
-      "Hamilton’s plan to approach the world’s wealthiest people — who already spend hundreds of millions on life extension — and show them that their greatest desire requires a Prime Law country: a sovereign territory free of regulatory bureaucracy that becomes the medical mecca of the world.",
+      "Hamilton’s plan to approach the world’s wealthiest people, who already spend hundreds of millions on life extension, and show them that their greatest desire requires a Prime Law country: a sovereign territory free of regulatory bureaucracy that becomes the medical mecca of the world.",
   },
   {
     question: "Which billionaires want to live forever?",
@@ -27,6 +27,6 @@ export const DECODING_SUPER_PUZZLE_FAQ = [
   {
     question: "How does the Prime Law enable curing aging?",
     answer:
-      "By eliminating the regulatory bureaucracies, ethicists, legislators, politicians, and judges that slow medical progress to a halt. Hamilton argues that without a Prime Law country, no one will achieve biological immortality in their lifetime — the regulatory web is too thick.",
+      "By eliminating the regulatory bureaucracies, ethicists, legislators, politicians, and judges that slow medical progress to a halt. Hamilton argues that without a Prime Law country, no one will achieve biological immortality in their lifetime, the regulatory web is too thick.",
   },
 ] as const;

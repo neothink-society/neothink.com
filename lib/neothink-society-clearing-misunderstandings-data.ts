@@ -21,7 +21,7 @@ export const NSCM_DATES = {
   dateModified: "2026-02-06",
 } as const;
 
-/** Visible `h1` — matches WP title (typographic quotes). */
+/** Visible `h1`, matches WP title (typographic quotes). */
 export const NSCM_HEADLINE =
   "Neothink Society: Clearing Up the Misunderstandings About the ‘Secret Society’" as const;
 
@@ -97,7 +97,7 @@ export const NSCM_SECTIONS: readonly NscmSection[] = [
     paragraphs: [
       "Ultimately, the so-called “Neothink secret society” is simply a misunderstanding of what the Neothink Society truly offers. This is not a hidden or exclusive organization; it is a community of individuals who have chosen to empower themselves through knowledge and action.",
       "If you have been intrigued by the rumors, it’s time to separate the myths from the truth. [[joinExternal|The Neothink Society]] offers a pathway to personal freedom, financial success, and a life that’s fully aligned with your highest potential. You can start your journey today through the mentorship found in Neothink coaching programs or the expansive learning opportunities at Neothink University.",
-      "No hidden agendas, no mysterious secrets—just a straightforward and transparent approach to living the life you deserve.",
+      "No hidden agendas, no mysterious secrets: just a straightforward and transparent approach to living the life you deserve.",
     ],
   },
 ] as const;

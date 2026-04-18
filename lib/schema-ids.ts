@@ -14,6 +14,6 @@ export const schemaIds = {
   unleashedBook: `${U}/#unleashed`,
   podcastSeries: `${U}/#podcast-unleashed`,
   wallaceHamilton: `${U}/#wallace-hamilton`,
-  /** `ItemList` — sitewide footer links (`lib/footer-navigation.ts`) */
+  /** `ItemList`, sitewide footer links (`lib/footer-navigation.ts`) */
   footerNavigation: `${U}/#footer-navigation`,
 } as const;

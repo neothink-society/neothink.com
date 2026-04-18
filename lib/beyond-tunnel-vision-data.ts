@@ -1,5 +1,5 @@
 /**
- * Neothink Mentality lesson 3 — Beyond Tunnel Vision (WordPress post id 4576).
+ * Neothink Mentality lesson 3: Beyond Tunnel Vision (WordPress post id 4576).
  * @see migration/source/beyond-tunnel-vision.html
  */
 export const BEYOND_TUNNEL_VISION_LESSON = {
@@ -47,7 +47,7 @@ export const BEYOND_TUNNEL_VISION_PROJECT_STEPS = [
   },
   {
     title: "Change your daily mindset",
-    body: "Shift from surviving tasks to genuine curiosity about the business—what you might notice today.",
+    body: "Shift from surviving tasks to genuine curiosity about the business: what you might notice today.",
   },
   {
     title: "Observe beyond your role",
@@ -59,7 +59,7 @@ export const BEYOND_TUNNEL_VISION_PROJECT_STEPS = [
   },
   {
     title: "Notice what an expanded mind sees",
-    body: "Track inefficiencies, connections, and opportunities—these are baby steps into integrated thinking.",
+    body: "Track inefficiencies, connections, and opportunities; these are baby steps into integrated thinking.",
   },
 ] as const;
 

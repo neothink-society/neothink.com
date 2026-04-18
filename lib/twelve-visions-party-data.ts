@@ -13,14 +13,14 @@ export const TVP_WP = {
 
 export const TVP_HERO_IMAGE = {
   src: "/images/wp/2024/09/twelve-vision-1.png",
-  alt: "Twelve Visions Party — political movement focused on human potential",
+  alt: "Twelve Visions Party, political movement focused on human potential",
   width: 1000,
   height: 667,
 } as const;
 
 export const TVP_BENEFITS_IMAGE = {
   src: "/images/wp/2024/09/twelve-vision-2.png",
-  alt: "Twelve Visions — personal and societal thriving",
+  alt: "Twelve Visions, personal and societal thriving",
   width: 1000,
   height: 667,
 } as const;
@@ -30,7 +30,7 @@ export const TVP_INTRO =
 
 export const TVP_ABOUT_PARAGRAPHS: readonly string[] = [
   "Mark Hamilton, the visionary behind the Neothink Society, is the force driving this innovative approach to politics. Observing the limitations of traditional political systems, Hamilton proposed a transformative idea: empowering individuals to fully realize their potential benefits everyone.",
-  "Hamilton’s core principle is straightforward yet impactful—when people are free to pursue their dreams, the entire society benefits. This concept is akin to a rising tide lifting all boats, applied to societal progress.",
+  "Hamilton’s core principle is straightforward yet impactful: when people are free to pursue their dreams, the entire society benefits. This concept is akin to a rising tide lifting all boats, applied to societal progress.",
   "The Twelve Visions Party transcends conventional political categories such as left, right, or center. Instead, it introduces a new approach focused on expanding opportunities rather than dividing existing resources. This party aims to create a society where everyone has the chance to thrive and succeed, metaphorically baking their own pie.",
 ];
 

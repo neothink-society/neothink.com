@@ -12,12 +12,12 @@ export const TVBNE_FAQ = [
   {
     question: "How does reducing government size benefit ordinary people?",
     answer:
-      "When government shrinks, people keep more money (less taxation), face fewer regulations on their businesses and lives, and benefit from increased economic productivity. Hamilton points to the computer revolution as proof—when government couldn’t regulate the industry, costs dropped 1,000-fold.",
+      "When government shrinks, people keep more money (less taxation), face fewer regulations on their businesses and lives, and benefit from increased economic productivity. Hamilton points to the computer revolution as proof: when government couldn’t regulate the industry, costs dropped 1,000-fold.",
   },
   {
     question: "What is Immortalis?",
     answer:
-      "Immortalis is a new country founded by Mark Hamilton, currently operating as a digital network state with plans to acquire physical territory within 10 years. It operates under the Prime Law with no politicians, no bureaucratic regulations, and no forced taxation—only a voluntary 10% tithe for protection services.",
+      "Immortalis is a new country founded by Mark Hamilton, currently operating as a digital network state with plans to acquire physical territory within 10 years. It operates under the Prime Law with no politicians, no bureaucratic regulations, and no forced taxation: only a voluntary 10% tithe for protection services.",
   },
   {
     question: "Why does Mark Hamilton call government a cult?",
@@ -27,7 +27,7 @@ export const TVBNE_FAQ = [
   {
     question: "What is the Prime Law?",
     answer:
-      "The Prime Law is the constitutional foundation of Immortalis that removes all initiatory force from government and society. It means no forced taxation, no regulatory coercion, and government limited strictly to protecting individual rights. Under the Prime Law, the smallest minority—the individual—is fully protected.",
+      "The Prime Law is the constitutional foundation of Immortalis that removes all initiatory force from government and society. It means no forced taxation, no regulatory coercion, and government limited strictly to protecting individual rights. Under the Prime Law, the smallest minority: the individual: is fully protected.",
   },
   {
     question: "How would a purely free economy affect healthcare?",
@@ -37,6 +37,6 @@ export const TVBNE_FAQ = [
   {
     question: "Why would crime disappear in a free society?",
     answer:
-      "Hamilton identifies three factors: (1) The primary cause of crime—need for money—disappears when everyone is wealthy, (2) With protection as government’s only purpose, justice becomes swift and certain, deterring potential criminals, and (3) Equal protection under the Prime Law eliminates the divisions that breed conflict.",
+      "Hamilton identifies three factors: (1) The primary cause of crime: need for money: disappears when everyone is wealthy, (2) With protection as government’s only purpose, justice becomes swift and certain, deterring potential criminals, and (3) Equal protection under the Prime Law eliminates the divisions that breed conflict.",
   },
 ] as const;

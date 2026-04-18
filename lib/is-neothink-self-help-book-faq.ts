@@ -1,5 +1,5 @@
 /**
- * FAQ for self-help comparison article — visible copy must match FAQPage JSON-LD.
+ * FAQ for self-help comparison article, visible copy must match FAQPage JSON-LD.
  */
 
 export const IS_NEOTHINK_SELF_HELP_FAQ = [

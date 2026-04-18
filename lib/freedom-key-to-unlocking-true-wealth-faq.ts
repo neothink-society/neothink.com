@@ -2,17 +2,17 @@ export const FKTUW_FAQ = [
   {
     question: "Why has only information technology seen major innovation?",
     answer:
-      "Information technology—computers, internet, AI—advanced faster than government could regulate it. This created a natural experiment: the one industry free from heavy-handed regulation is the one that transformed the world.",
+      "Information technology: computers, internet, AI: advanced faster than government could regulate it. This created a natural experiment: the one industry free from heavy-handed regulation is the one that transformed the world.",
   },
   {
     question: "What exactly is initiatory force?",
     answer:
-      "Initiatory force is the initiation of force against others—as opposed to self-defense force. When government tells businesses what they can or cannot do without evidence of actual harm, that’s initiatory force. The Prime Law banishes this throughout government and society.",
+      "Initiatory force is the initiation of force against others: as opposed to self-defense force. When government tells businesses what they can or cannot do without evidence of actual harm, that’s initiatory force. The Prime Law banishes this throughout government and society.",
   },
   {
     question: "Wouldn’t removing all regulations be dangerous?",
     answer:
-      "The Prime Law doesn’t remove protection—it focuses protection on actual harm. Government can still intervene when real danger exists (like a factory releasing toxic gas). What it can’t do is impose regulations without evidence of harm.",
+      "The Prime Law doesn’t remove protection: it focuses protection on actual harm. Government can still intervene when real danger exists (like a factory releasing toxic gas). What it can’t do is impose regulations without evidence of harm.",
   },
   {
     question: "What is a network state?",

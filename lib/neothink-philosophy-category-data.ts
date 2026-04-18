@@ -1,5 +1,5 @@
 /**
- * Neothink Philosophy — WordPress category `neothink-philosophy` (id 81).
+ * Neothink Philosophy, WordPress category `neothink-philosophy` (id 81).
  * Listing is source-faithful to WP post order (newest first); refresh dates/titles when adding migrations.
  *
  * @see https://neothink.com/wp-json/wp/v2/posts?categories=81
@@ -13,10 +13,10 @@ export const NEOTHINK_PHILOSOPHY_CATEGORY_TITLE = "Neothink Philosophy" as const
 
 /** WordPress category description (plain text). */
 export const NEOTHINK_PHILOSOPHY_CATEGORY_INTRO =
-  "For half a century, Mark Hamilton developed the Neothink Philosophy through private meetings with dedicated members. These recordings and teachings—never before available to the general public—are now being released. Witness the foundational ideas behind the Neothink Mentality directly from the author himself. This is your access point to the inner workings of a movement fifty years in the making." as const;
+  "For half a century, Mark Hamilton developed the Neothink Philosophy through private meetings with dedicated members. These recordings and teachings: never before available to the general public: are now being released. Witness the foundational ideas behind the Neothink Mentality directly from the author himself. This is your access point to the inner workings of a movement fifty years in the making." as const;
 
 export const NEOTHINK_PHILOSOPHY_CATEGORY_SEO_DESCRIPTION =
-  "Neothink Philosophy series: long-form talks and essays from Mark Hamilton on Immortalis, the Prime Law, prosperity, and civilization—full series with video, recaps, and FAQ on Neothink Institute." as const;
+  "Neothink Philosophy series: long-form talks and essays from Mark Hamilton on Immortalis, the Prime Law, prosperity, and civilization: full series with video, recaps, and FAQ on Neothink Institute." as const;
 
 /** Slugs that have a dedicated Next.js route at `/${slug}`. */
 export const NEOTHINK_PHILOSOPHY_MIGRATED_SLUGS: ReadonlySet<string> = new Set([

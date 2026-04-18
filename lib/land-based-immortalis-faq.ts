@@ -2,12 +2,12 @@ export const LAND_BASED_IMMORTALIS_FAQ = [
   {
     question: "What is Immortalis?",
     answer:
-      "Immortalis is a network state — a digital nation launched on September 3, 2024 — with the goal of creating a self-governing territory under the Prime Law where biomedical science can advance freely. Its mission is to cure age-related diseases including Alzheimer’s, dementia, cancer, heart disease, and aging itself.",
+      "Immortalis is a network state, a digital nation launched on September 3, 2024, with the goal of creating a self-governing territory under the Prime Law where biomedical science can advance freely. Its mission is to cure age-related diseases including Alzheimer’s, dementia, cancer, heart disease, and aging itself.",
   },
   {
     question: "Why does Immortalis need its own land?",
     answer:
-      "Current regulatory systems — particularly the FDA in America — slow biomedical progress to a pace that costs lives. A land-based Immortalis would create a territory with lower or zero regulatory barriers, allowing scientists and biomedical companies to work at the speed their genius permits under the protection of the Prime Law.",
+      "Current regulatory systems, particularly the FDA in America, slow biomedical progress to a pace that costs lives. A land-based Immortalis would create a territory with lower or zero regulatory barriers, allowing scientists and biomedical companies to work at the speed their genius permits under the protection of the Prime Law.",
   },
   {
     question: "Where would land-based Immortalis be located?",

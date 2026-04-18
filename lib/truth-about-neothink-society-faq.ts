@@ -1,12 +1,12 @@
 /**
- * FAQ — visible copy must match FAQPage JSON-LD.
+ * FAQ, visible copy must match FAQPage JSON-LD.
  */
 
 export const TATNS_FAQ = [
   {
     question: "Does this article promise specific results from the Neothink Society?",
     answer:
-      "No. It summarizes common themes in reviews and the Society’s described emphasis on effort, structure, and mindset—as stated in the sections on legitimacy and reviews.",
+      "No. It summarizes common themes in reviews and the Society’s described emphasis on effort, structure, and mindset: as stated in the sections on legitimacy and reviews.",
   },
   {
     question: "Is this legal, membership, or consumer advice?",

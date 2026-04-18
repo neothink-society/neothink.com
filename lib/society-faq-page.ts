@@ -17,13 +17,13 @@ export const SOCIETY_FAQ_IMAGES = {
   },
   projectLife: {
     src: "/images/wp/2024/09/faq2.png",
-    alt: "Project Life — health and longevity",
+    alt: "Project Life, health and longevity",
     width: 1000,
     height: 667,
   },
   ascension: {
     src: "/images/wp/2024/09/faq3.png",
-    alt: "Ascension — business and growth community",
+    alt: "Ascension, business and growth community",
     width: 1000,
     height: 667,
   },
@@ -42,7 +42,7 @@ export const SOCIETY_FAQ_ENTRIES: readonly SocietyFaqEntry[] = [
     id: "what-is-neothink-society",
     question: "What is the Neothink Society?",
     paragraphs: [
-      "The Neothink Society is a community dedicated to empowering individuals to elevate their lives and society through the Neothink idea system—often described as a catalyst for personal growth. The stated goal is to guide people toward a fulfilling life, fostering happiness through freedom, passion, purpose, and prosperity.",
+      "The Neothink Society is a community dedicated to empowering individuals to elevate their lives and society through the Neothink idea system: often described as a catalyst for personal growth. The stated goal is to guide people toward a fulfilling life, fostering happiness through freedom, passion, purpose, and prosperity.",
       "For decades, the Society has emphasized long-term member relationships, with many people staying involved for years. The framing is practical: help individuals escape stagnation and build a life with more excitement and love.",
     ],
   },
@@ -69,14 +69,14 @@ export const SOCIETY_FAQ_ENTRIES: readonly SocietyFaqEntry[] = [
     question: "What is the Formula to Cure Aging?",
     paragraphs: [
       "The Formula to Cure Aging initiative, associated with Mark Hamilton’s public writing, addresses mortality and consciousness by combining two threads: making individual lives deeply worth living (demand for longevity) and fostering societal conditions for scientific progress (supply of solutions).",
-      "It is described in connection with the Neothink Country / Immortalis vision—rapid, benevolent progress. For the public lesson that overlaps this theme on this site, see the Neothink Mentality module on curing aging.",
+      "It is described in connection with the Neothink Country / Immortalis vision: rapid, benevolent progress. For the public lesson that overlaps this theme on this site, see the Neothink Mentality module on curing aging.",
     ],
   },
   {
     id: "what-is-neothink-country",
     question: "What is Neothink Country?",
     paragraphs: [
-      "Neothink Country is described as a community with a vision of a society where individuals thrive with minimal coercion—principles centered on freedom without harm to others, toward universal wealth, health, and peace. The narrative begins as a network-style community with the long-range aim of physical territory.",
+      "Neothink Country is described as a community with a vision of a society where individuals thrive with minimal coercion: principles centered on freedom without harm to others, toward universal wealth, health, and peace. The narrative begins as a network-style community with the long-range aim of physical territory.",
       "The Immortalis page on neothink.com summarizes a closely related Society vision in the Neothink Institute’s public voice.",
     ],
   },
@@ -84,7 +84,7 @@ export const SOCIETY_FAQ_ENTRIES: readonly SocietyFaqEntry[] = [
     id: "how-to-join",
     question: "How do I join the Neothink Society?",
     paragraphs: [
-      "The legacy FAQ directs people to explore membership options on neothink.com and choose paths that fit—personal development, business coaching, or longevity-focused offerings.",
+      "The legacy FAQ directs people to explore membership options on neothink.com and choose paths that fit: personal development, business coaching, or longevity-focused offerings.",
       "On this site, start with Free Courses or Get Involved for public entry points; use Contact for routing. Paid University and private Society onboarding are not the same as the free public library.",
     ],
   },
@@ -106,7 +106,7 @@ export const SOCIETY_FAQ_ENTRIES: readonly SocietyFaqEntry[] = [
   },
 ] as const;
 
-/** Plain Q&A for `faqPageJsonLd` — must match visible copy. */
+/** Plain Q&A for `faqPageJsonLd`, must match visible copy. */
 export const SOCIETY_FAQ_FOR_JSON_LD = SOCIETY_FAQ_ENTRIES.map((e) => ({
   question: e.question,
   answer: e.paragraphs.join(" "),

@@ -4,7 +4,7 @@ import { schemaIds } from "@/lib/schema-ids";
 import { WP } from "@/lib/wordpress-routes";
 
 /**
- * Sitewide footer IA — reduced to the **main pages** only:
+ * Sitewide footer IA, reduced to the **main pages** only:
  * the original set Wallace created (the seven header-nav destinations:
  * Unified Field, Neovia, The Way, Neothink, Mark Hamilton, Published Work,
  * Unleashed) plus the pages those seven link to internally (Prime Law,
@@ -12,7 +12,7 @@ import { WP } from "@/lib/wordpress-routes";
  *
  * Anything outside this set (series category hubs, About/FAQ, Neothink
  * University, Events, Programs, etc.) lives in the page bodies and XML
- * sitemap — it is intentionally not in the footer.
+ * sitemap, it is intentionally not in the footer.
  */
 export type FooterLink = { href: string; name: string };
 
@@ -43,7 +43,7 @@ export const FOOTER_FINE_PRINT_LINKS: readonly FooterLink[] = [
 type JsonLd = Record<string, unknown>;
 
 /**
- * `ItemList` mirroring the visible footer's primary pages — linked from
+ * `ItemList` mirroring the visible footer's primary pages, linked from
  * `WebSite.hasPart` for crawlers and answer engines. Order matches the
  * visible DOM order for `SpeakableSpecification`/AEO consistency.
  */
@@ -53,7 +53,7 @@ export function getFooterNavigationItemListSchema(): JsonLd {
   return {
     "@type": "ItemList",
     "@id": schemaIds.footerNavigation,
-    name: "Neothink Institute — primary pages (footer)",
+    name: "Neothink Institute, primary pages (footer)",
     description:
       "Primary destinations on neothink.com: the Unified Field, Neovia, The Way, Neothink, Mark Hamilton, Prime Law, Published Work, Manuscripts, Unleashed, Podcast, and Get Involved.",
     numberOfItems: FOOTER_PRIMARY_LINKS.length,

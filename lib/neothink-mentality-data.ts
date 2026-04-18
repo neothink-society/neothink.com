@@ -1,5 +1,5 @@
 /**
- * Neothink Mentality public video series — lesson order and paths match WordPress.
+ * Neothink Mentality public video series: lesson order and paths match WordPress.
  * @see migration/source/neothink-mentality.html
  */
 export const NEOTHINK_MENTALITY_LESSONS = [
@@ -48,7 +48,7 @@ export const NEOTHINK_MENTALITY_LESSONS = [
   {
     path: "/soaring-productivity",
     title: "Soaring productivity",
-    description: "Assembly-line scheduling by physical movement type—calls, writing, meetings—for 8× output framing.",
+    description: "Assembly-line scheduling by physical movement type (calls, writing, meetings) for 8× output framing.",
   },
   {
     path: "/cure-to-aging",
@@ -59,7 +59,7 @@ export const NEOTHINK_MENTALITY_LESSONS = [
     path: "/soar-beyond-peers",
     title: "Soar beyond peers",
     description:
-      "Grand visions into projects and physical tasks—23 in a week on the assembly line, essence, 10-second miracles.",
+      "Grand visions into projects and physical tasks: 23 in a week on the assembly line, essence, 10-second miracles.",
   },
   {
     path: "/money-love-affair",
@@ -78,7 +78,7 @@ export const NEOTHINK_MENTALITY_LESSONS = [
   },
 ] as const;
 
-/** Four phases — copy aligned with institute voice; no emoji. */
+/** Four phases: copy aligned with institute voice; no emoji. */
 export const NEOTHINK_MENTALITY_PHASES = [
   {
     title: "Awaken",
@@ -102,7 +102,7 @@ export const NEOTHINK_MENTALITY_PHASES = [
   },
 ] as const;
 
-/** FAQ — short answers for page + JSON-LD (no hype stats). */
+/** FAQ: short answers for page + JSON-LD (no hype stats). */
 export const NEOTHINK_MENTALITY_FAQ = [
   {
     question: "What is the Neothink Mentality?",

@@ -1,5 +1,5 @@
 /**
- * Neothink Mentality lesson 2 — Freedom from Rights (WordPress post id 4563).
+ * Neothink Mentality lesson 2: Freedom from Rights (WordPress post id 4563).
  * @see migration/source/freedom-from-rights.html
  */
 export const FREEDOM_FROM_RIGHTS_LESSON = {
@@ -16,10 +16,10 @@ export const FREEDOM_FROM_RIGHTS_LESSON = {
 } as const;
 
 export const FREEDOM_FROM_RIGHTS_TAKEAWAYS = [
-  "Lesson 1 trains integrated thinking at work; this lesson trains the same Neothink mentality on civic illusion—business, politics, media, and law.",
-  "The Bill of Rights is widely celebrated, yet Hamilton argues it stopped one integration short: it entrenched the habit of adding “rights” to law—each layer enforced, often with initiatory force.",
+  "Lesson 1 trains integrated thinking at work; this lesson trains the same Neothink mentality on civic illusion: business, politics, media, and law.",
+  "The Bill of Rights is widely celebrated, yet Hamilton argues it stopped one integration short: it entrenched the habit of adding “rights” to law, each layer enforced, often with initiatory force.",
   "Examples such as DEI- and ESG-style mandates illustrate how good-sounding “rights” can shrink real freedom when compliance is compelled.",
-  "The alternative is not more stacked “positives” but removing the negative—initiatory force—through one Prime Law, as Hamilton recites in the video.",
+  "The alternative is not more stacked “positives” but removing the negative (initiatory force) through one Prime Law, as Hamilton recites in the video.",
 ] as const;
 
 export const FREEDOM_FROM_RIGHTS_ADDING_RIGHTS = [
@@ -33,7 +33,7 @@ export const FREEDOM_FROM_RIGHTS_ADDING_RIGHTS = [
 
 export const FREEDOM_FROM_RIGHTS_REMOVING_FORCE = [
   "Removes the harmful pattern at the root",
-  "No exceptions clause—harder to game selectively",
+  "No exceptions clause: harder to game selectively",
   "Leaves room for voluntary coordination among individuals",
   "Prevents a permanent power class above the citizenry",
   "Anchors law in protection rather than rule-by-discretion",
@@ -63,7 +63,7 @@ export const FREEDOM_FROM_RIGHTS_SEE_THROUGH_STEPS = [
   },
 ] as const;
 
-/** Prime Law — wording aligned with Institute materials. */
+/** Prime Law: wording aligned with Institute materials. */
 export const FREEDOM_FROM_RIGHTS_PRIME_LAW = {
   preamble:
     "The purpose of life is to prosper and live happily. The function of government is to provide the conditions that let individuals fulfill that purpose. The Prime Law guarantees those conditions by forbidding the use of initiatory force, fraud, or coercion by any person or group against any individual, property, or contract.",
@@ -92,12 +92,12 @@ export const FREEDOM_FROM_RIGHTS_FAQ = [
   {
     question: "How would society function without government force?",
     answer:
-      "The Prime Law does not eliminate protective force. It rules out initiatory force—force used first to compel. Defensive force against criminals, fraud, and external aggression remains justified under Article 2. Government’s role narrows to protection, not open-ended compulsion.",
+      "The Prime Law does not eliminate protective force. It rules out initiatory force: force used first to compel. Defensive force against criminals, fraud, and external aggression remains justified under Article 2. Government’s role narrows to protection, not open-ended compulsion.",
   },
   {
     question: "What about taxes? How would government be funded?",
     answer:
-      "Taxation collected through compulsion is initiatory force under this framework and would not stand. Services would need voluntary funding models. Hamilton’s longer work explores how protection and infrastructure can be financed without forced extraction—and the prosperity effects of keeping wealth in creators’ hands.",
+      "Taxation collected through compulsion is initiatory force under this framework and would not stand. Services would need voluntary funding models. Hamilton’s longer work explores how protection and infrastructure can be financed without forced extraction, and the prosperity effects of keeping wealth in creators’ hands.",
   },
   {
     question: "Is the Prime Law realistic as a 28th Amendment?",

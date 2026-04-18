@@ -14,7 +14,7 @@ export const EVENTS_WP = {
 
 export const EVENTS_HERO_IMAGE = {
   src: "/images/wp/2024/09/evnt1.png",
-  alt: "Neothink Society events — gatherings focused on growth and integrated thinking",
+  alt: "Neothink Society events, gatherings focused on growth and integrated thinking",
   width: 1000,
   height: 667,
 } as const;
@@ -95,7 +95,7 @@ export const EVENTS_RESOURCES: readonly { title: string; body: string; href: str
   },
   {
     title: "Published work",
-    body: "Read essays and briefings from the Institute—practical ideas and civilizational context in the public voice.",
+    body: "Read essays and briefings from the Institute: practical ideas and civilizational context in the public voice.",
     href: "/published-work",
     cta: "Published Work",
   },

@@ -17,7 +17,7 @@ export const LIVE_LONGER_FAQ = [
   {
     question: "What is the difference between the mortal and immortal mentality?",
     answer:
-      "The mortal mentality is built on value production — routine work that eventually leads to stagnation and a rut. The immortal mentality is built on value creation — the exhilaration of always moving forward into something new. Hamilton argues that value creation is the essence of human beings and the necessary foundation for eternal life.",
+      "The mortal mentality is built on value production, routine work that eventually leads to stagnation and a rut. The immortal mentality is built on value creation, the exhilaration of always moving forward into something new. Hamilton argues that value creation is the essence of human beings and the necessary foundation for eternal life.",
   },
   {
     question: "What is the division of essence?",
@@ -27,6 +27,6 @@ export const LIVE_LONGER_FAQ = [
   {
     question: "Why does Hamilton say Immortalis is different from other special economic zone projects?",
     answer:
-      "Hamilton emphasizes that competitors building special economic zones are doing it for money. Immortalis is doing it for humanitarian purposes — to save lives and cure aging and death. Hamilton calls it our responsibility to prevent human consciousness from perishing.",
+      "Hamilton emphasizes that competitors building special economic zones are doing it for money. Immortalis is doing it for humanitarian purposes, to save lives and cure aging and death. Hamilton calls it our responsibility to prevent human consciousness from perishing.",
   },
 ] as const;

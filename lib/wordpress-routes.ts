@@ -33,9 +33,9 @@ export const WP = {
   events: "/events",
   /** Society programs overview hub (WordPress slug `programs`). */
   programs: "/programs",
-  /** Project Life — longevity / health program family (WordPress slug `project-life`). */
+  /** Project Life, longevity / health program family (WordPress slug `project-life`). */
   projectLife: "/project-life",
-  /** Twelve Visions Party — political movement page (WordPress slug `twelve-visions-party`). */
+  /** Twelve Visions Party, political movement page (WordPress slug `twelve-visions-party`). */
   twelveVisionsParty: "/twelve-visions-party",
   /** Public orientation page for the civilizational framework (WordPress slug `the-movement`). */
   theMovement: "/the-movement",
@@ -76,7 +76,7 @@ export const WP = {
   privacyPolicy: "/privacy-policy",
   /** Terms and conditions (WP page slug `terms-and-conditions`). */
   termsAndConditions: "/terms-and-conditions",
-  /** Manuscripts hub — use the same slug WordPress uses for this section. */
+  /** Manuscripts hub, use the same slug WordPress uses for this section. */
   manuscripts: "/manuscripts",
   getInvolved: "/get-involved",
   /** Introductory Neothink Society courses (complimentary on-ramp). */
@@ -139,15 +139,15 @@ export const WP = {
   /** Neothink Awakening: guilt-based manipulation (WP post `youre-being-manipulated-they-use-guilt-to-control-you`). */
   yourBeingManipulatedGuiltToControlYou: "/youre-being-manipulated-they-use-guilt-to-control-you",
   /**
-   * Neothink Philosophy — category hub (WordPress category `neothink-philosophy`, id 81).
+   * Neothink Philosophy, category hub (WordPress category `neothink-philosophy`, id 81).
    * Lists all series posts; links to Next routes where migrated, else canonical post permalinks.
    */
   neothinkPhilosophyCategory: "/category/neothink-philosophy",
-  /** Neothink Awakening — category hub (WordPress category `neothink-awakening`, id 80). */
+  /** Neothink Awakening, category hub (WordPress category `neothink-awakening`, id 80). */
   neothinkAwakeningCategory: "/category/neothink-awakening",
-  /** Neothink Concepts — category hub (WordPress category `neothink-concepts`, id 84). */
+  /** Neothink Concepts, category hub (WordPress category `neothink-concepts`, id 84). */
   neothinkConceptsCategory: "/category/neothink-concepts",
-  /** Neothink Mentality — category hub (WordPress category `neothink-mentality`, id 39). */
+  /** Neothink Mentality, category hub (WordPress category `neothink-mentality`, id 39). */
   neothinkMentalityCategory: "/category/neothink-mentality",
   /** Neothink Philosophy long-form: Mark Hamilton’s story / following mode (WP post `mark-hamiltons-story`). */
   markHamiltonsStory: "/mark-hamiltons-story",

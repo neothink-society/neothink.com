@@ -1,5 +1,5 @@
 /**
- * FAQ for Twelve Visions / Neothink truth article — must match FAQPage JSON-LD.
+ * FAQ for Twelve Visions / Neothink truth article, must match FAQPage JSON-LD.
  */
 
 export const NTV_TRUTH_FAQ = [

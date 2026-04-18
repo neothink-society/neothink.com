@@ -11,7 +11,7 @@ export const SHFD_PATH = "/separating-heroes-from-dreamers" as const;
 
 export const SHFD_IMAGE: AwakeningArticleImage = {
   src: "https://neothink.com/opengraph-image",
-  alt: "Neothink Institute — The Intellectual Foundation for the Next Stage of Human Civilization",
+  alt: "Neothink Institute, The Intellectual Foundation for the Next Stage of Human Civilization",
   width: 1200,
   height: 630,
 };
@@ -30,7 +30,7 @@ export const SHFD_YOUTUBE_ID = "31iiAH3YVNY" as const;
 export const SHFD_MIN_READ = "18 min read" as const;
 
 export const SHFD_INTRO_PARAS: readonly string[] = [
-  "What if there were a switch inside that could be turned on to light up your future with money, power, and love? Mark Hamilton reveals that switch — the Impact Moment, the first time your creativity makes a measurable difference in the world around you. He traces the process through his own origin story, through Charles Nash’s rise from factory floor to president of General Motors, through Jack London’s climb from cannery dropout to highest-paid author of his era, and through a 15-year-old dishwasher who saved a struggling restaurant with one observation about a parking lot.",
+  "What if there were a switch inside that could be turned on to light up your future with money, power, and love? Mark Hamilton reveals that switch, the Impact Moment, the first time your creativity makes a measurable difference in the world around you. He traces the process through his own origin story, through Charles Nash’s rise from factory floor to president of General Motors, through Jack London’s climb from cannery dropout to highest-paid author of his era, and through a 15-year-old dishwasher who saved a struggling restaurant with one observation about a parking lot.",
 ];
 
 export const SHFD_QUICK_ANSWER_KICKER = "Quick answer" as const;
@@ -38,4 +38,4 @@ export const SHFD_QUICK_ANSWER_TITLE = "What Is the Impact Moment?" as const;
 export const SHFD_QUICK_ANSWER_LEAD_STRONG: string | undefined = undefined;
 
 /** Prose body of the quick answer (first paragraph from WP). Edit by hand to add inline Links. */
-export const SHFD_QUICK_ANSWER_REST = "The Impact Moment is the first time your creativity produces a measurable positive change in the world around you. It is not a feeling. It is not motivation. It is a concrete event: you improved something, and the improvement can be measured — more customers, lower costs, better efficiency, a published piece of writing, a problem solved." as const;
+export const SHFD_QUICK_ANSWER_REST = "The Impact Moment is the first time your creativity produces a measurable positive change in the world around you. It is not a feeling. It is not motivation. It is a concrete event: you improved something, and the improvement can be measured, more customers, lower costs, better efficiency, a published piece of writing, a problem solved." as const;

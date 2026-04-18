@@ -96,7 +96,7 @@ export const INSL_SECTIONS: readonly InslSection[] = [
     id: "what-to-expect-from-the-neothink-society",
     title: "What to Expect from the Neothink Society",
     paragraphs: [
-      "When you join the Neothink Society, you can expect a variety of tools and resources designed to help you grow. These include educational materials, live coaching sessions, and a supportive community of like-minded individuals. This is not about handing you success on a silver platter—it is about equipping you with the tools and mindset you need to create success for yourself.",
+      "When you join the Neothink Society, you can expect a variety of tools and resources designed to help you grow. These include educational materials, live coaching sessions, and a supportive community of like-minded individuals. This is not about handing you success on a silver platter: it is about equipping you with the tools and mindset you need to create success for yourself.",
       "As you progress through the programs, you will learn how to think critically, set achievable goals, and take actionable steps to improve your life.",
     ],
   },

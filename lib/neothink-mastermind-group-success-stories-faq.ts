@@ -17,7 +17,7 @@ export const NMGS_FAQ = [
   {
     question: "Is the mastermind only for entrepreneurs?",
     answer:
-      "The article frames it for anyone pursuing growth—business, career, or relationships—who wants structured support and collaboration.",
+      "The article frames it for anyone pursuing growth: business, career, or relationships: who wants structured support and collaboration.",
   },
   {
     question: "How do I join?",

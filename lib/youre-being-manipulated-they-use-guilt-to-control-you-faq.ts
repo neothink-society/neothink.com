@@ -12,7 +12,7 @@ export const YBMG_FAQ = [
   {
     question: "What is the difference between healthy guilt and manipulative guilt?",
     answer:
-      "Healthy guilt results from your own actions that you recognize as wrong—it’s honest self-assessment that leads to growth. Manipulative guilt is imposed externally for things you didn’t do or can’t control, designed to make you compliant rather than help you improve.",
+      "Healthy guilt results from your own actions that you recognize as wrong: it’s honest self-assessment that leads to growth. Manipulative guilt is imposed externally for things you didn’t do or can’t control, designed to make you compliant rather than help you improve.",
   },
   {
     question: "Why do innocent people accept guilt so easily?",
@@ -37,6 +37,6 @@ export const YBMG_FAQ = [
   {
     question: "Why does Hamilton say life is “unbearably short”?",
     answer:
-      "Human consciousness is the most valuable thing in the known universe, yet we lose conscious beings in just 70-80 years. This perspective justifies the rightness of happiness—why waste your brief existence carrying imposed guilt?",
+      "Human consciousness is the most valuable thing in the known universe, yet we lose conscious beings in just 70-80 years. This perspective justifies the rightness of happiness: why waste your brief existence carrying imposed guilt?",
   },
 ] as const;

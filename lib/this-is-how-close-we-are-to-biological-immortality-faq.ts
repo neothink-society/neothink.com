@@ -12,17 +12,17 @@ export const HCBI_FAQ = [
   {
     question: "What is biological immortality?",
     answer:
-      "Biological immortality (also called longevity escape velocity) is the point where medical technology advances fast enough that for every year you live, science can extend your life by one year or more—effectively eliminating aging as a cause of death.",
+      "Biological immortality (also called longevity escape velocity) is the point where medical technology advances fast enough that for every year you live, science can extend your life by one year or more: effectively eliminating aging as a cause of death.",
   },
   {
     question: "Why don’t most people want to live forever?",
     answer:
-      "Most people are stuck in “following mode”—living stagnant lives with only occasional moments of happiness. Like static between songs on a vinyl record, stagnation makes life feel like a burden rather than a gift. Only those in “creative mode” experience the continuous exhilaration that makes eternal life desirable.",
+      "Most people are stuck in “following mode”: living stagnant lives with only occasional moments of happiness. Like static between songs on a vinyl record, stagnation makes life feel like a burden rather than a gift. Only those in “creative mode” experience the continuous exhilaration that makes eternal life desirable.",
   },
   {
     question: "What is the Prime Law?",
     answer:
-      "The Prime Law is a constitutional principle that banishes all initiatory force from government and civilization. It states that no person or group may initiate force against another—only self-defense force is permitted. This natural law of protection enables the conditions for true progress.",
+      "The Prime Law is a constitutional principle that banishes all initiatory force from government and civilization. It states that no person or group may initiate force against another: only self-defense force is permitted. This natural law of protection enables the conditions for true progress.",
   },
   {
     question: "How do regulations suppress medical progress?",
@@ -32,7 +32,7 @@ export const HCBI_FAQ = [
   {
     question: "What is the Great Technological Revolution?",
     answer:
-      "The Great Technological Revolution is what happens when geniuses are freed from regulatory suppression. Values soar toward infinity while costs are driven toward zero—enabling everyone to live like multimillionaires. Computing provides a small example: room-sized mainframes are now pocket calculators.",
+      "The Great Technological Revolution is what happens when geniuses are freed from regulatory suppression. Values soar toward infinity while costs are driven toward zero: enabling everyone to live like multimillionaires. Computing provides a small example: room-sized mainframes are now pocket calculators.",
   },
   {
     question: "How close are we to curing aging?",

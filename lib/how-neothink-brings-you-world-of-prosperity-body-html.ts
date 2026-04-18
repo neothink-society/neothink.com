@@ -8,7 +8,7 @@ export const HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_BODY_HTML = `<div class
 									
 <div style="background: linear-gradient(135deg, rgba(212, 175, 55, 0.08) 0%, rgba(139, 115, 85, 0.08) 100%); border: 1px solid rgba(212, 175, 55, 0.2); padding: 36px; margin: 32px 0; border-radius: 0;">
     <h3 style="color:#7A6528; font-size: 24px; font-weight: 600; margin: 0 0 16px 0; font-family: 'Libre Baskerville', serif;">Key Takeaways</h3>
-    <p style="font-size: 18px; line-height: 1.8; color: #2C2C2C; margin: 0;">For 45 years, Neothink has been a private invite-only society helping millions break free from the following mode. Now, Mark Hamilton is going public to reach entire civilizations. The Prime Law removes initiatory force from government, replacing corrupt political systems with honest market business—unleashing prosperity that will rise thousands of times.</p>
+    <p style="font-size: 18px; line-height: 1.8; color: #2C2C2C; margin: 0;">For 45 years, Neothink has been a private invite-only society helping millions break free from the following mode. Now, Mark Hamilton is going public to reach entire civilizations. The Prime Law removes initiatory force from government, replacing corrupt political systems with honest market business: unleashing prosperity that will rise thousands of times.</p>
 </div>
 								</div>
 				</div>
@@ -19,7 +19,7 @@ export const HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_BODY_HTML = `<div class
 				<div class="elementor-element elementor-element-f1a39c28 elementor-widget elementor-widget-text-editor" data-id="f1a39c28" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 									
-<p>The weakness that plagues both individuals and civilization is the <strong>following mode</strong>. It begins in infancy—when we wake to consciousness, we don&#8217;t think for ourselves. We mimic. We follow our parents, siblings, and the world around us.</p>
+<p>The weakness that plagues both individuals and civilization is the <strong>following mode</strong>. It begins in infancy: when we wake to consciousness, we don&#8217;t think for ourselves. We mimic. We follow our parents, siblings, and the world around us.</p>
 <p>This mimicry establishes a following mode that most people never escape. We remain followers throughout our lives, vulnerable to external authorities who are happy to control us.</p>
 								</div>
 				</div>
@@ -27,8 +27,8 @@ export const HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_BODY_HTML = `<div class
 				<div class="elementor-widget-container">
 									
 <div style="background: #FFF8E7; border-left: 4px solid #D4AF37; padding: 28px 32px; margin: 32px 0; border-radius: 0;">
-    <p style="font-size: 20px; line-height: 1.7; color: #2C2C2C; margin: 0 0 16px 0; font-style: italic;">&#8220;All of Neothink is based on one common denominator: removing the weakness in the human race—the following mode.&#8221;</p>
-    <p style="font-size: 14px; color:#7A6528; margin: 0; font-weight: 600;">— Mark Hamilton</p>
+    <p style="font-size: 20px; line-height: 1.7; color: #2C2C2C; margin: 0 0 16px 0; font-style: italic;">&#8220;All of Neothink is based on one common denominator: removing the weakness in the human race: the following mode.&#8221;</p>
+    <p style="font-size: 14px; color:#7A6528; margin: 0; font-weight: 600;">Mark Hamilton</p>
 </div>
 								</div>
 				</div>
@@ -45,7 +45,7 @@ export const HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_BODY_HTML = `<div class
 				<div class="elementor-element elementor-element-da171879 elementor-widget elementor-widget-text-editor" data-id="da171879" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 									
-<p>For 45 years, Mark Hamilton searched the world for <em>searchers</em>—people most responsive to Neothink. He found millions of them across 140 countries in 12 languages. The Neothink Society has always been private, invite-only.</p>
+<p>For 45 years, Mark Hamilton searched the world for <em>searchers</em>, people most responsive to Neothink. He found millions of them across 140 countries in 12 languages. The Neothink Society has always been private, invite-only.</p>
 <p>But now, Hamilton realizes the mission must expand:</p>
 								</div>
 				</div>
@@ -63,7 +63,7 @@ export const HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_BODY_HTML = `<div class
 				<div class="elementor-element elementor-element-47521e76 elementor-widget elementor-widget-text-editor" data-id="47521e76" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 									
-<p>When civilization is trapped in the following mode, the educated elite—corrupt politicians and regulatory bureaucrats—move in and take control. They rule your life, not for your benefit, but for their own power.</p>
+<p>When civilization is trapped in the following mode, the educated elite: corrupt politicians and regulatory bureaucrats: move in and take control. They rule your life, not for your benefit, but for their own power.</p>
 								</div>
 				</div>
 				<div class="elementor-element elementor-element-f0802af4 elementor-widget elementor-widget-heading" data-id="f0802af4" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
@@ -90,7 +90,7 @@ export const HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_BODY_HTML = `<div class
 									
 <p>Once you remove initiatory force, political systems collapse by definition. What replaces them?</p>
 <p><strong>Business systems.</strong></p>
-<p>Not just any business—<em>honest market business</em>, driven by heroes who provide greater and greater values at cheaper and cheaper costs. In a world free of initiatory force, dishonesty gets you ostracized. You cannot exist without deep honesty.</p>
+<p>Not just any business, <em>honest market business</em>, driven by heroes who provide greater and greater values at cheaper and cheaper costs. In a world free of initiatory force, dishonesty gets you ostracized. You cannot exist without deep honesty.</p>
 								</div>
 				</div>
 				<div class="elementor-element elementor-element-cf9e97cf elementor-widget elementor-widget-text-editor" data-id="cf9e97cf" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
@@ -132,7 +132,7 @@ export const HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_BODY_HTML = `<div class
 				<div class="elementor-element elementor-element-371d1a76 elementor-widget elementor-widget-text-editor" data-id="371d1a76" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 									
-<p>These aren&#8217;t anomalies. They&#8217;re glimpses of what happens when market business operates freely—prosperity rises <em>thousands of times</em>.</p>
+<p>These aren&#8217;t anomalies. They&#8217;re glimpses of what happens when market business operates freely: prosperity rises <em>thousands of times</em>.</p>
 								</div>
 				</div>
 				<div class="elementor-element elementor-element-968cf847 elementor-widget elementor-widget-text-editor" data-id="968cf847" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
@@ -140,7 +140,7 @@ export const HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_BODY_HTML = `<div class
 									
 <div style="background: #FFF8E7; border-left: 4px solid #D4AF37; padding: 28px 32px; margin: 32px 0; border-radius: 0;">
     <p style="font-size: 20px; line-height: 1.7; color: #2C2C2C; margin: 0 0 16px 0; font-style: italic;">&#8220;Your prosperity is going to rise thousands of times, as demonstrated in the days of Henry Ford and recently in the computer revolution. And look out with AI, my friends. Great days are coming.&#8221;</p>
-    <p style="font-size: 14px; color:#7A6528; margin: 0; font-weight: 600;">— Mark Hamilton</p>
+    <p style="font-size: 14px; color:#7A6528; margin: 0; font-weight: 600;">Mark Hamilton</p>
 </div>
 								</div>
 				</div>
@@ -152,7 +152,7 @@ export const HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_BODY_HTML = `<div class
 				<div class="elementor-widget-container">
 									
 <p>Mark Hamilton is no longer keeping Neothink private. The time has come to reach entire civilizations, not just individuals.</p>
-<p>For 45 years, millions of people have had access to Neothink—but only because Hamilton invited them. Now, he&#8217;s opening the doors.</p>
+<p>For 45 years, millions of people have had access to Neothink: but only because Hamilton invited them. Now, he&#8217;s opening the doors.</p>
 <p>If you want to learn more, you can read the Neothink books or subscribe to Hamilton&#8217;s free newsletter at <a href="https://neothink.com" style="color: #8B7355; font-weight: 600;">neothink.com</a>.</p>
 								</div>
 				</div>

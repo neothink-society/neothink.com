@@ -38,7 +38,7 @@ export const NMGS_SECTIONS: readonly NmgsSection[] = [
     id: "what-is-the-neothink-mastermind",
     title: "What is the Neothink Mastermind?",
     paragraphs: [
-      "The Neothink mastermind is more than just a group—it’s a transformative experience that brings together individuals who share a passion for personal growth and success. It’s a space where like-minded people come together to exchange ideas, challenge each other, and collaborate to achieve their goals.",
+      "The Neothink mastermind is more than just a group: it’s a transformative experience that brings together individuals who share a passion for personal growth and success. It’s a space where like-minded people come together to exchange ideas, challenge each other, and collaborate to achieve their goals.",
       "[[aboutSociety|Mark Hamilton]], the founder of The Neothink Society, created this mastermind group to provide members with a unique platform for growth. The goal is simple: to help individuals unlock their full potential and lead lives filled with passion, purpose, and prosperity. The group leverages the principles of Neothink, which focus on innovative thinking, creative problem solving, and breaking free from societal limitations.",
       "In the Neothink mastermind, each participant is encouraged to think outside the box and approach challenges from a fresh perspective. This collaborative environment fosters a sense of community–where members support one another in their endeavors and celebrate each other’s victories. It’s about creating an ecosystem where success is not only possible but inevitable for those who are willing to take action.",
     ],
@@ -63,7 +63,7 @@ export const NMGS_SECTIONS: readonly NmgsSection[] = [
     id: "learning-from-others",
     title: "Learning from Others",
     paragraphs: [
-      "The Neothink mastermind group is not about competition—it’s about learning and growing together. Each member brings a unique skill set, knowledge base, and experience to the table. This diversity enriches the mastermind experience and allows everyone to learn from others’ successes and failures.",
+      "The Neothink mastermind group is not about competition: it’s about learning and growing together. Each member brings a unique skill set, knowledge base, and experience to the table. This diversity enriches the mastermind experience and allows everyone to learn from others’ successes and failures.",
       "You gain valuable insights that can help you avoid common pitfalls and take smarter actions by listening to others’ stories, receiving constructive feedback, and engaging in discussions. It’s a safe space to explore new ideas and gain the confidence needed to step outside your comfort zone.",
     ],
   },

@@ -36,7 +36,7 @@ type WebPageJsonLdInput = {
   pageType?: PageSchemaType;
   datePublished?: string;
   dateModified?: string;
-  /** `about` — topic or creative work `@id` */
+  /** `about`, topic or creative work `@id` */
   aboutId?: string;
   authorId?: string;
   /** Primary entity for this URL (e.g. Person profile page → `#founder`) */
@@ -62,7 +62,7 @@ export function defaultOpenGraphImageUrl(): string {
 export const SPEAKABLE_MAIN_H1 = ["main#main-content h1"] as const;
 
 /**
- * WebPage and specialized page types — aligned with global `@graph` (publisher, isPartOf, stable `@id`).
+ * WebPage and specialized page types, aligned with global `@graph` (publisher, isPartOf, stable `@id`).
  * Omits `datePublished` / `dateModified` unless provided (avoids fake dates on evergreen pages).
  */
 export function webPageJsonLd(opts: WebPageJsonLdInput): Record<string, unknown> {
@@ -158,7 +158,7 @@ export function itemListJsonLd(
 }
 
 /**
- * ItemList of named entities with descriptions (no per-item URL) — e.g. program pillars on a hub page.
+ * ItemList of named entities with descriptions (no per-item URL), e.g. program pillars on a hub page.
  * Helps search and answer engines recover structured lists that are not separate routes.
  */
 export function itemListEntitiesJsonLd(opts: {

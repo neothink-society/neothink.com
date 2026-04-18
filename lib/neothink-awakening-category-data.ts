@@ -1,5 +1,5 @@
 /**
- * Neothink Awakening — WordPress category `neothink-awakening` (id 80).
+ * Neothink Awakening, WordPress category `neothink-awakening` (id 80).
  * Listing matches WP post order (newest first); refresh when the category changes.
  *
  * @see https://neothink.com/wp-json/wp/v2/posts?categories=80
@@ -13,10 +13,10 @@ export const NEOTHINK_AWAKENING_CATEGORY_TITLE = "Neothink Awakening" as const;
 
 /** Derived from WordPress category description; trimmed of off-site signup CTA for this domain. */
 export const NEOTHINK_AWAKENING_CATEGORY_INTRO =
-  "The Neothink Awakening is a global movement founded on Mark Hamilton's decades of research into human potential. What began as a private community of self-leaders is now open to the public—bringing practical tools for dismantling limiting beliefs and building a value-driven life. Through the Neothink philosophy, thousands have transformed their mindset, unlocked creativity, and achieved personal freedom. Explore teachings, strategies, and insights from Mark Hamilton on Neothink Institute." as const;
+  "The Neothink Awakening is a global movement founded on Mark Hamilton's decades of research into human potential. What began as a private community of self-leaders is now open to the public: bringing practical tools for dismantling limiting beliefs and building a value-driven life. Through the Neothink philosophy, thousands have transformed their mindset, unlocked creativity, and achieved personal freedom. Explore teachings, strategies, and insights from Mark Hamilton on Neothink Institute." as const;
 
 export const NEOTHINK_AWAKENING_CATEGORY_SEO_DESCRIPTION =
-  "Neothink Awakening series: Mark Hamilton articles on mindset, freedom, wealth, leadership, and civilization—full list with native reading on neothink.com where articles are migrated." as const;
+  "Neothink Awakening series: Mark Hamilton articles on mindset, freedom, wealth, leadership, and civilization: full list with native reading on neothink.com where articles are migrated." as const;
 
 /**
  * Awakening slugs whose WordPress URL 301-redirects to an existing on-site

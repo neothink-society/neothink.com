@@ -1,5 +1,5 @@
 /**
- * FAQ — visible copy must match FAQPage JSON-LD.
+ * FAQ, visible copy must match FAQPage JSON-LD.
  */
 
 export const WPGU_FAQ = [
@@ -11,7 +11,7 @@ export const WPGU_FAQ = [
   {
     question: "Is Neothink University the same as the Institute’s free public courses?",
     answer:
-      "No. On this site, Neothink University is the paid Society education hub; free public learning is separate—see Free courses and About for the split.",
+      "No. On this site, Neothink University is the paid Society education hub; free public learning is separate: see Free courses and About for the split.",
   },
   {
     question: "Are course names like “Passion Development Course” guaranteed to match live catalog names?",

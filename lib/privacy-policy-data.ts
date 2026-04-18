@@ -1,5 +1,5 @@
 /**
- * Privacy Policy content — sourced verbatim from the WordPress original
+ * Privacy Policy content, sourced verbatim from the WordPress original
  * (https://neothink.com/privacy-policy/, last updated 2026-02-02).
  *
  * Keep the legal copy source-faithful. When the live policy changes, update

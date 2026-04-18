@@ -87,7 +87,7 @@ function patchSlug(appSlug) {
 
   const videoBlock = `const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: \`\${${metaTitleConst}} — video | Neothink Institute\`,
+  name: \`\${${metaTitleConst}}, video | Neothink Institute\`,
   description: DESCRIPTION,
   embedUrl: \`https://www.youtube.com/embed/\${${youtubeConst}}\`,
   thumbnailUrl: \`https://i.ytimg.com/vi/\${${youtubeConst}}/maxresdefault.jpg\`,

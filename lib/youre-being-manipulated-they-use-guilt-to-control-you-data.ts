@@ -11,7 +11,7 @@ export const YBMG_PATH = "/youre-being-manipulated-they-use-guilt-to-control-you
 
 export const YBMG_IMAGE: AwakeningArticleImage = {
   src: "/images/wp/2026/01/Youre-Being-Manipulated-They-use-Guilt-to-Control-You.jpg",
-  alt: "You’re Being Manipulated! They Use Guilt to Control You! — Neothink Awakening article",
+  alt: "You’re Being Manipulated! They Use Guilt to Control You!, Neothink Awakening article",
   width: 1280,
   height: 720,
 };
@@ -30,7 +30,7 @@ export const YBMG_YOUTUBE_ID = "sC4GxlkV7QM" as const;
 export const YBMG_MIN_READ = "12 min read" as const;
 
 export const YBMG_INTRO_PARAS: readonly string[] = [
-  "Mark Hamilton reveals how guilt is weaponized by those in power to control innocent people—and how you can break free. This isn’t about healthy self-assessment; it’s about the deliberate psychological manipulation that keeps value creators compliant and controllable.",
+  "Mark Hamilton reveals how guilt is weaponized by those in power to control innocent people: and how you can break free. This isn’t about healthy self-assessment; it’s about the deliberate psychological manipulation that keeps value creators compliant and controllable.",
 ];
 
 export const YBMG_QUICK_ANSWER_KICKER = "Quick answer" as const;
@@ -38,4 +38,4 @@ export const YBMG_QUICK_ANSWER_TITLE = "How Is Guilt Used to Control You?" as co
 export const YBMG_QUICK_ANSWER_LEAD_STRONG = "Guilt is a psychological weapon" as const;
 
 /** Prose body of the quick answer (first paragraph from WP). Edit by hand to add inline Links. */
-export const YBMG_QUICK_ANSWER_REST = "used by those in power to control you. Unlike physical force, guilt hijacks your natural desire to be good—making you comply with agendas that often harm your own interests. The antidote is pride built through genuine value creation, which makes you immune to external manipulation." as const;
+export const YBMG_QUICK_ANSWER_REST = "used by those in power to control you. Unlike physical force, guilt hijacks your natural desire to be good: making you comply with agendas that often harm your own interests. The antidote is pride built through genuine value creation, which makes you immune to external manipulation." as const;

@@ -2,7 +2,7 @@ export const HOW_EVERY_INDIVIDUAL_CAN_BE_WEALTHY_FAQ = [
   {
     question: "What is the Prime Law?",
     answer:
-      "The Prime Law is a constitution that removes all initiatory force from society. It eliminates the initiation of force or threat of force while preserving natural law (self-defense force). Under the Prime Law, everything becomes mutual value exchange—no one can use force to take from or control another person.",
+      "The Prime Law is a constitution that removes all initiatory force from society. It eliminates the initiation of force or threat of force while preserving natural law (self-defense force). Under the Prime Law, everything becomes mutual value exchange: no one can use force to take from or control another person.",
   },
   {
     question: "What is the following mode?",
@@ -17,7 +17,7 @@ export const HOW_EVERY_INDIVIDUAL_CAN_BE_WEALTHY_FAQ = [
   {
     question: "How does removing the ruling class create wealth?",
     answer:
-      "When the ruling class is removed, the geniuses of society can rise without limits, causing prosperity to soar beyond anything we’ve ever seen. Hamilton gives the example of the PC revolution: before government could interfere, we went from billion-dollar companies having computer power to that same power fitting in our pockets—in just a few years. That’s the rapidity of wealth creation in a world without suppression.",
+      "When the ruling class is removed, the geniuses of society can rise without limits, causing prosperity to soar beyond anything we’ve ever seen. Hamilton gives the example of the PC revolution: before government could interfere, we went from billion-dollar companies having computer power to that same power fitting in our pockets: in just a few years. That’s the rapidity of wealth creation in a world without suppression.",
   },
   {
     question: "What is a network state?",
@@ -27,6 +27,6 @@ export const HOW_EVERY_INDIVIDUAL_CAN_BE_WEALTHY_FAQ = [
   {
     question: "Has removing the ruling class ever been done before?",
     answer:
-      "No. For the past millennia, there has never been a civilization without a ruling class suppressing the civilization beneath it. This has been true across the history of 100 billion people who have walked the Earth. Hamilton’s solution—using the Prime Law to remove all initiatory force—will be the first time this has ever been accomplished.",
+      "No. For the past millennia, there has never been a civilization without a ruling class suppressing the civilization beneath it. This has been true across the history of 100 billion people who have walked the Earth. Hamilton’s solution: using the Prime Law to remove all initiatory force: will be the first time this has ever been accomplished.",
   },
 ] as const;

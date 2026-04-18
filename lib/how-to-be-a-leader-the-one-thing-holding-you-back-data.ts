@@ -11,7 +11,7 @@ export const HBL1TH_PATH = "/how-to-be-a-leader-the-one-thing-holding-you-back" 
 
 export const HBL1TH_IMAGE: AwakeningArticleImage = {
   src: "/images/wp/2026/01/How-to-Be-a-Leader-The-1-Thing-Holding-You-Back.jpg",
-  alt: "How to Be a Leader: The 1 Thing Holding You Back — Neothink Awakening article",
+  alt: "How to Be a Leader: The 1 Thing Holding You Back, Neothink Awakening article",
   width: 1280,
   height: 720,
 };
@@ -30,7 +30,7 @@ export const HBL1TH_YOUTUBE_ID = "X1BaZQXYRY8" as const;
 export const HBL1TH_MIN_READ = "22 min read" as const;
 
 export const HBL1TH_INTRO_PARAS: readonly string[] = [
-  "Mark Hamilton reveals the following mode—the mind disease keeping billions imprisoned without knowing it. Discover why the human mind, despite its unlimited capacity, remains trapped—and how Neothink provides the tools to break free, become a self-leader, and help build a civilization without rulers.",
+  "Mark Hamilton reveals the following mode: the mind disease keeping billions imprisoned without knowing it. Discover why the human mind, despite its unlimited capacity, remains trapped: and how Neothink provides the tools to break free, become a self-leader, and help build a civilization without rulers.",
 ];
 
 export const HBL1TH_QUICK_ANSWER_KICKER = "Quick answer" as const;
@@ -38,4 +38,4 @@ export const HBL1TH_QUICK_ANSWER_TITLE = "What Is the One Thing Holding You Back
 export const HBL1TH_QUICK_ANSWER_LEAD_STRONG = "The following mode" as const;
 
 /** Prose body of the quick answer (first paragraph from WP). Edit by hand to add inline Links. */
-export const HBL1TH_QUICK_ANSWER_REST = "—the mind disease keeping billions imprisoned without knowing it. From infancy, we learned through mimicked reactions: following parents, siblings, the world around us. Most people never leave this conditioned state. Neothink provides the tools to break free, unleash your unlimited human potential, and become a self-leader instead of a follower." as const;
+export const HBL1TH_QUICK_ANSWER_REST = ", the mind disease keeping billions imprisoned without knowing it. From infancy, we learned through mimicked reactions: following parents, siblings, the world around us. Most people never leave this conditioned state. Neothink provides the tools to break free, unleash your unlimited human potential, and become a self-leader instead of a follower." as const;
