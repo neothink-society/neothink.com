@@ -35,6 +35,7 @@ export const metadata = pageMetadata({
   title: `${BREAK_BAD_HABITS_TRANSFORMATION_TIPS_META_TITLE} | Neothink Institute`,
   description: BREAK_BAD_HABITS_TRANSFORMATION_TIPS_DESCRIPTION,
   pathname: PATH,
+  articleOgImage: BREAK_BAD_HABITS_TRANSFORMATION_TIPS_IMAGE,
   ogType: "article",
   article: {
     publishedTime: BREAK_BAD_HABITS_TRANSFORMATION_TIPS_DATES.datePublished,

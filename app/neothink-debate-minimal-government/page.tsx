@@ -35,6 +35,7 @@ export const metadata = pageMetadata({
   title: `${NEOTHINK_DEBATE_MINIMAL_GOVERNMENT_META_TITLE} | Neothink Institute`,
   description: NEOTHINK_DEBATE_MINIMAL_GOVERNMENT_DESCRIPTION,
   pathname: PATH,
+  articleOgImage: NEOTHINK_DEBATE_MINIMAL_GOVERNMENT_IMAGE,
   ogType: "article",
   article: {
     publishedTime: NEOTHINK_DEBATE_MINIMAL_GOVERNMENT_DATES.datePublished,

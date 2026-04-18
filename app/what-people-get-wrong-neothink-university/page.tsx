@@ -36,6 +36,7 @@ export const metadata = pageMetadata({
   title: `${WPGU_HEADLINE} | Neothink Institute`,
   description: DESCRIPTION,
   pathname: PATH,
+  articleOgImage: WPGU_IMAGE,
   ogType: "article",
   article: {
     publishedTime: `${WPGU_DATES.datePublished}T09:51:24.000Z`,

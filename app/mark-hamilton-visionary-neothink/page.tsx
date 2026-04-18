@@ -35,6 +35,7 @@ export const metadata = pageMetadata({
   title: `${MARK_HAMILTON_VISIONARY_NEOTHINK_META_TITLE} | Neothink Institute`,
   description: MARK_HAMILTON_VISIONARY_NEOTHINK_DESCRIPTION,
   pathname: PATH,
+  articleOgImage: MARK_HAMILTON_VISIONARY_NEOTHINK_IMAGE,
   ogType: "article",
   article: {
     publishedTime: MARK_HAMILTON_VISIONARY_NEOTHINK_DATES.datePublished,

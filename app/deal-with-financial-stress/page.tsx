@@ -35,6 +35,7 @@ export const metadata = pageMetadata({
   title: `${DEAL_WITH_FINANCIAL_STRESS_META_TITLE} | Neothink Institute`,
   description: DEAL_WITH_FINANCIAL_STRESS_DESCRIPTION,
   pathname: PATH,
+  articleOgImage: DEAL_WITH_FINANCIAL_STRESS_IMAGE,
   ogType: "article",
   article: {
     publishedTime: DEAL_WITH_FINANCIAL_STRESS_DATES.datePublished,

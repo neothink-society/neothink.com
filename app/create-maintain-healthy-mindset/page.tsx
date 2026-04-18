@@ -35,6 +35,7 @@ export const metadata = pageMetadata({
   title: `${CREATE_MAINTAIN_HEALTHY_MINDSET_META_TITLE} | Neothink Institute`,
   description: CREATE_MAINTAIN_HEALTHY_MINDSET_DESCRIPTION,
   pathname: PATH,
+  articleOgImage: CREATE_MAINTAIN_HEALTHY_MINDSET_IMAGE,
   ogType: "article",
   article: {
     publishedTime: CREATE_MAINTAIN_HEALTHY_MINDSET_DATES.datePublished,

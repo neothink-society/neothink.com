@@ -35,6 +35,7 @@ export const metadata = pageMetadata({
   title: `${HOW_TO_HAVE_FUN_AS_ADULT_META_TITLE} | Neothink Institute`,
   description: HOW_TO_HAVE_FUN_AS_ADULT_DESCRIPTION,
   pathname: PATH,
+  articleOgImage: HOW_TO_HAVE_FUN_AS_ADULT_IMAGE,
   ogType: "article",
   article: {
     publishedTime: HOW_TO_HAVE_FUN_AS_ADULT_DATES.datePublished,

@@ -35,6 +35,7 @@ export const metadata = pageMetadata({
   title: `${WHO_JOINS_SECRET_SOCIETIES_META_TITLE} | Neothink Institute`,
   description: WHO_JOINS_SECRET_SOCIETIES_DESCRIPTION,
   pathname: PATH,
+  articleOgImage: WHO_JOINS_SECRET_SOCIETIES_IMAGE,
   ogType: "article",
   article: {
     publishedTime: WHO_JOINS_SECRET_SOCIETIES_DATES.datePublished,

@@ -35,6 +35,7 @@ export const metadata = pageMetadata({
   title: `${SECRET_SOCIETY_LETTERS_SELLING_HAPPINESS_META_TITLE} | Neothink Institute`,
   description: SECRET_SOCIETY_LETTERS_SELLING_HAPPINESS_DESCRIPTION,
   pathname: PATH,
+  articleOgImage: SECRET_SOCIETY_LETTERS_SELLING_HAPPINESS_IMAGE,
   ogType: "article",
   article: {
     publishedTime: SECRET_SOCIETY_LETTERS_SELLING_HAPPINESS_DATES.datePublished,

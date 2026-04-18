@@ -35,6 +35,7 @@ export const metadata = pageMetadata({
   title: `${FEELING_STUCK_IN_LIFE_HOW_TO_FIX_META_TITLE} | Neothink Institute`,
   description: FEELING_STUCK_IN_LIFE_HOW_TO_FIX_DESCRIPTION,
   pathname: PATH,
+  articleOgImage: FEELING_STUCK_IN_LIFE_HOW_TO_FIX_IMAGE,
   ogType: "article",
   article: {
     publishedTime: FEELING_STUCK_IN_LIFE_HOW_TO_FIX_DATES.datePublished,

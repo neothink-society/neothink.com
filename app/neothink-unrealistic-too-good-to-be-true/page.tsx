@@ -35,6 +35,7 @@ export const metadata = pageMetadata({
   title: `${NEOTHINK_UNREALISTIC_TOO_GOOD_TO_BE_TRUE_META_TITLE} | Neothink Institute`,
   description: NEOTHINK_UNREALISTIC_TOO_GOOD_TO_BE_TRUE_DESCRIPTION,
   pathname: PATH,
+  articleOgImage: NEOTHINK_UNREALISTIC_TOO_GOOD_TO_BE_TRUE_IMAGE,
   ogType: "article",
   article: {
     publishedTime: NEOTHINK_UNREALISTIC_TOO_GOOD_TO_BE_TRUE_DATES.datePublished,

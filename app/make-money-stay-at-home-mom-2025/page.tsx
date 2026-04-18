@@ -35,6 +35,7 @@ export const metadata = pageMetadata({
   title: `${MAKE_MONEY_STAY_AT_HOME_MOM_2025_META_TITLE} | Neothink Institute`,
   description: MAKE_MONEY_STAY_AT_HOME_MOM_2025_DESCRIPTION,
   pathname: PATH,
+  articleOgImage: MAKE_MONEY_STAY_AT_HOME_MOM_2025_IMAGE,
   ogType: "article",
   article: {
     publishedTime: MAKE_MONEY_STAY_AT_HOME_MOM_2025_DATES.datePublished,

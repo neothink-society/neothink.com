@@ -11,6 +11,13 @@ const defaultOgImage = {
   alt: `${siteConfig.name}. The Intellectual Foundation for the Next Stage of Human Civilization`,
 } as const;
 
+type ArticleOgImage = {
+  readonly src: string;
+  readonly alt: string;
+  readonly width: number;
+  readonly height: number;
+};
+
 /**
  * Consistent metadata for public routes: canonical, Open Graph, Twitter/X cards.
  * Uses `siteConfig` so URLs and handles stay aligned with `lib/metadata.ts`.
@@ -23,9 +30,25 @@ export function pageMetadata(input: {
   ogType?: OgType;
   /** When `ogType` is `article`, pass ISO8601 strings for richer link previews. */
   article?: { publishedTime?: string; modifiedTime?: string };
+  /**
+   * Primary share image for this URL (hero / featured). When set, Open Graph and
+   * Twitter use it instead of the site default — aligns social previews with
+   * `blogPostingJsonLd` `image` and visible hero art.
+   */
+  articleOgImage?: ArticleOgImage;
 }): Metadata {
   const url = `${siteConfig.url}${input.pathname}`;
   const ogType = input.ogType ?? "article";
+
+  const shareImage =
+    input.articleOgImage !== undefined
+      ? {
+          url: input.articleOgImage.src,
+          width: input.articleOgImage.width,
+          height: input.articleOgImage.height,
+          alt: input.articleOgImage.alt,
+        }
+      : { ...defaultOgImage };
 
   const openGraphBase = {
     title: input.title,
@@ -33,7 +56,7 @@ export function pageMetadata(input: {
     url,
     locale: "en_US",
     siteName: siteConfig.name,
-    images: [{ ...defaultOgImage }],
+    images: [shareImage],
   };
 
   const openGraph = (
@@ -68,7 +91,7 @@ export function pageMetadata(input: {
       creator: siteConfig.twitter.creator,
       title: input.title,
       description: input.description,
-      images: [defaultOgImage],
+      images: [shareImage],
     },
   };
 }

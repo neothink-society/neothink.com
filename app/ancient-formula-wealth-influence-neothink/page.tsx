@@ -35,6 +35,7 @@ export const metadata = pageMetadata({
   title: `${ANCIENT_FORMULA_WEALTH_INFLUENCE_NEOTHINK_META_TITLE} | Neothink Institute`,
   description: ANCIENT_FORMULA_WEALTH_INFLUENCE_NEOTHINK_DESCRIPTION,
   pathname: PATH,
+  articleOgImage: ANCIENT_FORMULA_WEALTH_INFLUENCE_NEOTHINK_IMAGE,
   ogType: "article",
   article: {
     publishedTime: ANCIENT_FORMULA_WEALTH_INFLUENCE_NEOTHINK_DATES.datePublished,

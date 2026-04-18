@@ -31,6 +31,7 @@ export const metadata = pageMetadata({
   title: "Neothink And The Twelve Visions Party: The Untold Truth | Neothink Institute",
   description: DESCRIPTION,
   pathname: PATH,
+  articleOgImage: NTV_TRUTH_IMAGE,
   ogType: "article",
   article: {
     publishedTime: `${NTV_TRUTH_DATES.datePublished}T12:01:53.000Z`,

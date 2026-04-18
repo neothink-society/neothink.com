@@ -35,6 +35,7 @@ export const metadata = pageMetadata({
   title: `${NEOTHINK_SOCIETY_PATH_TO_WEALTH_META_TITLE} | Neothink Institute`,
   description: NEOTHINK_SOCIETY_PATH_TO_WEALTH_DESCRIPTION,
   pathname: PATH,
+  articleOgImage: NEOTHINK_SOCIETY_PATH_TO_WEALTH_IMAGE,
   ogType: "article",
   article: {
     publishedTime: NEOTHINK_SOCIETY_PATH_TO_WEALTH_DATES.datePublished,

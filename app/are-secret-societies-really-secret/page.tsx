@@ -35,6 +35,7 @@ export const metadata = pageMetadata({
   title: `${ARE_SECRET_SOCIETIES_REALLY_SECRET_META_TITLE} | Neothink Institute`,
   description: ARE_SECRET_SOCIETIES_REALLY_SECRET_DESCRIPTION,
   pathname: PATH,
+  articleOgImage: ARE_SECRET_SOCIETIES_REALLY_SECRET_IMAGE,
   ogType: "article",
   article: {
     publishedTime: ARE_SECRET_SOCIETIES_REALLY_SECRET_DATES.datePublished,

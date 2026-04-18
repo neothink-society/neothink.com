@@ -35,6 +35,7 @@ export const metadata = pageMetadata({
   title: `${WHAT_IS_THE_PURPOSE_OF_LIFE_META_TITLE} | Neothink Institute`,
   description: WHAT_IS_THE_PURPOSE_OF_LIFE_DESCRIPTION,
   pathname: PATH,
+  articleOgImage: WHAT_IS_THE_PURPOSE_OF_LIFE_IMAGE,
   ogType: "article",
   article: {
     publishedTime: WHAT_IS_THE_PURPOSE_OF_LIFE_DATES.datePublished,

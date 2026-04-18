@@ -37,6 +37,7 @@ export const metadata = pageMetadata({
   title: `${PMLEA_META_TITLE} | Neothink Institute`,
   description: DESCRIPTION,
   pathname: PATH,
+  articleOgImage: PMLEA_IMAGE,
   ogType: "article",
   article: {
     publishedTime: `${PMLEA_DATES.datePublished}T12:00:00.000Z`,

@@ -35,6 +35,7 @@ export const metadata = pageMetadata({
   title: `${STARTING_OVER_AT_50_META_TITLE} | Neothink Institute`,
   description: STARTING_OVER_AT_50_DESCRIPTION,
   pathname: PATH,
+  articleOgImage: STARTING_OVER_AT_50_IMAGE,
   ogType: "article",
   article: {
     publishedTime: STARTING_OVER_AT_50_DATES.datePublished,

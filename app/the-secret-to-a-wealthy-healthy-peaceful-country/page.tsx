@@ -37,6 +37,7 @@ export const metadata = pageMetadata({
   title: `${SWHPC_META_TITLE} | Neothink Institute`,
   description: DESCRIPTION,
   pathname: PATH,
+  articleOgImage: SWHPC_IMAGE,
   ogType: "article",
   article: {
     publishedTime: `${SWHPC_DATES.datePublished}T12:00:00.000Z`,

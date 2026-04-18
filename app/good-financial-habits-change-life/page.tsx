@@ -35,6 +35,7 @@ export const metadata = pageMetadata({
   title: `${GOOD_FINANCIAL_HABITS_CHANGE_LIFE_META_TITLE} | Neothink Institute`,
   description: GOOD_FINANCIAL_HABITS_CHANGE_LIFE_DESCRIPTION,
   pathname: PATH,
+  articleOgImage: GOOD_FINANCIAL_HABITS_CHANGE_LIFE_IMAGE,
   ogType: "article",
   article: {
     publishedTime: GOOD_FINANCIAL_HABITS_CHANGE_LIFE_DATES.datePublished,

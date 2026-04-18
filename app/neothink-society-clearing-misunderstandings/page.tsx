@@ -36,6 +36,7 @@ export const metadata = pageMetadata({
   title: `${NSCM_HEADLINE} | Neothink Institute`,
   description: DESCRIPTION,
   pathname: PATH,
+  articleOgImage: NSCM_IMAGE,
   ogType: "article",
   article: {
     publishedTime: `${NSCM_DATES.datePublished}T06:16:00.000Z`,

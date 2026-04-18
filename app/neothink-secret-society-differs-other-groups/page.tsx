@@ -35,6 +35,7 @@ export const metadata = pageMetadata({
   title: "How Neothink Differs From Other Secret Groups | Neothink Institute",
   description: DESCRIPTION,
   pathname: PATH,
+  articleOgImage: NSSD_IMAGE,
   ogType: "article",
   article: {
     publishedTime: `${NSSD_DATES.datePublished}T12:00:00.000Z`,

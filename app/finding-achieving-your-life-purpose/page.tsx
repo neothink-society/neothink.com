@@ -37,6 +37,7 @@ export const metadata = pageMetadata({
   title: `${FAYLP_META_TITLE} | Neothink Institute`,
   description: DESCRIPTION,
   pathname: PATH,
+  articleOgImage: FAYLP_IMAGE,
   ogType: "article",
   article: {
     publishedTime: `${FAYLP_DATES.datePublished}T12:00:00.000Z`,

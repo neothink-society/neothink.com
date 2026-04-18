@@ -35,6 +35,7 @@ export const metadata = pageMetadata({
   title: `${NEOTHINK_SOCIETY_WHY_PEOPLE_CANT_STOP_TALKING_META_TITLE} | Neothink Institute`,
   description: NEOTHINK_SOCIETY_WHY_PEOPLE_CANT_STOP_TALKING_DESCRIPTION,
   pathname: PATH,
+  articleOgImage: NEOTHINK_SOCIETY_WHY_PEOPLE_CANT_STOP_TALKING_IMAGE,
   ogType: "article",
   article: {
     publishedTime: NEOTHINK_SOCIETY_WHY_PEOPLE_CANT_STOP_TALKING_DATES.datePublished,

@@ -32,6 +32,7 @@ export const metadata = pageMetadata({
     "Secret Society Invitation: Have You Received This Letter? What Does It Mean? | Neothink Institute",
   description: DESCRIPTION,
   pathname: PATH,
+  articleOgImage: SSIL_IMAGE,
   ogType: "article",
   article: {
     publishedTime: `${SSIL_DATES.datePublished}T09:38:40.000Z`,

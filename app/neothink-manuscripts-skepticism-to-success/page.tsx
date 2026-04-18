@@ -35,6 +35,7 @@ export const metadata = pageMetadata({
   title: `${NEOTHINK_MANUSCRIPTS_SKEPTICISM_TO_SUCCESS_META_TITLE} | Neothink Institute`,
   description: NEOTHINK_MANUSCRIPTS_SKEPTICISM_TO_SUCCESS_DESCRIPTION,
   pathname: PATH,
+  articleOgImage: NEOTHINK_MANUSCRIPTS_SKEPTICISM_TO_SUCCESS_IMAGE,
   ogType: "article",
   article: {
     publishedTime: NEOTHINK_MANUSCRIPTS_SKEPTICISM_TO_SUCCESS_DATES.datePublished,

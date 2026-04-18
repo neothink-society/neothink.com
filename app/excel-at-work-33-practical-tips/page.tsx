@@ -35,6 +35,7 @@ export const metadata = pageMetadata({
   title: `${EXCEL_AT_WORK_33_PRACTICAL_TIPS_META_TITLE} | Neothink Institute`,
   description: EXCEL_AT_WORK_33_PRACTICAL_TIPS_DESCRIPTION,
   pathname: PATH,
+  articleOgImage: EXCEL_AT_WORK_33_PRACTICAL_TIPS_IMAGE,
   ogType: "article",
   article: {
     publishedTime: EXCEL_AT_WORK_33_PRACTICAL_TIPS_DATES.datePublished,

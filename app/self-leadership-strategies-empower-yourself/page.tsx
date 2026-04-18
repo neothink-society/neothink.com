@@ -35,6 +35,7 @@ export const metadata = pageMetadata({
   title: `${SELF_LEADERSHIP_STRATEGIES_EMPOWER_YOURSELF_META_TITLE} | Neothink Institute`,
   description: SELF_LEADERSHIP_STRATEGIES_EMPOWER_YOURSELF_DESCRIPTION,
   pathname: PATH,
+  articleOgImage: SELF_LEADERSHIP_STRATEGIES_EMPOWER_YOURSELF_IMAGE,
   ogType: "article",
   article: {
     publishedTime: SELF_LEADERSHIP_STRATEGIES_EMPOWER_YOURSELF_DATES.datePublished,

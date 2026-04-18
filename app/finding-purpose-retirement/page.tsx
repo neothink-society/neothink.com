@@ -35,6 +35,7 @@ export const metadata = pageMetadata({
   title: `${FINDING_PURPOSE_RETIREMENT_META_TITLE} | Neothink Institute`,
   description: FINDING_PURPOSE_RETIREMENT_DESCRIPTION,
   pathname: PATH,
+  articleOgImage: FINDING_PURPOSE_RETIREMENT_IMAGE,
   ogType: "article",
   article: {
     publishedTime: FINDING_PURPOSE_RETIREMENT_DATES.datePublished,

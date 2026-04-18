@@ -35,6 +35,7 @@ export const metadata = pageMetadata({
   title: "Is Neothink Just Another Self-Help Book? | Neothink Institute",
   description: DESCRIPTION,
   pathname: PATH,
+  articleOgImage: IS_NEOTHINK_SELF_HELP_IMAGE,
   ogType: "article",
   article: {
     publishedTime: `${IS_NEOTHINK_SELF_HELP_DATES.datePublished}T12:01:53.000Z`,

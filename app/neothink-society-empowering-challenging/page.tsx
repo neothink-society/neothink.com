@@ -31,6 +31,7 @@ export const metadata = pageMetadata({
   title: "How The Neothink Society Can Be Both Empowering And Challenging | Neothink Institute",
   description: DESCRIPTION,
   pathname: PATH,
+  articleOgImage: NSEC_IMAGE,
   ogType: "article",
   article: {
     publishedTime: `${NSEC_DATES.datePublished}T12:01:53.000Z`,

@@ -35,6 +35,7 @@ export const metadata = pageMetadata({
   title: "How To Join Neothink Society Secret Meetings | Neothink Institute",
   description: DESCRIPTION,
   pathname: PATH,
+  articleOgImage: JNSSM_IMAGE,
   ogType: "article",
   article: {
     publishedTime: `${JNSSM_DATES.datePublished}T03:29:00.000Z`,

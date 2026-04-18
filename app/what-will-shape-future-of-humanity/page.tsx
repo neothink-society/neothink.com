@@ -35,6 +35,7 @@ export const metadata = pageMetadata({
   title: `${WHAT_WILL_SHAPE_FUTURE_OF_HUMANITY_META_TITLE} | Neothink Institute`,
   description: WHAT_WILL_SHAPE_FUTURE_OF_HUMANITY_DESCRIPTION,
   pathname: PATH,
+  articleOgImage: WHAT_WILL_SHAPE_FUTURE_OF_HUMANITY_IMAGE,
   ogType: "article",
   article: {
     publishedTime: WHAT_WILL_SHAPE_FUTURE_OF_HUMANITY_DATES.datePublished,

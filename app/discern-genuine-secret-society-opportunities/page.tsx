@@ -31,6 +31,7 @@ export const metadata = pageMetadata({
   title: "How To Discern Genuine Secret Society Opportunities From Fraud | Neothink Institute",
   description: DESCRIPTION,
   pathname: PATH,
+  articleOgImage: DGSS_IMAGE,
   ogType: "article",
   article: {
     publishedTime: `${DGSS_DATES.datePublished}T16:15:05.000Z`,

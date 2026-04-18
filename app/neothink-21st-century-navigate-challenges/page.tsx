@@ -35,6 +35,7 @@ export const metadata = pageMetadata({
   title: `${NEOTHINK_21ST_CENTURY_NAVIGATE_CHALLENGES_META_TITLE} | Neothink Institute`,
   description: NEOTHINK_21ST_CENTURY_NAVIGATE_CHALLENGES_DESCRIPTION,
   pathname: PATH,
+  articleOgImage: NEOTHINK_21ST_CENTURY_NAVIGATE_CHALLENGES_IMAGE,
   ogType: "article",
   article: {
     publishedTime: NEOTHINK_21ST_CENTURY_NAVIGATE_CHALLENGES_DATES.datePublished,
