@@ -36,7 +36,7 @@ export const metadata = pageMetadata({
   pathname: PATH,
     articleOgImage: {
     src: `https://i.ytimg.com/vi/${HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_YOUTUBE_ID}/hqdefault.jpg`,
-    alt: `${HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_HEADLINE} — video thumbnail`,
+    alt: `${HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_HEADLINE} (video thumbnail)`,
     width: 480,
     height: 360,
   },
@@ -78,7 +78,7 @@ const faqLd = faqPageJsonLd(PATH, HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_FA
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: "How Neothink Brings You a World of Prosperity — Neothink Society address (Mark Hamilton)",
+  name: "How Neothink Brings You a World of Prosperity: Neothink Society address (Mark Hamilton)",
   description: HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_META_DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_YOUTUBE_ID}/maxresdefault.jpg`,

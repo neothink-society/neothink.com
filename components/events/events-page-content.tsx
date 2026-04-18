@@ -171,7 +171,7 @@ export function EventsPageContent() {
               <Link href={WP.neothinkReviews} className="ev-inline-link">
                 Neothink reviews hub
               </Link>{" "}
-              — full archive context and additional member resources.
+              for full archive context and additional member resources.
             </p>
           </header>
           <NeothinkUniversityTestimonials />

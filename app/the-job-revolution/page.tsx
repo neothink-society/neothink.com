@@ -38,7 +38,7 @@ export const metadata = pageMetadata({
   pathname: PATH,
     articleOgImage: {
     src: `https://i.ytimg.com/vi/${THE_JOB_REVOLUTION_YOUTUBE_ID}/hqdefault.jpg`,
-    alt: `${THE_JOB_REVOLUTION_HEADLINE} — video thumbnail`,
+    alt: `${THE_JOB_REVOLUTION_HEADLINE} (video thumbnail)`,
     width: 480,
     height: 360,
   },
@@ -80,7 +80,7 @@ const faqLd = faqPageJsonLd(PATH, THE_JOB_REVOLUTION_FAQ);
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: "The Job Revolution: How Pure Capitalism Makes Everything Free — Neothink Society address (Mark Hamilton)",
+  name: "The Job Revolution: How Pure Capitalism Makes Everything Free: Neothink Society address (Mark Hamilton)",
   description: THE_JOB_REVOLUTION_META_DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${THE_JOB_REVOLUTION_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${THE_JOB_REVOLUTION_YOUTUBE_ID}/maxresdefault.jpg`,

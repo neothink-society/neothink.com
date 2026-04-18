@@ -13,7 +13,7 @@ import {
 } from "@/lib/terms-and-conditions-data";
 
 const DESCRIPTION =
-  "Terms and Conditions for neothink.com — acceptance, use of the Service, SMS messaging terms, third-party links, termination, disclaimers, limitation of liability, governing law, and dispute resolution.";
+  "Terms and Conditions for neothink.com: acceptance, use of the Service, SMS messaging terms, third-party links, termination, disclaimers, limitation of liability, governing law, and dispute resolution.";
 
 export const metadata = pageMetadata({
   title: `${TERMS_TITLE} | Neothink`,

@@ -17,7 +17,7 @@ const PATH = "/neothink-university";
 const PAGE_URL = `${siteConfig.url}${PATH}`;
 
 const DESCRIPTION =
-  "Neothink University is a paid program offering of The Neothink Society (private education)—structured programs for passion, prosperity, mindset, and wellness with mentoring. Not the Neothink Institute’s free public learning hub on this site.";
+  "Neothink University is a paid program offering of The Neothink Society (private education): structured programs for passion, prosperity, mindset, and wellness with mentoring. Not the Neothink Institute’s free public learning hub on this site.";
 
 /** AEO: multiple visible answer surfaces (hero h1 + key h2 sections + FAQ). */
 const SPEAKABLE_NU = [
@@ -44,7 +44,7 @@ const programsListLd = itemListEntitiesJsonLd({
   listId: "programs-offered",
   name: "Neothink University paid program areas",
   description:
-    "Paid Neothink Society program pillars—Passion Development, Prosperity Pathway, Mindset Mastery, and Health and Wellness—as described on the Neothink University page.",
+    "Paid Neothink Society program pillars (Passion Development, Prosperity Pathway, Mindset Mastery, and Health and Wellness) as described on the Neothink University page.",
   items: NEOTHINK_UNIVERSITY_PROGRAMS.map((p) => ({ name: p.title, description: p.body })),
 });
 

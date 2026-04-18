@@ -20,7 +20,7 @@ const CANONICAL = `${siteConfig.url}${PATH}`;
 export const metadata = pageMetadata({
   title: "Power of Calm | Neothink Mentality Lesson 14 | Neothink Institute",
   description:
-    "Lesson 14 (Neothink Institute): composure under pressure—in work, parenting, and investing; video on YouTube (mXp6tLVO2Hg) features Mark Hamilton.",
+    "Lesson 14 (Neothink Institute): composure under pressure in work, parenting, and investing; video on YouTube (mXp6tLVO2Hg) features Mark Hamilton.",
   pathname: PATH,
   ogType: "article",
   article: {
@@ -39,7 +39,7 @@ const pageLd = webPageJsonLd({
   pathname: PATH,
   name: "Power of Calm | Neothink Mentality Lesson 14",
   description:
-    "Calm vs panic, business and parenting, investing and partnership—lesson 14 essay and FAQ by Neothink Institute.",
+    "Calm vs panic, business and parenting, investing and partnership: lesson 14 essay and FAQ by Neothink Institute.",
   datePublished: POWER_OF_CALM_LESSON.datePublished,
   dateModified: POWER_OF_CALM_LESSON.dateModified,
   aboutId: schemaIds.neothinkSystem,

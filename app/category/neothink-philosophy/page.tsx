@@ -59,7 +59,7 @@ const migratedForSchema = NEOTHINK_PHILOSOPHY_SERIES_POSTS.filter((p) =>
 const seriesListLd = itemListJsonLd(
   PATH,
   "philosophy-series-migrated",
-  `${NEOTHINK_PHILOSOPHY_CATEGORY_TITLE} — articles on neothink.com`,
+  `${NEOTHINK_PHILOSOPHY_CATEGORY_TITLE}: articles on neothink.com`,
   "Long-form Neothink Philosophy posts available as native Next.js articles (same slugs as WordPress).",
   migratedForSchema
 );

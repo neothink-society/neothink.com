@@ -26,7 +26,7 @@ const PATH = RMTBR_PATH;
 const CANONICAL = `${siteConfig.url}${PATH}`;
 
 const DESCRIPTION =
-  "Three levels of thinking, mini-days, division of essence, and Neothink progression from personal mastery to civilization—Mark Hamilton’s approach to reprogramming how your mind creates wealth. Neothink Awakening article on neothink.com.";
+  "Three levels of thinking, mini-days, division of essence, and Neothink progression from personal mastery to civilization. Mark Hamilton’s approach to reprogramming how your mind creates wealth. Neothink Awakening article on neothink.com.";
 
 const SPEAKABLE_RMTBR = [
   "main#main-content h1",
@@ -78,7 +78,7 @@ const faqLd = faqPageJsonLd(PATH, RMTBR_FAQ);
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: `${RMTBR_META_TITLE} — video | Neothink Institute`,
+  name: `${RMTBR_META_TITLE} | Neothink Institute`,
   description: DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${RMTBR_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${RMTBR_YOUTUBE_ID}/maxresdefault.jpg`,

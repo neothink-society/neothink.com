@@ -26,7 +26,7 @@ export function AKnightInShiningArmorImmortalisPageContent() {
       quickTitle="Why Is Immortalis a Knight in Shining Armor?"
       quickAnswerHtml={KNIGHT_IMMORTALIS_QUICK_ANSWER_HTML}
       youtubeId={KNIGHT_IMMORTALIS_YOUTUBE_ID}
-      videoTitle="Immortalis: a knight in shining armor — citizens meeting"
+      videoTitle="Immortalis: a knight in shining armor: citizens meeting"
       bodyHtml={KNIGHT_IMMORTALIS_BODY_HTML}
       faqHeadingId="kni-faq-heading"
       faqLead={

@@ -36,7 +36,7 @@ export const metadata = pageMetadata({
   pathname: PATH,
     articleOgImage: {
     src: `https://i.ytimg.com/vi/${DECODING_SUPER_PUZZLE_YOUTUBE_ID}/hqdefault.jpg`,
-    alt: `${DECODING_SUPER_PUZZLE_HEADLINE} — video thumbnail`,
+    alt: `${DECODING_SUPER_PUZZLE_HEADLINE} (video thumbnail)`,
     width: 480,
     height: 360,
   },
@@ -78,7 +78,7 @@ const faqLd = faqPageJsonLd(PATH, DECODING_SUPER_PUZZLE_FAQ);
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: "Decoding Super Puzzle: The Secret Formula for Curing Aging — Neothink Philosophy (Mark Hamilton)",
+  name: "Decoding Super Puzzle: The Secret Formula for Curing Aging: Neothink Philosophy (Mark Hamilton)",
   description: DECODING_SUPER_PUZZLE_META_DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${DECODING_SUPER_PUZZLE_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${DECODING_SUPER_PUZZLE_YOUTUBE_ID}/maxresdefault.jpg`,

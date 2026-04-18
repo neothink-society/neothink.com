@@ -79,7 +79,7 @@ const faqLd = faqPageJsonLd(PATH, FAYLP_FAQ);
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: `${FAYLP_META_TITLE} — video | Neothink Institute`,
+  name: `${FAYLP_META_TITLE} | Neothink Institute`,
   description: DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${FAYLP_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${FAYLP_YOUTUBE_ID}/maxresdefault.jpg`,

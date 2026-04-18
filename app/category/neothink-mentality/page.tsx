@@ -65,7 +65,7 @@ const migratedForSchema = NEOTHINK_MENTALITY_SERIES_POSTS.filter((p) =>
 const seriesListLd = itemListJsonLd(
   PATH,
   "mentality-series-lessons",
-  `${NEOTHINK_MENTALITY_CATEGORY_TITLE} — lessons on ${siteConfig.url.replace(/^https?:\/\//, "")}`,
+  `${NEOTHINK_MENTALITY_CATEGORY_TITLE}: lessons on ${siteConfig.url.replace(/^https?:\/\//, "")}`,
   "Neothink Mentality lesson posts on neothink.com (same slugs as WordPress). See also /neothink-mentality for the course overview.",
   migratedForSchema
 );
@@ -99,7 +99,7 @@ export default function NeothinkMentalityCategoryPage() {
             >
               Course overview, videos, and FAQ
             </Link>
-            {" — the public arc for these fourteen lessons."}
+            {", the public arc for these fourteen lessons."}
           </p>
         }
       />

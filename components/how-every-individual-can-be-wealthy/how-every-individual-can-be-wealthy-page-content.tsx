@@ -26,7 +26,7 @@ export function HowEveryIndividualCanBeWealthyPageContent() {
       quickTitle="What Is the Only Way Every Individual Can Be Wealthy?"
       quickAnswerHtml={HOW_EVERY_INDIVIDUAL_CAN_BE_WEALTHY_QUICK_ANSWER_HTML}
       youtubeId={HOW_EVERY_INDIVIDUAL_CAN_BE_WEALTHY_YOUTUBE_ID}
-      videoTitle="How Every Individual Can Be Wealthy — Neothink Society address"
+      videoTitle="How Every Individual Can Be Wealthy: Neothink Society address"
       bodyHtml={HOW_EVERY_INDIVIDUAL_CAN_BE_WEALTHY_BODY_HTML}
       faqHeadingId="heiw-faq-heading"
       faqLead={

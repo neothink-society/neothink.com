@@ -76,7 +76,7 @@ function TestimonialSlide({ t }: { readonly t: NuTestimonial }) {
         <details className="nu-testimonial-details">
           <summary className="nu-testimonial-summary">
             Read full story
-            <span className="sr-only"> — {t.name}</span>
+            <span className="sr-only">, {t.name}</span>
           </summary>
           <div className="nu-testimonial-full">
             {t.fullParagraphs.map((para, i) => (

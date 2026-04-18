@@ -39,7 +39,7 @@ const pageLd = webPageJsonLd({
   pathname: PATH,
   name: "Money Love Affair | Neothink Mentality Lesson 12",
   description:
-    "Cause and effect of wealth, value creation vs production, and the mind shift from chasing money to putting value into society—lesson 12 essay and FAQ by Neothink Institute.",
+    "Cause and effect of wealth, value creation vs production, and the mind shift from chasing money to putting value into society: lesson 12 essay and FAQ by Neothink Institute.",
   datePublished: MONEY_LOVE_AFFAIR_LESSON.datePublished,
   dateModified: MONEY_LOVE_AFFAIR_LESSON.dateModified,
   aboutId: schemaIds.neothinkSystem,

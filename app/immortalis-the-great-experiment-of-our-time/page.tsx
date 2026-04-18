@@ -30,7 +30,7 @@ export const metadata = pageMetadata({
   pathname: PATH,
     articleOgImage: {
     src: `https://i.ytimg.com/vi/${IGE_YOUTUBE_ID}/hqdefault.jpg`,
-    alt: `${IGE_META_TITLE} — video thumbnail`,
+    alt: `${IGE_META_TITLE} (video thumbnail)`,
     width: 480,
     height: 360,
   },
@@ -72,7 +72,7 @@ const faqLd = faqPageJsonLd(PATH, IGE_FAQ);
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: `${IGE_META_TITLE} — video | Neothink Institute`,
+  name: `${IGE_META_TITLE} | Neothink Institute`,
   description: DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${IGE_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${IGE_YOUTUBE_ID}/hqdefault.jpg`,

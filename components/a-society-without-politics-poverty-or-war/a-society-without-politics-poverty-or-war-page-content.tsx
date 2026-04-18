@@ -21,7 +21,7 @@ export function ASocietyWithoutPoliticsPovertyOrWarPageContent() {
       image={SWPPW_IMAGE}
       minReadLabel={SWPPW_MIN_READ}
       youtubeId={SWPPW_YOUTUBE_ID}
-      videoTitle={`${SWPPW_HEADLINE} — Mark Hamilton`}
+      videoTitle={`${SWPPW_HEADLINE}, Mark Hamilton`}
       quickAnswer={{
         kicker: SWPPW_QUICK_ANSWER_KICKER,
         title: SWPPW_QUICK_ANSWER_TITLE,

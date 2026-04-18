@@ -26,7 +26,7 @@ export function TheTwoObstaclesToCuringAgingPageContent() {
       quickTitle="What Are the Two Obstacles to Curing Aging?"
       quickAnswerHtml={THE_TWO_OBSTACLES_TO_CURING_AGING_QUICK_ANSWER_HTML}
       youtubeId={THE_TWO_OBSTACLES_TO_CURING_AGING_YOUTUBE_ID}
-      videoTitle="The Two Obstacles to Curing Aging — Neothink Society address"
+      videoTitle="The Two Obstacles to Curing Aging: Neothink Society address"
       bodyHtml={THE_TWO_OBSTACLES_TO_CURING_AGING_BODY_HTML}
       faqHeadingId="tto-faq-heading"
       faqLead={

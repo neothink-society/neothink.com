@@ -36,7 +36,7 @@ export const metadata = pageMetadata({
   pathname: PATH,
     articleOgImage: {
     src: `https://i.ytimg.com/vi/${MONT_PELERIN_PIVOT_YOUTUBE_ID}/hqdefault.jpg`,
-    alt: `${MONT_PELERIN_PIVOT_HEADLINE} — video thumbnail`,
+    alt: `${MONT_PELERIN_PIVOT_HEADLINE} (video thumbnail)`,
     width: 480,
     height: 360,
   },
@@ -78,7 +78,7 @@ const faqLd = faqPageJsonLd(PATH, MONT_PELERIN_PIVOT_FAQ);
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: "The Mont Pelerin Pivot — citizens meeting (Mark Hamilton)",
+  name: "The Mont Pelerin Pivot: citizens meeting (Mark Hamilton)",
   description: MONT_PELERIN_PIVOT_META_DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${MONT_PELERIN_PIVOT_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${MONT_PELERIN_PIVOT_YOUTUBE_ID}/maxresdefault.jpg`,

@@ -22,7 +22,7 @@ export function HowToBeALeaderTheOneThingHoldingYouBackPageContent() {
       image={HBL1TH_IMAGE}
       minReadLabel={HBL1TH_MIN_READ}
       youtubeId={HBL1TH_YOUTUBE_ID}
-      videoTitle={`${HBL1TH_HEADLINE} — Mark Hamilton`}
+      videoTitle={`${HBL1TH_HEADLINE}, Mark Hamilton`}
       quickAnswer={{
         kicker: HBL1TH_QUICK_ANSWER_KICKER,
         title: HBL1TH_QUICK_ANSWER_TITLE,

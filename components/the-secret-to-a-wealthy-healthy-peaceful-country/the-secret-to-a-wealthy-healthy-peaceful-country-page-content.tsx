@@ -21,7 +21,7 @@ export function TheSecretToAWealthyHealthyPeacefulCountryPageContent() {
       image={SWHPC_IMAGE}
       minReadLabel={SWHPC_MIN_READ}
       youtubeId={SWHPC_YOUTUBE_ID}
-      videoTitle={`${SWHPC_HEADLINE} — Mark Hamilton`}
+      videoTitle={`${SWHPC_HEADLINE}, Mark Hamilton`}
       quickAnswer={{
         kicker: SWHPC_QUICK_ANSWER_KICKER,
         title: SWHPC_QUICK_ANSWER_TITLE,

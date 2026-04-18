@@ -26,7 +26,7 @@ export function TheYearCapitalismSetsTheWorldFreePageContent() {
       quickTitle="What Is Pure Capitalism?"
       quickAnswerHtml={THE_YEAR_CAPITALISM_SETS_THE_WORLD_FREE_QUICK_ANSWER_HTML}
       youtubeId={THE_YEAR_CAPITALISM_SETS_THE_WORLD_FREE_YOUTUBE_ID}
-      videoTitle="The Year Capitalism Sets the World Free — Neothink Society address"
+      videoTitle="The Year Capitalism Sets the World Free: Neothink Society address"
       bodyHtml={THE_YEAR_CAPITALISM_SETS_THE_WORLD_FREE_BODY_HTML}
       faqHeadingId="tyc-faq-heading"
       faqLead={

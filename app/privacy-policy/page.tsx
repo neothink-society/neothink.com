@@ -13,7 +13,7 @@ import { pageMetadata } from "@/lib/seo-metadata";
 import { schemaIds } from "@/lib/schema-ids";
 
 const DESCRIPTION =
-  "Privacy policy for neothink.com — what personal information The Neothink Society, LLC collects, how it is used, SMS data protection, cookies and analytics, CCPA/CPRA/GDPR rights, and contact details.";
+  "Privacy policy for neothink.com: what personal information The Neothink Society, LLC collects, how it is used, SMS data protection, cookies and analytics, CCPA/CPRA/GDPR rights, and contact details.";
 
 export const metadata = pageMetadata({
   title: `${PRIVACY_TITLE} | Neothink`,

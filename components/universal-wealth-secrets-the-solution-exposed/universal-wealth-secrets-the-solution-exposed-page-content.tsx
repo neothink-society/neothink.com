@@ -21,7 +21,7 @@ export function UniversalWealthSecretsTheSolutionExposedPageContent() {
       image={UWSSE_IMAGE}
       minReadLabel={UWSSE_MIN_READ}
       youtubeId={UWSSE_YOUTUBE_ID}
-      videoTitle={`${UWSSE_HEADLINE} — Mark Hamilton`}
+      videoTitle={`${UWSSE_HEADLINE}, Mark Hamilton`}
       quickAnswer={{
         kicker: UWSSE_QUICK_ANSWER_KICKER,
         title: UWSSE_QUICK_ANSWER_TITLE,

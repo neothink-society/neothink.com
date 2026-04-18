@@ -1,4 +1,4 @@
-/* Neothink University — hub layout (scoped under .nu-page) */
+/* Neothink University: hub layout (scoped under .nu-page) */
 
 .nu-page {
   --nu-text: #0e0e0e;
@@ -447,7 +447,7 @@
   margin: 0;
 }
 
-/* Why Society — wider grid */
+/* Why Society: wider grid */
 .nu-page .nu-why {
   padding: 72px 48px;
   background: var(--nu-stone);

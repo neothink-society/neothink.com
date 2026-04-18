@@ -22,7 +22,7 @@ const PATH = NSSD_PATH;
 const CANONICAL = `${siteConfig.url}${PATH}`;
 
 const DESCRIPTION =
-  "How the Neothink Secret Society differs from typical secret groups: open knowledge, growth, integrated thinking, empowerment, practical tools, and community—public article on neothink.com by the Neothink Institute.";
+  "How the Neothink Secret Society differs from typical secret groups: open knowledge, growth, integrated thinking, empowerment, practical tools, and community. Public article on neothink.com by the Neothink Institute.";
 
 const SPEAKABLE_NSSD = [
   "main#main-content h1",

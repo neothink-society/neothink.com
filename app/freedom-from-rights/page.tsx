@@ -39,7 +39,7 @@ const pageLd = webPageJsonLd({
   pathname: PATH,
   name: "Freedom from Rights | Neothink Mentality Lesson 2",
   description:
-    "Neothink Institute essay on political illusion: Bill of Rights, initiatory force, Prime Law, integrated thinking—lesson 2 video and FAQ.",
+    "Neothink Institute essay on political illusion: Bill of Rights, initiatory force, Prime Law, integrated thinking; lesson 2 video and FAQ.",
   datePublished: FREEDOM_FROM_RIGHTS_LESSON.datePublished,
   dateModified: FREEDOM_FROM_RIGHTS_LESSON.dateModified,
   aboutId: schemaIds.neothinkSystem,

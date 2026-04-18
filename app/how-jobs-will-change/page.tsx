@@ -36,7 +36,7 @@ export const metadata = pageMetadata({
   pathname: PATH,
     articleOgImage: {
     src: `https://i.ytimg.com/vi/${HOW_JOBS_WILL_CHANGE_YOUTUBE_ID}/hqdefault.jpg`,
-    alt: `${HOW_JOBS_WILL_CHANGE_HEADLINE} — video thumbnail`,
+    alt: `${HOW_JOBS_WILL_CHANGE_HEADLINE} (video thumbnail)`,
     width: 480,
     height: 360,
   },
@@ -78,7 +78,7 @@ const faqLd = faqPageJsonLd(PATH, HOW_JOBS_WILL_CHANGE_FAQ);
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: "How Jobs Will Change in 2026 — Neothink Philosophy (Mark Hamilton)",
+  name: "How Jobs Will Change in 2026: Neothink Philosophy (Mark Hamilton)",
   description: HOW_JOBS_WILL_CHANGE_META_DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${HOW_JOBS_WILL_CHANGE_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${HOW_JOBS_WILL_CHANGE_YOUTUBE_ID}/maxresdefault.jpg`,

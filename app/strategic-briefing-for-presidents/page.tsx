@@ -38,7 +38,7 @@ export const metadata = pageMetadata({
   pathname: PATH,
     articleOgImage: {
     src: `https://i.ytimg.com/vi/${STRATEGIC_BRIEFING_FOR_PRESIDENTS_YOUTUBE_ID}/hqdefault.jpg`,
-    alt: `${STRATEGIC_BRIEFING_FOR_PRESIDENTS_HEADLINE} — video thumbnail`,
+    alt: `${STRATEGIC_BRIEFING_FOR_PRESIDENTS_HEADLINE} (video thumbnail)`,
     width: 480,
     height: 360,
   },
@@ -80,7 +80,7 @@ const faqLd = faqPageJsonLd(PATH, STRATEGIC_BRIEFING_FOR_PRESIDENTS_FAQ);
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: "A Strategic Briefing for Presidents: The Structural Fix for Civilization — Neothink Society address (Mark Hamilton)",
+  name: "A Strategic Briefing for Presidents: The Structural Fix for Civilization: Neothink Society address (Mark Hamilton)",
   description: STRATEGIC_BRIEFING_FOR_PRESIDENTS_META_DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${STRATEGIC_BRIEFING_FOR_PRESIDENTS_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${STRATEGIC_BRIEFING_FOR_PRESIDENTS_YOUTUBE_ID}/maxresdefault.jpg`,

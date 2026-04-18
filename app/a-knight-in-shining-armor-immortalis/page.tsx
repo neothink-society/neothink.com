@@ -35,7 +35,7 @@ export const metadata = pageMetadata({
   pathname: PATH,
     articleOgImage: {
     src: `https://i.ytimg.com/vi/${KNIGHT_IMMORTALIS_YOUTUBE_ID}/hqdefault.jpg`,
-    alt: `${KNIGHT_IMMORTALIS_META_TITLE} — video thumbnail`,
+    alt: `${KNIGHT_IMMORTALIS_META_TITLE} (video thumbnail)`,
     width: 480,
     height: 360,
   },
@@ -77,7 +77,7 @@ const faqLd = faqPageJsonLd(PATH, KNIGHT_IMMORTALIS_FAQ);
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: `${KNIGHT_IMMORTALIS_META_TITLE} — video | Neothink Institute`,
+  name: `${KNIGHT_IMMORTALIS_META_TITLE} | Neothink Institute`,
   description: DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${KNIGHT_IMMORTALIS_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${KNIGHT_IMMORTALIS_YOUTUBE_ID}/maxresdefault.jpg`,

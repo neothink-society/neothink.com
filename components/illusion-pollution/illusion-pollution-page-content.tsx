@@ -26,7 +26,7 @@ export function IllusionPollutionPageContent() {
       quickTitle="What Is Illusion Pollution?"
       quickAnswerHtml={ILLUSION_POLLUTION_QUICK_ANSWER_HTML}
       youtubeId={ILLUSION_POLLUTION_YOUTUBE_ID}
-      videoTitle="Illusion Pollution — Neothink Society address"
+      videoTitle="Illusion Pollution: Neothink Society address"
       bodyHtml={ILLUSION_POLLUTION_BODY_HTML}
       faqHeadingId="ilp-faq-heading"
       faqLead={

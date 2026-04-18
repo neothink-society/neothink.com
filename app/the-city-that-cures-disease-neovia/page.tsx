@@ -35,7 +35,7 @@ export const metadata = pageMetadata({
   pathname: PATH,
     articleOgImage: {
     src: `https://i.ytimg.com/vi/${NEOVIA_SPEECH_YOUTUBE_ID}/hqdefault.jpg`,
-    alt: `${NEOVIA_SPEECH_META_TITLE} — video thumbnail`,
+    alt: `${NEOVIA_SPEECH_META_TITLE} (video thumbnail)`,
     width: 480,
     height: 360,
   },
@@ -77,7 +77,7 @@ const faqLd = faqPageJsonLd(PATH, NEOVIA_SPEECH_FAQ);
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: `${NEOVIA_SPEECH_META_TITLE} — video | Neothink Institute`,
+  name: `${NEOVIA_SPEECH_META_TITLE} | Neothink Institute`,
   description: DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${NEOVIA_SPEECH_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${NEOVIA_SPEECH_YOUTUBE_ID}/maxresdefault.jpg`,

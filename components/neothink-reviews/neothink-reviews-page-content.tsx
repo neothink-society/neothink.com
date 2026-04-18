@@ -82,7 +82,7 @@ export function NeothinkReviewsPageContent() {
             <span className="nu-section-label">Carousel</span>
             <h2 id="nr-carousel-heading">Member stories</h2>
             <p>
-              {NEOTHINK_REVIEWS_TESTIMONIALS.length} voices—same dataset as other Society hubs on this site; layout here
+              {NEOTHINK_REVIEWS_TESTIMONIALS.length} voices, same dataset as other Society hubs on this site; layout here
               is the accessible carousel (arrows, dots, keyboard, pause).
             </p>
           </header>
@@ -137,7 +137,7 @@ export function NeothinkReviewsPageContent() {
         <div className="nu-secondary-inner">
           <h2 id="nr-sec-heading">On this site</h2>
           <p className="nu-secondary-lead">
-            Public Institute pages, Society program hubs, and contact—use the cards below to navigate without leaving
+            Public Institute pages, Society program hubs, and contact: use the cards below to navigate without leaving
             neothink.com.
           </p>
           <div className="nu-secondary-grid">

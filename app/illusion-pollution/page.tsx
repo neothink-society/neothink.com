@@ -38,7 +38,7 @@ export const metadata = pageMetadata({
   pathname: PATH,
     articleOgImage: {
     src: `https://i.ytimg.com/vi/${ILLUSION_POLLUTION_YOUTUBE_ID}/hqdefault.jpg`,
-    alt: `${ILLUSION_POLLUTION_HEADLINE} — video thumbnail`,
+    alt: `${ILLUSION_POLLUTION_HEADLINE} (video thumbnail)`,
     width: 480,
     height: 360,
   },
@@ -80,7 +80,7 @@ const faqLd = faqPageJsonLd(PATH, ILLUSION_POLLUTION_FAQ);
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: "Illusion Pollution: Why Good People Support What Destroys Them — Neothink Society address (Mark Hamilton)",
+  name: "Illusion Pollution: Why Good People Support What Destroys Them: Neothink Society address (Mark Hamilton)",
   description: ILLUSION_POLLUTION_META_DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${ILLUSION_POLLUTION_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${ILLUSION_POLLUTION_YOUTUBE_ID}/maxresdefault.jpg`,

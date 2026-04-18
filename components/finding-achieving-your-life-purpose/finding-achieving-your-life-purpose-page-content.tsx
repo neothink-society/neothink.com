@@ -22,7 +22,7 @@ export function FindingAchievingYourLifePurposePageContent() {
       image={FAYLP_IMAGE}
       minReadLabel={FAYLP_MIN_READ}
       youtubeId={FAYLP_YOUTUBE_ID}
-      videoTitle={`${FAYLP_HEADLINE} — Mark Hamilton`}
+      videoTitle={`${FAYLP_HEADLINE}, Mark Hamilton`}
       quickAnswer={{
         kicker: FAYLP_QUICK_ANSWER_KICKER,
         title: FAYLP_QUICK_ANSWER_TITLE,

@@ -10,7 +10,7 @@ import "./globals.css";
 
 export const metadata: Metadata = generateSiteMetadata();
 
-/** Matches `app/manifest.ts` theme — mobile browser chrome + PWA-adjacent hints. */
+/** Matches `app/manifest.ts` theme: mobile browser chrome + PWA-adjacent hints. */
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,

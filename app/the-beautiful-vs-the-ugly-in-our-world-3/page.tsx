@@ -36,7 +36,7 @@ export const metadata = pageMetadata({
   pathname: PATH,
     articleOgImage: {
     src: `https://i.ytimg.com/vi/${THE_BEAUTIFUL_VS_THE_UGLY_IN_OUR_WORLD_3_YOUTUBE_ID}/hqdefault.jpg`,
-    alt: `${THE_BEAUTIFUL_VS_THE_UGLY_IN_OUR_WORLD_3_HEADLINE} — video thumbnail`,
+    alt: `${THE_BEAUTIFUL_VS_THE_UGLY_IN_OUR_WORLD_3_HEADLINE} (video thumbnail)`,
     width: 480,
     height: 360,
   },
@@ -78,7 +78,7 @@ const faqLd = faqPageJsonLd(PATH, THE_BEAUTIFUL_VS_THE_UGLY_IN_OUR_WORLD_3_FAQ);
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: "The Beautiful vs. the Ugly in Our World — Neothink Philosophy (Mark Hamilton)",
+  name: "The Beautiful vs. the Ugly in Our World: Neothink Philosophy (Mark Hamilton)",
   description: THE_BEAUTIFUL_VS_THE_UGLY_IN_OUR_WORLD_3_META_DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${THE_BEAUTIFUL_VS_THE_UGLY_IN_OUR_WORLD_3_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${THE_BEAUTIFUL_VS_THE_UGLY_IN_OUR_WORLD_3_YOUTUBE_ID}/maxresdefault.jpg`,

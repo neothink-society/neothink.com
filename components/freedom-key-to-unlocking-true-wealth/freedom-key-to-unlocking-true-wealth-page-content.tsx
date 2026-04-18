@@ -113,7 +113,7 @@ export function FreedomKeyToUnlockingTrueWealthPageContent() {
         <section className="nu-awakening-video nu-reveal" aria-label="Video">
           <div className="nu-awakening-video-frame">
             <iframe
-              title="Freedom and true wealth — Mark Hamilton"
+              title="Freedom and true wealth, Mark Hamilton"
               src={embedUrl}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen

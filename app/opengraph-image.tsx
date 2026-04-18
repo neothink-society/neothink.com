@@ -3,7 +3,7 @@ import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 
 export const alt =
-  "Neothink Institute — The Intellectual Foundation for the Next Stage of Human Civilization";
+  "Neothink Institute: The Intellectual Foundation for the Next Stage of Human Civilization";
 
 export const size = {
   width: 1200,

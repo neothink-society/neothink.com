@@ -20,7 +20,7 @@ const CANONICAL = `${siteConfig.url}${PATH}`;
 export const metadata = pageMetadata({
   title: "Keep the Balance | Neothink Mentality Lesson 13 | Neothink Institute",
   description:
-    "Lesson 13 (Neothink Institute): harmonize value creation with value reflection—family, health, and happiness as you get busier; video on YouTube (rpQMiAdKD0c) features Mark Hamilton.",
+    "Lesson 13 (Neothink Institute): harmonize value creation with value reflection, family, health, and happiness as you get busier; video on YouTube (rpQMiAdKD0c) features Mark Hamilton.",
   pathname: PATH,
   ogType: "article",
   article: {
@@ -39,7 +39,7 @@ const pageLd = webPageJsonLd({
   pathname: PATH,
   name: "Keep the Balance | Neothink Mentality Lesson 13",
   description:
-    "Value creation vs value reflection, left-brain busy reflex, and balance as a happiness compass—lesson 13 essay and FAQ by Neothink Institute.",
+    "Value creation vs value reflection, left-brain busy reflex, and balance as a happiness compass: lesson 13 essay and FAQ by Neothink Institute.",
   datePublished: KEEP_THE_BALANCE_LESSON.datePublished,
   dateModified: KEEP_THE_BALANCE_LESSON.dateModified,
   aboutId: schemaIds.neothinkSystem,

@@ -62,7 +62,7 @@ const migratedForSchema = NEOTHINK_CONCEPTS_SERIES_POSTS.filter((p) =>
 const seriesListLd = itemListJsonLd(
   PATH,
   "concepts-series-migrated",
-  `${NEOTHINK_CONCEPTS_CATEGORY_TITLE} — articles on ${siteConfig.url.replace(/^https?:\/\//, "")}`,
+  `${NEOTHINK_CONCEPTS_CATEGORY_TITLE}: articles on ${siteConfig.url.replace(/^https?:\/\//, "")}`,
   "Neothink Concepts posts available as native Next.js articles (same slugs as WordPress).",
   migratedForSchema
 );

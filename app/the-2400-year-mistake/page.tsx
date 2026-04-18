@@ -38,7 +38,7 @@ export const metadata = pageMetadata({
   pathname: PATH,
     articleOgImage: {
     src: `https://i.ytimg.com/vi/${THE_2400_YEAR_MISTAKE_YOUTUBE_ID}/hqdefault.jpg`,
-    alt: `${THE_2400_YEAR_MISTAKE_HEADLINE} — video thumbnail`,
+    alt: `${THE_2400_YEAR_MISTAKE_HEADLINE} (video thumbnail)`,
     width: 480,
     height: 360,
   },
@@ -80,7 +80,7 @@ const faqLd = faqPageJsonLd(PATH, THE_2400_YEAR_MISTAKE_FAQ);
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: "The 2,400-Year Mistake That Hijacked Western Civilization — Neothink Society address (Mark Hamilton)",
+  name: "The 2,400-Year Mistake That Hijacked Western Civilization: Neothink Society address (Mark Hamilton)",
   description: THE_2400_YEAR_MISTAKE_META_DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${THE_2400_YEAR_MISTAKE_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${THE_2400_YEAR_MISTAKE_YOUTUBE_ID}/maxresdefault.jpg`,

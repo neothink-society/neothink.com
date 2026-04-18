@@ -78,7 +78,7 @@ const faqLd = faqPageJsonLd(PATH, FKTUW_FAQ);
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: `${FKTUW_META_TITLE} — video | Neothink Institute`,
+  name: `${FKTUW_META_TITLE} | Neothink Institute`,
   description: DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${FKTUW_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${FKTUW_YOUTUBE_ID}/maxresdefault.jpg`,

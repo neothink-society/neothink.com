@@ -22,7 +22,7 @@ export function TrumpsVictoryBeginningNewEraPageContent() {
       image={TVBNE_IMAGE}
       minReadLabel={TVBNE_MIN_READ}
       youtubeId={TVBNE_YOUTUBE_ID}
-      videoTitle={`${TVBNE_HEADLINE} — Mark Hamilton`}
+      videoTitle={`${TVBNE_HEADLINE}, Mark Hamilton`}
       quickAnswer={{
         kicker: TVBNE_QUICK_ANSWER_KICKER,
         title: TVBNE_QUICK_ANSWER_TITLE,

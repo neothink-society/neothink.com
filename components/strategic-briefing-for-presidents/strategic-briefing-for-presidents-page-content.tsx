@@ -26,7 +26,7 @@ export function StrategicBriefingForPresidentsPageContent() {
       quickTitle="What Is the Unified Field of Human Consciousness?"
       quickAnswerHtml={STRATEGIC_BRIEFING_FOR_PRESIDENTS_QUICK_ANSWER_HTML}
       youtubeId={STRATEGIC_BRIEFING_FOR_PRESIDENTS_YOUTUBE_ID}
-      videoTitle="A Strategic Briefing for Presidents — Neothink Society address"
+      videoTitle="A Strategic Briefing for Presidents: Neothink Society address"
       bodyHtml={STRATEGIC_BRIEFING_FOR_PRESIDENTS_BODY_HTML}
       faqHeadingId="sbfp-faq-heading"
       faqLead={

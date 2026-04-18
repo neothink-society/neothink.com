@@ -44,7 +44,7 @@ function paragraphWithLinks(entryId: string, index: number, text: string): React
 
   if (entryId === "formula-cure-aging" && index === 1) {
     const before =
-      "It is described in connection with the Neothink Country / Immortalis vision—rapid, benevolent progress. For the public lesson that overlaps this theme on this site, see the ";
+      "It is described in connection with the Neothink Country / Immortalis vision: rapid, benevolent progress. For the public lesson that overlaps this theme on this site, see the ";
     const after = ".";
     const needle = "Neothink Mentality module on curing aging";
     if (text.startsWith(before) && text.endsWith(after) && text.includes(needle)) {
@@ -226,7 +226,7 @@ export function FaqPageContent() {
           <h2 id="faq-sec-heading">Where to go next</h2>
           <p className="nu-secondary-lead">
             Public research and lessons stay on the Institute side; paid Society programs and private communities are
-            separate paths—this FAQ is only an orientation.
+            separate paths. This FAQ is only an orientation.
           </p>
           <div className="nu-secondary-grid">
             {SECONDARY.map((s) => (

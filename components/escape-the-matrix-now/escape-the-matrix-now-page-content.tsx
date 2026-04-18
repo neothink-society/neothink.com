@@ -21,7 +21,7 @@ export function EscapeTheMatrixNowPageContent() {
       image={EMN_IMAGE}
       minReadLabel={EMN_MIN_READ}
       youtubeId={EMN_YOUTUBE_ID}
-      videoTitle={`${EMN_HEADLINE} — Mark Hamilton`}
+      videoTitle={`${EMN_HEADLINE}, Mark Hamilton`}
       quickAnswer={{
         kicker: EMN_QUICK_ANSWER_KICKER,
         title: EMN_QUICK_ANSWER_TITLE,

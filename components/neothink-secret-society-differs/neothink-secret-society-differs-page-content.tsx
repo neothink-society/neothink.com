@@ -185,7 +185,7 @@ export function NeothinkSecretSocietyDiffersPageContent() {
               </div>
               <div className="nu-secondary-card">
                 <h3>Invitation letters</h3>
-                <p>Receiving an invitation—what to consider.</p>
+                <p>Receiving an invitation: what to consider.</p>
                 <Link href={WP.secretSocietyInvitationLetter}>Read article</Link>
               </div>
             </div>

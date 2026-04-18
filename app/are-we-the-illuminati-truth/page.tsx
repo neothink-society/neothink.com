@@ -79,7 +79,7 @@ const faqLd = faqPageJsonLd(PATH, AWTI_FAQ);
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: `${AWTI_META_TITLE} — video | Neothink Institute`,
+  name: `${AWTI_META_TITLE} | Neothink Institute`,
   description: DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${AWTI_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${AWTI_YOUTUBE_ID}/maxresdefault.jpg`,

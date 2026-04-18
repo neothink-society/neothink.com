@@ -36,7 +36,7 @@ export const metadata = pageMetadata({
   pathname: PATH,
     articleOgImage: {
     src: `https://i.ytimg.com/vi/${LIBERTARIANS_NEXT_BIG_POSSIBILITY_YOUTUBE_ID}/hqdefault.jpg`,
-    alt: `${LIBERTARIANS_NEXT_BIG_POSSIBILITY_HEADLINE} — video thumbnail`,
+    alt: `${LIBERTARIANS_NEXT_BIG_POSSIBILITY_HEADLINE} (video thumbnail)`,
     width: 480,
     height: 360,
   },
@@ -78,7 +78,7 @@ const faqLd = faqPageJsonLd(PATH, LIBERTARIANS_NEXT_BIG_POSSIBILITY_FAQ);
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: "Libertarians’ Next Big Possibility — Neothink Society address (Mark Hamilton)",
+  name: "Libertarians’ Next Big Possibility: Neothink Society address (Mark Hamilton)",
   description: LIBERTARIANS_NEXT_BIG_POSSIBILITY_META_DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${LIBERTARIANS_NEXT_BIG_POSSIBILITY_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${LIBERTARIANS_NEXT_BIG_POSSIBILITY_YOUTUBE_ID}/maxresdefault.jpg`,

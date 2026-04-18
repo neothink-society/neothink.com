@@ -22,7 +22,7 @@ export function NewCountryWithNoTaxesPageContent() {
       image={NCNT_IMAGE}
       minReadLabel={NCNT_MIN_READ}
       youtubeId={NCNT_YOUTUBE_ID}
-      videoTitle={`${NCNT_HEADLINE} — Mark Hamilton`}
+      videoTitle={`${NCNT_HEADLINE}, Mark Hamilton`}
       quickAnswer={{
         kicker: NCNT_QUICK_ANSWER_KICKER,
         title: NCNT_QUICK_ANSWER_TITLE,

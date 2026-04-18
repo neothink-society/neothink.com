@@ -38,7 +38,7 @@ export const metadata = pageMetadata({
   pathname: PATH,
     articleOgImage: {
     src: `https://i.ytimg.com/vi/${BUILDING_THE_ENGINE_BEHIND_IMMORTALIS_YOUTUBE_ID}/hqdefault.jpg`,
-    alt: `${BUILDING_THE_ENGINE_BEHIND_IMMORTALIS_HEADLINE} — video thumbnail`,
+    alt: `${BUILDING_THE_ENGINE_BEHIND_IMMORTALIS_HEADLINE} (video thumbnail)`,
     width: 480,
     height: 360,
   },
@@ -80,7 +80,7 @@ const faqLd = faqPageJsonLd(PATH, BUILDING_THE_ENGINE_BEHIND_IMMORTALIS_FAQ);
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: "Building the Engine Behind Immortalis — Neothink Society address (Mark Hamilton)",
+  name: "Building the Engine Behind Immortalis: Neothink Society address (Mark Hamilton)",
   description: BUILDING_THE_ENGINE_BEHIND_IMMORTALIS_META_DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${BUILDING_THE_ENGINE_BEHIND_IMMORTALIS_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${BUILDING_THE_ENGINE_BEHIND_IMMORTALIS_YOUTUBE_ID}/maxresdefault.jpg`,

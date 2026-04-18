@@ -36,7 +36,7 @@ export const metadata = pageMetadata({
   pathname: PATH,
     articleOgImage: {
     src: `https://i.ytimg.com/vi/${WHAT_ALL_PHILOSOPHIES_GET_WRONG_YOUTUBE_ID}/hqdefault.jpg`,
-    alt: `${WHAT_ALL_PHILOSOPHIES_GET_WRONG_HEADLINE} — video thumbnail`,
+    alt: `${WHAT_ALL_PHILOSOPHIES_GET_WRONG_HEADLINE} (video thumbnail)`,
     width: 480,
     height: 360,
   },
@@ -78,7 +78,7 @@ const faqLd = faqPageJsonLd(PATH, WHAT_ALL_PHILOSOPHIES_GET_WRONG_FAQ);
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: "What All Philosophies Get Wrong — Neothink Society address (Mark Hamilton)",
+  name: "What All Philosophies Get Wrong: Neothink Society address (Mark Hamilton)",
   description: WHAT_ALL_PHILOSOPHIES_GET_WRONG_META_DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${WHAT_ALL_PHILOSOPHIES_GET_WRONG_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${WHAT_ALL_PHILOSOPHIES_GET_WRONG_YOUTUBE_ID}/maxresdefault.jpg`,

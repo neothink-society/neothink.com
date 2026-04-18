@@ -22,7 +22,7 @@ export function WhyNeothinkMakesYouIrresistiblePageContent() {
       image={WNMYI_IMAGE}
       minReadLabel={WNMYI_MIN_READ}
       youtubeId={WNMYI_YOUTUBE_ID}
-      videoTitle={`${WNMYI_HEADLINE} — Mark Hamilton`}
+      videoTitle={`${WNMYI_HEADLINE}, Mark Hamilton`}
       quickAnswer={{
         kicker: WNMYI_QUICK_ANSWER_KICKER,
         title: WNMYI_QUICK_ANSWER_TITLE,

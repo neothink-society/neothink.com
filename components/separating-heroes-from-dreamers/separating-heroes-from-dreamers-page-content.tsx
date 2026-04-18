@@ -21,7 +21,7 @@ export function SeparatingHeroesFromDreamersPageContent() {
       image={SHFD_IMAGE}
       minReadLabel={SHFD_MIN_READ}
       youtubeId={SHFD_YOUTUBE_ID}
-      videoTitle={`${SHFD_HEADLINE} — Mark Hamilton`}
+      videoTitle={`${SHFD_HEADLINE}, Mark Hamilton`}
       quickAnswer={{
         kicker: SHFD_QUICK_ANSWER_KICKER,
         title: SHFD_QUICK_ANSWER_TITLE,

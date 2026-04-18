@@ -79,7 +79,7 @@ const faqLd = faqPageJsonLd(PATH, PMLEA_FAQ);
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: `${PMLEA_META_TITLE} — video | Neothink Institute`,
+  name: `${PMLEA_META_TITLE} | Neothink Institute`,
   description: DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${PMLEA_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${PMLEA_YOUTUBE_ID}/maxresdefault.jpg`,

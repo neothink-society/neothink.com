@@ -21,7 +21,7 @@ export function TheFutureOfHumanityBuildingANewCountryWithoutRulersPageContent()
       image={FHBNCWR_IMAGE}
       minReadLabel={FHBNCWR_MIN_READ}
       youtubeId={FHBNCWR_YOUTUBE_ID}
-      videoTitle={`${FHBNCWR_HEADLINE} — Mark Hamilton`}
+      videoTitle={`${FHBNCWR_HEADLINE}, Mark Hamilton`}
       quickAnswer={{
         kicker: FHBNCWR_QUICK_ANSWER_KICKER,
         title: FHBNCWR_QUICK_ANSWER_TITLE,

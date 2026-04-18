@@ -86,7 +86,7 @@ export function NeothinkPhilosophyLongformPageContent({
 
   useEffect(() => {
     // Make any wide tables from migrated WordPress HTML keyboard-accessible
-    // scrollable regions (WCAG 2.1 — scrollable-region-focusable). We wrap each
+    // scrollable regions (WCAG 2.1: scrollable-region-focusable). We wrap each
     // table in a focusable container rather than setting tabindex on the table
     // itself so screen readers still read it as a table.
     const root = mainRef.current;

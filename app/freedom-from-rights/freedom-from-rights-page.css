@@ -494,7 +494,7 @@
   }
 }
 
-/* Prime Law pull-quote — high contrast for legal text */
+/* Prime Law pull-quote: high contrast for legal text */
 .ffr-page .ffr-prime-law {
   background: #1a1917;
   color: #f2f0eb;
@@ -521,7 +521,7 @@
   letter-spacing: 0.14em;
   text-transform: uppercase;
   text-align: center;
-  /* Display gold on dark prime-law card — see .ffr-prime-law-preamble
+  /* Display gold on dark prime-law card: see .ffr-prime-law-preamble
    * strong below for rationale. Needs the .ffr-prose specificity bump
    * to beat `.ffr-prose p { color: var(--ffr-body) }` from the body rule. */
   color: var(--ffr-gold);
@@ -548,7 +548,7 @@
 }
 
 .ffr-page .ffr-prime-law-preamble strong {
-  /* Display gold on dark bg — gold-deep (#7A6528) fails 4.5:1 against
+  /* Display gold on dark bg: gold-deep (#7A6528) fails 4.5:1 against
    * the preamble's near-black surface. Display gold (#B8973A) hits 5.5:1
    * which passes AA normal text and preserves the brand accent. */
   color: var(--ffr-gold);

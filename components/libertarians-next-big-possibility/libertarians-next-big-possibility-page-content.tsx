@@ -26,7 +26,7 @@ export function LibertariansNextBigPossibilityPageContent() {
       quickTitle="What Is Libertarians’ Next Big Possibility?"
       quickAnswerHtml={LIBERTARIANS_NEXT_BIG_POSSIBILITY_QUICK_ANSWER_HTML}
       youtubeId={LIBERTARIANS_NEXT_BIG_POSSIBILITY_YOUTUBE_ID}
-      videoTitle="Libertarians’ Next Big Possibility — Neothink Society address"
+      videoTitle="Libertarians’ Next Big Possibility: Neothink Society address"
       bodyHtml={LIBERTARIANS_NEXT_BIG_POSSIBILITY_BODY_HTML}
       faqHeadingId="lnb-faq-heading"
       faqLead={

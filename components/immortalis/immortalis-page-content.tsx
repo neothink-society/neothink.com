@@ -26,13 +26,13 @@ const SECONDARY = [
   },
   {
     title: "Prime Law",
-    body: "The constitutional baseline behind the Immortalis vision—non-initiation of force.",
+    body: "The constitutional baseline behind the Immortalis vision: non-initiation of force.",
     href: WP.primeLaw,
     cta: "Read the Prime Law",
   },
   {
     title: "Neothink University",
-    body: "Paid Society programs with mentoring—separate from the free public learning hub.",
+    body: "Paid Society programs with mentoring, separate from the free public learning hub.",
     href: WP.neothinkUniversity,
     cta: "Neothink University",
   },
@@ -118,7 +118,7 @@ export function ImmortalisPageContent() {
           <header className="nu-resources-header">
             <span className="nu-section-label">Citizens</span>
             <h2 id="im-benefits-heading">Benefits of aligning with Immortalis</h2>
-            <p>Life in Immortalis is described as offering these advantages—summary of the legacy page, edited for clarity.</p>
+            <p>Life in Immortalis is described as offering these advantages: summary of the legacy page, edited for clarity.</p>
           </header>
           <div className="im-benefits-visual nu-reveal">
             <Image
@@ -197,7 +197,7 @@ export function ImmortalisPageContent() {
             <span className="nu-section-label">Voices</span>
             <h2 id="im-testimonials-heading">Real stories, real transformation</h2>
             <p>
-              Discover how the Neothink Society has helped members unlock their potential—the same member carousel as on
+              Discover how the Neothink Society has helped members unlock their potential: the same member carousel as on
               the legacy Immortalis page ({IMMORTALIS_TESTIMONIALS.length} voices). Use arrows, dots, or keyboard; pause
               auto-advance anytime.
             </p>
@@ -229,7 +229,7 @@ export function ImmortalisPageContent() {
         <div className="nu-cta-inner">
           <h2>The idea system behind the vision</h2>
           <p>
-            Immortalis sits alongside the Neothink Institute’s published framework—consciousness, integration, and
+            Immortalis sits alongside the Neothink Institute’s published framework: consciousness, integration, and
             non-aggression as structural themes.
           </p>
           <div className="nu-cta-links">

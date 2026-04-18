@@ -38,7 +38,7 @@ export const metadata = pageMetadata({
   pathname: PATH,
     articleOgImage: {
     src: `https://i.ytimg.com/vi/${SPREADING_IMMORTALIS_TO_WORLD_LEADERS_YOUTUBE_ID}/hqdefault.jpg`,
-    alt: `${SPREADING_IMMORTALIS_TO_WORLD_LEADERS_HEADLINE} — video thumbnail`,
+    alt: `${SPREADING_IMMORTALIS_TO_WORLD_LEADERS_HEADLINE} (video thumbnail)`,
     width: 480,
     height: 360,
   },
@@ -80,7 +80,7 @@ const faqLd = faqPageJsonLd(PATH, SPREADING_IMMORTALIS_TO_WORLD_LEADERS_FAQ);
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: "Spreading Immortalis to World Leaders — Neothink Society address (Mark Hamilton)",
+  name: "Spreading Immortalis to World Leaders: Neothink Society address (Mark Hamilton)",
   description: SPREADING_IMMORTALIS_TO_WORLD_LEADERS_META_DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${SPREADING_IMMORTALIS_TO_WORLD_LEADERS_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${SPREADING_IMMORTALIS_TO_WORLD_LEADERS_YOUTUBE_ID}/maxresdefault.jpg`,

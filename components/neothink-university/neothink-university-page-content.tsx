@@ -18,7 +18,7 @@ import { WP } from "@/lib/wordpress-routes";
 const SECONDARY = [
   {
     title: "Free learning hub",
-    body: "Public courses, manuscripts, essays, and media—start without a paywall on the core library.",
+    body: "Public courses, manuscripts, essays, and media: start without a paywall on the core library.",
     href: WP.freeCourses,
     cta: "Open free courses",
   },
@@ -97,7 +97,7 @@ export function NeothinkUniversityPageContent() {
             <h2 id="nu-programs-heading">What we offer</h2>
             <p>
               Key paid programs at Neothink University. Offerings are tailored to members; pricing, enrollment, and pacing
-              are handled through Neothink Society channels—not as free public courses.
+              are handled through Neothink Society channels, not as free public courses.
             </p>
           </header>
           <div className="nu-resource-grid">
@@ -134,7 +134,7 @@ export function NeothinkUniversityPageContent() {
           <h2 id="nu-why-heading">Why choose The Neothink Society?</h2>
           <p className="nu-secondary-lead">
             We built The Neothink Society on the foundation of enhancing lives. Many members have been with us for
-            years—some for decades—finding value and growth through our programs.
+            years, some for decades, finding value and growth through our programs.
           </p>
           <div className="nu-secondary-grid">
             {NEOTHINK_UNIVERSITY_WHY_SOCIETY.map((w) => (
@@ -176,7 +176,7 @@ export function NeothinkUniversityPageContent() {
             <h2 id="nu-testimonials-heading">Real stories, real transformation</h2>
             <p>
               Discover how the Neothink Society has helped members unlock their potential, overcome challenges, and
-              achieve success—the same member stories as on the original site ({NEOTHINK_UNIVERSITY_TESTIMONIALS.length}{" "}
+              achieve success: the same member stories as on the original site ({NEOTHINK_UNIVERSITY_TESTIMONIALS.length}{" "}
               voices). Use the arrows, dot strip, or keyboard (arrow keys when the carousel is focused). You can pause
               auto-advance with the pause control.
             </p>
@@ -208,8 +208,8 @@ export function NeothinkUniversityPageContent() {
         <div className="nu-cta-inner">
           <h2>The idea system behind the University</h2>
           <p>
-            Neothink University applies the same integrated idea system the Neothink Institute publishes publicly—here
-            delivered as paid, mentored Society programs rather than free site content alone.
+            Neothink University applies the same integrated idea system the Neothink Institute publishes publicly,
+            delivered here as paid, mentored Society programs rather than free site content alone.
           </p>
           <div className="nu-cta-links">
             <Link href={WP.neothink}>Neothink</Link>

@@ -22,7 +22,7 @@ export function ThinkLikeElonMuskMindHacksPageContent() {
       image={TLEMMH_IMAGE}
       minReadLabel={TLEMMH_MIN_READ}
       youtubeId={TLEMMH_YOUTUBE_ID}
-      videoTitle={`${TLEMMH_HEADLINE} — Mark Hamilton`}
+      videoTitle={`${TLEMMH_HEADLINE}, Mark Hamilton`}
       quickAnswer={{
         kicker: TLEMMH_QUICK_ANSWER_KICKER,
         title: TLEMMH_QUICK_ANSWER_TITLE,

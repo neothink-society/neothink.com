@@ -26,7 +26,7 @@ export function TheJobRevolutionPageContent() {
       quickTitle="What Is the Job Revolution?"
       quickAnswerHtml={THE_JOB_REVOLUTION_QUICK_ANSWER_HTML}
       youtubeId={THE_JOB_REVOLUTION_YOUTUBE_ID}
-      videoTitle="The Job Revolution — Neothink Society address"
+      videoTitle="The Job Revolution: Neothink Society address"
       bodyHtml={THE_JOB_REVOLUTION_BODY_HTML}
       faqHeadingId="tjr-faq-heading"
       faqLead={

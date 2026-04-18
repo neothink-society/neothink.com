@@ -36,7 +36,7 @@ export const metadata = pageMetadata({
   pathname: PATH,
     articleOgImage: {
     src: `https://i.ytimg.com/vi/${A_NEW_COUNTRY_THE_GREAT_EXPERIMENT_CALLED_IMMORTALIS_YOUTUBE_ID}/hqdefault.jpg`,
-    alt: `${A_NEW_COUNTRY_THE_GREAT_EXPERIMENT_CALLED_IMMORTALIS_HEADLINE} — video thumbnail`,
+    alt: `${A_NEW_COUNTRY_THE_GREAT_EXPERIMENT_CALLED_IMMORTALIS_HEADLINE} (video thumbnail)`,
     width: 480,
     height: 360,
   },
@@ -78,7 +78,7 @@ const faqLd = faqPageJsonLd(PATH, A_NEW_COUNTRY_THE_GREAT_EXPERIMENT_CALLED_IMMO
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: "A New Country: The Great Experiment Called Immortalis — Neothink Philosophy (Mark Hamilton)",
+  name: "A New Country: The Great Experiment Called Immortalis: Neothink Philosophy (Mark Hamilton)",
   description: A_NEW_COUNTRY_THE_GREAT_EXPERIMENT_CALLED_IMMORTALIS_META_DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${A_NEW_COUNTRY_THE_GREAT_EXPERIMENT_CALLED_IMMORTALIS_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${A_NEW_COUNTRY_THE_GREAT_EXPERIMENT_CALLED_IMMORTALIS_YOUTUBE_ID}/maxresdefault.jpg`,

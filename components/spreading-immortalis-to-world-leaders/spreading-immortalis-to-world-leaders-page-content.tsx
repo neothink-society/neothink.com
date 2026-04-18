@@ -26,7 +26,7 @@ export function SpreadingImmortalisToWorldLeadersPageContent() {
       quickTitle="How Is Immortalis Reaching World Leaders?"
       quickAnswerHtml={SPREADING_IMMORTALIS_TO_WORLD_LEADERS_QUICK_ANSWER_HTML}
       youtubeId={SPREADING_IMMORTALIS_TO_WORLD_LEADERS_YOUTUBE_ID}
-      videoTitle="Spreading Immortalis to World Leaders — Neothink Society address"
+      videoTitle="Spreading Immortalis to World Leaders: Neothink Society address"
       bodyHtml={SPREADING_IMMORTALIS_TO_WORLD_LEADERS_BODY_HTML}
       faqHeadingId="siwl-faq-heading"
       faqLead={

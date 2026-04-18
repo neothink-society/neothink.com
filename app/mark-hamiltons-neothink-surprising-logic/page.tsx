@@ -46,7 +46,7 @@ export const metadata = pageMetadata({
 
 const breadcrumbs = breadcrumbListJsonLd([
   { name: "Home", path: "/" },
-  { name: "Mark Hamilton’s Neothink — surprising logic", path: PATH },
+  { name: "Mark Hamilton’s Neothink: surprising logic", path: PATH },
 ]);
 
 const pageLd = webPageJsonLd({

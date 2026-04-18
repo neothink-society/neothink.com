@@ -36,7 +36,7 @@ export const metadata = pageMetadata({
   pathname: PATH,
     articleOgImage: {
     src: `https://i.ytimg.com/vi/${THE_GRAND_EXPERIMENT_OF_OUR_TIME_YOUTUBE_ID}/hqdefault.jpg`,
-    alt: `${THE_GRAND_EXPERIMENT_OF_OUR_TIME_HEADLINE} — video thumbnail`,
+    alt: `${THE_GRAND_EXPERIMENT_OF_OUR_TIME_HEADLINE} (video thumbnail)`,
     width: 480,
     height: 360,
   },
@@ -78,7 +78,7 @@ const faqLd = faqPageJsonLd(PATH, THE_GRAND_EXPERIMENT_OF_OUR_TIME_FAQ);
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: "The Grand Experiment of Our Time — Neothink Society address (Mark Hamilton)",
+  name: "The Grand Experiment of Our Time: Neothink Society address (Mark Hamilton)",
   description: THE_GRAND_EXPERIMENT_OF_OUR_TIME_META_DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${THE_GRAND_EXPERIMENT_OF_OUR_TIME_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${THE_GRAND_EXPERIMENT_OF_OUR_TIME_YOUTUBE_ID}/maxresdefault.jpg`,

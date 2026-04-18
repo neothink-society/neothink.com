@@ -12,7 +12,7 @@ const PATH = "/neothink-reviews";
 const PAGE_URL = `${siteConfig.url}${PATH}`;
 
 const DESCRIPTION =
-  "Neothink reviews and member stories—sample voices from the Neothink Society ecosystem, plus links to larger legacy archives. Published on neothink.com by the Neothink Institute as public context; not third-party verified ratings.";
+  "Neothink reviews and member stories: sample voices from the Neothink Society ecosystem, plus links to larger legacy archives. Published on neothink.com by the Neothink Institute as public context; not third-party verified ratings.";
 
 const SPEAKABLE_NR = [
   "main#main-content h1",

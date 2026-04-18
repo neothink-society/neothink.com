@@ -12,7 +12,7 @@ const PATH = "/faq";
 const PAGE_URL = `${siteConfig.url}${PATH}`;
 
 const DESCRIPTION =
-  "Frequently asked questions about the Neothink Society—programs, Project Life, Neothink Country, Ascension, and how to get oriented. Published by the Neothink Institute on neothink.com as public context; membership and product details are handled through Society channels.";
+  "Frequently asked questions about the Neothink Society: programs, Project Life, Neothink Country, Ascension, and how to get oriented. Published by the Neothink Institute on neothink.com as public context; membership and product details are handled through Society channels.";
 
 const SPEAKABLE_FAQ = [
   "main#main-content h1",

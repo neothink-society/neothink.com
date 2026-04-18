@@ -77,7 +77,7 @@ export function ReprogramMindToBeRichPageContent() {
             <p key={idx} className="nu-hero-sub" id={idx === 0 ? "rmtbr-intro-lead" : undefined}>
               {idx === 1 ? (
                 <>
-                  Mark Hamilton discovered a fundamentally different approach to using the human mind—one that took him
+                  Mark Hamilton discovered a fundamentally different approach to using the human mind: one that took him
                   from the edge of bankruptcy to <strong>$350 million in sales</strong>. He called it{" "}
                   <strong>Neothink</strong>.
                 </>
@@ -115,7 +115,7 @@ export function ReprogramMindToBeRichPageContent() {
           <p className="nu-awakening-kicker">Quick answer</p>
           <h2 id="rmtbr-quick-title">How can you reprogram your mind to be rich?</h2>
           <p>
-            <strong>Through Neothink—a limitless way of thinking that starts simple and scales infinitely.</strong>{" "}
+            <strong>Through Neothink: a limitless way of thinking that starts simple and scales infinitely.</strong>{" "}
             <Link href={LUCK_350M} style={{ color: "#7A6528" }}>
               Mark Hamilton
             </Link>{" "}
@@ -133,7 +133,7 @@ export function ReprogramMindToBeRichPageContent() {
         <section className="nu-awakening-video nu-reveal" aria-label="Video">
           <div className="nu-awakening-video-frame">
             <iframe
-              title="Reprogram your mind to be rich — Mark Hamilton"
+              title="Reprogram your mind to be rich, Mark Hamilton"
               src={embedUrl}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen

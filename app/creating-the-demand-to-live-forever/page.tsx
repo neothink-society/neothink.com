@@ -38,7 +38,7 @@ export const metadata = pageMetadata({
   pathname: PATH,
     articleOgImage: {
     src: `https://i.ytimg.com/vi/${CREATING_THE_DEMAND_TO_LIVE_FOREVER_YOUTUBE_ID}/hqdefault.jpg`,
-    alt: `${CREATING_THE_DEMAND_TO_LIVE_FOREVER_HEADLINE} — video thumbnail`,
+    alt: `${CREATING_THE_DEMAND_TO_LIVE_FOREVER_HEADLINE} (video thumbnail)`,
     width: 480,
     height: 360,
   },
@@ -80,7 +80,7 @@ const faqLd = faqPageJsonLd(PATH, CREATING_THE_DEMAND_TO_LIVE_FOREVER_FAQ);
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: "Creating the Demand to Live Forever — Neothink Society address (Mark Hamilton)",
+  name: "Creating the Demand to Live Forever: Neothink Society address (Mark Hamilton)",
   description: CREATING_THE_DEMAND_TO_LIVE_FOREVER_META_DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${CREATING_THE_DEMAND_TO_LIVE_FOREVER_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${CREATING_THE_DEMAND_TO_LIVE_FOREVER_YOUTUBE_ID}/maxresdefault.jpg`,

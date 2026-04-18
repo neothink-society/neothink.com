@@ -21,7 +21,7 @@ export function PhilosopherMakeYourLifeExcitingAgainDoThisPageContent() {
       image={PMLEA_IMAGE}
       minReadLabel={PMLEA_MIN_READ}
       youtubeId={PMLEA_YOUTUBE_ID}
-      videoTitle={`${PMLEA_HEADLINE} — Mark Hamilton`}
+      videoTitle={`${PMLEA_HEADLINE}, Mark Hamilton`}
       quickAnswer={{
         kicker: PMLEA_QUICK_ANSWER_KICKER,
         title: PMLEA_QUICK_ANSWER_TITLE,

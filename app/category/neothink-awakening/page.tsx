@@ -62,7 +62,7 @@ const migratedForSchema = NEOTHINK_AWAKENING_SERIES_POSTS.filter((p) =>
 const seriesListLd = itemListJsonLd(
   PATH,
   "awakening-series-migrated",
-  `${NEOTHINK_AWAKENING_CATEGORY_TITLE} — articles on ${siteConfig.url.replace(/^https?:\/\//, "")}`,
+  `${NEOTHINK_AWAKENING_CATEGORY_TITLE}: articles on ${siteConfig.url.replace(/^https?:\/\//, "")}`,
   "Neothink Awakening posts available as native Next.js articles (same slugs as WordPress).",
   migratedForSchema
 );

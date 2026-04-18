@@ -26,7 +26,7 @@ export function TheMissingKeyToUniversalProsperityPageContent() {
       quickTitle="What Is the Missing Key to Universal Prosperity?"
       quickAnswerHtml={MKUP_QUICK_ANSWER_HTML}
       youtubeId={MKUP_YOUTUBE_ID}
-      videoTitle="The Missing Key to Universal Prosperity — Neothink Society address"
+      videoTitle="The Missing Key to Universal Prosperity: Neothink Society address"
       bodyHtml={MISSING_KEY_UNIVERSAL_PROSPERITY_BODY_HTML}
       faqHeadingId="mkup-faq-heading"
       faqLead={

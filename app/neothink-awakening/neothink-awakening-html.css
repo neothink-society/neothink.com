@@ -21,7 +21,7 @@
  * Tailwind's preflight resets h1–h6 to inherit font-size/weight and
  * zeroes p margins. The migrated HTML uses `.elementor-heading-title`
  * and `.elementor-widget-text-editor > p` which relied on Elementor's
- * own CSS for type scale and vertical rhythm — which we don't ship.
+ * own CSS for type scale and vertical rhythm (which we don't ship).
  *
  * These rules restore proper heading sizes, paragraph spacing, and
  * list styling for the plain-prose flow of each post. They are scoped
@@ -99,7 +99,7 @@
  * rule beats in on heading margin. `.elementor-widget-heading` wraps the
  * heading element; the heading's own margin already handles the gap. */
 .nu-awakening-html .elementor-widget-heading + .elementor-widget-text-editor {
-  /* No extra gap — heading margin-bottom already provides it. */
+  /* No extra gap: heading margin-bottom already provides it. */
 }
 
 /* Blockquotes in plain-prose context. */
@@ -115,7 +115,7 @@
 }
 
 /* Emphasis inside plain prose. Intentionally does not override `color`
- * — nested callouts with dark backgrounds inherit cream text, and
+ * Nested callouts with dark backgrounds inherit cream text, and
  * forcing near-black on `<strong>` would fail WCAG contrast there. */
 .nu-awakening-html .elementor-widget-text-editor > .elementor-widget-container strong {
   font-weight: 700;
@@ -201,7 +201,7 @@
 }
 
 /* Byline credit links. A persistent underline is required so axe's
- * link-in-text-block rule (WCAG 1.4.1) passes — gold-on-body gold is
+ * link-in-text-block rule (WCAG 1.4.1) passes; gold-on-body gold is
  * ~2.0:1 which is below the 3:1 non-color-affordance threshold. */
 .nu-awakening-byline a {
   color: var(--nu-gold-deep);

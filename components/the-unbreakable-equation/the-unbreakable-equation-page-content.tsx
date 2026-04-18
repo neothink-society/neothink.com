@@ -26,7 +26,7 @@ export function TheUnbreakableEquationPageContent() {
       quickTitle="What Is the Unbreakable Equation?"
       quickAnswerHtml={THE_UNBREAKABLE_EQUATION_QUICK_ANSWER_HTML}
       youtubeId={THE_UNBREAKABLE_EQUATION_YOUTUBE_ID}
-      videoTitle="The Unbreakable Equation — Neothink Society address"
+      videoTitle="The Unbreakable Equation: Neothink Society address"
       bodyHtml={THE_UNBREAKABLE_EQUATION_BODY_HTML}
       faqHeadingId="ueq-faq-heading"
       faqLead={
@@ -41,7 +41,7 @@ export function TheUnbreakableEquationPageContent() {
       relatedCards={[
         {
           title: "What all philosophies get wrong",
-          description: "Why traditional philosophy fails — subtractive vs. additive progress.",
+          description: "Why traditional philosophy fails: subtractive vs. additive progress.",
           href: WP.whatAllPhilosophiesGetWrong,
           cta: "Read article",
         },

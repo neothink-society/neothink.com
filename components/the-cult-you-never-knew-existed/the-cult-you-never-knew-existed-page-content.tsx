@@ -26,7 +26,7 @@ export function TheCultYouNeverKnewExistedPageContent() {
       quickTitle="What Is the Cult We All Live In?"
       quickAnswerHtml={THE_CULT_YOU_NEVER_KNEW_EXISTED_QUICK_ANSWER_HTML}
       youtubeId={THE_CULT_YOU_NEVER_KNEW_EXISTED_YOUTUBE_ID}
-      videoTitle="The Cult You Never Knew Existed — Neothink Society address"
+      videoTitle="The Cult You Never Knew Existed: Neothink Society address"
       bodyHtml={THE_CULT_YOU_NEVER_KNEW_EXISTED_BODY_HTML}
       faqHeadingId="tcy-faq-heading"
       faqLead={

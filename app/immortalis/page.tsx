@@ -18,7 +18,7 @@ const PATH = "/immortalis";
 const PAGE_URL = `${siteConfig.url}${PATH}`;
 
 const DESCRIPTION =
-  "Immortalis is a Neothink Society vision for Neothink Country—freedom, innovation, and human flourishing—from digital community toward a physical society grounded in the Prime Law. Published on the Neothink Institute site as public context for the broader idea system.";
+  "Immortalis is a Neothink Society vision for Neothink Country: freedom, innovation, and human flourishing, from digital community toward a physical society grounded in the Prime Law. Published on the Neothink Institute site as public context for the broader idea system.";
 
 const SPEAKABLE_IM = [
   "main#main-content h1",
@@ -42,7 +42,7 @@ const breadcrumbs = breadcrumbListJsonLd([
 const benefitsListLd = itemListEntitiesJsonLd({
   pathname: PATH,
   listId: "citizen-benefits",
-  name: "Immortalis — described citizen benefits",
+  name: "Immortalis: described citizen benefits",
   description:
     "Benefits summarized on the Immortalis page: freedom, progress, wealth creation, health focus, peace, global network, and future-focused participation.",
   items: IMMORTALIS_CITIZEN_BENEFITS.map((b) => ({ name: b.title, description: b.body })),

@@ -25,7 +25,7 @@ export type LegalPageProps = {
   /** Short intro paragraph(s), rendered before the first section. */
   readonly intro: readonly ReactNode[];
   readonly sections: readonly LegalPageSection[];
-  /** Contact footer block — mailing address lines and support email. */
+  /** Contact footer block: mailing address lines and support email. */
   readonly contact: {
     readonly entity: string;
     readonly addressLines: readonly string[];

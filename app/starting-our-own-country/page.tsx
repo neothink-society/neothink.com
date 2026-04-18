@@ -36,7 +36,7 @@ export const metadata = pageMetadata({
   pathname: PATH,
     articleOgImage: {
     src: `https://i.ytimg.com/vi/${STARTING_OUR_OWN_COUNTRY_YOUTUBE_ID}/hqdefault.jpg`,
-    alt: `${STARTING_OUR_OWN_COUNTRY_HEADLINE} — video thumbnail`,
+    alt: `${STARTING_OUR_OWN_COUNTRY_HEADLINE} (video thumbnail)`,
     width: 480,
     height: 360,
   },
@@ -78,7 +78,7 @@ const faqLd = faqPageJsonLd(PATH, STARTING_OUR_OWN_COUNTRY_FAQ);
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: "Starting Our Own Country Is Closer Than You Think! — Neothink Philosophy (Mark Hamilton)",
+  name: "Starting Our Own Country Is Closer Than You Think!: Neothink Philosophy (Mark Hamilton)",
   description: STARTING_OUR_OWN_COUNTRY_META_DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${STARTING_OUR_OWN_COUNTRY_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${STARTING_OUR_OWN_COUNTRY_YOUTUBE_ID}/maxresdefault.jpg`,

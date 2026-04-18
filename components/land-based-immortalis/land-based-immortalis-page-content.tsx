@@ -26,7 +26,7 @@ export function LandBasedImmortalisPageContent() {
       quickTitle="What Is Land-Based Immortalis?"
       quickAnswerHtml={LAND_BASED_IMMORTALIS_QUICK_ANSWER_HTML}
       youtubeId={LAND_BASED_IMMORTALIS_YOUTUBE_ID}
-      videoTitle="Land-Based Immortalis — citizens meeting"
+      videoTitle="Land-Based Immortalis: citizens meeting"
       bodyHtml={LAND_BASED_IMMORTALIS_BODY_HTML}
       faqHeadingId="lbi-faq-heading"
       faqLead={

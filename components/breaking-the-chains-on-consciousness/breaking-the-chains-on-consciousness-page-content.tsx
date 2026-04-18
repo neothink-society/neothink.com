@@ -26,7 +26,7 @@ export function BreakingTheChainsOnConsciousnessPageContent() {
       quickTitle="What Are the Chains on Consciousness?"
       quickAnswerHtml={BREAKING_THE_CHAINS_ON_CONSCIOUSNESS_QUICK_ANSWER_HTML}
       youtubeId={BREAKING_THE_CHAINS_ON_CONSCIOUSNESS_YOUTUBE_ID}
-      videoTitle="Breaking The Chains On Consciousness — Neothink Society address"
+      videoTitle="Breaking The Chains On Consciousness: Neothink Society address"
       bodyHtml={BREAKING_THE_CHAINS_ON_CONSCIOUSNESS_BODY_HTML}
       faqHeadingId="btco-faq-heading"
       faqLead={

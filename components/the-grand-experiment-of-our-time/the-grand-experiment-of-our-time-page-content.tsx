@@ -26,7 +26,7 @@ export function TheGrandExperimentOfOurTimePageContent() {
       quickTitle="What Is the Grand Experiment of Our Time?"
       quickAnswerHtml={THE_GRAND_EXPERIMENT_OF_OUR_TIME_QUICK_ANSWER_HTML}
       youtubeId={THE_GRAND_EXPERIMENT_OF_OUR_TIME_YOUTUBE_ID}
-      videoTitle="The Grand Experiment of Our Time — Neothink Society address"
+      videoTitle="The Grand Experiment of Our Time: Neothink Society address"
       bodyHtml={THE_GRAND_EXPERIMENT_OF_OUR_TIME_BODY_HTML}
       faqHeadingId="geo-faq-heading"
       faqLead={

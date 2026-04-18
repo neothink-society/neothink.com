@@ -20,7 +20,7 @@ export function SellAnythingMarketingSecretPageContent() {
       introParas={SAMS_INTRO_PARAS}
       image={SAMS_IMAGE}
       minReadLabel={SAMS_MIN_READ}
-      videoTitle={`${SAMS_HEADLINE} — Mark Hamilton`}
+      videoTitle={`${SAMS_HEADLINE}, Mark Hamilton`}
       quickAnswer={{
         kicker: SAMS_QUICK_ANSWER_KICKER,
         title: SAMS_QUICK_ANSWER_TITLE,

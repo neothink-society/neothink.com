@@ -38,7 +38,7 @@ export const metadata = pageMetadata({
   pathname: PATH,
     articleOgImage: {
     src: `https://i.ytimg.com/vi/${THE_YEAR_CAPITALISM_SETS_THE_WORLD_FREE_YOUTUBE_ID}/hqdefault.jpg`,
-    alt: `${THE_YEAR_CAPITALISM_SETS_THE_WORLD_FREE_HEADLINE} — video thumbnail`,
+    alt: `${THE_YEAR_CAPITALISM_SETS_THE_WORLD_FREE_HEADLINE} (video thumbnail)`,
     width: 480,
     height: 360,
   },
@@ -80,7 +80,7 @@ const faqLd = faqPageJsonLd(PATH, THE_YEAR_CAPITALISM_SETS_THE_WORLD_FREE_FAQ);
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: "The Year Capitalism Sets the World Free — Neothink Society address (Mark Hamilton)",
+  name: "The Year Capitalism Sets the World Free: Neothink Society address (Mark Hamilton)",
   description: THE_YEAR_CAPITALISM_SETS_THE_WORLD_FREE_META_DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${THE_YEAR_CAPITALISM_SETS_THE_WORLD_FREE_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${THE_YEAR_CAPITALISM_SETS_THE_WORLD_FREE_YOUTUBE_ID}/maxresdefault.jpg`,

@@ -1167,7 +1167,7 @@
 .c2a-page .c2a-child-card strong,
 .c2a-page .c2a-prose .c2a-child-card strong {
   /* Display gold on dark child-card (#1a1917). See callout-kicker rule
-   * for rationale — gold-deep #7A6528 fails AA on near-black. */
+   * for rationale; gold-deep #7A6528 fails AA on near-black. */
   color: var(--c2a-gold);
   font-weight: 600;
 }

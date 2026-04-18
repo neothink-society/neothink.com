@@ -36,7 +36,7 @@ export const metadata = pageMetadata({
   pathname: PATH,
     articleOgImage: {
     src: `https://i.ytimg.com/vi/${LIVE_LONGER_YOUTUBE_ID}/hqdefault.jpg`,
-    alt: `${LIVE_LONGER_HEADLINE} — video thumbnail`,
+    alt: `${LIVE_LONGER_HEADLINE} (video thumbnail)`,
     width: 480,
     height: 360,
   },
@@ -78,7 +78,7 @@ const faqLd = faqPageJsonLd(PATH, LIVE_LONGER_FAQ);
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: "Live Longer! — Neothink Philosophy (Mark Hamilton)",
+  name: "Live Longer!: Neothink Philosophy (Mark Hamilton)",
   description: LIVE_LONGER_META_DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${LIVE_LONGER_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${LIVE_LONGER_YOUTUBE_ID}/maxresdefault.jpg`,

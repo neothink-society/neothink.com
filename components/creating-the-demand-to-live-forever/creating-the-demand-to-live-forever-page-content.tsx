@@ -26,7 +26,7 @@ export function CreatingTheDemandToLiveForeverPageContent() {
       quickTitle="Why Don’t People Want to Live Forever?"
       quickAnswerHtml={CREATING_THE_DEMAND_TO_LIVE_FOREVER_QUICK_ANSWER_HTML}
       youtubeId={CREATING_THE_DEMAND_TO_LIVE_FOREVER_YOUTUBE_ID}
-      videoTitle="Creating the Demand to Live Forever — Neothink Society address"
+      videoTitle="Creating the Demand to Live Forever: Neothink Society address"
       bodyHtml={CREATING_THE_DEMAND_TO_LIVE_FOREVER_BODY_HTML}
       faqHeadingId="ctd-faq-heading"
       faqLead={

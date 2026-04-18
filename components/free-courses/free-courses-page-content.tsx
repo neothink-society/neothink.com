@@ -71,7 +71,7 @@ const SECONDARY = [
   {
     title: "Neothink University",
     body:
-      "Paid Neothink Society programs—passion, prosperity, mindset, and wellness—not part of this free public hub.",
+      "Paid Neothink Society programs (passion, prosperity, mindset, and wellness) are not part of this free public hub.",
     href: WP.neothinkUniversity,
     cta: "Learn more",
   },

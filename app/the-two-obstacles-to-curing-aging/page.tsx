@@ -36,7 +36,7 @@ export const metadata = pageMetadata({
   pathname: PATH,
     articleOgImage: {
     src: `https://i.ytimg.com/vi/${THE_TWO_OBSTACLES_TO_CURING_AGING_YOUTUBE_ID}/hqdefault.jpg`,
-    alt: `${THE_TWO_OBSTACLES_TO_CURING_AGING_HEADLINE} — video thumbnail`,
+    alt: `${THE_TWO_OBSTACLES_TO_CURING_AGING_HEADLINE} (video thumbnail)`,
     width: 480,
     height: 360,
   },
@@ -78,7 +78,7 @@ const faqLd = faqPageJsonLd(PATH, THE_TWO_OBSTACLES_TO_CURING_AGING_FAQ);
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: "The Two Obstacles to Curing Aging — Neothink Society address (Mark Hamilton)",
+  name: "The Two Obstacles to Curing Aging: Neothink Society address (Mark Hamilton)",
   description: THE_TWO_OBSTACLES_TO_CURING_AGING_META_DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${THE_TWO_OBSTACLES_TO_CURING_AGING_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${THE_TWO_OBSTACLES_TO_CURING_AGING_YOUTUBE_ID}/maxresdefault.jpg`,

@@ -74,7 +74,7 @@ export function SiteFooter() {
                 <li key={link.href}>
                   {/* inline-flex + min-h-6 + py-1 gives every fine-print
                    * link a 24x(>=24)px hit area without enlarging the
-                   * visible text — required for WCAG 2.5.8 Target Size
+                   * visible text; required for WCAG 2.5.8 Target Size
                    * (AA, 24 CSS pixels). */}
                   <Link
                     href={link.href}

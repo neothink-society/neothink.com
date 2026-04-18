@@ -22,7 +22,7 @@ export function AreWeTheIlluminatiTruthPageContent() {
       image={AWTI_IMAGE}
       minReadLabel={AWTI_MIN_READ}
       youtubeId={AWTI_YOUTUBE_ID}
-      videoTitle={`${AWTI_HEADLINE} — Mark Hamilton`}
+      videoTitle={`${AWTI_HEADLINE}, Mark Hamilton`}
       quickAnswer={{
         kicker: AWTI_QUICK_ANSWER_KICKER,
         title: AWTI_QUICK_ANSWER_TITLE,

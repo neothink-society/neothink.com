@@ -22,7 +22,7 @@ export function AliensRealNeverVisitEarthPageContent() {
       image={ARNV_IMAGE}
       minReadLabel={ARNV_MIN_READ}
       youtubeId={ARNV_YOUTUBE_ID}
-      videoTitle={`${ARNV_HEADLINE} — Mark Hamilton`}
+      videoTitle={`${ARNV_HEADLINE}, Mark Hamilton`}
       quickAnswer={{
         kicker: ARNV_QUICK_ANSWER_KICKER,
         title: ARNV_QUICK_ANSWER_TITLE,

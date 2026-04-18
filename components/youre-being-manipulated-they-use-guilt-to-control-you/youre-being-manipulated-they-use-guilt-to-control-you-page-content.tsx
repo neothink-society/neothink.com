@@ -22,7 +22,7 @@ export function YoureBeingManipulatedTheyUseGuiltToControlYouPageContent() {
       image={YBMG_IMAGE}
       minReadLabel={YBMG_MIN_READ}
       youtubeId={YBMG_YOUTUBE_ID}
-      videoTitle={`${YBMG_HEADLINE} — Mark Hamilton`}
+      videoTitle={`${YBMG_HEADLINE}, Mark Hamilton`}
       quickAnswer={{
         kicker: YBMG_QUICK_ANSWER_KICKER,
         title: YBMG_QUICK_ANSWER_TITLE,

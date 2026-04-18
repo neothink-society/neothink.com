@@ -30,7 +30,7 @@ export const metadata = pageMetadata({
   pathname: PATH,
     articleOgImage: {
     src: `https://i.ytimg.com/vi/${MKUP_YOUTUBE_ID}/hqdefault.jpg`,
-    alt: `${MKUP_META_TITLE} — video thumbnail`,
+    alt: `${MKUP_META_TITLE} (video thumbnail)`,
     width: 480,
     height: 360,
   },
@@ -72,7 +72,7 @@ const faqLd = faqPageJsonLd(PATH, MKUP_FAQ);
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: `${MKUP_META_TITLE} — video | Neothink Institute`,
+  name: `${MKUP_META_TITLE} | Neothink Institute`,
   description: DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${MKUP_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${MKUP_YOUTUBE_ID}/maxresdefault.jpg`,

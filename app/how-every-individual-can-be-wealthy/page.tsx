@@ -36,7 +36,7 @@ export const metadata = pageMetadata({
   pathname: PATH,
     articleOgImage: {
     src: `https://i.ytimg.com/vi/${HOW_EVERY_INDIVIDUAL_CAN_BE_WEALTHY_YOUTUBE_ID}/hqdefault.jpg`,
-    alt: `${HOW_EVERY_INDIVIDUAL_CAN_BE_WEALTHY_HEADLINE} — video thumbnail`,
+    alt: `${HOW_EVERY_INDIVIDUAL_CAN_BE_WEALTHY_HEADLINE} (video thumbnail)`,
     width: 480,
     height: 360,
   },
@@ -78,7 +78,7 @@ const faqLd = faqPageJsonLd(PATH, HOW_EVERY_INDIVIDUAL_CAN_BE_WEALTHY_FAQ);
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: "How Every Individual Can Be Wealthy — Neothink Society address (Mark Hamilton)",
+  name: "How Every Individual Can Be Wealthy: Neothink Society address (Mark Hamilton)",
   description: HOW_EVERY_INDIVIDUAL_CAN_BE_WEALTHY_META_DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${HOW_EVERY_INDIVIDUAL_CAN_BE_WEALTHY_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${HOW_EVERY_INDIVIDUAL_CAN_BE_WEALTHY_YOUTUBE_ID}/maxresdefault.jpg`,

@@ -26,7 +26,7 @@ export function HowNeothinkBringsYouWorldOfProsperityPageContent() {
       quickTitle="What is Neothink's solution for universal prosperity?"
       quickAnswerHtml={HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_QUICK_ANSWER_HTML}
       youtubeId={HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_YOUTUBE_ID}
-      videoTitle="How Neothink Brings You a World of Prosperity — Neothink Society address"
+      videoTitle="How Neothink Brings You a World of Prosperity: Neothink Society address"
       bodyHtml={HOW_NEOTHINK_BRINGS_YOU_WORLD_OF_PROSPERITY_BODY_HTML}
       faqHeadingId="hnwp-faq-heading"
       faqLead={

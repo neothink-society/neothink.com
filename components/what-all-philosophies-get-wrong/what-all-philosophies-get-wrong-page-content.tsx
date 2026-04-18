@@ -26,7 +26,7 @@ export function WhatAllPhilosophiesGetWrongPageContent() {
       quickTitle="What do all philosophies get wrong?"
       quickAnswerHtml={WHAT_ALL_PHILOSOPHIES_GET_WRONG_QUICK_ANSWER_HTML}
       youtubeId={WHAT_ALL_PHILOSOPHIES_GET_WRONG_YOUTUBE_ID}
-      videoTitle="What All Philosophies Get Wrong — Neothink Society address"
+      videoTitle="What All Philosophies Get Wrong: Neothink Society address"
       bodyHtml={WHAT_ALL_PHILOSOPHIES_GET_WRONG_BODY_HTML}
       faqHeadingId="wap-faq-heading"
       faqLead={

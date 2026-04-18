@@ -26,7 +26,7 @@ export function The2400YearMistakePageContent() {
       quickTitle="What Is the 2,400-Year Mistake?"
       quickAnswerHtml={THE_2400_YEAR_MISTAKE_QUICK_ANSWER_HTML}
       youtubeId={THE_2400_YEAR_MISTAKE_YOUTUBE_ID}
-      videoTitle="The 2,400-Year Mistake — Neothink Society address"
+      videoTitle="The 2,400-Year Mistake: Neothink Society address"
       bodyHtml={THE_2400_YEAR_MISTAKE_BODY_HTML}
       faqHeadingId="t24-faq-heading"
       faqLead={

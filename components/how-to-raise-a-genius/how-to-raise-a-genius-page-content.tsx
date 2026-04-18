@@ -24,7 +24,7 @@ export function HowToRaiseAGeniusPageContent() {
       image={HTRG_IMAGE}
       minReadLabel={HTRG_MIN_READ}
       youtubeId={HTRG_YOUTUBE_ID}
-      videoTitle="How to raise a genius — Mark Hamilton"
+      videoTitle="How to raise a genius, Mark Hamilton"
       quickAnswer={{
         kicker: HTRG_QUICK_ANSWER_KICKER,
         title: HTRG_QUICK_ANSWER_TITLE,

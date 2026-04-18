@@ -26,7 +26,7 @@ export function MontPelerinPivotIntoOurEssencePageContent() {
       quickTitle="What Is the Mont Pelerin Pivot?"
       quickAnswerHtml={MONT_PELERIN_PIVOT_QUICK_ANSWER_HTML}
       youtubeId={MONT_PELERIN_PIVOT_YOUTUBE_ID}
-      videoTitle="The Mont Pelerin Pivot — citizens meeting"
+      videoTitle="The Mont Pelerin Pivot: citizens meeting"
       bodyHtml={MONT_PELERIN_PIVOT_INTO_OUR_ESSENCE_BODY_HTML}
       faqHeadingId="mpp-faq-heading"
       faqLead={

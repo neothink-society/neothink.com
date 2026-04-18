@@ -10,7 +10,7 @@ import "./twelve-visions-party-page.css";
 const PATH = TVP_PATH;
 
 const DESCRIPTION =
-  "The Twelve Visions Party—Mark Hamilton’s political framework built on the Twelve Visions System, human potential, and expanding opportunity. Public context on neothink.com from the Neothink Institute.";
+  "The Twelve Visions Party: Mark Hamilton’s political framework built on the Twelve Visions System, human potential, and expanding opportunity. Public context on neothink.com from the Neothink Institute.";
 
 const SPEAKABLE_TVP = [
   "main#main-content h1",

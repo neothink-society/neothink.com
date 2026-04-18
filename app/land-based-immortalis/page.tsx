@@ -36,7 +36,7 @@ export const metadata = pageMetadata({
   pathname: PATH,
     articleOgImage: {
     src: `https://i.ytimg.com/vi/${LAND_BASED_IMMORTALIS_YOUTUBE_ID}/hqdefault.jpg`,
-    alt: `${LAND_BASED_IMMORTALIS_HEADLINE} — video thumbnail`,
+    alt: `${LAND_BASED_IMMORTALIS_HEADLINE} (video thumbnail)`,
     width: 480,
     height: 360,
   },
@@ -78,7 +78,7 @@ const faqLd = faqPageJsonLd(PATH, LAND_BASED_IMMORTALIS_FAQ);
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: "Land-Based Immortalis — citizens meeting (Mark Hamilton)",
+  name: "Land-Based Immortalis: citizens meeting (Mark Hamilton)",
   description: LAND_BASED_IMMORTALIS_META_DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${LAND_BASED_IMMORTALIS_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${LAND_BASED_IMMORTALIS_YOUTUBE_ID}/maxresdefault.jpg`,

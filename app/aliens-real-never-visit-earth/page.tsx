@@ -79,7 +79,7 @@ const faqLd = faqPageJsonLd(PATH, ARNV_FAQ);
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: `${ARNV_META_TITLE} — video | Neothink Institute`,
+  name: `${ARNV_META_TITLE} | Neothink Institute`,
   description: DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${ARNV_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${ARNV_YOUTUBE_ID}/maxresdefault.jpg`,

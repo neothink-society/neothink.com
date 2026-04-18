@@ -10,7 +10,7 @@ import "./events-page.css";
 const PATH = EVENTS_PATH;
 
 const DESCRIPTION =
-  "Neothink Society events—workshops, speakers, and community gatherings for personal growth, integrated thinking, and meaningful connection. Public page on neothink.com by the Neothink Institute.";
+  "Neothink Society events: workshops, speakers, and community gatherings for personal growth, integrated thinking, and meaningful connection. Public page on neothink.com by the Neothink Institute.";
 
 const SPEAKABLE_EVENTS = [
   "main#main-content h1",

@@ -36,7 +36,7 @@ export const metadata = pageMetadata({
   pathname: PATH,
     articleOgImage: {
     src: `https://i.ytimg.com/vi/${BREAKING_THE_CHAINS_ON_CONSCIOUSNESS_YOUTUBE_ID}/hqdefault.jpg`,
-    alt: `${BREAKING_THE_CHAINS_ON_CONSCIOUSNESS_HEADLINE} — video thumbnail`,
+    alt: `${BREAKING_THE_CHAINS_ON_CONSCIOUSNESS_HEADLINE} (video thumbnail)`,
     width: 480,
     height: 360,
   },
@@ -78,7 +78,7 @@ const faqLd = faqPageJsonLd(PATH, BREAKING_THE_CHAINS_ON_CONSCIOUSNESS_FAQ);
 
 const videoLd = videoObjectJsonLd({
   pathname: PATH,
-  name: "Breaking The Chains On Consciousness — Neothink Society address (Mark Hamilton)",
+  name: "Breaking The Chains On Consciousness: Neothink Society address (Mark Hamilton)",
   description: BREAKING_THE_CHAINS_ON_CONSCIOUSNESS_META_DESCRIPTION,
   embedUrl: `https://www.youtube.com/embed/${BREAKING_THE_CHAINS_ON_CONSCIOUSNESS_YOUTUBE_ID}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${BREAKING_THE_CHAINS_ON_CONSCIOUSNESS_YOUTUBE_ID}/maxresdefault.jpg`,

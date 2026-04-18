@@ -21,7 +21,7 @@ export function ThisIsHowCloseWeAreToBiologicalImmortalityPageContent() {
       image={HCBI_IMAGE}
       minReadLabel={HCBI_MIN_READ}
       youtubeId={HCBI_YOUTUBE_ID}
-      videoTitle={`${HCBI_HEADLINE} — Mark Hamilton`}
+      videoTitle={`${HCBI_HEADLINE}, Mark Hamilton`}
       quickAnswer={{
         kicker: HCBI_QUICK_ANSWER_KICKER,
         title: HCBI_QUICK_ANSWER_TITLE,

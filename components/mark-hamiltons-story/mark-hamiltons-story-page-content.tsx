@@ -26,7 +26,7 @@ export function MarkHamiltonsStoryPageContent() {
       quickTitle="What Is Mark Hamilton’s Story?"
       quickAnswerHtml={MH_STORY_QUICK_ANSWER_HTML}
       youtubeId={MH_STORY_YOUTUBE_ID}
-      videoTitle="Mark Hamilton’s story — Neothink Society"
+      videoTitle="Mark Hamilton’s story: Neothink Society"
       bodyHtml={MARK_HAMILTONS_STORY_BODY_HTML}
       faqHeadingId="mhs-faq-heading"
       faqLead={

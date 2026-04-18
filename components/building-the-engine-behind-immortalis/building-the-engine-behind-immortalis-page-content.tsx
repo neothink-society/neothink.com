@@ -26,7 +26,7 @@ export function BuildingTheEngineBehindImmortalisPageContent() {
       quickTitle="What Is the Engine Behind Immortalis?"
       quickAnswerHtml={BUILDING_THE_ENGINE_BEHIND_IMMORTALIS_QUICK_ANSWER_HTML}
       youtubeId={BUILDING_THE_ENGINE_BEHIND_IMMORTALIS_YOUTUBE_ID}
-      videoTitle="Building the Engine Behind Immortalis — Neothink Society address"
+      videoTitle="Building the Engine Behind Immortalis: Neothink Society address"
       bodyHtml={BUILDING_THE_ENGINE_BEHIND_IMMORTALIS_BODY_HTML}
       faqHeadingId="bebi-faq-heading"
       faqLead={
