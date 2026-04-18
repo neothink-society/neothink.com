@@ -3,6 +3,7 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
 import {
@@ -10,6 +11,7 @@ import {
   UWSSE_IMAGE,
   UWSSE_META_TITLE,
   UWSSE_PATH,
+  UWSSE_YOUTUBE_ID,
   UWSSE_QUICK_ANSWER_REST,
 } from "@/lib/universal-wealth-secrets-the-solution-exposed-data";
 import { UWSSE_FAQ } from "@/lib/universal-wealth-secrets-the-solution-exposed-faq";
@@ -75,6 +77,18 @@ const articleLd = blogPostingJsonLd({
 
 const faqLd = faqPageJsonLd(PATH, UWSSE_FAQ);
 
+const videoLd = videoObjectJsonLd({
+  pathname: PATH,
+  name: `${UWSSE_META_TITLE} — video | Neothink Institute`,
+  description: DESCRIPTION,
+  embedUrl: `https://www.youtube.com/embed/${UWSSE_YOUTUBE_ID}`,
+  thumbnailUrl: `https://i.ytimg.com/vi/${UWSSE_YOUTUBE_ID}/maxresdefault.jpg`,
+  uploadDate: `${UWSSE_DATES.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${UWSSE_YOUTUBE_ID}`,
+  speakerId: schemaIds.founder,
+});
+
+
 export default function UniversalWealthSecretsTheSolutionExposedPage() {
   return (
     <>
@@ -85,6 +99,7 @@ export default function UniversalWealthSecretsTheSolutionExposedPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }} />
       <UniversalWealthSecretsTheSolutionExposedPageContent />
     </>
   );

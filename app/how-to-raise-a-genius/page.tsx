@@ -3,6 +3,7 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
 import {
@@ -10,6 +11,7 @@ import {
   HTRG_IMAGE,
   HTRG_META_TITLE,
   HTRG_PATH,
+  HTRG_YOUTUBE_ID,
 } from "@/lib/how-to-raise-a-genius-data";
 import { HTRG_FAQ } from "@/lib/how-to-raise-a-genius-faq";
 import { siteConfig } from "@/lib/metadata";
@@ -75,6 +77,18 @@ const articleLd = blogPostingJsonLd({
 
 const faqLd = faqPageJsonLd(PATH, HTRG_FAQ);
 
+const videoLd = videoObjectJsonLd({
+  pathname: PATH,
+  name: `${HTRG_META_TITLE} — video | Neothink Institute`,
+  description: DESCRIPTION,
+  embedUrl: `https://www.youtube.com/embed/${HTRG_YOUTUBE_ID}`,
+  thumbnailUrl: `https://i.ytimg.com/vi/${HTRG_YOUTUBE_ID}/maxresdefault.jpg`,
+  uploadDate: `${HTRG_DATES.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${HTRG_YOUTUBE_ID}`,
+  speakerId: schemaIds.founder,
+});
+
+
 export default function HowToRaiseAGeniusPage() {
   return (
     <>
@@ -85,6 +99,7 @@ export default function HowToRaiseAGeniusPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }} />
       <HowToRaiseAGeniusPageContent />
     </>
   );

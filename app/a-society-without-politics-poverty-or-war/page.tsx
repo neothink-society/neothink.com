@@ -3,6 +3,7 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
 import {
@@ -10,6 +11,7 @@ import {
   SWPPW_IMAGE,
   SWPPW_META_TITLE,
   SWPPW_PATH,
+  SWPPW_YOUTUBE_ID,
   SWPPW_QUICK_ANSWER_REST,
 } from "@/lib/a-society-without-politics-poverty-or-war-data";
 import { SWPPW_FAQ } from "@/lib/a-society-without-politics-poverty-or-war-faq";
@@ -75,6 +77,18 @@ const articleLd = blogPostingJsonLd({
 
 const faqLd = faqPageJsonLd(PATH, SWPPW_FAQ);
 
+const videoLd = videoObjectJsonLd({
+  pathname: PATH,
+  name: `${SWPPW_META_TITLE} — video | Neothink Institute`,
+  description: DESCRIPTION,
+  embedUrl: `https://www.youtube.com/embed/${SWPPW_YOUTUBE_ID}`,
+  thumbnailUrl: `https://i.ytimg.com/vi/${SWPPW_YOUTUBE_ID}/maxresdefault.jpg`,
+  uploadDate: `${SWPPW_DATES.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${SWPPW_YOUTUBE_ID}`,
+  speakerId: schemaIds.founder,
+});
+
+
 export default function ASocietyWithoutPoliticsPovertyOrWarPage() {
   return (
     <>
@@ -85,6 +99,7 @@ export default function ASocietyWithoutPoliticsPovertyOrWarPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }} />
       <ASocietyWithoutPoliticsPovertyOrWarPageContent />
     </>
   );

@@ -3,9 +3,10 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
-import { MH_STORY_DATES, MH_STORY_META_TITLE, MH_STORY_PATH } from "@/lib/mark-hamiltons-story-data";
+import { MH_STORY_DATES, MH_STORY_META_TITLE, MH_STORY_PATH, MH_STORY_YOUTUBE_ID } from "@/lib/mark-hamiltons-story-data";
 import { MH_STORY_FAQ } from "@/lib/mark-hamiltons-story-faq";
 import { siteConfig } from "@/lib/metadata";
 import { pageMetadata } from "@/lib/seo-metadata";
@@ -62,6 +63,18 @@ const articleLd = blogPostingJsonLd({
 
 const faqLd = faqPageJsonLd(PATH, MH_STORY_FAQ);
 
+const videoLd = videoObjectJsonLd({
+  pathname: PATH,
+  name: `${MH_STORY_META_TITLE} — video | Neothink Institute`,
+  description: DESCRIPTION,
+  embedUrl: `https://www.youtube.com/embed/${MH_STORY_YOUTUBE_ID}`,
+  thumbnailUrl: `https://i.ytimg.com/vi/${MH_STORY_YOUTUBE_ID}/maxresdefault.jpg`,
+  uploadDate: `${MH_STORY_DATES.datePublished}T09:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${MH_STORY_YOUTUBE_ID}`,
+  speakerId: schemaIds.founder,
+});
+
+
 export default function MarkHamiltonsStoryPage() {
   return (
     <>
@@ -72,6 +85,7 @@ export default function MarkHamiltonsStoryPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }} />
       <MarkHamiltonsStoryPageContent />
     </>
   );

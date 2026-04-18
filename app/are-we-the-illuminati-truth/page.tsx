@@ -3,6 +3,7 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
 import {
@@ -10,6 +11,7 @@ import {
   AWTI_IMAGE,
   AWTI_META_TITLE,
   AWTI_PATH,
+  AWTI_YOUTUBE_ID,
   AWTI_QUICK_ANSWER_REST,
 } from "@/lib/are-we-the-illuminati-truth-data";
 import { AWTI_FAQ } from "@/lib/are-we-the-illuminati-truth-faq";
@@ -75,6 +77,18 @@ const articleLd = blogPostingJsonLd({
 
 const faqLd = faqPageJsonLd(PATH, AWTI_FAQ);
 
+const videoLd = videoObjectJsonLd({
+  pathname: PATH,
+  name: `${AWTI_META_TITLE} — video | Neothink Institute`,
+  description: DESCRIPTION,
+  embedUrl: `https://www.youtube.com/embed/${AWTI_YOUTUBE_ID}`,
+  thumbnailUrl: `https://i.ytimg.com/vi/${AWTI_YOUTUBE_ID}/maxresdefault.jpg`,
+  uploadDate: `${AWTI_DATES.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${AWTI_YOUTUBE_ID}`,
+  speakerId: schemaIds.founder,
+});
+
+
 export default function AreWeTheIlluminatiTruthPage() {
   return (
     <>
@@ -85,6 +99,7 @@ export default function AreWeTheIlluminatiTruthPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }} />
       <AreWeTheIlluminatiTruthPageContent />
     </>
   );

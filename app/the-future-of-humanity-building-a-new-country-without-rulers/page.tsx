@@ -3,6 +3,7 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
 import {
@@ -10,6 +11,7 @@ import {
   FHBNCWR_IMAGE,
   FHBNCWR_META_TITLE,
   FHBNCWR_PATH,
+  FHBNCWR_YOUTUBE_ID,
   FHBNCWR_QUICK_ANSWER_REST,
 } from "@/lib/the-future-of-humanity-building-a-new-country-without-rulers-data";
 import { FHBNCWR_FAQ } from "@/lib/the-future-of-humanity-building-a-new-country-without-rulers-faq";
@@ -75,6 +77,18 @@ const articleLd = blogPostingJsonLd({
 
 const faqLd = faqPageJsonLd(PATH, FHBNCWR_FAQ);
 
+const videoLd = videoObjectJsonLd({
+  pathname: PATH,
+  name: `${FHBNCWR_META_TITLE} — video | Neothink Institute`,
+  description: DESCRIPTION,
+  embedUrl: `https://www.youtube.com/embed/${FHBNCWR_YOUTUBE_ID}`,
+  thumbnailUrl: `https://i.ytimg.com/vi/${FHBNCWR_YOUTUBE_ID}/maxresdefault.jpg`,
+  uploadDate: `${FHBNCWR_DATES.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${FHBNCWR_YOUTUBE_ID}`,
+  speakerId: schemaIds.founder,
+});
+
+
 export default function TheFutureOfHumanityBuildingANewCountryWithoutRulersPage() {
   return (
     <>
@@ -85,6 +99,7 @@ export default function TheFutureOfHumanityBuildingANewCountryWithoutRulersPage(
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }} />
       <TheFutureOfHumanityBuildingANewCountryWithoutRulersPageContent />
     </>
   );

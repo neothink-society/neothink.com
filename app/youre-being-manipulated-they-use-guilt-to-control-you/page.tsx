@@ -3,6 +3,7 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
 import {
@@ -10,6 +11,7 @@ import {
   YBMG_IMAGE,
   YBMG_META_TITLE,
   YBMG_PATH,
+  YBMG_YOUTUBE_ID,
   YBMG_QUICK_ANSWER_REST,
 } from "@/lib/youre-being-manipulated-they-use-guilt-to-control-you-data";
 import { YBMG_FAQ } from "@/lib/youre-being-manipulated-they-use-guilt-to-control-you-faq";
@@ -75,6 +77,18 @@ const articleLd = blogPostingJsonLd({
 
 const faqLd = faqPageJsonLd(PATH, YBMG_FAQ);
 
+const videoLd = videoObjectJsonLd({
+  pathname: PATH,
+  name: `${YBMG_META_TITLE} — video | Neothink Institute`,
+  description: DESCRIPTION,
+  embedUrl: `https://www.youtube.com/embed/${YBMG_YOUTUBE_ID}`,
+  thumbnailUrl: `https://i.ytimg.com/vi/${YBMG_YOUTUBE_ID}/maxresdefault.jpg`,
+  uploadDate: `${YBMG_DATES.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${YBMG_YOUTUBE_ID}`,
+  speakerId: schemaIds.founder,
+});
+
+
 export default function YoureBeingManipulatedTheyUseGuiltToControlYouPage() {
   return (
     <>
@@ -85,6 +99,7 @@ export default function YoureBeingManipulatedTheyUseGuiltToControlYouPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }} />
       <YoureBeingManipulatedTheyUseGuiltToControlYouPageContent />
     </>
   );

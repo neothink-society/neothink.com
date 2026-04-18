@@ -3,6 +3,7 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
 import {
@@ -10,6 +11,7 @@ import {
   TVBNE_IMAGE,
   TVBNE_META_TITLE,
   TVBNE_PATH,
+  TVBNE_YOUTUBE_ID,
   TVBNE_QUICK_ANSWER_REST,
 } from "@/lib/trumps-victory-beginning-new-era-data";
 import { TVBNE_FAQ } from "@/lib/trumps-victory-beginning-new-era-faq";
@@ -75,6 +77,18 @@ const articleLd = blogPostingJsonLd({
 
 const faqLd = faqPageJsonLd(PATH, TVBNE_FAQ);
 
+const videoLd = videoObjectJsonLd({
+  pathname: PATH,
+  name: `${TVBNE_META_TITLE} — video | Neothink Institute`,
+  description: DESCRIPTION,
+  embedUrl: `https://www.youtube.com/embed/${TVBNE_YOUTUBE_ID}`,
+  thumbnailUrl: `https://i.ytimg.com/vi/${TVBNE_YOUTUBE_ID}/maxresdefault.jpg`,
+  uploadDate: `${TVBNE_DATES.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${TVBNE_YOUTUBE_ID}`,
+  speakerId: schemaIds.founder,
+});
+
+
 export default function TrumpsVictoryBeginningNewEraPage() {
   return (
     <>
@@ -85,6 +99,7 @@ export default function TrumpsVictoryBeginningNewEraPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }} />
       <TrumpsVictoryBeginningNewEraPageContent />
     </>
   );

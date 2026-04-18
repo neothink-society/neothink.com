@@ -3,6 +3,7 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
 import {
@@ -10,6 +11,7 @@ import {
   HCBI_IMAGE,
   HCBI_META_TITLE,
   HCBI_PATH,
+  HCBI_YOUTUBE_ID,
   HCBI_QUICK_ANSWER_REST,
 } from "@/lib/this-is-how-close-we-are-to-biological-immortality-data";
 import { HCBI_FAQ } from "@/lib/this-is-how-close-we-are-to-biological-immortality-faq";
@@ -75,6 +77,18 @@ const articleLd = blogPostingJsonLd({
 
 const faqLd = faqPageJsonLd(PATH, HCBI_FAQ);
 
+const videoLd = videoObjectJsonLd({
+  pathname: PATH,
+  name: `${HCBI_META_TITLE} — video | Neothink Institute`,
+  description: DESCRIPTION,
+  embedUrl: `https://www.youtube.com/embed/${HCBI_YOUTUBE_ID}`,
+  thumbnailUrl: `https://i.ytimg.com/vi/${HCBI_YOUTUBE_ID}/maxresdefault.jpg`,
+  uploadDate: `${HCBI_DATES.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${HCBI_YOUTUBE_ID}`,
+  speakerId: schemaIds.founder,
+});
+
+
 export default function ThisIsHowCloseWeAreToBiologicalImmortalityPage() {
   return (
     <>
@@ -85,6 +99,7 @@ export default function ThisIsHowCloseWeAreToBiologicalImmortalityPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }} />
       <ThisIsHowCloseWeAreToBiologicalImmortalityPageContent />
     </>
   );

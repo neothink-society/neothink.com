@@ -3,6 +3,7 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
 import {
@@ -10,6 +11,7 @@ import {
   TLEMMH_IMAGE,
   TLEMMH_META_TITLE,
   TLEMMH_PATH,
+  TLEMMH_YOUTUBE_ID,
   TLEMMH_QUICK_ANSWER_REST,
 } from "@/lib/think-like-elon-musk-mind-hacks-data";
 import { TLEMMH_FAQ } from "@/lib/think-like-elon-musk-mind-hacks-faq";
@@ -75,6 +77,18 @@ const articleLd = blogPostingJsonLd({
 
 const faqLd = faqPageJsonLd(PATH, TLEMMH_FAQ);
 
+const videoLd = videoObjectJsonLd({
+  pathname: PATH,
+  name: `${TLEMMH_META_TITLE} — video | Neothink Institute`,
+  description: DESCRIPTION,
+  embedUrl: `https://www.youtube.com/embed/${TLEMMH_YOUTUBE_ID}`,
+  thumbnailUrl: `https://i.ytimg.com/vi/${TLEMMH_YOUTUBE_ID}/maxresdefault.jpg`,
+  uploadDate: `${TLEMMH_DATES.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${TLEMMH_YOUTUBE_ID}`,
+  speakerId: schemaIds.founder,
+});
+
+
 export default function ThinkLikeElonMuskMindHacksPage() {
   return (
     <>
@@ -85,6 +99,7 @@ export default function ThinkLikeElonMuskMindHacksPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }} />
       <ThinkLikeElonMuskMindHacksPageContent />
     </>
   );

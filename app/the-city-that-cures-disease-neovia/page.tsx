@@ -3,12 +3,14 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
 import {
   NEOVIA_SPEECH_DATES,
   NEOVIA_SPEECH_META_TITLE,
   NEOVIA_SPEECH_PATH,
+  NEOVIA_SPEECH_YOUTUBE_ID,
 } from "@/lib/the-city-that-cures-disease-neovia-data";
 import { NEOVIA_SPEECH_FAQ } from "@/lib/the-city-that-cures-disease-neovia-faq";
 import { siteConfig } from "@/lib/metadata";
@@ -66,6 +68,18 @@ const articleLd = blogPostingJsonLd({
 
 const faqLd = faqPageJsonLd(PATH, NEOVIA_SPEECH_FAQ);
 
+const videoLd = videoObjectJsonLd({
+  pathname: PATH,
+  name: `${NEOVIA_SPEECH_META_TITLE} — video | Neothink Institute`,
+  description: DESCRIPTION,
+  embedUrl: `https://www.youtube.com/embed/${NEOVIA_SPEECH_YOUTUBE_ID}`,
+  thumbnailUrl: `https://i.ytimg.com/vi/${NEOVIA_SPEECH_YOUTUBE_ID}/maxresdefault.jpg`,
+  uploadDate: `${NEOVIA_SPEECH_DATES.datePublished}T09:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${NEOVIA_SPEECH_YOUTUBE_ID}`,
+  speakerId: schemaIds.founder,
+});
+
+
 export default function TheCityThatCuresDiseaseNeoviaPage() {
   return (
     <>
@@ -76,6 +90,7 @@ export default function TheCityThatCuresDiseaseNeoviaPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }} />
       <TheCityThatCuresDiseaseNeoviaPageContent />
     </>
   );

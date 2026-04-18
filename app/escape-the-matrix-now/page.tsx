@@ -3,6 +3,7 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
 import {
@@ -10,6 +11,7 @@ import {
   EMN_IMAGE,
   EMN_META_TITLE,
   EMN_PATH,
+  EMN_YOUTUBE_ID,
   EMN_QUICK_ANSWER_REST,
 } from "@/lib/escape-the-matrix-now-data";
 import { EMN_FAQ } from "@/lib/escape-the-matrix-now-faq";
@@ -75,6 +77,18 @@ const articleLd = blogPostingJsonLd({
 
 const faqLd = faqPageJsonLd(PATH, EMN_FAQ);
 
+const videoLd = videoObjectJsonLd({
+  pathname: PATH,
+  name: `${EMN_META_TITLE} — video | Neothink Institute`,
+  description: DESCRIPTION,
+  embedUrl: `https://www.youtube.com/embed/${EMN_YOUTUBE_ID}`,
+  thumbnailUrl: `https://i.ytimg.com/vi/${EMN_YOUTUBE_ID}/maxresdefault.jpg`,
+  uploadDate: `${EMN_DATES.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${EMN_YOUTUBE_ID}`,
+  speakerId: schemaIds.founder,
+});
+
+
 export default function EscapeTheMatrixNowPage() {
   return (
     <>
@@ -85,6 +99,7 @@ export default function EscapeTheMatrixNowPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }} />
       <EscapeTheMatrixNowPageContent />
     </>
   );

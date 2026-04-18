@@ -3,9 +3,10 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
-import { GMB_DATES, GMB_META_TITLE, GMB_PATH } from "@/lib/the-greatest-mental-breakthrough-data";
+import { GMB_DATES, GMB_META_TITLE, GMB_PATH, GMB_YOUTUBE_ID } from "@/lib/the-greatest-mental-breakthrough-data";
 import { GMB_FAQ } from "@/lib/the-greatest-mental-breakthrough-faq";
 import { siteConfig } from "@/lib/metadata";
 import { pageMetadata } from "@/lib/seo-metadata";
@@ -62,6 +63,18 @@ const articleLd = blogPostingJsonLd({
 
 const faqLd = faqPageJsonLd(PATH, GMB_FAQ);
 
+const videoLd = videoObjectJsonLd({
+  pathname: PATH,
+  name: `${GMB_META_TITLE} — video | Neothink Institute`,
+  description: DESCRIPTION,
+  embedUrl: `https://www.youtube.com/embed/${GMB_YOUTUBE_ID}`,
+  thumbnailUrl: `https://i.ytimg.com/vi/${GMB_YOUTUBE_ID}/maxresdefault.jpg`,
+  uploadDate: `${GMB_DATES.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${GMB_YOUTUBE_ID}`,
+  speakerId: schemaIds.founder,
+});
+
+
 export default function TheGreatestMentalBreakthroughPage() {
   return (
     <>
@@ -72,6 +85,7 @@ export default function TheGreatestMentalBreakthroughPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }} />
       <TheGreatestMentalBreakthroughPageContent />
     </>
   );

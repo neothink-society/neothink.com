@@ -3,6 +3,7 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
 import {
@@ -10,6 +11,7 @@ import {
   FKTUW_IMAGE,
   FKTUW_META_TITLE,
   FKTUW_PATH,
+  FKTUW_YOUTUBE_ID,
 } from "@/lib/freedom-key-to-unlocking-true-wealth-data";
 import { FKTUW_FAQ } from "@/lib/freedom-key-to-unlocking-true-wealth-faq";
 import { siteConfig } from "@/lib/metadata";
@@ -74,6 +76,18 @@ const articleLd = blogPostingJsonLd({
 
 const faqLd = faqPageJsonLd(PATH, FKTUW_FAQ);
 
+const videoLd = videoObjectJsonLd({
+  pathname: PATH,
+  name: `${FKTUW_META_TITLE} — video | Neothink Institute`,
+  description: DESCRIPTION,
+  embedUrl: `https://www.youtube.com/embed/${FKTUW_YOUTUBE_ID}`,
+  thumbnailUrl: `https://i.ytimg.com/vi/${FKTUW_YOUTUBE_ID}/maxresdefault.jpg`,
+  uploadDate: `${FKTUW_DATES.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${FKTUW_YOUTUBE_ID}`,
+  speakerId: schemaIds.founder,
+});
+
+
 export default function FreedomKeyToUnlockingTrueWealthPage() {
   return (
     <>
@@ -84,6 +98,7 @@ export default function FreedomKeyToUnlockingTrueWealthPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }} />
       <FreedomKeyToUnlockingTrueWealthPageContent />
     </>
   );

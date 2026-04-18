@@ -3,6 +3,7 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
 import {
@@ -10,6 +11,7 @@ import {
   SWHPC_IMAGE,
   SWHPC_META_TITLE,
   SWHPC_PATH,
+  SWHPC_YOUTUBE_ID,
   SWHPC_QUICK_ANSWER_REST,
 } from "@/lib/the-secret-to-a-wealthy-healthy-peaceful-country-data";
 import { SWHPC_FAQ } from "@/lib/the-secret-to-a-wealthy-healthy-peaceful-country-faq";
@@ -75,6 +77,18 @@ const articleLd = blogPostingJsonLd({
 
 const faqLd = faqPageJsonLd(PATH, SWHPC_FAQ);
 
+const videoLd = videoObjectJsonLd({
+  pathname: PATH,
+  name: `${SWHPC_META_TITLE} — video | Neothink Institute`,
+  description: DESCRIPTION,
+  embedUrl: `https://www.youtube.com/embed/${SWHPC_YOUTUBE_ID}`,
+  thumbnailUrl: `https://i.ytimg.com/vi/${SWHPC_YOUTUBE_ID}/maxresdefault.jpg`,
+  uploadDate: `${SWHPC_DATES.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${SWHPC_YOUTUBE_ID}`,
+  speakerId: schemaIds.founder,
+});
+
+
 export default function TheSecretToAWealthyHealthyPeacefulCountryPage() {
   return (
     <>
@@ -85,6 +99,7 @@ export default function TheSecretToAWealthyHealthyPeacefulCountryPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }} />
       <TheSecretToAWealthyHealthyPeacefulCountryPageContent />
     </>
   );

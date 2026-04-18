@@ -3,6 +3,7 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
 import {
@@ -10,6 +11,7 @@ import {
   NCNT_IMAGE,
   NCNT_META_TITLE,
   NCNT_PATH,
+  NCNT_YOUTUBE_ID,
   NCNT_QUICK_ANSWER_REST,
 } from "@/lib/new-country-with-no-taxes-data";
 import { NCNT_FAQ } from "@/lib/new-country-with-no-taxes-faq";
@@ -75,6 +77,18 @@ const articleLd = blogPostingJsonLd({
 
 const faqLd = faqPageJsonLd(PATH, NCNT_FAQ);
 
+const videoLd = videoObjectJsonLd({
+  pathname: PATH,
+  name: `${NCNT_META_TITLE} — video | Neothink Institute`,
+  description: DESCRIPTION,
+  embedUrl: `https://www.youtube.com/embed/${NCNT_YOUTUBE_ID}`,
+  thumbnailUrl: `https://i.ytimg.com/vi/${NCNT_YOUTUBE_ID}/maxresdefault.jpg`,
+  uploadDate: `${NCNT_DATES.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${NCNT_YOUTUBE_ID}`,
+  speakerId: schemaIds.founder,
+});
+
+
 export default function NewCountryWithNoTaxesPage() {
   return (
     <>
@@ -85,6 +99,7 @@ export default function NewCountryWithNoTaxesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }} />
       <NewCountryWithNoTaxesPageContent />
     </>
   );

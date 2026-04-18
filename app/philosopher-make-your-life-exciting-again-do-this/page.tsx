@@ -3,6 +3,7 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
 import {
@@ -10,6 +11,7 @@ import {
   PMLEA_IMAGE,
   PMLEA_META_TITLE,
   PMLEA_PATH,
+  PMLEA_YOUTUBE_ID,
   PMLEA_QUICK_ANSWER_REST,
 } from "@/lib/philosopher-make-your-life-exciting-again-do-this-data";
 import { PMLEA_FAQ } from "@/lib/philosopher-make-your-life-exciting-again-do-this-faq";
@@ -75,6 +77,18 @@ const articleLd = blogPostingJsonLd({
 
 const faqLd = faqPageJsonLd(PATH, PMLEA_FAQ);
 
+const videoLd = videoObjectJsonLd({
+  pathname: PATH,
+  name: `${PMLEA_META_TITLE} — video | Neothink Institute`,
+  description: DESCRIPTION,
+  embedUrl: `https://www.youtube.com/embed/${PMLEA_YOUTUBE_ID}`,
+  thumbnailUrl: `https://i.ytimg.com/vi/${PMLEA_YOUTUBE_ID}/maxresdefault.jpg`,
+  uploadDate: `${PMLEA_DATES.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${PMLEA_YOUTUBE_ID}`,
+  speakerId: schemaIds.founder,
+});
+
+
 export default function PhilosopherMakeYourLifeExcitingAgainDoThisPage() {
   return (
     <>
@@ -85,6 +99,7 @@ export default function PhilosopherMakeYourLifeExcitingAgainDoThisPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }} />
       <PhilosopherMakeYourLifeExcitingAgainDoThisPageContent />
     </>
   );

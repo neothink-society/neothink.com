@@ -3,6 +3,7 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
 import {
@@ -10,6 +11,7 @@ import {
   RMTBR_IMAGE,
   RMTBR_META_TITLE,
   RMTBR_PATH,
+  RMTBR_YOUTUBE_ID,
 } from "@/lib/reprogram-mind-to-be-rich-data";
 import { RMTBR_FAQ } from "@/lib/reprogram-mind-to-be-rich-faq";
 import { siteConfig } from "@/lib/metadata";
@@ -74,6 +76,18 @@ const articleLd = blogPostingJsonLd({
 
 const faqLd = faqPageJsonLd(PATH, RMTBR_FAQ);
 
+const videoLd = videoObjectJsonLd({
+  pathname: PATH,
+  name: `${RMTBR_META_TITLE} — video | Neothink Institute`,
+  description: DESCRIPTION,
+  embedUrl: `https://www.youtube.com/embed/${RMTBR_YOUTUBE_ID}`,
+  thumbnailUrl: `https://i.ytimg.com/vi/${RMTBR_YOUTUBE_ID}/maxresdefault.jpg`,
+  uploadDate: `${RMTBR_DATES.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${RMTBR_YOUTUBE_ID}`,
+  speakerId: schemaIds.founder,
+});
+
+
 export default function ReprogramMindToBeRichPage() {
   return (
     <>
@@ -84,6 +98,7 @@ export default function ReprogramMindToBeRichPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }} />
       <ReprogramMindToBeRichPageContent />
     </>
   );

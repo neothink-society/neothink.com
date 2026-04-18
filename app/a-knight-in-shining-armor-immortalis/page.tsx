@@ -3,12 +3,14 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
 import {
   KNIGHT_IMMORTALIS_DATES,
   KNIGHT_IMMORTALIS_META_TITLE,
   KNIGHT_IMMORTALIS_PATH,
+  KNIGHT_IMMORTALIS_YOUTUBE_ID,
 } from "@/lib/a-knight-in-shining-armor-immortalis-data";
 import { KNIGHT_IMMORTALIS_FAQ } from "@/lib/a-knight-in-shining-armor-immortalis-faq";
 import { siteConfig } from "@/lib/metadata";
@@ -66,6 +68,18 @@ const articleLd = blogPostingJsonLd({
 
 const faqLd = faqPageJsonLd(PATH, KNIGHT_IMMORTALIS_FAQ);
 
+const videoLd = videoObjectJsonLd({
+  pathname: PATH,
+  name: `${KNIGHT_IMMORTALIS_META_TITLE} — video | Neothink Institute`,
+  description: DESCRIPTION,
+  embedUrl: `https://www.youtube.com/embed/${KNIGHT_IMMORTALIS_YOUTUBE_ID}`,
+  thumbnailUrl: `https://i.ytimg.com/vi/${KNIGHT_IMMORTALIS_YOUTUBE_ID}/maxresdefault.jpg`,
+  uploadDate: `${KNIGHT_IMMORTALIS_DATES.datePublished}T09:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${KNIGHT_IMMORTALIS_YOUTUBE_ID}`,
+  speakerId: schemaIds.founder,
+});
+
+
 export default function AKnightInShiningArmorImmortalisPage() {
   return (
     <>
@@ -76,6 +90,7 @@ export default function AKnightInShiningArmorImmortalisPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }} />
       <AKnightInShiningArmorImmortalisPageContent />
     </>
   );

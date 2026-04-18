@@ -3,6 +3,7 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
 import {
@@ -10,6 +11,7 @@ import {
   ARNV_IMAGE,
   ARNV_META_TITLE,
   ARNV_PATH,
+  ARNV_YOUTUBE_ID,
   ARNV_QUICK_ANSWER_REST,
 } from "@/lib/aliens-real-never-visit-earth-data";
 import { ARNV_FAQ } from "@/lib/aliens-real-never-visit-earth-faq";
@@ -75,6 +77,18 @@ const articleLd = blogPostingJsonLd({
 
 const faqLd = faqPageJsonLd(PATH, ARNV_FAQ);
 
+const videoLd = videoObjectJsonLd({
+  pathname: PATH,
+  name: `${ARNV_META_TITLE} — video | Neothink Institute`,
+  description: DESCRIPTION,
+  embedUrl: `https://www.youtube.com/embed/${ARNV_YOUTUBE_ID}`,
+  thumbnailUrl: `https://i.ytimg.com/vi/${ARNV_YOUTUBE_ID}/maxresdefault.jpg`,
+  uploadDate: `${ARNV_DATES.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${ARNV_YOUTUBE_ID}`,
+  speakerId: schemaIds.founder,
+});
+
+
 export default function AliensRealNeverVisitEarthPage() {
   return (
     <>
@@ -85,6 +99,7 @@ export default function AliensRealNeverVisitEarthPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }} />
       <AliensRealNeverVisitEarthPageContent />
     </>
   );

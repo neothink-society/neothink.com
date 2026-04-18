@@ -3,6 +3,7 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
 import {
@@ -10,6 +11,7 @@ import {
   HBL1TH_IMAGE,
   HBL1TH_META_TITLE,
   HBL1TH_PATH,
+  HBL1TH_YOUTUBE_ID,
   HBL1TH_QUICK_ANSWER_REST,
 } from "@/lib/how-to-be-a-leader-the-one-thing-holding-you-back-data";
 import { HBL1TH_FAQ } from "@/lib/how-to-be-a-leader-the-one-thing-holding-you-back-faq";
@@ -75,6 +77,18 @@ const articleLd = blogPostingJsonLd({
 
 const faqLd = faqPageJsonLd(PATH, HBL1TH_FAQ);
 
+const videoLd = videoObjectJsonLd({
+  pathname: PATH,
+  name: `${HBL1TH_META_TITLE} — video | Neothink Institute`,
+  description: DESCRIPTION,
+  embedUrl: `https://www.youtube.com/embed/${HBL1TH_YOUTUBE_ID}`,
+  thumbnailUrl: `https://i.ytimg.com/vi/${HBL1TH_YOUTUBE_ID}/maxresdefault.jpg`,
+  uploadDate: `${HBL1TH_DATES.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${HBL1TH_YOUTUBE_ID}`,
+  speakerId: schemaIds.founder,
+});
+
+
 export default function HowToBeALeaderTheOneThingHoldingYouBackPage() {
   return (
     <>
@@ -85,6 +99,7 @@ export default function HowToBeALeaderTheOneThingHoldingYouBackPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }} />
       <HowToBeALeaderTheOneThingHoldingYouBackPageContent />
     </>
   );

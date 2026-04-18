@@ -3,9 +3,10 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
-import { MKUP_DATES, MKUP_META_TITLE, MKUP_PATH } from "@/lib/the-missing-key-to-universal-prosperity-data";
+import { MKUP_DATES, MKUP_META_TITLE, MKUP_PATH, MKUP_YOUTUBE_ID } from "@/lib/the-missing-key-to-universal-prosperity-data";
 import { MKUP_FAQ } from "@/lib/the-missing-key-to-universal-prosperity-faq";
 import { siteConfig } from "@/lib/metadata";
 import { pageMetadata } from "@/lib/seo-metadata";
@@ -62,6 +63,18 @@ const articleLd = blogPostingJsonLd({
 
 const faqLd = faqPageJsonLd(PATH, MKUP_FAQ);
 
+const videoLd = videoObjectJsonLd({
+  pathname: PATH,
+  name: `${MKUP_META_TITLE} — video | Neothink Institute`,
+  description: DESCRIPTION,
+  embedUrl: `https://www.youtube.com/embed/${MKUP_YOUTUBE_ID}`,
+  thumbnailUrl: `https://i.ytimg.com/vi/${MKUP_YOUTUBE_ID}/maxresdefault.jpg`,
+  uploadDate: `${MKUP_DATES.datePublished}T09:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${MKUP_YOUTUBE_ID}`,
+  speakerId: schemaIds.founder,
+});
+
+
 export default function TheMissingKeyToUniversalProsperityPage() {
   return (
     <>
@@ -72,6 +85,7 @@ export default function TheMissingKeyToUniversalProsperityPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }} />
       <TheMissingKeyToUniversalProsperityPageContent />
     </>
   );

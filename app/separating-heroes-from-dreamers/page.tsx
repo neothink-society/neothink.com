@@ -3,6 +3,7 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
 import {
@@ -10,6 +11,7 @@ import {
   SHFD_IMAGE,
   SHFD_META_TITLE,
   SHFD_PATH,
+  SHFD_YOUTUBE_ID,
   SHFD_QUICK_ANSWER_REST,
 } from "@/lib/separating-heroes-from-dreamers-data";
 import { SHFD_FAQ } from "@/lib/separating-heroes-from-dreamers-faq";
@@ -75,6 +77,18 @@ const articleLd = blogPostingJsonLd({
 
 const faqLd = faqPageJsonLd(PATH, SHFD_FAQ);
 
+const videoLd = videoObjectJsonLd({
+  pathname: PATH,
+  name: `${SHFD_META_TITLE} — video | Neothink Institute`,
+  description: DESCRIPTION,
+  embedUrl: `https://www.youtube.com/embed/${SHFD_YOUTUBE_ID}`,
+  thumbnailUrl: `https://i.ytimg.com/vi/${SHFD_YOUTUBE_ID}/maxresdefault.jpg`,
+  uploadDate: `${SHFD_DATES.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${SHFD_YOUTUBE_ID}`,
+  speakerId: schemaIds.founder,
+});
+
+
 export default function SeparatingHeroesFromDreamersPage() {
   return (
     <>
@@ -85,6 +99,7 @@ export default function SeparatingHeroesFromDreamersPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }} />
       <SeparatingHeroesFromDreamersPageContent />
     </>
   );

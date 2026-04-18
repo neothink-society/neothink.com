@@ -3,6 +3,7 @@ import {
   blogPostingJsonLd,
   breadcrumbListJsonLd,
   faqPageJsonLd,
+  videoObjectJsonLd,
   webPageJsonLd,
 } from "@/lib/json-ld";
 import {
@@ -10,6 +11,7 @@ import {
   WNMYI_IMAGE,
   WNMYI_META_TITLE,
   WNMYI_PATH,
+  WNMYI_YOUTUBE_ID,
   WNMYI_QUICK_ANSWER_REST,
 } from "@/lib/why-neothink-makes-you-irresistible-data";
 import { WNMYI_FAQ } from "@/lib/why-neothink-makes-you-irresistible-faq";
@@ -75,6 +77,18 @@ const articleLd = blogPostingJsonLd({
 
 const faqLd = faqPageJsonLd(PATH, WNMYI_FAQ);
 
+const videoLd = videoObjectJsonLd({
+  pathname: PATH,
+  name: `${WNMYI_META_TITLE} — video | Neothink Institute`,
+  description: DESCRIPTION,
+  embedUrl: `https://www.youtube.com/embed/${WNMYI_YOUTUBE_ID}`,
+  thumbnailUrl: `https://i.ytimg.com/vi/${WNMYI_YOUTUBE_ID}/maxresdefault.jpg`,
+  uploadDate: `${WNMYI_DATES.datePublished}T12:00:00.000Z`,
+  contentUrl: `https://www.youtube.com/watch?v=${WNMYI_YOUTUBE_ID}`,
+  speakerId: schemaIds.founder,
+});
+
+
 export default function WhyNeothinkMakesYouIrresistiblePage() {
   return (
     <>
@@ -85,6 +99,7 @@ export default function WhyNeothinkMakesYouIrresistiblePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoLd) }} />
       <WhyNeothinkMakesYouIrresistiblePageContent />
     </>
   );
