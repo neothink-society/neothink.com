@@ -57,7 +57,7 @@ export function BeyondTunnelVisionPageContent() {
         <h1 id="btv-heading">{BEYOND_TUNNEL_VISION_LESSON.title}</h1>
         <p className="btv-dek">
           After <Link href={WP.riseFromRut}>integrated thinking in lesson one</Link>, this lesson introduces the practical first step out of specialized tasks and following mode:{" "}
-          <strong>curiosity</strong>—and the two-week <strong>Project Curiosity</strong> exercise at work.
+          <strong>curiosity</strong>, and the two-week <strong>Project Curiosity</strong> exercise at work.
         </p>
         <p className="btv-byline">
           <span>
@@ -80,7 +80,7 @@ export function BeyondTunnelVisionPageContent() {
           Introduction
         </h2>
         <p>
-          This lesson addresses people who feel stuck in a routine rut at work—executing specialized tasks day after day and wondering whether there is more to life. If you have not watched the first talk, begin with{" "}
+          This lesson addresses people who feel stuck in a routine rut at work: executing specialized tasks day after day and wondering whether there is more to life. If you have not watched the first talk, begin with{" "}
           <Link href={WP.riseFromRut}>Rise from the Routine Rut</Link>: it frames integrated thinking and the self-leader posture. Here the focus is how to <em>start</em> integrating: leave tunnel vision behind by widening your attention across the business.
         </p>
       </section>
@@ -95,7 +95,7 @@ export function BeyondTunnelVisionPageContent() {
         <p className="btv-kicker">Quick answer</p>
         <h2 id="btv-quick">How do I break free from tunnel vision at work?</h2>
         <p>
-          <strong>Curiosity</strong> is the lever. Instead of only executing your specialized tasks, take a genuine interest in the whole business—customers, flow, how roles connect. That expansion of attention is the first step from following mode toward the integrating mind. The video assigns a minimum two-week commitment: <strong>Project Curiosity</strong> at work before the next lesson.
+          <strong>Curiosity</strong> is the lever. Instead of only executing your specialized tasks, take a genuine interest in the whole business: customers, flow, how roles connect. That expansion of attention is the first step from following mode toward the integrating mind. The video assigns a minimum two-week commitment: <strong>Project Curiosity</strong> at work before the next lesson.
         </p>
       </section>
 
@@ -125,7 +125,7 @@ export function BeyondTunnelVisionPageContent() {
       <section className="btv-section btv-prose btv-reveal" aria-labelledby="btv-tunnel">
         <h2 id="btv-tunnel">Why tunnel vision keeps people stuck</h2>
         <p>
-          Hamilton uses <strong>tunnel vision</strong>—narrow attention on your own tasks and responsibilities—to explain the routine rut. The worker completes assignments and leaves. The mind stays in specialized thinking and following mode, so integration never starts.
+          Hamilton uses <strong>tunnel vision</strong> (narrow attention on your own tasks and responsibilities) to explain the routine rut. The worker completes assignments and leaves. The mind stays in specialized thinking and following mode, so integration never starts.
         </p>
       </section>
 
@@ -140,7 +140,7 @@ export function BeyondTunnelVisionPageContent() {
       <section className="btv-section btv-prose btv-reveal" aria-labelledby="btv-dish">
         <h2 id="btv-dish">The dishwasher contrast (lesson one, revisited)</h2>
         <p>
-          In the first talk, Hamilton describes his own experience at fifteen: other dishwashers stayed inside specialized tasks; he got curious—customers, curb appeal, staff, food, location, access—and after weeks of observation the puzzle snapped together in a short breakthrough. In his account, that integrating path changed the business; coworkers who stayed in tunnel vision were still in the same role when he left.
+          In the first talk, Hamilton describes his own experience at fifteen: other dishwashers stayed inside specialized tasks; he got curious about customers, curb appeal, staff, food, location, access, and after weeks of observation the puzzle snapped together in a short breakthrough. In his account, that integrating path changed the business; coworkers who stayed in tunnel vision were still in the same role when he left.
         </p>
         <p>
           The lesson is not moral judgment; it is structural. Same starting point, different mental motion: curiosity versus task-only repetition.
@@ -151,7 +151,7 @@ export function BeyondTunnelVisionPageContent() {
         <p className="btv-kicker">First step into integration</p>
         <h2 id="btv-curious">Curiosity as the gateway</h2>
         <p>
-          The video names curiosity as the entry into the Neothink mentality: shift from “get through the day” to real interest in your workplace. Broaden past your job’s tasks; ask coworkers about their work with sincerity. When they ask why, frame it as respect for their contribution. As attention widens, the mind can leave tunnel vision and begin to integrate—baby steps toward the mentality Hamilton associates with super achievers.
+          The video names curiosity as the entry into the Neothink mentality: shift from “get through the day” to real interest in your workplace. Broaden past your job’s tasks; ask coworkers about their work with sincerity. When they ask why, frame it as respect for their contribution. As attention widens, the mind can leave tunnel vision and begin to integrate: baby steps toward the mentality Hamilton associates with super achievers.
         </p>
       </section>
 
@@ -180,13 +180,13 @@ export function BeyondTunnelVisionPageContent() {
       <section className="btv-section btv-prose btv-reveal" aria-labelledby="btv-pc">
         <h2 id="btv-pc">Project Curiosity at work</h2>
         <p>
-          Hamilton asks viewers to run <strong>Project Curiosity</strong> for at least <strong>two weeks</strong> before the next talk. Observe the business as a whole; talk with colleagues; notice where money could be made or tasks done more efficiently. Those are the “baby steps” into integrated thinking. The next lesson, he says, goes further—but this step comes first.
+          Hamilton asks viewers to run <strong>Project Curiosity</strong> for at least <strong>two weeks</strong> before the next talk. Observe the business as a whole; talk with colleagues; notice where money could be made or tasks done more efficiently. Those are the “baby steps” into integrated thinking. The next lesson, he says, goes further, but this step comes first.
         </p>
         <div className="btv-callout-dark">
           <p className="btv-callout-kicker">What changes</p>
           <h3>Your mind begins to behave differently</h3>
           <p>
-            Opening attention to the entire business—he uses his dishwasher example—reduces the feeling of being trapped in a rut. The mind expands toward integration: the mentality the lesson ties to serious builders.
+            Opening attention to the entire business (he uses his dishwasher example) reduces the feeling of being trapped in a rut. The mind expands toward integration: the mentality the lesson ties to serious builders.
           </p>
         </div>
       </section>
@@ -216,14 +216,14 @@ export function BeyondTunnelVisionPageContent() {
       <section className="btv-section btv-prose btv-reveal" aria-labelledby="btv-why">
         <h2 id="btv-why">Why this shift matters</h2>
         <p>
-          Without curiosity, integrated thinking has no raw material. With it, two people at the same starting point can diverge: one stays in tunnel vision; the other begins to integrate and see opportunity. The Neothink mentality, in this sequence, is trained—not wished for.
+          Without curiosity, integrated thinking has no raw material. With it, two people at the same starting point can diverge: one stays in tunnel vision; the other begins to integrate and see opportunity. The Neothink mentality, in this sequence, is trained, not wished for.
         </p>
       </section>
 
       <section className="btv-section btv-prose btv-reveal" aria-labelledby="btv-next">
         <h2 id="btv-next">What’s next in the series</h2>
         <p>
-          After Project Curiosity, the following lesson turns toward impact and profit with an expanding mind—see{" "}
+          After Project Curiosity, the following lesson turns toward impact and profit with an expanding mind. See{" "}
           <Link href={WP.impactProfits}>Impact Profits</Link>. Complete at least two weeks of Project Curiosity first, as the video instructs.
         </p>
       </section>

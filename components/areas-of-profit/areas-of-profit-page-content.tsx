@@ -61,8 +61,8 @@ export function AreasOfProfitPageContent() {
           This lesson turns integrated thinking tactical: after{" "}
           <Link href={WP.beyondTunnelVision}>Project Curiosity</Link>,{" "}
           <Link href={WP.impactProfits}>areas that impact income</Link>, and{" "}
-          <Link href={WP.higherLevelThinking}>higher level thinking</Link>, you name where money is actually made—
-          <strong>areas of purpose</strong>—and how the <strong>mini-company</strong> idea maps work to those channels.
+          <Link href={WP.higherLevelThinking}>higher level thinking</Link>, you name where money is actually made:{" "}
+          <strong>areas of purpose</strong>, and how the <strong>mini-company</strong> idea maps work to those channels.
         </p>
         <p className="aop-byline">
           <span>
@@ -98,11 +98,11 @@ export function AreasOfProfitPageContent() {
         <h2 id="aop-quick">How do I identify where money is really made?</h2>
         <p>
           <strong>
-            After Project Curiosity, list the business’s basic responsibilities, then group them into areas of purpose—
+            After Project Curiosity, list the business’s basic responsibilities, then group them into areas of purpose:{" "}
             the specific channels where income actually enters.
           </strong>{" "}
           Focus there rather than on isolated specialized tasks. The lesson describes restructuring attention around
-          those profit channels and, when possible, owning the scope of work inside one channel—what Hamilton calls a
+          those profit channels and, when possible, owning the scope of work inside one channel: what Hamilton calls a
           mini-company mindset.
         </p>
       </section>
@@ -111,7 +111,7 @@ export function AreasOfProfitPageContent() {
         <h2 id="aop-creative">The creative mind and creating values</h2>
         <p>
           The transcript ties this step to what came before: with a growing map of the business, you may find a way to
-          improve efficiency on a particular task or procedure—that can be a first small move into the{" "}
+          improve efficiency on a particular task or procedure: that can be a first small move into the{" "}
           <strong>creative mind</strong>. In the framework, the human mind is what creates values; creating values aligns
           with human essence and with wealth, while narrow following-mode specialization blocks that path. The
           mini-company / division-of-essence material is offered as the structural way to bring creative scope into
@@ -147,14 +147,14 @@ export function AreasOfProfitPageContent() {
         <p>
           <strong>
             After at least two weeks of Project Curiosity, write a list of the main responsibilities that make up the
-            business—not only your role, but the building blocks of the operation.
+            business: not only your role, but the building blocks of the operation.
           </strong>{" "}
           If you run or are starting a business, the same exercise applies: list your business’s basic responsibilities.
           That list is much easier once curiosity has widened what you can see beyond specialized tasks.
         </p>
         <p>
           The video frames this for people stuck in jobs: the point is to break out of the routine rut and move onto an
-          integrating path—eventually the same habits support starting a business, but the lesson starts with clarity
+          integrating path; eventually the same habits support starting a business, but the lesson starts with clarity
           where you are now.
         </p>
       </section>
@@ -183,7 +183,7 @@ export function AreasOfProfitPageContent() {
         <h2 id="aop-aop">What are areas of purpose?</h2>
         <p>
           <strong>Areas of purpose are the avenues where money actually enters the business.</strong> The stated purpose
-          of a business in this lesson is to make money selling your value—product or service—so areas of purpose are
+          of a business in this lesson is to make money selling your value (product or service), so areas of purpose are
           the marketing and delivery channels that accomplish that. Today that might include digital and social channels;
           the historical example below is pre-internet on purpose.
         </p>
@@ -204,7 +204,7 @@ export function AreasOfProfitPageContent() {
         </div>
         <p>
           <em>
-            The example is older technology by design—before the internet and social media. The principle is to identify
+            The example is older technology by design, before the internet and social media. The principle is to identify
             where money enters, then let responsibilities integrate under those headings instead of staying dead-end
             silos.
           </em>
@@ -216,7 +216,7 @@ export function AreasOfProfitPageContent() {
         <h3 id="aop-def-aop">Areas of purpose</h3>
         <p>
           Channels that directly generate income. Grouping basic responsibilities under them turns disconnected tasks into
-          unified forces tied to how the firm actually gets paid—preparing the mini-company reading of each slice.
+          unified forces tied to how the firm actually gets paid, preparing the mini-company reading of each slice.
         </p>
       </aside>
 
@@ -225,14 +225,14 @@ export function AreasOfProfitPageContent() {
         <p>
           <strong>
             Instead of scattered specialized departments, responsibilities integrate under each area of purpose. Each
-            money-making area becomes something like a small business inside the larger one—a mini-company (spoken as
+            money-making area becomes something like a small business inside the larger one: a mini-company (spoken as
             M-I-N-I): marketing, taking and fulfilling orders, customer service, data, accounting, run as one scope for
             that channel.
           </strong>{" "}
           The lesson contrasts <strong>bored</strong> specialization with <strong>exhilarated</strong> in-house
           entrepreneurs, and describes productivity rising past prior benchmarks when the creative mind owns the whole
           slice. Hamilton references a separate masterclass for deeper implementation; this page stays with the lesson’s
-          ideas—see the video description for how he points viewers to that material.
+          ideas; see the video description for how he points viewers to that material.
         </p>
       </section>
 
@@ -242,7 +242,7 @@ export function AreasOfProfitPageContent() {
           <h3>Control where money is made</h3>
           <p>
             The transcript states plainly that gaining control of an area where money is made lifts you toward the
-            integrating mind and the upper echelons—offered there as a direct promise to people who follow the steps with
+            integrating mind and the upper echelons, offered there as a direct promise to people who follow the steps with
             persistence. Treat it as the speaker’s strong claim in the recording, not as an independent guarantee from
             the Institute.
           </p>
@@ -276,7 +276,7 @@ export function AreasOfProfitPageContent() {
         <p>
           <strong>
             Map potential areas of purpose in your company, choose one to target, and steadily take over responsibilities
-            tied to it—including tedious details others prefer to drop.
+            tied to it, including tedious details others prefer to drop.
           </strong>{" "}
           The video stresses assertive energy and persistence: people often gladly release nitty-gritty work that still
           sits inside your chosen area. Over time, that accumulation is how employees in the story move into charge of a
@@ -288,7 +288,7 @@ export function AreasOfProfitPageContent() {
         <h2 id="aop-analogy">Factory vs. speedboat</h2>
         <p>
           The WordPress essay uses a factory (each worker bolted to one machine) versus speedboat captains who navigate,
-          maintain the engine, and know the destination—many small craft outmaneuvering a single rigid line. That matches
+          maintain the engine, and know the destination: many small craft outmaneuvering a single rigid line. That matches
           the transcript’s emphasis on full-scope ownership per area of purpose.
         </p>
       </section>
@@ -296,10 +296,10 @@ export function AreasOfProfitPageContent() {
       <section className="aop-section aop-prose aop-reveal" aria-labelledby="aop-wealth">
         <h2 id="aop-wealth">Why creating values matters</h2>
         <p>
-          Creating values—not merely executing isolated tasks—is framed as the human route to wealth and fulfillment and
+          Creating values, not merely executing isolated tasks, is framed as the human route to wealth and fulfillment and
           as incompatible with staying only in following-mode specialization. The mini-company / division-of-essence
           structure is how ordinary employees are said to discover creative essence and the integrating self-leader
-          mentality—the Neothink mentality in this arc.
+          mentality: the Neothink mentality in this arc.
         </p>
       </section>
 
@@ -325,10 +325,10 @@ export function AreasOfProfitPageContent() {
           starting your own business with the same integrated habits. The video’s closing also names rising out of the
           “limited following mentality” associated with a <strong>privileged power class</strong> above, into an{" "}
           <strong>unlimited integrating mentality</strong> that does not depend on a higher authority to dictate every
-          move—language drawn directly from the transcript.
+          move, language drawn directly from the transcript.
         </p>
         <p>
-          The next lesson is <Link href={WP.unlockYourGenius}>Unlock Your Genius</Link>—the explicit move from value{" "}
+          The next lesson is <Link href={WP.unlockYourGenius}>Unlock Your Genius</Link>, the explicit move from value{" "}
           <em>producer</em> to value <em>creator</em> and into the Neothink mentality as creation of values.
         </p>
       </section>

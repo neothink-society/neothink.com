@@ -58,7 +58,7 @@ export function FreedomFromRightsPageContent() {
         <h1 id="ffr-heading">{FREEDOM_FROM_RIGHTS_LESSON.title}</h1>
         <p className="ffr-dek">
           Building on{" "}
-          <Link href={WP.riseFromRut}>lesson one</Link>, Mark Hamilton extends the Neothink mentality from work into politics: how integrated thinking breaks the illusion that new “rights” always enlarge freedom—and why removing initiatory force through the Prime Law is the integration the Founders almost reached.
+          <Link href={WP.riseFromRut}>lesson one</Link>, Mark Hamilton extends the Neothink mentality from work into politics: how integrated thinking breaks the illusion that new “rights” always enlarge freedom, and why removing initiatory force through the Prime Law is the integration the Founders almost reached.
         </p>
         <p className="ffr-byline">
           <span>
@@ -82,7 +82,7 @@ export function FreedomFromRightsPageContent() {
         </h2>
         <p>
           If you have not watched the first talk, start with{" "}
-          <Link href={WP.riseFromRut}>Rise from the Routine Rut</Link>: it opens the move from specialized, following-mode thinking to integrated thinking—the Neothink mentality shared by serious builders. This second talk adds something Hamilton treats as equally valuable: seeing through illusions crafted in business, politics, media, and law. Not everything labeled “freedom” behaves like freedom when you trace what enforces it.
+          <Link href={WP.riseFromRut}>Rise from the Routine Rut</Link>: it opens the move from specialized, following-mode thinking to integrated thinking: the Neothink mentality shared by serious builders. This second talk adds something Hamilton treats as equally valuable: seeing through illusions crafted in business, politics, media, and law. Not everything labeled “freedom” behaves like freedom when you trace what enforces it.
         </p>
       </section>
 
@@ -119,7 +119,7 @@ export function FreedomFromRightsPageContent() {
         <p className="ffr-kicker">The quick example in the video</p>
         <h2 id="ffr-bor">The Bill of Rights: beacon, habit, and one missing integration</h2>
         <p>
-          Hamilton uses the Bill of Rights as the example that lands fast: it is treated as the beacon of American freedom, yet he argues it began something that now feeds a damaging pattern—adding “rights” and regulations that sound positive while resting on initiatory force. Each addition can be sold with good-looking language; the integration that is missing is not a longer list of positives but the removal of the negative—government’s resort to initiatory force against citizens.
+          Hamilton uses the Bill of Rights as the example that lands fast: it is treated as the beacon of American freedom, yet he argues it began something that now feeds a damaging pattern: adding “rights” and regulations that sound positive while resting on initiatory force. Each addition can be sold with good-looking language; the integration that is missing is not a longer list of positives but the removal of the negative: government’s resort to initiatory force against citizens.
         </p>
         <p>
           Adding rights to law looks like stacking positives. In practice, those “positives” can be steered through appealing narratives. He points to the spread of DEI- and ESG-style mandates into law and regulation as illustrations: framed as rights or protections, they can still damage practical freedom when people are forced to comply even when the underlying rule is wrong.
@@ -137,14 +137,14 @@ export function FreedomFromRightsPageContent() {
       <section className="ffr-section ffr-prose ffr-reveal" aria-labelledby="ffr-remove-neg">
         <h2 id="ffr-remove-neg">Remove the negative instead of piling on positives</h2>
         <p>
-          The alternative Hamilton offers is not another rights campaign. It is to remove initiatory force—the government’s authority to use force or the threat of force first against citizens. That capacity is what lets a force-backed power class sit above the public, pull people into agendas, and fund itself through taxation extracted by compulsion. Strip that mechanism, and the class above loses the lever that lets it dictate terms.
+          The alternative Hamilton offers is not another rights campaign. It is to remove initiatory force: the government’s authority to use force or the threat of force first against citizens. That capacity is what lets a force-backed power class sit above the public, pull people into agendas, and fund itself through taxation extracted by compulsion. Strip that mechanism, and the class above loses the lever that lets it dictate terms.
         </p>
       </section>
 
       <section className="ffr-section ffr-prose ffr-reveal" aria-labelledby="ffr-init">
         <h2 id="ffr-init">Initiatory force versus protective force</h2>
         <p>
-          <strong>Initiatory force</strong> is force, threat, or fraud used first to compel—not in response to an attack. <strong>Protective force</strong> answers aggression. The Neothink analysis treats initiatory force as the root that makes discretionary rule durable.
+          <strong>Initiatory force</strong> is force, threat, or fraud used first to compel, not in response to an attack. <strong>Protective force</strong> answers aggression. The Neothink analysis treats initiatory force as the root that makes discretionary rule durable.
         </p>
       </section>
 
@@ -152,14 +152,14 @@ export function FreedomFromRightsPageContent() {
         <p className="ffr-def-label">Definition</p>
         <h3 id="ffr-def-init">Initiatory force</h3>
         <p>
-          The use of force, threat of force, or fraud by a person, group, or government <em>first</em>—to compel compliance rather than to stop an aggressor. Integrated thinking treats this as what a ruling class requires to persist.
+          The use of force, threat of force, or fraud by a person, group, or government <em>first</em>: to compel compliance rather than to stop an aggressor. Integrated thinking treats this as what a ruling class requires to persist.
         </p>
       </aside>
 
       <section className="ffr-section ffr-prose ffr-reveal" aria-labelledby="ffr-founders">
-        <h2 id="ffr-founders">What the Founders saw—and what they missed</h2>
+        <h2 id="ffr-founders">What the Founders saw, and what they missed</h2>
         <p>
-          Hamilton notes the Founders were skeptical about enumerating a bill of rights for several reasons. The specific amendments do not, in themselves, introduce initiatory force; what they did introduce, in his reading, is the <em>practice</em> of adding rights to law—a practice that has not stopped. Had they made the Neothink identification—remove the negative instead of endlessly adding positives—the Bill of Rights as a fix would have been unnecessary: one Prime Law removing initiatory force would have secured the same protective end without licensing an ever-growing rights industry.
+          Hamilton notes the Founders were skeptical about enumerating a bill of rights for several reasons. The specific amendments do not, in themselves, introduce initiatory force; what they did introduce, in his reading, is the <em>practice</em> of adding rights to law, a practice that has not stopped. Had they made the Neothink identification (remove the negative instead of endlessly adding positives), the Bill of Rights as a fix would have been unnecessary: one Prime Law removing initiatory force would have secured the same protective end without licensing an ever-growing rights industry.
         </p>
         <p>
           He ties this to a roughly 650-page integrated work on how close the Constitution came to lasting freedom, and where the missing ingredient was: removing initiatory force through a single prime law that ends the ruling class structurally.
@@ -170,14 +170,14 @@ export function FreedomFromRightsPageContent() {
         <p className="ffr-def-label">Neothink identification</p>
         <h3 id="ffr-neothink-id">Remove the negative, not an endless list of positives</h3>
         <p>
-          This is the same integrative move as in business: do not optimize the wrong structure—replace the lever that creates the bad pattern. Positive law can be reinterpreted; a boundary that removes initiatory force is a different category of solution.
+          This is the same integrative move as in business: do not optimize the wrong structure; replace the lever that creates the bad pattern. Positive law can be reinterpreted; a boundary that removes initiatory force is a different category of solution.
         </p>
       </aside>
 
       <section className="ffr-section ffr-prose ffr-reveal" aria-labelledby="ffr-what-pl">
         <h2 id="ffr-what-pl">The Prime Law (as recited in the video)</h2>
         <p>
-          Hamilton recites the full text on camera: preamble plus three articles, no exceptions. It is the fundamental law of protection—everything needed, in his account, to secure genuine freedom and prevent the rule of man and a power class from reconstituting legally.
+          Hamilton recites the full text on camera: preamble plus three articles, no exceptions. It is the fundamental law of protection: everything needed, in his account, to secure genuine freedom and prevent the rule of man and a power class from reconstituting legally.
         </p>
         <div className="ffr-prime-law">
           <h3 className="ffr-prime-law-title">The Prime Law</h3>
@@ -223,14 +223,14 @@ export function FreedomFromRightsPageContent() {
       <section className="ffr-section ffr-prose ffr-reveal" aria-labelledby="ffr-demo">
         <h2 id="ffr-demo">Integrated thinking on one political illusion</h2>
         <p>
-          In a few minutes of video, Hamilton walks through how the Neothink mentality applies integrated thinking to a consensus symbol—“rights” in the political system and the growing ruling class. That is the second public face of the series: the same mentality that helps you rise in business is the one that disintegrates destructive illusions when you trace force and incentives instead of stopping at slogans.
+          In a few minutes of video, Hamilton walks through how the Neothink mentality applies integrated thinking to a consensus symbol, “rights” in the political system and the growing ruling class. That is the second public face of the series: the same mentality that helps you rise in business is the one that disintegrates destructive illusions when you trace force and incentives instead of stopping at slogans.
         </p>
         <div className="ffr-callout-dark">
           <p className="ffr-callout-kicker">Two strands on this channel</p>
           <h3>Rise up and see through</h3>
           <p>
-            <strong>First:</strong> the Neothink mentality of major winners—integrated thinking that forges your path in business and wealth, as in the debut talk.{" "}
-            <strong>Second:</strong> the mentality that sees through debilitating illusions—integrated thinking that pulls reality apart so manipulative narratives lose their cover, as in this second talk.
+            <strong>First:</strong> the Neothink mentality of major winners: integrated thinking that forges your path in business and wealth, as in the debut talk.{" "}
+            <strong>Second:</strong> the mentality that sees through debilitating illusions: integrated thinking that pulls reality apart so manipulative narratives lose their cover, as in this second talk.
           </p>
         </div>
       </section>
@@ -238,7 +238,7 @@ export function FreedomFromRightsPageContent() {
       <section className="ffr-section ffr-prose ffr-reveal" aria-labelledby="ffr-28">
         <h2 id="ffr-28">The 28th Amendment and the larger book</h2>
         <p>
-          Hamilton describes a long, integrated book that lays out a political design to supersede the old system with the Prime Law as the 28th Amendment—the structural finish the Founders approached but did not lock in. The point for search and study is not a quick policy patch; it is replacing the machinery that lets tyranny accrete.
+          Hamilton describes a long, integrated book that lays out a political design to supersede the old system with the Prime Law as the 28th Amendment: the structural finish the Founders approached but did not lock in. The point for search and study is not a quick policy patch; it is replacing the machinery that lets tyranny accrete.
         </p>
       </section>
 

@@ -58,7 +58,7 @@ export function ImpactProfitsPageContent() {
         <h1 id="ip-heading">{IMPACT_PROFITS_LESSON.title}</h1>
         <p className="ip-dek">
           After <Link href={WP.beyondTunnelVision}>Project Curiosity in lesson three</Link>, this lesson turns expanded attention into a concrete focus:{" "}
-          <strong>impact profits</strong>—the places where value and money actually meet—and how to move from specialized tasks toward value creation.
+          <strong>impact profits</strong>, the places where value and money actually meet, and how to move from specialized tasks toward value creation.
         </p>
         <p className="ip-byline">
           <span>
@@ -92,7 +92,7 @@ export function ImpactProfitsPageContent() {
         <p className="ip-kicker">Quick answer</p>
         <h2 id="ip-quick">How do I escape the routine rut and start creating wealth?</h2>
         <p>
-          <strong>Focus where profits are actually made.</strong> Use the awareness from Project Curiosity to see customer flow, service quality, efficiency, and location—the “common denominators” of income in most businesses. Shifting from narrow tasks to those profit-impacting zones is how specialized following gives way to integrated thinking and first steps toward durable value.
+          <strong>Focus where profits are actually made.</strong> Use the awareness from Project Curiosity to see customer flow, service quality, efficiency, and location: the “common denominators” of income in most businesses. Shifting from narrow tasks to those profit-impacting zones is how specialized following gives way to integrated thinking and first steps toward durable value.
         </p>
       </section>
 
@@ -130,14 +130,14 @@ export function ImpactProfitsPageContent() {
         <p className="ip-def-label">Key concept</p>
         <h3 id="ip-def-impact">Impact profits</h3>
         <p>
-          The recurring places where value shows up as income—service quality, throughput, standards, location, customer mix. Naming them is how you stop treating work as random chores and start seeing where money is made.
+          The recurring places where value shows up as income: service quality, throughput, standards, location, customer mix. Naming them is how you stop treating work as random chores and start seeing where money is made.
         </p>
       </aside>
 
       <section className="ip-section ip-prose ip-reveal" aria-labelledby="ip-dish">
         <h2 id="ip-dish">Example: the dishwasher who looked past the sink</h2>
         <p>
-          Hamilton returns to the restaurant story: curiosity about curb appeal, traffic, and flow—not only dishes—is how observation tied to profit. The point is not the job title; it is where attention goes once tunnel vision loosens.
+          Hamilton returns to the restaurant story: curiosity about curb appeal, traffic, and flow, not only dishes, is how observation tied to profit. The point is not the job title; it is where attention goes once tunnel vision loosens.
         </p>
       </section>
 
@@ -152,14 +152,14 @@ export function ImpactProfitsPageContent() {
           ))}
         </ul>
         <p>
-          When those connections clarify, the mind can move from executing tasks to <strong>creating values</strong>—improvements that did not exist before. That creative move is the lever Hamilton distinguishes from simply working harder.
+          When those connections clarify, the mind can move from executing tasks to <strong>creating values</strong>: improvements that did not exist before. That creative move is the lever Hamilton distinguishes from simply working harder.
         </p>
       </section>
 
       <section className="ip-section ip-prose ip-reveal" aria-labelledby="ip-nash">
         <h2 id="ip-nash">Charles Nash: from blacksmith to integrated leadership</h2>
         <p>
-          The lesson cites Charles Nash’s rise—focusing on efficiencies that doubled output, moving across functions, and eventually leading at scale—as a historical pattern of asking how work could impact profits rather than only completing a specialty. Whether every detail matches your industry is less important than the structural idea: integrated attention to profit-impacting improvement beats permanent narrow repetition.
+          The lesson cites Charles Nash’s rise, focusing on efficiencies that doubled output, moving across functions, and eventually leading at scale, as a historical pattern of asking how work could impact profits rather than only completing a specialty. Whether every detail matches your industry is less important than the structural idea: integrated attention to profit-impacting improvement beats permanent narrow repetition.
         </p>
       </section>
 
@@ -188,14 +188,14 @@ export function ImpactProfitsPageContent() {
       <section className="ip-section ip-prose ip-reveal" aria-labelledby="ip-wealth">
         <h2 id="ip-wealth">Why value creation comes first</h2>
         <p>
-          Wealth in this framework tracks created value, not brute hours. Small improvements in profit-impacting areas are still steps into the Neothink mentality—the move from follower to someone whose work visibly changes outcomes.
+          Wealth in this framework tracks created value, not brute hours. Small improvements in profit-impacting areas are still steps into the Neothink mentality: the move from follower to someone whose work visibly changes outcomes.
         </p>
       </section>
 
       <section className="ip-section ip-prose ip-reveal" aria-labelledby="ip-hoax">
         <h2 id="ip-hoax">The “white collar” barrier</h2>
         <p>
-          Hamilton names a pattern where organizations reward staying in lane: less internal competition, simpler management. Breaking through is a conscious choice to develop integration anyway—using curiosity and profit focus as your own curriculum, not waiting for permission.
+          Hamilton names a pattern where organizations reward staying in lane: less internal competition, simpler management. Breaking through is a conscious choice to develop integration anyway, using curiosity and profit focus as your own curriculum, not waiting for permission.
         </p>
       </section>
 
@@ -235,7 +235,7 @@ export function ImpactProfitsPageContent() {
         <h2 id="ip-next-lesson">What’s next in the series</h2>
         <p>
           The following lesson is{" "}
-          <Link href={WP.higherLevelThinking}>Higher Level Thinking</Link>—accelerating integration once profit-impacting areas are in view.
+          <Link href={WP.higherLevelThinking}>Higher Level Thinking</Link>, accelerating integration once profit-impacting areas are in view.
         </p>
       </section>
 

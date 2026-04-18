@@ -59,7 +59,7 @@ export function HigherLevelThinkingPageContent() {
         <p className="hlt-dek">
           After <Link href={WP.beyondTunnelVision}>Project Curiosity</Link> and{" "}
           <Link href={WP.impactProfits}>areas that impact profits</Link>, the natural question is what{" "}
-          <em>integrated thinking</em> actually is. This lesson names it as <strong>higher level thinking</strong>—the
+          <em>integrated thinking</em> actually is. This lesson names it as <strong>higher level thinking</strong>: the
           mind lifting above the hypnotic routine rut to see the whole business and pull integrations together.
         </p>
         <p className="hlt-byline">
@@ -97,7 +97,7 @@ export function HigherLevelThinkingPageContent() {
         <h2 id="hlt-quick">What is integrated thinking?</h2>
         <p>
           <strong>Integrated thinking is higher level thinking.</strong> Picture your mind rising above daily tasks to
-          look down at the business with a wide view. From there you pull thoughts from different areas—integrations—that
+          look down at the business with a wide view. From there you pull thoughts from different areas (integrations) that
           stay invisible to someone stuck in a specialized, almost hypnotic routine. That elevated view is the cognitive
           motion behind creative breakthroughs and clearer sight of profit impact.
         </p>
@@ -133,7 +133,7 @@ export function HigherLevelThinkingPageContent() {
             Integrated thinking is a higher level of cognitive function: you hold the business as a whole instead of only
             your slot in it.
           </strong>{" "}
-          Diverse observations combine into integrations—missing pieces in how the place actually works—so profits,
+          Diverse observations combine into integrations: missing pieces in how the place actually works, so profits,
           power, and opportunity come into focus rather than staying hidden behind task repetition.
         </p>
         <ul>
@@ -147,7 +147,7 @@ export function HigherLevelThinkingPageContent() {
             <strong>Temporal awareness:</strong> past, present, and future of the business can be held together.
           </li>
           <li>
-            <strong>Creative motion:</strong> you can combine what has not been combined before—that is creativity in
+            <strong>Creative motion:</strong> you can combine what has not been combined before: that is creativity in
             this framework.
           </li>
         </ul>
@@ -157,7 +157,7 @@ export function HigherLevelThinkingPageContent() {
         <p className="hlt-def-label">Key concept</p>
         <h3 id="hlt-def-hlt">Higher level thinking</h3>
         <p>
-          A state in which the mind works from an elevated view of the whole business—not a narrow focal point. From
+          A state in which the mind works from an elevated view of the whole business, not a narrow focal point. From
           that height, integrations and breakthrough solutions show up that are not visible from inside the rut.
         </p>
       </aside>
@@ -178,7 +178,7 @@ export function HigherLevelThinkingPageContent() {
         <h2 id="hlt-pc">How Project Curiosity lifts you toward higher level thinking</h2>
         <p>
           <strong>
-            Project Curiosity means learning the business as a whole—asking, watching, and taking interest in other
+            Project Curiosity means learning the business as a whole: asking, watching, and taking interest in other
             people’s jobs.
           </strong>{" "}
           That widened attention moves the mind from a narrow focal point toward a wide-angle view. As perspective
@@ -191,8 +191,8 @@ export function HigherLevelThinkingPageContent() {
           <li>Access from the road and practical friction for guests</li>
         </ul>
         <p>
-          The other dishwashers stayed down in the specialized rut; the integrations that surfaced—like the missing piece
-          of <strong>lack of parking</strong>—came from that rising view. Fixing that lever mattered for the business;
+          The other dishwashers stayed down in the specialized rut; the integrations that surfaced (like the missing piece
+          of <strong>lack of parking</strong>) came from that rising view. Fixing that lever mattered for the business;
           the story is used to show structure, not to promise identical outcomes everywhere.
         </p>
       </section>
@@ -225,7 +225,7 @@ export function HigherLevelThinkingPageContent() {
         <p className="hlt-def-label">Key concept</p>
         <h3 id="hlt-def-int">Integrations</h3>
         <p>
-          Connections your mind makes when it views the business from higher level thinking—patterns, missing elements,
+          Connections your mind makes when it views the business from higher level thinking: patterns, missing elements,
           and combinations that do not appear from ground-level specialization alone.
         </p>
       </aside>
@@ -256,7 +256,7 @@ export function HigherLevelThinkingPageContent() {
         <h2 id="hlt-nm">The Neothink mentality</h2>
         <p>
           <strong>
-            The Neothink mentality is this higher level integrated thinking—trained and practiced, not a fixed
+            The Neothink mentality is this higher level integrated thinking, trained and practiced, not a fixed
             temperament.
           </strong>{" "}
           It is the lens Hamilton uses to describe how successful self-made wealth maps to cognitive integration: mind
@@ -268,7 +268,7 @@ export function HigherLevelThinkingPageContent() {
         <p className="hlt-def-label">Core concept</p>
         <h3 id="hlt-core-nm">Neothink mentality (in this lesson)</h3>
         <p>
-          The capacity for higher level integrated thinking—rising out of the stagnation trap of repetitive, narrow
+          The capacity for higher level integrated thinking: rising out of the stagnation trap of repetitive, narrow
           roles. The series presents it as learnable through curiosity and deliberate practice.
         </p>
       </aside>
@@ -276,7 +276,7 @@ export function HigherLevelThinkingPageContent() {
       <section className="hlt-section hlt-prose hlt-reveal" aria-labelledby="hlt-lesson2">
         <h2 id="hlt-lesson2">Higher level thinking beyond the workplace</h2>
         <p>
-          The same motion—pulling integrations from a wide view—shows up in civic analysis. In{" "}
+          The same motion (pulling integrations from a wide view) shows up in civic analysis. In{" "}
           <Link href={WP.freedomFromRights}>lesson two</Link>, Hamilton uses that lens on the Bill of Rights and the
           “rights direction,” and on the Prime Law as a structural response (removing initiatory force). The lesson here
           stays focused on work; the parallel is that integrated thinking scales from a kitchen to a constitution when
@@ -323,9 +323,9 @@ export function HigherLevelThinkingPageContent() {
       <section className="hlt-section hlt-prose hlt-reveal" aria-labelledby="hlt-after">
         <h2 id="hlt-after">What happens after the mentality takes root</h2>
         <p>
-          <strong>Mind first—then power and wealth in proportion to real contribution.</strong> Integrations tend to
+          <strong>Mind first, then power and wealth in proportion to real contribution.</strong> Integrations tend to
           aim at areas that affect profits because the elevated view makes those levers visible. The documentation tied
-          to this series presents that order as the common pattern behind major success—not a promise of timing or
+          to this series presents that order as the common pattern behind major success, not a promise of timing or
           amount.
         </p>
       </section>
@@ -333,7 +333,7 @@ export function HigherLevelThinkingPageContent() {
       <section className="hlt-section hlt-prose hlt-reveal" aria-labelledby="hlt-next-lesson">
         <h2 id="hlt-next-lesson">What’s next in the series</h2>
         <p>
-          The following lesson is <Link href={WP.areasOfProfit}>Areas of Profit</Link>—listing basic responsibilities and
+          The following lesson is <Link href={WP.areasOfProfit}>Areas of Profit</Link>, listing basic responsibilities and
           grouping them into areas of purpose (where money is made) and the mini-company frame.
         </p>
       </section>

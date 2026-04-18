@@ -61,9 +61,9 @@ export function SoaringProductivityPageContent() {
         <h1 id="sp-heading">{SOARING_PRODUCTIVITY_LESSON.title}</h1>
         <p className="sp-dek">
           If you get little done in a day despite effort, the talk reframes the problem: not “more discipline on the same
-          to-do list,” but a shift from <strong>following mode</strong>—task-hopping like pre-assembly-line
-          manufacturing—to an <strong>assembly line</strong> built on <strong>physical movements</strong> (calls,
-          writing, meetings) in balanced time slots. Hamilton claims an <strong>8×</strong> jump—framed in the video as
+          to-do list,” but a shift from <strong>following mode</strong> (task-hopping like pre-assembly-line
+          manufacturing) to an <strong>assembly line</strong> built on <strong>physical movements</strong> (calls,
+          writing, meetings) in balanced time slots. Hamilton claims an <strong>8×</strong> jump, framed in the video as
           output on the order of <strong>64 hours</strong> in a day once the system clicks.
         </p>
         <p className="sp-byline">
@@ -105,7 +105,7 @@ export function SoaringProductivityPageContent() {
           <strong>Stop treating your day as a to-do list and start treating it as an assembly line.</strong> Instead of
           approaching tasks one-by-one by subject, categorize everything by physical movement type (calls, writing,
           meetings) and batch them into dedicated time slots. The shift from “following mode” to the Neothink Mentality
-          is described as an 8-fold boost—Hamilton names output on the order of <strong>64 hours</strong> of productivity
+          is described as an 8-fold boost: Hamilton names output on the order of <strong>64 hours</strong> of productivity
           in a single day once you run the line.
         </p>
       </section>
@@ -140,7 +140,7 @@ export function SoaringProductivityPageContent() {
             To increase productivity eight-fold, you shift from a “following mode” mentality to the Neothink Mentality.
           </strong>{" "}
           That replaces disjointed to-do lists with a mental assembly line: break every task into simple physical
-          movements and schedule them into dedicated slots—like breaking car production into repeatable motions on a line.
+          movements and schedule them into dedicated slots, like breaking car production into repeatable motions on a line.
           Hamilton describes the old way as a “nightmare”: you write things down, jump topic to topic, interruptions pile
           up, and you fall further behind. Sound familiar?
         </p>
@@ -158,8 +158,8 @@ export function SoaringProductivityPageContent() {
           </p>
           <p>
             He studied time-management books and seminars. The result?{" "}
-            <span className="sp-highlight">An extra hour a day</span>—under strict disciplines that made that hour not
-            worth it. He was falling hopelessly behind, with no bandwidth for new projects—too busy maintaining a set
+            <span className="sp-highlight">An extra hour a day</span>, under strict disciplines that made that hour not
+            worth it. He was falling hopelessly behind, with no bandwidth for new projects: too busy maintaining a set
             routine while the backlog grew.
           </p>
         </aside>
@@ -196,7 +196,7 @@ export function SoaringProductivityPageContent() {
         </h2>
         <p>
           On <strong>December 1, 1913</strong>, Ford Motor Company started its first moving assembly line and cut the
-          time to build a car from <strong>12 hours to 1.5 hours</strong>—an immediate 8-fold productivity increase, as
+          time to build a car from <strong>12 hours to 1.5 hours</strong>: an immediate 8-fold productivity increase, as
           Hamilton tells it.
         </p>
       </section>
@@ -207,7 +207,7 @@ export function SoaringProductivityPageContent() {
         </p>
         <h3>Your day is manufacturing</h3>
         <p>
-          Your day is your manufacturing of success—or lack thereof. In specialized “following mode,” you approach that
+          Your day is your manufacturing of success, or lack thereof. In specialized “following mode,” you approach that
           manufacturing task by task, like building cars before the assembly line. Even strong time-management systems
           often buy only an extra hour a day.
         </p>
@@ -222,7 +222,7 @@ export function SoaringProductivityPageContent() {
             Categorize every task by the physical action it requires, not by its subject matter.
           </strong>{" "}
           Assign time slots for movements such as phone calls, letter writing, copywriting, accounting, meetings, and
-          operations—each balanced like stations on a line. In the talk, it does not matter{" "}
+          operations, each balanced like stations on a line. In the talk, it does not matter{" "}
           <em>who</em> you call or <em>what</em> the meeting is about; the movement type is what you batch.
         </p>
         <div className="sp-movement-grid">
@@ -234,7 +234,7 @@ export function SoaringProductivityPageContent() {
           ))}
         </div>
         <p>
-          You give each movement time slots with <strong>proper balance</strong>—as on any assembly line. Hamilton says
+          You give each movement time slots with <strong>proper balance</strong>, as on any assembly line. Hamilton says
           the speed and energy through tasks can feel surreal; you become the person the line is manufacturing.
         </p>
       </section>
@@ -247,8 +247,8 @@ export function SoaringProductivityPageContent() {
           <h3>The robotic arm</h3>
           <p>
             A scattered to-do list is like a mechanic walking to the toolbox for every bolt. The Neothink Mentality turns
-            your office into a factory: you stay in one movement—like{" "}
-            <strong>a robotic arm driving rivet after rivet</strong>—until that segment is done. The “car” of your
+            your office into a factory: you stay in one movement (like{" "}
+            <strong>a robotic arm driving rivet after rivet</strong>) until that segment is done. The “car” of your
             success is built faster because you are not constantly switching contexts.
           </p>
         </aside>
@@ -260,7 +260,7 @@ export function SoaringProductivityPageContent() {
           <h3>Surreal intensity</h3>
           <p>
             Hamilton says his day “lit up like an assembly line manufacturing success.” Instead of an extra hour, he
-            describes <strong>64 hours</strong> of productivity in a day—a rhetorical equivalent for 8× leverage on the
+            describes <strong>64 hours</strong> of productivity in a day: a rhetorical equivalent for 8× leverage on the
             clock you actually have, not literal clock time.
           </p>
         </div>
@@ -294,7 +294,7 @@ export function SoaringProductivityPageContent() {
         <h2 id="sp-neothink-diff">How does the Neothink Mentality differ from traditional to-do lists?</h2>
         <p>
           <strong>
-            Traditional lists keep you in “following mode”—reacting to tasks and falling behind when interruptions hit.
+            Traditional lists keep you in “following mode,” reacting to tasks and falling behind when interruptions hit.
           </strong>{" "}
           The Neothink Mentality pairs a movement-based schedule with{" "}
           <Link href={WP.higherLevelThinking}>integrated thinking</Link>: you can rise in your current role or launch an
@@ -310,7 +310,7 @@ export function SoaringProductivityPageContent() {
         <h3>Synergistic integration</h3>
         <p>
           The movement schedule handles volume; integrated thinking lets you see connections across projects. Together
-          they support moving through <strong>23 projects or more—all at one time</strong>—the “beginning of the Neothink
+          they support moving through <strong>23 projects or more, all at one time</strong>: the “beginning of the Neothink
           mentality” and of “every great superachiever,” as the closing of the video puts it. See also{" "}
           <Link href={WP.riseFromRut}>Rise from the routine rut</Link> for the wider arc.
         </p>
@@ -351,7 +351,7 @@ export function SoaringProductivityPageContent() {
             This schedule plus the Neothink Mentality maps onto how Hamilton describes superachievers across history.
           </strong>{" "}
           It cuts the cognitive overhead of context switching and lets you enter flow within each movement. You stop
-          fighting the schedule—you manufacture success. Imagine moving through 23+ projects at once; in the material,
+          fighting the schedule: you manufacture success. Imagine moving through 23+ projects at once; in the material,
           that is the opening move into integrated productivity, not a fantasy headcount.
         </p>
       </section>
@@ -363,16 +363,16 @@ export function SoaringProductivityPageContent() {
         <h3>Following-mode scheduling</h3>
         <p>
           Most people stay reactive: a task appears, it goes on the list, disjointed work plus interruptions means you
-          rarely finish—and you drift further behind.
+          rarely finish, and you drift further behind.
         </p>
       </aside>
 
       <section className="sp-section sp-prose sp-reveal" aria-labelledby="sp-core-h">
         <h2 id="sp-core-h">What’s the core message?</h2>
         <p>
-          <strong>Your day is manufacturing—success or frustration.</strong> To-do lists keep you in following mode,
+          <strong>Your day is manufacturing: success or frustration.</strong> To-do lists keep you in following mode,
           fighting for an extra hour. The assembly line shifts you into the Neothink Mentality: batch physical movements,
-          aim for 8× leverage, and open room for many parallel projects. This is not about working harder—it is about
+          aim for 8× leverage, and open room for many parallel projects. This is not about working harder: it is about
           working differently:
         </p>
         <ul className="sp-core-list">
@@ -410,8 +410,8 @@ export function SoaringProductivityPageContent() {
       <section className="sp-cta sp-reveal" aria-label="Continue the series">
         <h2>Continue the journey</h2>
         <p>
-          Subscribe on YouTube for the next talks—Hamilton teases the following installment on the Neothink mentality as a
-          superpower of the mind—and keep the lesson list open as you implement the line.
+          Subscribe on YouTube for the next talks; Hamilton teases the following installment on the Neothink mentality as a
+          superpower of the mind, and keep the lesson list open as you implement the line.
         </p>
         <div className="sp-cta-row">
           <Link href={WP.neothinkMentality} className="sp-btn">

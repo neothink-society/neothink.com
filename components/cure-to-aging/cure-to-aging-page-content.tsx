@@ -62,8 +62,8 @@ export function CureToAgingPageContent() {
         </p>
         <h1 id="c2a-heading">{CURE_TO_AGING_LESSON.title}</h1>
         <p className="c2a-dek">
-          Hamilton connects the whole series to a civilizational goal: <strong>demand</strong> for curing aging—fueled by
-          leaving routine ruts and wanting a life worth extending—and <strong>supply</strong> of breakthroughs, blocked in
+          Hamilton connects the whole series to a civilizational goal: <strong>demand</strong> for curing aging, fueled by
+          leaving routine ruts and wanting a life worth extending, and <strong>supply</strong> of breakthroughs, blocked in
           his analysis by initiatory force and regulation. The talk names <strong>cure2aging.com</strong>, the
           billionaire longevity spend, the DuPont/FDA story, and the <strong>Prime Law</strong> as a 28th Amendment.
         </p>
@@ -106,7 +106,7 @@ export function CureToAgingPageContent() {
         <p>
           <strong>The Neothink Mentality creates the massive demand needed to cure aging.</strong> When people shift
           from stagnant routine ruts toward becoming{" "}
-          <Link href={WP.unlockYourGenius}>value creators</Link>, they rediscover desire for life—like the “child of the
+          <Link href={WP.unlockYourGenius}>value creators</Link>, they rediscover desire for life: like the “child of the
           past” who saw endless possibilities. That demand is said to pull money into research, while the{" "}
           <Link href={WP.thePrimeLawMentality}>Prime Law</Link> horizon addresses regulatory obstacles on the supply
           side.
@@ -142,14 +142,14 @@ export function CureToAgingPageContent() {
           <strong>
             The Neothink Mentality is the move from specialized “following mode” to integrated “self-leader” thinking.
           </strong>{" "}
-          In this lesson, that shift reignites creative drive and happiness—conditions Hamilton ties to wanting more life
+          In this lesson, that shift reignites creative drive and happiness: conditions Hamilton ties to wanting more life
           and to funding longevity science. Most people are described as trapped in specialized ruts; the series, starting
           with <Link href={WP.riseFromRut}>Rise from the routine rut</Link>, is built to break that cycle.
         </p>
         <h3 className="c2a-h3">The billionaire pattern</h3>
         <p>
           Self-made billionaires have spent <strong>millions to hundreds of millions of dollars</strong> toward curing
-          aging. In the talk, they want to live because they are living the life they were meant to live—
+          aging. In the talk, they want to live because they are living the life they were meant to live:{" "}
           <Link href={WP.unlockYourGenius}>creating</Link>, in harmony with the essence of being human, happy, in love
           with life. Every self-made “major winner” had to leap beyond following mode; Hamilton states that all self-made
           billionaires live in the Neothink Mentality.
@@ -162,7 +162,7 @@ export function CureToAgingPageContent() {
         </p>
         <h3>Why value creators want longevity</h3>
         <p>
-          When you create value and feel aligned with essence, you naturally want more life—you want to live forever,
+          When you create value and feel aligned with essence, you naturally want more life: you want to live forever,
           as the video puts it. Routine ruts, by contrast, dull enthusiasm; people stuck there are described as bored
           with life and not sharing the same desire to live as those in the Neothink Mentality.
         </p>
@@ -172,7 +172,7 @@ export function CureToAgingPageContent() {
         <div className="c2a-child-card">
           <h3>The child of the past</h3>
           <p>
-            Remember childhood—<strong>endless possibilities</strong>, wonder, enthusiasm for what was ahead. In
+            Remember childhood: <strong>endless possibilities</strong>, wonder, enthusiasm for what was ahead. In
             specialized jobs and routine ruts, that child is described as buried under “falling leaves of resignation.”
             The Neothink Mentality is framed as bringing that inner life back.
           </p>
@@ -228,9 +228,9 @@ export function CureToAgingPageContent() {
         <p>
           People stuck doing the same thing every day <strong>get bored with life</strong> and do not want to live
           forever in the same way. The Neothink Mentality is said to lift not only work and wealth but happiness, joy,
-          and the desire to live—restoring the child of the past. That is why most of the talks focus on pulling you out
+          and the desire to live, restoring the child of the past. That is why most of the talks focus on pulling you out
           of stagnation: breaking specialized thinking, following mode, and top-down orders, and learning to integrate your
-          own path—so you can become a value creator (only humans create values in this framework) and feel you do not
+          own path, so you can become a value creator (only humans create values in this framework) and feel you do not
           want to die.
         </p>
       </section>
@@ -242,8 +242,8 @@ export function CureToAgingPageContent() {
         <h3>Creating the demand</h3>
         <p>
           Hamilton’s stated priority is demand: books, talks, and videos mostly aim to free people from the “trap” of
-          stagnation. In the video he says that once you are in the mentality, you can join the ultimate goal—curing aging
-          and death—with step one being that shift in mentality. He asks viewers to invite family and friends to the
+          stagnation. In the video he says that once you are in the mentality, you can join the ultimate goal: curing aging
+          and death, with step one being that shift in mentality. He asks viewers to invite family and friends to the
           talks so the mentality spreads.
         </p>
       </aside>
@@ -257,7 +257,7 @@ export function CureToAgingPageContent() {
             Even with demand, supply can stay blocked: political structures and regulations based on initiatory force
             suppress progress and make breakthrough research cost-prohibitive.
           </strong>{" "}
-          The “power class”—politicians, bureaucrats, media, legal matrix—is described as pushing compliance: comply or
+          The “power class” (politicians, bureaucrats, media, legal matrix) is described as pushing compliance: comply or
           face criminal penalties. That blocks everyone, billionaires included, from freely supplying what demand asks
           for.
         </p>
@@ -274,7 +274,7 @@ export function CureToAgingPageContent() {
             Hamilton’s father worked with <strong>DuPont</strong> in the <strong>1970s</strong> on a{" "}
             <span className="c2a-highlight">very promising approach to cancer</span>.{" "}
             <span className="c2a-highlight">FDA requirements made the project too cost-prohibitive</span> and it was
-            killed—not because science had nowhere to go, but because regulatory burden ended viability.
+            killed: not because science had nowhere to go, but because regulatory burden ended viability.
           </p>
         </div>
       </div>
@@ -286,7 +286,7 @@ export function CureToAgingPageContent() {
         <h3 className="c2a-h3">The comply-or-criminal structure</h3>
         <p>
           Laws and regulations rooted in initiatory force mean: <strong>comply or become a criminal. Comply or go to prison.</strong>{" "}
-          Until that structure changes, Hamilton argues we will not have freedom to supply demand as it grows—except
+          Until that structure changes, Hamilton argues we will not have freedom to supply demand as it grows, except
           perhaps by rare paths like a new sovereign country, which he mentions as difficult.
         </p>
       </section>
@@ -297,7 +297,7 @@ export function CureToAgingPageContent() {
         </p>
         <h3>Freeing the supply</h3>
         <p>
-          Freedom to supply is tied to <Link href={WP.thePrimeLawMentality}>removing initiatory force from government</Link>—{" "}
+          Freedom to supply is tied to <Link href={WP.thePrimeLawMentality}>removing initiatory force from government</Link>,{" "}
           for example the <strong>Prime Law</strong> as a <strong>28th Amendment</strong> to the U.S. Constitution, a
           theme from earlier lessons. Hamilton also appeals to the billionaire club: money and influence might help
           establish a sovereign jurisdiction without suppressive regulation. The open letter on{" "}
@@ -334,8 +334,8 @@ export function CureToAgingPageContent() {
         <h2 id="c2a-pm">How does the Prime Law enable the cure for aging?</h2>
         <p>
           <strong>
-            The <Link href={WP.thePrimeLawMentality}>Prime Law</Link> is presented as removing initiatory force—especially
-            from government—so that “pure freedom” can unblock progress.
+            The <Link href={WP.thePrimeLawMentality}>Prime Law</Link> is presented as removing initiatory force, especially
+            from government, so that “pure freedom” can unblock progress.
           </strong>{" "}
           Hamilton contrasts adding positive rights (the Bill of Rights) with removing the negative (initiatory force);
           he argues the founders were close but “one integration short.” With the Prime Law as a 28th Amendment, medical
@@ -374,7 +374,7 @@ export function CureToAgingPageContent() {
           <div className="c2a-pair-card">
             <h3>Mental evolution</h3>
             <p>
-              In one year, become an integrator rather than a follower—rise in business, wealth, and happiness through
+              In one year, become an integrator rather than a follower: rise in business, wealth, and happiness through
               the Neothink Mentality and join the demand for more life.
             </p>
           </div>
@@ -395,7 +395,7 @@ export function CureToAgingPageContent() {
           </p>
           <h3>The train on a circular track</h3>
           <p>
-            Imagine specialized thinking as a <strong>train on a circular track</strong>—same path every day until the
+            Imagine specialized thinking as a <strong>train on a circular track</strong>: same path every day until the
             engine wears out. The Neothink Mentality is like a <strong>switch</strong> that lets the train leave the
             circle toward an open horizon. Longevity practices <strong>upgrade the engine</strong> so you can keep going
             until the track ahead includes real cures.
@@ -418,7 +418,7 @@ export function CureToAgingPageContent() {
           ))}
         </ul>
         <p>
-          <strong>In one year</strong>, Hamilton wants you to be someone different—not a follower, but an integrator and
+          <strong>In one year</strong>, Hamilton wants you to be someone different: not a follower, but an integrator and
           self-leader. That is “number one”; periodic talks on illusions are “number two,” alongside building demand and
           freeing supply until aging is cured.
         </p>
@@ -431,7 +431,7 @@ export function CureToAgingPageContent() {
         <h3>The life worth living forever</h3>
         <p>
           When you leave following mentality and leap into integrated Neothink thinking, you can begin to create value.
-          When that happens, you are in harmony with essence—and you do not want to die. You live the life worth living
+          When that happens, you are in harmony with essence: you do not want to die. You live the life worth living
           forever.
         </p>
       </aside>
@@ -441,7 +441,7 @@ export function CureToAgingPageContent() {
         <p>
           <strong>Curing aging is framed through demand and supply.</strong> The Neothink Mentality grows demand by
           turning stagnant followers into joyful value creators who want more life. The Prime Law story frees supply by
-          removing obstacles from initiatory force. Together, they aim at biological immortality as the horizon—not
+          removing obstacles from initiatory force. Together, they aim at biological immortality as the horizon: not
           fantasy to Hamilton, given billionaire investment and a clear political–economic path.
         </p>
         <ol className="c2a-core-ol">
@@ -451,7 +451,7 @@ export function CureToAgingPageContent() {
         </ol>
         <p>
           The goal is to end stagnation of spirit and, ultimately, to cure aging and death. Everyone deserves the life
-          they were meant to live—the life worth living forever.
+          they were meant to live: the life worth living forever.
         </p>
       </section>
 
@@ -495,7 +495,7 @@ export function CureToAgingPageContent() {
       <section className="c2a-cta c2a-reveal" aria-label="Continue the series">
         <h2>Continue the journey</h2>
         <p>
-          Subscribe on YouTube for the rest of the series—building demand for life and addressing the illusions that
+          Subscribe on YouTube for the rest of the series: building demand for life and addressing the illusions that
           block progress.
         </p>
         <div className="c2a-cta-row">

@@ -59,7 +59,7 @@ export function KeepTheBalancePageContent() {
         <h1 id="ktb-heading">{KEEP_THE_BALANCE_LESSON.title}</h1>
         <p className="ktb-dek">
           Hamilton frames <strong>keeping the balance</strong> as a life compass when{" "}
-          <Link href={WP.moneyLoveAffair}>value creation</Link> accelerates—so exhilaration over new work does not erase
+          <Link href={WP.moneyLoveAffair}>value creation</Link> accelerates, so exhilaration over new work does not erase
           family, health, or the relationships that let you <em>feel</em> happiness. The talk names a familiar reflex: the
           logical mind says <strong>“too busy”</strong>; the emotional side often knows to say yes to pickleball, Iceland, or
           an ordinary afternoon with the people who matter.
@@ -103,7 +103,7 @@ export function KeepTheBalancePageContent() {
             Harmonize value creation (work that fulfills your creative essence) with value reflection (time that lets you
             experience happiness with people you love).
           </strong>{" "}
-          If happiness is the purpose of life—as Hamilton says he believes—balance is not optional decoration; it
+          If happiness is the purpose of life (as Hamilton says he believes), balance is not optional decoration; it
           steers you toward a life you can actually relish, not only produce.
         </p>
       </section>
@@ -132,10 +132,10 @@ export function KeepTheBalancePageContent() {
       </section>
 
       <section className="ktb-section ktb-prose ktb-reveal" aria-labelledby="ktb-important">
-        <h2 id="ktb-important">What matters—to him, and to you</h2>
+        <h2 id="ktb-important">What matters to him, and to you</h2>
         <p>
           Hamilton lists <strong>wife and children</strong>, <strong>writing and readers</strong>,{" "}
-          <strong>business and customers</strong>, <strong>health and body</strong>, and—since going public—
+          <strong>business and customers</strong>, <strong>health and body</strong>, and, since going public,{" "}
           <strong>videos and relationship with you</strong>, the audience. The exercise implied for you: name the domains
           that should stay on your compass, not only your calendar.
         </p>
@@ -156,13 +156,13 @@ export function KeepTheBalancePageContent() {
       <hr className="ktb-rule ktb-reveal" />
 
       <section className="ktb-section ktb-prose ktb-reveal" aria-labelledby="ktb-reflex">
-        <h2 id="ktb-reflex">The “too busy” reflex—and two brains</h2>
+        <h2 id="ktb-reflex">The “too busy” reflex, and two brains</h2>
         <p>
-          When family invites him into recreation, Hamilton describes a bodily <strong>no—I can’t, I’m too busy</strong>{" "}
+          When family invites him into recreation, Hamilton describes a bodily <strong>no: I can’t, I’m too busy</strong>{" "}
           surge. He attributes that first hit to the <strong>left brain</strong>: logical, in-the-moment, schedule-bound.
           The <strong>right brain</strong> is framed as more creative, emotional, subconscious. His practice: when the
-          left-brain veto fires, <strong>work to keep the balance</strong>—let the emotional side weigh in. More often
-          than not, he takes the walk, the game, or the trip—and finds life richer for it.
+          left-brain veto fires, <strong>work to keep the balance</strong>: let the emotional side weigh in. More often
+          than not, he takes the walk, the game, or the trip, and finds life richer for it.
         </p>
       </section>
 
@@ -173,14 +173,14 @@ export function KeepTheBalancePageContent() {
               1
             </div>
             <h3>Small yes</h3>
-            <p>Pickleball or another simple recreational break—nothing exotic required to interrupt the busy trance.</p>
+            <p>Pickleball or another simple recreational break: nothing exotic required to interrupt the busy trance.</p>
           </div>
           <div className="ktb-example-card">
             <div className="ktb-example-index" aria-hidden>
               2
             </div>
             <h3>Big yes</h3>
-            <p>A more involved adventure—he mentions Iceland—as the kind of memory that balances scale with intimacy.</p>
+            <p>A more involved adventure (he mentions Iceland) as the kind of memory that balances scale with intimacy.</p>
           </div>
         </div>
       </div>
@@ -189,7 +189,7 @@ export function KeepTheBalancePageContent() {
         <h2 id="ktb-warning">Why this lesson shows up now</h2>
         <p>
           As you move deeper into the Neothink Mentality, Hamilton expects you to get <strong>busier, more powerful, more
-          successful</strong>—and more exhilarated by new creations. That high can crowd out other important parts of
+          successful</strong>, and more exhilarated by new creations. That high can crowd out other important parts of
           life unless you <strong>work hard to keep the balance</strong> on purpose.
         </p>
       </section>
@@ -199,10 +199,10 @@ export function KeepTheBalancePageContent() {
       <section className="ktb-section ktb-prose ktb-reveal" aria-labelledby="ktb-harmony">
         <h2 id="ktb-harmony">Value creation and value reflection</h2>
         <p>
-          <strong>Value creation</strong> through work brings happiness by fulfilling human essence—creating and placing
+          <strong>Value creation</strong> through work brings happiness by fulfilling human essence: creating and placing
           values in the world. <strong>Value reflection</strong> with loved ones is how you <em>feel</em> that happiness,
           experience it, and in his phrase, <strong>cash in</strong> on the hard work. The punchline: learn to{" "}
-          <strong>harmonize</strong> them—not merely prioritize one forever over the other. Harmony, he says, is what
+          <strong>harmonize</strong> them, not merely prioritize one forever over the other. Harmony, he says, is what
           moves happiness, the “true reason for your life.”
         </p>
       </section>
@@ -216,7 +216,7 @@ export function KeepTheBalancePageContent() {
           <p>
             “What good is simply building happiness without being able to experience and relish in it?” The video pairs
             that question with Hamilton’s self-description: <strong>always happy</strong>, <strong>always busy</strong>,
-            yet deliberate about stepping away for people he loves—calling that pattern the best way to live.
+            yet deliberate about stepping away for people he loves, calling that pattern the best way to live.
           </p>
         </div>
       </div>
@@ -262,7 +262,7 @@ export function KeepTheBalancePageContent() {
       <section className="ktb-section ktb-prose ktb-reveal" aria-labelledby="ktb-series">
         <h2 id="ktb-series">What comes next in the series</h2>
         <p>
-          Next lesson: <Link href={WP.powerOfCalm}>Power of calm</Link>—composure under pressure as the mentality
+          Next lesson: <Link href={WP.powerOfCalm}>Power of calm</Link>, composure under pressure as the mentality
           keeps leveling up. You can always return to the hub: <Link href={WP.neothinkMentality}>Neothink Mentality</Link>.
         </p>
       </section>

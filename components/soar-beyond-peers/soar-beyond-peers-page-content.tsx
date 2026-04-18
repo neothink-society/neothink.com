@@ -61,7 +61,7 @@ export function SoarBeyondPeersPageContent() {
         <p className="sbp-dek">
           This lesson is the “first big step” into the Neothink Mentality: combine{" "}
           <Link href={WP.soaringProductivity}>assembly-line physical movements</Link> with{" "}
-          <strong>grand visions</strong> broken down into projects and tasks—so you can pull far-off work into a week or
+          <strong>grand visions</strong> broken down into projects and tasks, so you can pull far-off work into a week or
           two. Hamilton describes <strong>23 projects in one week</strong> on that line, essence focus,{" "}
           <strong>10-second miracles</strong> (restaurant; Charles Nash at Durant Dort), and his own path from
           specialized work to a global publishing arc.
@@ -94,7 +94,7 @@ export function SoarBeyondPeersPageContent() {
           ; id {SOAR_BEYOND_PEERS_LESSON.youtubeId}). If wording differs from the transcript, treat the video as the
           spoken source. The prior talk on productivity frames roughly <strong>8×</strong> capacity and equivalent
           “extra hours” (the video mentions ~56 extra hours per day in one line and{" "}
-          <strong>280 extra hours per five-day week</strong> in another—same family of claims as the earlier lesson’s
+          <strong>280 extra hours per five-day week</strong> in another; same family of claims as the earlier lesson’s
           math). Branding: <strong>Neothink</strong> (one word).
         </p>
       </section>
@@ -107,7 +107,7 @@ export function SoarBeyondPeersPageContent() {
             Reverse-engineer grand visions into projects, then into physical tasks you can drop into the assembly line
             schedule.
           </strong>{" "}
-          Vision first, then work backward to the physical movements that make it real—calls, writing, meetings—batched
+          Vision first, then work backward to the physical movements that make it real (calls, writing, meetings), batched
           across many projects at once. With the Neothink Mentality plus that line, Hamilton describes moving through{" "}
           <strong>23 projects in one week</strong> and gaining the equivalent of <strong>280 extra hours</strong> in a
           five-day work week under the series’ 8× framing.
@@ -143,7 +143,7 @@ export function SoarBeyondPeersPageContent() {
           <strong>
             Start with the most exciting vision, break it into projects, then reduce each project to physical tasks.
           </strong>{" "}
-          Following mode starts with tasks and hopes they add up; the Neothink Mentality flips the direction—destination
+          Following mode starts with tasks and hopes they add up; the Neothink Mentality flips the direction: destination
           first, then build the path backward to today. That is how achievers in the story are described: see the end
           state, then construct the ladder downward.
         </p>
@@ -158,7 +158,7 @@ export function SoarBeyondPeersPageContent() {
             <div className="sbp-vision-level">
               <div className="sbp-v-label">Level 1</div>
               <h3>Grand visions</h3>
-              <p>Your most exciting, inspiring future—made vivid, not vague.</p>
+              <p>Your most exciting, inspiring future: made vivid, not vague.</p>
             </div>
             <span className="sbp-vision-down" aria-hidden>
               ↓
@@ -188,7 +188,7 @@ export function SoarBeyondPeersPageContent() {
         <p>
           Grand visions are clear pictures of what excites you most. The clearer and more thrilling the vision, the more
           naturally it decomposes into projects. Hamilton says he would make himself see the <strong>end results</strong>{" "}
-          of a project—then break visions into projects, then projects into physical tasks, working{" "}
+          of a project; then break visions into projects, then projects into physical tasks, working{" "}
           <strong>in reverse</strong> from the largest picture to the smallest motions.
         </p>
       </aside>
@@ -202,9 +202,9 @@ export function SoarBeyondPeersPageContent() {
             Grand visions plus the <Link href={WP.soaringProductivity}>assembly line schedule</Link> make many projects
             tractable at once.
           </strong>{" "}
-          You are not context-switching 23 unrelated topics—you are flowing through batched physical movements that
+          You are not context-switching 23 unrelated topics: you are flowing through batched physical movements that
           advance every project that needs those moves. Hamilton says that after the physical-movement schedule, he moved{" "}
-          <strong>23 projects through the line in one week</strong>—projects that had sat for months or years or had never
+          <strong>23 projects through the line in one week</strong>, projects that had sat for months or years or had never
           been conceived before the line “opened” integrated thinking.
         </p>
       </section>
@@ -231,7 +231,7 @@ export function SoarBeyondPeersPageContent() {
             <div className="sbp-ford-8x-label">Capacity multiplier (series framing)</div>
             <p className="sbp-stat-64-note">
               The essay ties an 8-fold increase to roughly 56 extra hours per day in one line and 280 extra hours across
-              a five-day week—equivalent-time language, not literal clock duplication.
+              a five-day week; equivalent-time language, not literal clock duplication.
             </p>
           </div>
         </div>
@@ -242,10 +242,10 @@ export function SoarBeyondPeersPageContent() {
       <section className="sbp-section sbp-prose sbp-reveal" aria-labelledby="sbp-essence">
         <h2 id="sbp-essence">What is the “essence” of a business or career?</h2>
         <p>
-          <strong>The essence is where the money and power truly lie—not in busywork or routine admin.</strong> As you
+          <strong>The essence is where the money and power truly lie, not in busywork or routine admin.</strong> As you
           move past specialized tasks, “project curiosity” widens your view; you start to see the numbers and where
           potential profit and creative leverage live. That is the dimension beyond the “stagnation trap” of routine
-          specialization—where your mind can <strong>see and create</strong> projects that benefit the business.
+          specialization, where your mind can <strong>see and create</strong> projects that benefit the business.
         </p>
       </section>
 
@@ -276,11 +276,11 @@ export function SoarBeyondPeersPageContent() {
         <h2 id="sbp-10s">What are “10-second miracles,” and how do they work?</h2>
         <p>
           <strong>
-            Brief moments when integrated thinking clicks—sometimes in seconds—and a trajectory changes.
+            Brief moments when integrated thinking clicks (sometimes in seconds) and a trajectory changes.
           </strong>{" "}
           Hamilton gives two historical examples in the talk: his <strong>first</strong> 10-second miracle turning a
           failing restaurant into a success, and <strong>Charles Nash’s</strong> multiple miracles at{" "}
-          <strong>Durant Dort Carriage Company</strong> on the way to <strong>President of General Motors</strong>—both
+          <strong>Durant Dort Carriage Company</strong> on the way to <strong>President of General Motors</strong>, both
           tied to seeing essence and opportunity through project curiosity.
         </p>
       </section>
@@ -294,7 +294,7 @@ export function SoarBeyondPeersPageContent() {
           <h3>The restaurant miracle</h3>
           <p>
             Hamilton describes his first 10-second miracle: a turnaround from a <span className="sbp-highlight">failing</span>{" "}
-            restaurant to a <span className="sbp-highlight">successful</span> one—a sudden integrated insight that
+            restaurant to a <span className="sbp-highlight">successful</span> one: a sudden integrated insight that
             shifted outcomes.
           </p>
         </div>
@@ -308,8 +308,8 @@ export function SoarBeyondPeersPageContent() {
             ~10 sec
           </div>
           <p>
-            Nash’s path through <strong>Project Curiosity</strong> at <strong>Durant Dort Carriage Company</strong>—and
-            multiple “10-second” integrative leaps—illustrates how seeing the essence of the business pairs with rapid
+            Nash’s path through <strong>Project Curiosity</strong> at <strong>Durant Dort Carriage Company</strong>, and
+            multiple “10-second” integrative leaps, illustrates how seeing the essence of the business pairs with rapid
             creative moves on the way to becoming <strong>President of GM</strong>.
           </p>
         </div>
@@ -321,12 +321,12 @@ export function SoarBeyondPeersPageContent() {
         </h2>
         <p>
           In his <strong>mid-twenties</strong>, working in <strong>direct mail publishing</strong>, Hamilton searched with
-          an integrating mind for ways to grow the business—comparing <strong>international postage rates</strong> and
+          an integrating mind for ways to grow the business, comparing <strong>international postage rates</strong> and
           exploring expansion into <strong>other countries</strong>, a bold move for a young man in an established firm. He
           practiced seeing end results, dreaming big, then breaking visions into projects and projects into{" "}
-          <strong>physical movements</strong>—like the <strong>robotic arm driving a lug nut</strong> on an assembly line—so
+          <strong>physical movements</strong> (like the <strong>robotic arm driving a lug nut</strong> on an assembly line) so
           tasks plug into the daily line. The talk’s punchline: without integrated thinking, he says he would still be a{" "}
-          <strong>dishwasher</strong> instead of a <strong>world thought leader</strong>—his own contrast, not Nash’s
+          <strong>dishwasher</strong> instead of a <strong>world thought leader</strong>; his own contrast, not Nash’s
           biography.
         </p>
       </section>
@@ -353,7 +353,7 @@ export function SoarBeyondPeersPageContent() {
         <h2 id="sbp-global">How does the mentality scale impact?</h2>
         <p>
           Value creation that people want to share scales naturally. Hamilton ties his later publishing company to{" "}
-          <strong>Neothink books in 140 countries and 12 languages</strong>—the kind of reach that comes up when the
+          <strong>Neothink books in 140 countries and 12 languages</strong>, the kind of reach that comes up when the
           essence is right and the line can deliver volume.
         </p>
       </section>
@@ -365,7 +365,7 @@ export function SoarBeyondPeersPageContent() {
         <h3>Compounding clarity</h3>
         <p>
           Each person who experiences a sudden clarity can become a catalyst for others. The video invites viewers to
-          subscribe and follow the new channel—masterclasses deepen what the short talks introduce.
+          subscribe and follow the new channel; masterclasses deepen what the short talks introduce.
         </p>
       </aside>
 
@@ -423,7 +423,7 @@ export function SoarBeyondPeersPageContent() {
           ))}
         </ul>
         <p>
-          The closing question in the material is not whether you <em>can</em> soar beyond peers—it is whether you will use
+          The closing question in the material is not whether you <em>can</em> soar beyond peers: it is whether you will use
           the path you have been given.
         </p>
       </section>
@@ -452,7 +452,7 @@ export function SoarBeyondPeersPageContent() {
       <section className="sbp-cta sbp-reveal" aria-label="Continue the series">
         <h2>Continue the journey</h2>
         <p>
-          Subscribe on YouTube for the next talks—Hamilton points to a masterclass that goes deeper into the same
+          Subscribe on YouTube for the next talks; Hamilton points to a masterclass that goes deeper into the same
           mentality.
         </p>
         <div className="sbp-cta-row">

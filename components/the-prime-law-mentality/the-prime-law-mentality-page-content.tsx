@@ -60,7 +60,7 @@ export function ThePrimeLawMentalityPageContent() {
         <h1 id="plm-heading">{PRIME_LAW_MENTALITY_LESSON.title}</h1>
         <p className="plm-dek">
           This lesson applies the series to politics: how <strong>following mode</strong> hides the structure of force,
-          and how the <strong>Prime Law</strong>—non-initiation of force as a single constitutional standard—is presented
+          and how the <strong>Prime Law</strong> (non-initiation of force as a single constitutional standard) is presented
           as the alternative to “rule by man.” For the wider Prime Law treatment on this site, see{" "}
           <Link href={WP.primeLaw}>Prime Law</Link>.
         </p>
@@ -95,7 +95,7 @@ export function ThePrimeLawMentalityPageContent() {
         <p>
           The opening frames political life as illusions that benefit those at the top while most people stay in{" "}
           <Link href={WP.riseFromRut}>following mode</Link>. Integrated thinking from earlier lessons is the lens; this
-          installment names <strong>initiatory force</strong> as what to remove systemically—not only to debate policy by
+          installment names <strong>initiatory force</strong> as what to remove systemically, not only to debate policy by
           policy.
         </p>
       </section>
@@ -110,7 +110,7 @@ export function ThePrimeLawMentalityPageContent() {
           </strong>{" "}
           As a constitutional amendment in Hamilton’s model, it would strip government of ruling-class uses of force and
           replace ad hoc “rule by man” with protection of freedom. The migration ties that freedom to conditions for
-          broad wealth, health, and peace—aspirational outcomes in his civilizational argument, not promises from the
+          broad wealth, health, and peace: aspirational outcomes in his civilizational argument, not promises from the
           Institute.
         </p>
       </section>
@@ -143,7 +143,7 @@ export function ThePrimeLawMentalityPageContent() {
         <p>
           The essay defines it as a <strong>law of protection</strong>: no initiatory force, fraud, or coercion against a
           person’s self, property, or contract. Government’s legitimate role, in this framing, is to secure the conditions
-          for people to prosper and live happily—conditions that require forbidding initiation of force. The structure
+          for people to prosper and live happily: conditions that require forbidding initiation of force. The structure
           is not a grab bag of policies but a preamble plus three articles that interlock:
         </p>
         <div className="plm-structure">
@@ -161,7 +161,7 @@ export function ThePrimeLawMentalityPageContent() {
         <p className="plm-def-label">Core concept</p>
         <h3 id="plm-core-pl">The Prime Law</h3>
         <p>
-          A bright line: force only in defense against those who initiate—never to initiate. The page argues that
+          A bright line: force only in defense against those who initiate, never to initiate. The page argues that
           universality removes the main mechanism by which governments oppress citizens in the analysis Hamilton gives.
         </p>
       </aside>
@@ -170,7 +170,7 @@ export function ThePrimeLawMentalityPageContent() {
         <h2 id="plm-corruption">Corruption and the “ruling class” dimension</h2>
         <p>
           Constitutional adoption is presented as <strong>cleansing initiatory force from government</strong>, not
-          chasing scandals one by one. Programs that move resources by threat of force—however well-intentioned—rest on
+          chasing scandals one by one. Programs that move resources by threat of force, however well-intentioned, rest on
           coercion in this account. The shift is described as a new dimension, not a tidier version of the same
           machinery.
         </p>
@@ -179,7 +179,7 @@ export function ThePrimeLawMentalityPageContent() {
       <section className="plm-section plm-prose plm-reveal" aria-labelledby="plm-policy">
         <h2 id="plm-policy">Why policy-by-policy fighting is called impotent</h2>
         <p>
-          Reform that stays inside a force-based system keeps regenerating new uses of force—the migration uses the{" "}
+          Reform that stays inside a force-based system keeps regenerating new uses of force; the migration uses the{" "}
           <strong>ocean and bucket</strong> image: you may remove a bucket, but the source keeps filling the system.
           Hamilton suggests parties and campaigns center the Prime Law; he references the <strong>12 Visions Party</strong>{" "}
           as a vehicle built to foreground that idea, with the law as the centerpiece rather than the personality.
@@ -211,7 +211,7 @@ export function ThePrimeLawMentalityPageContent() {
       <section className="plm-section plm-prose plm-reveal" aria-labelledby="plm-wealth">
         <h2 id="plm-wealth">Neothink mentality and “universal” outcomes</h2>
         <p>
-          The Neothink mentality—integrated thinking and moving from follower to <Link href={WP.unlockYourGenius}>value creator</Link>—is
+          The Neothink mentality (integrated thinking and moving from follower to <Link href={WP.unlockYourGenius}>value creator</Link>) is
           linked to seeing past political theater. In a Prime Law environment, the text describes runaway productivity
           and people turning passions into ventures. Three headline outcomes in the migration:
         </p>
@@ -225,7 +225,7 @@ export function ThePrimeLawMentalityPageContent() {
         </div>
         <p>
           The <strong>cleansing filter</strong> analogy: stop fishing debris from the stream and fix what pollutes at the
-          source—the system that keeps producing initiatory force.
+          source: the system that keeps producing initiatory force.
         </p>
       </section>
 
@@ -235,7 +235,7 @@ export function ThePrimeLawMentalityPageContent() {
           <h3>Going deeper</h3>
           <p>
             Hamilton points readers to his book <em>The New World</em> for a full layout of the system and to
-            possibilities—including health and longevity—when initiation of force is removed from society. That is his
+            possibilities, including health and longevity, when initiation of force is removed from society. That is his
             claim in the migration, not an Institute product pitch here.
           </p>
         </div>
@@ -246,7 +246,7 @@ export function ThePrimeLawMentalityPageContent() {
         <p>
           With <Link href={WP.higherLevelThinking}>integrated thinking</Link>, the essay says you notice how “benevolent”
           rights and benefits often ride on force, and that major parties can share the same force-based dimension. The aim
-          is clarity, not cynicism for its own sake—so effort goes toward structural change rather than endless
+          is clarity, not cynicism for its own sake; effort goes toward structural change rather than endless
           tactical debates alone.
         </p>
       </section>

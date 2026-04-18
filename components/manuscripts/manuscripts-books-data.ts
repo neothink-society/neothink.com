@@ -1,4 +1,4 @@
-/** Manuscripts grid — aligned with WordPress export */
+/** Manuscripts grid, aligned with WordPress export */
 
 import { WP } from "@/lib/wordpress-routes";
 

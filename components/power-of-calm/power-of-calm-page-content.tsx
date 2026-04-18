@@ -59,7 +59,7 @@ export function PowerOfCalmPageContent() {
         <h1 id="poc-heading">{POWER_OF_CALM_LESSON.title}</h1>
         <p className="poc-dek">
           Hamilton shares a practice he calls the <strong>power of calm</strong>: staying{" "}
-          <strong>calm, collected, and sincere</strong> when volume and pressure spike—so you do not cap out in a “little
+          <strong>calm, collected, and sincere</strong> when volume and pressure spike, so you do not cap out in a “little
           print shop” trap of panic.
           The talk moves from a stressed shop owner to a young Hamilton borrowing <em>Dynasty</em>’s composed Blake
           Carrington as a posture, then to parenting scenes at McDonald’s and to high-stakes investing on the Grand
@@ -103,7 +103,7 @@ export function PowerOfCalmPageContent() {
             Because anxiety and overwhelm narrow your ceiling and repel people; calm carries sincerity, listening, and
             rational judgment.
           </strong>{" "}
-          Hamilton frames the opposite of calm—panicked, bothered, overwhelmed—as a self-imposed limit and a relationship
+          Hamilton frames the opposite of calm (panicked, bothered, overwhelmed) as a self-imposed limit and a relationship
           tax. When you are calm, others are more open to the value you can bring; when you are not, they recoil, as he
           illustrates with children reacting to stressed parents.
         </p>
@@ -136,10 +136,10 @@ export function PowerOfCalmPageContent() {
         <h2 id="poc-dennis">Dennis and the print shop</h2>
         <p>
           As a young man, Hamilton spent time in a small print shop where manuscripts were laid out on{" "}
-          <strong>light tables</strong>—old production workflow, long hours. The owner, <strong>Dennis</strong>, was
+          <strong>light tables</strong>: old production workflow, long hours. The owner, <strong>Dennis</strong>, was
           productive but <strong>always panicked</strong>: stressed, overwhelmed, losing the thread as work piled up.
           Watching him late one night, Hamilton concludes Dennis would{" "}
-          <strong>never be more than his little print shop</strong>—admirable service, but a ceiling reached because he
+          <strong>never be more than his little print shop</strong>: admirable service, but a ceiling reached because he
           did not know the power of calm.
         </p>
       </section>
@@ -151,7 +151,7 @@ export function PowerOfCalmPageContent() {
         <h3>Blake Carrington on TV</h3>
         <p>
           Hamilton liked <em>Dynasty</em>; <strong>Blake Carrington</strong>, an oil tycoon, stayed{" "}
-          <strong>calm in the most stressful situations</strong>. He knows it is fiction—still, the contrast landed:{" "}
+          <strong>calm in the most stressful situations</strong>. He knows it is fiction. Still, the contrast landed:{" "}
           <strong>Blake, Dennis, Blake, Dennis</strong>. He decided he needed to be Blake at work. His own desk was piling
           up faster than he could clear it (before later systems such as the mini-day approach). The flip was “just a
           decision” in his head; he changed demeanor and says personnel and business results shifted.
@@ -163,10 +163,10 @@ export function PowerOfCalmPageContent() {
       <section className="poc-section poc-prose poc-reveal" aria-labelledby="poc-parent">
         <h2 id="poc-parent">Parenting and McDonald’s</h2>
         <p>
-          Calm also showed up in raising <strong>four children</strong>. Writing in coffee shops—and long ago in fast-food
-          booths (<strong>Carl’s Jr.</strong>, <strong>McDonald’s</strong>)—he repeatedly saw{" "}
+          Calm also showed up in raising <strong>four children</strong>. Writing in coffee shops, and long ago in fast-food
+          booths (<strong>Carl’s Jr.</strong>, <strong>McDonald’s</strong>), he repeatedly saw{" "}
           <strong>stressed parents</strong> lose control: yelling, tantrums, sometimes spanking. Children responded with{" "}
-          <strong>fear</strong>, recoiling from irrationality. Hamilton argues kids recognize irrationality—and are drawn
+          <strong>fear</strong>, recoiling from irrationality. Hamilton argues kids recognize irrationality, and are drawn
           to rational calm when they see it. He raised his children with a <strong>calm voice</strong> so lessons could
           land without matching chaos to chaos.
         </p>
@@ -176,7 +176,7 @@ export function PowerOfCalmPageContent() {
         <h2 id="poc-invest">Investing: Grand Canyon Skywalk</h2>
         <p>
           Hamilton describes being a <strong>major investor</strong> in the <strong>Grand Canyon Skywalk</strong> with
-          partner <strong>David Jin</strong>. Jin had not planned on a major partner—yet wanted Hamilton in deeply, in
+          partner <strong>David Jin</strong>. Jin had not planned on a major partner, yet wanted Hamilton in deeply, in
           part because he was <strong>calm</strong> through personnel issues, stakeholders, and build stress. That
           composure helped open a major-investor role Hamilton says would not have appeared otherwise:{" "}
           <strong>power of calm</strong> as deal chemistry, not only inner peace.
@@ -190,8 +190,8 @@ export function PowerOfCalmPageContent() {
           </p>
           <h3>Calm carries clout</h3>
           <p>
-            “You know what comes with calm—comes <strong>power</strong>. When you’re calm, you carry power… people
-            listen.” The inverse: anxious and panicky, people <strong>withdraw</strong>—less open to what you offer—investing
+            “You know what comes with calm: <strong>power</strong>. When you’re calm, you carry power… people
+            listen.” The inverse: anxious and panicky, people <strong>withdraw</strong>, less open to what you offer; investing
             included, where irrationality is costly and visible.
           </p>
         </div>
@@ -238,9 +238,9 @@ export function PowerOfCalmPageContent() {
       <section className="poc-section poc-prose poc-reveal" aria-labelledby="poc-close">
         <h2 id="poc-close">Ripples</h2>
         <p>
-          Hamilton closes by generalizing: business, parenting, investing, <strong>relationships</strong>—“everything in
+          Hamilton closes by generalizing: business, parenting, investing, <strong>relationships</strong>, “everything in
           life” can benefit. Calm is framed as <strong>attractive</strong>: friendship, romance, respect from children
-          and peers. The contrary is the Dennis pattern—<strong>capped</strong>, stuck, conflicts that do not teach the
+          and peers. The contrary is the Dennis pattern: <strong>capped</strong>, stuck, conflicts that do not teach the
           lessons you intend.
         </p>
       </section>
@@ -262,7 +262,7 @@ export function PowerOfCalmPageContent() {
           Previous: <Link href={WP.keepTheBalance}>Keep the balance</Link>
         </p>
         <p>
-          <Link href={WP.neothinkMentality}>All lessons</Link> — this is the final lesson in the public Neothink Mentality
+          <Link href={WP.neothinkMentality}>All lessons</Link>. This is the final lesson in the public Neothink Mentality
           series on this site.
         </p>
       </nav>

@@ -1,4 +1,4 @@
-/** Published Work — article grids aligned with WordPress export */
+/** Published Work: article grids aligned with WordPress export */
 
 export type PwArticle = {
   tag: string;

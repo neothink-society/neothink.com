@@ -58,7 +58,7 @@ export function MoneyLoveAffairPageContent() {
         </p>
         <h1 id="mla-heading">{MONEY_LOVE_AFFAIR_LESSON.title}</h1>
         <p className="mla-dek">
-          Inside the Society, members are described as falling <strong>in love with making money</strong>—not by
+          Inside the Society, members are described as falling <strong>in love with making money</strong>, not by
           grinding harder, but by doing what they love while treating <strong>money as an effect</strong> of value put
           into society. This lesson names the survival tether to cash, the cause-and-effect flip, and the contrast between
           producing existing values and creating new ones (McDonald’s cook vs Tesla-scale creation in the talk).
@@ -102,7 +102,7 @@ export function MoneyLoveAffairPageContent() {
             Shift from treating money as the cause of your choices to treating value creation as the cause and money as
             the effect.
           </strong>{" "}
-          The talk opens with how survival and quality of life tether most people to payday—then offers a Neothink frame:
+          The talk opens with how survival and quality of life tether most people to payday, then offers a Neothink frame:
           put the right kind of value into society, and society returns money in proportion. The “love affair” is framed
           as aligning earning with what you love because the question changes.
         </p>
@@ -132,11 +132,11 @@ export function MoneyLoveAffairPageContent() {
       </section>
 
       <section className="mla-section mla-prose mla-reveal" aria-labelledby="mla-irony">
-        <h2 id="mla-irony">The irony: we need money—and it steers everything</h2>
+        <h2 id="mla-irony">The irony: we need money, and it steers everything</h2>
         <p>
           Hamilton calls it a <strong>shocking irony</strong>: people are preoccupied, sometimes obsessed, with money
           because survival and quality of life depend on it. That pressure shapes jobs, majors, and where we live. The
-          lesson asks you to imagine decisions if those financial pressures were not the driver—what you would pursue
+          lesson asks you to imagine decisions if those financial pressures were not the driver: what you would pursue
           drifts toward <strong>what you love</strong>, which is where the “love affair” language begins.
         </p>
       </section>
@@ -148,7 +148,7 @@ export function MoneyLoveAffairPageContent() {
         <h3>Payday vs possibility</h3>
         <p>
           As long as thinking stays chained to payday, the video says, you cannot freely follow the creative drift the
-          exercise invites. The Neothink path is not pretending the tether disappears—it is changing the causal story so
+          exercise invites. The Neothink path is not pretending the tether disappears. It is changing the causal story so
           the mind migrates toward creation anyway.
         </p>
       </aside>
@@ -159,17 +159,17 @@ export function MoneyLoveAffairPageContent() {
         <h2 id="mla-cause">Money as effect, value as cause</h2>
         <p>
           <strong>Putting value into society is the cause; money returning is the effect.</strong> Greater value to
-          society is said to bring greater money back. Members are described as learning which values to place and how—
-          mastering that inside the Society—while this talk introduces the frame.
+          society is said to bring greater money back. Members are described as learning which values to place and how,
+          mastering that inside the Society, while this talk introduces the frame.
         </p>
       </section>
 
       <section className="mla-section mla-prose mla-reveal" aria-labelledby="mla-values">
         <h2 id="mla-values">Production of values vs creation of new values</h2>
         <p>
-          <strong>Flipping burgers at McDonald’s</strong> is offered as producing an <em>existing</em> value—important,
+          <strong>Flipping burgers at McDonald’s</strong> is offered as producing an <em>existing</em> value: important,
           common, and how many livelihoods work. <strong>Tesla-style engineering</strong> illustrates creating values
-          that did not exist before. Few livelihoods, in the talk, reach that creation realm—yet minds are described as
+          that did not exist before. Few livelihoods, in the talk, reach that creation realm; yet minds are described as
           born to create. That gap is where the money story lands:{" "}
           <strong>creation of values is greater value to society than production alone</strong>, with the Musk vs cook
           contrast used as magnitude, not moral ranking.
@@ -184,7 +184,7 @@ export function MoneyLoveAffairPageContent() {
             </div>
             <h3>Production of existing values</h3>
             <p>
-              Repeatable delivery of what the market already knows—necessary work, often the backbone of a paycheck, in
+              Repeatable delivery of what the market already knows: necessary work, often the backbone of a paycheck, in
               the McDonald’s illustration.
             </p>
           </div>
@@ -194,7 +194,7 @@ export function MoneyLoveAffairPageContent() {
             </div>
             <h3>Creation of new values</h3>
             <p>
-              Bringing something into the world that was not there before—linked to integrated creativity and, in the
+              Bringing something into the world that was not there before, linked to integrated creativity and, in the
               story, to outsized economic returns when scale hits.
             </p>
           </div>
@@ -206,7 +206,7 @@ export function MoneyLoveAffairPageContent() {
         <p>
           Stop centering <strong>“How do I make more money?”</strong> and instead ask{" "}
           <strong>“How do I put more value into society?”</strong> The video says that migration pulls you toward the
-          creativity you were born with—the only thing in the known universe that creates—and toward doing what you
+          creativity you were born with: the only thing in the known universe that creates, and toward doing what you
           love while wealth follows as return.
         </p>
       </section>
@@ -242,7 +242,7 @@ export function MoneyLoveAffairPageContent() {
           <p>
             When the video ends: put down the phone, turn off the tablet, close the laptop. Sit quietly, stare into
             space, and spend time imagining <strong>you</strong> putting values into society. The talk treats that
-            solitary moment as the pivot—“your whole life from here on out changes.”
+            solitary moment as the pivot: “your whole life from here on out changes.”
           </p>
         </div>
       </div>
@@ -269,7 +269,7 @@ export function MoneyLoveAffairPageContent() {
           After <Link href={WP.soarBeyondPeers}>soaring beyond peers</Link> with vision and assembly-line execution,
           this lesson aims the same capacity at <strong>why</strong> money shows up: value first, with integrated
           thinking and Neothink Society practice as the place to deepen the skill. Next:{" "}
-          <Link href={WP.keepTheBalance}>Keep the balance</Link>—harmonizing creation with reflection so happiness stays
+          <Link href={WP.keepTheBalance}>Keep the balance</Link>, harmonizing creation with reflection so happiness stays
           lived, not only built.
         </p>
       </section>
@@ -298,7 +298,7 @@ export function MoneyLoveAffairPageContent() {
       <section className="mla-cta mla-reveal" aria-label="Continue the series">
         <h2>Continue the journey</h2>
         <p>
-          Subscribe on YouTube for weekly drops—and join the Neothink Society from the links in the video if you want
+          Subscribe on YouTube for weekly drops, and join the Neothink Society from the links in the video if you want
           the full path members follow.
         </p>
         <div className="mla-cta-row">
