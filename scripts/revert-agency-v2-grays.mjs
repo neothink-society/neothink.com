@@ -26,7 +26,7 @@ let n = 0;
 for (const file of listBodyHtmlFiles()) {
   const src = fs.readFileSync(file, "utf8");
   if (!/color\s*:\s*#6b7280\b/i.test(src)) continue;
-  const out = src.replace(/color\s*:\s*#6b7280\b/gi, (m) => {
+  const out = src.replace(/color\s*:\s*#6b7280\b/gi, () => {
     n++;
     return "color:#9ca3af";
   });

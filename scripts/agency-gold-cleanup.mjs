@@ -47,15 +47,6 @@ const TEXT_SWAPS = [
   [/color:\s*#16a34a\b/gi, "color:#15803d"],
 ];
 
-// Narrow: the Past/Present/Future timeline chips use `background:#d4a853`
-// paired with white text. Darken the chip background so white passes AA.
-// We ONLY touch this pattern; decorative #d4a853 borders, icons, and
-// backgrounds that don't paint white text stay as-is.
-const BADGE_SWAP = [
-  /(background\s*:\s*)#d4a853(\s*;\s*padding[^"']*color\s*:\s*white)/gi,
-  /(color\s*:\s*white\s*;\s*background\s*:\s*)#d4a853/gi,
-];
-
 let files = 0;
 let replacements = 0;
 for (const file of listBodyHtmlFiles()) {
@@ -63,7 +54,7 @@ for (const file of listBodyHtmlFiles()) {
   let out = src;
 
   for (const [re, to] of TEXT_SWAPS) {
-    out = out.replace(re, (m) => {
+    out = out.replace(re, () => {
       replacements++;
       return to;
     });

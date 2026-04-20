@@ -23,7 +23,6 @@ const files = [
 
 for (const f of files) {
   const src = fs.readFileSync(f, "utf8");
-  const prefix = f.match(/\/(\w+)-page\.css$/);
   // Match prefix based on the CSS class in the file (first `.X-page`).
   const m = src.match(/^\.([a-z0-9]+)-page /m);
   if (!m) { console.warn("no prefix for", f); continue; }
