@@ -119,11 +119,7 @@ export function getFounderSchema(): JsonLd {
       "Author of the Neothink Manuscripts. Creator of the Neothink Mentality. Founder of the Neothink Institute (a public research organization) and the Neothink Society (a private education organization). His work spans five decades of research into consciousness, economics, political theory, and civilizational design.",
     url: `${siteConfig.url}/mark-hamilton`,
     image: MARK_HAMILTON_PORTRAIT_URL,
-    affiliation: [
-      { "@id": `${siteConfig.url}/#organization` },
-      { "@id": `${siteConfig.url}/#society` },
-    ],
-    sameAs: ["https://www.wikidata.org/wiki/Q6042981"],
+    affiliation: [{ "@id": `${siteConfig.url}/#organization` }],
     knowsAbout: [
       "Civilizational theory",
       "Consciousness studies",
@@ -274,10 +270,7 @@ export function getWallaceHamiltonSchema(): JsonLd {
     description:
       "CEO of Immortalis, founder of The Way, and co-host of the Unleashed podcast. Research director and the bridge between the Neothink framework and the individual.",
     url: `${siteConfig.url}/wallace-hamilton`,
-    affiliation: [
-      { "@id": `${siteConfig.url}/#organization` },
-      { "@id": `${siteConfig.url}/#society` },
-    ],
+    affiliation: [{ "@id": `${siteConfig.url}/#organization` }],
     knowsAbout: [
       "The Way",
       "Personal development",
@@ -290,11 +283,18 @@ export function getWallaceHamiltonSchema(): JsonLd {
 }
 
 export function getStructuredDataGraph(): JsonLd {
+  /**
+   * NeothinkSociety schema is intentionally NOT included on neothink.com.
+   * The Institute is the public-facing research institution; NTS is medium-
+   * association per strategic doctrine (visible selectively). When NTS gets
+   * its own deploy at neothinksociety.com, that domain will publish its own
+   * Organization schema. The function `getNeothinkSocietySchema()` remains
+   * defined for that future use.
+   */
   return {
     "@context": "https://schema.org",
     "@graph": [
       getOrganizationSchema(),
-      getNeothinkSocietySchema(),
       getFooterNavigationItemListSchema(),
       getWebSiteSchema(),
       getFounderSchema(),
