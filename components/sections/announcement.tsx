@@ -3,29 +3,43 @@ import { WP } from "@/lib/wordpress-routes";
 
 export function Announcement() {
   return (
-    <section className="ann-b" aria-labelledby="announcement-heading">
+    <section
+      id="flagship"
+      className="ann-b"
+      aria-labelledby="announcement-heading"
+    >
       <div className="ann-b-inner">
         <div className="ann-b-left">
           <div className="ann-b-badge">
             <span className="ann-pulse" aria-hidden />
             <span className="ann-label">New Release</span>
           </div>
+          <span className="ann-b-eyebrow">The Flagship</span>
           <h2 id="announcement-heading">
             <em>Unleashed</em>
           </h2>
           <div className="ann-b-subtitle">The Promethean Promise</div>
+          <p className="ann-b-lead">
+            After fifty years of research, the complete framework is now
+            available.
+          </p>
           <p>
-            After fifty years of research, the complete Unified Field of
-            Conscious Civilization is now available. The first synthesis
-            identifying the single structural pattern governing every empire,
-            every collapse, and every human destiny in recorded history.
+            The Unified Field of Conscious Civilization traces civilization&rsquo;s
+            entire arc: from the primordial origins of human consciousness,
+            through what went wrong 2,400 years ago, through Socrates, Plato,
+            Aristotle and those who shaped our world today, through the rise
+            and fall of civilizations, to what comes next.
+          </p>
+          <p className="ann-b-emphasis">
+            One framework unifying all of conscious civilization. And the
+            instrument of its correction.
+          </p>
+          <p className="ann-b-tagline">
+            The Power of Gods, Wielded by Humans.
           </p>
           <div className="ann-b-actions">
             <Link href={WP.unleashed} className="ann-btn-dark">
-              Read the Full Work
-            </Link>
-            <Link href={WP.unleashedDownload} className="ann-btn-outline">
-              Download PDF
+              Read Unleashed
             </Link>
           </div>
         </div>
@@ -37,7 +51,7 @@ export function Announcement() {
         >
           <div className="ann-b-book-ribbon">New Release</div>
           <div className="ann-b-book-inner">
-            <span className="ann-b-book-tag">New Release</span>
+            <span className="ann-b-book-tag">Flagship</span>
             <div className="ann-b-book-title">Unleashed</div>
             <div className="ann-b-book-bottom">
               <div className="ann-b-book-sub">The Promethean Promise</div>

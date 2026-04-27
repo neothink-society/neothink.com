@@ -17,8 +17,8 @@ export function Hero() {
         <a href="#framework" className="nti-btn-primary">
           Explore the Framework
         </a>
-        <a href="#neovia" className="nti-btn-secondary">
-          See What We&rsquo;re Building
+        <a href="#flagship" className="nti-btn-secondary">
+          Read Unleashed
         </a>
       </div>
       <div className="nti-rule" aria-hidden />
