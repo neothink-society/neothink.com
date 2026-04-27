@@ -26,6 +26,34 @@ export function SiteFooter() {
           padding: "80px 48px 40px",
         }}
       >
+        <div
+          aria-label="Institute identity"
+          style={{
+            marginBottom: "48px",
+            paddingBottom: "32px",
+            borderBottom: "1px solid rgba(253,252,250,0.06)",
+            textAlign: "center",
+          }}
+        >
+          <p
+            className="font-serif"
+            style={{
+              fontSize: "clamp(20px, 2vw, 24px)",
+              fontWeight: 400,
+              lineHeight: 1.5,
+              color: "rgba(253,252,250,0.82)",
+              letterSpacing: "0.005em",
+              margin: 0,
+              maxWidth: "720px",
+              marginInline: "auto",
+            }}
+          >
+            <span style={{ color: "#FDFCFA" }}>The Neothink Institute.</span>{" "}
+            An independent research institution. Restoring man to his nature
+            and building the civilization that comes after.
+          </p>
+        </div>
+
         <nav aria-label="Primary pages" style={{ marginBottom: "48px" }}>
           <ul className="grid grid-cols-1 gap-x-8 gap-y-3 sm:grid-cols-2 lg:grid-cols-4">
             {FOOTER_PRIMARY_LINKS.map((link) => (

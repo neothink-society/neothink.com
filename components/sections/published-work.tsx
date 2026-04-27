@@ -100,10 +100,16 @@ export function PublishedWork() {
   return (
     <section ref={sectionRef} className="nti-articles" id="articles" aria-labelledby="articles-heading">
       <div className="nti-inner">
-        <span className="nti-label nti-reveal">Published Work</span>
+        <span className="nti-label nti-reveal">From the Institute</span>
         <h2 id="articles-heading" className="nti-reveal">
-          From the Institute
+          Published Work
         </h2>
+        <p className="nti-articles-lede nti-reveal">
+          The Neothink Institute is publishing its body of work online for free
+          public access. Through the Public Archive Initiative, foundational
+          manuscripts, current research, and primary frameworks are made
+          available for study, citation, and reference.
+        </p>
         <div className="nti-grid">
           {ARTICLES.map((article) => (
             <Link key={article.href} href={article.href} className="nti-card nti-reveal">
@@ -116,7 +122,7 @@ export function PublishedWork() {
         </div>
         <div className="nti-cta nti-reveal">
           <Link href={WP.publishedWork} className="nti-btn">
-            View All Published Work
+            Explore Published Work
           </Link>
         </div>
       </div>

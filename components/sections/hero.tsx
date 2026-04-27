@@ -1,7 +1,7 @@
 export function Hero() {
   return (
     <section aria-labelledby="hero-heading" className="nti-hero">
-      <span className="nti-eyebrow">Neothink Institute</span>
+      <span className="nti-eyebrow">Independent Research Institution</span>
       <h1 id="hero-heading">
         The intellectual foundation for the <em>next stage</em> of human
         civilization.
@@ -9,9 +9,14 @@ export function Hero() {
       <p className="nti-sub">
         The Neothink Institute exists to restore man to his nature and build
         the civilization that comes after. Fifty years of research spanning
-        every major domain of human knowledge: consciousness, economics,
-        philosophy, business, governance, and the architecture of civilization
-        itself.
+        consciousness, economics, philosophy, business, governance, and the
+        architecture of civilization itself.
+      </p>
+      <p className="nti-grounding">
+        The Institute advances the Unified Field of Conscious Civilization,
+        develops the Neothink body of work, and carries its discoveries into
+        civilization through manuscripts, published research, Unleashed, and
+        Neovia.
       </p>
       <div className="nti-actions">
         <a href="#framework" className="nti-btn-primary">
