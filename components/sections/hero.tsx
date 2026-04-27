@@ -7,12 +7,11 @@ export function Hero() {
         civilization.
       </h1>
       <p className="nti-sub">
-        For fifty years, the Neothink Institute has been developing the unified
-        framework for understanding and correcting the structural error at the
-        root of civilization&rsquo;s recurring cycles of collapse. As artificial
-        intelligence accelerates human capability and existential risk
-        simultaneously, that framework is no longer theoretical. The window to
-        act is open and closing.
+        The Neothink Institute exists to restore man to his nature and build
+        the civilization that comes after. Fifty years of research spanning
+        every major domain of human knowledge: consciousness, economics,
+        philosophy, business, governance, and the architecture of civilization
+        itself.
       </p>
       <div className="nti-actions">
         <a href="#framework" className="nti-btn-primary">

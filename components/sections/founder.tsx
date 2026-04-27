@@ -25,7 +25,7 @@ const CREDENTIALS = [
   {
     title: "Decades of Independent Research",
     description:
-      "Founded the Neothink Institute. Three generations of civilizational development, now entering its public phase.",
+      "Founded the Neothink Institute. Five decades of original research across consciousness, economics, governance, and the architecture of civilization itself.",
   },
 ] as const;
 

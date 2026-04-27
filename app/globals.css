@@ -780,6 +780,177 @@
   }
 }
 
+/* ── Homepage Declaration band (canonical universal-law opener) ── */
+.nti-declaration {
+  background: #f4f1ec;
+  padding: 120px 48px;
+  font-family: var(--sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.nti-declaration .nti-inner {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nti-decl-opening {
+  font-family: var(--serif);
+  font-size: clamp(28px, 3.2vw, 44px);
+  font-weight: 300;
+  line-height: 1.25;
+  color: #0e0e0e;
+  letter-spacing: -0.01em;
+  margin: 0 0 56px;
+}
+
+.nti-decl-opening em {
+  color: #7a6528;
+  font-style: italic;
+}
+
+.nti-decl-body {
+  color: #4a4540;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.85;
+}
+
+.nti-decl-body p {
+  margin: 0 0 24px;
+}
+
+.nti-decl-body p:last-child {
+  margin-bottom: 0;
+}
+
+.nti-decl-staccato {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+  font-family: var(--serif);
+  font-style: italic;
+  color: #0e0e0e;
+  font-size: 22px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.nti-decl-staccato span {
+  letter-spacing: 0.01em;
+}
+
+.nti-decl-closer {
+  margin-top: 56px;
+  font-family: var(--serif);
+  font-size: clamp(20px, 2vw, 26px);
+  font-weight: 300;
+  line-height: 1.45;
+  color: #0e0e0e;
+}
+
+.nti-decl-closer em {
+  color: #7a6528;
+  font-style: italic;
+}
+
+.nti-declaration .nti-reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity 0.7s ease,
+    transform 0.7s ease;
+}
+
+.nti-declaration .nti-reveal.nti-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 900px) {
+  .nti-declaration {
+    padding: 80px 24px;
+  }
+
+  .nti-decl-staccato {
+    gap: 12px;
+    font-size: 18px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nti-declaration .nti-reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* ── Homepage Closing band (canonical universal closer) ── */
+.nti-closing {
+  background: #0e0e0e;
+  padding: 120px 48px;
+  font-family: var(--sans);
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+}
+
+.nti-closing .nti-inner {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.nti-closing h2 {
+  font-family: var(--serif);
+  font-size: clamp(40px, 4.5vw, 64px);
+  font-weight: 300;
+  line-height: 1.1;
+  color: #fdfcfa;
+  letter-spacing: -0.015em;
+  margin: 0 0 36px;
+}
+
+.nti-closing h2 em {
+  color: #d4b060;
+  font-style: italic;
+}
+
+.nti-closing p {
+  color: rgba(253, 252, 250, 0.7);
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.75;
+  margin: 0;
+}
+
+.nti-closing .nti-reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity 0.7s ease,
+    transform 0.7s ease;
+}
+
+.nti-closing .nti-reveal.nti-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 900px) {
+  .nti-closing {
+    padding: 80px 24px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nti-closing .nti-reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
 /* ── Homepage Unified Field band (WordPress .nti-framework) ── */
 .nti-framework {
   background: #f4f1ec;
