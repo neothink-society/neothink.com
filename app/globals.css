@@ -2960,3 +2960,808 @@ a.nu-prose {
   overflow-x: auto;
   white-space: pre-wrap;
 }
+
+/* ── Stage 3: Homepage section additions (Inflection, Neovia, Founder, UnifiedField, Way, Neothink) ── */
+
+/* ── Inflection Point band (canonical civilizational cycles) ── */
+.nti-inflection {
+  background: #1c1814;
+  border-top: 3px solid #b8973a;
+  border-bottom: 1px solid rgba(184, 151, 58, 0.15);
+  padding: 120px 48px;
+  position: relative;
+  font-family: var(--sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.nti-inflection .nti-inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.nti-inflection-left .nti-label {
+  margin-bottom: 24px;
+  color: #d4b060;
+  display: block;
+  font-family: var(--sans);
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+.nti-inflection-left h2 {
+  font-family: var(--serif);
+  font-size: clamp(36px, 3.4vw, 56px);
+  font-weight: 300;
+  line-height: 1.1;
+  color: #fdfcfa;
+  letter-spacing: -0.01em;
+}
+
+.nti-inflection-left h2 em {
+  font-style: italic;
+  color: #d4b060;
+}
+
+.nti-cycle-diagram {
+  margin-top: 52px;
+  padding: 8px 0;
+}
+
+.nti-cycle-diagram svg {
+  width: 100%;
+  height: auto;
+  max-width: 520px;
+  display: block;
+}
+
+.nti-inflection-body p {
+  font-size: 16px;
+  line-height: 1.85;
+  color: rgba(253, 252, 250, 0.72);
+  margin-bottom: 20px;
+}
+
+.nti-inflection-thesis {
+  font-family: var(--serif);
+  font-size: clamp(22px, 2.4vw, 30px);
+  font-weight: 500;
+  color: #fdfcfa;
+  line-height: 1.35;
+  padding: 28px 32px;
+  margin: 28px 0;
+  border-left: 3px solid #b8973a;
+  background: rgba(184, 151, 58, 0.05);
+  letter-spacing: -0.005em;
+}
+
+.nti-inflection-thesis strong {
+  color: #d4b060;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.nti-inflection-aside {
+  font-family: var(--serif) !important;
+  font-size: clamp(26px, 3vw, 38px) !important;
+  font-weight: 300 !important;
+  font-style: italic !important;
+  color: #fdfcfa !important;
+  line-height: 1.3 !important;
+  letter-spacing: -0.01em !important;
+  margin: 36px 0 !important;
+  padding: 8px 0 8px 28px !important;
+  border-left: 3px solid #b8973a;
+}
+
+.nti-inflection-closer {
+  font-family: var(--serif) !important;
+  font-size: clamp(22px, 2.4vw, 30px) !important;
+  font-weight: 300 !important;
+  line-height: 1.3 !important;
+  color: #fdfcfa !important;
+  margin-top: 32px !important;
+  padding-top: 28px !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.nti-inflection-closer + .nti-inflection-closer {
+  margin-top: 16px !important;
+  padding-top: 0 !important;
+  border-top: none;
+}
+
+.nti-inflection-closer em {
+  font-style: italic;
+  color: #d4b060;
+}
+
+.nti-inflection .nti-reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity 0.7s ease,
+    transform 0.7s ease;
+}
+
+.nti-inflection .nti-reveal.nti-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 900px) {
+  .nti-inflection {
+    padding: 80px 24px;
+  }
+  .nti-inflection .nti-inner {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .nti-cycle-diagram {
+    margin-top: 32px;
+    margin-bottom: 8px;
+  }
+  .nti-cycle-diagram svg {
+    max-width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nti-inflection .nti-reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* ── Neovia philosophical body (diagnosis / verdict / exit) ── */
+.nti-neovia-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 96px;
+  margin-bottom: 56px;
+  align-items: start;
+}
+
+.nti-neovia-col-label {
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #d4b060;
+  font-weight: 500;
+  margin-bottom: 36px;
+  display: block;
+}
+
+.nti-neovia-beat {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  gap: 20px;
+  padding: 26px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.09);
+  align-items: start;
+}
+
+.nti-neovia-beat:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+
+.nti-neovia-beat-mark {
+  font-family: var(--serif);
+  font-size: 38px;
+  font-weight: 300;
+  font-style: italic;
+  color: #b8973a;
+  line-height: 0.8;
+  letter-spacing: -0.01em;
+}
+
+.nti-neovia-beat p {
+  color: rgba(253, 252, 250, 0.72);
+  font-size: 16px;
+  line-height: 1.85;
+  margin: 0;
+}
+
+.nti-neovia-verdict {
+  padding: 22px 28px;
+  border-left: 3px solid #d4b060;
+  background: rgba(184, 151, 58, 0.08);
+  margin-bottom: 56px;
+}
+
+.nti-neovia-exit-flow .nti-neovia-verdict p {
+  font-family: var(--serif);
+  font-size: clamp(22px, 2.2vw, 28px);
+  font-weight: 300;
+  font-style: italic;
+  color: #fdfcfa;
+  line-height: 1.4;
+  margin: 0;
+  letter-spacing: -0.005em;
+}
+
+.nti-neovia-exit-section {
+  padding-top: 40px;
+  border-top: 1px solid rgba(184, 151, 58, 0.2);
+}
+
+.nti-neovia-exit-flow p {
+  color: rgba(253, 252, 250, 0.72);
+  font-size: 16px;
+  line-height: 1.85;
+  margin-bottom: 22px;
+}
+
+.nti-neovia-closer {
+  font-family: var(--serif) !important;
+  font-style: italic !important;
+  font-size: 22px !important;
+  line-height: 1.4 !important;
+  color: #d4b060 !important;
+  margin-top: 36px !important;
+}
+
+.nti-neovia-cta {
+  margin-top: 56px;
+}
+
+.nti-btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(253, 252, 250, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 14px 32px;
+  text-decoration: none;
+  transition: all 0.25s;
+}
+
+.nti-btn-ghost:hover {
+  border-color: #d4b060;
+  color: #d4b060;
+}
+
+@media (max-width: 900px) {
+  .nti-neovia-body {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+/* ── Founder restructure (subhead, works, declaration, principles, final-verdict) ── */
+.nti-mark-subhead {
+  font-family: var(--serif) !important;
+  font-size: clamp(22px, 2.2vw, 28px) !important;
+  font-weight: 400 !important;
+  font-style: italic !important;
+  color: #7a6528 !important;
+  line-height: 1.35 !important;
+  letter-spacing: -0.005em !important;
+  margin: 0 0 32px !important;
+  max-width: 520px;
+}
+
+.nti-mark-works {
+  margin: 8px 0 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nti-mark-work {
+  padding: 22px 0;
+  border-top: 1px solid #e8e3d8;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  gap: 28px;
+  align-items: baseline;
+}
+
+.nti-mark-work:last-child {
+  border-bottom: 1px solid #e8e3d8;
+}
+
+.nti-mark-work-name {
+  font-family: var(--serif);
+  font-size: 19px;
+  font-weight: 500;
+  color: #7a6528;
+  letter-spacing: -0.005em;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.nti-mark-work-desc {
+  font-size: 15px !important;
+  line-height: 1.7 !important;
+  color: #4a4540 !important;
+  margin: 0 !important;
+}
+
+.nti-mark-final-verdict {
+  margin-top: 36px;
+}
+
+.nti-mark-final-verdict p {
+  font-family: var(--serif) !important;
+  font-size: clamp(22px, 2.2vw, 28px) !important;
+  font-weight: 300 !important;
+  font-style: italic !important;
+  color: #7a6528 !important;
+  line-height: 1.3 !important;
+  margin: 0 0 14px !important;
+  letter-spacing: -0.005em !important;
+}
+
+.nti-mark-final-verdict p:last-child {
+  margin-bottom: 0 !important;
+}
+
+.nti-mark-declaration {
+  margin: 88px auto 0;
+  max-width: 900px;
+  text-align: center;
+  position: relative;
+}
+
+.nti-mark-declaration::before,
+.nti-mark-declaration::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 1px;
+  background: #b8973a;
+  margin: 0 auto 36px;
+}
+
+.nti-mark-declaration::after {
+  margin: 36px auto 0;
+}
+
+.nti-mark-declaration blockquote {
+  font-family: var(--serif);
+  font-size: clamp(24px, 2.8vw, 38px);
+  font-weight: 300;
+  font-style: italic;
+  color: #0e0e0e;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+.nti-mark-declaration blockquote em {
+  color: #7a6528;
+  font-style: italic;
+}
+
+.nti-mark-principles {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: #e8e3d8;
+  border: 1px solid #e8e3d8;
+  margin-top: 88px;
+}
+
+.nti-mark-principle {
+  background: #fdfcfa;
+  padding: 32px 28px;
+  transition: background 0.25s;
+}
+
+.nti-mark-principle:hover {
+  background: #f4f1ec;
+}
+
+.nti-mark-principle-num {
+  display: block;
+  font-family: var(--serif);
+  font-size: 13px;
+  font-weight: 500;
+  color: #7a6528;
+  letter-spacing: 0.08em;
+  margin-bottom: 14px;
+}
+
+.nti-mark-principle h4 {
+  font-family: var(--serif);
+  font-size: 19px;
+  font-weight: 500;
+  color: #0e0e0e;
+  letter-spacing: -0.005em;
+  line-height: 1.25;
+  margin: 0 0 12px;
+}
+
+.nti-mark-principle p {
+  font-size: 14px;
+  line-height: 1.65;
+  color: #7a7570;
+  font-style: italic;
+  margin: 0;
+}
+
+.nti-mark-cta {
+  margin-top: 48px;
+}
+
+@media (max-width: 960px) {
+  .nti-mark-principles {
+    grid-template-columns: 1fr 1fr;
+  }
+  .nti-mark-principle {
+    padding: 24px 20px;
+  }
+}
+
+@media (max-width: 680px) {
+  .nti-mark-works {
+    background: #f4f1ec;
+    padding: 8px 22px;
+    margin: 32px 0 44px;
+  }
+  .nti-mark-work {
+    grid-template-columns: 1fr;
+    gap: 6px;
+    padding: 20px 0;
+    border-top: 1px solid #e8e3d8;
+  }
+  .nti-mark-work:first-child {
+    border-top: none;
+  }
+  .nti-mark-work:last-child {
+    border-bottom: none;
+  }
+  .nti-mark-work-name {
+    font-size: 17px;
+  }
+}
+
+/* ── UnifiedField left column additions (subhead, thesis-stamp, lead, top-quote) ── */
+.nti-framework .nti-left .nti-subhead {
+  font-family: var(--serif);
+  font-size: clamp(19px, 2vw, 24px);
+  font-weight: 400;
+  font-style: italic;
+  color: #7a6528;
+  line-height: 1.35;
+  letter-spacing: -0.005em;
+  margin: 0 0 32px;
+  max-width: 520px;
+}
+
+.nti-framework .nti-thesis-stamp {
+  font-family: var(--serif);
+  font-size: clamp(22px, 2.4vw, 30px);
+  font-weight: 500;
+  color: #0e0e0e;
+  line-height: 1.3;
+  padding: 24px 28px;
+  margin: 0 0 32px;
+  border-left: 3px solid #b8973a;
+  background: rgba(184, 151, 58, 0.06);
+  letter-spacing: -0.005em;
+}
+
+.nti-framework .nti-thesis-stamp em {
+  font-style: italic;
+  color: #7a6528;
+}
+
+.nti-framework .nti-lead {
+  font-size: 17px !important;
+  line-height: 1.8 !important;
+  color: #4a4540 !important;
+  margin-bottom: 22px !important;
+}
+
+.nti-framework .nti-top-quote {
+  font-family: var(--serif) !important;
+  font-size: 22px !important;
+  font-weight: 300 !important;
+  font-style: italic !important;
+  color: #7a6528 !important;
+  line-height: 1.4 !important;
+  padding: 24px 0 !important;
+  border-top: 1px solid #e8e3d8;
+  border-bottom: 1px solid #e8e3d8;
+  margin: 28px 0 32px !important;
+}
+
+/* ── TheWay restructure (header, body+stages, axiom, highlight, body-close, hero-quote) ── */
+.nti-way-header {
+  margin-bottom: 40px;
+  max-width: 760px;
+}
+
+.nti-way-header h2 {
+  font-family: var(--serif);
+  font-size: clamp(40px, 4vw, 64px);
+  font-weight: 300;
+  line-height: 1.05;
+  color: #0e0e0e;
+  letter-spacing: -0.01em;
+  margin-bottom: 14px;
+}
+
+.nti-way-subtitle {
+  font-family: var(--serif);
+  font-size: clamp(22px, 2.2vw, 28px);
+  font-weight: 400;
+  font-style: italic;
+  color: #7a6528;
+  line-height: 1.35;
+  letter-spacing: -0.005em;
+  margin: 0;
+}
+
+.nti-way-subtitle em {
+  font-style: italic;
+}
+
+.nti-way-body-stages {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 72px;
+  align-items: start;
+  margin-bottom: 64px;
+}
+
+.nti-way-prose p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #4a4540;
+  margin: 0 0 20px;
+}
+
+.nti-way-axiom {
+  font-family: var(--serif) !important;
+  font-size: clamp(24px, 2.6vw, 32px) !important;
+  font-weight: 300 !important;
+  color: #0e0e0e !important;
+  line-height: 1.3 !important;
+  letter-spacing: -0.01em !important;
+  margin: 0 0 28px !important;
+}
+
+.nti-way-highlight {
+  font-family: var(--serif) !important;
+  font-size: clamp(20px, 2vw, 24px) !important;
+  line-height: 1.35 !important;
+  color: #0e0e0e !important;
+  font-weight: 500 !important;
+  padding: 22px 26px !important;
+  margin: 8px 0 20px !important;
+  border-left: 3px solid #b8973a;
+  background: rgba(184, 151, 58, 0.06);
+  letter-spacing: -0.005em !important;
+}
+
+.nti-way-body-close {
+  font-family: var(--serif) !important;
+  font-size: clamp(22px, 2.2vw, 28px) !important;
+  font-weight: 300 !important;
+  font-style: italic !important;
+  color: #0e0e0e !important;
+  line-height: 1.35 !important;
+  letter-spacing: -0.005em !important;
+  margin: 32px 0 0 !important;
+}
+
+.nti-way-body-close em {
+  color: #7a6528;
+  font-style: italic;
+}
+
+.nti-way-stages {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e8e3d8;
+}
+
+.nti-way-stage {
+  background: #f4f1ec;
+  padding: 32px 36px;
+  transition: background 0.25s;
+}
+
+.nti-way-stage + .nti-way-stage {
+  border-top: 1px solid #e8e3d8;
+}
+
+.nti-way-stage:hover {
+  background: transparent;
+}
+
+.nti-way-stage-head {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 2px;
+}
+
+.nti-way-stage-num {
+  flex-shrink: 0;
+  width: 64px;
+  font-family: var(--serif);
+  font-size: 44px;
+  font-weight: 300;
+  font-style: italic;
+  color: #b8973a;
+  line-height: 0.85;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+.nti-way-stage h3 {
+  font-family: var(--serif);
+  font-size: 22px;
+  font-weight: 500;
+  color: #0e0e0e;
+  margin: 0;
+  letter-spacing: -0.005em;
+}
+
+.nti-way-stage p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #4a4540;
+  margin: 0;
+  padding-left: 88px;
+}
+
+.nti-way-hero-quote {
+  max-width: 900px;
+  margin: 0 auto 80px;
+  text-align: center;
+  position: relative;
+}
+
+.nti-way-hero-quote::before,
+.nti-way-hero-quote::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 1px;
+  background: #b8973a;
+  margin: 0 auto 36px;
+}
+
+.nti-way-hero-quote::after {
+  margin: 36px auto 0;
+}
+
+.nti-way-hero-quote blockquote {
+  font-family: var(--serif);
+  font-size: clamp(28px, 3.2vw, 44px);
+  font-weight: 300;
+  font-style: italic;
+  color: #0e0e0e;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  margin: 0;
+}
+
+.nti-way-hero-quote cite {
+  display: block;
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #7a6528;
+  font-style: normal;
+  margin-top: 24px;
+  position: relative;
+  z-index: 1;
+}
+
+.nti-way-cta {
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .nti-way-body-stages {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+  .nti-way-hero-quote {
+    margin-bottom: 56px;
+  }
+  .nti-way-stage {
+    padding: 24px;
+  }
+  .nti-way-stage-num {
+    font-size: 36px;
+  }
+}
+
+/* ── NeothinkSection additions (lead, highlight, stamp, new-human) ── */
+.nti-neothink .nti-neothink-lead {
+  font-size: 17px;
+  line-height: 1.75;
+  color: #4a4540;
+  margin-bottom: 24px;
+}
+
+.nti-neothink .nti-neothink-highlight {
+  font-family: var(--serif);
+  font-size: clamp(20px, 2vw, 24px);
+  font-weight: 500;
+  line-height: 1.35;
+  color: #0e0e0e;
+  padding: 22px 26px;
+  margin: 8px 0 24px;
+  border-left: 3px solid #b8973a;
+  background: rgba(184, 151, 58, 0.06);
+  letter-spacing: -0.005em;
+}
+
+.nti-neothink .nti-neothink-stamp {
+  font-family: var(--serif);
+  font-size: clamp(22px, 2.2vw, 26px);
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.35;
+  color: #0e0e0e;
+  padding: 24px 28px;
+  margin: 32px 0 0;
+  border-left: 3px solid #b8973a;
+  background: rgba(184, 151, 58, 0.08);
+  letter-spacing: -0.005em;
+}
+
+.nti-neothink-new-human {
+  margin-top: 72px;
+  padding: 52px 56px;
+  background: #fdfcfa;
+  border-top: 3px solid #b8973a;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 56px;
+  align-items: center;
+}
+
+.nti-neothink-new-human h3 {
+  font-family: var(--serif);
+  font-size: 32px;
+  font-weight: 300;
+  font-style: italic;
+  color: #7a6528;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.nti-neothink-new-human p {
+  font-size: 16px;
+  line-height: 1.85;
+  color: #4a4540;
+  margin: 0;
+}
+
+.nti-neothink-cta {
+  margin-top: 48px;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .nti-neothink-new-human {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 40px 32px;
+  }
+}

@@ -3,6 +3,7 @@ import { Declaration } from "@/components/sections/declaration";
 import { Announcement } from "@/components/sections/announcement";
 import { UnifiedField } from "@/components/sections/unified-field";
 import { Founder } from "@/components/sections/founder";
+import { InflectionPoint } from "@/components/sections/inflection-point";
 import { Neovia } from "@/components/sections/neovia";
 import { TheWay } from "@/components/sections/the-way";
 import { NeothinkSection } from "@/components/sections/neothink-section";
@@ -17,6 +18,7 @@ export default function HomePage() {
       <Announcement />
       <UnifiedField />
       <Founder />
+      <InflectionPoint />
       <Neovia />
       <TheWay />
       <NeothinkSection />

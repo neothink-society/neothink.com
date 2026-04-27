@@ -4,30 +4,30 @@ import Link from "next/link";
 import { WP } from "@/lib/wordpress-routes";
 import { useEffect, useRef } from "react";
 
-const CARDS = [
+const TREATISE = [
   {
-    numeral: "I",
+    numeral: "I.",
     title: "The Bicameral Origin",
     description:
-      "2,400 years ago, the internal voice structure that governed human cognition collapsed. Philosophy arose not as wisdom, but as emergency stabilization for a species that had lost its psychological foundation.",
+      "Three thousand years ago, the internal structure that governed human cognition broke down. What emerged in its place was not consciousness, but chaos. Philosophy arose across the ancient world as emergency stabilization.",
   },
   {
-    numeral: "II",
+    numeral: "II.",
     title: "The Aristotelian Interruption",
     description:
-      "For one brief moment, Aristotle completed the transition to fully integrated consciousness. His works were lost. Humanity took a 2,400-year detour into hierarchy, force, and external authority. A detour it has never recovered from.",
+      "For one brief window, Aristotle completed the transition to integrated consciousness. Then his works were lost. What followed was the 2,400-year detour.",
   },
   {
-    numeral: "III",
+    numeral: "III.",
     title: "The Civilizational Law",
     description:
-      "As force rises, civilization collapses. As force recedes, civilization soars. This is not a moral preference. It is a natural law, proven across every empire and epoch in recorded history.",
+      "Every civilization that has risen, fallen, flourished, or collapsed has followed the same underlying pattern. The pattern is not ideological. It is structural.",
   },
   {
-    numeral: "IV",
+    numeral: "IV.",
     title: "The Correction",
     description:
-      "The Prime Law, the prohibition of initiated force, is the necessary environmental condition for advanced human consciousness to function at scale. Neovia is its physical expression.",
+      "The structural correction has been identified, codified, and is now being built.",
   },
 ] as const;
 
@@ -78,30 +78,39 @@ export function UnifiedField() {
         <div className="nti-grid">
           <div className="nti-left nti-reveal">
             <h2 id="unified-field-heading">
-              The single variable that determines whether civilization rises or{" "}
-              <em>collapses.</em>
+              The Unified Field of <em>Conscious Civilization.</em>
             </h2>
-            <p>
-              The Unified Field of Conscious Civilization is the Institute&rsquo;s
-              foundational contribution. A synthesis fifty years in the making,
-              identifying the structural pattern that has governed every empire,
-              every religion, every economy, and every human destiny across all
-              of history.
+            <p className="nti-subhead">
+              The first complete explanation of man, consciousness, and
+              civilization.
+            </p>
+            <div className="nti-thesis-stamp">
+              This is not ideology. It is <em>architecture.</em>
+            </div>
+            <p className="nti-lead">
+              For 2,400 years, the nature of man, the source of human suffering,
+              and the structure of civilization have been studied in fragments.
+              History, anthropology, psychology, philosophy, politics, biology
+              each traced pieces of the pattern without seeing the whole.
             </p>
             <p>
-              The insight is not ideological. It is architectural. Every major
-              civilization in the recorded arc of history has repeated the same
-              error. The Unified Field makes that error visible and shows what
-              replaces it.
+              The Unified Field of Conscious Civilization resolves them. A
+              synthesis fifty years in the making, it explains where man came
+              from, what went wrong 2,400 years ago, why the modern world
+              suffers, and what must replace the structure still running today.
+            </p>
+            <p className="nti-top-quote">
+              &ldquo;The detour is not a mistake. It is a physical law playing
+              out in slow motion.&rdquo;
             </p>
             <Link href={WP.unifiedField} className="nti-btn">
               Read the Full Framework
             </Link>
           </div>
           <div className="nti-cards nti-reveal">
-            {CARDS.map((card) => (
+            {TREATISE.map((card) => (
               <div key={card.numeral} className="nti-card">
-                <span className="nti-card-num">{card.numeral}.</span>
+                <span className="nti-card-num">{card.numeral}</span>
                 <h3>{card.title}</h3>
                 <p>{card.description}</p>
               </div>

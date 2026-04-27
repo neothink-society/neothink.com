@@ -6,26 +6,51 @@ import { useEffect, useRef } from "react";
 import { MARK_HAMILTON_PORTRAIT_URL } from "@/lib/wordpress-images";
 import { WP } from "@/lib/wordpress-routes";
 
-const CREDENTIALS = [
+const WORKS = [
   {
-    title: "Neothink Corpus",
+    name: "Neothink Corpus",
     description:
-      "Multi-decade body of work spanning psychology, economics, political theory, and civilizational design, published across millions of words of manuscripts, books, and strategic briefings.",
+      "Maps the human life lived in harmony with his nature across every domain.",
   },
   {
-    title: "Unified Field of Conscious Civilization",
+    name: "Unified Field of Conscious Civilization",
     description:
-      "The first complete synthesis linking individual cognition, social order, economic productivity, and political legitimacy to a single underlying structure.",
+      "Discovers why and how man was separated from his nature 2,400 years ago, unearthing the single structural variable governing civilizational outcomes.",
   },
   {
-    title: "Neovia: Prime Law Civilization Prototype",
-    description:
-      "Conceived as an anti-extinction architecture: the first jurisdictional solution to the collision between nuclear-era civilization and artificial intelligence.",
+    name: "Neovia",
+    description: "The civilization designed around the correction.",
   },
   {
-    title: "Decades of Independent Research",
+    name: "Neothink",
+    description: "The mode of mind at the center of it all.",
+  },
+] as const;
+
+const PRINCIPLES = [
+  {
+    num: "I.",
+    title: "Principles, Not Beliefs",
     description:
-      "Founded the Neothink Institute. Five decades of original research across consciousness, economics, governance, and the architecture of civilization itself.",
+      "His works do not prescribe what to believe. They teach how to think, how the world actually works, and how to pursue the happiness that is yours alone to define.",
+  },
+  {
+    num: "II.",
+    title: "Engineering, Not Politics",
+    description:
+      "Civilization treated as a structural problem with designable solutions. Not a political debate or an ideology. The error is structural. The correction is structural.",
+  },
+  {
+    num: "III.",
+    title: "Outside Conventional Institutions",
+    description:
+      "Fifty years of work done outside academia, politics, and the establishment. By those willing to ask what the institutions had foreclosed.",
+  },
+  {
+    num: "IV.",
+    title: "Every Domain, One Subject",
+    description:
+      "Mind, economics, governance, love, work, death. Human life as a single subject with connected principles, not separate fields with separate rules.",
   },
 ] as const;
 
@@ -77,50 +102,45 @@ export function Founder() {
           <div className="nti-text nti-reveal">
             <h2 id="founder-heading">Mark Hamilton</h2>
             <span className="nti-title">
-              Civilizational Theorist &middot; Systems Philosopher &middot;
-              Founder, Neothink Institute
+              Civilizational Theorist &middot; Philosopher &middot; Founder,
+              Neothink Institute
             </span>
-            <p>
-              Mark Hamilton is an American civilizational theorist and
-              institutional founder whose work spans five decades of research
-              into consciousness, economics, political theory, and civilizational
-              design.
+            <p className="nti-mark-subhead">
+              When man lives in harmony with his nature, life expands. When
+              separated from his nature, life contracts.
             </p>
             <p>
-              He is the architect of the{" "}
-              <strong>Unified Field of Conscious Civilization,</strong> the
-              synthesis identifying the single structural variable that determines
-              whether civilizations flourish or collapse, and the originator of{" "}
-              <strong>Neovia</strong>, the first proposed civilization designed
-              entirely around the Prime Law prohibition of initiated force.
+              All of society has been built on man&rsquo;s separation from his
+              nature since the beginning of conscious civilization. The result
+              is human suffering at all levels.
             </p>
             <p>
-              Hamilton&rsquo;s most consequential contribution was not merely
-              diagnosing civilization&rsquo;s structural error, but designing its
-              correction. His work is distinctive for treating civilization as
-              an engineering problem rather than a political debate, and for
-              insisting that consciousness is not merely personal, but
-              civilizational.
+              Some people accept the world as it appears. Mark Hamilton
+              couldn&rsquo;t. He spent fifty years demonstrating the condition
+              was unnatural and designing its correction.
             </p>
-            <p className="nti-pullquote">
-              &ldquo;Where others sought better rulers, better laws, or better
-              ideologies, Hamilton asked a more fundamental question: what if
-              hierarchy itself is the problem?&rdquo;
+            <p>
+              Mark Hamilton looked across every domain of human life as an
+              integrated whole, tracing it back to its essence: how man creates,
+              thinks, connects, loves, heals, governs.
             </p>
-            <div className="nti-creds">
-              {CREDENTIALS.map((cred) => (
-                <div key={cred.title} className="nti-cred">
-                  <div className="nti-cred-dot" aria-hidden />
-                  <div className="nti-cred-body">
-                    <strong>{cred.title}</strong>
-                    {cred.description}
-                  </div>
+            <div className="nti-mark-works">
+              {WORKS.map((work) => (
+                <div key={work.name} className="nti-mark-work">
+                  <h4 className="nti-mark-work-name">{work.name}</h4>
+                  <p className="nti-mark-work-desc">{work.description}</p>
                 </div>
               ))}
             </div>
-            <Link href={WP.markHamilton} className="nti-btn">
-              Full Biography &amp; Published Work
-            </Link>
+            <p>
+              He relentlessly pursues a better world because he holds the
+              individual as the highest value in the universe. Human suffering
+              at this scale is a violation of all that matters.
+            </p>
+            <div className="nti-mark-final-verdict">
+              <p>It does not need to exist.</p>
+              <p>It never did.</p>
+            </div>
           </div>
 
           <div className="nti-reveal">
@@ -141,6 +161,29 @@ export function Founder() {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="nti-mark-declaration nti-reveal">
+          <blockquote>
+            &ldquo;For 2,400 years, the human mind has been fragmented.{" "}
+            <em>Today the integration begins.</em>&rdquo;
+          </blockquote>
+        </div>
+
+        <div className="nti-mark-principles nti-reveal">
+          {PRINCIPLES.map((p) => (
+            <div key={p.num} className="nti-mark-principle">
+              <span className="nti-mark-principle-num">{p.num}</span>
+              <h4>{p.title}</h4>
+              <p>{p.description}</p>
+            </div>
+          ))}
+        </div>
+
+        <div className="nti-mark-cta nti-reveal">
+          <Link href={WP.markHamilton} className="nti-btn">
+            Full Biography &amp; Published Work
+          </Link>
         </div>
       </div>
     </section>

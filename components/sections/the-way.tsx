@@ -4,39 +4,24 @@ import Link from "next/link";
 import { WP } from "@/lib/wordpress-routes";
 import { useEffect, useRef } from "react";
 
-const STAGES: {
-  numeral: string;
-  title: string;
-  description: React.ReactNode;
-  tag: string;
-}[] = [
+const STAGES = [
   {
-    numeral: "I",
+    numeral: "I.",
     title: "The Waking",
-    description: (
-      <>
-        The recognition that you have been asleep. Learning to see through illusions down to{" "}
-        <i>what is.</i> Become aware of the conditioned self and imprints of external authority
-        installed without your knowledge.
-      </>
-    ),
-    tag: "See clearly",
+    description: "Learning to see through illusions down to what is.",
   },
   {
-    numeral: "II",
+    numeral: "II.",
     title: "The Clearing",
-    description:
-      "The systematic removal of everything false. The worth structures that don\u2019t work. The unforgiven past that costs energy every day. The environmental architecture that keeps reinstalling the old operating system. The deepest work. The real transformation.",
-    tag: "Remove what is not",
+    description: "The systematic removal of everything that is not you.",
   },
   {
-    numeral: "III",
+    numeral: "III.",
     title: "The Living",
     description:
-      "Operating fully from the awake self in ordinary life. Creating, loving, growing, building \u2014 with the full power of a mind that is finally free. The question is no longer who you should become. It is what you will create, build, and add to life now that the cage is removed. The path for the rest of a life of abiding happiness and prosperity.",
-    tag: "Live unleashed",
+      "Operating fully from the uncovered self, seeing truth directly, and pursuing a life of abiding happiness and prosperity.",
   },
-];
+] as const;
 
 export function TheWay() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -74,46 +59,70 @@ export function TheWay() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="nti-way" id="the-way" aria-labelledby="the-way-heading">
+    <section
+      ref={sectionRef}
+      className="nti-way"
+      id="the-way"
+      aria-labelledby="the-way-heading"
+    >
       <div className="nti-inner">
         <span className="nti-label nti-reveal">The Personal Path</span>
-        <div className="nti-rule nti-reveal" aria-hidden />
-        <div className="nti-intro nti-reveal">
-          <div>
-            <h2 id="the-way-heading">The Unified Field, lived from the inside.</h2>
-            <p className="nti-intro-body">
-              The Way is the personal expression of everything the Institute is building at the
-              civilizational scale. It is the path of seeing through the illusions of those who wish
-              to keep you small, removing everything that was installed from the outside, and waking
-              up a mind that has been caged.
-            </p>
-          </div>
-          <div className="nti-intro-quote">
-            <p>
-              &ldquo;You are not broken. You were never broken. You were covered. And that covering
-              can be removed.&rdquo;
-            </p>
-          </div>
-        </div>
-        <div className="nti-stages">
-          {STAGES.map((stage) => (
-            <div key={stage.title} className="nti-stage nti-reveal">
-              <span className="nti-stage-num" aria-hidden="true">
-                {stage.numeral}
-              </span>
-              <h3>{stage.title}</h3>
-              <p>{stage.description}</p>
-              <span className="nti-stage-tag">{stage.tag}</span>
-            </div>
-          ))}
-        </div>
-        <div className="nti-footer nti-reveal">
-          <p className="nti-footer-quote">
-            &ldquo;We do not tell you who you are. We show you how to remove all that is not you.
-            What is left, is you.&rdquo;
+        <div className="nti-way-header nti-reveal">
+          <h2 id="the-way-heading">The Way</h2>
+          <p className="nti-way-subtitle">
+            The Unified Field, <em>lived from the inside.</em>
           </p>
+        </div>
+        <div className="nti-way-body-stages nti-reveal">
+          <div className="nti-way-prose">
+            <p className="nti-way-axiom">
+              Your mind was built to see truth directly. Something was placed
+              over it.
+            </p>
+            <p>
+              The covering is all that separates you from truth, from yourself,
+              from the life you were meant to live. Individual suffering is the
+              distance between you and truth.
+            </p>
+            <p className="nti-way-highlight">
+              You are not broken. You were never broken. You were covered.
+            </p>
+            <p>There is a way to remove the covering. It is The Way.</p>
+            <p>
+              The Way does not tell you what to think, what to believe, or how
+              to live. The answers to those questions are yours alone.
+            </p>
+            <p>
+              It is the path to restore your ability to see truth directly and
+              clear all that is false, so that what remains is you.
+            </p>
+            <p className="nti-way-body-close">
+              And for the first time, <em>you live.</em>
+            </p>
+          </div>
+          <div className="nti-way-stages">
+            {STAGES.map((stage) => (
+              <div key={stage.title} className="nti-way-stage">
+                <div className="nti-way-stage-head">
+                  <span className="nti-way-stage-num" aria-hidden="true">
+                    {stage.numeral}
+                  </span>
+                  <h3>{stage.title}</h3>
+                </div>
+                <p>{stage.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className="nti-way-hero-quote nti-reveal">
+          <blockquote>
+            &ldquo;The mind was meant to see. The sleep was never yours.&rdquo;
+          </blockquote>
+          <cite>Wallace Hamilton</cite>
+        </div>
+        <div className="nti-way-cta nti-reveal">
           <Link href={WP.theWay} className="nti-btn">
-            Begin The Way
+            Walk The Way
           </Link>
         </div>
       </div>

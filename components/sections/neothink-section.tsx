@@ -4,37 +4,33 @@ import Link from "next/link";
 import { WP } from "@/lib/wordpress-routes";
 import { useEffect, useRef } from "react";
 
-const CAPABILITIES: { title: string; description: React.ReactNode }[] = [
+const CAPS = [
   {
-    title: "Integrated Thinking",
+    title: "A New Operating System",
     description:
-      "The capacity to hold physics, economics, biology, psychology, ethics, and purpose inside a single causal picture of reality.",
+      "Not a technique or method. A different way the mind interfaces with reality itself.",
   },
   {
-    title: "See What Others Cannot",
-    description: (
-      <>
-        The ability to see reality directly, through illusion, past appearances, down to{" "}
-        <em>what is.</em> Once given, it cannot be taken back.
-      </>
-    ),
+    title: "Sees Reality Directly",
+    description:
+      "Past appearance. Past narrative. Past inherited interpretation. The mind sees what is actually there.",
   },
   {
-    title: "Puzzle Building",
+    title: "Generates New Knowledge",
     description:
-      "Percepts become concepts. Concepts snap together into larger integrations, becoming puzzle pictures that reveal what others cannot see.",
+      "The integrating mind does not only make sense of existing knowledge. It generates knowledge that no single domain could produce.",
   },
   {
     title: "Future Prediction",
     description:
-      "When you understand cause and effect at sufficient depth, the future becomes visible. Not as prophecy. As structure.",
+      "When structure is understood, what will be becomes visible. Not as prophecy. As structure.",
   },
   {
-    title: "The New Human",
+    title: "Value Creation at Scale",
     description:
-      "A human being operating from the Neothink mentality is categorically different. Not because they gained something new, but because what was always there is finally unbound.",
+      "This mind does not compete for existing value. It creates new value where none existed.",
   },
-];
+] as const;
 
 export function NeothinkSection() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -72,48 +68,67 @@ export function NeothinkSection() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="nti-neothink" id="neothink" aria-labelledby="neothink-heading">
+    <section
+      ref={sectionRef}
+      className="nti-neothink"
+      id="neothink"
+      aria-labelledby="neothink-heading"
+    >
       <div className="nti-inner">
         <span className="nti-label nti-reveal">The Operating System</span>
         <div className="nti-grid nti-reveal">
           <div>
             <h2 id="neothink-heading">
-              Neothink &mdash; the <em>mind unleashed.</em>
+              Neothink: <em>the mind unleashed.</em>
             </h2>
-            <p>
-              Neothink is the operating system of the uncovered mind. It is what consciousness does
-              when it is no longer caged by hierarchy, force, and external authority. When the
-              human mind functions the way it was designed to function.
+            <p className="nti-neothink-lead">
+              Most people feel helpless and powerless in a world they do not
+              understand and cannot control. This is the mind separated from its
+              nature.
+            </p>
+            <p className="nti-neothink-highlight">
+              What you understand, you can control. What you cannot understand,
+              you can only react to.
             </p>
             <p>
-              Where The Way removes the covering, Neothink is what the freed mind becomes. It is the
-              capacity to integrate across domains, to see cause and effect with precision, to detect
-              contradictions that others accept, to build concepts into larger concepts, and to create
-              new knowledge that advances human life.
+              When you finally understand the world, life becomes predictable.
+              Opportunities expand. Life becomes easier and more effortless.
+              Abiding prosperity, love, and happiness stop being things you
+              chase and become natural.
             </p>
             <p>
-              The Neothink mentality is not merely thinking differently. It is operating from a
-              fundamentally different cognitive architecture. One that was glimpsed briefly by
-              Aristotle 2,400 years ago and has been suppressed by hierarchical civilization ever
-              since.
+              There is a mind that operates this way. That sees reality and
+              shapes it. The difference is not higher intelligence. It is a
+              different mode of mind.
             </p>
-            <Link href={WP.neothink} className="nti-btn">
-              What Is Neothink
-            </Link>
+            <p>
+              This mode has produced every genuine breakthrough in human
+              history. It has appeared only in flashes, in rare individuals,
+              under conditions most civilizations have suppressed.
+            </p>
+            <p className="nti-neothink-stamp">
+              That mode is Neothink. The mind restored to its nature.
+            </p>
           </div>
           <div>
             <div className="nti-caps">
-              {CAPABILITIES.map((cap) => (
+              {CAPS.map((cap) => (
                 <div key={cap.title} className="nti-cap">
-                  <div className="nti-cap-dot" aria-hidden />
-                  <div className="nti-cap-text">
-                    <strong>{cap.title}</strong>
-                    {cap.description}
-                  </div>
+                  <h4>{cap.title}</h4>
+                  <p>{cap.description}</p>
                 </div>
               ))}
             </div>
           </div>
+        </div>
+        <div className="nti-neothink-new-human nti-reveal">
+          <h3>The Mind Restored</h3>
+          <p>Neothink is the completion of consciousness.</p>
+        </div>
+        <div className="nti-neothink-cta nti-reveal">
+          <Link href={WP.neothink} className="nti-btn">
+            What Is Neothink
+          </Link>
         </div>
       </div>
     </section>
