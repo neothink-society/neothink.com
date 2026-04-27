@@ -325,3 +325,156 @@
   border-color: var(--ab-gold-deep);
   color: var(--ab-gold-deep);
 }
+
+/* Hero supporting paragraph (longer institutional intro under tagline) */
+.ab-page .ab-hero-supporting {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: clamp(15px, 1.6vw, 17px);
+  font-weight: 300;
+  line-height: 1.85;
+  color: var(--ab-body);
+  margin: 24px auto 0;
+  max-width: 720px;
+  opacity: 0;
+  animation: abFadeUp 0.8s 0.75s ease forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ab-page .ab-hero-supporting {
+    animation: none;
+    opacity: 1;
+  }
+}
+
+/* Body of Work: 4 framework blocks */
+.ab-page .ab-frameworks {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+  margin-top: 32px;
+  border-top: 1px solid var(--ab-border);
+}
+
+.ab-page .ab-framework {
+  padding: 48px 0;
+  border-bottom: 1px solid var(--ab-border);
+}
+
+.ab-page .ab-framework:last-child {
+  border-bottom: 0;
+}
+
+.ab-page .ab-framework-title {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(24px, 2.6vw, 32px);
+  font-weight: 400;
+  color: var(--ab-text);
+  line-height: 1.2;
+  margin: 0 0 20px;
+  letter-spacing: -0.005em;
+}
+
+.ab-page .ab-framework-body {
+  max-width: 720px;
+}
+
+.ab-page .ab-framework-verdict {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(18px, 2vw, 22px);
+  font-weight: 300;
+  font-style: italic;
+  color: var(--ab-gold-deep);
+  line-height: 1.5;
+  margin-top: 8px;
+  padding: 18px 24px;
+  border-left: 2px solid var(--ab-gold);
+  background: rgba(184, 151, 58, 0.06);
+}
+
+.ab-page .ab-framework-verdict em {
+  font-style: italic;
+}
+
+.ab-page .ab-frameworks-coda {
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid var(--ab-border);
+  font-style: italic;
+  color: var(--ab-muted);
+}
+
+/* Emphasis paragraph (used at end of select sections as institutional verdict) */
+.ab-page .ab-para--emphasis {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(20px, 2.2vw, 26px);
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.4;
+  color: var(--ab-text);
+  margin-top: 12px;
+  letter-spacing: -0.005em;
+}
+
+/* Closing band: dark ink, centered, matches homepage Closing component pattern */
+.ab-page .ab-closing {
+  background: #0e0e0e;
+  padding: 120px 48px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.ab-page .ab-closing::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(184, 151, 58, 0.08) 0%,
+    transparent 65%
+  );
+  pointer-events: none;
+}
+
+.ab-page .ab-closing-inner {
+  max-width: 760px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.ab-page .ab-closing-setup {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.85;
+  color: rgba(253, 252, 250, 0.65);
+  max-width: 600px;
+  margin: 0 auto 16px;
+}
+
+.ab-page .ab-closing-setup:last-of-type {
+  margin-bottom: 40px;
+}
+
+.ab-page .ab-closing-verdict {
+  font-family: var(--font-cormorant-garamond), Georgia, serif;
+  font-size: clamp(40px, 5.2vw, 72px);
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.05;
+  color: #fdfcfa;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.ab-page .ab-closing-verdict em {
+  color: #d4b060;
+  font-style: italic;
+}
+
+@media (max-width: 900px) {
+  .ab-page .ab-closing {
+    padding: 80px 24px;
+  }
+}

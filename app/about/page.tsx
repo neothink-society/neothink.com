@@ -6,9 +6,9 @@ import { schemaIds } from "@/lib/schema-ids";
 import "./about-page.css";
 
 export const metadata = pageMetadata({
-  title: "About | Neothink Institute",
+  title: "About the Neothink Institute | Independent Research Institution",
   description:
-    "The Neothink Institute, Society, and Mark Hamilton. The Unified Field, Neovia, and the Neothink corpus. Research institution and membership community.",
+    "The Neothink Institute is an independent research institution advancing the Unified Field of Conscious Civilization, the Neothink body of work, Unleashed, and Neovia.",
   pathname: "/about",
   /** About/institution page; not a dated article. */
   ogType: "website",
@@ -21,12 +21,12 @@ const breadcrumbs = breadcrumbListJsonLd([
 
 const pageLd = webPageJsonLd({
   pathname: "/about",
-  name: "About | Neothink Institute",
+  name: "About the Neothink Institute | Independent Research Institution",
   description:
-    "The Neothink Institute, Society, and Mark Hamilton. The Unified Field, Neovia, and the Neothink corpus. Research institution and membership community.",
+    "The Neothink Institute is an independent research institution advancing the Unified Field of Conscious Civilization, the Neothink body of work, Unleashed, and Neovia.",
   pageType: "AboutPage",
   mainEntityId: schemaIds.organization,
-  speakableSelectors: ["#ab-hero-heading", "#ab-institute-heading"],
+  speakableSelectors: ["#ab-hero-heading", "#ab-what-heading"],
 });
 
 export default function AboutPage() {

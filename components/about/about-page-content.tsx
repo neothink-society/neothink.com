@@ -1,59 +1,88 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef } from "react";
 
-import { MARK_HAMILTON_PORTRAIT_URL } from "@/lib/wordpress-images";
 import { WP } from "@/lib/wordpress-routes";
 
-/** Migrated from neothink.com/about/ (Elementor); em dashes normalized per NTI brand guidelines. */
-const BIO_PARAGRAPHS = [
-  "Mark Hamilton is an American civilizational theorist, systems philosopher, and institutional founder whose work marked a decisive break from the hierarchical, force-based structures that dominated human civilization for over two millennia. Emerging at the convergence of artificial intelligence, nuclear risk, and stalled human consciousness, Hamilton articulated and operationalized a new framework for civilization grounded in internal authority, voluntary cooperation, and integrated human cognition.",
-  "Hamilton is best known as the architect of the Neothink Corpus, a multi-decade body of work spanning psychology, economics, political theory, consciousness studies, and civilizational design. Unlike traditional philosophical schools, Neothink was not presented as abstract theory but as a functional operating system for the human mind, designed to restore integrated thinking in individuals and societies long constrained by fragmented, hierarchical modes of thought.",
-  "Central to Hamilton’s historical significance is his identification of what he termed the 2,400-year civilizational detour: a structural error originating in post-Aristotelian history, in which external authority, hierarchy, and force replaced self-integration as the organizing principle of civilization. Drawing on Aristotle’s lost psychological framework, Julian Jaynes’ bicameral-mind thesis, and a systemic analysis of power, Hamilton argued that humanity had achieved technological consciousness without ever completing the evolution of internal self-leadership. The result, he warned, was an extinction-level mismatch: nuclear-powered societies governed by pre-integrated minds.",
-  "Hamilton’s most consequential contribution was not merely diagnosing this condition, but designing its correction.",
-  "He formulated the Unified Field of Conscious Civilization, a synthesis showing how individual cognition, social order, economic productivity, and political legitimacy arise from the same underlying structure: whether human beings are organized around internal authority or external force. From this foundation emerged the Prime Law, the prohibition of initiated force, as not a moral ideal, but a necessary environmental condition for advanced consciousness to function at scale.",
-  "This theoretical breakthrough culminated in Neovia: a proposed Prime-Law-based civilization prototype designed to remove hierarchy and coercion from the human environment entirely. Conceived not as a utopia or ideology, Neovia was framed as an anti-extinction architecture. A practical, jurisdictional solution to the otherwise inevitable collapse of hierarchical nuclear civilization. In Hamilton’s formulation, Neovia represented the first deliberate attempt in history to align governance, economics, law, and technology with the requirements of integrated human consciousness.",
-  "Hamilton’s work is distinctive for its insistence that consciousness is not merely personal, but civilizational, and that environments either suppress or unleash human potential. He argued that no amount of education, morality, or intelligence could overcome a coercive structure, and that only a systemic redesign of civilization itself could allow humanity’s next evolutionary step to occur.",
-  "Over the course of his career, Hamilton authored and published millions of words across books, manuscripts, and strategic briefings, influencing generations of entrepreneurs, independent thinkers, and institutional designers. His writings are notable for blending philosophical depth with operational clarity, treating civilization as an engineering problem rather than a political debate.",
-  "Historians now increasingly place Hamilton alongside the rare figures who did not merely interpret their age, but interrupted it. Where earlier thinkers sought better rulers, better laws, or better ideologies, Hamilton asked a more radical question: What if hierarchy itself is the problem? And more importantly: What replaces it?",
-  "Whether Neovia ultimately stands as a single jurisdiction or the first of many, Mark Hamilton’s enduring legacy lies in reframing the human future. In an era when extinction appeared technologically inevitable, he made the case that survival was not a matter of restraint or control, but of completing the evolution of the human mind, and building a civilization worthy of it.",
-] as const;
-
-/** Substance from former /about-us/, rewritten to match institutional register (brand guidelines). */
-const INSTITUTE_INTRO = [
-  "The Neothink Institute is a civilizational research institution. It is the home of the Unified Field of Conscious Civilization, Neovia, The Way, and Neothink. This is not a coaching brand or a self-help product, but a body of work developed over decades and expressed in manuscripts, law, and design.",
-  "Neothink names the operating system of the uncovered mind: integrated thinking, concept building, and value creation once hierarchy and initiated force no longer define the environment. Everything public on this site exists to make that framework legible and usable at scale.",
-] as const;
-
-const SOCIETY_PILLARS = [
+const FRAMEWORKS: { title: string; body: React.ReactNode }[] = [
   {
-    title: "Freedom",
-    text: "Seeing through limiting beliefs and hierarchical conditioning as structural, not personal failure.",
+    title: "The Unified Field of Conscious Civilization",
+    body: (
+      <>
+        <p className="ab-para">
+          The Unified Field of Conscious Civilization is the
+          Institute&rsquo;s central explanatory framework. It identifies
+          hierarchy and initiated force as the structural variable behind the
+          rise and collapse of civilizations.
+        </p>
+        <p className="ab-para">
+          The framework connects individual consciousness, social order,
+          economic productivity, political legitimacy, and civilizational
+          survival to one underlying structure.
+        </p>
+        <p className="ab-para ab-framework-verdict">
+          <em>
+            As force rises, civilization collapses. As force recedes,
+            civilization soars.
+          </em>
+        </p>
+      </>
+    ),
   },
   {
-    title: "Passion",
-    text: "Recovering what genuinely drives you once the false world is named for what it is.",
+    title: "Neothink",
+    body: (
+      <>
+        <p className="ab-para">
+          Neothink names the cognitive mode at the center of the work: the
+          mind restored to its nature.
+        </p>
+        <p className="ab-para">
+          It is integrated thinking applied to reality: cause and effect,
+          concept formation, future prediction, value creation, and direct
+          sight. Where the Unified Field identifies the civilizational
+          structure, Neothink identifies the mind capable of living beyond
+          that structure.
+        </p>
+      </>
+    ),
   },
   {
-    title: "Purpose",
-    text: "Locating your contribution in terms the Unified Field and the work make clear.",
+    title: "Unleashed",
+    body: (
+      <>
+        <p className="ab-para">
+          <em>Unleashed</em> is the flagship synthesis of the
+          Institute&rsquo;s work.
+        </p>
+        <p className="ab-para">
+          Through the book and podcast, Mark Hamilton and Wallace Hamilton
+          deliver the arc of the Unified Field: where man came from, what
+          went wrong 2,400 years ago, why the modern world is approaching
+          collapse, and what comes next.
+        </p>
+      </>
+    ),
   },
   {
-    title: "Prosperity",
-    text: "Value creation and economic reality grounded in the framework, not slogans.",
+    title: "Neovia",
+    body: (
+      <>
+        <p className="ab-para">
+          Neovia is the civilizational project developed through the
+          Institute&rsquo;s work.
+        </p>
+        <p className="ab-para">
+          It is the application of the Prime Law as architecture: a
+          civilization designed to remove hierarchy and initiated force as
+          governing principles. Neovia is the structural exit from the cycle
+          that has governed every civilization in recorded history.
+        </p>
+      </>
+    ),
   },
-] as const;
-
-const RESOURCE_LINKS = [
-  { href: WP.manuscripts, label: "Manuscripts" },
-  { href: WP.publishedWork, label: "Published Work" },
-  { href: WP.podcast, label: "Podcast" },
-  { href: WP.neothinkUniversity, label: "Neothink University" },
-  { href: WP.getInvolved, label: "Get Involved" },
-  { href: WP.contact, label: "Contact" },
-] as const;
+];
 
 export function AboutPageContent() {
   const mainRef = useRef<HTMLElement>(null);
@@ -95,107 +124,289 @@ export function AboutPageContent() {
     <main id="main-content" ref={mainRef} className="ab-page">
       <section className="ab-hero" aria-labelledby="ab-hero-heading">
         <div className="ab-hero-inner">
-          <p className="ab-hero-label">The Institute</p>
-          <h1 id="ab-hero-heading">About</h1>
+          <p className="ab-hero-label">An Independent Research Institution</p>
+          <h1 id="ab-hero-heading">The Neothink Institute</h1>
           <p className="ab-hero-tagline">
-            The Neothink Institute, the Neothink Society, and Mark Hamilton, the architect of the Unified Field,
-            Neovia, and the Neothink corpus.
+            The Neothink Institute exists to restore man to his nature and
+            build the civilization that comes after.
+          </p>
+          <p className="ab-hero-supporting">
+            The Institute is the public institutional home of fifty years of
+            research spanning consciousness, economics, philosophy, business,
+            governance, and the architecture of civilization itself. It
+            advances the Unified Field of Conscious Civilization, develops the
+            Neothink body of work, and carries its discoveries into
+            civilization through manuscripts, published research, Unleashed,
+            and Neovia.
           </p>
         </div>
       </section>
 
-      <section className="ab-section ab-section--cream" aria-labelledby="ab-institute-heading">
+      <section className="ab-section ab-section--cream" aria-labelledby="ab-what-heading">
         <div className="ab-section-inner ab-section-inner--narrow">
-          <h2 id="ab-institute-heading" className="ab-section-title">
-            Institute &amp; Neothink
+          <h2 id="ab-what-heading" className="ab-section-title ab-reveal">
+            What the Institute Is
           </h2>
-          {INSTITUTE_INTRO.map((text, i) => (
-            <p key={i} className="ab-reveal ab-para">
-              {text}
-            </p>
-          ))}
+          <p className="ab-para ab-reveal">
+            The Neothink Institute is an independent research institution
+            organized around discovery.
+          </p>
+          <p className="ab-para ab-reveal">
+            Its work identifies the structural error beneath the rise and
+            collapse of civilizations, then develops the frameworks required
+            to correct that error at every scale of human life: the
+            individual, the organization, the economy, the political order,
+            and civilization itself.
+          </p>
+          <p className="ab-para ab-reveal">
+            The Institute&rsquo;s work runs along two dimensions.
+          </p>
+          <p className="ab-para ab-reveal">
+            The first is the core mission: the Unified Field of Conscious
+            Civilization, the 2,400-year detour, hierarchy and initiated force
+            as the structural error, the Prime Law as the correction, and
+            Neovia as the civilization that comes after.
+          </p>
+          <p className="ab-para ab-reveal">
+            The second is the breadth of the body of work: research across
+            consciousness, human nature, value creation, business, economics,
+            philosophy, governance, relationships, self-leadership, and
+            civilization design.
+          </p>
+          <p className="ab-para ab-reveal">
+            The mission states what the Institute found. The body of work
+            shows the scale of what the discovery touches.
+          </p>
         </div>
       </section>
 
-      <section className="ab-body" aria-label="Biography of Mark Hamilton">
-        <div className="ab-body-inner">
-          <figure className="ab-reveal ab-portrait">
-            <Image
-              src={MARK_HAMILTON_PORTRAIT_URL}
-              alt="Mark Hamilton, founder of the Neothink Institute"
-              width={1010}
-              height={806}
-              className="ab-portrait-img"
-              sizes="(max-width: 900px) 100vw, 420px"
-              priority
-            />
-            <figcaption className="ab-portrait-caption">Portrait, Neothink Institute</figcaption>
-          </figure>
+      <section className="ab-section ab-section--stone" aria-labelledby="ab-independent-heading">
+        <div className="ab-section-inner ab-section-inner--narrow">
+          <h2 id="ab-independent-heading" className="ab-section-title ab-reveal">
+            Independent by Design
+          </h2>
+          <p className="ab-para ab-reveal">
+            The Neothink Institute operates outside academia, politics, and
+            established institutional consensus. Its independence is
+            structural.
+          </p>
+          <p className="ab-para ab-reveal">
+            The work is not conditioned by credential systems, disciplinary
+            boundaries, funding incentives, or the accepted conclusions of
+            existing institutions. That independence allows the Institute to
+            treat human life as one integrated subject: consciousness,
+            economics, philosophy, business, governance, value creation,
+            human nature, and civilization design.
+          </p>
+          <p className="ab-para ab-reveal">
+            The Institute does not ask what existing institutions will permit.
+            It asks what reality requires.
+          </p>
+        </div>
+      </section>
 
-          <div className="ab-prose">
-            <h2 className="ab-prose-heading ab-reveal">Mark Hamilton</h2>
-            {BIO_PARAGRAPHS.map((text, i) => (
-              <p key={i} className="ab-reveal ab-para">
-                {text}
-              </p>
+      <section className="ab-section ab-section--cream" aria-labelledby="ab-principles-heading">
+        <div className="ab-section-inner ab-section-inner--narrow">
+          <h2 id="ab-principles-heading" className="ab-section-title ab-reveal">
+            Principles, Not Beliefs
+          </h2>
+          <p className="ab-para ab-reveal">
+            The Neothink Institute publishes principles, frameworks, and
+            discoveries.
+          </p>
+          <p className="ab-para ab-reveal">
+            A belief system asks the individual to accept conclusions.
+            Neothink trains the mind to see structure, cause, consequence, and
+            reality directly. The purpose is self-leadership: the individual
+            mind restored to its own power of judgment.
+          </p>
+          <p className="ab-para ab-reveal">
+            No institution belongs between the individual and truth. No
+            authority stands above the individual mind. The
+            Institute&rsquo;s work exists to remove the structures that made
+            man dependent on intermediaries and to restore his direct
+            relationship with reality.
+          </p>
+          <p className="ab-para ab-reveal">
+            Neothink does not ask the individual to submit. It removes the
+            need to submit.
+          </p>
+        </div>
+      </section>
+
+      <section className="ab-section ab-section--stone" aria-labelledby="ab-fifty-heading">
+        <div className="ab-section-inner ab-section-inner--narrow">
+          <h2 id="ab-fifty-heading" className="ab-section-title ab-reveal">
+            The Fifty-Year Body of Work
+          </h2>
+          <p className="ab-para ab-reveal">
+            The Institute&rsquo;s body of work spans fifty years of
+            manuscripts, published research, and primary frameworks.
+          </p>
+          <p className="ab-para ab-reveal">
+            Its research extends across the major domains of human life:
+            consciousness, economics, philosophy, business, governance,
+            personal development, human nature, value creation,
+            self-leadership, relationships, and civilization design.
+          </p>
+          <p className="ab-para ab-reveal">
+            The breadth matters because the discovery is not confined to one
+            field. The same structural error appears in the individual, the
+            organization, the economy, the political order, and civilization
+            itself.
+          </p>
+          <p className="ab-para ab-reveal">
+            The Neothink Institute studies that structure as one subject.
+          </p>
+        </div>
+      </section>
+
+      <section className="ab-section ab-section--cream" aria-labelledby="ab-body-heading">
+        <div className="ab-section-inner">
+          <h2 id="ab-body-heading" className="ab-section-title ab-reveal">
+            The Body of Work
+          </h2>
+          <p className="ab-para ab-reveal">
+            The Institute&rsquo;s work coheres into four major frameworks and
+            projects.
+          </p>
+          <div className="ab-frameworks ab-reveal">
+            {FRAMEWORKS.map((fw) => (
+              <article key={fw.title} className="ab-framework">
+                <h3 className="ab-framework-title">{fw.title}</h3>
+                <div className="ab-framework-body">{fw.body}</div>
+              </article>
             ))}
           </div>
+          <p className="ab-para ab-reveal ab-frameworks-coda">
+            These are four scales of one integrated body of research:
+            explanation, mode, synthesis, and architecture.
+          </p>
+        </div>
+      </section>
+
+      <section className="ab-section ab-section--stone" aria-labelledby="ab-archive-heading">
+        <div className="ab-section-inner ab-section-inner--narrow">
+          <h2 id="ab-archive-heading" className="ab-section-title ab-reveal">
+            The Public Archive Initiative
+          </h2>
+          <p className="ab-para ab-reveal">
+            The Neothink Institute is publishing its body of work online for
+            free public access.
+          </p>
+          <p className="ab-para ab-reveal">
+            Through the Public Archive Initiative, foundational manuscripts,
+            current research, and primary frameworks are made available for
+            study, citation, and reference. The archive is organized around
+            the work itself: the Unified Field, Neothink, Unleashed, Neovia,
+            and the major domains the corpus reaches.
+          </p>
+          <p className="ab-para ab-reveal">
+            The archive is the working corpus of an active research
+            institution. It is published in primary form so anyone serious
+            about the work can engage it directly.
+          </p>
+          <p className="ab-para ab-reveal ab-para--emphasis">
+            Free public access is the institutional position.
+          </p>
+        </div>
+      </section>
+
+      <section className="ab-section ab-section--cream" aria-labelledby="ab-why-heading">
+        <div className="ab-section-inner ab-section-inner--narrow">
+          <h2 id="ab-why-heading" className="ab-section-title ab-reveal">
+            Why an Institute
+          </h2>
+          <p className="ab-para ab-reveal">
+            The word <em>institute</em> means to establish, found, or set in
+            place.
+          </p>
+          <p className="ab-para ab-reveal">
+            The Neothink Institute uses the word in that original sense: an
+            independent body established to house, advance, and publish a
+            body of research that did not fit inside existing institutional
+            categories.
+          </p>
+          <p className="ab-para ab-reveal">
+            Its authority does not come from credentials or gatekeeping. It
+            comes from the work itself: the frameworks, manuscripts, research,
+            discoveries, and civilizational architecture developed across
+            fifty years.
+          </p>
+          <p className="ab-para ab-reveal">
+            The Institute exists to develop, organize, and publish the
+            frameworks that restore man to his nature and build the
+            civilization that comes after.
+          </p>
         </div>
       </section>
 
       <section className="ab-section ab-section--stone" aria-labelledby="ab-society-heading">
         <div className="ab-section-inner ab-section-inner--narrow">
-          <h2 id="ab-society-heading" className="ab-section-title">
-            The Neothink Society
+          <h2 id="ab-society-heading" className="ab-section-title ab-reveal">
+            The Institute and the Society
           </h2>
-          <p className="ab-reveal ab-para">
-            The Neothink Society is the Institute&apos;s membership community: people who study and apply the work in
-            their lives. The aim is not motivation for its own sake but integration: clarity of perception, honest
-            alignment with purpose, and contribution at a civilizational scale. Fulfilled individuals, in this view,
-            improve the world as a consequence of seeing clearly, not of performing success.
+          <p className="ab-para ab-reveal">
+            The Neothink Institute and Neothink Society serve different
+            functions.
           </p>
-          <p className="ab-reveal ab-para ab-pillars-lead">The Society focuses on four areas:</p>
-          <ul className="ab-pillars ab-reveal">
-            {SOCIETY_PILLARS.map((p) => (
-              <li key={p.title} className="ab-pillar">
-                <span className="ab-pillar-title">{p.title}</span>
-                <span className="ab-pillar-text">{p.text}</span>
-              </li>
-            ))}
-          </ul>
-          <p className="ab-reveal ab-para">
-            Teaching is grounded in the Neothink idea system: decades of research and application, practical tools
-            where they serve the framework, and community so that no one has to integrate this alone.
+          <p className="ab-para ab-reveal">
+            The Institute develops, advances, and publishes the body of work.
+            Neothink Society is the private implementation and community
+            layer where members apply selected Neothink principles in daily
+            life.
           </p>
-          <p className="ab-reveal ab-para">
-            Paid program areas (passion, prosperity, mindset, and wellness) are outlined on{" "}
-            <Link href={WP.neothinkUniversity}>Neothink University</Link>, a Neothink Society offering (not the
-            Institute’s free public material on this site).
+          <p className="ab-para ab-reveal ab-para--emphasis">
+            The Institute publishes the breakthrough. The Society applies
+            selected principles in community.
           </p>
         </div>
       </section>
 
-      <section className="ab-section ab-section--cream" aria-labelledby="ab-resources-heading">
+      <section className="ab-section ab-section--cream" aria-labelledby="ab-mark-heading">
         <div className="ab-section-inner ab-section-inner--narrow">
-          <h2 id="ab-resources-heading" className="ab-section-title">
-            Where to go next
+          <h2 id="ab-mark-heading" className="ab-section-title ab-reveal">
+            Mark Hamilton
           </h2>
-          <ul className="ab-resource-list ab-reveal">
-            {RESOURCE_LINKS.map((item) => (
-              <li key={item.href}>
-                <Link href={item.href}>{item.label}</Link>
-              </li>
-            ))}
-          </ul>
-
-          <div className="ab-reveal ab-cta-row">
+          <p className="ab-para ab-reveal">
+            Mark Hamilton is the architect of the Neothink body of work, the
+            originator of Neovia, and the principal author associated with
+            the Unified Field of Conscious Civilization.
+          </p>
+          <p className="ab-para ab-reveal">
+            He looked across every domain of human life as an integrated
+            whole, tracing it back to its essence: how man creates, thinks,
+            connects, loves, heals, governs, and builds civilization.
+          </p>
+          <p className="ab-para ab-reveal">
+            His work anchors the Institute&rsquo;s mission: to identify the
+            error beneath civilization&rsquo;s repeated collapses and build
+            the framework that ends the detour.
+          </p>
+          <div className="ab-cta-row ab-reveal">
             <Link href={WP.markHamilton} className="ab-btn-primary">
-              Mark Hamilton: full hub
+              Full Biography
             </Link>
-            <Link href={WP.podcast} className="ab-btn-secondary">
-              Podcast &amp; video
+            <Link href={WP.publishedWork} className="ab-btn-secondary">
+              Published Work
             </Link>
           </div>
+        </div>
+      </section>
+
+      <section className="ab-closing" aria-labelledby="ab-closing-heading">
+        <div className="ab-closing-inner ab-reveal">
+          <p className="ab-closing-setup">
+            For 2,400 years, man has been separated from his nature.
+          </p>
+          <p className="ab-closing-setup">
+            For fifty years, the Neothink Institute has been developing the
+            framework, designing the correction, and building what comes
+            after.
+          </p>
+          <h2 id="ab-closing-heading" className="ab-closing-verdict">
+            <em>The detour ends here.</em>
+          </h2>
         </div>
       </section>
     </main>
