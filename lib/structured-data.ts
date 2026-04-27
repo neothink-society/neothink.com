@@ -15,7 +15,8 @@ export function getOrganizationSchema(): JsonLd {
   return {
     "@type": "ResearchOrganization",
     "@id": `${siteConfig.url}/#organization`,
-    name: "Neothink Institute",
+    name: "The Neothink Institute",
+    alternateName: "Neothink Institute",
     url: siteConfig.url,
     logo: {
       "@type": "ImageObject",
@@ -25,7 +26,9 @@ export function getOrganizationSchema(): JsonLd {
     },
     foundingDate: "1976",
     description:
-      "A public research organization dedicated to the study of conscious civilization, integrated thinking, and the structural conditions for human flourishing. Founded by Mark Hamilton.",
+      "The Neothink Institute is an independent research institution and the public institutional home for the Neothink body of work. Its research spans consciousness, economics, philosophy, business, governance, and civilization design, including the Unified Field of Conscious Civilization, Unleashed, and Neovia.",
+    slogan:
+      "Restoring man to his nature and building the civilization that comes after.",
     areaServed: "Worldwide",
     founder: {
       "@type": "Person",
@@ -33,14 +36,18 @@ export function getOrganizationSchema(): JsonLd {
       name: "Mark Hamilton",
     },
     knowsAbout: [
-      "Consciousness studies",
-      "Political philosophy",
-      "Integrated thinking",
-      "Civilizational theory",
-      "Non-aggression principle",
-      "Human flourishing",
-      "Personal development",
-      "AI alignment",
+      "Unified Field of Conscious Civilization",
+      "Neothink",
+      "Neovia",
+      "Unleashed",
+      "Prime Law",
+      "consciousness",
+      "economics",
+      "philosophy",
+      "business",
+      "governance",
+      "civilization design",
+      "integrated thinking",
     ],
     contactPoint: {
       "@type": "ContactPoint",

@@ -5,7 +5,7 @@ export const siteConfig = {
   url: "https://neothink.com",
   ogImage: "/opengraph-image",
   description:
-    "The Neothink Institute studies conscious civilization, integrated thinking, and the conditions for human flourishing. Founded by Mark Hamilton.",
+    "The Neothink Institute is an independent research institution advancing the Unified Field of Conscious Civilization, the Neothink body of work, Unleashed, and Neovia.",
   twitter: {
     site: "@NeothinkHQ",
     creator: "@NeothinkHQ",
