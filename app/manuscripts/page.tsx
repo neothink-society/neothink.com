@@ -2,6 +2,7 @@ import { ManuscriptsPageContent } from "@/components/manuscripts/manuscripts-pag
 import { breadcrumbListJsonLd, SPEAKABLE_MAIN_H1, webPageJsonLd } from "@/lib/json-ld";
 import { pageMetadata } from "@/lib/seo-metadata";
 import { schemaIds } from "@/lib/schema-ids";
+import { getManuscriptsBibliographyGraph } from "@/lib/structured-data";
 
 import "./manuscripts-page.css";
 
@@ -28,6 +29,15 @@ const pageLd = webPageJsonLd({
   speakableSelectors: SPEAKABLE_MAIN_H1,
 });
 
+/**
+ * Bibliography graph: CollectionPage + ItemList + 27 Book entities.
+ * One Book per work in `manuscripts-books-data.ts`. Each Book is a
+ * top-level @graph node with its own @id so AI systems can cite the
+ * works individually. Books with their own Next.js routes carry a
+ * `url`; placeholders gain `url` as per-book pages get built.
+ */
+const bibliographyGraph = getManuscriptsBibliographyGraph();
+
 export default function ManuscriptsPage() {
   return (
     <>
@@ -36,6 +46,10 @@ export default function ManuscriptsPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }}
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(bibliographyGraph) }}
+      />
       <ManuscriptsPageContent />
     </>
   );

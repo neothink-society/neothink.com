@@ -1,3 +1,4 @@
+import { MANUSCRIPT_BOOKS } from "@/components/manuscripts/manuscripts-books-data";
 import { getFooterNavigationItemListSchema } from "@/lib/footer-navigation";
 import { siteConfig } from "@/lib/metadata";
 import { schemaIds } from "@/lib/schema-ids";
@@ -41,6 +42,7 @@ export function getOrganizationSchema(): JsonLd {
       "Neovia",
       "Unleashed",
       "Prime Law",
+      "Neothink Manuscripts",
       "consciousness",
       "economics",
       "philosophy",
@@ -279,6 +281,87 @@ export function getWallaceHamiltonSchema(): JsonLd {
       "Community building",
     ],
     sameAs: [],
+  };
+}
+
+/**
+ * Bibliography graph for /manuscripts/. Emits a CollectionPage with an
+ * ItemList of every book in the corpus, plus a Book entity for each work
+ * as a discoverable top-level @graph node. Each Book is anchored to its
+ * own @id so AI systems can cite them individually; books with their own
+ * Next.js route (currently only Unleashed) carry a `url` field, and the
+ * rest will gain `url` as per-book pages get published.
+ *
+ * Authors:
+ *   - Mark Hamilton works link to the founder Person via #founder @id.
+ *   - Wallace + Mark co-authored works credit both (founder + wallaceHamilton).
+ *   - Neo-Tech Foundation works credit a separate Organization entity since
+ *     that lineage is upstream of the Neothink Institute, not authored by it.
+ *
+ * Publisher: every Book is published by the Neothink Institute (#organization).
+ */
+export function getManuscriptsBibliographyGraph(): JsonLd {
+  type AuthorRef = { "@id": string } | { "@type": "Organization"; name: string };
+
+  const bookSchemas = MANUSCRIPT_BOOKS.map((book, i) => {
+    const author: AuthorRef | AuthorRef[] = book.author === "Neo-Tech Foundation"
+      ? { "@type": "Organization", name: "Neo-Tech Foundation" }
+      : book.author === "Wallace & Mark Hamilton"
+        ? [{ "@id": schemaIds.wallaceHamilton }, { "@id": schemaIds.founder }]
+        : { "@id": schemaIds.founder };
+
+    const schema: JsonLd = {
+      "@type": "Book",
+      "@id": `${siteConfig.url}/manuscripts/#book-${i + 1}`,
+      name: book.title,
+      author,
+      publisher: { "@id": schemaIds.organization },
+      genre: book.tag,
+      inLanguage: "en",
+    };
+
+    if (book.subtitle) {
+      schema.alternateName = book.subtitle;
+    }
+
+    if (book.metaSub && book.metaSub !== book.subtitle) {
+      schema.description = book.metaSub;
+    }
+
+    if (book.href) {
+      schema.url = `${siteConfig.url}${book.href}`;
+    }
+
+    return schema;
+  });
+
+  const collectionPage: JsonLd = {
+    "@type": "CollectionPage",
+    "@id": `${siteConfig.url}/manuscripts/#collection`,
+    name: "The Published Manuscripts of Mark Hamilton",
+    url: `${siteConfig.url}/manuscripts`,
+    description:
+      "Five decades of research into consciousness, economics, political theory, civilizational design, and integrated human potential. The complete Neothink library.",
+    isPartOf: { "@id": schemaIds.website },
+    about: { "@id": schemaIds.organization },
+    author: { "@id": schemaIds.founder },
+    publisher: { "@id": schemaIds.organization },
+    mainEntity: {
+      "@type": "ItemList",
+      "@id": `${siteConfig.url}/manuscripts/#bibliography`,
+      name: "Neothink Manuscripts Bibliography",
+      numberOfItems: bookSchemas.length,
+      itemListElement: bookSchemas.map((book, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        item: { "@id": book["@id"] as string },
+      })),
+    },
+  };
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [collectionPage, ...bookSchemas],
   };
 }
 
