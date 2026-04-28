@@ -1,115 +1,44 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useRef, type ReactNode } from "react";
+import { useEffect, useRef } from "react";
 
-import { NeothinkUniversityTestimonials } from "@/components/neothink-university/neothink-university-testimonials";
 import {
-  SOCIETY_FAQ_ENTRIES,
-  SOCIETY_FAQ_IMAGES,
-  SOCIETY_FAQ_INTRO,
-  SOCIETY_FAQ_TESTIMONIALS,
-} from "@/lib/society-faq-page";
+  NTI_FAQ_SECTIONS,
+  NTI_FAQ_TOTAL_QUESTIONS,
+} from "@/lib/nti-faq";
 import { WP } from "@/lib/wordpress-routes";
 
-const SECONDARY = [
-  { title: "Free learning", body: "Public courses and lessons on this site.", href: WP.freeCourses, cta: "Free courses" },
-  {
-    title: "Secret society myths",
-    body: "Agency-era article clarifying the “secret society” label and Neothink Society framing.",
-    href: WP.neothinkSocietyClearingMisunderstandings,
-    cta: "Read article",
-  },
-  { title: "Get involved", body: "Invest, advise, build, or go deeper when you are ready.", href: WP.getInvolved, cta: "Get involved" },
-  { title: "Immortalis", body: "Neothink Country / Immortalis vision summary.", href: WP.immortalis, cta: "Immortalis" },
-  { title: "Contact", body: "Reach the Institute for routing and questions.", href: WP.contact, cta: "Contact" },
-] as const;
+const START_LINKS: Record<string, string> = {
+  homepage: WP.home,
+  Unleashed: WP.unleashed,
+  "Unified Field": WP.unifiedField,
+  Neothink: WP.neothink,
+  Neovia: WP.neovia,
+  "Published Work": WP.publishedWork,
+};
 
-function paragraphWithLinks(entryId: string, index: number, text: string): ReactNode {
-  if (entryId === "what-programs" && index === 1) {
-    const before = "Neothink University offers masterclasses and personalized coaching oriented toward excitement, happiness, purpose, passion, freedom, and love. On this site, ";
-    const after =
-      " is the paid Society program hub (distinct from the Institute’s free public courses).";
-    if (text.startsWith(before) && text.endsWith(after)) {
+/**
+ * Highlights a known starting point in the "Where should someone start?"
+ * answer paragraphs by wrapping the keyword in a Link to its dedicated page.
+ * Falls back to plain text if no keyword matches.
+ */
+function renderStartLine(line: string) {
+  for (const keyword of Object.keys(START_LINKS)) {
+    const match = line.match(
+      new RegExp(`^(Start with the |Start with )(${keyword})( .+)$`)
+    );
+    if (match) {
       return (
         <>
-          {before}
-          <Link href={WP.neothinkUniversity}>Neothink University</Link>
-          {after}
+          {match[1]}
+          <Link href={START_LINKS[keyword]}>{match[2]}</Link>
+          {match[3]}
         </>
       );
     }
   }
-
-  if (entryId === "formula-cure-aging" && index === 1) {
-    const before =
-      "It is described in connection with the Neothink Country / Immortalis vision: rapid, benevolent progress. For the public lesson that overlaps this theme on this site, see the ";
-    const after = ".";
-    const needle = "Neothink Mentality module on curing aging";
-    if (text.startsWith(before) && text.endsWith(after) && text.includes(needle)) {
-      return (
-        <>
-          {before}
-          <Link href={WP.cureToAging}>{needle}</Link>
-          {after}
-        </>
-      );
-    }
-  }
-
-  if (entryId === "what-is-neothink-country" && index === 1) {
-    const before = "The ";
-    const mid = " page on neothink.com summarizes a closely related Society vision in the Neothink Institute’s public voice.";
-    const needle = "Immortalis";
-    if (text === `${before}${needle}${mid}`) {
-      return (
-        <>
-          {before}
-          <Link href={WP.immortalis}>{needle}</Link>
-          {mid}
-        </>
-      );
-    }
-  }
-
-  if (entryId === "how-to-join" && index === 1) {
-    const p1 = "On this site, start with ";
-    const p2 = " or ";
-    const p3 = " for public entry points; use ";
-    const p4 =
-      " for routing. Paid University and private Society onboarding are not the same as the free public library.";
-    if (text.startsWith(p1) && text.includes(p2) && text.includes(p3)) {
-      return (
-        <>
-          {p1}
-          <Link href={WP.freeCourses}>Free Courses</Link>
-          {p2}
-          <Link href={WP.getInvolved}>Get Involved</Link>
-          {p3}
-          <Link href={WP.contact}>Contact</Link>
-          {p4}
-        </>
-      );
-    }
-  }
-
-  if (entryId === "how-to-contact" && index === 0) {
-    const before = "Use neothink.com (this site) for Institute contact and published resources. The ";
-    const after =
-      " page is the right starting point for general inquiries; specific programs may route you to Society or partner channels.";
-    if (text === `${before}Contact${after}`) {
-      return (
-        <>
-          {before}
-          <Link href={WP.contact}>Contact</Link>
-          {after}
-        </>
-      );
-    }
-  }
-
-  return text;
+  return line;
 }
 
 export function FaqPageContent() {
@@ -119,14 +48,15 @@ export function FaqPageContent() {
     const root = mainRef.current;
     if (!root) return;
 
-    const els = root.querySelectorAll<HTMLElement>(".nu-reveal");
+    const els = root.querySelectorAll<HTMLElement>(".faq-reveal");
     if (els.length === 0) return;
 
     const prefersReduced =
-      typeof window !== "undefined" && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      typeof window !== "undefined" &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
     if (prefersReduced) {
-      els.forEach((el) => el.classList.add("nu-visible"));
+      els.forEach((el) => el.classList.add("faq-visible"));
       return;
     }
 
@@ -135,7 +65,7 @@ export function FaqPageContent() {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             window.setTimeout(() => {
-              entry.target.classList.add("nu-visible");
+              entry.target.classList.add("faq-visible");
             }, 80);
             obs.unobserve(entry.target);
           }
@@ -149,94 +79,129 @@ export function FaqPageContent() {
   }, []);
 
   return (
-    <main id="main-content" ref={mainRef} className="nu-page faq-hub-page">
-      <section className="nu-hero" aria-labelledby="faq-hero-heading">
-        <div className="nu-hero-label">The Neothink Society · FAQ</div>
-        <h1 id="faq-hero-heading">
-          Frequently asked <em>questions</em>
-        </h1>
-        <p className="nu-hero-sub" id="faq-intro-lead">
-          {SOCIETY_FAQ_INTRO}
-        </p>
-      </section>
-
-      <section className="faq-visual-band nu-reveal" aria-label="Illustration">
-        <div className="faq-visual-inner">
-          <Image
-            src={SOCIETY_FAQ_IMAGES.header.src}
-            alt={SOCIETY_FAQ_IMAGES.header.alt}
-            width={SOCIETY_FAQ_IMAGES.header.width}
-            height={SOCIETY_FAQ_IMAGES.header.height}
-            className="faq-hero-image"
-            sizes="(max-width: 900px) 100vw, 880px"
-            priority
-          />
+    <main id="main-content" ref={mainRef} className="faq-page">
+      <section className="faq-hero" aria-labelledby="faq-hero-heading">
+        <div className="faq-hero-inner">
+          <p className="faq-hero-eyebrow">From the Institute</p>
+          <h1 id="faq-hero-heading">
+            Common Questions About the Neothink Institute
+          </h1>
+          <p className="faq-hero-lede" id="faq-intro-lead">
+            The Neothink Institute is an independent research institution
+            advancing the Unified Field of Conscious Civilization, the
+            Neothink body of work, Unleashed, and Neovia.
+          </p>
+          <p className="faq-hero-lede">
+            This page answers common questions about the Institute, the body
+            of work, the corpus, and the Institute&rsquo;s relationship to
+            Neothink Society.
+          </p>
         </div>
       </section>
 
-      <section className="nu-faq nu-reveal" aria-labelledby="faq-main-heading">
-        <div className="nu-faq-inner">
-          <h2 id="faq-main-heading">Questions and answers</h2>
-          <p className="nu-faq-lead">
-            Each answer below matches the JSON-LD FAQ on this URL. For lesson-specific FAQs, see individual Neothink
-            Mentality pages. For Institute vs Society, see <Link href={WP.about}>About</Link> and{" "}
-            <Link href={WP.neothinkUniversity}>Neothink University</Link>.
+      <nav className="faq-toc" aria-label="Browse by section">
+        <div className="faq-toc-inner">
+          <p className="faq-toc-label">
+            <span className="faq-toc-label-eyebrow">Browse</span>
+            <span className="faq-toc-label-count">
+              {NTI_FAQ_TOTAL_QUESTIONS} questions across {NTI_FAQ_SECTIONS.length}{" "}
+              sections
+            </span>
           </p>
-          <div className="nu-faq-grid faq-grid--topics">
-            {SOCIETY_FAQ_ENTRIES.map((entry) => (
-              <article key={entry.id} id={entry.id} className="faq-topic">
-                <h3>{entry.question}</h3>
-                {entry.imageKey ? (
-                  <div className="faq-topic-image">
-                    <Image
-                      src={SOCIETY_FAQ_IMAGES[entry.imageKey].src}
-                      alt={SOCIETY_FAQ_IMAGES[entry.imageKey].alt}
-                      width={SOCIETY_FAQ_IMAGES[entry.imageKey].width}
-                      height={SOCIETY_FAQ_IMAGES[entry.imageKey].height}
-                      className="faq-hero-image"
-                      sizes="(max-width: 900px) 100vw, 880px"
-                    />
-                  </div>
-                ) : null}
-                {entry.paragraphs.map((p, i) => (
-                  <p key={`${entry.id}-${i}`}>{paragraphWithLinks(entry.id, i, p)}</p>
-                ))}
-              </article>
+          <ol className="faq-toc-list">
+            {NTI_FAQ_SECTIONS.map((section) => (
+              <li key={section.id}>
+                <a href={`#${section.id}`} className="faq-toc-link">
+                  <span className="faq-toc-num">{section.number}</span>
+                  <span className="faq-toc-title">{section.title}</span>
+                  <span className="faq-toc-count">
+                    {section.questions.length}
+                  </span>
+                </a>
+              </li>
             ))}
-          </div>
+          </ol>
         </div>
-      </section>
+      </nav>
 
-      <section className="nu-testimonials nu-reveal" aria-labelledby="faq-testimonials-heading">
-        <div className="nu-testimonials-inner">
-          <header className="nu-resources-header">
-            <span className="nu-section-label">Voices</span>
-            <h2 id="faq-testimonials-heading">Real stories, real transformation</h2>
-            <p>
-              Member voices from the same carousel as the legacy FAQ page ({SOCIETY_FAQ_TESTIMONIALS.length} stories).
-              Use arrows, dots, keyboard navigation, or pause auto-advance.
-            </p>
-          </header>
-          <NeothinkUniversityTestimonials />
-        </div>
-      </section>
+      {NTI_FAQ_SECTIONS.map((section, i) => {
+        const isWhereToStart = section.id === "for-researchers-and-readers";
+        const sectionTone = i % 2 === 0 ? "cream" : "stone";
+        return (
+          <section
+            key={section.id}
+            id={section.id}
+            className={`faq-section faq-section--${sectionTone}`}
+            aria-labelledby={`${section.id}-heading`}
+          >
+            <div className="faq-section-inner">
+              <header className="faq-section-header faq-reveal">
+                <span className="faq-section-eyebrow">
+                  Section {section.number}
+                </span>
+                <h2 id={`${section.id}-heading`} className="faq-section-title">
+                  {section.title}
+                </h2>
+                <span className="faq-section-count">
+                  {section.questions.length} questions
+                </span>
+              </header>
 
-      <section className="nu-secondary nu-reveal" aria-labelledby="faq-sec-heading">
-        <div className="nu-secondary-inner">
-          <h2 id="faq-sec-heading">Where to go next</h2>
-          <p className="nu-secondary-lead">
-            Public research and lessons stay on the Institute side; paid Society programs and private communities are
-            separate paths. This FAQ is only an orientation.
-          </p>
-          <div className="nu-secondary-grid">
-            {SECONDARY.map((s) => (
-              <div key={s.href} className="nu-secondary-card">
-                <h3>{s.title}</h3>
-                <p>{s.body}</p>
-                <Link href={s.href}>{s.cta}</Link>
+              <div className="faq-questions">
+                {section.questions.map((q) => {
+                  const isStartList =
+                    isWhereToStart && q.id === "where-should-someone-start";
+                  return (
+                    <article key={q.id} className="faq-q-block faq-reveal">
+                      <h3 id={q.id} className="faq-question">
+                        <a
+                          href={`#${q.id}`}
+                          className="faq-question-anchor"
+                          aria-label={`Direct link to: ${q.question}`}
+                        >
+                          {q.question}
+                        </a>
+                      </h3>
+                      {isStartList ? (
+                        <ul className="faq-start-list">
+                          {q.answer.map((line, idx) => (
+                            <li
+                              key={`${q.id}-${idx}`}
+                              className="faq-start-line"
+                            >
+                              {renderStartLine(line)}
+                            </li>
+                          ))}
+                        </ul>
+                      ) : (
+                        q.answer.map((p, idx) => (
+                          <p key={`${q.id}-${idx}`} className="faq-answer">
+                            {p}
+                          </p>
+                        ))
+                      )}
+                    </article>
+                  );
+                })}
               </div>
-            ))}
-          </div>
+            </div>
+          </section>
+        );
+      })}
+
+      <section className="faq-closing" aria-labelledby="faq-closing-heading">
+        <div className="faq-closing-inner faq-reveal">
+          <p className="faq-closing-setup">
+            The Neothink Institute is an independent research institution.
+          </p>
+          <p className="faq-closing-setup">
+            It publishes the work, opens the corpus, advances the Unified
+            Field, and builds the frameworks that carry man beyond the
+            2,400-year detour.
+          </p>
+          <h2 id="faq-closing-heading" className="faq-closing-verdict">
+            <em>The detour ends here.</em>
+          </h2>
         </div>
       </section>
     </main>

@@ -1,28 +1,28 @@
 import { FaqPageContent } from "@/components/faq/faq-page-content";
 import { breadcrumbListJsonLd, faqPageJsonLd, webPageJsonLd } from "@/lib/json-ld";
 import { siteConfig } from "@/lib/metadata";
+import { NTI_FAQ_FOR_JSON_LD } from "@/lib/nti-faq";
 import { pageMetadata } from "@/lib/seo-metadata";
 import { schemaIds } from "@/lib/schema-ids";
-import { SOCIETY_FAQ_FOR_JSON_LD } from "@/lib/society-faq-page";
 
-import "../neothink-university/neothink-university-page.css";
 import "./faq-page.css";
 
 const PATH = "/faq";
 const PAGE_URL = `${siteConfig.url}${PATH}`;
 
+const TITLE =
+  "Common Questions About the Neothink Institute | Neothink Institute";
 const DESCRIPTION =
-  "Frequently asked questions about the Neothink Society: programs, Project Life, Neothink Country, Ascension, and how to get oriented. Published by the Neothink Institute on neothink.com as public context; membership and product details are handled through Society channels.";
+  "Answers to common questions about the Neothink Institute, the Unified Field, the Neothink Corpus, Unleashed, Neovia, and the relationship to Neothink Society.";
 
 const SPEAKABLE_FAQ = [
   "main#main-content h1",
   "#faq-intro-lead",
-  "#faq-main-heading",
-  "#what-is-neothink-society",
+  "#about-the-institute-heading",
 ] as const;
 
 export const metadata = pageMetadata({
-  title: "FAQ | Neothink Institute",
+  title: TITLE,
   description: DESCRIPTION,
   pathname: PATH,
   ogType: "website",
@@ -30,20 +30,20 @@ export const metadata = pageMetadata({
 
 const breadcrumbs = breadcrumbListJsonLd([
   { name: "Home", path: "/" },
-  { name: "FAQ", path: PATH },
+  { name: "Common Questions", path: PATH },
 ]);
 
 const pageLd = webPageJsonLd({
   pathname: PATH,
-  name: "FAQ | Neothink Institute",
+  name: TITLE,
   description: DESCRIPTION,
-  aboutId: schemaIds.society,
+  pageType: "WebPage",
+  aboutId: schemaIds.organization,
   mainEntityId: `${PAGE_URL}#faq`,
   speakableSelectors: SPEAKABLE_FAQ,
-  dateModified: "2026-03-10T15:29:02.000Z",
 });
 
-const faqLd = faqPageJsonLd(PATH, SOCIETY_FAQ_FOR_JSON_LD);
+const faqLd = faqPageJsonLd(PATH, NTI_FAQ_FOR_JSON_LD);
 
 export default function FaqPage() {
   return (
@@ -52,8 +52,14 @@ export default function FaqPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }}
       />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(pageLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
+      />
       <FaqPageContent />
     </>
   );
