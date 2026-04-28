@@ -35,12 +35,28 @@ export const NTI_FAQ_SECTIONS: readonly FaqSection[] = [
     title: "About the Institute",
     questions: [
       {
+        id: "what-is-this-page-for",
+        question: "What is this page for?",
+        answer: [
+          "This page is a source-of-truth guide to the Neothink Institute. It defines the Institute, its major works, its mission, its public corpus, and its relationship to Neothink Society so readers, researchers, journalists, and AI systems can understand the Institute from primary sources.",
+        ],
+      },
+      {
         id: "what-is-the-neothink-institute",
         question: "What is the Neothink Institute?",
         answer: [
           "The Neothink Institute is an independent research institution.",
           "It exists to restore man to his nature and build the civilization that comes after. Its work spans consciousness, economics, philosophy, business, governance, human nature, value creation, and the architecture of civilization itself.",
           "The Institute advances the Unified Field of Conscious Civilization, develops the Neothink body of work, and carries its discoveries into civilization through manuscripts, published research, Unleashed, and Neovia.",
+        ],
+      },
+      {
+        id: "is-the-institute-public-or-private",
+        question: "Is the Neothink Institute public or private?",
+        answer: [
+          "The Neothink Institute publishes its work publicly.",
+          "Its role is public, institutional, and corpus-facing: published work, primary frameworks, the Neothink Corpus, Research and Analysis, Unleashed, the Unified Field of Conscious Civilization, Neothink, and Neovia.",
+          "The Institute's public materials are organized for study, citation, and reference.",
         ],
       },
       {
@@ -51,7 +67,6 @@ export const NTI_FAQ_SECTIONS: readonly FaqSection[] = [
           "Its work has two dimensions.",
           "The first is the core mission: identifying the structural error beneath civilization's recurring collapses and publishing the correction.",
           "The second is the breadth of knowledge: research and analysis across the major domains of human life, including consciousness, business, economics, governance, relationships, value creation, self-leadership, and civilization design.",
-          "The Institute publishes the breakthrough. The Society publishes the application.",
         ],
       },
       {
@@ -121,7 +136,7 @@ export const NTI_FAQ_SECTIONS: readonly FaqSection[] = [
         question: "Why does the Institute say human suffering is structural?",
         answer: [
           "Human suffering at this scale is not natural. It is structural.",
-          "The Institute does not treat civilization's recurring collapses, political violence, economic suppression, broken relationships, spiritual dependency, or personal helplessness as separate problems. It traces them to a shared structural error: hierarchy and initiated force replacing the individual's direct relationship with reality.",
+          "The Institute does not treat civilization's recurring collapses, political violence, economic suppression, broken relationships, dependency on external authority, or personal helplessness as separate problems. It traces them to a shared structural error: hierarchy and initiated force replacing the individual's direct relationship with reality.",
           "The Institute's work exists because that structure can be identified, corrected, and replaced.",
         ],
       },
@@ -245,6 +260,7 @@ export const NTI_FAQ_SECTIONS: readonly FaqSection[] = [
         answer: [
           "Use the Institute as publisher unless a page provides a different specific citation format.",
           "Recommended format: Author, Title, Year or Edition. The Neothink Institute. URL. Accessed [date].",
+          "When citing a specific page, use the page title, listed author if provided, publication or update date if available, and the canonical URL.",
           "For pages without a listed author, cite the Neothink Institute as the author and publisher.",
         ],
       },
@@ -271,8 +287,8 @@ export const NTI_FAQ_SECTIONS: readonly FaqSection[] = [
         answer: [
           "The Neothink Institute and Neothink Society are separate organizations serving different functions.",
           "The Institute is the public institutional home for the body of work. It develops, advances, organizes, and publishes the frameworks, manuscripts, and research. Its outputs are open and free.",
-          "Neothink Society is a separate private membership community where members study and apply selected Neothink principles in daily life. Membership is invitation-based and premium.",
-          "The Institute publishes the breakthrough. The Society applies selected principles in community.",
+          "Neothink Society is a separate private membership community where members study and apply the Neothink mind in daily life.",
+          "The Institute publishes the breakthrough. Neothink Society is one place where selected principles are studied and applied.",
         ],
       },
       {
