@@ -1,9 +1,18 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import { WP } from "@/lib/wordpress-routes";
+
+import {
+  AI_ARTICLES,
+  CIVILIZATION_ARTICLES,
+  NEOTHINK_ARTICLES,
+  NEOVIA_ARTICLES,
+  type PwArticle,
+  UNIFIED_FIELD_ARTICLES,
+} from "./published-work-data";
 
 const FRAMEWORKS: {
   title: string;
@@ -162,8 +171,65 @@ const DOMAINS: {
   },
 ];
 
+/**
+ * Browse by anchor nav. Anchors to the 5 sections plus the 5 article
+ * categories within Section 4. The Way is intentionally absent on this
+ * page; The Way analysis pieces live at /the-way/ per spec.
+ */
+const FILTER_LINKS = [
+  { id: "all", label: "All Work", href: "#main-content" },
+  { id: "major", label: "Major Works", href: "#major-works" },
+  { id: "corpus", label: "The Corpus", href: "#neothink-corpus" },
+  { id: "research", label: "Research", href: "#research-and-analysis" },
+  { id: "uf-articles", label: "Unified Field", href: "#uf-articles" },
+  { id: "neovia-articles", label: "Neovia", href: "#neovia-articles" },
+  { id: "neothink-articles", label: "Neothink", href: "#neothink-articles" },
+  { id: "ai-articles", label: "AI & Existential Risk", href: "#ai-articles" },
+  { id: "civ-articles", label: "Civilization", href: "#civ-articles" },
+] as const;
+
+function ArticleCard({ tag, title, description, footer }: PwArticle) {
+  return (
+    <article className="pw-article">
+      <span className="pw-article-tag">{tag}</span>
+      <h4>{title}</h4>
+      <p>{description}</p>
+      <div className="pw-article-footer">{footer}</div>
+    </article>
+  );
+}
+
+function ResearchCategory({
+  id,
+  titleId,
+  title,
+  countLabel,
+  articles,
+}: {
+  id: string;
+  titleId: string;
+  title: string;
+  countLabel: string;
+  articles: PwArticle[];
+}) {
+  return (
+    <div className="pw-research-category" id={id} aria-labelledby={titleId}>
+      <div className="pw-research-category-header pw-reveal">
+        <h3 id={titleId}>{title}</h3>
+        <span className="pw-research-category-label">{countLabel}</span>
+      </div>
+      <div className="pw-articles-grid">
+        {articles.map((a) => (
+          <ArticleCard key={a.title} {...a} />
+        ))}
+      </div>
+    </div>
+  );
+}
+
 export function PublishedWorkPageContent() {
   const mainRef = useRef<HTMLElement>(null);
+  const [activeFilter, setActiveFilter] = useState<string>("all");
 
   useEffect(() => {
     const root = mainRef.current;
@@ -217,6 +283,74 @@ export function PublishedWorkPageContent() {
             Analysis carries the Institute&rsquo;s discoveries into the
             questions now facing civilization.
           </p>
+        </div>
+      </section>
+
+      <nav className="pw-filter" aria-label="Browse published work">
+        <div className="pw-filter-inner">
+          <span className="pw-filter-label">Browse by</span>
+          <div className="pw-filter-tags">
+            {FILTER_LINKS.map((item) => (
+              <a
+                key={item.id}
+                href={item.href}
+                className={`pw-filter-tag ${activeFilter === item.id ? "pw-active" : ""}`}
+                onClick={() => setActiveFilter(item.id)}
+              >
+                {item.label}
+              </a>
+            ))}
+          </div>
+        </div>
+      </nav>
+
+      <section className="pw-featured" aria-labelledby="pw-featured-heading">
+        <div className="pw-featured-inner pw-reveal">
+          <div className="pw-featured-text">
+            <span className="pw-featured-eyebrow">The Flagship</span>
+            <h2 id="pw-featured-heading">Unleashed</h2>
+            <span className="pw-featured-subtitle">The Promethean Promise</span>
+            <p>
+              Mark Hamilton&rsquo;s magnum opus. The complete delivery of the
+              Unified Field of Conscious Civilization. The full arc from the
+              bicameral collapse through the Prime Law to Neovia. The work
+              that changes how you see civilization, consciousness, and what
+              humanity is capable of when the cage finally comes off.
+            </p>
+            <span className="pw-featured-author">
+              by <span>Mark Hamilton</span> &middot; Foundational
+            </span>
+            <div className="pw-featured-actions">
+              <Link href={WP.unleashed} className="pw-btn-gold">
+                Read Unleashed
+              </Link>
+              <Link href={WP.unleashedDownload} className="pw-btn-light">
+                Download PDF
+              </Link>
+            </div>
+          </div>
+          <div className="pw-featured-visual">
+            <div className="pw-featured-visual-title">Unleashed</div>
+            <div className="pw-featured-visual-sub">The Promethean Promise</div>
+            <div className="pw-featured-visual-stats">
+              <div className="pw-fv-stat">
+                <strong>24</strong>
+                <span>Chapters</span>
+              </div>
+              <div className="pw-fv-stat">
+                <strong>2,400+</strong>
+                <span>Years Covered</span>
+              </div>
+              <div className="pw-fv-stat">
+                <strong>50</strong>
+                <span>Years of Research</span>
+              </div>
+              <div className="pw-fv-stat">
+                <strong>4</strong>
+                <span>Parts</span>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -315,6 +449,59 @@ export function PublishedWorkPageContent() {
               </article>
             ))}
           </div>
+
+          <div className="pw-research-featured pw-reveal">
+            <span className="pw-section-label">Featured Research</span>
+            <h3 className="pw-research-featured-title">
+              Available now from the Institute
+            </h3>
+            <p className="pw-research-featured-lede">
+              Articles drawing on the Unified Field, Neovia, Neothink, and the
+              questions now facing civilization. While the domain landing pages
+              above are being prepared, the following research is available
+              today.
+            </p>
+          </div>
+
+          <ResearchCategory
+            id="uf-articles"
+            titleId="pw-uf-articles-heading"
+            title="The Unified Field"
+            countLabel="Civilizational Theory & History"
+            articles={UNIFIED_FIELD_ARTICLES}
+          />
+
+          <ResearchCategory
+            id="neovia-articles"
+            titleId="pw-neovia-articles-heading"
+            title="Neovia"
+            countLabel="Civilizational Design & Vision"
+            articles={NEOVIA_ARTICLES}
+          />
+
+          <ResearchCategory
+            id="neothink-articles"
+            titleId="pw-neothink-articles-heading"
+            title="Neothink"
+            countLabel="Consciousness & Cognition"
+            articles={NEOTHINK_ARTICLES}
+          />
+
+          <ResearchCategory
+            id="ai-articles"
+            titleId="pw-ai-articles-heading"
+            title="AI & Existential Risk"
+            countLabel="Current Analysis"
+            articles={AI_ARTICLES}
+          />
+
+          <ResearchCategory
+            id="civ-articles"
+            titleId="pw-civ-articles-heading"
+            title="Civilization"
+            countLabel="Broad Analysis"
+            articles={CIVILIZATION_ARTICLES}
+          />
         </div>
       </section>
 
