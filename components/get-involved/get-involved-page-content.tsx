@@ -39,7 +39,7 @@ const PATHS = [
     title: "Walk the Path",
     body:
       "The Way is the personal path. The Neothink Society is the community. The Day of Enlightenment is the live experience. If you feel the calling, if something in this work speaks to what you have been searching for, this is your entry point.",
-    who: "For individuals ready to wake up, grow, and become part of something larger than themselves.",
+    who: "",
     cta: { href: WP.theWay, label: "Begin The Way", external: false },
   },
 ] as const;
@@ -100,14 +100,7 @@ export function GetInvolvedPageContent() {
               <span className="gi-path-num">{path.num}</span>
               <h3>{path.title}</h3>
               <p>{path.body}</p>
-              {path.id === "support" ? (
-                <p className="gi-path-note">
-                  Paid Society program areas are summarized on{" "}
-                  <Link href={WP.neothinkUniversity}>Neothink University</Link> (separate from the Institute’s free public
-                  pages).
-                </p>
-              ) : null}
-              <div className="gi-who">{path.who}</div>
+              {path.who ? <div className="gi-who">{path.who}</div> : null}
               {path.cta.external ? (
                 <a href={path.cta.href} className="gi-path-cta">
                   {path.cta.label}
