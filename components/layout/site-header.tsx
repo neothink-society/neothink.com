@@ -7,11 +7,12 @@ import { cn } from "@/lib/utils";
 import { WP } from "@/lib/wordpress-routes";
 
 const NAV_LINKS = [
+  { label: "About", href: WP.about },
+  { label: "Mark Hamilton", href: WP.markHamilton },
   { label: "Unified Field", href: WP.unifiedField },
   { label: "Neovia", href: WP.neovia },
-  { label: "The Way", href: WP.theWay },
   { label: "Neothink", href: WP.neothink },
-  { label: "Mark Hamilton", href: WP.markHamilton },
+  { label: "The Way", href: WP.theWay },
   { label: "Published Work", href: WP.publishedWork },
 ] as const;
 
