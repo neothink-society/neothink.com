@@ -107,7 +107,7 @@ export const NEOVIA_ARTICLES: PwArticle[] = [
     tag: "Strategic",
     title: "The Case for Neovia: Why the Anti-Extinction Architecture Must Be Built Now",
     description:
-      "As long as hierarchy legitimizes force and AI accelerates decisions, annihilation is certain. Neovia is the only structural exit.",
+      "As long as hierarchy legitimizes force and AI accelerates decisions, annihilation becomes structurally inevitable. Neovia is the exit.",
     footer: "Neothink Institute",
   },
   {

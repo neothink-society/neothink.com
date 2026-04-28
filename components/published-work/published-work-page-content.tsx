@@ -134,7 +134,7 @@ const DOMAINS: {
     slug: "productivity-and-the-integrated-life",
   },
   {
-    title: "Health, Aging and Disease",
+    title: "Health, Aging, and Disease",
     description:
       "Aging is not an inevitability. Chronic disease is not a permanent condition of civilized life.",
     slug: "health-aging-and-disease",
@@ -160,7 +160,7 @@ const DOMAINS: {
   {
     title: "Philosophy and Anthropology",
     description:
-      "The Western philosophical tradition contains a structural error that has persisted for twenty four centuries.",
+      "The Western philosophical tradition contains a structural error that has persisted for 2,400 years.",
     slug: "philosophy-and-anthropology",
   },
   {
