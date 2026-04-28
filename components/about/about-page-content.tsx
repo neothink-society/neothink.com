@@ -341,29 +341,7 @@ export function AboutPageContent() {
         </div>
       </section>
 
-      <section className="ab-section ab-section--stone" aria-labelledby="ab-society-heading">
-        <div className="ab-section-inner ab-section-inner--narrow">
-          <h2 id="ab-society-heading" className="ab-section-title ab-reveal">
-            The Institute and the Society
-          </h2>
-          <p className="ab-para ab-reveal">
-            The Neothink Institute and Neothink Society serve different
-            functions.
-          </p>
-          <p className="ab-para ab-reveal">
-            The Institute develops, advances, and publishes the body of work.
-            Neothink Society is the private implementation and community
-            layer where members apply selected Neothink principles in daily
-            life.
-          </p>
-          <p className="ab-para ab-reveal ab-para--emphasis">
-            The Institute publishes the breakthrough. The Society applies
-            selected principles in community.
-          </p>
-        </div>
-      </section>
-
-      <section className="ab-section ab-section--cream" aria-labelledby="ab-mark-heading">
+      <section className="ab-section ab-section--stone" aria-labelledby="ab-mark-heading">
         <div className="ab-section-inner ab-section-inner--narrow">
           <h2 id="ab-mark-heading" className="ab-section-title ab-reveal">
             Mark Hamilton
@@ -391,6 +369,29 @@ export function AboutPageContent() {
               Published Work
             </Link>
           </div>
+        </div>
+      </section>
+
+      <section className="ab-section ab-section--cream" aria-labelledby="ab-society-heading">
+        <div className="ab-section-inner ab-section-inner--narrow">
+          <h2 id="ab-society-heading" className="ab-section-title ab-reveal">
+            A Note on Neothink Society
+          </h2>
+          <p className="ab-para ab-reveal">
+            The Neothink Institute and Neothink Society are separate
+            organizations.
+          </p>
+          <p className="ab-para ab-reveal">
+            The Institute is an independent research institution. It advances
+            the Unified Field of Conscious Civilization, develops the Neothink
+            body of work, and publishes manuscripts, research, frameworks,
+            Unleashed, and Neovia.
+          </p>
+          <p className="ab-para ab-reveal">
+            Neothink Society is a separate private membership community where
+            members study and apply selected Neothink principles in daily
+            life.
+          </p>
         </div>
       </section>
 
