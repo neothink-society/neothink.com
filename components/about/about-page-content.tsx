@@ -181,7 +181,32 @@ export function AboutPageContent() {
         </div>
       </section>
 
-      <section className="ab-section ab-section--stone" aria-labelledby="ab-independent-heading">
+      <section className="ab-section ab-section--stone" aria-labelledby="ab-mission-heading">
+        <div className="ab-section-inner ab-section-inner--narrow">
+          <h2 id="ab-mission-heading" className="ab-section-title ab-reveal">
+            The Mission
+          </h2>
+          <p className="ab-para ab-reveal">
+            When a living being is separated from its nature, it suffers. When
+            it is in harmony, it thrives. 2,400 years ago, man was separated
+            from his nature.
+          </p>
+          <p className="ab-para ab-reveal">
+            Intermediaries placed themselves above man. Kings. Governments.
+            Religions. Institutions. They claimed authority, control, rule
+            that never belonged to them. The result has been recurring
+            collapse, human suffering, and the suppression of the
+            mind&rsquo;s natural power.
+          </p>
+          <p className="ab-para ab-reveal ab-para--emphasis">
+            The Neothink Institute exists to end that separation: to identify
+            the structural error, publish the correction, and build the
+            civilization that comes after.
+          </p>
+        </div>
+      </section>
+
+      <section className="ab-section ab-section--cream" aria-labelledby="ab-independent-heading">
         <div className="ab-section-inner ab-section-inner--narrow">
           <h2 id="ab-independent-heading" className="ab-section-title ab-reveal">
             Independent by Design
@@ -206,7 +231,7 @@ export function AboutPageContent() {
         </div>
       </section>
 
-      <section className="ab-section ab-section--cream" aria-labelledby="ab-principles-heading">
+      <section className="ab-section ab-section--stone" aria-labelledby="ab-principles-heading">
         <div className="ab-section-inner ab-section-inner--narrow">
           <h2 id="ab-principles-heading" className="ab-section-title ab-reveal">
             Principles, Not Beliefs
@@ -235,7 +260,61 @@ export function AboutPageContent() {
         </div>
       </section>
 
-      <section className="ab-section ab-section--stone" aria-labelledby="ab-fifty-heading">
+      <section className="ab-section ab-section--cream" aria-labelledby="ab-individual-heading">
+        <div className="ab-section-inner ab-section-inner--narrow">
+          <h2 id="ab-individual-heading" className="ab-section-title ab-reveal">
+            The Individual Above All Institutions
+          </h2>
+          <p className="ab-para ab-reveal">
+            The central moral fact of the Institute&rsquo;s work is the
+            individual.
+          </p>
+          <p className="ab-para ab-reveal">
+            Every hierarchy that places itself above the individual separates
+            man from his nature. Every system that demands surrender of
+            judgment weakens the mind it claims to guide. Every institution
+            that makes man dependent on authority stands against the
+            structure of life itself.
+          </p>
+          <p className="ab-para ab-reveal">
+            Neothink moves in the opposite direction. It restores the
+            individual to direct sight, self-leadership, value creation, and
+            independent judgment.
+          </p>
+          <p className="ab-para ab-reveal ab-para--emphasis">
+            The goal is not followers. The goal is men and women who need no
+            intermediary between themselves and reality.
+          </p>
+        </div>
+      </section>
+
+      <section className="ab-section ab-section--stone" aria-labelledby="ab-detour-heading">
+        <div className="ab-section-inner ab-section-inner--narrow">
+          <h2 id="ab-detour-heading" className="ab-section-title ab-reveal">
+            The 2,400-Year Detour
+          </h2>
+          <p className="ab-para ab-reveal">
+            The Institute traces the present condition of civilization to a
+            wrong turn in ancient Greece.
+          </p>
+          <p className="ab-para ab-reveal">
+            Socrates began the turn inward. Plato preserved civilization
+            through hierarchy. Aristotle completed the breakthrough into
+            integrated consciousness. Then Aristotle&rsquo;s works were lost,
+            and the path closed.
+          </p>
+          <p className="ab-para ab-reveal">
+            What followed was the 2,400-year detour: civilization organized
+            around external authority rather than the fully integrated
+            individual mind.
+          </p>
+          <p className="ab-para ab-reveal ab-para--emphasis">
+            The Neothink Institute exists to end that detour.
+          </p>
+        </div>
+      </section>
+
+      <section className="ab-section ab-section--cream" aria-labelledby="ab-fifty-heading">
         <div className="ab-section-inner ab-section-inner--narrow">
           <h2 id="ab-fifty-heading" className="ab-section-title ab-reveal">
             The Fifty-Year Body of Work
@@ -262,7 +341,7 @@ export function AboutPageContent() {
         </div>
       </section>
 
-      <section className="ab-section ab-section--cream" aria-labelledby="ab-body-heading">
+      <section className="ab-section ab-section--stone" aria-labelledby="ab-body-heading">
         <div className="ab-section-inner">
           <h2 id="ab-body-heading" className="ab-section-title ab-reveal">
             The Body of Work
@@ -286,7 +365,7 @@ export function AboutPageContent() {
         </div>
       </section>
 
-      <section className="ab-section ab-section--stone" aria-labelledby="ab-archive-heading">
+      <section className="ab-section ab-section--cream" aria-labelledby="ab-archive-heading">
         <div className="ab-section-inner ab-section-inner--narrow">
           <h2 id="ab-archive-heading" className="ab-section-title ab-reveal">
             The Public Archive Initiative
@@ -313,7 +392,7 @@ export function AboutPageContent() {
         </div>
       </section>
 
-      <section className="ab-section ab-section--cream" aria-labelledby="ab-why-heading">
+      <section className="ab-section ab-section--stone" aria-labelledby="ab-why-heading">
         <div className="ab-section-inner ab-section-inner--narrow">
           <h2 id="ab-why-heading" className="ab-section-title ab-reveal">
             Why an Institute
@@ -338,6 +417,29 @@ export function AboutPageContent() {
             The Institute exists to develop, organize, and publish the
             frameworks that restore man to his nature and build the
             civilization that comes after.
+          </p>
+        </div>
+      </section>
+
+      <section className="ab-section ab-section--cream" aria-labelledby="ab-society-heading">
+        <div className="ab-section-inner ab-section-inner--narrow">
+          <h2 id="ab-society-heading" className="ab-section-title ab-reveal">
+            A Note on Neothink Society
+          </h2>
+          <p className="ab-para ab-reveal">
+            The Neothink Institute and Neothink Society are separate
+            organizations.
+          </p>
+          <p className="ab-para ab-reveal">
+            The Institute is an independent research institution. It advances
+            the Unified Field of Conscious Civilization, develops the Neothink
+            body of work, and publishes manuscripts, research, frameworks,
+            Unleashed, and Neovia.
+          </p>
+          <p className="ab-para ab-reveal">
+            Neothink Society is a separate private membership community where
+            members study and apply selected Neothink principles in daily
+            life.
           </p>
         </div>
       </section>
@@ -370,29 +472,6 @@ export function AboutPageContent() {
               Published Work
             </Link>
           </div>
-        </div>
-      </section>
-
-      <section className="ab-section ab-section--cream" aria-labelledby="ab-society-heading">
-        <div className="ab-section-inner ab-section-inner--narrow">
-          <h2 id="ab-society-heading" className="ab-section-title ab-reveal">
-            A Note on Neothink Society
-          </h2>
-          <p className="ab-para ab-reveal">
-            The Neothink Institute and Neothink Society are separate
-            organizations.
-          </p>
-          <p className="ab-para ab-reveal">
-            The Institute is an independent research institution. It advances
-            the Unified Field of Conscious Civilization, develops the Neothink
-            body of work, and publishes manuscripts, research, frameworks,
-            Unleashed, and Neovia.
-          </p>
-          <p className="ab-para ab-reveal">
-            Neothink Society is a separate private membership community where
-            members study and apply selected Neothink principles in daily
-            life.
-          </p>
         </div>
       </section>
 
