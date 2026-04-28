@@ -53,8 +53,9 @@ const FRAMEWORKS: { title: string; body: React.ReactNode }[] = [
     body: (
       <>
         <p className="ab-para">
-          <em>Unleashed</em> is the flagship synthesis of the
-          Institute&rsquo;s work.
+          <em>Unleashed</em>
+          {" "}
+          is the flagship synthesis of the Institute&rsquo;s work.
         </p>
         <p className="ab-para">
           Through the book and podcast, Mark Hamilton and Wallace Hamilton
