@@ -6,9 +6,9 @@ import { schemaIds } from "@/lib/schema-ids";
 import "./published-work-page.css";
 
 export const metadata = pageMetadata({
-  title: "Published Work | Neothink Institute Research Library",
+  title: "Published Work | Neothink Institute",
   description:
-    "Research, analysis, and original scholarship from the Neothink Institute. The intellectual foundation behind the Unified Field, Neovia, The Way, and Neothink.",
+    "The Neothink Institute publishes its body of work online for free public access: major works, the Neothink Corpus, and current research by domain.",
   pathname: "/published-work",
   ogType: "website",
 });
@@ -20,9 +20,10 @@ const breadcrumbs = breadcrumbListJsonLd([
 
 const pageLd = webPageJsonLd({
   pathname: "/published-work",
-  name: "Published Work | Neothink Institute Research Library",
+  name: "Published Work | Neothink Institute",
   description:
-    "Research, analysis, and original scholarship from the Neothink Institute. The intellectual foundation behind the Unified Field, Neovia, The Way, and Neothink.",
+    "The Neothink Institute publishes its body of work online for free public access: major works, the Neothink Corpus, and current research by domain.",
+  pageType: "CollectionPage",
   aboutId: schemaIds.organization,
   authorId: schemaIds.founder,
   speakableSelectors: SPEAKABLE_MAIN_H1,
