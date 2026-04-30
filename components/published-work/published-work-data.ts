@@ -6,9 +6,19 @@ export type PwArticle = {
   description: string;
   /** Attribution line (e.g. author or institute) */
   footer: string;
+  /** Live article URL. Present means card is clickable. */
+  href?: string;
 };
 
 export const UNIFIED_FIELD_ARTICLES: PwArticle[] = [
+  {
+    tag: "Foundational",
+    title: "The Unified Field of Conscious Civilization: A Complete Introduction",
+    description:
+      "The synthesis identifying the single structural variable that determines whether civilizations rise, stagnate, or collapse. The framework traces the variable across recorded history and names the architectural correction that ends the 2,400-year detour.",
+    footer: "Mark Hamilton",
+    href: "/published-work/civilization-and-history/the-unified-field-of-conscious-civilization",
+  },
   {
     tag: "Origins",
     title: "When the Gods Fell Silent: The Bicameral Mind and Its Collapse",
@@ -97,18 +107,20 @@ export const UNIFIED_FIELD_ARTICLES: PwArticle[] = [
 
 export const NEOVIA_ARTICLES: PwArticle[] = [
   {
-    tag: "Constitutional",
-    title: "The Prime Law: A Natural Law, Not an Ideology",
-    description:
-      "Every civilization that violated the Law of Humanity paid the same price. The Prime Law codifies what history has already proven.",
-    footer: "Mark Hamilton",
-  },
-  {
     tag: "Strategic",
     title: "The Case for Neovia: Why the Anti-Extinction Architecture Must Be Built Now",
     description:
-      "As long as hierarchy legitimizes force and AI accelerates decisions, annihilation becomes structurally inevitable. Neovia is the exit.",
-    footer: "Neothink Institute",
+      "As long as hierarchy legitimizes force and AI accelerates decisions, catastrophic failure is not a risk. It is a statistical certainty. Neovia is the structural exit. The first jurisdiction designed from the ground up on the Prime Law as constitutional foundation.",
+    footer: "Mark Hamilton",
+    href: "/published-work/governance-and-political-theory/the-case-for-neovia",
+  },
+  {
+    tag: "Constitutional",
+    title: "The Prime Law: The Missing Cosmological Constant of Civilization",
+    description:
+      "The constitutional prohibition of initiated force. Codified as civilizational architecture, not as moral aspiration. Three articles, no exceptions. The architectural correction that ends the 2,400-year detour and the foundation Neovia is built on.",
+    footer: "Mark Hamilton",
+    href: "/published-work/governance-and-political-theory/prime-law",
   },
   {
     tag: "Vision",
@@ -141,6 +153,22 @@ export const NEOVIA_ARTICLES: PwArticle[] = [
 ];
 
 export const NEOTHINK_ARTICLES: PwArticle[] = [
+  {
+    tag: "Foundational",
+    title: "The Neothink Mind: The Final Form of Consciousness",
+    description:
+      "The cognitive form that integrates rather than fragments. The third stage of consciousness beyond the bicameral mind and the rational mind, identified and named by Mark Hamilton across fifty years of integrated research. The integrating mind plus AI compresses centuries of synthesis into human-scale time.",
+    footer: "Mark Hamilton",
+    href: "/published-work/consciousness-and-the-mind/the-neothink-mind",
+  },
+  {
+    tag: "Mechanism",
+    title: "Integrated Thinking: The Cognitive Mechanism of Value Creation",
+    description:
+      "The cognitive operation underlying every act of value creation in human history. The mode that generates frames rather than working inside them. With Walter Chrysler as the foundational case study, this article traces how integration produces wealth, mastery, and self-leadership.",
+    footer: "Mark Hamilton",
+    href: "/published-work/psychology-and-self-leadership/integrated-thinking",
+  },
   {
     tag: "Vision",
     title: "The New Human: What Consciousness Becomes When the Cage Opens",
