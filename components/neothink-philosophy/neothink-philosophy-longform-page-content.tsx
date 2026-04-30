@@ -189,7 +189,7 @@ export function NeothinkPhilosophyLongformPageContent({
           </section>
         ) : null}
 
-        <div className="nu-awakening-html nu-reveal" dangerouslySetInnerHTML={{ __html: bodyHtml }} />
+        <div className="nu-awakening-html" dangerouslySetInnerHTML={{ __html: bodyHtml }} />
 
         <section className="nu-faq nu-reveal" aria-labelledby={faqHeadingId}>
           <div className="nu-faq-inner">

@@ -61,9 +61,9 @@ const CORPUS: {
     href: WP.manuscripts,
   },
   {
-    title: "Unleashed (Book)",
+    title: "Unleashed",
     description: "The flagship synthesis as a book-length work.",
-    href: `${WP.unleashed}/the-book`,
+    href: WP.unleashed,
   },
   {
     title: "The Prime Law Papers",
@@ -81,6 +81,20 @@ const DOMAINS: {
   /** Number of live articles in this domain. Present means the domain landing is live and clickable. */
   liveArticleCount?: number;
 }[] = [
+  {
+    title: "Governance and Political Theory",
+    description:
+      "Political history is a record of the same structural error committed across every epoch.",
+    slug: "governance-and-political-theory",
+    liveArticleCount: 2,
+  },
+  {
+    title: "Psychology and Self-Leadership",
+    description:
+      "The structural conditions that determine whether an individual operates as the cause of his own life or as a passive respondent.",
+    slug: "psychology-and-self-leadership",
+    liveArticleCount: 1,
+  },
   {
     title: "Civilization and History",
     description:
@@ -114,24 +128,10 @@ const DOMAINS: {
     slug: "economics",
   },
   {
-    title: "Governance and Political Theory",
-    description:
-      "Political history is a record of the same structural error committed across every epoch.",
-    slug: "governance-and-political-theory",
-    liveArticleCount: 2,
-  },
-  {
     title: "Love and Relationships",
     description:
       "Romantic love is among the most discussed and least understood phenomena in human experience.",
     slug: "love-and-relationships",
-  },
-  {
-    title: "Psychology and Self-Leadership",
-    description:
-      "The structural conditions that determine whether an individual operates as the cause of his own life or as a passive respondent.",
-    slug: "psychology-and-self-leadership",
-    liveArticleCount: 1,
   },
   {
     title: "Productivity and the Integrated Life",
@@ -197,6 +197,7 @@ const FILTER_LINKS = [
 function ArticleCard({ tag, title, description, footer, href }: PwArticle) {
   const inner = (
     <>
+      {!href ? <span className="pw-article-status">Coming Soon</span> : null}
       <span className="pw-article-tag">{tag}</span>
       <h4>{title}</h4>
       <p>{description}</p>

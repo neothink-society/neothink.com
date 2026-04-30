@@ -21,19 +21,22 @@ const CTA_HREF = WP.unleashed;
 export function SiteHeader() {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(() =>
-    typeof window !== "undefined" ? window.scrollY > 40 : false
-  );
+  const [scrolled, setScrolled] = useState(false);
   const menuButtonRef = useRef<HTMLButtonElement>(null);
   const drawerRef = useRef<HTMLDivElement>(null);
+  const hasMountedRef = useRef(false);
 
   const handleScroll = useCallback(() => {
     setScrolled(window.scrollY > 40);
   }, []);
 
   useEffect(() => {
+    const frame = window.requestAnimationFrame(handleScroll);
     window.addEventListener("scroll", handleScroll, { passive: true });
-    return () => window.removeEventListener("scroll", handleScroll);
+    return () => {
+      window.cancelAnimationFrame(frame);
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, [handleScroll]);
 
   const isActive = (href: string) => pathname === href;
@@ -85,7 +88,10 @@ export function SiteHeader() {
     }
 
     document.body.style.overflow = "";
-    menuButtonRef.current?.focus();
+    if (hasMountedRef.current) {
+      menuButtonRef.current?.focus();
+    }
+    hasMountedRef.current = true;
   }, [menuOpen]);
 
   return (
