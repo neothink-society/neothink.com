@@ -12,7 +12,7 @@ const ARTICLES: {
   footer: string;
 }[] = [
   {
-    href: WP.unifiedField,
+    href: "/published-work/civilization-and-history/the-unified-field-of-conscious-civilization",
     tag: "Civilizational Theory",
     title: "The Unified Field of Conscious Civilization: A Complete Introduction",
     description:
@@ -45,7 +45,7 @@ const ARTICLES: {
     footer: "Wallace Hamilton · Current",
   },
   {
-    href: WP.neovia,
+    href: "/published-work/governance-and-political-theory/the-case-for-neovia",
     tag: "Neovia",
     title: "The Case for Neovia: Why the Anti-Extinction Architecture Must Be Built Now",
     description:
