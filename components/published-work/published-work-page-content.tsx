@@ -78,18 +78,22 @@ const DOMAINS: {
   description: string;
   /** Routed at /published-work/{slug}/ once domain landing pages are ported. */
   slug: string;
+  /** Number of live articles in this domain. Present means the domain landing is live and clickable. */
+  liveArticleCount?: number;
 }[] = [
   {
     title: "Civilization and History",
     description:
       "Every empire that has risen and collapsed did so according to a single structural variable.",
     slug: "civilization-and-history",
+    liveArticleCount: 1,
   },
   {
     title: "Consciousness and the Mind",
     description:
       "The structure of individual consciousness determines the structure of civilization.",
     slug: "consciousness-and-the-mind",
+    liveArticleCount: 1,
   },
   {
     title: "Human Nature",
@@ -114,6 +118,7 @@ const DOMAINS: {
     description:
       "Political history is a record of the same structural error committed across every epoch.",
     slug: "governance-and-political-theory",
+    liveArticleCount: 2,
   },
   {
     title: "Love and Relationships",
@@ -126,6 +131,7 @@ const DOMAINS: {
     description:
       "The structural conditions that determine whether an individual operates as the cause of his own life or as a passive respondent.",
     slug: "psychology-and-self-leadership",
+    liveArticleCount: 1,
   },
   {
     title: "Productivity and the Integrated Life",
@@ -188,15 +194,25 @@ const FILTER_LINKS = [
   { id: "civ-articles", label: "Civilization", href: "#civ-articles" },
 ] as const;
 
-function ArticleCard({ tag, title, description, footer }: PwArticle) {
-  return (
-    <article className="pw-article">
+function ArticleCard({ tag, title, description, footer, href }: PwArticle) {
+  const inner = (
+    <>
       <span className="pw-article-tag">{tag}</span>
       <h4>{title}</h4>
       <p>{description}</p>
       <div className="pw-article-footer">{footer}</div>
-    </article>
+    </>
   );
+
+  if (href) {
+    return (
+      <Link href={href} className="pw-article pw-article-live">
+        {inner}
+      </Link>
+    );
+  }
+
+  return <article className="pw-article">{inner}</article>;
 }
 
 function ResearchCategory({
@@ -441,13 +457,41 @@ export function PublishedWorkPageContent() {
             by domain across the breadth of the body of work.
           </p>
           <div className="pw-domains-grid pw-reveal">
-            {DOMAINS.map((domain) => (
-              <article key={domain.slug} className="pw-domain-card">
-                <span className="pw-domain-status">Coming Soon</span>
-                <h3 className="pw-domain-title">{domain.title}</h3>
-                <p className="pw-domain-description">{domain.description}</p>
-              </article>
-            ))}
+            {DOMAINS.map((domain) => {
+              const isLive =
+                domain.liveArticleCount !== undefined && domain.liveArticleCount > 0;
+              const statusLabel = isLive
+                ? `${domain.liveArticleCount} ${domain.liveArticleCount === 1 ? "article" : "articles"}`
+                : "Coming Soon";
+
+              const cardInner = (
+                <>
+                  <span className={`pw-domain-status${isLive ? " pw-domain-status-live" : ""}`}>
+                    {statusLabel}
+                  </span>
+                  <h3 className="pw-domain-title">{domain.title}</h3>
+                  <p className="pw-domain-description">{domain.description}</p>
+                </>
+              );
+
+              if (isLive) {
+                return (
+                  <Link
+                    key={domain.slug}
+                    href={`/published-work/${domain.slug}`}
+                    className="pw-domain-card pw-domain-card-live"
+                  >
+                    {cardInner}
+                  </Link>
+                );
+              }
+
+              return (
+                <article key={domain.slug} className="pw-domain-card">
+                  {cardInner}
+                </article>
+              );
+            })}
           </div>
 
           <div className="pw-research-featured pw-reveal">
